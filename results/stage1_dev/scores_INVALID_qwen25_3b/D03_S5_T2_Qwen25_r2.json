@@ -1,0 +1,62 @@
+{
+  "translation_id": "D03_S5_T2_Qwen25_r2",
+  "anon_code": "T_0bb299b1",
+  "poem_id": "D03",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "One final glass, to bid you well",
+        "evidence_found": true,
+        "reasoning": "The phrase '我劝你再干一杯酒' (Advise you to drink one more cup of wine) is not directly translated as 'One final glass, to bid you well' which preserves the core meaning, key imagery, and emotional tone of the original phrase '劝君更尽一杯酒' (Advise you to drink one more cup of wine).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "By the setting sun, we part, Beyond the western pass, no old friend waits.",
+        "evidence_found": true,
+        "reasoning": "The phrase '西出阳关' is not preserved in the translation. The translation mentions 'By the setting sun' which is a poetic adaptation but does not directly translate '西出阳关'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "As twilight calls, the road grows cold and deep.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no old friend waits' is not preserved in the translation, and the translation expands the meaning to include 'no one at all' in the phrase 'As twilight calls, the road grows cold and deep.'",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "One final glass, to bid you well",
+        "evidence_found": true,
+        "reasoning": "The original phrase '劝酒与无故人' does not directly translate to 'One final glass, to bid you well' in a way that preserves the exact sentiment and structure of the original. The translation focuses on the farewell aspect but does not explicitly mention the '无故人' (old friend) part, which is a key element of the original phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  }
+}

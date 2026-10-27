@@ -1,0 +1,67 @@
+{
+  "translation_id": "M14_S5_T2_Qwen25_r3",
+  "anon_code": "T_27e2a399",
+  "poem_id": "M14",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "But wish that the flying general of Longcheng would be there, the northern barbarian horses would not dare to cross Yinshan.",
+        "evidence_found": false,
+        "reasoning": "The phrase 'But wish that the flying general of Longcheng would be there' uses a conditional structure with 'wish that' to express the assumption that the general's presence would lead to the desired outcome, fulfilling the requirement for a conditional clause and assumed tone.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Rumans Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen R: 1",
+        "evidence_found": false,
+        "reasoning": "The phrase 'Rumans Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen Rumen' appears to be a placeholder or error in the translation, but the intended meaning of the line '阴山胡马不敢越' translates to 'the Hu horses dare not cross Yinshan', which expresses the meaning of 'not allowing/preventing' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "But wish that the dragon city's general would be present",
+        "evidence_found": false,
+        "reasoning": "The phrase 'But wish that the dragon city's general would be present' expresses the conditional result logic where the presence of the general (condition) leads to the result that the northern nomadic horses would not dare to cross the Yin Mountains.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "but wish that the Dragon City flying general would be here",
+        "evidence_found": false,
+        "reasoning": "The phrase 'Dragon City flying general' refers to a historical figure known for military prowess in the border regions, and the translation explicitly mentions 'flying general' which conveys the image of a formidable border commander.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

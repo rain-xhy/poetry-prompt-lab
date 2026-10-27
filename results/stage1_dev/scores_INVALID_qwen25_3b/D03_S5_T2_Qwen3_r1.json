@@ -1,0 +1,62 @@
+{
+  "translation_id": "D03_S5_T2_Qwen3_r1",
+  "anon_code": "T_79acbb5a",
+  "poem_id": "D03",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The Wind Knocks for Me",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '劝君更尽一杯酒' and does not express the idea of '再干一杯酒'",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The translation does not contain 'west' or 'westward' to preserve the '西' direction.",
+        "evidence_found": false,
+        "reasoning": "The translation does not mention 'west' or 'westward'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A plea in silence, deep and true.",
+        "evidence_found": true,
+        "reasoning": "The phrase '没有老朋友' is not preserved in the translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A plea in silence, deep and true.",
+        "evidence_found": true,
+        "reasoning": "The rest of the translation does not directly convey the meaning of 'because this time I am leaving without old friends, so I urge you to drink another cup'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 3,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.0,
+    "valid": true
+  }
+}

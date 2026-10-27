@@ -1,0 +1,67 @@
+{
+  "translation_id": "M14_S0_Qwen25_r2",
+  "anon_code": "T_590669ee",
+  "poem_id": "M14",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If only the Dragon City's valiant general were here",
+        "evidence_found": true,
+        "reasoning": "The phrase 'If only... were here' forms a conditional assumption that matches the required '只要...在' structure, expressing a hypothetical situation where the general's presence would prevent the barbarian horse from crossing the mountains.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "He would not allow the barbarian horse to cross the Yan Mountains",
+        "evidence_found": true,
+        "reasoning": "The phrase 'would not allow' directly translates to '不让' (prevent/not allow) and 'the barbarian horse to cross' corresponds to '越过' (cross over), fulfilling the requirement of a negative verb phrase indicating active prevention.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If only the Dragon City's valiant general were here, He would not allow the barbarian horse to cross the Yan Mountains.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the conditional clause 'If only...' followed by the result 'He would not allow...', maintaining the condition-result logic as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If only the Dragon City's valiant general were here",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Dragon City's valiant general' directly translates to the historical reference '边关名将（历史典故）' with the required image of a formidable border commander.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

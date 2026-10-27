@@ -1,0 +1,62 @@
+{
+  "translation_id": "D03_S5_T2_Qwen3_r2",
+  "anon_code": "T_69b954a1",
+  "poem_id": "D03",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The Wind Knocks for Me",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the phrase '我劝你再干一杯酒' (The phrase 'The Wind Knocks for Me' does not preserve the original phrase '我劝你再干一杯酒').",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The translation does not contain '西' (west) direction.",
+        "evidence_found": false,
+        "reasoning": "The translation does not include the word '西' (west), which is required to satisfy the condition of preserving the '西出阳关' phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "no friend remains, no heart to hold.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no friend remains, no heart to hold' expands the meaning to 'no one at all', which does not preserve the original '没有老朋友' (no old friends/acquaintances).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A farewell drink, a silent farewell.",
+        "evidence_found": true,
+        "reasoning": "The translation does not directly state '劝酒与无故人' (advise drinking to a friendless person) as a direct continuation of the original phrase '劝酒' (advise drinking). Instead, it focuses on the absence of friends and the wind as a companion, which is a different interpretation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 4.2,
+    "valid": true
+  }
+}

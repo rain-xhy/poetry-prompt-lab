@@ -1,0 +1,67 @@
+{
+  "translation_id": "M17_S2_T1_Qwen25_r2",
+  "anon_code": "T_352af51c",
+  "poem_id": "M17",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This emotion could indeed become a memory",
+        "evidence_found": true,
+        "reasoning": "The phrase 'could indeed become a memory' uses 'could' to express possibility for the future and 'become a memory' directly translates the concept of 'become a memory' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Yet at the time it was already a state of mind",
+        "evidence_found": true,
+        "reasoning": "The phrase 'at the time it was already' directly expresses the past tense and the completed state of being 'a state of mind', fulfilling both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This emotion could indeed become a memory, / Yet at the time it was already a state of mind.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly refers to 'this emotion' which directly corresponds to 'this feeling' in the original phrase, and the context indicates a temporal and emotional complexity that aligns with the required meaning of 'this feeling's reference.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Now in the past, then in the future, / And now in the past again.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts past and future time frames with the phrase 'now in the past' and 'then in the future', showing the complex temporal interplay required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 1.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

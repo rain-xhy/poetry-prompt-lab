@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S5_T1_Qwen3_r3",
+  "anon_code": "T_b960fcac",
+  "poem_id": "M07",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "the noble houses of Wang and X:ie",
+        "evidence_found": false,
+        "reasoning": "The translation specifies 'Wang and Xie' as noble families, directly referencing the specific dynastic families without generic terms.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Once, the noble houses of Wang and X: the noble houses of Wang and Xie watched the swallows fly, Now they dwell in the homes of commoners.",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly contrasts 'once' (past) with 'now' (present) to show time contrast, and 'noble houses' (high status) with 'commoners' (low status) to show social contrast.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Once, the noble houses of Wang and X: the noble houses of Wang and Xie watched the swallows fly",
+        "evidence_found": false,
+        "reasoning": "The phrase 'swallows' directly corresponds to '燕子' as the witness, and the context shows the change in ownership over time, preserving the imagery without implying the same swallow lived for centuries.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Jinghu Bridge is bordered by wild grass and flowers, Its western mouth is lined with a golden sunset.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'wild grass and flowers' but the original phrase specifies '野草花' (wild grass flowers) without 'flowers', and 'golden sunset' does not convey the desolation of '夕阳斜' (setting sun).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

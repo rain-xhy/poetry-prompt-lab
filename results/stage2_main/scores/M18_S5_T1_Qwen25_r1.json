@@ -1,0 +1,67 @@
+{
+  "translation_id": "M18_S5_T1_Qwen25_r1",
+  "anon_code": "T_2ca69e22",
+  "poem_id": "M18",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "With no hope to hold back the falling flowers",
+        "evidence_found": true,
+        "reasoning": "The phrase 'With no hope' does not express 'helpless' as required; it implies a lack of hope rather than a state of helplessness.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Like old acquaintances, the swallows return.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Like old acquaintances, the swallows return' directly expresses '似曾相识燕归来' meaning the swallows returning as familiar entities, fulfilling both conditions of '似曾相识' (seem familiar) and '燕子归来的动作' (swallows returning).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Flowers depart, swallows come back",
+        "evidence_found": true,
+        "reasoning": "The phrase directly contrasts the departure of flowers (花去) with the return of swallows (燕来), fulfilling the requirement of showing opposite directions of movement and time passage.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Flowers depart, swallows come back, A感慨 (caugh-soo-gwai) of the passing of time and changes in things.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly mentions 'passing of time and changes in things' which directly addresses both time流逝 and物是人非.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 2.65,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

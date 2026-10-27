@@ -1,0 +1,67 @@
+{
+  "translation_id": "M09_S0_Qwen25_r3",
+  "anon_code": "T_48206abc",
+  "poem_id": "M09",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When the moon sets and the乌鸦 (night birds) begin to啼 (call),霜 (frost) fills the night sky. I see the江枫 (riverside maples) and渔火 (fishermen's lamps) flickering as I struggle with my愁 (sorrowful) sleep.",
+        "evidence_found": true,
+        "reasoning": "The translation preserves three distinct意象: moon setting, night birds calling, and frost filling the sky, without establishing causal relationships between them.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I see the江枫 (riverside maples) and渔火 (fishermen's lamps) flickering as I struggle with my愁 (sorrowful) sleep.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'struggle with my sorrowful sleep' does not convey 'facing sorrow while sleeping' as required; it implies active resistance to sleep rather than the state of sleeping amidst sorrow.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "riverside maples and fishermen's lamps",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly mentions 'riverside map and fishermen's lamps' which directly corresponds to the required two意象: 江边枫树 and 渔火.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "When the moon sets and the night birds begin to call, frost fills the night sky. I see the riverside maples and fishermen's lamps flickering as I struggle with my sorrowful sleep.",
+        "evidence_found": false,
+        "reasoning": "The translation conveys a sense of solitude and coldness through imagery of night birds, frost, and flickering lights, indicating a melancholic mood without any joyful elements.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

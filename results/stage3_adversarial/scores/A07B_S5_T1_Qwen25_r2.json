@@ -1,0 +1,58 @@
+{
+  "translation_id": "A07B_S5_T1_Qwen25_r2",
+  "anon_code": "T_356c5ea4",
+  "poem_id": "A07B",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Beware not to slip into the river's depths.",
+        "evidence_found": true,
+        "reasoning": "The translation does not address the negation or the concept of 'correct negation' as required by the original phrase's meaning, which focuses on whether the ambiguous version can infer the correct negation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Beware not to slip into the river's depths.",
+        "evidence_found": true,
+        "reasoning": "The translation directly addresses the prohibition against slipping into the river's depths, preserving the clear negation and the river's metaphorical role as a protective force.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Beware not to slip into the river's depths.",
+        "evidence_found": true,
+        "reasoning": "The English translation directly conveys the warning against a dangerous action (slipping into deep water) while maintaining the metaphorical safety of the river, aligning with the requirement that both versions mean the same.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

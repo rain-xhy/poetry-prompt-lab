@@ -1,0 +1,67 @@
+{
+  "translation_id": "M14_S0_Qwen3_r2",
+  "anon_code": "T_525ae9df",
+  "poem_id": "M14",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If the general of the Dragon City had been alive, he would never allow the nomads to cross the Yin Mountains.",
+        "evidence_found": true,
+        "reasoning": "The translation uses the conditional structure 'If... had been alive, he would never allow...' which matches the required condition assumption and conditional mood.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "he would never allow the nomads to cross the Yin Mountains",
+        "evidence_found": true,
+        "reasoning": "The phrase 'never allow the nomads to cross' directly translates the '不让...越过' meaning with a negative verb 'never' and active prevention of crossing.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If the general of the Dragon City had been alive, he would never allow the nomads to cross the Yin Mountains.",
+        "evidence_found": true,
+        "reasoning": "The translation uses a conditional clause 'If... had been alive' followed by a result clause 'he would never allow...', clearly preserving the condition-result logic required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If the general of the Dragon City had been alive, he would never allow the nomads to cross the Yin Mountains.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'general of the Dragon City' directly references the historical figure and the border region, conveying a formidable military leader who would prevent nomadic incursions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 4,
+    "valid": true
+  }
+}

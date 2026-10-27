@@ -1,0 +1,19 @@
+{
+  "id": "M11_S4_T1_Qwen3_r1",
+  "poem_id": "M11",
+  "trap_type": "否定逻辑",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nCommon Pitfalls to Avoid:\n\n1. Negation Reversal\n   - Don't translate implicit negation as affirmation\n   - \"莫待花谢始惜春\" means \"don't wait until flowers fall to cherish spring\", not \"wait until flowers fall\"\n2. Personification Loss\n   - Keep personification of objects\n   - \"山欲留客\" = \"the hills wish to keep the guest\", not just \"I stayed by the hills\"\n3. Emotional Paradox Flattening\n   - Don't flatten emotional paradoxes into simple statements; preserve the tension\n   - \"情愈深时语愈淡\" has escalating tension between feeling and words\n4. Adding Information\n   - Don't add characters, events, or relationships not in the original\n   - \"风为我叩门\" = the wind knocks for me, not \"wind brings a visitor\"\n5. Who Does What to Whom\n   - Check action subjects and objects carefully\n   - \"邻舟问客何处去\" = the neighbor asks where the traveler goes (not the reverse)\n6. Temporal Relations\n   - Distinguish past, present, future, and hypothetical\n   - \"待明年花开时\" = when blossoms bloom next year (future), not past\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n床前明月光，疑是地上霜。\n举头望明月，低头思故乡。",
+  "prompt_sha256": "b0d14d16b2470181702a409fa64684f49aeece0802df80eec9d5d6f2f612cf25",
+  "translation": "Before I translate, let me clarify the poem:\n\nThis is a classical Chinese poem by **李白 (Li Bai)**, commonly known as **\"Moonlit Night\"** or **\"The Bright Moon\"**. It is a famous verse from the **\"Full Moon\" (望月)** section of his **\"Li Bai's Poetry\"**.\n\nThe poem is:\n\n**床前明月光，疑是地上霜。**  \n**举头望明月，低头思故乡。**\n\n---\n\n**Translation (Academic Style):**\n\nBefore the moonlight reaches my bed, it appears as frost upon the ground.  \nWhen I raise my head, the bright moon shines above; but when I lower my head, I think of my dear fatherland.\n\n---\n\n**Note:**  \n[The moon is both a symbol of beauty and a source of longing, reflecting the poet's emotional tension between joy and sorrow.]\n\n---\n\n**Alternative Translation (for clarity and flow):**\n\nThe moonlight on my bed is bright, seeming like frost upon the earth.  \nWhen I look up, the moon is shining brightly; but when I look down, I think of my homeland.\n\n---\n\n**Final Output (2-4 lines):**\n\nThe moonlight on my bed is bright, seeming like frost upon the ground.  \nWhen I raise my head, the bright moon shines above; but when I lower my head, I think of my dear fatherland.",
+  "metadata": {
+    "input_tokens": 497,
+    "output_tokens": 292,
+    "latency_ms": 2808.067560195923,
+    "timestamp": "2026-10-26T21:34:00.032692",
+    "finish_reason": "stop"
+  }
+}

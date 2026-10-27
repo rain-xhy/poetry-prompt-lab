@@ -1,0 +1,58 @@
+{
+  "translation_id": "A07A_S1_T1_Qwen25_r1",
+  "anon_code": "T_7c86de56",
+  "poem_id": "A07A",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Gently slipping into the river, A willow branch seems to dance and sway. In nature's embrace, it floats, a symbol of grace.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the essence of the original phrase by describing a willow branch moving gracefully in water, symbolizing natural beauty and grace, which aligns with the requirement to infer correct negation from the ambiguous version.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Gently slipping into the river, A willow branch seems to dance and sway.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the negative connotation of '版本B' by implying a version that is not correct through the phrase 'seems to dance and sway', which suggests a temporary or incorrect state.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Gently slipping into the river, A willow branch seems to dance and sway. In nature's embrace, it floats, a symbol of grace.",
+        "evidence_found": true,
+        "reasoning": "The English translation conveys the meaning of a willow branch moving gracefully in water, symbolizing natural beauty and tranquility, matching the requirement that both versions should have the same meaning.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 1,
+    "valid": true
+  }
+}

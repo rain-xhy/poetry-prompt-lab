@@ -1,0 +1,62 @@
+{
+  "translation_id": "D02_S3_T1_Qwen3_r2",
+  "anon_code": "T_01588100",
+  "poem_id": "D02",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Birds fly away in flocks, and the solitary cloud departs with quiet ease.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express '众鸟高飞尽' which means 'Birds fly away in flocks, and the solitary cloud departs with quiet ease.' and does not convey the meaning of '全部、消失'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "solitary cloud departs with quiet ease",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'solitary cloud departs with quiet ease' which does not exactly match '孤云独去闲' where '孤云' (solitary cloud) and '独去' (goes alone) are preserved, but '闲' (idle, leisurely) is replaced with 'quiet ease'",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "We gaze at each other without repulsion",
+        "evidence_found": true,
+        "reasoning": "The phrase '人与山互相看着' is not directly translated as 'We gaze at each other without repulsion'",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "We gaze at each other without repulsion, and only the mountain of Jingting remains unwavering.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'only the mountain of Jingting remains unwavering' does not contain only/alone and does not preserve the name Jingting Mountain.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.95,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M12_S1_T3_Qwen3_r3",
+  "anon_code": "T_6592bbd3",
+  "poem_id": "M12",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see thousands of miles, one must climb higher, to the next level.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'To see thousands of miles' uses 'to see' (a verb indicating purpose) and 'thousands of miles' matches the required '千里的距离'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see thousands of miles, one must climb higher, to the next level.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'one must climb higher, to the next level' directly expresses the requirement to 'climb higher' (再上一层楼) as a necessary means to achieve the goal of seeing thousands of miles, fulfilling the purpose-meaning condition of '需要再上一层楼' with the required 'must' indicating necessity.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see thousands of miles, one must climb higher, to the next level.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'To see thousands of miles, one must climb higher' directly expresses the purpose (see thousands of miles) and the means (climb higher), fulfilling the required logical relationship.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "White day sets over the mountains, the Yellow River flows into the sea. To see thousands of miles, one must climb higher, to the next level.",
+        "evidence_found": true,
+        "reasoning": "The translation adds an unrelated phrase 'To see thousands of miles, one must climb higher, to the next level.' which is not part of the original Chinese phrase and does not preserve the two original images without adding new content.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

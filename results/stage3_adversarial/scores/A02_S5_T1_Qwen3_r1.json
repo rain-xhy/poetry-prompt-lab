@@ -1,0 +1,58 @@
+{
+  "translation_id": "A02_S5_T1_Qwen3_r1",
+  "anon_code": "T_ec367cd5",
+  "poem_id": "A02",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The blossoms know how many will fall",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The blossoms know how many will fall' directly indicates that the subject of 'know' is 'blossoms' (flowers), fulfilling the requirement that the subject changed from 'I' to 'blossoms' as specified.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The blossoms know how many will fall.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The blossoms know how many will fall' directly expresses that the blossoms have cognitive awareness of their future state, fulfilling the requirement that the translation expresses the blossoms' cognitive ability (knowing).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In the morning, I sleep soundly, unaware of the dawn, And hear the cries of birds everywhere. The sound of rain and wind last night, The blossoms know how many will fall.",
+        "evidence_found": true,
+        "reasoning": "The translation does not match the original poem's meaning as it introduces elements like 'sleep soundly' and 'cries of birds' which are not present in the original '春晓' poem, and the structure and content differ significantly.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

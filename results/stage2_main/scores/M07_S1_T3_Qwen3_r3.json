@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S1_T3_Qwen3_r3",
+  "anon_code": "T_f7ebe678",
+  "poem_id": "M07",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wang and Che",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly mentions 'Wang' and 'Che' as specific families, preserving the required '东晋王氏谢氏世家' without genericization.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Once, the grand halls of Wang and Che welcomed the f: Now they nest in the homes of common people",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly contrasts 'Once' (past) with 'Now' (present) to show time contrast, and 'grand halls of Wang and Che' (aristocratic) with 'homes of common people' (commoners) to show class contrast.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Now they nest in the homes of common people",
+        "evidence_found": true,
+        "reasoning": "The phrase 'now they nest in the homes of common people' directly shows the current state of the swallow (燕子) as a witness to social change, preserving the intended metaphorical shift from aristocratic glory to common life without implying the swallow has lived for centuries.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "wild grass grows beneath the wild plum tree, Its golden hues fading in the setting sun at the mouth of Wuyi巷",
+        "evidence_found": true,
+        "reasoning": "The phrase 'wild grass' and 'setting sun' directly correspond to the required 荒凉景象 (wild grass, sunset) while conveying a sense of decay and abandonment through 'golden hues fading'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

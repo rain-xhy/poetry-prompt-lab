@@ -1,0 +1,67 @@
+{
+  "translation_id": "M14_S5_T2_Qwen25_r2",
+  "anon_code": "T_5beda173",
+  "poem_id": "M14",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "but that the dragon city general be strong",
+        "evidence_found": false,
+        "reasoning": "The phrase 'but that the dragon city general be strong' uses the conditional structure 'but that...' which implies a condition for the desired outcome, matching the required meaning of '只要...在' (as long as...).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "不教胡马度阴山",
+        "evidence_found": true,
+        "reasoning": "The phrase '不教胡马度阴山' directly translates to 'not allow the Hu horses to cross the Yin Mountains', fulfilling the requirement of 'not allow/prevent' with an active stopping action.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "but wish that the dragon city general is strong, not let the northern barbarian horses cross the Yin Mountain",
+        "evidence_found": false,
+        "reasoning": "The translation maintains the conditional-result logic by expressing that the general's strength (condition) ensures the northern barbarians cannot cross the Yin Mountain (result), and the phrase 'not let' directly corresponds to the '不教' structure.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "but愿龙城飞将健",
+        "evidence_found": false,
+        "reasoning": "The phrase 'but愿龙城飞将健' directly refers to the historical general associated with the border fortress 'Longcheng' and implies a strong, battle-ready commander.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

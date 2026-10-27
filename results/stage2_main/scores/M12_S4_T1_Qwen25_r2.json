@@ -1,0 +1,67 @@
+{
+  "translation_id": "M12_S4_T1_Qwen25_r2",
+  "anon_code": "T_524cd24d",
+  "poem_id": "M12",
+  "strategy": "S4_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see a thousand miles further",
+        "evidence_found": true,
+        "reasoning": "The phrase 'To see a thousand miles further' uses 'to see' (a verb indicating purpose) and 'a thousand miles' (the required distance), fulfilling the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see a thousand miles further, one must climb to a higher floor.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'one must climb to a higher floor' directly expresses the requirement to 'climb to a higher floor' as a means to achieve the goal of seeing further, fulfilling the condition of needing to go up one more level.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see a thousand miles further, one must climb to a higher floor.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the purpose (to see a thousand miles further) and the means (climb to a higher floor), maintaining the logical relationship between the two.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "To see a thousand miles further, one must climb to a higher floor.",
+        "evidence_found": true,
+        "reasoning": "The translation adds an unrelated sentence about climbing for distant views, which does not match the original Chinese phrase's focus on the sunset and river flow.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

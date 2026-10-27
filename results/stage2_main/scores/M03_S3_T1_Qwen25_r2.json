@@ -1,0 +1,67 @@
+{
+  "translation_id": "M03_S3_T1_Qwen25_r2",
+  "anon_code": "T_ba266e58",
+  "poem_id": "M03",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "You seek my return yet I have no set date",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no set date' directly translates to 'cannot yet be set' as required, avoiding 'no deadline' or 'never'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When we can sit by the west window together",
+        "evidence_found": true,
+        "reasoning": "The phrase 'When we can sit by the west window together' uses the future conditional 'can' to express the expectation of a future time when the two can share the moment, matching the required meaning of '什么时候能一起剪西窗烛' (when will we be able to sit together by the west window to trim the candle).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When we can sit by the west window together, We’ll talk of this night in the巴山, rain falling.",
+        "evidence_found": true,
+        "reasoning": "The translation refers to a future time ('when we can sit') and a future action ('we’ll talk'), but the original phrase '却话巴山夜雨时' implies recalling past rain during a past time, not future discussion of a past night's rain.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In the mountain night, rain fills the autumn pool.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'rain fills the autumn pool' does not explicitly state that the rain causes the pool to rise in water level, which is required by the condition '译文表达雨使池水上涨'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.45,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

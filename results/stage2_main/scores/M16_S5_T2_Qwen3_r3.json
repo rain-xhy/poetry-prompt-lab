@@ -1,0 +1,67 @@
+{
+  "translation_id": "M16_S5_T2_Qwen3_r3",
+  "anon_code": "T_69aa3fa2",
+  "poem_id": "M16",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The crow's cry calls to the hut, moon hangs there",
+        "evidence_found": true,
+        "reasoning": "The phrase '鸡声茅店月' refers to the sound of roosters, a thatched inn, and the moon, but the translation uses 'crow's cry' instead of 'rooster's cry', which changes the meaning of the animal sound.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Footprints mark the bridge, frost lies on the grass.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'frost lies on the grass' instead of 'frost on the bridge' as required by the original phrase's meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Thus I recall the dream of Du Ling",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Thus I recall the dream of Du Ling' directly expresses the meaning of 'therefore think of the dream in Du Ling' as required, indicating a memory of a dream from Du Ling.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Flocks of ducks fill the winding pond.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'winding pond' directly translates to '曲折池塘' (curved/winding pond) and 'flocks of ducks fill' matches '凫雁满布'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

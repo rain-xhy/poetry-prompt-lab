@@ -1,0 +1,67 @@
+{
+  "translation_id": "M05_S5_T2_Qwen3_r2",
+  "anon_code": "T_8d8624da",
+  "poem_id": "M05",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking, searching, yet empty",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Seeking, searching' directly translates the repeated action of '寻寻觅觅' with repetition to preserve the rhythmic quality.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A world of silence, cold and bleak",
+        "evidence_found": true,
+        "reasoning": "The phrase 'cold and bleak' directly conveys the cold, desolate environment required, and 'world of silence' implies the quiet, empty state that matches the 'cold, quiet, and desolate' environment.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking, searching, yet empty, A world of silence, cold and bleak, A heart that weeps, deep and true, Each emotion, a storm within.",
+        "evidence_found": true,
+        "reasoning": "The translation captures deep sorrow through layered imagery of emptiness, silence, coldness, and internal storms, meeting both emotional depth and progressive emotional layers.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking, searching, yet empty, A world of silence, cold and bleak, A heart that weeps, deep and true, Each emotion, a storm within.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly progresses from action (Seeking, searching), to environment (A world of, cold and bleak), to emotion (A heart that weeps, deep and true), maintaining the required hierarchical structure without altering the sequence.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

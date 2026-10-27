@@ -1,0 +1,67 @@
+{
+  "translation_id": "M11_S2_T1_Qwen3_r2",
+  "anon_code": "T_8a62456e",
+  "poem_id": "M11",
+  "strategy": "S2_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "it seems like frost upon the ground",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it seems like frost upon the ground' uses the verb 'seems' to indicate uncertainty, matching the requirement of using a speculative verb without stating it as a definite fact.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The head is raised to gaze at the bright moon, but the heart is turned toward home.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly shows the action sequence (raising head to gaze at moon) and implies that this action leads to thoughts of home, fulfilling the required emotional logic.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Before the moonlight shines on the bed, it seems like frost upon the ground.",
+        "evidence_found": true,
+        "reasoning": "The required meaning '床前的明亮月光' (bright moonlight before the bed) is not fully captured as the translation describes moonlight shining on the bed rather than the moonlight being bright and positioned before the bed.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Before the moonlight shines on the bed, it seems like frost upon the ground. The head is raised to gaze at the bright moon, but the heart is turned toward home.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys a sense of quietness through the imagery of moonlight and frost, and expresses loneliness and homesickness by contrasting the gaze at the moon with the heart yearning for home.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.45,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

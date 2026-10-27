@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S2_T1_Qwen25_r3",
+  "anon_code": "T_1881acdc",
+  "poem_id": "M02",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Red beans grow in the Southland, Spring brings forth many a sprig.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly mentions 'Red beans' as the specific imagery, and the context implies their symbolic meaning of longing through the reference to parting sorrow.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I hope you gather them in abundance",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I hope you gather them in abundance' explicitly expresses a wish/hope for the recipient to collect the red beans, fulfilling the requirement of 'wishing/urging' and addressing 'you' directly.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "For this is the very essence of parting sorrow.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'this is the very essence of part as sorrow' directly translates to 'this is the most profound symbol of parting sorrow', which aligns with the requirement to express 'this thing most symbolizes/embodies longing'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Spring brings forth many a sprig.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Spring brings forth many a sprig' does not explicitly express the time of spring but rather the action of spring 'bringing forth' sprigs, which does not align with the requirement to preserve '春天来时长出几枝' (spring time when branches grow).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

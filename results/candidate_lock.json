@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-10-26T19:25:01.663412",
+  "dev_results": {
+    "S5_T3": 0.7431,
+    "S1_T1": 0.6667,
+    "S5_T2": 0.6458,
+    "S1_T3": 0.6354,
+    "S3_only": 0.5938,
+    "S3_T1": 0.5938,
+    "S5_T1": 0.5868,
+    "S1_T2": 0.5104,
+    "S0": 0.5
+  },
+  "dev_quality": {
+    "S5_T3": 4.7021,
+    "S1_T1": 4.7417,
+    "S5_T2": 4.4722,
+    "S1_T3": 4.5708,
+    "S3_only": 4.6319,
+    "S3_T1": 4.4375,
+    "S5_T1": 4.4069,
+    "S1_T2": 4.3604,
+    "S0": 4.4521
+  },
+  "selected_strategies": [
+    "S0",
+    "S5_T3",
+    "S1_T1",
+    "S5_T2",
+    "S1_T3"
+  ],
+  "selection_rule": "S0 baseline always kept; top 4 others by mean semantic accuracy (ties: quality overall, then fewer input tokens)",
+  "n_translations_scored": 216,
+  "scorer": "qwen3:4b (temperature=0, think off; calibrated acc 0.925 on rubric good/bad examples)",
+  "sha256": "1129ce6990297f621388f95936b0545b29848f82c732214caab5136a9ed1f237"
+}

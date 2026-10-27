@@ -1,0 +1,19 @@
+{
+  "id": "A02_S0_Qwen25_r1",
+  "poem_id": "A02",
+  "trap_type": "subject_confusion",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n春眠不觉晓，处处闻啼鸟。\n夜来风雨声，花知落多少。",
+  "prompt_sha256": "7ada5d51cbeb4785af19733363d5d8bcfd55b96068e6b4a67a3c119d8ed26d94",
+  "translation": "Spring slumber knows no dawn, \nAll around the bird's song is heard.\nLast night's wind and rain sounds,\nHow many flowers have fallen, I wonder.",
+  "metadata": {
+    "input_tokens": 62,
+    "output_tokens": 35,
+    "latency_ms": 9795.904874801636,
+    "timestamp": "2026-10-26T21:45:12.393938",
+    "finish_reason": "stop"
+  }
+}

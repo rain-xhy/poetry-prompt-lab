@@ -1,0 +1,19 @@
+{
+  "id": "M20_S2_T1_Qwen25_r2",
+  "poem_id": "M20",
+  "trap_type": "时态叙事",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nSemantic Analysis (in Chinese):\n“我住...君住”：空间并列对比（头vs尾）。要点：空间的对立和分隔。\n“日日思君不见君”：每天思念却见不到。要点：持续思念与见不到的矛盾。\n“共饮长江水”：虽不见面但共饮一江水（联系）。要点：虽分隔但有联系。\n“空间分隔与情感联系的张力”：物理分离vs情感联系的矛盾。要点：分隔中的联系，矛盾中的和谐。\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n我住长江头，君住长江尾。\n日日思君不见君，共饮长江水。",
+  "prompt_sha256": "c2c99dd93c29352f06948644eb8de2dfdf76769fb39e74fe514ba288fe986e57",
+  "translation": "I stand at the head of the Yangtze, you dwell at its tail,\nDaily I think of you yet cannot see, sharing the river's flow.\nThough miles apart, we share the Yangtze's current,\nIn separation, our hearts are bound in unity.",
+  "metadata": {
+    "input_tokens": 362,
+    "output_tokens": 56,
+    "latency_ms": 914.6308898925781,
+    "timestamp": "2026-10-26T21:22:23.790845",
+    "finish_reason": "stop"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M15_S1_T1_Qwen3_r1",
+  "anon_code": "T_5a32e15f",
+  "poem_id": "M15",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why do the羌笛 mourn the willows?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Why do the羌笛 mourn the will:ows?' uses a rhetorical question structure to imply 'there is no need to mourn the willows', matching the required meaning of '不必/no need to' as a rhetorical question.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The spring wind does not reach the jade gate.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the spring wind's inability to reach the jade gate, fulfilling the requirement of a clear negative statement about geographical limitation.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The spring wind does not reach the jade gate.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The spring wind does not reach the jade gate' directly reflects the causal relationship where the spring wind's absence (cause) leads to the inability to have a positive effect (effect), aligning with the required causal logic and maintaining the original's context.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why do the羌笛 mourn the willows?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Why do the羌笛 mourn the willows?' directly translates the original phrase's meaning of '羌笛...杨柳' by preserving '羌笛' and implying the '折杨柳' (willow) as a symbol of parting, which is the required meaning.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M16_S3_T1_Qwen25_r3",
+  "anon_code": "T_3572e22b",
+  "poem_id": "M16",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Rooster crowing over the thatched inn",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Rooster crowing over the thatched inn' directly corresponds to the required meaning of '鸡鸣时茅店上还有月亮' by preserving the three key imagery elements: rooster crowing (鸡鸣), thatched inn (茅店), and the presence of the moon (implied by 'over' and context of dawn).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Footprints on the frost-covered bridge",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Footprints on the frost-covered bridge' directly corresponds to the original Chinese phrase '人迹板桥霜' by preserving the three key images: footprints (人的足迹), bridge (板桥), and frost (霜), while omitting the implied subject and adhering to the required meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Recalling a dream of Du Ling",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Recalling a dream of Du Ling' directly translates the meaning of '因思杜陵梦' as remembering a dream in Du Ling, fulfilling the requirement of expressing a memory of a dream related to Du Ling.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Ferruginous ducks and ge: geese abound in the circular ponds",
+        "evidence_found": false,
+        "reasoning": "The phrase 'circular ponds' directly translates to 'curved/winding ponds' as required, and 'ferruginous ducks and geese abound' captures the 'ferruginous ducks and geese full' imagery from the original.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

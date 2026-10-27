@@ -1,0 +1,62 @@
+{
+  "translation_id": "D01_S1_T3_Qwen3_r1",
+  "anon_code": "T_4c557f4d",
+  "poem_id": "D01",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This emotion cannot be eliminated",
+        "evidence_found": true,
+        "reasoning": "The translation states 'This emotion cannot be eliminated, for it flows from the brow and rises to the heart.' This directly contradicts the pass condition of expressing '无法排遣' (impossible to eliminate) and does not preserve the original meaning of the phrase '此情无计可消除'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This emotion cannot be eliminated, for it flows from the brow and rises to the heart.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express '愁刚从眉间离开' (the emotion just left from the brow). Instead, it describes the flow of emotion from the brow to the heart, which does not preserve the original meaning of the phrase '才下眉头' (the emotion just left from the brow).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "cannot be eliminated",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the word 'yet', 'but', or 'again' which is required to express the sense of persistence or recurrence of the emotion.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This emotion cannot be eliminated, for it flows from the brow and rises to the heart.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '才下……却上' and does not explicitly convey the idea of the emotion persistently existing, which is a key aspect of the original phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 5,
+    "fluency": 4,
+    "poetic_quality": 2,
+    "overall": 3.55,
+    "valid": true
+  }
+}

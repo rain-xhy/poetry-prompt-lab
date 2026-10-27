@@ -1,0 +1,67 @@
+{
+  "translation_id": "M17_S2_T1_Qwen25_r3",
+  "anon_code": "T_998f5f97",
+  "poem_id": "M17",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling could be remembered, But now it's only a distant dream. Then, it had already felt so wrong. Past, present, and future all entwined.",
+        "evidence_found": true,
+        "reasoning": "The translation does not use a question structure (must/can/could) to express the future becoming a memory as required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Then, it had already felt so wrong.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it had already felt so wrong' does not convey the completed state of 'already' as required by the past perfect tense, but rather a sense of incorrectness without the necessary temporal completion.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling could be remembered, But now it's only a distant dream. Then, it had already felt so wrong. Past, present, and future all entwined.",
+        "evidence_found": true,
+        "reasoning": "The translation does not clearly specify the emotional context or the referent of 'this feeling' as required by the original phrase '此情', which refers to a specific emotional state or feeling.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling could be remembered, But now it's only a distant dream. Then, it had already felt so wrong.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the contrast between future memory (could be remembered) and past confusion (had already felt so wrong), while explicitly mentioning past, present, and future entwined.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 1.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "translation_id": "D06_S5_T2_Qwen3_r2",
+  "anon_code": "T_4afe514d",
+  "poem_id": "D06",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When I imagine my brothers climbing the hill, I see a single leaf missing from the plum.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'When I imagine' directly translates to 'in distant imagination' as required, and 'I see a single leaf missing from the plum' implies the distant thought process without literal visual observation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When I imagine my brothers climbing the hill",
+        "evidence_found": true,
+        "reasoning": "The phrase 'When I imagine my brothers climbing the hill' directly translates the meaning of '兄弟们登高之处' by specifying the subject 'brothers' and the action 'climbing the hill' which conveys 'climb the heights'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "a single leaf missing from the plum",
+        "evidence_found": true,
+        "reasoning": "The original phrase '遍插茱萸' means 'everyone wears dogwood sprigs on their heads', but the translation describes a missing plum leaf, which is unrelated to dogwood spr as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When I imagine my brothers climbing the hill, I see a single leaf missing from the plum.",
+        "evidence_found": true,
+        "reasoning": "The translation describes a missing leaf in a plum tree, not a missing person, and does not explicitly indicate that the speaker is the missing person.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 3.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

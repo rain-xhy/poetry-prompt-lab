@@ -1,0 +1,58 @@
+{
+  "translation_id": "A04_S1_T1_Qwen25_r1",
+  "anon_code": "T_9b00529f",
+  "poem_id": "A04",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This love has been set aside for later regret",
+        "evidence_found": true,
+        "reasoning": "The phrase 'has been set aside' uses present perfect tense to indicate a completed action with present relevance, matching the requirement for past/perfect tense for '已待' (already waited).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This love has been set aside for later regret, Yet in the moment, it brought me sorrow indeed.",
+        "evidence_found": true,
+        "reasoning": "The translation uses declarative structure without rhetorical questions, confirming it's a statement not a question.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This love has been set aside for later regret,",
+        "evidence_found": true,
+        "reasoning": "The phrase 'has been set aside' implies a completed action in the past, but the original poem's '可待' (which can be translated as 'waiting for' or 'to be waited for') suggests a future or potential aspect, not a completed past action.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

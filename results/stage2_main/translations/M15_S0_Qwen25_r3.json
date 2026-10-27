@@ -1,0 +1,19 @@
+{
+  "id": "M15_S0_Qwen25_r3",
+  "poem_id": "M15",
+  "trap_type": "否定逻辑",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n黄河远上白云间，一片孤城万仞山。\n羌笛何须怨杨柳，春风不度玉门关。",
+  "prompt_sha256": "77a3de0adee1b564b3c63b23016c8f26cb52ec5e22d99777b53eccb768cd697e",
+  "translation": "Here is the English translation of the provided Chinese classical poem:\n\nFrom afar the Yellow River climbs up to the clouds,\nA solitary city stands amidst towering mountains.\nWhy should the羌笛bluesong lament the willows,\nFor Spring breeze does not pass through the Jade Gate Pass.",
+  "metadata": {
+    "input_tokens": 69,
+    "output_tokens": 57,
+    "latency_ms": 11707.97872543335,
+    "timestamp": "2026-10-26T20:35:03.149932",
+    "finish_reason": "stop"
+  }
+}

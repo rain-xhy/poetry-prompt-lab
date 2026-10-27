@@ -1,0 +1,67 @@
+{
+  "translation_id": "M20_S5_T2_Qwen3_r3",
+  "anon_code": "T_566c1fce",
+  "poem_id": "M20",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell at the head of the river, you stay at its tail.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts the speaker's position (head of the river) with the listener's position (tail of the river), fulfilling the requirement for spatial parallelism and opposition between the two ends.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Each day I think of you, yet you remain unseen.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Each day I think of you' expresses the daily/continuous nature of thinking, and 'yet you remain unseen' captures the contradiction between longing and not being seen.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "We share the same river's waters",
+        "evidence_found": true,
+        "reasoning": "The phrase 'We share the same river's waters' directly reflects the '共饮一江水' meaning with 'shared' indicating '共同性' and 'river's waters' corresponding to '长江水'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell at the head of the river, you stay at its tail. Each day I think of you, yet you remain unseen. We share the same river's waters, though we never meet.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly shows physical separation (river's head and tail), emotional connection (thinking of someone, sharing river waters), and tension between them (never meeting despite shared waters).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

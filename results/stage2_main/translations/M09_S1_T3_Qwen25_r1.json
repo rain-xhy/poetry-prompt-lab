@@ -1,0 +1,19 @@
+{
+  "id": "M09_S1_T3_Qwen25_r1",
+  "poem_id": "M09",
+  "trap_type": "拟人意象",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n月落乌啼霜满天，江枫渔火对愁眠。",
+  "prompt_sha256": "88a7945f4ec38bbc29e7d3b74b082ff3aef739fe9bbc6b6cb4dec30ced2e3249",
+  "translation": "Here is the English translation adhering to the provided format and key requirements:\n\nMoon sets, crows cry,霜 fills the sky,\nRiverside maples and fishing lights face my sorrowful sleep.\n\n[Note: \"霜\" (shuāng) personifies the frost, turning it into a subject that fills the sky, which is a common technique in classical Chinese poetry.]\n\nThis translation preserves the core meaning, key imagery, and emotional tone of the original poem. It also maintains the personification of \"霜\" (shuāng) as a subject, which is a classical Chinese poetic technique.",
+  "metadata": {
+    "input_tokens": 225,
+    "output_tokens": 125,
+    "latency_ms": 11878.774166107178,
+    "timestamp": "2026-10-26T20:22:23.267749",
+    "finish_reason": "stop"
+  }
+}

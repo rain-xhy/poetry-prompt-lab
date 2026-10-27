@@ -1,0 +1,62 @@
+{
+  "translation_id": "D02_S5_T1_Qwen25_r2",
+  "anon_code": "T_d204ddf1",
+  "poem_id": "D02",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "All the birds have flown away",
+        "evidence_found": true,
+        "reasoning": "The translation captures the essence of '众鸟高飞尽', conveying the idea that all the birds have flown away, which aligns with the requirement of '全部、消失'之意.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "All the birds have flown away, The solitary cloud wanders idly.",
+        "evidence_found": true,
+        "reasoning": "The translation contains 'solitary cloud' which preserves '孤云', and 'wander idly' which preserves '独去闲'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "We gaze upon each other without tiredness",
+        "evidence_found": true,
+        "reasoning": "The phrase '人与山互相看着，都不厌倦' is preserved in the translation as 'We gaze upon each other without tiredness'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "All the birds have flown away, The solitary cloud wanders idly. We gaze upon each other without tiredness, Only the敬亭山remains steadfast.",
+        "evidence_found": true,
+        "reasoning": "The translation includes 'only' and '敬亭山' as per the guidelines.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  }
+}

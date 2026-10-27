@@ -1,0 +1,58 @@
+{
+  "translation_id": "A07A_S5_T1_Qwen25_r2",
+  "anon_code": "T_543abb69",
+  "poem_id": "A07A",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Carefully, I slide into the river's depths",
+        "evidence_found": true,
+        "reasoning": "The translation does not address whether the ambiguous version can be used to infer the correct negation, as it only describes an action without negation or ambiguity context.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Carefully, I slide into the river's depths",
+        "evidence_found": true,
+        "reasoning": "The phrase '版本B的明确否定' translates to 'Version B's explicit negation', but the English translation describes an action (sliding into the river) rather than expressing negation or version correctness.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Carefully, I slide into the river's depths",
+        "evidence_found": true,
+        "reasoning": "The phrase 'AB一致性' refers to consistency between two versions, but the translation describes an action without comparing two versions, so it does not meet the requirement that the two versions should have the same meaning.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

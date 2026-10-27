@@ -1,0 +1,67 @@
+{
+  "translation_id": "M16_S1_T3_Qwen25_r2",
+  "anon_code": "T_85f8def2",
+  "poem_id": "M16",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Chickens crowing over the thatched inn under the moon",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Chickens crowing over the thatched inn under the moon' does not match the required meaning of '鸡鸣时茅店上还有月亮' which implies the moon is still visible on the thatched inn at the time of the chickens crowing, but the translation uses 'over' instead of 'on' and the structure is different.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Footprints on the boardwalk covered in frost.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'boardwalk' is incorrect; the original refers to a wooden bridge (板桥) not a boardwalk.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Morning departure rouses the carriage bell, Traveling, I feel sorrow for my hometown.",
+        "evidence_found": true,
+        "reasoning": "The translation describes a morning departure and feeling sorrow for hometown, but does not explicitly mention dreaming or recalling a dream in Du陵 (Du Ling), which is required for the phrase '因思杜陵梦' (therefore thinking of dreams in Du Ling).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Morning departure rouses the carriage bell, Traveling, I feel sorrow for my hometown.",
+        "evidence_found": true,
+        "reasoning": "The translation provided does not mention any pool塘 or water features, let alone the curved or winding nature of the pool, and does not describe the scene of ducks and geese filling the pool.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

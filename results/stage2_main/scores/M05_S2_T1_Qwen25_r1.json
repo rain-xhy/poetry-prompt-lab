@@ -1,0 +1,67 @@
+{
+  "translation_id": "M05_S2_T1_Qwen25_r1",
+  "anon_code": "T_2287c9ea",
+  "poem_id": "M05",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking, seeking, in lonely loneliness",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Seeking, seeking' directly reflects the repeated action of '反复寻找' with the repetition of the verb, preserving the rhythmic quality of the Chinese original.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Cold and bleak, in sorrow and woe.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Cold and bleak' directly translates the 'cold and clear' environment described in the original, conveying a cold, desolate atmosphere that meets the requirement of expressing a cold, desolate environment.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking, seeking, in lonely loneliness, Cold and bleak, in sorrow and woe. Wretched and bleak, in anguish and despair.",
+        "evidence_found": true,
+        "reasoning": "The translation uses three layers of叠词 (repetition) to convey deep sorrow, progressing from action to scene to emotion, matching the required emotional depth and hierarchical progression.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking, seeking, in lonely loneliness, Cold and bleak, in sorrow and woe. Wretched and bleak, in anguish and despair.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly shows the progression from action (seeking) to environment (lonely loneliness, cold and bleak) to emotion (sorrow and woe, anguish and despair) without altering the order.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.65,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

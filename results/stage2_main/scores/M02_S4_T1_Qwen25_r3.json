@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S4_T1_Qwen25_r3",
+  "anon_code": "T_af69c716",
+  "poem_id": "M02",
+  "strategy": "S4_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Red beans grow in the South, Spring blooms, how many sprout? May you gather many, This thing best expresses my longing.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states 'Red beans' as the specific imagery representing longing, fulfilling the requirement to preserve '红豆' as a symbol of longing (metaphor).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "May you gather many",
+        "evidence_found": true,
+        "reasoning": "The phrase 'May you gather many' directly expresses the wish/hope for the recipient to collect many things, fulfilling the requirement of expressing hope/encouragement and addressing 'you' specifically for the action of gathering.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This thing best expresses my longing",
+        "evidence_found": true,
+        "reasoning": "The phrase 'This thing best expresses my longing' directly translates to '此物最能寄托相思之情' as required, preserving the core meaning of 'this thing most effectively symbolizes/embodies longing'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Spring blooms, how many sprout?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Spring blooms, how many spr: sprout?' directly translates the original phrase '春来发几枝' by expressing the time of spring and the natural action of sprouting.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

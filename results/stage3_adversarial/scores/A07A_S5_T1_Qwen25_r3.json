@@ -1,0 +1,58 @@
+{
+  "translation_id": "A07A_S5_T1_Qwen25_r3",
+  "anon_code": "T_5e73b8b0",
+  "poem_id": "A07A",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The deeper the feeling, the more gentle the words",
+        "evidence_found": true,
+        "reasoning": "The translation preserves the meaning of whether the ambiguous version can infer the correct negation by using 'more gentle' instead of 'softer', which aligns with the requirement that version A also translates to a negation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The deeper the feeling, the softer the words",
+        "evidence_found": true,
+        "reasoning": "The translation correctly uses 'softer' to convey the explicit negation of 'gentle' from Version B, maintaining the required meaning while adhering to the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The deeper the feeling, the more gentle the words",
+        "evidence_found": true,
+        "reasoning": "Both versions convey the same meaning of feelings deepening while words become less intense, with 'more gentle' and 'softer' being synonymous in this context.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

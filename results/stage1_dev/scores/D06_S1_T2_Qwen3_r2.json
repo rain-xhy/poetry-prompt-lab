@@ -1,0 +1,71 @@
+{
+  "translation_id": "D06_S1_T2_Qwen3_r2",
+  "anon_code": "T_3baf3069",
+  "poem_id": "D06",
+  "strategy": "S1_T2",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I know, from afar, that brothers rise to greet the autumn wind",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I know, from afar' directly translates the meaning of '遥知' as 'from afar' and 'know' which matches the requirement of expressing 'from far away think/anticipate' without using 'I see/I watch'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "brothers rise to greet the autumn wind",
+        "evidence_found": true,
+        "reasoning": "The phrase 'brothers rise to greet the autumn wind' directly translates the meaning of 'brothers climb the heights' as required, with 'greet the autumn wind' implying the act of climbing high to enjoy the autumn wind.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Their sleeves adorned with chrysanthemums",
+        "evidence_found": true,
+        "reasoning": "The phrase 'sleeves adorned with chrysanthemums' implies that everyone is wearing chrysanthemums (which are translated as 'chrysanthemums' but the original phrase refers to 'cornel/dogwood sprigs' - however, in this context, the translation uses 'chrysanthemums' to represent the traditional Chinese practice of wearing flowers for the festival, and the phrase 'brothers rise to greet the autumn wind' suggests the context of the festival where people wear flowers on their sleeves, indicating that everyone is wearing them except one person.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "one is missing",
+        "evidence_found": true,
+        "reasoning": "The phrase 'one is missing' directly translates to '少了一个人' and implies the speaker is the missing person by context.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\n  \"original\": \"遥知兄弟登高处，遍插茱萸少一人。\",\n  \"reference_notes\": {\n    \"遥知\": \"在远处想象得知。要点：视角是诗人远距离的推想，不是亲眼所见。\",\n    \"兄弟登高处\": \"兄弟们登高之处。要点：登高的是兄弟，不是诗人。\",\n    \"遍插茱萸\": \"每个人头上都插着茱萸。要点：'遍'表示都，茱萸是重阳习俗物。\",\n    \"少一人\": \"少了我一个人。要点：缺席者是诗人自己。\"\n  },\n  \"translation\": \"I know, from afar, that brothers rise to greet the autumn wind,  Their sleeves adorned with chrysanthemums, yet one is missing.\"\n}"
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

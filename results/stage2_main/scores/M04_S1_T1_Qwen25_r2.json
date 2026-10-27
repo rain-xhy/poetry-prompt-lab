@@ -1,0 +1,65 @@
+{
+  "translation_id": "M04_S1_T1_Qwen25_r2",
+  "anon_code": "T_e1d87360",
+  "poem_id": "M04",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "",
+        "evidence_found": false,
+        "reasoning": "",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "It isn't the frequency of meetings that matters, But a deep connection that endures.",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly states that the frequency of meetings (implying daily meetings) is not what matters, indicating that the relationship does not need to be constant or daily, which aligns with the requirement of 'not needing to be constantly together'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": null,
+        "valid": false,
+        "raw": "",
+        "error": "prediction aborted, token repeat limit reached (status code: 500)"
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If two hearts are true to each other, Their affection need not be constant. It isn’t the frequency of meetings that matters, But a deep connection that endures.",
+        "evidence_found": true,
+        "reasoning": "The translation maintains the conditional logic (if...then) and the rhetorical question structure by emphasizing that true connection transcends meeting frequency, fulfilling the requirement of condition-conclusion logic and forward-backward resonance.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 3.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

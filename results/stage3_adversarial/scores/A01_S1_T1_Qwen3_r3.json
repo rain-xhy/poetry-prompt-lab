@@ -1,0 +1,58 @@
+{
+  "translation_id": "A01_S1_T1_Qwen3_r3",
+  "anon_code": "T_0313811c",
+  "poem_id": "A01",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Careful lest it slip into the river",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Careful lest it slip into the river' implies a warning to avoid something negative, fulfilling the requirement of expressing 'don't' in the context of the original Chinese phrase's implicit negation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Careful lest it slip into the river",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Careful lest it slip into the river' directly conveys a warning tone by using the imperative structure 'Careful' and the conditional 'lest it slip', which matches the requirement to preserve a warning or reminder tone.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Careful lest it slip into the river",
+        "evidence_found": true,
+        "reasoning": "The phrase 'slip into the river' does not convey the complete action of '滑入河中' which implies a smooth, continuous motion of sliding into the river rather than a sudden slip.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

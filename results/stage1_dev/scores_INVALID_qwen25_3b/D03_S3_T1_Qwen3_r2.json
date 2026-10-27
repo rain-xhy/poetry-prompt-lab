@@ -1,0 +1,62 @@
+{
+  "translation_id": "D03_S3_T1_Qwen3_r2",
+  "anon_code": "T_a46b2117",
+  "poem_id": "D03",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The traveler asks where the wanderer is headed",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the original phrase '劝君更尽一杯酒' and does not express the idea of '再饮一杯酒'",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The translation does not contain the phrase '向西出了阳关' which is required to preserve the original phrase '西出阳关'.",
+        "evidence_found": false,
+        "reasoning": "The translation does not mention the traveler heading west or the specific location of Yangguan.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The traveler asks where the wanderer is headed",
+        "evidence_found": true,
+        "reasoning": "The translation includes a phrase unrelated to the original phrase '无故人' and does not preserve the meaning of '没有老朋友'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The traveler asks where the wanderer is headed",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the original meaning and does not show the relationship between the 'drinking' and 'no old acquaintance' in the original phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 2,
+    "overall": 3.15,
+    "valid": true
+  }
+}

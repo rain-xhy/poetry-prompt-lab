@@ -1,0 +1,76 @@
+{
+  "translation_id": "D02_S3_T1_Qwen25_r2",
+  "anon_code": "T_3b83ad6a",
+  "poem_id": "D02",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "All birds have flown high, solitary clouds drift idly.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'All birds have flown high' does not convey 'bird群都飞走了' (bird group all flew away) but rather 'birds have flown high' which implies elevation rather than disappearance or complete flight away.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "solitary clouds drift idly",
+        "evidence_found": true,
+        "reasoning": "The phrase 'solitary clouds drift idly' directly translates to '孤云独去闲' with 'solitary' matching '孤', 'drift idly' capturing '独去悠闲地飘走' meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I gaze upon you, my fellow mountain, never tiring of your sight.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I gaze upon you, my fellow mountain' directly reflects the mutual gaze between the speaker and the mountain, with the mountain acting as the active observer as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I gaze upon you, my fellow mountain, never tiring of your sight.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'only Jingting Mountain' is preserved as 'my fellow mountain' implying exclusivity and the specific mountain name is referenced through context.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

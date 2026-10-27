@@ -1,0 +1,76 @@
+{
+  "translation_id": "D01_S1_T1_Qwen25_r1",
+  "anon_code": "T_a4c0141e",
+  "poem_id": "D01",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling cannot be dispelled",
+        "evidence_found": true,
+        "reasoning": "The phrase 'This feeling cannot be dispelled' directly matches the requirement of expressing '无法消除这份情绪' with the correct negative direction, indicating it cannot be eliminated rather than having been eliminated or not wanting to eliminate.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "It creeps to the eyelid’s edge, then straight to the heart.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'eyelid’s edge' instead of 'brow', and the phrase describes movement to the heart rather than '愁刚从眉间离开' (sorrow just left the brow).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "It creeps to the eyelid’s edge, then straight to the heart.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'creeps to the eyelid’s edge, then straight to the heart' shows a transition (creeps...then straight) indicating a shift or turning point, and the final landing point is 'heart', fulfilling the requirement of a heart focus with a turning aspect.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "It creeps to the eyelid’s edge, then straight to the heart.",
+        "evidence_found": true,
+        "reasoning": "The translation shows the continuous movement of sorrow from the eyelid to the heart, indicating that the emotion persists without disappearing.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

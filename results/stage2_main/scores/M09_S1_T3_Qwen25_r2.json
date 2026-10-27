@@ -1,0 +1,67 @@
+{
+  "translation_id": "M09_S1_T3_Qwen25_r2",
+  "anon_code": "T_761cb7b3",
+  "poem_id": "M09",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The moon descends, crows mourn, frost blankets the sky, River maples and fishing lights contrast my troubled mind.",
+        "evidence_found": true,
+        "reasoning": "The translation preserves three distinct imagery elements (moon, crows, frost) without establishing causal relationships between them.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "contrast my troubled mind",
+        "evidence_found": true,
+        "reasoning": "The phrase 'contrast my troubled mind' implies facing sorrow while sleeping, meeting both conditions of '面对' (facing) and '愁绪伴随睡眠' (sorrow accompanying sleep).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "River maples and fishing lights",
+        "evidence_found": true,
+        "reasoning": "The phrase 'River maples and fishing lights' directly preserves both the maple trees and fishing lights as required, maintaining their parallel structure.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The moon descends, crows mourn, frost blankets the sky, River maples and fishing lights contrast my troubled mind.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys a sense of solitude and coldness through personification (crows mourn) and metaphors (frost blankets the sky), avoiding any joyful elements while maintaining the required atmosphere.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

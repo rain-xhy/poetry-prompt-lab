@@ -1,0 +1,62 @@
+{
+  "translation_id": "D02_S1_T3_Qwen25_r1",
+  "anon_code": "T_b9869d1a",
+  "poem_id": "D02",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "All the birds have flown away",
+        "evidence_found": true,
+        "reasoning": "The first sentence of the translation only partially captures the meaning of '众鸟高飞尽', as it only states 'All the birds have flown away' without emphasizing the 'all' or 'gone' aspect. The second sentence does not contain the phrase 'All the birds have flown away'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "All the birds have taken flight",
+        "evidence_found": true,
+        "reasoning": "The original phrase '孤云独去闲' (solitary cloud wandering aimlessly) is translated as 'All the birds have taken flight', which does not preserve the meaning of the solitary and aimless cloud.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "You and I cannot tire of each other",
+        "evidence_found": true,
+        "reasoning": "The rest of the translation does not preserve the original phrase '相看两不厌' and does not explicitly mention the mountain as the passive observer.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "find no end to our affection.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'find no end to our affection' does not preserve the original meaning and does not include only/alone.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.4,
+    "valid": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "translation_id": "D04_S3_T1_Qwen25_r2",
+  "anon_code": "T_3017d652",
+  "poem_id": "D04",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "汪伦送我的情。",
+        "evidence_found": true,
+        "reasoning": "翻译中包含了原文中没有的‘汪伦送我的情’，这破坏了保留原文中‘桃花潭’的条件。",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "not as deep As汪伦送我的情。",
+        "evidence_found": true,
+        "reasoning": "The phrase 'not as deep' is changed to 'not as deep As汪伦送我的情' which introduces a new meaning and does not preserve '比不上'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "汪伦送我的情。",
+        "evidence_found": true,
+        "reasoning": "翻译中没有体现出汪伦是送行者，而是直接翻译为'汪伦送我'",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The waters of桃花潭 are deep As千尺, but not as deep As汪伦送我的情。",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the original phrase '情' and does not use the metaphor of water depth to compare the depth of feelings as intended.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\"adequacy\":1,\"imagery\":0,\"emotion\":4,\"fluency\":2,\"poetic_quality\":1}"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M15_S5_T3_Qwen3_r3",
+  "anon_code": "T_0145dbce",
+  "poem_id": "M15",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Not to make me sad, but to remind me of the distance",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Not to make me sad' implies a negation of the need to feel sadness, aligning with the required meaning of '不必/no need to' as a negative expression.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "For spring winds cannot reach the western gate.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'cannot reach' does not explicitly convey 'not to make me sad' as required by the original meaning of '春风不度玉门关' which emphasizes the wind's inability to reach the Jade Gate Pass due to geographical barriers.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Rang di how need I lament the willow trees, For spring winds cannot reach the western gate.",
+        "evidence_found": true,
+        "reasoning": "The translation does not correctly convey the causal relationship that 'spring winds not reaching the western gate' causes the speaker's lack of need to lament; it implies the wind's action is the cause of the speaker's sadness, which contradicts the original's meaning that the wind's inability to reach the gate makes lamentation pointless.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Rang di how need I lament the willow trees",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Rang di' does not preserve 'Qiang di' (Qiang flute) as required, and the translation does not explicitly or implicitly convey the 'parting' meaning of 'Zhe Yangliu' (Cutting Willows) song.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 1,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 1.95,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

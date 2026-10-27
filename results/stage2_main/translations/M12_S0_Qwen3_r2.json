@@ -1,0 +1,19 @@
+{
+  "id": "M12_S0_Qwen3_r2",
+  "poem_id": "M12",
+  "trap_type": "否定逻辑",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n白日依山尽，黄河入海流。\n欲穷千里目，更上一层楼。",
+  "prompt_sha256": "459d7c7badcff2422214bdd4487d2117c5b3514ef10a4f7a0a665f75d226636f",
+  "translation": "White sun sets on the mountain, the Yellow River flows into the sea.  \nTo see thousands of miles, one must climb higher, one level.",
+  "metadata": {
+    "input_tokens": 49,
+    "output_tokens": 31,
+    "latency_ms": 10184.601783752441,
+    "timestamp": "2026-10-26T20:19:38.023261",
+    "finish_reason": "stop"
+  }
+}

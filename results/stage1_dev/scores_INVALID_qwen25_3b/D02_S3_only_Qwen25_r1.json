@@ -1,0 +1,62 @@
+{
+  "translation_id": "D02_S3_only_Qwen25_r1",
+  "anon_code": "T_d116b404",
+  "poem_id": "D02",
+  "strategy": "S3_only",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "All birds have flown away high, solitary clouds leisurely drift.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express 'bird群都飞走了' and does not have '全部、消失'之意.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "All birds have flown away high, solitary clouds leisurely drift.",
+        "evidence_found": true,
+        "reasoning": "The phrase '孤云独去闲' is translated as 'All birds have flown away high, solitary clouds leisurely drift.' This translation does not preserve the exact meaning of '孤云独去闲' as '孤云独自悠闲地飘走'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I gaze upon you, my counterpart, never tired of your sight.",
+        "evidence_found": true,
+        "reasoning": "The phrase '人与山互相看着' is not preserved and the mountain is not described as the active viewer.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "There is only the敬亭山",
+        "evidence_found": true,
+        "reasoning": "The phrase 'There is only the敬亭山' does not include only/alone等限定",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.95,
+    "valid": true
+  }
+}

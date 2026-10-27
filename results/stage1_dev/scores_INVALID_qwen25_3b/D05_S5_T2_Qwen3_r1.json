@@ -1,0 +1,62 @@
+{
+  "translation_id": "D05_S5_T2_Qwen3_r1",
+  "anon_code": "T_80ecff7e",
+  "poem_id": "D05",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of separation, two worlds apart",
+        "evidence_found": true,
+        "reasoning": "The rest of the translated text does not match the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Not thinking, yet it is not forgotten.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'Not thinking, yet it is not forgotten.' which contradicts the original '不思量，自难忘' (not thinking, yet it is not forgotten). The original implies that despite not actively thinking about something, it remains in memory. The translation changes this to imply that not thinking leads to forgetting, which is the opposite of the original meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "a lonely grave, a thousand miles away",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'a thousand miles away' instead of '相隔千里的' which is closer to the original '千里'",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Not thinking, yet it is not forgotten.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'not thinking, yet it is not forgotten' does not directly express '没有地方、没有人可诉说凄凉' (no place or person to talk about sorrow).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 4,
+    "emotion": 5,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 4.4,
+    "valid": true
+  }
+}

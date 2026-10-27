@@ -1,0 +1,62 @@
+{
+  "translation_id": "D03_S3_T1_Qwen25_r1",
+  "anon_code": "T_3af4320f",
+  "poem_id": "D03",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Tempt me to drain this cup of wine",
+        "evidence_found": true,
+        "reasoning": "The translation uses the phrase 'Tempt me to drain this cup of wine', which does not match the original '我劝你再干一杯酒' (I advise you to drink another cup of wine).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "For after westward departure, no old friends remain.",
+        "evidence_found": true,
+        "reasoning": "The translation does not mention 'west' or 'Yang Pass' as required conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "For after westward departure, no old friends remain.",
+        "evidence_found": true,
+        "reasoning": "The translation expands the scope to 'no old friends at all' instead of just 'no old friends' as per the original phrase '无故人'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "For after westward departure, no old friends remain.",
+        "evidence_found": true,
+        "reasoning": "The provided translation does not directly state the relationship between the 'draining this cup of wine' and the 'no old friends remain' part, it only mentions the departure.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 3,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.0,
+    "valid": true
+  }
+}

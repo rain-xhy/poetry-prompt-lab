@@ -1,0 +1,58 @@
+{
+  "translation_id": "A02_S5_T1_Qwen25_r1",
+  "anon_code": "T_bb70585f",
+  "poem_id": "A02",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "how many flowers have fallen?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'how many flowers have fallen?' directly addresses the transformation of the subject from 'I' to 'flowers' as required, indicating the focus on flowers falling rather than the speaker's action.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Spring sleep does not know dawn, everywhere the birds sing.",
+        "evidence_found": true,
+        "reasoning": "The translation does not mention any flowers having cognitive abilities or knowledge, so it fails to express the required meaning of '花具有认知能力（知道）'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Spring sleep does not know dawn, everywhere the birds sing. Last night's wind and rain sound, how many flowers have fallen?",
+        "evidence_found": true,
+        "reasoning": "The translation provided is a direct translation of the original Chinese poem '春晓' (Spring Dawn), not a rewritten version that differs significantly from the original. The original poem in Chinese is: 春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少. The translation accurately reflects the meaning and structure of the original poem without altering its core message.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

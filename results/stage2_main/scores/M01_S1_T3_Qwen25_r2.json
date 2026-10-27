@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S1_T3_Qwen25_r2",
+  "anon_code": "T_813a0cf8",
+  "poem_id": "M01",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "As if the candles, with their own hearts, weep",
+        "evidence_found": true,
+        "reasoning": "The phrase 'candles, with their own hearts, weep' implies both deep emotional pain (hearts) and seeming coldness (weeping as a metaphor for detachment), capturing the paradox of deep love and seeming indifference.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Lofty wine cups fail to evoke a smile",
+        "evidence_found": true,
+        "reasoning": "The phrase 'fail to evoke a smile' directly translates to '无法笑出' (unable to smile), and 'lofty wine cups' refers to the '酒席前' (at the wine table) scene, meeting both requirements.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "As if the candles, with their own hearts, weep.",
+        "evidence_found": true,
+        "reasoning": "The phrase explicitly states that candles have hearts and are weeping, directly preserving the personification of candles as the subject with emotional depth.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "As if the candles, with their own hearts, weep.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly state 'for us/on our behalf' as required by the '替人' relationship, and the time continuation 'until dawn' is not clearly conveyed.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "translation_id": "D06_S1_T1_Qwen3_r2",
+  "anon_code": "T_3fd839f4",
+  "poem_id": "D06",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The poet reflects on the distant joy of brothers climbing high, planting chrysanthemums, yet feels a solitary pang as one is left behind.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'reflects on the distant joy' captures the meaning of 'in distant imagination' as required, and the context implies the poet's thought process from a distance without direct observation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "brothers climbing high",
+        "evidence_found": true,
+        "reasoning": "The phrase 'brothers climbing high' directly translates to '兄弟们登高之处' with the required meaning of brothers climbing the heights.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "planting chrysanthemums",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'planting chrysanthemums' instead of 'planted dogwood sprigs' as required, and the phrase 'brothers climbing high' does not convey the meaning of 'everyone's head wearing dogwood sprigs'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The poet reflects on the distant joy of brothers climbing high, planting chrysanthemums, yet feels a solitary pang as one is left behind.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'feels a solitary pang as one is left behind' directly translates to the meaning of '少了我一个人' (one person is left behind, specifically the speaker).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\n  \"original\": \"遥知兄弟登高处，遍插茱萸少一人。\",\n  \"reference_notes\": {\n    \"遥知\": \"在远处想象得知。要点：视角是诗人远距离的推想，不是亲眼所见。\",\n    \"兄弟登高处\": \"兄弟们登高之处。要点：登高的是兄弟，不是诗人。\",\n    \"遍插茱萸\": \"每个人头上都插着茱萸。要点：'遍'表示都，茱萸是重阳习俗物。\",\n    \"少一人\": \"少了我一个人。要点：缺席者是诗人自己。\"\n  },\n  \"translation\": \"The poet reflects on the distant joy of brothers climbing high, planting chrysanthemums, yet feels a solitary pang as one is left behind. \\n\\nA lone traveler stands atop the hill, gazing afar, where the wind whispers of ancient tales and the autumn leaves dance in sorrow.\"\n}"
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

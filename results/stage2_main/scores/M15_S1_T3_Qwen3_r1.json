@@ -1,0 +1,67 @@
+{
+  "translation_id": "M15_S1_T3_Qwen3_r1",
+  "anon_code": "T_a1221227",
+  "poem_id": "M15",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why must the Qiang flute mourn the willows of Yangzhou?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Why must' expresses a rhetorical question implying 'there is no need to', matching the required meaning of '不必/no need to' as a negation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The spring wind does not reach the Jade Gate.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the spring wind cannot reach the Jade Gate, fulfilling the requirement of a clear negative statement with geographical limitation.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The spring wind does not reach the Jade Gate.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The spring wind does not reach the Jade Gate' directly reflects the causal relationship where the spring wind's absence leads to the need for lamentation, aligning with the original's '春风不度所以怨也无用' meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why must the Qiang flute mourn the willows of Yangzhou?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'mourn the willows of Yangzhou' implies the traditional '折杨柳' (cutting willows) as a symbol of parting, fulfilling the requirement for the '离别' (separation) meaning of 《折杨'柳'.'",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

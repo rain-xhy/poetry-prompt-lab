@@ -1,0 +1,67 @@
+{
+  "translation_id": "M16_S2_T1_Qwen25_r3",
+  "anon_code": "T_e05f8eff",
+  "poem_id": "M16",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The cock's crow through the thatch inn's moonlight",
+        "evidence_found": true,
+        "reasoning": "The phrase 'the cock's crow through the that: inn's moonlight' does not match the required meaning of '鸡鸣时茅店上还有月亮' which implies the moon is still visible on the thatched inn at the time of the rooster's crow, but the translation describes the rooster's crow passing through the moonlight of the thatched inn, which reverses the intended meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Footprints on the frosty plank bridge's side.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Footprints on the frosty plank bridge's side' does not match the required meaning of '人的足迹在板桥的霜上' which implies the footprints are on the bridge's frost, not the side of the bridge.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Recalling dreams in Duf:eng",
+        "evidence_found": false,
+        "reasoning": "The phrase 'Recalling dreams in Dufeng' directly translates to '因此想起在杜陵做的梦' as it expresses remembering dreams from Du陵 (Dufeng) which matches the requirement of expressing memories of dreams.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Feral geese in the winding pond",
+        "evidence_found": true,
+        "reasoning": "The phrase 'winding pond' directly translates to 'curved/winding pool' which meets the requirement for a curved pond, and 'feral geese' corresponds to 'falcon geese' (凫雁) in the original, showing the fullness of the scene.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

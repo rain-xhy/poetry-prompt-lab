@@ -1,0 +1,67 @@
+{
+  "translation_id": "M15_S3_T1_Qwen25_r1",
+  "anon_code": "T_703fb5cb",
+  "poem_id": "M15",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "but why lament the willows' green",
+        "evidence_found": true,
+        "reasoning": "The phrase 'but why lament the will: green' expresses a rhetorical question implying 'there is no need to lament', matching the required meaning of '不必/no need to'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "For spring's breeze never crosses the Jade Gate Pass",
+        "evidence_found": true,
+        "reasoning": "The phrase 'never crosses' explicitly conveys the negative meaning and geographical limitation required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "For spring's breeze never crosses the Jade Gate Pass.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'For spring's breeze never crosses the Jade Gate Pass' directly reflects the causal relationship that the absence of spring's breeze (春风不度) leads to the futility of lamenting the willows' green (怨), fulfilling the required causal logic and thematic resonance.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The羌笛 (qiang dí) plays on, but why lament the willows' green? For spring's breeze never crosses the Jade Gate Pass.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions '羌笛' but does not explicitly or implicitly convey the '离别' (parting) meaning of '折杨柳' as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "M17_S2_T1_Qwen3_r1",
+  "poem_id": "M17",
+  "trap_type": "时态叙事",
+  "strategy": "S2_T1",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nSemantic Analysis (in Chinese):\n“可待成追忆”：难道要等到成为回忆（反问+将来）。要点：反问语气，将来时态。\n“当时已惘然”：当时就已经惘然（过去完成）。要点：过去时态，'已'的完成。\n“此情”：这份情感的指代。要点：特指的情感。\n“时态复杂性”：将来回忆vs当时已惘然的时态交织。要点：现在、将来、过去三个时态的交织。\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n此情可待成追忆，只是当时已惘然。",
+  "prompt_sha256": "7411b72c93bed2bc244deddb26effb336b6fda6f1f7b8c0feac57f644c065af9",
+  "translation": "This emotion can wait to become a memory, yet at that time it was already bewildered.  \n\n[The use of \"can wait\" reflects the contrast between the present and the past, emphasizing the unresolved nature of the emotion.]",
+  "metadata": {
+    "input_tokens": 336,
+    "output_tokens": 47,
+    "latency_ms": 11400.764465332031,
+    "timestamp": "2026-10-26T21:31:50.219027",
+    "finish_reason": "stop"
+  }
+}

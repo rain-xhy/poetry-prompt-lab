@@ -1,0 +1,58 @@
+{
+  "translation_id": "A06_S1_T1_Qwen25_r3",
+  "anon_code": "T_af69c7d4",
+  "poem_id": "A06",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "And I weep for the candle, till dawn's light gleams.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'weep for the candle' does not capture the '人替烛' (person replacing candle) inversion relationship as required, which implies a person taking the place of the candle rather than weeping for it.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Full of emotion, yet seeming to be无情, I only find my laughter not to come.",
+        "evidence_found": true,
+        "reasoning": "The phrase '替的方向' translates to 'the direction of substitution' or 'the direction of replacement', but the translation provided does not explicitly mention 'direction' or 'substitution' in any part of the text. The translation focuses on emotional states and metaphors related to laughter and candles, which do not convey the concept of 'direction' or 'substitution' as required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Full of emotion, yet seeming to be无情, I only find my laughter not to come.",
+        "evidence_found": true,
+        "reasoning": "The translation reverses the meaning of the original poem by stating the speaker is 'full of emotion' while seeming 'without feeling', which contradicts the original's intended contrast.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

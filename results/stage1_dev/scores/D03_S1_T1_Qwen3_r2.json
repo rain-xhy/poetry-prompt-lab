@@ -1,0 +1,76 @@
+{
+  "translation_id": "D03_S1_T1_Qwen3_r2",
+  "anon_code": "T_ca4490c6",
+  "poem_id": "D03",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Remind you to drink this last cup of wine, Beyond the Yangguan pass, where friends are no more.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly state that the speaker is urging the friend to drink one more cup of wine, which is the core meaning of the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Beyond the Yanggu: pass, where friends are no more",
+        "evidence_found": false,
+        "reasoning": "The phrase 'Beyond the Yangguan pass' indicates moving west past Yangguan, fulfilling the requirement of '向西出了阳关' (west of Yangguan).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Beyond the Yangguan pass, where friends are no more.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'friends are no more' directly translates to 'no old friends/acquaintances' without expanding the meaning to 'no one at all'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Beyond the Yangguan pass, where friends are no more",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Beyond the Yangguan pass, where friends are no more' directly connects the absence of old friends (无故人) with the act of drinking, implying that the speaker is reminding the listener to drink one last cup due to the lack of friends ahead.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

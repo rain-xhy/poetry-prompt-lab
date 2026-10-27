@@ -1,0 +1,67 @@
+{
+  "translation_id": "M08_S3_T1_Qwen25_r1",
+  "anon_code": "T_3220bed0",
+  "poem_id": "M08",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "There are no souls on the empty mountain, Only the sound of human voices fills the air.",
+        "evidence_found": true,
+        "reasoning": "The translation states 'There are no souls on the empty mountain' which implies 'no one' rather than 'cannot see' or 'cannot hear', failing to preserve the contrast between 'cannot see' and 'can hear' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The fading sunlight returns to the deep woods",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The fading sunlight returns to the deep woods' directly expresses the dynamic movement of sunlight (返景) as the setting sun (夕阳) entering the deep forest (深林), meeting both conditions: expressing light movement and identifying '返景' as sunset.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Illuminating the green moss on the ground",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Illuminating the green moss on the ground' directly corresponds to '又照在青苔上' by expressing the action of illumination on moss, fulfilling the requirement for '又/再次' and the moss imagery.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "There are no souls on the empty mountain",
+        "evidence_found": true,
+        "reasoning": "The phrase 'empty mountain' directly translates to '空山' and implies a vast, uninhabited space, satisfying the requirement for '空旷' (vast/open) while the context of 'no souls' suggests the absence of human presence, contributing to the '幽静' (quiet/peaceful) atmosphere without denying the existence of the mountain.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

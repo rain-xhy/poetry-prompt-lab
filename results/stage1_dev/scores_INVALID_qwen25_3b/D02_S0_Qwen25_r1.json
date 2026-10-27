@@ -1,0 +1,62 @@
+{
+  "translation_id": "D02_S0_Qwen25_r1",
+  "anon_code": "T_9f3b0e9e",
+  "poem_id": "D02",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "All the birds have flown far away",
+        "evidence_found": true,
+        "reasoning": "The translation states 'All the birds have flown far away', which does not match the original phrase '众鸟高飞尽' (All the birds have flown away). The translation does not convey the sense of '消失' (disappearance) as required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "All the birds have flown far away, And the solitary cloud wanders free.",
+        "evidence_found": true,
+        "reasoning": "The translation does not contain the phrase '孤云独去闲' which means '孤云独自悠闲地飘走'. Instead, it translates to 'All the birds have flown far away, And the solitary cloud wanders free.'",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I gaze at thee, my friend, And thou dost gaze back at me.",
+        "evidence_found": true,
+        "reasoning": "The phrase '人与山互相看着' is not directly quoted or preserved in the translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "We tire not of each other's sight, Save for the mountain of respect and purity.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'only敬亭山' is not preserved in the translation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M14_S2_T1_Qwen25_r3",
+  "anon_code": "T_04b9c989",
+  "poem_id": "M14",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "But if the Pengl as the Penglai general were still there",
+        "evidence_found": false,
+        "reasoning": "The phrase 'But if the Penglai general were still there' uses a conditional clause starting with 'if' to express the assumption that the Penglai general remains, fulfilling the requirement for a condition hypothesis.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A万里-long marchers never return",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A万里-long marchers never return' does not express 'not allow/prevent' as required; it describes a passive outcome without active prevention.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "But if the Pengl:ai general were still there, The barbarian horse would never cross the Yin Mountains.",
+        "evidence_found": false,
+        "reasoning": "The translation uses a conditional clause 'if...were still there' followed by a result clause 'would never cross', preserving the condition-result logic while maintaining the original's historical and military context.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Qin Dynasty moon still bright, Han Dynasty ramparts stand, A万里-long marchers never return.",
+        "evidence_found": true,
+        "reasoning": "The translation focuses on historical dynasties and military structures but does not explicitly mention a specific border general or convey the image of a formidable commander who never returns, which is required for the phrase 龙城飞将.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 1.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

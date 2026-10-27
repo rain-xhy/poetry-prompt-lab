@@ -1,0 +1,19 @@
+{
+  "repeat_scoring": {
+    "n_units": 120,
+    "unit_agreement": 1.0,
+    "mean_abs_diff_accuracy": 0.0,
+    "n_translations": 30,
+    "seed": 7919
+  },
+  "second_model": {
+    "n_units": 79,
+    "unit_agreement": 0.6835443037974683,
+    "mean_abs_diff_accuracy": 0.27083333333333337,
+    "model": "gemma2:2b",
+    "n_translations": 20,
+    "both_pass": 48,
+    "main_pass_only": 9,
+    "second_pass_only": 16
+  }
+}

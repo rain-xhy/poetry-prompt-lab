@@ -1,0 +1,71 @@
+{
+  "translation_id": "D06_S5_T2_Qwen25_r2",
+  "anon_code": "T_608c3ebb",
+  "poem_id": "D06",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "From afar, I know my brothers climb high",
+        "evidence_found": true,
+        "reasoning": "The phrase 'From afar, I know' directly translates the concept of '遥知' as 'in distant imagination/knowing' without using 'I see/I watch'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "From afar, I know my brothers climb high",
+        "evidence_found": true,
+        "reasoning": "The phrase 'brothers climb high' directly translates to '兄弟们登高' meaning 'brothers climb the heights', satisfying the requirement that the subject is 'brothers' and the action is 'climb the heights'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Upon each head, a fragrant bush is tied.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Upon each head, a fragrant bush is tied' directly corresponds to the meaning of '每个人头上都插着茱萸' by indicating that each person has a fragrant bush (茱萸) tied on their head.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "But one is missing, in silent sighs.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'one is missing' directly translates to '少了一个人' and the context implies the speaker is the missing person.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "valid": false,
+    "raw": "{\n  \"adequacy\": 5,\n  \"imagery\": 5,\n  \"emotion\": 5,\n  \"fluency\": 5,\n  \"po\": 5\n}"
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

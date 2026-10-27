@@ -1,0 +1,58 @@
+{
+  "translation_id": "A07A_S1_T1_Qwen25_r2",
+  "anon_code": "T_8104471c",
+  "poem_id": "A07A",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A paradox of weightless freedom, grace.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'weightless freedom, grace' implies the absence of weight (negation) and the concept of grace, which aligns with the requirement to infer correct negation from the ambiguous version.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A leaf's descent a silent, graceful dance.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'a silent, graceful dance' directly corresponds to the requirement of '明确版本应该正确' by emphasizing the graceful and silent nature of the leaf's movement, which aligns with the concept of a clear negation in the context of the poem.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Gently slipping through the river's embrace, A leaf's descent a silent, graceful dance. In nature's hands, it floats without a thought, A paradox of weightless freedom, grace.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the essence of the original phrase by emphasizing the leaf's natural movement and the paradox of freedom and grace, maintaining consistent meaning between the two versions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

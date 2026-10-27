@@ -1,0 +1,67 @@
+{
+  "translation_id": "M09_S5_T3_Qwen25_r1",
+  "anon_code": "T_ed68fc94",
+  "poem_id": "M09",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The moon descends, the owl cries,霜 fills the sky.",
+        "evidence_found": true,
+        "reasoning": "The translation includes the phrase '霜 fills the sky' which contains the Chinese character '霜' (frost) but the English translation uses '霜' as a transliterated character without proper translation, which is not standard English and does not preserve the three imagery elements as intended.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Riverside maples and fishing lights face my sorrowful sleep",
+        "evidence_found": true,
+        "reasoning": "The phrase 'face my sorrowful sleep' does not correctly convey '面对愁绪而眠' as it implies the maples and fishing lights are actively facing the sleep, rather than the person facing the sorrowful state while sleeping.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Riverside maples and fishing lights",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Riverside maples and fishing lights' directly corresponds to the required two意象 (江边枫树 and 渔火) as specified.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "The moon descends, the owl cries,霜 fills the sky. Riversides maples and fishing lights face my sorrowful sleep.",
+        "evidence_found": false,
+        "reasoning": "The translation conveys a solitary, cold atmosphere with elements like the moon, owl, frost, and riverside maples that evoke loneliness and melancholy, avoiding any joyful tone.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.65,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

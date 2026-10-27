@@ -1,0 +1,67 @@
+{
+  "translation_id": "M15_S4_T1_Qwen3_r1",
+  "anon_code": "T_7dd55f4a",
+  "poem_id": "M15",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why do the羌笛 (qiāng dí) lament the willow trees?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Why do...' forms a rhetorical question implying 'there is no need to', matching the required meaning of '不必/no need to' as a rhetorical question.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The spring wind does not reach the western gate",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the spring wind cannot reach the western gate, fulfilling the requirement of a negative statement about the spring wind not reaching the Jade Gate (玉门关) due to geographical barriers.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The spring wind does not reach the western gate, leaving the jade gate cold and unvisited.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states that the spring wind not reaching the western gate causes the jade gate to be cold and unvisited, directly reflecting the causal relationship that the spring wind not reaching (春风不度) leads to no use of complaint (怨无用).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why do the羌笛 (qiāng dí) lament the willow trees?",
+        "evidence_found": true,
+        "reasoning": "The phrase explicitly mentions '羌笛' and uses 'lament the willow trees' to imply the traditional association of willows with parting, which corresponds to the '折杨柳' (cutting willows) tradition in Chinese culture symbolizing farewell.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

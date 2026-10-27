@@ -1,0 +1,19 @@
+{
+  "id": "M20_S0_Qwen25_r3",
+  "poem_id": "M20",
+  "trap_type": "时态叙事",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n我住长江头，君住长江尾。\n日日思君不见君，共饮长江水。",
+  "prompt_sha256": "83751ac1d537cbb8af12a2849b64724bf11a8b6c4e06653cdc8e046bde15303c",
+  "translation": "Here is a translation of the provided Chinese classical poem into English:\n\n\"I live by the Yangtze's head,\nYou dwell at its tail.\nDaily I think of you but cannot see you,\nWe share the waters of the Yangtze.\"\n\nThis translation aims to capture the essence and imagery of the original poem while rendering it in a way that feels natural in English.",
+  "metadata": {
+    "input_tokens": 63,
+    "output_tokens": 75,
+    "latency_ms": 12828.697919845581,
+    "timestamp": "2026-10-26T20:46:23.844471",
+    "finish_reason": "stop"
+  }
+}

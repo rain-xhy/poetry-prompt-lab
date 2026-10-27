@@ -1,0 +1,19 @@
+{
+  "id": "M13_S1_T3_Qwen3_r3",
+  "poem_id": "M13",
+  "trap_type": "否定逻辑",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n千山鸟飞绝，万径人踪灭。\n孤舟蓑笠翁，独钓寒江雪。",
+  "prompt_sha256": "5f88c37128897dd4c9565404616f0a0a9161c635fb6dd7bb1861dfe888c8250d",
+  "translation": "Beyond the mountains, no birds fly; through the paths, no people move.  \nAn old fisherman in a蓑笠 sits alone, casting a line in the frozen snow.\n\n[The \"蓑笠\" refers to a type of cloak and hat worn by fishermen. The \"寒江雪\" symbolizes the cold, lonely solitude of the fisherman.]\n\n[The poem conveys a sense of isolation and perseverance, even in the most desolate conditions.]",
+  "metadata": {
+    "input_tokens": 220,
+    "output_tokens": 93,
+    "latency_ms": 955.2931785583496,
+    "timestamp": "2026-10-26T20:28:33.993723",
+    "finish_reason": "stop"
+  }
+}

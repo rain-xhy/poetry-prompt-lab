@@ -1,0 +1,76 @@
+{
+  "translation_id": "D05_S3_only_Qwen25_r2",
+  "anon_code": "T_9dfdfdd2",
+  "poem_id": "D05",
+  "strategy": "S3_only",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of生死, both茫茫, not thinking about, self remains eternally难忘.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Ten years of生死' incorrectly uses '生死' (life and death) as a noun phrase instead of the intended temporal phrase 'ten years', and 'both茫茫' does not convey the intended meaning of 'two parties being separated and distant' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of生死, both茫茫, not thinking about, self remains eternally难忘.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'not thinking about' implies the action of not deliberately recalling, but the translation uses 'not thinking about' which suggests the absence of thought rather than the absence of deliberate effort, and 'self remains eternally难忘' incorrectly implies that the memory is eternal and unchanging, whereas the original phrase '不思量，自难忘' means that even without deliberate thought, the memory remains, but it does not imply that the memory is eternal or unchanging.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Thousand li solitary tomb, no place to诉说凄凉.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Thousand li solitary tomb' directly translates to '千里孤坟' with 'solitary' indicating '孤独' and 'thousand li' representing the '千里' distance.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no place to诉说凄凉",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no place to诉说凄凉' directly translates to 'no place to express sorrow', meeting the requirement of expressing 'no place/no one to express sorrow' and 'sorrow' as the emotion.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 2,
+    "poetic_quality": 2,
+    "overall": 2.5,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

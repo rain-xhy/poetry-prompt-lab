@@ -1,0 +1,19 @@
+{
+  "id": "M01_S1_T3_Qwen3_r1",
+  "poem_id": "M01",
+  "trap_type": "情感反差",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n多情却似总无情，唯觉尊前笑不成。\n蜡烛有心还惜别，替人垂泪到天明。",
+  "prompt_sha256": "ddce11dcba293b5b3ed0819afaf35da7ab6d13cd97ec091e3981c124ecfd833d",
+  "translation": "The poet's emotions are deeply conflicted—she feels passionately yet seems detached. She senses the sorrow in her friend's smile, yet cannot fully express it. The candle, with a heart, mourns the parting, weeping until dawn.\n\n[The candle is personified, symbolizing the fleeting nature of time and the enduring pain of separation. The \"to天明\" (until dawn) emphasizes the long, lingering sorrow.]\n\n---\n\nThe poem captures the tension between intense emotion and apparent detachment, reflecting the complex inner life of a poet who is both deeply felt and strangely distant.",
+  "metadata": {
+    "input_tokens": 226,
+    "output_tokens": 119,
+    "latency_ms": 1165.503740310669,
+    "timestamp": "2026-10-26T21:00:19.343466",
+    "finish_reason": "stop"
+  }
+}

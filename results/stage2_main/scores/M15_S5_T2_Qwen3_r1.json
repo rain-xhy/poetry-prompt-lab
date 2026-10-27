@@ -1,0 +1,67 @@
+{
+  "translation_id": "M15_S5_T2_Qwen3_r1",
+  "anon_code": "T_6bac139f",
+  "poem_id": "M15",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why lament the willow in spring",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Why lament the will: spring' expresses a rhetorical question implying 'no need to lament', matching the required meaning of '不必/no need to' as a negation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When the wind cannot reach the western gate?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'cannot reach' directly translates the 'not' and 'geographical limitation' required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why lament the willow in spring, When the wind cannot reach the western gate?",
+        "evidence_found": true,
+        "reasoning": "The translation captures the causal relationship where the wind not reaching the western gate (spring not arriving) makes lamenting the willow pointless, aligning with the required causal logic and thematic resonance.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Why lament the willow in spring",
+        "evidence_found": true,
+        "reasoning": "The phrase 'lament the willow in spring' does not explicitly or implicitly convey the 'folded willow' (折杨柳) meaning required by the original, which is a specific cultural reference to a traditional Chinese song associated with parting.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

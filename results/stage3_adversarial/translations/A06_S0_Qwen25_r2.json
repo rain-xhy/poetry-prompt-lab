@@ -1,0 +1,19 @@
+{
+  "id": "A06_S0_Qwen25_r2",
+  "poem_id": "A06",
+  "trap_type": "personification_reversal",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n多情却似总无情，唯觉尊前笑不成。\n人有心还惜别，替烛垂泪到天明。",
+  "prompt_sha256": "1f13466cd1a880f9ac317183ee016533368463d80c836755fa4b1fc17d938270",
+  "translation": "Here's an English translation of the provided Chinese classical poem:\n\n\"Dealing with feelings is like being completely emotionless,\nBut I find my laughter cannot be produced when seated at the wine cup.\nPeople have hearts and cherish parting,\nI am like a candle that weeps until dawn, for fear of parting.\"\n\nThis translation aims to capture the essence and imagery of the original poem while making it flow naturally in English.",
+  "metadata": {
+    "input_tokens": 70,
+    "output_tokens": 86,
+    "latency_ms": 11651.14426612854,
+    "timestamp": "2026-10-26T21:52:32.368568",
+    "finish_reason": "stop"
+  }
+}

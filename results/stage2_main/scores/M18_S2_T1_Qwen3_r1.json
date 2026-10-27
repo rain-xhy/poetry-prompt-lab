@@ -1,0 +1,62 @@
+{
+  "translation_id": "M18_S2_T1_Qwen3_r1",
+  "anon_code": "T_4f04c567",
+  "poem_id": "M18",
+  "strategy": "S2_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The bloom fades without being held back, A winged friend returns, yet still it flies.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express 'helpless' or 'unable to prevent the falling of flowers' as required; it describes a bloom fading and a friend returning, which does not convey the sense of helplessness or the action of flowers falling.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A winged friend returns, yet still it flies.",
+        "evidence_found": true,
+        "reasoning": "The translation does not convey 'the燕子 (swallow) has returned' as a completed action but rather implies the swallow is still flying, which contradicts the requirement that the燕子 (swallow) must have returned.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The bloom fades without being held back, A winged friend returns, yet still it flies.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the contrast between the flower's departure (fades) and the swallow's return (returns), emphasizing their opposing directions with 'fades' implying departure and 'returns' indicating arrival.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The bloom fades without being held back, A winged friend returns, yet still it flies.",
+        "evidence_found": true,
+        "reasoning": "The translation does not convey '物是人非' (things remain but people change) as it focuses on the bloom fading and a friend returning, which implies temporary change rather than permanent change of people.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\n  \"original\": \"无可奈何花落去，似曾相识燕归来。\",\n  \"reference_notes\": {\n    \"无可奈何花落去\": \"无力挽留地看着花落。要点：无奈、无力的情感。\",\n    \"似曾相识燕归来\": \"归来的燕子仿佛曾经见过。要点：'似曾相识'的模糊感。\",\n    \"花落去vs燕归来\": \"离去与归来的对比。要点：去与来的对比结构。\",\n    \"时间流逝的感慨\": \"对时光流逝、物是人非的感慨。要点：时间、变化的主题。\"\n  },\n  \"translation\": \"The bloom fades without being held back,  A winged friend returns, yet still it flies.\"\n}"
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "translation_id": "A09_S1_T1_Qwen25_r1",
+  "anon_code": "T_ed5a953e",
+  "poem_id": "A09",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "For lack of Lóng City general",
+        "evidence_found": true,
+        "reasoning": "The phrase '只因' means 'because' (causality), but the translation uses 'For lack of' which implies absence rather than causality.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "For lack of Lóng City general, The Hu horse cannot cross Yín Mountain.",
+        "evidence_found": true,
+        "reasoning": "The phrase explicitly states a factual condition (lack of general) leading to a factual outcome (Hu horse cannot cross Yín Mountain), not an assumption or hypothetical scenario.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "For lack of Lóng City general,",
+        "evidence_found": true,
+        "reasoning": "The phrase 'For lack of Lóng City general' implies a cause-effect relationship where the absence of the general is the reason for the Hu horse not crossing Yín Mountain, but the original Chinese phrase '但使' (but if) indicates a conditional relationship where the presence of the general would allow the horse to cross, not a lack of the general causing the problem.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

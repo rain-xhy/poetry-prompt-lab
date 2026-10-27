@@ -1,0 +1,67 @@
+{
+  "translation_id": "M19_S4_T1_Qwen3_r1",
+  "anon_code": "T_6798f752",
+  "poem_id": "M19",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In the palace of the King of Qi, I met acquaintances and heard of his halls, several times.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'several times' does not convey past frequency or multiple occurrences as required; it implies a single instance of hearing, not repeated past experiences.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "where blossoms fell and the spring was met again, as I encountered you",
+        "evidence_found": true,
+        "reasoning": "The phrase 'met again' directly translates to '又' (again) and 'encountered you' implies the current reunion, fulfilling the requirement for present tense and repeated meeting.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In the palace of the King of Qi, I met acquaintances and heard of his halls, several times.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly contrast past and present or imply a change in circumstances, as required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "where blossoms fell and the spring was met again",
+        "evidence_found": true,
+        "reasoning": "The phrase 'blossoms fell' directly translates the '落花' (fallen flowers) imagery, and 'spring was met again' implies the cyclical nature of spring, aligning with the symbolic meaning of '落花时节' representing fleeting beauty and transient moments.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 1.45,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

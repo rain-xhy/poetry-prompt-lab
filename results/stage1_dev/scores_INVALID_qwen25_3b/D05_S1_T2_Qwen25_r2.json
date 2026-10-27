@@ -1,0 +1,62 @@
+{
+  "translation_id": "D05_S1_T2_Qwen25_r2",
+  "anon_code": "T_f90c1f32",
+  "poem_id": "D05",
+  "strategy": "S1_T2",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years生死twilight",
+        "evidence_found": true,
+        "reasoning": "The translation does not contain the exact phrase '十年生死两茫茫' and does not preserve the meaning of '生者与逝者两相隔绝、彼此渺茫'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years生死twilight, Not thought of, yet ever present.",
+        "evidence_found": true,
+        "reasoning": "The translation incorrectly states 'Ten years生死twilight' which is not present in the original phrase and changes the meaning. It also does not accurately reflect the original phrase's meaning of '不思量，自难忘'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "No mention of '孤独' (lonely) or '千里' (thousand miles) in the translation",
+        "evidence_found": false,
+        "reasoning": "Ten years生死twilight, Not thought of, yet ever present. Lonely grave, A thousand miles away, No sound of sorrow's plight.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Not thought of, yet ever present.",
+        "evidence_found": true,
+        "reasoning": "表达无处/没有人可诉说",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.4,
+    "valid": true
+  }
+}

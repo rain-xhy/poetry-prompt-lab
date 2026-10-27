@@ -1,0 +1,67 @@
+{
+  "translation_id": "M05_S4_T1_Qwen3_r2",
+  "anon_code": "T_5591919d",
+  "poem_id": "M05",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Seeking and searching, feeling cold and empty, sorrowful and pit",
+        "evidence_found": true,
+        "reasoning": "The translation does not convey the repeated or continuous action of searching as required; it describes emotional states without showing the iterative motion of 'seeking and searching'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "feeling cold and empty, sorrowful and pitiful",
+        "evidence_found": true,
+        "reasoning": "The phrase 'feeling cold and empty, sorrowful and pitiful' directly conveys the cold, desolate environment and emotional desolation required, aligning with the need for a progressive relationship with the previous line.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Seeking and searching, feeling cold and empty, sorrowful and pit",
+        "evidence_found": true,
+        "reasoning": "The translation does not fully capture the depth of sorrow and the progressive emotional layers required; it cuts off at 'sorrowful and pit' which is incomplete and lacks the full emotional weight of the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking and searching, feeling cold and empty, sorrowful and pitiful.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly shows the progression from action (seeking and searching) to environment (feeling cold and empty) to emotion (sorrowful and pitiful), maintaining the required order.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 1.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

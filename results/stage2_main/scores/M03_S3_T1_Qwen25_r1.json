@@ -1,0 +1,67 @@
+{
+  "translation_id": "M03_S3_T1_Qwen25_r1",
+  "anon_code": "T_dbfc097a",
+  "poem_id": "M03",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "You inquire about my return, yet I cannot say when",
+        "evidence_found": true,
+        "reasoning": "The phrase 'You inquire about my return, yet I cannot say when' translates to 'you are asking about a return date but cannot yet specify it', which does not match the required meaning of '归期尚不能确定' (the return date cannot be determined yet). The required meaning emphasizes uncertainty without a fixed deadline, but the translation implies the speaker is actively trying to determine a date rather than it being undetermined.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When we can sit together by the west window and cut candle wicks",
+        "evidence_found": true,
+        "reasoning": "The phrase does not use future tense (when will/when can) as required; it uses a conditional structure that implies possibility rather than future tense.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "You inquire about my return, yet I cannot say when, as the autumn pool in the mountains swells with night rain.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly mention 'recalling past rain' or 'telling about tonight's rain' as required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "the autumn pool in the mountains swells with night rain",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'the autumn pool in the mountains swells with night rain' which does not explicitly state that the rain causes the water to rise, but rather implies the pool swells due to the rain. The required meaning is that the rain makes the pool's water rise, which is not directly expressed here.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "A02_S0_Qwen25_r2",
+  "poem_id": "A02",
+  "trap_type": "subject_confusion",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n春眠不觉晓，处处闻啼鸟。\n夜来风雨声，花知落多少。",
+  "prompt_sha256": "7ada5d51cbeb4785af19733363d5d8bcfd55b96068e6b4a67a3c119d8ed26d94",
+  "translation": "Here is a translation of the Chinese classical poem into English:\n\nSpring slumber doesn't know dawn, \nAll around the birdsong is heard.\nLast night's wind and rain sounds,\nHow many flowers fell I wonder. \n\nNote: The original Chinese poem is quite straightforward, and this translation aims to capture its essence while adapting it to English. The last line, \"花知落多少\" (huā zhī luò duōshǎo), translates to \"How many flowers fell I wonder\" in English, which is a playful and fitting way to capture the spirit of the original poem.",
+  "metadata": {
+    "input_tokens": 62,
+    "output_tokens": 122,
+    "latency_ms": 14085.306882858276,
+    "timestamp": "2026-10-26T21:43:10.955793",
+    "finish_reason": "stop"
+  }
+}

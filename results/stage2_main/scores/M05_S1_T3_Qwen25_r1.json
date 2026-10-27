@@ -1,0 +1,67 @@
+{
+  "translation_id": "M05_S1_T3_Qwen25_r1",
+  "anon_code": "T_b61a5241",
+  "poem_id": "M05",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking, seeking, in vain",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Seeking, seeking, in vain' directly expresses the repeated searching action with the repetition of 'seeking' preserving the rhythmic quality of the original Chinese phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Cold and lonely,凄惨惨惨 (sobbing and wailing), Miserable and sorrowful.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Cold and lonely' directly conveys the cold, desolate environment, and '凄惨惨惨 (sobbing and wusing)' implies the凄凉 (cold and desolate) aspect, meeting both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Cold and lonely,凄惨惨惨 (sobbing and wailing), Miserable and sorrowful.",
+        "evidence_found": true,
+        "reasoning": "The phrase '凄惨惨惨 (sobbing and wailing)' directly conveys the deep sorrow and emotional layers required, with 'sobbing and wailing' indicating intense emotional distress.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking, seeking, in vain, Cold and lonely,凄惨惨惨 (sobbing and wailing), Miserable and sorrowful.",
+        "evidence_found": true,
+        "reasoning": "The translation follows the required structure of action (seeking), environment (cold and lonely), and emotion (sobbing and wailing) in sequence without altering the order.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

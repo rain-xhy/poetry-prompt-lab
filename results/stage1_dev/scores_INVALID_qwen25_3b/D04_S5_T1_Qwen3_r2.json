@@ -1,0 +1,57 @@
+{
+  "translation_id": "D04_S5_T1_Qwen3_r2",
+  "anon_code": "T_153cc391",
+  "poem_id": "D04",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The depth of the Tao Lake water is a thousand feet",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'a thousand feet' which does not match the '千尺' in the original phrase. The translation also does not preserve the name 'Peach Blossom Pool'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "cannot match the depth of the affection sent by Wang Lun.",
+        "evidence_found": true,
+        "reasoning": "The translation states 'cannot match the depth of the affection sent by Wang Lun', which implies a comparison to a deeper affection, contradicting the original '比不上' which means 'cannot match' or 'not as deep'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The translation does not mention Wang Lun as the one sending the person, and it does not preserve the phrase '我' (I) as the one being sent.",
+        "evidence_found": false,
+        "reasoning": "",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The depth of the Tao Lake water is a thousand feet, but it cannot match the depth of the affection sent by Wang Lun.",
+        "evidence_found": true,
+        "reasoning": "The translation uses a different metaphor and does not directly compare the depth of water to the depth of affection as in the original phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\"adequacy\":1,\"imagery\":0,\"emotion\":1,\"fluency\":2,\"poetic_quality\":0}"
+  }
+}

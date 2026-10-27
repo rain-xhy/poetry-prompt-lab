@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S5_T1_Qwen25_r3",
+  "anon_code": "T_eeafee85",
+  "poem_id": "M01",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Lofty with affection yet seeming indifferent",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Lofty with affection yet seeming indifferent' directly captures '深情与似无情的悖论张力' by contrasting 'affection' (deep love) with 'seeming indifferent' (seeming coldness/indifference), maintaining the paradoxical tension between the two concepts.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I find my smile at the wine cup hard to start",
+        "evidence_found": true,
+        "reasoning": "The phrase 'hard to start' directly conveys 'unable to/cannot' smile, and 'at the wine cup' preserves the 'at the table' scene as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Like candles with a soul, they mourn our farewell",
+        "evidence_found": true,
+        "reasoning": "The phrase explicitly states that candles have a soul (有心) and mourn the farewell (惜别), fulfilling the requirement of preserving the personification of the candle as the subject with emotional depth.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Weeping silently until the dawn breaks through",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Weeping silently until the dawn breaks through' directly translates the required meaning of '蜡烛替人流泪 + 一直到天明' by preserving the 'until dawn' time continuation and the 'for us' relationship through 'our farewell'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 4.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

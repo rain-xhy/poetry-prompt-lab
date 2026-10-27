@@ -1,0 +1,19 @@
+{
+  "id": "M15_S0_Qwen3_r1",
+  "poem_id": "M15",
+  "trap_type": "否定逻辑",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n黄河远上白云间，一片孤城万仞山。\n羌笛何须怨杨柳，春风不度玉门关。",
+  "prompt_sha256": "77a3de0adee1b564b3c63b23016c8f26cb52ec5e22d99777b53eccb768cd697e",
+  "translation": "Yellow River flows far beyond the clouds,  \nA solitary city stands on a mountain of peaks.  \nWhy need the羌笛 (Qiang flute) mourn the willow trees?  \nThe spring wind does not reach the western gate.",
+  "metadata": {
+    "input_tokens": 56,
+    "output_tokens": 48,
+    "latency_ms": 552.4098873138428,
+    "timestamp": "2026-10-26T20:56:23.205318",
+    "finish_reason": "stop"
+  }
+}

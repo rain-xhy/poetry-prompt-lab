@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S2_T1_Qwen3_r1",
+  "anon_code": "T_a7c3db8c",
+  "poem_id": "M02",
+  "strategy": "S2_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "For this thing holds the deepest yearning",
+        "evidence_found": true,
+        "reasoning": "The phrase 'this thing' refers to the red beans, which are the symbol of longing as per the original Chinese phrase's meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "May you take them in abundance",
+        "evidence_found": true,
+        "reasoning": "The phrase 'May you take them in abundance' expresses a wish/hope for the recipient to gather the red beans, fulfilling the requirement of '劝君多采摘（愿望）' with the direct address 'you' and the action of 'taking' (gathering).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "For this thing holds the deepest yearning.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'holds the deepest yearning' directly translates to '最能寄托相思之情' as it conveys the idea of this thing being the most capable of holding or embodying deep longing.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Spring brings forth a few branches.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Spring brings forth a few branches' does not express the time of spring but rather the action of spring 'bringing forth' branches, which is not the natural growth process of red beans as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

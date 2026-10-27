@@ -1,0 +1,67 @@
+{
+  "translation_id": "M09_S5_T2_Qwen3_r2",
+  "anon_code": "T_bcfa5f20",
+  "poem_id": "M09",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Moon falls, cranes cry, frost covers the sky—",
+        "evidence_found": true,
+        "reasoning": "The translation includes three images: 'Moon', 'cranes', and 'frost', but the phrase 'Jiang side, red maple, fish fire, sleep in sorrow' introduces additional elements that are not part of the original Chinese phrase, thus violating the requirement of preserving only three images without causal relationships.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "sleep in sorrow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'sleep in sorrow' does not explicitly convey 'facing' or 'confronting' sorrow, only indicating sorrow during sleep without the relational aspect of facing it.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Jiang side, red maple, fish fire",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'red maple' instead of 'maple tree' and 'fish fire' instead of 'fishery fire', which alters the intended imagery of '枫树' (maple tree) and '渔火' (fishery fire) as distinct natural elements.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Moon falls, cranes cry, frost covers the sky—",
+        "evidence_found": true,
+        "reasoning": "The phrase conveys a lonely and cold atmosphere with imagery of moonlight, cranes (often associated with solitude), and frost, which aligns with the required 'nightboat's solitude and coldness' without being joyful.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

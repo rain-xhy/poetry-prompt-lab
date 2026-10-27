@@ -1,0 +1,19 @@
+{
+  "id": "A09_S0_Qwen25_r2",
+  "poem_id": "A09",
+  "trap_type": "conditional_to_causal",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n秦时明月汉时关，万里长征人未还。\n只因龙城飞将在，胡马不度阴山。",
+  "prompt_sha256": "99095a7c75f6e712d33b31536dfaf736968d44d04c759701d2cbaed80331b962",
+  "translation": "Here is the English translation of the provided Chinese classical poem:\n\n\"From Qin to Han, the bright moon hangs,\nA万里-long march returns none.\nJust for the sake of Lóng City's flying general,\nThe barbarian horses can't cross Yín Mountain.\"\n\nNote: This poem is a translation of the original Chinese poem. The name \"龙城飞将\" (Lóng City's flying general) is a reference to Li Guang, a famous Han Dynasty general, while \"阴山\" (Yín Mountain) is a geographical term referring to the Yinshan Mountains. The specific interpretation of \"龙城\" (Lóng City) as a place name is not universally agreed upon and might vary in different translations. The poem expresses a hope that the general's valor will ensure the safety of the borders.",
+  "metadata": {
+    "input_tokens": 69,
+    "output_tokens": 164,
+    "latency_ms": 12939.449310302734,
+    "timestamp": "2026-10-26T21:56:57.240554",
+    "finish_reason": "stop"
+  }
+}

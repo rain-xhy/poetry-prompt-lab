@@ -1,0 +1,62 @@
+{
+  "translation_id": "D03_S1_T2_Qwen3_r1",
+  "anon_code": "T_fdab5ba8",
+  "poem_id": "D03",
+  "strategy": "S1_T2",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Beneath your gaze, let the last sip of this wine be ours, A path beyond the Jade Gate, where friends are no more.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '我劝你再干一杯酒' (I advise you to drink one more cup of wine). Instead, it translates the phrase into 'Beneath your gaze, let the last sip of this wine be ours' which does not match the original meaning and context.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A path beyond the Jade Gate, where friends are no more.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'Jade Gate' instead of '阳关' (Yangguan). The direction 'west' is not explicitly mentioned in the translation provided.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A path beyond the Jade Gate, where friends are no more.",
+        "evidence_found": true,
+        "reasoning": "The translation expands the meaning to 'no friends at all' by introducing 'beyond the Jade Gate', which does not preserve '没有老朋友' and thus fails the second pass condition.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A path beyond the Jade Gate, where friends are no more.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly state the relationship between the 'last sip' of wine and the 'no more friends' condition in the original phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 3,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.0,
+    "valid": true
+  }
+}

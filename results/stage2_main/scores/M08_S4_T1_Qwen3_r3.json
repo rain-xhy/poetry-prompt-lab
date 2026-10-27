@@ -1,0 +1,67 @@
+{
+  "translation_id": "M08_S4_T1_Qwen3_r3",
+  "anon_code": "T_147399b7",
+  "poem_id": "M08",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no person is seen, but only the sound of human speech",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts 'no person is seen' (看不见) with 'only the sound of human speech' (听得见说话声), fulfilling the requirement to preserve the contrast between 'invisible' and 'audible' without implying 'no one is present'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "The reflected light enters the deep forest, and shines upon the: the reflected light enters the deep forest",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly states that the reflected light enters the deep forest, which matches the dynamic description of '返景' (sunlight) moving into the deep forest as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "shines upon the moss",
+        "evidence_found": true,
+        "reasoning": "The phrase 'shines upon the moss' directly corresponds to the required meaning of '又照在青苔上' by expressing the reflection of light on moss, fulfilling the conditions of expressing 'again/reflection' and the moss imagery.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "In the empty mountains, no person is seen, but only the sound of human speech.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'empty mountains' directly translates to '空旷' (open, vast) and implies '幽静' (quiet, secluded) through the context of no people being seen and only sound of human speech.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

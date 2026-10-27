@@ -1,0 +1,67 @@
+{
+  "translation_id": "M05_S0_Qwen3_r2",
+  "anon_code": "T_a194f432",
+  "poem_id": "M05",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Sighing and searching, feeling cold and lonely, filled with sorrow and grief.",
+        "evidence_found": true,
+        "reasoning": "The translation describes emotional states and feelings but does not convey the repetitive or continuous action of searching as required by the original phrase '寻寻觅觅'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Sighing and searching, feeling cold and lonely, filled with sorrow and grief.",
+        "evidence_found": true,
+        "reasoning": "The translation describes emotional states (sighing, searching, feeling cold and lonely) rather than the environmental coldness and desolation required, and does not show progression from the previous sentence.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Sighing and searching, feeling cold and lonely, filled with sorrow and grief.",
+        "evidence_found": true,
+        "reasoning": "The translation captures deep sorrow through layered emotional expressions: 'sighing and searching' implies internal struggle, 'feeling cold and lonely' conveys isolation, and 'filled with sorrow and grief' directly expresses profound sadness, meeting both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Sighing and searching, feeling cold and lonely, filled with sorrow and grief.",
+        "evidence_found": true,
+        "reasoning": "The translation follows the required order of action → environment → emotion with clear progression from physical actions to emotional state.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

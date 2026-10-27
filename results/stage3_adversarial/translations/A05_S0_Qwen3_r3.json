@@ -1,0 +1,19 @@
+{
+  "id": "A05_S0_Qwen3_r3",
+  "poem_id": "A05",
+  "trap_type": "double_negation",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n不得不离君而去，不见不思量。",
+  "prompt_sha256": "90ce823d285d42884609173bdccde6d75b6a1f31a46765ea9f80af548c5a29db",
+  "translation": "I cannot stay away from you, and I cannot forget you.",
+  "metadata": {
+    "input_tokens": 38,
+    "output_tokens": 14,
+    "latency_ms": 190.69814682006836,
+    "timestamp": "2026-10-26T21:49:11.410572",
+    "finish_reason": "stop"
+  }
+}

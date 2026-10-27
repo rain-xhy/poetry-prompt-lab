@@ -1,0 +1,67 @@
+{
+  "translation_id": "M08_S1_T3_Qwen25_r1",
+  "anon_code": "T_5108056e",
+  "poem_id": "M08",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "In the empty mountain, no one can be seen, Only the sound of voices reverberates.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts 'no one can be seen' (看不见人) with 'only the sound of voices reverberates' (听得见说话声), avoiding the phrase 'no one' which would imply absence rather than visual invisibility.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The fading sunlight enters the deep woods, And once again lights upon the green moss.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly describes the movement of sunlight (fading) entering deep woods, with 'fading sunlight' corresponding to '夕' (evening) and 'sunlight' corresponding to '景' (light), fulfilling the requirement that '返景' is sunset and the dynamic movement of light entering deep woods.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "And once again illuminates the moss",
+        "evidence_found": true,
+        "reasoning": "The phrase 'once again illuminates the moss' directly corresponds to the required meaning of '又照在青苔上' with 'once again' expressing '又/再次' and 'moss' representing '青苔'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "In the empty mountain, no one can be seen, Only the sound of voices reverberates. The fading sunlight enters the deep woods, And once again lights upon the green moss.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys an empty (空旷) and quiet (幽静) mountain environment without denying the existence of the mountain, meeting both pass conditions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

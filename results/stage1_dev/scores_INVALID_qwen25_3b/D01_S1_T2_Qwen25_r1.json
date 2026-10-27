@@ -1,0 +1,62 @@
+{
+  "translation_id": "D01_S1_T2_Qwen25_r1",
+  "anon_code": "T_6fe73bf3",
+  "poem_id": "D01",
+  "strategy": "S1_T2",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "just fades to cheek, then straight to heart.",
+        "evidence_found": true,
+        "reasoning": "The translation suggests the emotion is fading away, which contradicts the original meaning of '无法排遣' (impossible to eliminate).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "just fades to cheek, then straight to heart.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express '才下眉头' which means 'just fades to cheek, then straight to heart' does not accurately convey '才下眉头' which means 'just from the brow'",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "just fades to cheek, then straight to heart.",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the word 'yet' or 'but' to express the sense of turning back, and the phrase '愁又涌上心头' is not directly preserved in the translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "no measure to dispel",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the original phrase '才下……却上' and does not clearly convey the idea of the feeling lingering or transferring between the face and the heart.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 4,
+    "emotion": 5,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 4.4,
+    "valid": true
+  }
+}

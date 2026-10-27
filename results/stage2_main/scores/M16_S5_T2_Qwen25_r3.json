@@ -1,0 +1,67 @@
+{
+  "translation_id": "M16_S5_T2_Qwen25_r3",
+  "anon_code": "T_42d51957",
+  "poem_id": "M16",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Cockcrow on茅店 under silver moon",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Cockcrow on茅店 under silver moon' contains the Chinese character '茅店' (máo diàn) which is not allowed in English translations as per the requirement to have only English words. The original phrase '鸡声茅店月' requires the three imagery elements to be preserved without Chinese characters.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Footprints on boardwalk, frost like crown.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'footprints on boardwalk' does not match the required '人的足迹在板桥的霜上' which implies footprints in the frost on a wooden bridge, not a boardwalk.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Recalling dreams in Dufu’s countryside",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Recalling dreams in Duf' directly translates to '因此想起在杜陵做的梦' as it expresses remembering dreams from Du Ling (Dufu's hometown) which meets the requirement of expressing memories of dreams.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Flocks of ducks and ge: on winding lagoons",
+        "evidence_found": false,
+        "reasoning": "The phrase 'winding lagoons' directly translates the '曲折池塘' (curved/winding pond) and 'flocks of ducks and geese' matches '凫雁满布' (ducks and geese filling the area).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

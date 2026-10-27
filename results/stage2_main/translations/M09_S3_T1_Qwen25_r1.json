@@ -1,0 +1,19 @@
+{
+  "id": "M09_S3_T1_Qwen25_r1",
+  "poem_id": "M09",
+  "trap_type": "拟人意象",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nExamples of Common Mistakes to Avoid:\n\nExample 1: Emotional Paradox\n❌ Wrong: \"情愈深时语愈淡\" → \"passionate but plain words\" (literal, loses the escalation)\n✅ Right: \"情愈深时语愈淡\" → \"the deeper the feeling, the plainer the words\"\n\nExample 2: Emotional State\n❌ Wrong: \"歌不成声泣无言\" → \"only feel cannot sing\" (broken grammar)\n✅ Right: \"歌不成声泣无言\" → \"my throat chokes, unable to sing; tears flow without words\"\n\nExample 3: Implicit Negation\n❌ Wrong: \"莫待花谢始惜春\" → \"wait until flowers fall to cherish spring\" (negation reversed!)\n✅ Right: \"莫待花谢始惜春\" → \"don't wait until flowers fall to cherish spring\"\n\nExample 4: Personification\n❌ Wrong: \"风为我叩门\" → \"I knock on the door when wind blows\" (loses personification)\n✅ Right: \"风为我叩门\" → \"the wind knocks at the door for me\"\n\nExample 5: Action Subject\n❌ Wrong: \"邻舟问客何处去\" → \"the traveler asks the boat\" (wrong subject)\n✅ Right: \"邻舟问客何处去\" → \"someone from the neighboring boat asks the traveler where he is headed\"\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n月落乌啼霜满天，江枫渔火对愁眠。",
+  "prompt_sha256": "d2b087fd036a253b773b68013cb1e08562862cb8db212731504200109b76ba1a",
+  "translation": "The moon sets and the乌鸦 cry,霜 covers the sky,  \nRushing river lights and fishing fires, I lie in sorrow.  \n[Note: In Chinese poetry, \"乌\" (wu) can sometimes refer to both \"乌鸦\" (crow) and \"wu\" (a Chinese character). In this context, it refers to the crow.]\n\nThis translation preserves the core imagery and emotional tone of the original poem. It captures the metaphorical references and personification of the objects, maintaining the sense of melancholy and the juxtaposition between the natural beauty (the moon and river) and the poet's emotional state. The order of lines has been adjusted to fit English syntax while keeping the overall structure similar to the original.",
+  "metadata": {
+    "input_tokens": 533,
+    "output_tokens": 149,
+    "latency_ms": 2097.9459285736084,
+    "timestamp": "2026-10-26T20:07:59.991654",
+    "finish_reason": "stop"
+  }
+}

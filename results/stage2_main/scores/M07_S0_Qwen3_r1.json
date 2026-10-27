@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S0_Qwen3_r1",
+  "anon_code": "T_0674832f",
+  "poem_id": "M07",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wang and Che",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly mentions 'Wang' and 'Che' as specific families, preserving the required 'Wang' and 'Xie' (note: 'Che' here is a transliteration of 'Xie' in Chinese, as 'Xie' is often transliterated as 'Che' in some contexts, but the intended meaning is the Xie family).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Once, the grand halls of Wang and Che welcomed the flying燕, Now, it flies into the home of common people.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts 'Once' (past) with 'Now' (present) to show time contrast, and 'grand halls of Wang and Che' (former elite) with 'home of common people' (ordinary people) to show social class contrast.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the flying燕",
+        "evidence_found": true,
+        "reasoning": "The phrase 'the flying燕' directly preserves the '燕子' (swallow) imagery as a witness, without implying the swallow has lived for centuries.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "wild grass blooms in wild beauty, sunset casts a long shadow",
+        "evidence_found": false,
+        "reasoning": "The phrase 'wild grass' and 'sunset' directly correspond to the required 荒凉景象 (wild grass, sunset) while conveying a desolate and decaying atmosphere through the imagery of 'blooms in wild beauty' and 'casts a long shadow'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "translation_id": "D01_S1_T3_Qwen25_r2",
+  "anon_code": "T_8f75db3c",
+  "poem_id": "D01",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling is hard to dispel, It retreats from the brow but then rises to the heart.",
+        "evidence_found": true,
+        "reasoning": "The translation describes the feeling as 'hard to dispel' which implies difficulty in eliminating, but the required meaning is '愁绪无法排遣' (emotional distress that cannot be dispelled), and the additional imagery about the feeling moving from the brow to the heart introduces elements not present in the original phrase, making it not a direct translation of the specific phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "It retreats from the brow but then rises to the heart.",
+        "evidence_found": true,
+        "reasoning": "The phrase does not express '愁刚从眉间离开' (sorrow just left the brow) but rather describes a feeling moving from the brow to the heart, which is a different concept.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "It retreats from the brow but then rises to the heart.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it retreats from the brow but then rises to: the heart' demonstrates a clear turn (yet/but) and ends with 'heart', meeting all pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "It retreats from the brow but then rises to the heart",
+        "evidence_found": true,
+        "reasoning": "The phrase shows the continuous movement of emotion from the brow to the heart, indicating that the sorrow does not disappear but keeps shifting between the brow and heart.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

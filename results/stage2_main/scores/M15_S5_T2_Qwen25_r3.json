@@ -1,0 +1,67 @@
+{
+  "translation_id": "M15_S5_T2_Qwen25_r3",
+  "anon_code": "T_d033cffc",
+  "poem_id": "M15",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Why should the羌 flute lament willows",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Why should the羌 flute lament willows' does not express 'no need to' or '不必' as required; it uses a question form but implies a need to lament, not a negation of necessity.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "For春风cannot cross玉门关",
+        "evidence_found": true,
+        "reasoning": "The phrase 'cannot cross' explicitly shows the negative meaning and the geographical limitation as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Why should the羌 flute lament willows, For春风cannot cross玉门关.",
+        "evidence_found": true,
+        "reasoning": "The translation states 'For春风cannot cross玉门关' which translates to 'because the spring wind cannot cross Jade Gate Pass', but the original phrase '何须怨...春风不度' implies that the spring wind not reaching (the area) is the reason for the lamentation being unnecessary, not that the spring wind cannot cross the pass. The translation incorrectly reverses the cause and effect: the spring wind not reaching (the area) is the cause, not the lamentation being unnecessary.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why should the羌 flute lament willows",
+        "evidence_found": true,
+        "reasoning": "The phrase '羌 flute' directly preserves the required term '羌笛', and 'lament willows' implies the '折杨柳' (willow cutting) tradition associated with parting, fulfilling the requirement for the '离别' (parting) meaning.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.45,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

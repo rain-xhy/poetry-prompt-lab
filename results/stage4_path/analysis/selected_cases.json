@@ -1,0 +1,42 @@
+[
+  {
+    "id": "M02_S5_T1_Qwen3_r1",
+    "class": "success"
+  },
+  {
+    "id": "M06_S5_T1_Qwen25_r1",
+    "class": "success"
+  },
+  {
+    "id": "M11_S5_T1_Qwen25_r1",
+    "class": "success"
+  },
+  {
+    "id": "M19_S5_T1_Qwen25_r1",
+    "class": "success"
+  },
+  {
+    "id": "M03_S5_T1_Qwen3_r1",
+    "class": "success"
+  },
+  {
+    "id": "M02_S5_T1_Qwen25_r1",
+    "class": "understanding_error"
+  },
+  {
+    "id": "M07_S5_T1_Qwen3_r1",
+    "class": "understanding_error"
+  },
+  {
+    "id": "M12_S5_T1_Qwen3_r1",
+    "class": "understanding_error"
+  },
+  {
+    "id": "M01_S5_T1_Qwen25_r1",
+    "class": "expression_error"
+  },
+  {
+    "id": "M07_S5_T1_Qwen25_r1",
+    "class": "expression_error"
+  }
+]

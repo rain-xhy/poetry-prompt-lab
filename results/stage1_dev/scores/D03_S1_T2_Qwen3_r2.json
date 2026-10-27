@@ -1,0 +1,76 @@
+{
+  "translation_id": "D03_S1_T2_Qwen3_r2",
+  "anon_code": "T_1f4749f6",
+  "poem_id": "D03",
+  "strategy": "S1_T2",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Beneath the western sky, you raise the cup once more,",
+        "evidence_found": true,
+        "reasoning": "The translation describes a scene where the speaker is observing the friend raising the cup, but the original phrase indicates the speaker is actively advising the friend to drink, not passively observing the action.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Beneath the western sky, you raise the cup once more, To part from the path where old friends once were.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly mention 'west' or 'west direction' as required, and 'Yang Pass/Yangguan' is not referenced at all.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To part from the path where old friends once were",
+        "evidence_found": true,
+        "reasoning": "The phrase 'old friends once were' directly translates to 'no old friends' in the context of parting, indicating absence without expanding to 'no one at all'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To part from the path where old friends once were",
+        "evidence_found": true,
+        "reasoning": "The phrase 'To part from the path where old friends once were' directly links the act of parting (implied by 'part from') with the absence of old friends ('old friends once were'), showing the connection between the encouragement to drink and the lack of old friends.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

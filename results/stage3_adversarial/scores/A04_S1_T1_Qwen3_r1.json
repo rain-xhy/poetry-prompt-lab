@@ -1,0 +1,58 @@
+{
+  "translation_id": "A04_S1_T1_Qwen3_r1",
+  "anon_code": "T_425a9acb",
+  "poem_id": "A04",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling has already waited to become a memory",
+        "evidence_found": true,
+        "reasoning": "The phrase 'has already waited' directly corresponds to the completed action of '已待' in the original Chinese, indicating a past action that has been completed.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling has already waited to become a memory, but it is already futile and sorrowful.",
+        "evidence_found": true,
+        "reasoning": "The translation uses a declarative structure without rhetorical questions, clearly stating the feeling's state as futile and sorrowful without posing a question.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling has already waited to become a memory, but it is already futile and sorrowful.",
+        "evidence_found": true,
+        "reasoning": "The translation uses present perfect tense 'has already waited' and 'is already futile', implying a completed action with current relevance, whereas the original Chinese phrase '可待' (which can be waited for) suggests a potential future state, not a completed past action. The required meaning of '可待' as a potential future state is not preserved in the translation's use of past perfect tense.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 1,
+    "overall": 1.8,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

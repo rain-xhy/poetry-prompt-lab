@@ -1,0 +1,76 @@
+{
+  "translation_id": "D03_S5_T2_Qwen25_r2",
+  "anon_code": "T_0bb299b1",
+  "poem_id": "D03",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "One final glass, to bid you well",
+        "evidence_found": true,
+        "reasoning": "The phrase 'One final glass' directly corresponds to '再/更饮一杯酒' (one more drink of wine), and 'to bid you well' implies the speaker's encouragement to drink one more cup before parting with a friend.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Beyond the western pass",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Beyond the western pass' directly corresponds to '向西出了阳关' by indicating movement westward past the Yang Pass.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Beyond the western pass, no old friend waits.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no old friend waits' directly translates the meaning of '无故人' as 'no old friends/acquaintances' without expanding the scope to 'no one at all'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Beyond the western pass, no old friend waits.",
+        "evidence_found": true,
+        "reasoning": "This line directly connects the absence of old friends (无故人) with the action of drinking (劝酒) by implying the need for one final glass due to the lack of companions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

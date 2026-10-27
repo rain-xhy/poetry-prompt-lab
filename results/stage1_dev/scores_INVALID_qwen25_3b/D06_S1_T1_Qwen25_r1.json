@@ -1,0 +1,62 @@
+{
+  "translation_id": "D06_S1_T1_Qwen25_r1",
+  "anon_code": "T_a3b05959",
+  "poem_id": "D06",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "But one of my brothers少一人  is not present,",
+        "evidence_found": true,
+        "reasoning": "The phrase '少一人' does not match the original '遥知' and introduces a new context not present in the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "少一人",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the exact phrase '少一人' which is necessary to preserve the original '兄弟们登高处少一人'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "But one of my brothers少一人  is not present,",
+        "evidence_found": true,
+        "reasoning": "The phrase '少一人' is not preserved in the translation and does not convey the meaning of '每个人头上都插着茱萸'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "But one of my brothers少一人  is not present,",
+        "evidence_found": true,
+        "reasoning": "The phrase '少一人' is not preserved in the translation and the context does not clearly indicate that '少一人' refers to the speaker's brother who is not present.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.4,
+    "valid": true
+  }
+}

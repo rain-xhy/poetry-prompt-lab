@@ -1,0 +1,67 @@
+{
+  "translation_id": "M17_S3_T1_Qwen3_r2",
+  "anon_code": "T_1247c217",
+  "poem_id": "M17",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling can be cherished as a memory, but what was once forgotten is now truly lost.",
+        "evidence_found": true,
+        "reasoning": "The translation does not use a question structure (must/can/could) as required by the pass conditions, and it does not express the future aspect of becoming a memory as specified in the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling can be cherished as a memory, but what was once forgotten is now truly lost.",
+        "evidence_found": true,
+        "reasoning": "The translation does not convey the completed past state with 'already' as required by the original phrase '当时已惘然' (which implies a past action that has already been completed). The phrase 'what was once forgotten' suggests a past action that has been completed, but it lacks the emphasis on the 'already' completed aspect that the original phrase requires.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling can be cherished as a memory, but what was once forgotten is now truly lost.",
+        "evidence_found": true,
+        "reasoning": "The original phrase '此情' refers to 'this emotion' or 'this feeling', but the translation describes a specific situation about memories and forgotten things, which does not directly preserve the 'this emotion' reference as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "what was once forgotten is now truly lost",
+        "evidence_found": true,
+        "reasoning": "The phrase 'what was once forgotten' refers to the past (当时已惘然) while 'now truly lost' indicates the present/future (将来回忆), creating the required contrast in tense.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 1.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

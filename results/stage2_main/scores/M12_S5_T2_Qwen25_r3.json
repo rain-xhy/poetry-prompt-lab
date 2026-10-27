@@ -1,0 +1,67 @@
+{
+  "translation_id": "M12_S5_T2_Qwen25_r3",
+  "anon_code": "T_b98e8e27",
+  "poem_id": "M12",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see the farthest, beyond the clouds",
+        "evidence_found": true,
+        "reasoning": "The phrase 'To see the farthest' uses 'to see' which expresses a purpose, and 'farthest' implies the distance of 'thousands of miles' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "One must climb higher, to the very clouds.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'One must climb higher, to the very clouds' directly expresses the requirement to 'climb higher' (再上一层楼) as a necessary action to see the farthest, fulfilling the purpose and means relationship with the preceding lines.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see the farthest, beyond the clouds, One must climb higher, to the very clouds.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the purpose (to see the farthest) and the means (climbing higher) with a clear logical connection, fulfilling the requirement of purpose and means relationship.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The sun descends to the hill's embrace, While the Yellow River pours to the sea.",
+        "evidence_found": true,
+        "reasoning": "The translation adds extra lines about climbing higher beyond the clouds, which are not in the original Chinese phrase and thus do not preserve the two original images without adding new content.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 5,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 4.5,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

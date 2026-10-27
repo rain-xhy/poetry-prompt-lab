@@ -1,0 +1,67 @@
+{
+  "translation_id": "M19_S4_T1_Qwen25_r3",
+  "anon_code": "T_ef4a36d9",
+  "poem_id": "M19",
+  "strategy": "S4_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I once knew you at Ji Wang's house, And heard you play at Cui Ji's hall.",
+        "evidence_found": true,
+        "reasoning": "The translation describes specific past events with 'once' and 'heard', but does not convey the frequency or multiple occurrences required by the original phrase '过去经常见到、多次听到（过去时）'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Now that you appear amidst the spring blooms, It's the very season when we met before.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Now that you appear amidst the spring blooms' expresses the current moment of meeting, and 'It's the very season when we met before' directly conveys the 'again' aspect of reuniting, fulfilling both conditions of present tense and 'again' meeting.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I once knew you at Ji Wang's house, And heard you play at Cui Ji's hall.",
+        "evidence_found": true,
+        "reasoning": "The translation focuses on past encounters with specific locations but does not explicitly contrast past and present conditions or imply a change in circumstances as required by the original phrase's meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Now that you appear amidst the spring blooms",
+        "evidence_found": true,
+        "reasoning": "The phrase 'spring blooms' directly corresponds to the '落花' (fallen flowers) imagery in the original, implying the seasonal context of the poem's symbolism.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

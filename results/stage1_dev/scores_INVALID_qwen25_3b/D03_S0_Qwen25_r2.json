@@ -1,0 +1,62 @@
+{
+  "translation_id": "D03_S0_Qwen25_r2",
+  "anon_code": "T_66c011cf",
+  "poem_id": "D03",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Encourage me to drink one more cup of wine",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'Encourage me to drink one more cup of wine' instead of '我劝你再干一杯酒' which means 'I advise you to drink one more cup of wine'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Encourage me to drink one more cup of wine",
+        "evidence_found": true,
+        "reasoning": "The translation does not mention '西出阳关' or '向西出了阳关', and the phrase 'Encourage me to drink one more cup of wine' is not related to the original Chinese phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Encourage me to drink one more cup of wine, For beyond the Western Pass there are no old friends.",
+        "evidence_found": true,
+        "reasoning": "The translation expands the meaning to 'no old friends at all' by adding 'beyond the Western Pass' which is not in the original phrase '无故人'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Encourage me to drink one more cup of wine",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the phrase 'For beyond the Western Pass there are no old friends.' which is crucial for showing the connection between the first and second sentences.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.2,
+    "valid": true
+  }
+}

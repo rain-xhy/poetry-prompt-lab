@@ -1,0 +1,67 @@
+{
+  "translation_id": "M16_S2_T1_Qwen25_r1",
+  "anon_code": "T_993c6d6b",
+  "poem_id": "M16",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Cock crowing at the thatched inn, moon shining",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly state that the moon is still visible on the thatched inn at cock crowing time, which is required by the original phrase's meaning of '鸡声茅店月' (chicken crowing, thatched inn, moon).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Footsteps on the plank bridge, frosty and cold.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'footsteps on the plank bridge' which matches the required meaning of '人的足迹在板桥的霜上', but it does not explicitly mention 'frost' as part of the phrase, and the phrase 'frosty and cold' is not the same as '霜' (frost) in the original Chinese phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Recalling dreams in Dufeng",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Recalling dreams in Duf'eng' directly translates to '因此想起在杜陵做的梦' as it expresses remembering dreams from Du Ling (Dufeng) which is a historical reference to Du Fu's hometown.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Fowl and geese abound in the winding pond.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'winding pond' directly translates to 'curved/winding pool' which meets the requirement for a curved pond, and 'fowl and geese abound' captures the 'fowl and geese full' imagery.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.95,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

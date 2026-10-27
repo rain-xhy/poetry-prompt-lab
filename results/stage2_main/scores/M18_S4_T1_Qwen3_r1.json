@@ -1,0 +1,62 @@
+{
+  "translation_id": "M18_S4_T1_Qwen3_r1",
+  "anon_code": "T_30495392",
+  "poem_id": "M18",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Cannot help but miss the petals fall, yet the once-familiar swallow returns. The wind knocks for me, yet I remain unseen.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express the 'helpless' or 'unable to prevent' aspect of the original phrase; it focuses on missing petals and a swallow returning, which does not convey the sense of helplessness in watching flowers fall.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Cannot help but miss the petals fall, yet the once-familiar swallow returns.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly convey '燕子归来的动作' (the action of swallows returning) as required; it mentions 'swallow returns' but the phrase '燕子归来的动作' implies the active return of swallows, which is not clearly captured here.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Cannot help but miss the petals fall, yet the once-familiar swallow returns.",
+        "evidence_found": true,
+        "reasoning": "The phrase contrasts the petals falling (departing) with the swallow returning, capturing the '离去与归来的对比' and different directions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Cannot help but miss the petals fall, yet the once-familiar swallow returns.",
+        "evidence_found": true,
+        "reasoning": "The phrase conveys the passage of time through the falling petals and the return of the swallow, reflecting the sentiment of time passing and changes in people and things.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\n  \"original\": \"无可奈何花落去，似曾相识燕归来。\",\n  \"reference_notes\": {\n    \"无可奈何花落去\": \"无力挽留地看着花落。要点：无奈、无力的情感。\",\n    \"似曾相识燕归来\": \"归来的燕子仿佛曾经见过。要点：'似曾相识'的模糊感。\",\n    \"花落去vs燕归来\": \"离去与归来的对比。要点：去与来的对比结构。\",\n    \"时间流逝的感慨\": \"对时光流逝、物是人非的感慨。要点：时间、变化的主题。\"\n  },\n  \"translation\": \"Cannot help but miss the petals fall, yet the once-familiar swallow returns.  The wind knocks for me, yet I remain unseen.\"\n}"
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

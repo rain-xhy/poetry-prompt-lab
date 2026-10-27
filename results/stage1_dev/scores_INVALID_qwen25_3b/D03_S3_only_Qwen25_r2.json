@@ -1,0 +1,57 @@
+{
+  "translation_id": "D03_S3_only_Qwen25_r2",
+  "anon_code": "T_7b0b47a3",
+  "poem_id": "D03",
+  "strategy": "S3_only",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Encourage me to drink one more cup of wine",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the original phrase '劝君更尽一杯酒' and does not express the idea of '再饮一杯' (drink one more cup)",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Encourage me to drink one more cup of wine, for beyond West阳关there are no old friends.",
+        "evidence_found": true,
+        "reasoning": "The phrase '西出阳关' is not preserved in the translation. The direction 'west' is mentioned, but '阳关' is not preserved.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Encourage me to drink one more cup of wine, for beyond West阳关there are no old friends.",
+        "evidence_found": true,
+        "reasoning": "The translation expands the scope to 'no one at all' by mentioning 'beyond West阳关there are no old friends', which does not preserve '没有老朋友'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Encourage me to drink one more cup of wine, for beyond West阳关there are no old friends.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the original phrase '劝酒与无故人之因果' and does not directly state the relationship between the '无故人' and the '劝酒'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\"adequacy\":1,\"imagery\":0,\"emotion\":1,\"fluency\":2,\"poetic_quality\":0}"
+  }
+}

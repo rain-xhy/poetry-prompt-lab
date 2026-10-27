@@ -1,0 +1,62 @@
+{
+  "translation_id": "D01_S5_T3_Qwen25_r2",
+  "anon_code": "T_16c17a43",
+  "poem_id": "D01",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling cannot be dispelled",
+        "evidence_found": true,
+        "reasoning": "The translation states 'This feeling cannot be dispelled', which contradicts the requirement to express that the emotion is 'unavoidable' or 'unmanageable' rather than 'dispelled'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling cannot be dispelled, Just as it fades from my brow, It resurfaces on my heart.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the essence of '才下眉头' by expressing that the feeling is momentarily relieved from the brow but immediately returns to the heart, adhering to the guideline of '愁刚从眉间离开'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling cannot be dispelled, Just as it fades from my brow, It resurfaces on my heart.",
+        "evidence_found": true,
+        "reasoning": "The translation includes the concept of a feeling that initially fades but then resurfaces, which aligns with the '却上心头' meaning. The phrase 'This feeling cannot be dispelled' captures the '愁' (sorrow) aspect, and 'just as it fades from my brow' captures the '才下眉头' (just as it fades from my brow). The final part 'It resurfaces on my heart' captures the '却上心头' (it resurfaces on my heart).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling cannot be dispelled, just as it fades from my brow, it resurfaces on my heart.",
+        "evidence_found": true,
+        "reasoning": "The translation maintains the sequential relationship between '才下眉头' and '却上心头', and it conveys the idea that the emotion is not truly resolved but persists, satisfying the given conditions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  }
+}

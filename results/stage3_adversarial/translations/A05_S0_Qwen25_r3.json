@@ -1,0 +1,19 @@
+{
+  "id": "A05_S0_Qwen25_r3",
+  "poem_id": "A05",
+  "trap_type": "double_negation",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n不得不离君而去，不见不思量。",
+  "prompt_sha256": "90ce823d285d42884609173bdccde6d75b6a1f31a46765ea9f80af548c5a29db",
+  "translation": "I must part from you and go, but never out of my thoughts. \n\nThis translation aims to capture the essence and tone of the original Chinese poem in English. The phrase \"不得不离君而去\" (I must part from you and go) maintains the sense of necessity and the inevitability of separation, while \"不见不思量\" (but never out of my thoughts) conveys the idea of continuous thinking about the person one is separating from.",
+  "metadata": {
+    "input_tokens": 51,
+    "output_tokens": 94,
+    "latency_ms": 1345.0047969818115,
+    "timestamp": "2026-10-26T21:50:56.655738",
+    "finish_reason": "stop"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "translation_id": "A08_S0_Qwen25_r1",
+  "anon_code": "T_3c27962e",
+  "poem_id": "A08",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "house of commoners",
+        "evidence_found": true,
+        "reasoning": "The phrase 'house of commoners' refers to non-aristocratic or humble dwellings, which aligns with the requirement that '豪门' (aristocratic families) is generalized to a commoner's home.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "In the former mansions where the nobles once lived, The swallow that nested in the halls now nests in a humble abode.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the historical context shift from nobles to commoners through the swallow's nesting habits, preserving the specific historical background loss as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "By the wild flowers by the Zhuque Bridge, An old swallow flies into a house of commoners.",
+        "evidence_found": true,
+        "reasoning": "The translation incorrectly uses 'Zhuque Bridge' which is not a proper name in the original poem and the phrase 'house of commoners' misrepresents the original's reference to a humble abode, failing to preserve the specific proper names and their contextual meaning as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

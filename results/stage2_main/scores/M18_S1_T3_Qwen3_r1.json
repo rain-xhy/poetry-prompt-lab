@@ -1,0 +1,67 @@
+{
+  "translation_id": "M18_S1_T3_Qwen3_r1",
+  "anon_code": "T_e18fe081",
+  "poem_id": "M18",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Cannot help but lament as the blossoms fall away",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Cannot help but lament' directly expresses the feeling of helplessness and inevitability, and 'blossoms fall away' captures the action of flowers falling as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the once-familiar swallow returns",
+        "evidence_found": true,
+        "reasoning": "The phrase 'the once-familiar swallow returns' directly translates to '归来的燕子仿佛曾经见过' by expressing the swallow's return and the sense of familiarity from past experience.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Cannot help but lament as the blossoms fall away, and the once-familiar swallow returns.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly contrasts the blossoms falling away (departure) with the swallow returning (arrival), fulfilling both conditions of direction and contrast.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Cannot help but lament as the blossoms fall away, and the once-familiar swallow returns.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys the passage of time through falling blossoms and the return of a familiar swallow, reflecting the sentiment of time passing and people and things changing.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

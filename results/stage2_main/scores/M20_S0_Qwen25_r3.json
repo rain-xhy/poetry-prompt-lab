@@ -1,0 +1,65 @@
+{
+  "translation_id": "M20_S0_Qwen25_r3",
+  "anon_code": "T_e0d26f4f",
+  "poem_id": "M20",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I live by the Yangtze's head, You dwell at its tail.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts the two locations (head vs tail of the Yangtze River) as required, fulfilling the space parallelism and opposition between the two positions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": null,
+        "valid": false,
+        "raw": "",
+        "error": "prediction aborted, token repeat limit reached (status code: 500)"
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "We share the waters of the Yangtze.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'We share the waters of the Yangtze' directly reflects the '共饮长江水' meaning with the required 'commonality' and 'water drinking connection' as specified.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "I live by the Yangtze's head, You dwell at its tail. Daily I think of you but cannot see you, We share the waters of the Yang: I live by the Yangtze's head, You dwell at its tail. Daily I think of you but cannot see you, We share the waters of the Yangtze.",
+        "evidence_found": false,
+        "reasoning": "The translation shows physical separation (Yangtze's head vs tail) and emotional connection (sharing the waters), creating tension between distance and closeness.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

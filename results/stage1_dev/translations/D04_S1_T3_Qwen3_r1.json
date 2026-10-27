@@ -1,0 +1,19 @@
+{
+  "id": "D04_S1_T3_Qwen3_r1",
+  "poem_id": "D04",
+  "trap_type": "否定逻辑",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n桃花潭水深千尺，不及汪伦送我情。",
+  "prompt_sha256": "0dbf544ebdafc56d2b9ec03ee1d7a35057d416724c07180fd897b1a327e3da77",
+  "translation": "The spring water of Tao Lake is deeper than a thousand feet, but it cannot match the sincere farewell sentiment of Wang Lun.\n\n[Explaining the cultural reference: \"Tao Lake\" is a real place in China, and \"Wang Lun\" was a fellow traveler who sent the poet away with a farewell boat.]\n\nNote: The poem uses a traditional form of Chinese poetry, emphasizing the depth of emotion in the farewell.",
+  "metadata": {
+    "input_tokens": 210,
+    "output_tokens": 86,
+    "latency_ms": 1897.576093673706,
+    "timestamp": "2026-10-26T16:28:52.582036",
+    "finish_reason": "stop"
+  }
+}

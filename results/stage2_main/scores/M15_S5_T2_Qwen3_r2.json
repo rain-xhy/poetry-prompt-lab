@@ -1,0 +1,67 @@
+{
+  "translation_id": "M15_S5_T2_Qwen3_r2",
+  "anon_code": "T_5d2a48f7",
+  "poem_id": "M15",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why mourn the willow in spring?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Why mourn the will: in spring?' expresses a rhetorical question implying 'there is no need to mourn', matching the required meaning of '不必/no need to'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The wind cannot reach the Jade Gate.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'cannot reach' explicitly conveys the negative meaning and geographical limitation required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why mourn the willow in spring? The wind cannot reach the Jade Gate.",
+        "evidence_found": true,
+        "reasoning": "The translation correctly captures the causal relationship where the wind not reaching the Jade Gate (spring not arriving) makes mourning the willow pointless, aligning with the required causal logic and thematic resonance.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The wind cannot reach the Jade Gate.",
+        "evidence_found": true,
+        "reasoning": "The translation does not mention 'Qiang di' (羌笛) or imply the 'fold willow' (折杨柳) theme of parting, which is required by the original phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M14_S2_T1_Qwen3_r1",
+  "anon_code": "T_e37acb3c",
+  "poem_id": "M14",
+  "strategy": "S2_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If the dragon city general were still here",
+        "evidence_found": true,
+        "reasoning": "The phrase 'If the dragon city general were still here' uses a conditional clause starting with 'If' to express the assumption that the general is present, fulfilling the requirement for a condition sentence with assumed tone.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "No northern invaders would cross the dark mountain",
+        "evidence_found": true,
+        "reasoning": "The phrase 'would cross' implies the prevented action of crossing, matching the required meaning of 'not allow' with a negative verb phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If the dragon city general were still here, No northern invaders would cross the dark mountain.",
+        "evidence_found": true,
+        "reasoning": "The conditional phrase 'If the dragon city general were still here' sets the condition, and the result 'No northern invaders would cross the dark' directly follows, maintaining the cause-effect relationship as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If the dragon city general were still here",
+        "evidence_found": true,
+        "reasoning": "The phrase 'dragon city general' directly refers to a historical border general, fulfilling the requirement for a border commander with a historical context.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

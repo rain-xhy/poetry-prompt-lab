@@ -1,0 +1,19 @@
+{
+  "id": "D01_S1_T3_Qwen3_r2",
+  "poem_id": "D01",
+  "trap_type": "情感反差",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n此情无计可消除，才下眉头，却上心头。",
+  "prompt_sha256": "aa444ecff1588c212657ff2121420dbf68c961a5d09211a8f1f22de4312fa64e",
+  "translation": "This feeling cannot be erased, for when it falls, it rises again.  \n\n[The poem uses the paradox of \"erasing\" a feeling that persists, reflecting the human experience of unspoken emotions. The \"crying\" of the brow and the \"rising\" of the heart symbolize the tension between emotional release and its lingering presence.]\n\nThis feeling cannot be erased, for when it falls, it rises again.",
+  "metadata": {
+    "input_tokens": 211,
+    "output_tokens": 85,
+    "latency_ms": 11277.06003189087,
+    "timestamp": "2026-10-26T16:41:25.986756",
+    "finish_reason": "stop"
+  }
+}

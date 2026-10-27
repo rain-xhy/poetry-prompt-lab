@@ -1,0 +1,58 @@
+{
+  "translation_id": "A09_S5_T1_Qwen3_r3",
+  "anon_code": "T_04d7d3eb",
+  "poem_id": "A09",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Only because the dragon city's flying general exists",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Only because' directly uses 'because' as a causal conjunction, fulfilling the requirement to preserve '只因' as indicating causality rather than condition.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The bright moon of the Qin dynasty and the ancient watchtower of the Han, a journey of ten thousand li, yet the traveler has not returned.",
+        "evidence_found": true,
+        "reasoning": "The translation describes a historical scene with specific references to dynasties and locations, which implies a factual context but does not explicitly state that it is a factual statement rather than an assumption.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Only because the dragon city's flying general exists, the wild horse fails to cross the Yin Mountains.",
+        "evidence_found": true,
+        "reasoning": "The translation changes '但使' (if only) to 'Only because' (due to), altering the logical relationship from conditional to causal, which matches the requirement to identify the change from 'but make' to 'only because'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

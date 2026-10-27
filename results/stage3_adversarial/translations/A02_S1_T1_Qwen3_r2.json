@@ -1,0 +1,19 @@
+{
+  "id": "A02_S1_T1_Qwen3_r2",
+  "poem_id": "A02",
+  "trap_type": "subject_confusion",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n春眠不觉晓，处处闻啼鸟。\n夜来风雨声，花知落多少。",
+  "prompt_sha256": "cbcb0e4839186eca9838213adf1002e2d66d8751c1dd9200fec2a0f1ddd794ce",
+  "translation": "In spring, I sleep soundly until dawn, and everywhere I hear the cries of birds. The sound of last night's rain and wind is heard, and the flowers know how many will fall.\n\n[The reference to \"flowers knowing how many will fall\" alludes to the natural cycle and the quiet inevitability of change in Chinese poetry.]",
+  "metadata": {
+    "input_tokens": 232,
+    "output_tokens": 71,
+    "latency_ms": 11221.030712127686,
+    "timestamp": "2026-10-26T21:56:44.299958",
+    "finish_reason": "stop"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "translation_id": "D06_S1_T3_Qwen3_r1",
+  "anon_code": "T_4d42ce81",
+  "poem_id": "D06",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The speaker knows that brothers and sisters will ascend to the high place, but one is missing because of the plum blossoms.",
+        "evidence_found": true,
+        "reasoning": "The translation describes a scenario where brothers and sisters ascend to a high place and one is missing due to plum blossoms, which does not convey the meaning of 'in distant places imagining or guessing' as required by the original phrase '遥知'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "brothers and sisters will ascend to the high place",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'brothers and sisters' instead of 'brothers' and adds 'will ascend to the high place' which is not the same as 'climb the heights' in the required meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The speaker knows that brothers and sisters will ascend to the high place, but one is missing because of the plum blossoms.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'plum blossoms' instead of 'cornel/dogwood sprigs' and does not convey that everyone is wearing chrysanthemum sprigs on their heads.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The speaker knows that brothers and sisters will ascend to the high place, but one is missing because of the plum blossoms.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly state that the missing person is the speaker, and the phrase 'one is missing because of the plum blossoms' implies an external cause rather than the speaker being the missing person.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 1.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

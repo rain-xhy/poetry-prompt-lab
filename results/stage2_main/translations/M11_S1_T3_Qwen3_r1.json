@@ -1,0 +1,19 @@
+{
+  "id": "M11_S1_T3_Qwen3_r1",
+  "poem_id": "M11",
+  "trap_type": "否定逻辑",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n床前明月光，疑是地上霜。\n举头望明月，低头思故乡。",
+  "prompt_sha256": "eaaec52a341919a80b02bf06787a339207d22cbfa229e5ee02aaee9d9001583c",
+  "translation": "On the mat, bright moonlight shines, seeming like frost upon the ground.  \nLeaning up, it gazes at the bright moon; lowering down, it thinks of home.\n\n[The poem uses a common Chinese literary device of personification, with \"moonlight\" and \"frost\" both being given life and emotion. The contrast between the bright moonlight and the cold frost highlights the emotional depth of the poet's longing.]\n\n[The second line reflects the traditional Chinese concept of \"xiang\" (思), which means \"to think of\" or \"to miss,\" emphasizing the poet's longing for home.]",
+  "metadata": {
+    "input_tokens": 217,
+    "output_tokens": 126,
+    "latency_ms": 12239.908456802368,
+    "timestamp": "2026-10-26T19:50:40.430884",
+    "finish_reason": "stop"
+  }
+}

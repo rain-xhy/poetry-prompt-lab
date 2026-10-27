@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S3_T1_Qwen25_r1",
+  "anon_code": "T_a6515dda",
+  "poem_id": "M02",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Red bean grows in the South",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Red bean grows in the South' directly references '红豆' as the subject, preserving its role as a specific symbol of longing in the context of the poem.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "May you pluck many",
+        "evidence_found": true,
+        "reasoning": "The phrase 'May you pluck many' does not explicitly address 'you' as the subject of the action, and the translation lacks the specific context of 'this is the thing most in love' which is part of the original poem's meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This is the thing most in love.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'most in love' implies the object is the one experiencing love, but the original phrase '此物最相思' means 'this thing most embodies longing', so the translation incorrectly attributes the emotion to the object rather than describing the object's role in expressing longing.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In spring it blooms, how many sprouts?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'In spring it blooms, how many sprouts?' does not explicitly mention the time of spring (it says 'in spring' but the required meaning is 'spring comes' as in the original phrase '春来'), and the natural action of '发枝' (sprouting branches) is not accurately captured as 'blooms' which refers to flowering rather than sprouting.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

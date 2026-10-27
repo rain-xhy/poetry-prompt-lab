@@ -1,0 +1,67 @@
+{
+  "translation_id": "M04_S5_T3_Qwen3_r3",
+  "anon_code": "T_2e650ca6",
+  "poem_id": "M04",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When two hearts are as deep as time, why should they not stay together forever? Yet, how could they care for each other only when they are together every day?",
+        "evidence_found": true,
+        "reasoning": "The translation does not express 'if' condition as required; it uses rhetorical questions instead of a conditional structure.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Yet, how could they care for each other only when they are together every day?",
+        "evidence_found": true,
+        "reasoning": "The phrase explicitly questions the necessity of daily coexistence, aligning with the original's meaning of 'not needing daily presence.'",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When two hearts are as deep as time, why should they not stay together forever? Yet, how could they care for each other only when they are together every day?",
+        "evidence_found": true,
+        "reasoning": "The translation does not convey the continuous, repetitive time aspect required by '朝朝暮暮' as it focuses on a single moment of togetherness rather than the persistent, overlapping time periods implied by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When two hearts are as deep as time, why should they not stay together forever? Yet, how could they care for each other only when they are together every day?",
+        "evidence_found": true,
+        "reasoning": "The original phrase '若是...又岂在' implies a conditional statement followed by a rhetorical question that challenges the condition. The translation does not clearly establish the conditional relationship between the two parts; instead, it presents two separate questions without a clear logical connection that shows the condition leading to the conclusion.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

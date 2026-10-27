@@ -1,0 +1,67 @@
+{
+  "translation_id": "M12_S1_T1_Qwen25_r3",
+  "anon_code": "T_f6e3375f",
+  "poem_id": "M12",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see further, one must climb higher",
+        "evidence_found": true,
+        "reasoning": "The phrase 'To see further' uses a verb phrase indicating purpose (to see) with the intention to achieve a goal, matching the requirement for a purpose word and the concept of 'seeing' beyond a distance.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see further, one must climb higher",
+        "evidence_found": true,
+        "reasoning": "The phrase 'must climb higher' directly expresses the requirement to 'climb one more level' as per the original meaning, forming a purpose-action relationship with 'to see further'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see further, one must climb higher",
+        "evidence_found": true,
+        "reasoning": "The phrase 'To see further, one must climb higher' directly expresses the purpose (see further) and the means (climb higher), maintaining the logical relationship required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The sun sets behind the mountains, And the Yellow River flows to the sea.",
+        "evidence_found": true,
+        "reasoning": "The translation preserves both the mountain sunset and river-to-sea imagery while conveying a sense of vastness through the river's flow to the sea.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

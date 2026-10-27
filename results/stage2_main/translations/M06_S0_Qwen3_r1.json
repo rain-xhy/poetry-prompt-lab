@@ -1,0 +1,19 @@
+{
+  "id": "M06_S0_Qwen3_r1",
+  "poem_id": "M06",
+  "trap_type": "拟人意象",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n春眠不觉晓，处处闻啼鸟。\n夜来风雨声，花落知多少。",
+  "prompt_sha256": "43c671190433e70a77e52c7249b0a491384d3515dfbafcbefb4f9f5bd279f95b",
+  "translation": "Spring sleep does not wake me up,  \nAll around I hear the birds' song.  \nThe rain came last night, the flowers fall—  \nHow many petals will never return?",
+  "metadata": {
+    "input_tokens": 49,
+    "output_tokens": 38,
+    "latency_ms": 10365.966320037842,
+    "timestamp": "2026-10-26T19:34:50.225093",
+    "finish_reason": "stop"
+  }
+}

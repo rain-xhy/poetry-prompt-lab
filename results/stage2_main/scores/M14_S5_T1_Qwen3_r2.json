@@ -1,0 +1,67 @@
+{
+  "translation_id": "M14_S5_T1_Qwen3_r2",
+  "anon_code": "T_20fcb984",
+  "poem_id": "M14",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If the legendary general of the western frontier had still been alive, he would not allow the nomadic horse to cross the dark mountains.",
+        "evidence_found": true,
+        "reasoning": "The translation uses a conditional clause starting with 'If' to express the assumption that the legendary general was still alive, which matches the required condition hypothesis structure.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "he would not allow the nomadic horse to cross the dark mountains",
+        "evidence_found": true,
+        "reasoning": "The phrase 'would not allow' directly translates the '不让' meaning 'not allow' and 'nomadic horse to cross' corresponds to '越过' as the action being prevented.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If the legendary general of the western frontier had still been alive, he would not allow the nomadic horse to cross the dark mountains.",
+        "evidence_found": true,
+        "reasoning": "The translation uses a conditional clause 'If... had still been alive' followed by a result clause 'he would not allow...', preserving the condition-result logic required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the legendary general of the western frontier",
+        "evidence_found": true,
+        "reasoning": "The phrase 'legendary general of the western frontier' directly refers to a historical border commander, fulfilling the requirement for a border general with historical significance.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M20_S5_T3_Qwen25_r3",
+  "anon_code": "T_574d1227",
+  "poem_id": "M20",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell high by the head of the Yangtze River, You dwell far below by its tail.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts the speaker's position at the head of the Yangtze River with the lover's position at the tail, maintaining the spatial opposition required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Daily I long for you but cannot see you",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Daily I long for you but cannot see you' directly expresses the required meaning of 'daily/every day' and the contradiction between 'longing' (思) and 'not seeing' (不见).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Together we drink from the Yangtze's waters.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Together we drink from the Yangtze's waters' directly reflects the '共' (commonality) and '饮长江水' (drinking Yangtze River water) as required, showing shared connection despite physical separation.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "I dwell high by the head of the Yangtze River, You dwell far below by its tail. Daily I long for you but cannot see you, Together we drink from the Yang. River",
+        "evidence_found": false,
+        "reasoning": "The translation shows physical separation (dwell high by the head vs. dwell far below by its tail) and emotional/symbolic connection (together we drink from the Yangtze River), creating tension between the two.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S5_T1_Qwen25_r3",
+  "anon_code": "T_c48bab49",
+  "poem_id": "M02",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Red beans grow in the south land, Spring comes and how many sprout?",
+        "evidence_found": true,
+        "reasoning": "The translation preserves 'red beans' as the specific symbol for longing, with the first two lines directly referencing the classical imagery of red beans representing separation and longing.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I hope you gather them in abundance",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I hope you gather them in abundance' directly expresses a wish/hope for the recipient to collect the red beans, fulfilling the requirement of '劝君多采摘（愿望）' with the target 'you' and the action of gathering.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "For this is the thing that most conveys思念",
+        "evidence_found": true,
+        "reasoning": "The phrase 'most conveys思念' directly translates to 'most conveys longing' which matches the requirement of expressing 'this thing most symbolizes/embodies longing'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Spring comes and how many sprout?",
+        "evidence_found": true,
+        "reasoning": "The phrase does not explicitly mention the time of spring (e.g., 'when spring arrives') and the natural action of sprouting is implied but not directly stated as '发枝' (sprouting branches).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

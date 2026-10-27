@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S1_T3_Qwen25_r2",
+  "anon_code": "T_b64332c6",
+  "poem_id": "M02",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the one that best expresses thoughts and longing",
+        "evidence_found": true,
+        "reasoning": "The phrase 'the one that best expresses thoughts and longing' directly refers to '红豆' as the symbol of longing, fulfilling the requirement to preserve '红豆' as a symbol of longing through its description.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I hope you will take in many more",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I hope you will take in many more' directly expresses a wish/hope for the recipient to gather more red beans, fulfilling the requirement of expressing hope and specifically addressing 'you' to take action.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I hope you will take in many more, for this is the one that best expresses thoughts and longing.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'best expresses thoughts and longing' directly corresponds to '最能寄托相思之情' as it conveys the meaning of 'this thing most effectively symbolizes or conveys longing and thoughts'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When spring comes, how many branches will they sprout?",
+        "evidence_found": true,
+        "reasoning": "The phrase directly addresses the timing of spring and the natural action of sprouting branches as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

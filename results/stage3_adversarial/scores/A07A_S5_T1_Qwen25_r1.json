@@ -1,0 +1,58 @@
+{
+  "translation_id": "A07A_S5_T1_Qwen25_r1",
+  "anon_code": "T_c6546214",
+  "poem_id": "A07A",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Carefully slide into the river",
+        "evidence_found": true,
+        "reasoning": "The translation does not address the question of whether the ambiguous version can infer the correct negation, as it only describes an action without negation or ambiguity resolution.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Carefully slide into the river",
+        "evidence_found": true,
+        "reasoning": "The translation does not convey a clear negation as required by the original phrase '版本B的明确否定', which should express a negative meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Carefully slide into the river",
+        "evidence_found": true,
+        "reasoning": "The English translation accurately conveys the meaning of the Chinese phrase '小心滑入河中' as a careful action of sliding into the river.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

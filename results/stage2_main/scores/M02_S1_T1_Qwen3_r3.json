@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S1_T1_Qwen3_r3",
+  "anon_code": "T_eaa62887",
+  "poem_id": "M02",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This thing holds the deepest longing",
+        "evidence_found": true,
+        "reasoning": "The phrase 'this thing' refers to the red beans, which are the symbol of longing, thus preserving the meaning of '红豆 as a symbol of longing (metaphor)' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "May you gather them freely",
+        "evidence_found": true,
+        "reasoning": "The phrase 'May you gather them freely' expresses a wish for the person to collect the red beans, fulfilling the requirement of '劝君多采摘（愿望）' with the direct address 'you' and the hopeful tone.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This thing holds the deepest longing",
+        "evidence_found": true,
+        "reasoning": "The phrase 'This thing holds the deepest longing' directly translates to 'this thing most deeply embodies longing', which matches the requirement of expressing 'this thing most can symbolize/embodiment of longing' without implying that the thing itself 'will think of' or 'longs'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Spring brings forth new branches",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Spring brings forth new branches' directly expresses the time of spring and the natural action of branches growing, meeting both pass conditions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "D05_S3_T1_Qwen25_r2",
+  "poem_id": "D05",
+  "trap_type": "时态叙事",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nExamples of Common Mistakes to Avoid:\n\nExample 1: Emotional Paradox\n❌ Wrong: \"情愈深时语愈淡\" → \"passionate but plain words\" (literal, loses the escalation)\n✅ Right: \"情愈深时语愈淡\" → \"the deeper the feeling, the plainer the words\"\n\nExample 2: Emotional State\n❌ Wrong: \"歌不成声泣无言\" → \"only feel cannot sing\" (broken grammar)\n✅ Right: \"歌不成声泣无言\" → \"my throat chokes, unable to sing; tears flow without words\"\n\nExample 3: Implicit Negation\n❌ Wrong: \"莫待花谢始惜春\" → \"wait until flowers fall to cherish spring\" (negation reversed!)\n✅ Right: \"莫待花谢始惜春\" → \"don't wait until flowers fall to cherish spring\"\n\nExample 4: Personification\n❌ Wrong: \"风为我叩门\" → \"I knock on the door when wind blows\" (loses personification)\n✅ Right: \"风为我叩门\" → \"the wind knocks at the door for me\"\n\nExample 5: Action Subject\n❌ Wrong: \"邻舟问客何处去\" → \"the traveler asks the boat\" (wrong subject)\n✅ Right: \"邻舟问客何处去\" → \"someone from the neighboring boat asks the traveler where he is headed\"\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n十年生死两茫茫，不思量，自难忘。\n千里孤坟，无处话凄凉。",
+  "prompt_sha256": "f39a0db6f4c5caa09492f601966737562084a03f33590e80acb06e604a3865f1",
+  "translation": "Ten years of生死, both silent and empty, not thought of, yet remembered clearly.\nA solitary grave stretches a thousand miles, no words to share the sorrow.\n[Note: \"生死\" (shēngsǐ) literally means \"life and death,\" often used metaphorically for a marriage or union.]",
+  "metadata": {
+    "input_tokens": 539,
+    "output_tokens": 64,
+    "latency_ms": 2053.8227558135986,
+    "timestamp": "2026-10-26T16:31:58.554276",
+    "finish_reason": "stop"
+  }
+}

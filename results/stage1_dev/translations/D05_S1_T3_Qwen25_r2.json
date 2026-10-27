@@ -1,0 +1,19 @@
+{
+  "id": "D05_S1_T3_Qwen25_r2",
+  "poem_id": "D05",
+  "trap_type": "时态叙事",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n十年生死两茫茫，不思量，自难忘。\n千里孤坟，无处话凄凉。",
+  "prompt_sha256": "d5155870ef8bb6c7ae98c460b8303fa2a3d79fd7f0b25bfd902e4a5048050dbd",
+  "translation": "Ten years of生死, both are in a dim light, not thinking of you, yet you are always in my heart.\nA lonely grave, thousands of miles away, no place to speak of the melancholy.\n[Note: \"生死\" (shēngsǐ) is often used in classical poetry to personify death and life, expressing the poet's enduring sorrow for a deceased spouse.]\n\n2 lines of English:\nTen years of life and death, both dim in memory, not thinking of you, yet you are always dear.\n[Note: This note clarifies the use of \"生死\" (shēngsǐ) to represent the poet's enduring love for their deceased spouse.]",
+  "metadata": {
+    "input_tokens": 231,
+    "output_tokens": 141,
+    "latency_ms": 4483.808994293213,
+    "timestamp": "2026-10-26T16:46:46.486973",
+    "finish_reason": "stop"
+  }
+}

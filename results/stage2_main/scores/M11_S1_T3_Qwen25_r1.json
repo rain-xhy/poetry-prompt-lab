@@ -1,0 +1,67 @@
+{
+  "translation_id": "M11_S1_T3_Qwen25_r1",
+  "anon_code": "T_a38a2225",
+  "poem_id": "M11",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I think it frost upon the ground",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I think it frost upon the ground' uses 'think' as a verb indicating uncertainty and matches the requirement of using a verb of speculation without certainty.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I lift my head and view the bright moon, I bow my head and think of home.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly shows the action sequence (lifting head to view moon, bowing head to think of home) and implies that viewing the moon leads to thoughts of home.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I raise my gaze to the clear moonlight, I lower my head, filled with longing for home.",
+        "evidence_found": true,
+        "reasoning": "The translation preserves 'bed' (implied by 'my bed' in the first line) and 'before the bed' (implied by 'raise my gaze to the clear moonlight' and 'lower my head') while expressing 'bright moonlight' as 'clear moonlight' and the emotional state of thinking of home.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I raise my gaze to the clear moonlight, I lower my head, filled with longing for home. The moonlight pierces the night, a beacon, Guiding my thoughts to distant lands.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys a sense of quietness through the moonlight and the solitary reflection, while expressing homesickness and longing for home through the imagery of 'longing for home' and 'guiding my thoughts to distant lands'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M06_S5_T2_Qwen3_r3",
+  "anon_code": "T_d44720e4",
+  "poem_id": "M06",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "But how many blossoms have fallen?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'how many blossoms have fallen' directly corresponds to '不知道花落了多少' with the subject 'I' implied by the context of the poem's observation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I sleep through the morning, unaware of the dawn.",
+        "evidence_found": true,
+        "reasoning": "The translation includes the phrase 'I sleep through the morning, unaware of the dawn' which expresses sleep and unawareness of dawn, but the original phrase '春眠不觉晓' specifically refers to spring (as per the time background requirement) and the translation does not explicitly mention 'spring' in the English text.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Birds cry from every corner, their songs heard.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Birds cry from every corner, their songs heard' expresses '到处听到鸟叫' by indicating multiple locations (every corner) and auditory perception (songs heard).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Last night the wind and rain made a sound",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Last night the wind and rain made a sound' directly translates the meaning of '昨夜听到风雨声' by expressing the past time ('Last night') and the sound of wind and rain.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

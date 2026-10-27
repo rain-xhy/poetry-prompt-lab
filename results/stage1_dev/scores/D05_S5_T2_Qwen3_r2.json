@@ -1,0 +1,71 @@
+{
+  "translation_id": "D05_S5_T2_Qwen3_r2",
+  "anon_code": "T_fd3bb74d",
+  "poem_id": "D05",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of separation, both living and dead, Not thinking, yet it is not forgotten. A thousand miles of lonely grave, Where can I speak of this bitter pain?",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly mention 'ten years' as a continuous period but uses 'Ten years of separation' which implies a duration, yet the phrase 'Not thinking, yet it is not forgotten' does not convey the 'separation' or '渺茫' (vague, distant) meaning required. The required meaning of '十年生死两茫茫' is 'ten years of separation between the living and dead, being utterly distant and indistinct', but the translation focuses on emotional pain and memory rather than the temporal and spatial separation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Not thinking, yet it is not forgotten.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Not thinking, yet it is not forgotten' directly matches the required meaning of 'even if not deliberately thinking, it remains unforgettable' without implying that not thinking causes forgetting.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A thousand miles of lonely grave",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A thousand miles of lonely grave' directly translates to '千里孤坟' with 'lonely' indicating the required 'lonely' and 'grave' representing the '坟墓', while 'thousand miles' captures the 'thousand miles' distance.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Where can I speak of this bitter pain?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Where can I speak of this bitter pain?' directly translates the concept of '无处话凄凉' by expressing the inability to find a place or person to express sorrow.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.65,
+    "valid": true
+  },
+  "layer2_v1": {
+    "valid": false,
+    "raw": "{\n  \"adequacy\": 5,\n  \"imagery\": 5,\n  \"emotion\": 5,\n  \"fluency\": 5,\n  \"po\": 5\n}"
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

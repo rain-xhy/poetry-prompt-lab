@@ -1,0 +1,58 @@
+{
+  "translation_id": "A07A_S1_T1_Qwen3_r2",
+  "anon_code": "T_1d4d2cd7",
+  "poem_id": "A07A",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The river is a mirror, yet holds no reflection; the current is gentle, yet carries away the lost.",
+        "evidence_found": true,
+        "reasoning": "The translation describes a river that reflects but does not hold reflections and a gentle current that carries away lost things, which does not directly address whether the ambiguous version can infer the correct negation as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The river is a mirror, yet holds no reflection; the current is gentle, yet carries away the lost.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the contrast between the river's reflective nature and its inability to hold reflections, as well as the gentle current that still carries away lost things, aligning with the requirement that version B should be a clear negation.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The river is a mirror, yet holds no reflection; the current is gentle, yet carries away the lost.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys the dual meaning of the river's reflective nature and its destructive current, matching the original's contrast between appearance and reality.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

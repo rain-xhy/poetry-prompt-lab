@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S0_Qwen3_r3",
+  "anon_code": "T_2daf6219",
+  "poem_id": "M02",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Red beans grow in the southern land, Spring comes and they sprout several branches. May you diligently collect them, For this thing is most cherished in longing.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states 'Red beans' as the central image and links it to longing through the phrase 'most cherished in longing', fulfilling the requirement to preserve 'red beans' as a symbol of longing.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "May you diligently collect them",
+        "evidence_found": true,
+        "reasoning": "The phrase 'May you diligently collect them' expresses a wish/hope for the reader to gather the red beans, fulfilling the requirement of a hopeful tone and addressing 'you' directly.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "For this thing is most cherished in longing.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'most cherished in longing' directly translates to '最能寄托相思之情' as it conveys that this object is the most effective for expressing or寄托 (to寄托 means to寄托, to entrust, to express) longing.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Spring comes and they sprout several branches.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Spring comes and they sprout several branches' directly expresses the time of spring and the natural action of sprouting branches as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

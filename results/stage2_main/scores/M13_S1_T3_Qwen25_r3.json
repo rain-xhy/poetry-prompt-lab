@@ -1,0 +1,67 @@
+{
+  "translation_id": "M13_S1_T3_Qwen25_r3",
+  "anon_code": "T_c3cb47a9",
+  "poem_id": "M13",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A lone fisherman in a蓑衣 floats alone",
+        "evidence_found": true,
+        "reasoning": "The phrase '鸟飞绝' requires absolute negation of birds flying, but the translation describes a fisherman floating alone, which does not address birds at all.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "No traces of people on ten thousand paths.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'No traces of people on ten thousand paths' directly expresses the absolute negation of human traces disappearing as required, capturing the '灭' (disappearance) sense.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A lone fisherman in a蓑衣 floats alone",
+        "evidence_found": true,
+        "reasoning": "The phrase 'floats alone' does not convey the '垂钓' (fishing) action required, and '蓑衣' (raincoat) is not part of the original meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A lone fisherman in a蓑衣 floats alone, Fishing in the cold river through the snow.",
+        "evidence_found": true,
+        "reasoning": "The translation uses '蓑衣' (raincoat) which is not English, and the phrase does not convey the required contrast between vast space and individual solitude as specified.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

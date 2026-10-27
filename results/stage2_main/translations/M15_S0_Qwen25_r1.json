@@ -1,0 +1,19 @@
+{
+  "id": "M15_S0_Qwen25_r1",
+  "poem_id": "M15",
+  "trap_type": "否定逻辑",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n黄河远上白云间，一片孤城万仞山。\n羌笛何须怨杨柳，春风不度玉门关。",
+  "prompt_sha256": "77a3de0adee1b564b3c63b23016c8f26cb52ec5e22d99777b53eccb768cd697e",
+  "translation": "Here is a translation of the Chinese classical poem into English:\n\nFrom afar up to the blue sky, the Yellow River climbs;\nA solitary city stands amidst ten thousand仞mountains.\nWhy should the羌flute lament over willows, spring breeze does not reach;\nBeyond the Jade Gate Pass, no spring breeze ever comes. \n\nNotes on the translation:\n- \"黄河远上白云间\" (Huáng Hé yuǎn shàng bái yún jiān) - \"The Yellow River stretches far up to the blue sky.\"\n- \"一片孤城万仞山\" (Yī piàn gū chéng wàn rèn shān) - \"A solitary city stands amidst ten thousand仞mountains.\"\n- \"羌笛何须怨杨柳\" (Qiāng dí hé xū yàn yáng liǔ) - \"Why should the羌flute lament over willows.\"\n- \"春风不度玉门关\" (Chūn fēng bù dù yù mén guān) - \"Spring breeze does not reach the Jade Gate Pass.\"",
+  "metadata": {
+    "input_tokens": 69,
+    "output_tokens": 230,
+    "latency_ms": 3270.2841758728027,
+    "timestamp": "2026-10-26T19:43:07.051015",
+    "finish_reason": "stop"
+  }
+}

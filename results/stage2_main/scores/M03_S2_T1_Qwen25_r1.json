@@ -1,0 +1,67 @@
+{
+  "translation_id": "M03_S2_T1_Qwen25_r1",
+  "anon_code": "T_a51081f2",
+  "poem_id": "M03",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "a date is yet to come",
+        "evidence_found": true,
+        "reasoning": "The phrase 'a date is yet to come' directly translates to '尚未确定/cannot yet be set' as required, avoiding 'no deadline' or 'never'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When we sit by the west window together, I'll tell you of the rain at night in the Ba mountains.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'When we sit by the west window together, I'll tell you of the rain at night in the Ba mountains.' uses the future tense 'I'll tell' to express a future assumption about sitting together by the west window, fulfilling the requirement for a future tense and expectation.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When we sit by the west window together, I'll tell you of the rain at night in the Ba mountains.",
+        "evidence_found": true,
+        "reasoning": "The translation uses future tense 'I'll tell you' which contradicts the requirement for '将来回忆过去' (future recalling past).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "In the mountains of Ba, night rain fills the autumn pond.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'night rain fills the autumn pond' directly translates the meaning of '巴山夜雨涨秋池' as rain causing the pond to rise, while preserving the three required意象: 巴山 (mountains of Ba), 夜雨 (night rain), and 秋池 (autumn pond).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M14_S4_T1_Qwen3_r3",
+  "anon_code": "T_39075078",
+  "poem_id": "M14",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "But if the general were still stationed in Lóngchéng, he would not allow the nomadic horses to cross the Yin Mountain.",
+        "evidence_found": true,
+        "reasoning": "The translation uses the conditional phrase 'if... would not' to express the assumption that the general is stationed in Lóngchéng, which matches the required condition and assumption.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "he would not allow the nomadic horses to cross the Yin Mountain",
+        "evidence_found": true,
+        "reasoning": "The phrase 'would not allow' directly translates to '不让' (prevent/not allow) and implies active prevention of crossing, matching the required meaning of '不让...越过' (prevent from crossing).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "But if the general were still stationed in Lóngchéng, he would not allow the nomadic horses to cross the Yin Mountain.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states a conditional clause ('if the general were still stationed in Lóngchéng') followed by a result ('he would not allow the nom: horses to cross the Yin Mountain'), preserving the condition-result logic while maintaining coherence with the original context.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In the time of Qin, the moon shone bright, and in the time of Han, the walls stood tall. A thousand miles of journey, the soldiers had not yet returned.",
+        "evidence_found": true,
+        "reasoning": "The translation focuses on historical periods and military presence but does not explicitly mention a specific border general or the concept of Lóngchéng as a historical border fortress, thus failing to preserve the required historical context of a border general.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 4,
+    "valid": true
+  }
+}

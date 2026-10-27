@@ -1,0 +1,67 @@
+{
+  "translation_id": "M08_S2_T1_Qwen25_r1",
+  "anon_code": "T_14adfec5",
+  "poem_id": "M08",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The mountain remains empty, no one can be seen; But the sound of human voices echoes through.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly contrast '看不见' (cannot see) and '听得见' (can hear) as required, and the phrase 'no one can be seen' implies absence rather than the contrast between visibility and audibility.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The fading sunlight returns to the deep forest",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The fading sunlight returns to the deep forest' directly expresses the dynamic movement of sunlight (返景) as the setting sun (夕阳) entering the deep forest (深林).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "And once again illuminates the moss.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'once again illuminates the moss' directly corresponds to '又照在青苔上' by expressing 'again' (once again) and 'illuminates the moss' (照在青苔上), fulfilling both conditions of expressing 'again' and the moss imagery.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The mountain remains empty, no one can be seen",
+        "evidence_found": true,
+        "reasoning": "This line directly expresses the emptiness and absence of people, fulfilling the requirement for '空旷' (open, empty) and '幽静' (quiet, secluded).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

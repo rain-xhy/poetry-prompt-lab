@@ -1,0 +1,53 @@
+{
+  "translation_id": "A01_S5_T1_Qwen3_r1",
+  "anon_code": "T_c55225e4",
+  "poem_id": "A01",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The wind knocks at the door for me. The hills wish to keep the guest.",
+        "evidence_found": true,
+        "reasoning": "The translation does not contain any negative words like 'not', 'don't', 'avoid', or 'prevent' to indicate the implicit negation of '小心' (be careful).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The wind knocks at the door for me. The hills wish to keep the guest.",
+        "evidence_found": true,
+        "reasoning": "The translation describes natural imagery without conveying any warning or cautionary tone as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The wind knocks at the door for me. The hills wish to keep the guest. The deeper the feeling, the plainer the words.",
+        "evidence_found": true,
+        "reasoning": "The translation does not contain any English words related to 'slide/fall into river' as required by the pass conditions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\n  \"original\": \"小心滑入河中\",\n  \"reference_notes\": {\n    \"小心的隐性否定\": \"识别'小心'暗含'不要'的否定意义。\",\n    \"警告语气\": \"保留警告/提醒的语气。\",\n    \"动作完整性\": \"保留'滑入河中'的完整动作。\"\n  },\n  \"translation\": \"The wind knocks at the door for me. The hills wish to keep the guest. The deeper the feeling, the plainer the words.\"\n}"
+  },
+  "layer3": {
+    "academic_translation": 1,
+    "poetic_reading": 1,
+    "valid": true
+  }
+}

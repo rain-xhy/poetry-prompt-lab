@@ -1,0 +1,62 @@
+{
+  "translation_id": "D01_S5_T2_Qwen25_r2",
+  "anon_code": "T_8d8fdbff",
+  "poem_id": "D01",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling, how to dispel it?",
+        "evidence_found": true,
+        "reasoning": "The translation starts with 'This feeling, how to dispel it?' which does not express '无法排遣' (impossible to eliminate this feeling). Instead, it suggests that the feeling is still there, which contradicts the pass condition of expressing '无法排遣' (impossible to eliminate this feeling).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "It hides behind the brows, then rises anew",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly state that the feeling '才下眉头' (just left the brow) and does not preserve the phrase '愁刚从眉间离开' (the sorrow just left the brow).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "It hides behind the brows, then rises anew,",
+        "evidence_found": true,
+        "reasoning": "The provided translation does not include the phrase '愁又涌上心头' and does not express the sense of turning or repetition as required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "It hides behind the brows, then rises anew,",
+        "evidence_found": true,
+        "reasoning": "The provided translation does not explicitly mention the '才下……却上' phrase, which is necessary to preserve the original meaning of the Chinese phrase '才下……却上' (meaning 'just gone up, then back down').",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 4,
+    "emotion": 5,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 4.4,
+    "valid": true
+  }
+}

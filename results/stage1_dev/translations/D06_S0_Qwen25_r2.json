@@ -1,0 +1,19 @@
+{
+  "id": "D06_S0_Qwen25_r2",
+  "poem_id": "D06",
+  "trap_type": "时态叙事",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n遥知兄弟登高处，遍插茱萸少一人。",
+  "prompt_sha256": "7cf6f83c6e13878ea45de23d449e629e9ba3141bbdb27992306d88e3b7374768",
+  "translation": "Here's the English translation of the provided Chinese classical poem:\n\nI know my brothers climbing high, \nAll wearing fragrant萸 on their brows,\nExcept one, missing far from home.",
+  "metadata": {
+    "input_tokens": 55,
+    "output_tokens": 38,
+    "latency_ms": 11281.4040184021,
+    "timestamp": "2026-10-26T16:43:26.824961",
+    "finish_reason": "stop"
+  }
+}

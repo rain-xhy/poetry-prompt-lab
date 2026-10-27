@@ -1,0 +1,76 @@
+{
+  "translation_id": "D02_S5_T1_Qwen3_r2",
+  "anon_code": "T_188583b8",
+  "poem_id": "D02",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Birds fly away from the sky, leaving no trace behind.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Birds fly away from the sky, leaving no trace behind' describes birds flying away but does not explicitly convey 'all birds have flown' or 'disappearance' as required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A solitary cloud drifts leisurely alone.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A solitary cloud drifts leisurely alone' contains 'solitary' (equivalent to 孤), 'leisurely' (equivalent to 悠闲), and 'alone' (equivalent to 自独), fulfilling the required meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "They look at each other without ever feeling weary, and only the mountain of Jingt: The mountain watches without fatigue.",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly states mutual viewing without fatigue between 'me' and the mountain, with the mountain acting as the active observer.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "only the mountain of Jingtong remains",
+        "evidence_found": true,
+        "reasoning": "The phrase 'only the mountain of Jingt:ing' directly translates to 'only Jingting Mountain' as required, with 'Jingtong' being the transliteration of the Chinese proper noun.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

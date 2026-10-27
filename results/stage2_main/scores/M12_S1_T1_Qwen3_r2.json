@@ -1,0 +1,67 @@
+{
+  "translation_id": "M12_S1_T1_Qwen3_r2",
+  "anon_code": "T_021db9b0",
+  "poem_id": "M12",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see all lands from afar",
+        "evidence_found": true,
+        "reasoning": "The phrase 'To see all lands from afar' uses 'to see' which expresses a purpose (want to see) and implies the 'thousand miles' distance through 'all lands from afar'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "one must climb higher, and reach the next level",
+        "evidence_found": true,
+        "reasoning": "The phrase 'one must climb higher, and reach the next level' directly expresses the requirement to 'climb higher' (再上一层楼) as a necessary action, forming a purpose- means relationship with the preceding context.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see all lands from afar, one must climb higher, and reach the next level.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the purpose (to see all lands from afar) and the means (climb higher and reach the next level), maintaining the purpose-means logic required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "To see all lands from afar, one must climb higher, and reach the next level.",
+        "evidence_found": true,
+        "reasoning": "The translation adds an unrelated phrase about climbing to see lands, which does not match the original's focus on the sunset and river flow.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "translation_id": "D02_S3_T1_Qwen3_r1",
+  "anon_code": "T_16f337df",
+  "poem_id": "D02",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The birds fly away, leaving no trace",
+        "evidence_found": true,
+        "reasoning": "The phrase '鸟群都飞走了' is not preserved in the translation. The translation emphasizes the birds flying away without any trace, which is different from the original phrase '众鸟高飞尽' which implies the birds have completely disappeared.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The translation does not contain the exact phrase '孤云独自悠闲地飘走'",
+        "evidence_found": false,
+        "reasoning": "The translation uses 'The birds fly away, leaving no trace; the clouds drift alone, departing in leisure.' which does not match the original '孤云独去闲'",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "We gaze at each other without hatred",
+        "evidence_found": true,
+        "reasoning": "The phrase '人与山互相看着，都不厌倦' (The birds fly away, leaving no trace; the clouds drift alone, departing in leisure. We gaze at each other without hatred, and only the mountain of Jingting remains worthy of our admiration.) does not preserve the original phrase '相看两不厌' and introduces new elements that do not match the original meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The birds fly away, leaving no trace; the clouds drift alone, departing in leisure. We gaze at each other without hatred, and only the mountain of Jingting remains worthy of our admiration.",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the phrase 'only' or 'alone' as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.4,
+    "valid": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "M06_S5_T2_Qwen3_r3",
+  "poem_id": "M06",
+  "trap_type": "拟人意象",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Poetic rendering for English poetry reading.\nAudience: Poetry lovers at literary events.\nConstraints:\n- Prioritize rhythm and natural flow when read aloud\n- You may adapt imagery for English poetic conventions\n- You may reorder or restructure lines for English verse\n- Preserve the core emotional tone and main imagery\n- You may sacrifice minor details for poetic effect\n- No notes (pure poetry)\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nSemantic Analysis (in Chinese):\n“花落知多少”：不知道花落了多少（主语是'我'）。要点：主语是说话人'我'，不是'花'。\n“春眠不觉晓”：春天睡眠沉，不知道天亮。要点：睡过头，没察觉天亮。\n“处处闻啼鸟”：到处听到鸟叫。要点：'到处'的范围和'闻'的听觉。\n“夜来风雨声”：昨夜听到风雨声。要点：过去时态，听觉。\n\nExamples of Common Mistakes to Avoid:\n\nExample 1: Emotional Paradox\n❌ Wrong: \"情愈深时语愈淡\" → \"passionate but plain words\" (literal, loses the escalation)\n✅ Right: \"情愈深时语愈淡\" → \"the deeper the feeling, the plainer the words\"\n\nExample 2: Emotional State\n❌ Wrong: \"歌不成声泣无言\" → \"only feel cannot sing\" (broken grammar)\n✅ Right: \"歌不成声泣无言\" → \"my throat chokes, unable to sing; tears flow without words\"\n\nExample 3: Implicit Negation\n❌ Wrong: \"莫待花谢始惜春\" → \"wait until flowers fall to cherish spring\" (negation reversed!)\n✅ Right: \"莫待花谢始惜春\" → \"don't wait until flowers fall to cherish spring\"\n\nExample 4: Personification\n❌ Wrong: \"风为我叩门\" → \"I knock on the door when wind blows\" (loses personification)\n✅ Right: \"风为我叩门\" → \"the wind knocks at the door for me\"\n\nExample 5: Action Subject\n❌ Wrong: \"邻舟问客何处去\" → \"the traveler asks the boat\" (wrong subject)\n✅ Right: \"邻舟问客何处去\" → \"someone from the neighboring boat asks the traveler where he is headed\"\n\nCommon Pitfalls to Avoid:\n\n1. Negation Reversal\n   - Don't translate implicit negation as affirmation\n   - \"莫待花谢始惜春\" means \"don't wait until flowers fall to cherish spring\", not \"wait until flowers fall\"\n2. Personification Loss\n   - Keep personification of objects\n   - \"山欲留客\" = \"the hills wish to keep the guest\", not just \"I stayed by the hills\"\n3. Emotional Paradox Flattening\n   - Don't flatten emotional paradoxes into simple statements; preserve the tension\n   - \"情愈深时语愈淡\" has escalating tension between feeling and words\n4. Adding Information\n   - Don't add characters, events, or relationships not in the original\n   - \"风为我叩门\" = the wind knocks for me, not \"wind brings a visitor\"\n5. Who Does What to Whom\n   - Check action subjects and objects carefully\n   - \"邻舟问客何处去\" = the neighbor asks where the traveler goes (not the reverse)\n6. Temporal Relations\n   - Distinguish past, present, future, and hypothetical\n   - \"待明年花开时\" = when blossoms bloom next year (future), not past\n\nOutput Format: 2-4 lines of English verse, no title, no author name, no notes.\n\nPoem:\n春眠不觉晓，处处闻啼鸟。\n夜来风雨声，花落知多少。",
+  "prompt_sha256": "09c75b2a2ca84c7539ed660904caa0f8d9ac58175ce6943ea7956ed121c336c0",
+  "translation": "**Spring Sleeps, Dawn Unaware**  \nI sleep through the morning, unaware of the dawn.  \nBirds cry from every corner, their songs heard.  \nLast night the wind and rain made a sound,  \nBut how many blossoms have fallen?",
+  "metadata": {
+    "input_tokens": 889,
+    "output_tokens": 54,
+    "latency_ms": 11354.869842529297,
+    "timestamp": "2026-10-26T20:55:55.111998",
+    "finish_reason": "stop"
+  }
+}

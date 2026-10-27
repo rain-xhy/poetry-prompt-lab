@@ -1,0 +1,19 @@
+{
+  "id": "M05_S0_Qwen25_r2",
+  "poem_id": "M05",
+  "trap_type": "情感反差",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n寻寻觅觅，冷冷清清，凄凄惨惨戚戚。",
+  "prompt_sha256": "bab7e4ab09eb425de87e1fff5c97021bc493f660e06a292574473966afb21107",
+  "translation": "Searching and searching, I find nothing,\nThe air is cold and bleak, sorrowful and grim.\nWith anguish in my heart, I weep alone. \n\nNote: This is a literal translation based on the meaning of the original Chinese poem. The poem \"寻寻觅觅，冷冷清清，凄凄惨惨戚戚\" is a well-known opening line from Li Qingzhao's poem \"如梦令·昨夜雨疏风骤\" (Like a Dream: Last Night Wind and Rain). This line captures the feeling of loneliness and desperation, but the full poem has a more complex structure and meaning. The English translation provided above captures the essence of the opening line's melancholic tone.",
+  "metadata": {
+    "input_tokens": 57,
+    "output_tokens": 144,
+    "latency_ms": 2025.1379013061523,
+    "timestamp": "2026-10-26T20:40:04.105658",
+    "finish_reason": "stop"
+  }
+}

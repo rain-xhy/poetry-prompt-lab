@@ -1,0 +1,19 @@
+{
+  "id": "M17_S0_Qwen25_r2",
+  "poem_id": "M17",
+  "trap_type": "时态叙事",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n此情可待成追忆，只是当时已惘然。",
+  "prompt_sha256": "2ac189fc2f4abaf78c99f72858d7b92bb01b844cdff6880e738f42b4b3e41850",
+  "translation": "This feeling can never be truly recollected in joy, \nFor it was already shrouded in sorrow when it first arose. \n\nNote: This is a literal translation based on the meaning of the original poem. The sentiment and structure may not perfectly match the original Chinese poem. The phrase \"此情可待成追忆, 只是当时已惘然\" (Cí qíng kě dài chéng zhuī yín, zhǐ shì dāng shí yǐ wǎng rán) can be interpreted as expressing that the feeling was so painful and overwhelming that it was already in a state of sorrow when it occurred, and hence it cannot be recollected in happiness later on.",
+  "metadata": {
+    "input_tokens": 55,
+    "output_tokens": 151,
+    "latency_ms": 2164.675235748291,
+    "timestamp": "2026-10-26T19:43:03.777198",
+    "finish_reason": "stop"
+  }
+}

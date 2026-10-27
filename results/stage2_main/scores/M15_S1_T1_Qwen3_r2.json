@@ -1,0 +1,67 @@
+{
+  "translation_id": "M15_S1_T1_Qwen3_r2",
+  "anon_code": "T_8ac11195",
+  "poem_id": "M15",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why should the Qiang flute mourn the willow trees",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Why should the Q:iang flute mourn the willow trees' expresses a rhetorical question implying 'there is no need to mourn the willow trees', matching the required meaning of '不必/no need to' as a negation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "when the spring wind does not reach the Jade Gate",
+        "evidence_found": true,
+        "reasoning": "The phrase 'does not reach' explicitly includes the required negation and geographical limitation as per the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Why should the Qiang flute mourn the willow trees, when the spring wind does not reach the Jade Gate?",
+        "evidence_found": false,
+        "reasoning": "The translation captures the causal relationship where the spring wind not reaching the Jade Gate (cause) leads to the Qiang flute's unnecessary mourning of willow trees (effect), maintaining the original's logic that complaining about the spring wind not reaching is pointless.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why should the Qiang flute mourn the willow trees",
+        "evidence_found": true,
+        "reasoning": "The phrase 'mourn the willow trees' directly implies the traditional association of willows with parting in Chinese culture, and 'Qiang flute' is the preserved term for the instrument.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

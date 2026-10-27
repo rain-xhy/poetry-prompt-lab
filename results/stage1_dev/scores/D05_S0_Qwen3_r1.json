@@ -1,0 +1,76 @@
+{
+  "translation_id": "D05_S0_Qwen3_r1",
+  "anon_code": "T_394e857a",
+  "poem_id": "D05",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of life and death, two miles apart, Not thinking, yet forever remembered. A thousand miles away, a lonely grave, Where I cannot express my sorrow.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly convey the 'ten years' as a continuous period of separation between living and dead, nor does it accurately express the 'two-way isolation and mutual obscurity' between the living and dead as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Not thinking, yet forever remembered.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Not thinking, yet forever remembered' directly matches the required meaning of '即使不刻意去想，也自然难忘' by expressing that even without deliberate thought, the memory remains.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A thousand miles away, a lonely grave",
+        "evidence_found": true,
+        "reasoning": "The phrase 'a lonely grave' directly translates to '孤独坟墓' and 'a thousand miles away' implies the '千里' distance.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Where I cannot express my sorrow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Where I cannot express my sorrow' directly translates the meaning of '无处话凄凉' as 'no place/person to express sorrow', meeting both conditions of expressing no place/person to speak and the emotion of sorrow.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

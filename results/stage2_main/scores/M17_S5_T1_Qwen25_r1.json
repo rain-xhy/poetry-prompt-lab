@@ -1,0 +1,67 @@
+{
+  "translation_id": "M17_S5_T1_Qwen25_r1",
+  "anon_code": "T_d7d1529a",
+  "poem_id": "M17",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling can indeed become a memory",
+        "evidence_found": true,
+        "reasoning": "The phrase 'can indeed become a memory' uses 'can' to express possibility for the future, matching the requirement of 'can' for the future tense and the concept of becoming a memory.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Yet back then, it was already heartbroken.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it was already heartbroken' directly corresponds to '当时就已经惘然' with the past perfect tense 'was already' expressing completion and the emotional state 'heartbroken' conveying the惘然 (wistful, lost) feeling.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling can indeed become a memory, Yet back then, it was already heartbroken.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly refers to the emotional state as 'this feeling' and describes it as a memory that was already heartbroken, preserving the emotional depth and the specific emotional reference required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling can indeed become a memory, Yet back then, it was already heartbroken.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly contrasts the future memory ('This feeling can indeed become a memory') with the past state ('back then, it was already heartbroken'), preserving the complex tense interplay and temporal contrast required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 3.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

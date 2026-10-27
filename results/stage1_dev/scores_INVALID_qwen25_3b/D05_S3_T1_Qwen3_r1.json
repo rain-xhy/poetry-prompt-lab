@@ -1,0 +1,62 @@
+{
+  "translation_id": "D05_S3_T1_Qwen3_r1",
+  "anon_code": "T_a2183f31",
+  "poem_id": "D05",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of life and death, two souls apart",
+        "evidence_found": true,
+        "reasoning": "The rest of the translation does not match the pass conditions",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Not thinking, yet forever remembering.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'Not thinking, yet forever remembering.' which contradicts the original '不思量，自难忘' (not thinking, yet naturally forgetting).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Where I cannot express my bitter sorrow.",
+        "evidence_found": true,
+        "reasoning": "The phrase '相隔千里的孤独坟墓' (a lonely grave separated by a thousand miles) is not found in the provided translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Where I cannot express my bitter sorrow.",
+        "evidence_found": true,
+        "reasoning": "The rest of the sentence does not match the original phrase '无处话凄凉' and does not convey the idea of '没有地方、没有人可诉说凄凉'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 2,
+    "overall": 3.85,
+    "valid": true
+  }
+}

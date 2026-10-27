@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S3_T1_Qwen3_r3",
+  "anon_code": "T_bf1b5674",
+  "poem_id": "M02",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Red beans grow in the southern land, sprouting new branches each spring. May you take many of them and gather them, for this thing is most cherished in the heart.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states that 'red beans' are 'most cherished in the heart', directly indicating their symbolic role as a representation of longing, fulfilling the requirement to preserve 'red beans' as a symbol of longing through their emotional significance.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "May you take many of them and gather them",
+        "evidence_found": true,
+        "reasoning": "The phrase 'May you take many of them and gather them' expresses a wish/hope for the reader to collect red beans, fulfilling the requirement of '劝君多采摘（愿望）' with the direct address 'you' and the action of 'taking many' and 'gathering'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "for this thing is most cherished in the heart",
+        "evidence_found": true,
+        "reasoning": "The phrase 'most cherished in the heart' directly translates to '最能寄托相思之情' as it conveys the idea of being deeply valued and emotionally significant for holding feelings of longing.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Red beans grow in the southern land, sprouting new branches each spring.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'sprouting new branches each spring' which refers to the natural action of '发枝', but it does not explicitly express the time of spring as '春天来时' (when spring comes) as required by the pass condition.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

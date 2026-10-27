@@ -1,0 +1,67 @@
+{
+  "translation_id": "M13_S4_T1_Qwen3_r1",
+  "anon_code": "T_cf9a062b",
+  "poem_id": "M13",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "no trace of human steps remains",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no trace of human steps remains' refers to human steps, not birds, and does not convey the absolute absence of birds as required by '鸟飞绝'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no trace of human steps remains",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no trace of human steps remains' directly expresses the absolute negation of human traces as required by '人踪灭', capturing the 'disappearance' sense of '灭' through 'remains' implying absence.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A solitary boat, draped in蓑笠, stands alone",
+        "evidence_found": true,
+        "reasoning": "The phrase 'solitary boat' emphasizes 'alone' and 'stands alone' directly conveys the action of垂钓 (fishing) in isolation.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Beyond the vast mountains, the birds fly in silence, And through every path, no trace of human steps remains. A solitary boat, draped in蓑笠, stands alone, As it casts its shadow over the frozen snow.",
+        "evidence_found": true,
+        "reasoning": "The translation effectively conveys the vastness of space with 'vast mountains' and 'every path', while highlighting human solitude through 'no trace of human steps remains' and 'solitary boat', creating a clear contrast between the expansive landscape and the isolated individual.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.95,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

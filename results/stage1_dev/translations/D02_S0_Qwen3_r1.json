@@ -1,0 +1,19 @@
+{
+  "id": "D02_S0_Qwen3_r1",
+  "poem_id": "D02",
+  "trap_type": "拟人意象",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n众鸟高飞尽，孤云独去闲。\n相看两不厌，只有敬亭山。",
+  "prompt_sha256": "d9a4bd87732ba74c7cc8cad197a16e364717d520c1694fc9e618c799c7098187",
+  "translation": "All the birds fly away, and the solitary cloud goes leisurely.  \nThey look at each other without hatred, only the Jingting Mountain.",
+  "metadata": {
+    "input_tokens": 51,
+    "output_tokens": 30,
+    "latency_ms": 9509.646892547607,
+    "timestamp": "2026-10-26T16:28:50.682768",
+    "finish_reason": "stop"
+  }
+}

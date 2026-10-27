@@ -1,0 +1,19 @@
+{
+  "id": "D05_S1_T1_Qwen25_r2",
+  "poem_id": "D05",
+  "trap_type": "时态叙事",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n十年生死两茫茫，不思量，自难忘。\n千里孤坟，无处话凄凉。",
+  "prompt_sha256": "31c45963227322fe96f7d22010aad769ba7ee5a69fcddbd854b3daa7834790c0",
+  "translation": "Ten years of生死 apart, in silent hearts, we yearn.\nAcross thousands of miles, her grave stands alone, a silent plea.\nWhere can we speak of sorrow, where does it linger?",
+  "metadata": {
+    "input_tokens": 246,
+    "output_tokens": 41,
+    "latency_ms": 11097.793579101562,
+    "timestamp": "2026-10-26T16:34:40.799306",
+    "finish_reason": "stop"
+  }
+}

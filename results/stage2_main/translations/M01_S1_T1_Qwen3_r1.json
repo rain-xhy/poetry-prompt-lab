@@ -1,0 +1,19 @@
+{
+  "id": "M01_S1_T1_Qwen3_r1",
+  "poem_id": "M01",
+  "trap_type": "情感反差",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n多情却似总无情，唯觉尊前笑不成。\n蜡烛有心还惜别，替人垂泪到天明。",
+  "prompt_sha256": "9bf4488d1051b047cb16135cdfd2c731739dbbe3f82f0eb11043b3f93970643b",
+  "translation": "The poet's heart is full of emotion yet seems to lack expression, as if it cannot find the right words. The candle, with a heart of its own, mourns the parting and sheds tears for the person it is meant to comfort.\n\n[The candle's tears symbolize the poet's own sorrow, reflecting the theme of unspoken longing.]",
+  "metadata": {
+    "input_tokens": 241,
+    "output_tokens": 72,
+    "latency_ms": 827.9237747192383,
+    "timestamp": "2026-10-26T20:31:04.914596",
+    "finish_reason": "stop"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S5_T2_Qwen3_r3",
+  "anon_code": "T_1d519eaf",
+  "poem_id": "M07",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Old times Wang Xie courtyard swallows",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly mentions 'Wang' and 'Xie' as specific family names in the context of the courtyard swallows, preserving the historical reference to the Eastern Jin dynasty's Wang and Xie families.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Old times the Wang and Xie mansions' swallows flew into the common people's homes.",
+        "evidence_found": false,
+        "reasoning": "The phrase 'Old times the Wang and X as the translation of '旧时王谢堂前燕' directly contrasts the past (old times) with the present (now), and 'flew into the common people's homes' shows the shift from aristocratic mansions to ordinary citizens, fulfilling both time and class contrasts.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "old times' Wang and Xie's courtyard swallow",
+        "evidence_found": false,
+        "reasoning": "The phrase 'old times' Wang and Xie's courtyard swallow' directly references the swallow as a witness to the past glory of the Wang and Xie families, fulfilling the requirement of preserving the swallow as a witness imagery without implying the swallow lived for centuries.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "J雀桥边野草花，乌衣巷口夕阳斜",
+        "evidence_found": true,
+        "reasoning": "The English translation explicitly includes 'wild grass' and 'sunset' imagery while conveying a sense of desolation and decline, meeting all specified conditions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

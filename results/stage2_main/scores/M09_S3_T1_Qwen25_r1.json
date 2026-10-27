@@ -1,0 +1,67 @@
+{
+  "translation_id": "M09_S3_T1_Qwen25_r1",
+  "anon_code": "T_5d5e5c48",
+  "poem_id": "M09",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The moon sets and the乌鸦 cry,霜 covers the sky,",
+        "evidence_found": true,
+        "reasoning": "The translation includes the Chinese characters '乌鸦' and '霜' directly, which violates the requirement that the translation should be in English without Chinese characters.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I lie in sorrow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I lie in sorrow' does not explicitly convey 'facing' or 'confronting' the sorrow while sleeping, as required by the '面对' relationship. The translation describes a state of lying in sorrow but does not indicate the active relationship of facing or confronting the sorrow during sleep.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Rushing river lights and fishing fires",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'fishing fires' but does not explicitly preserve '枫树' (maple trees) as required by the original phrase 江枫渔火, which specifies two images: 江边枫树 (riverbank maple trees) and 渔火 (fishing fires).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The moon sets and the乌鸦 cry,霜 covers the sky, Rushing river lights and fishing fires, I lie in sorrow.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys a sense of solitude and melancholy through the imagery of the setting moon, crows, frost, and the poet's sorrow, avoiding any joyful elements.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

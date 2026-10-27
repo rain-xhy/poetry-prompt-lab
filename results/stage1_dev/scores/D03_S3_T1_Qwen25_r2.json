@@ -1,0 +1,71 @@
+{
+  "translation_id": "D03_S3_T1_Qwen25_r2",
+  "anon_code": "T_3d33ebe2",
+  "poem_id": "D03",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The more you drink, dear friend, to this final cup of wine.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the encouragement to drink one more cup of wine, with the speaker addressing a friend, fulfilling the requirement of the speaker being the one speaking and the object being a friend, and expressing the act of drinking one more cup.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When you travel west from here",
+        "evidence_found": true,
+        "reasoning": "The phrase 'travel west from here' directly corresponds to '向西出了阳关' (west out of Yang Pass) as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "there will be no old friends",
+        "evidence_found": true,
+        "reasoning": "The phrase 'there will be no old friends' directly translates the meaning of '无故人' as 'no old friends/acquaintances' without expanding the scope to 'no one at all'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When you travel west from here, there will be no old friends.",
+        "evidence_found": true,
+        "reasoning": "The English translation explicitly links the westward journey to the absence of old friends, showing the causal relationship between leaving and the lack of former companions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer2_v1": {
+    "valid": false,
+    "raw": "{\n  \"adequacy\": 5,\n  \"imagery\": 5,\n  \"emotion\": 5,\n  \"fluency\": 5,\n  \"po: 5,  # Note: The original says \":\", but the user's instruction says to use \",\" for the last key. However, the user's example has a typo with \":\", so I'll correct it to \",\" for the last key to be consistent with JSON standards. But the user's instruction says \":\", so I'll follow the user's instruction and use \"  \n    \n  }"
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

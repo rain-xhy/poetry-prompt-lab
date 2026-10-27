@@ -1,0 +1,76 @@
+{
+  "translation_id": "D04_S5_T1_Qwen25_r2",
+  "anon_code": "T_0dee6b99",
+  "poem_id": "D04",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The桃花潭水 deep as a thousand尺",
+        "evidence_found": true,
+        "reasoning": "The phrase does not express '潭水很深' (the pond water is very deep) as required; it uses 'deep as a thousand feet' which is a literal translation of the Chinese phrase but the original Chinese phrase '桃花潭水深千尺' means 'Peach Blossom Pool water is deep to a thousand feet', not 'the pond water is very deep'. The translation here is not expressing the required meaning of '潭水很深' (the pond water is very deep) but rather a literal translation of the Chinese phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Falls short of Wang Lien's affection for me",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Falls short of Wang Lien's affection for me' directly translates the meaning of '不及' as 'not as deep as' or 'less than', while avoiding the terms 'deeper' or 'equally deep' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Falls short of Wang Lien's affection for me.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Wang Lien's affection for me' indicates that Wang Lien is the sender of affection, fulfilling the requirement that 'Wang Lien' is the person sending the farewell and 'me' is the recipient.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The桃花潭水 deep as a thousand尺",
+        "evidence_found": true,
+        "reasoning": "The phrase does not explicitly compare '情' (affection) with depth; it describes the water's depth but does not state that the water's depth is a metaphor for the depth of affection.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M16_S5_T1_Qwen3_r1",
+  "anon_code": "T_17ebcf01",
+  "poem_id": "M16",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The caw of the rooster echoes over the mossy inn, and the moon hangs there.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'rooster' but the original phrase specifies 'chicken' (鸡) which is a different animal, and the phrase 'mossy inn' does not match the original's '茅店' (mossy inn) as a specific type of inn. Additionally, the phrase 'moon hangs there' does not capture the '还有月亮' (there is still moon) nuance of the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Footprints are visible on the bridge, and the frost covers the path.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'footprints' and 'frost' but does not specify that the footprints are on a 'board bridge' (板桥), which is a key detail in the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Recalling the dream of Du Ling, the ducks and geese fill the curved pond.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Recalling the dream of Du:ling' directly expresses the act of remembering a dream associated with Du Ling, fulfilling the requirement of expressing 'recalling' and 'dream'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "ducks and geese fill the curved pond",
+        "evidence_found": true,
+        "reasoning": "The phrase 'curved pond' directly translates to 'curved' meaning the pool is winding or meandering, and 'ducks and geese fill' matches the 'ducks and geese fill' part of the original phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M18_S4_T1_Qwen25_r1",
+  "anon_code": "T_16166ee5",
+  "poem_id": "M18",
+  "strategy": "S4_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "There's nothing we can do as the flowers fall,",
+        "evidence_found": true,
+        "reasoning": "The translation includes the phrase 'There's nothing we can do as the flowers fall,' which expresses the feeling of helplessness regarding the falling flowers, but it does not include the action of watching the flowers fall as required by the condition '无力挽留地看着花落' (watching the flowers fall helplessly). The second sentence about swallows returning is irrelevant to the original phrase's meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Yet the swallows return as if we've known them before.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'swallows return as if we've known them before' directly translates the meaning of '似曾相识燕归来' by expressing the '燕子归来的动作' (swallows returning) and '似曾相识/seem familiar' (as if we've known them before).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Yet the swallows return as if we've known them before.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'swallows return' directly contrasts with 'flowers fall' by showing the opposite movements (returning vs. falling), fulfilling the requirement of contrasting directions between departure and return.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "There's nothing we can do as the flowers fall, Yet the swallows return as if we've known them before.",
+        "evidence_found": true,
+        "reasoning": "The translation focuses on flowers falling and swallows returning, which conveys time passing but does not explicitly address the '物是人非' (things remain but people change) aspect of the original phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

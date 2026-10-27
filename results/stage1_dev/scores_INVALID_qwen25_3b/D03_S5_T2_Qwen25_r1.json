@@ -1,0 +1,62 @@
+{
+  "translation_id": "D03_S5_T2_Qwen25_r1",
+  "anon_code": "T_61f82d20",
+  "poem_id": "D03",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Speak not of ties that bind",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '劝君更尽一杯酒' and does not express '更尽一杯酒' as '再干一杯酒'",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Speak not of ties that bind",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the phrase '西出阳关' or '向西出了阳关' as per the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Speak not of ties that bind",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'ties that bind' which is not a direct translation of '无故人' and implies a broader concept of old friends, thus expanding the scope of the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Speak not of ties that bind, Beyond the setting sun, Where friends like trees in silence stand, And shadows stretch where footsteps end.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly state the relationship between 'no old friends' and the act of drinking, which is a key part of the original phrase's meaning.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M11_S5_T3_Qwen25_r3",
+  "anon_code": "T_6602f418",
+  "poem_id": "M11",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I wonder if it is frost on the ground.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I wonder if it is frost on the ground' uses 'wonder' as the推测词 (suspect/wonder) and expresses uncertainty, matching the requirement of not being a definite statement.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I lift my head and see the bright moon, I lower my head and think of home.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly follows the action sequence (lifting head, seeing moon) followed by (lowering head, thinking of home) and directly links the moon observation to the emotional response of homesickness.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Beside my bed a clear light shines",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Beside my bed a clear light shines' directly corresponds to '床前明月光' by preserving 'bed' (床) and 'before' (前) as the location, and 'clear light' (clear light) represents the 'bright moonlight' (月光明亮) as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I lift my head and see the bright moon, I lower my head and think of home.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys the quiet atmosphere through the moonlight imagery and the act of looking up and down, reflecting the solitude and homesickness required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

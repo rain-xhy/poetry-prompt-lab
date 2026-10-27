@@ -1,0 +1,19 @@
+{
+  "id": "M10_S0_Qwen3_r3",
+  "poem_id": "M10",
+  "trap_type": "拟人意象",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n野火烧不尽，春风吹又生。",
+  "prompt_sha256": "f44e38d26d08a64cc265b63fe26a42a03ff958da679cd43551fcc9fd81400688",
+  "translation": "Wild fire cannot put out, spring wind brings it back again.",
+  "metadata": {
+    "input_tokens": 37,
+    "output_tokens": 14,
+    "latency_ms": 289.2777919769287,
+    "timestamp": "2026-10-26T20:12:34.149259",
+    "finish_reason": "stop"
+  }
+}

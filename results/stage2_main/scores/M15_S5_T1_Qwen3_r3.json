@@ -1,0 +1,67 @@
+{
+  "translation_id": "M15_S5_T1_Qwen3_r3",
+  "anon_code": "T_e2240ba5",
+  "poem_id": "M15",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why mourn the willow trees with a flute?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Why mourn the willow trees with a flute?' expresses a rhetorical question implying 'there is no need to mourn', matching the required meaning of '不必/no need to' as a negation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The spring wind cannot reach the western frontier.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the spring wind's inability to reach the western frontier, fulfilling the requirement of a clear negative statement with geographical limitation.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why mourn the willow trees with a flute? The spring wind cannot reach the western frontier.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the cause (spring wind not reaching western frontier) and effect (mourn willow trees with flute), maintaining the causal logic and thematic resonance.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why mourn the willow trees with a flute?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Why mourn the willow trees with a flute?' directly translates the concept of using a flute (羌笛) to mourn willow trees (杨柳), which implies the traditional association of willows with parting and farewell in Chinese culture, thus preserving the meaning of '羌笛吹奏《折杨柳》曲' as a lament for separation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 4,
+    "valid": true
+  }
+}

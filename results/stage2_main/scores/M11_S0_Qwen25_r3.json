@@ -1,0 +1,67 @@
+{
+  "translation_id": "M11_S0_Qwen25_r3",
+  "anon_code": "T_9f3f1dcb",
+  "poem_id": "M11",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I take this to be frost on the ground",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I take this to be' uses the verb phrase indicating uncertainty and speculation, matching the requirement of using a suspect/wonder/seems/might be construction without stating it as a definite fact.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I lift my head and gaze at the bright moon, I bow my head and think of home.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly follows the action sequence (lifting head to gaze at moon, then bowing head to think of home) and shows that gazing at the moon leads to thoughts of home, preserving the emotional logic of '望月→思乡'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Beside my bed a bright moonlight shines",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Beside my bed a bright moonlight shines' directly translates the original '床前明月光' as 'bedside bright moonlight', preserving the '床前' position and expressing '月光明亮' as 'bright moonlight'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Beside my bed a bright moonlight shines, I take this to be frost on the ground. I lift my head and gaze at the bright moon, I bow my head and think of home.",
+        "evidence_found": true,
+        "reasoning": "The translation focuses on moonlight and frost but does not explicitly convey the 'quiet atmosphere' or 'lonely homesickness' as required by the original phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

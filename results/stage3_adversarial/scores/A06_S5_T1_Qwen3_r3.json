@@ -1,0 +1,58 @@
+{
+  "translation_id": "A06_S5_T1_Qwen3_r3",
+  "anon_code": "T_9bbd20d9",
+  "poem_id": "A06",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The personification of the candle—whose tears are shed to keep the guest—adds a poignant touch.",
+        "evidence_found": true,
+        "reasoning": "The translation states 'tears are shed to keep the guest' which reverses the intended 'person weeps for candle' relationship, failing to preserve the correct inversion.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The deeper the feeling, the plainer the words; the more the guest is left behind, the more the candle's tears fall.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the relationship between emotional depth and the candle's tears, which corresponds to the meaning of '识别' '替' '的方向' changed.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The poet's emotions are deeply layered, yet they seem to contradict themselves—yet this tension is preserved.",
+        "evidence_found": true,
+        "reasoning": "The translation reverses the meaning of the original poem by stating that the poet's emotions are 'deeply layered' and 'contradict themselves', whereas the original poem '赠别' (Parting) expresses a smooth, harmonious farewell without internal contradiction.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 1,
+    "valid": true
+  }
+}

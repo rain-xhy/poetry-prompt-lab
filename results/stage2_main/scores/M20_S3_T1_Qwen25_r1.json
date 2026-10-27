@@ -1,0 +1,67 @@
+{
+  "translation_id": "M20_S3_T1_Qwen25_r1",
+  "anon_code": "T_e31f93ab",
+  "poem_id": "M20",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell in the upper reaches of the Yangtze, You reside at its far end.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts the speaker's location (upper reaches) with the other person's location (far end) of the Yangtze River, fulfilling the requirement for spatial parallelism and contrast between head and tail.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Day after day, I think of you but cannot see you",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Day after day' expresses the required daily continuity, and 'I think of you but cannot see you' directly captures the contradiction between longing and inability to meet.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Sharing the waters of the Yangtze",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Sharing the waters of the Yang: ' directly reflects the '共饮一江水' concept, emphasizing the shared water resource and the connection between the two parties.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell in the upper reaches of the Yangtze, You reside at its far end.",
+        "evidence_found": true,
+        "reasoning": "This line explicitly shows physical separation by describing locations along the Yangtze River, while the shared waters symbolize an emotional connection, creating tension between physical distance and emotional bond.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

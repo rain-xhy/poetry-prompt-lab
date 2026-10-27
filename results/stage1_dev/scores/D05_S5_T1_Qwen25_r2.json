@@ -1,0 +1,76 @@
+{
+  "translation_id": "D05_S5_T1_Qwen25_r2",
+  "anon_code": "T_e6cc38eb",
+  "poem_id": "D05",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of生死 have passed, Ignored by the world, yet still remembered. A thousand miles apart, Where can one speak of loneliness?",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the required phrase '十年来生者与逝者两相隔绝、彼此渺茫' in English, and the phrase '生死' is not translated as 'life and death' but as a literal '生死' which is not standard English. The translation also does not explicitly convey the separation and distance between the living and the dead as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ignored by the world, yet still remembered.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Ignored by the world, yet still remembered' does not convey the meaning of 'even if not deliberately thinking about it, it is still unforgettable' as required. The translation implies the subject is ignored by the world but still remembered, which changes the meaning from 'not thinking about it' to 'being ignored by the world'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A thousand miles apart, Where can one speak of loneliness?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A thousand miles apart' directly translates '千里' as a vast distance, and 'loneliness' corresponds to '孤独' in the required meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Where can one speak of loneliness?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Where can one speak of loneliness?' directly translates the requirement of '没有地方、没有人可诉说凄凉' by expressing the absence of a place or person to convey sorrow.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

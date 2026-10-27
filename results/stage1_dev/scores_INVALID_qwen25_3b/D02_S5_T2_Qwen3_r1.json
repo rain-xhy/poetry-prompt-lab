@@ -1,0 +1,62 @@
+{
+  "translation_id": "D02_S5_T2_Qwen3_r1",
+  "anon_code": "T_f0ca2fb4",
+  "poem_id": "D02",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Birds fly away, leaving the sky vast and still.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express '鸟群都飞走了' (all birds have flown away) and does not convey the sense of '消失' (disappearance). Instead, it describes a scene with a lone cloud and the hills of Jingting staying true, which does not match the original phrase's meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A lone cloud drifts leisurely",
+        "evidence_found": true,
+        "reasoning": "The rest of the translation does not preserve the exact phrase '孤云独去闲' and does not convey the meaning of '孤云独自悠闲地飘走'",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "We look at each other, never weary—",
+        "evidence_found": true,
+        "reasoning": "The phrase '人与山互相看着' is not directly translated as 'We look at each other'",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A lone cloud drifts leisurely, untouched by care.",
+        "evidence_found": true,
+        "reasoning": "The phrase '只有敬亭山' is not preserved in the translation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.95,
+    "valid": true
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "translation_id": "A01_S5_T1_Qwen25_r2",
+  "anon_code": "T_e00427c7",
+  "poem_id": "A01",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Do not wait until flowers fall to cherish spring",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Do not wait until flowers fall to cherish spring' explicitly uses the negative command 'Do not wait' which directly corresponds to the required meaning of '小心' implying 'do not'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Do not wait until flowers fall to cherish spring",
+        "evidence_found": true,
+        "reasoning": "This line directly conveys a warning to act before it's too late, matching the required warning tone.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Cautiously slipping into the river",
+        "evidence_found": true,
+        "reasoning": "The phrase 'slipping into the river' does not explicitly include 'fall' as required by the pass condition, and the translation focuses on the action of slipping rather than a fall into the river.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

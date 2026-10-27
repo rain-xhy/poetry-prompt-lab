@@ -1,0 +1,19 @@
+{
+  "id": "M08_S1_T1_Qwen3_r3",
+  "poem_id": "M08",
+  "trap_type": "拟人意象",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n空山不见人，但闻人语响。\n返景入深林，复照青苔上。",
+  "prompt_sha256": "8791b61717682f6d3d8f5acb1820e958e661df58f45ff3990dc408ef05f498ed",
+  "translation": "In the empty mountain, no human figure is seen, but only the sound of a person speaking. The reflected light enters the deep forest, and it shines upon the moss.\n\n[The \"returning light\" refers to the light that reflects back from the forest floor, creating a visual image of a ghostly apparition.]",
+  "metadata": {
+    "input_tokens": 234,
+    "output_tokens": 66,
+    "latency_ms": 10966.1386013031,
+    "timestamp": "2026-10-26T19:42:06.814766",
+    "finish_reason": "stop"
+  }
+}

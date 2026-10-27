@@ -1,0 +1,67 @@
+{
+  "translation_id": "M10_S3_T1_Qwen25_r3",
+  "anon_code": "T_6f466849",
+  "poem_id": "M10",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wildfires cannot burn it all away",
+        "evidence_found": true,
+        "reasoning": "The phrase 'cannot burn it all away' directly expresses the meaning of '烧不尽' with a negative verb phrase indicating that the wildfire cannot completely destroy it, fulfilling the requirement of having a negation and expressing the idea of not being burned completely.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Spring breezes make it grow again.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Spring breezes make it grow again' directly expresses the required meaning of 'spring wind's role in causing regrowth' and 'repeated growth' as specified in the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wildfires cannot burn it all away, Spring breezes make it grow again.",
+        "evidence_found": true,
+        "reasoning": "The translation shows the relationship between wildfires and grass through the contrast of 'cannot burn it all away' and 'make it grow again', preserving the personification where wildfires are active but unable to destroy the grass, and spring breezes actively regrow it.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wildfires cannot burn it all away, Spring breezes make it grow again.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys the unyielding resilience of grass through the imagery of wildfires and spring breezes, showing the cyclical rebirth that matches the required theme of '顽强生命力' (unbreakable vitality).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

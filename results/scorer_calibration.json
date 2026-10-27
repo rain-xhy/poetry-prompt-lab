@@ -1,0 +1,372 @@
+{
+  "summary": {
+    "scorer": "qwen3:4b",
+    "n_valid": 40,
+    "n_invalid": 0,
+    "good_pass_rate": 1.0,
+    "bad_reject_rate": 0.85,
+    "accuracy": 0.925
+  },
+  "rows": [
+    {
+      "poem": "D01",
+      "unit": 1,
+      "kind": "good",
+      "example": "there is no way to be rid of this longing",
+      "scorer_pass": true,
+      "valid": true,
+      "reasoning": "The translation correctly conveys that there is no method to eliminate the emotional state, matching the requirement of expressing '无法消除' without implying completion or desire to eliminate."
+    },
+    {
+      "poem": "D01",
+      "unit": 1,
+      "kind": "bad",
+      "example": "this feeling is gone",
+      "scorer_pass": false,
+      "valid": true,
+      "reasoning": "The translation states 'this feeling is gone', which implies the feeling has been eliminated, contradicting the requirement that the emotion cannot be eliminated (愁绪无法排遣)."
+    },
+    {
+      "poem": "D01",
+      "unit": 2,
+      "kind": "good",
+      "example": "it has just left my brow",
+      "scorer_pass": true,
+      "valid": true,
+      "reasoning": "The phrase 'it has just left my brow' directly translates to '愁刚从眉间离开' meaning the sorrow has just departed from the brow, satisfying the requirement that the English expresses 'just left' and 'brow'."
+    },
+    {
+      "poem": "D01",
+      "unit": 2,
+      "kind": "bad",
+      "example": "it stays on my brow",
+      "scorer_pass": false,
+      "valid": true,
+      "reasoning": "The phrase 'it stays on my brow' implies the emotion remains on the brow, whereas the original phrase '才下眉头' means the emotion has just left the brow, indicating a recent departure rather than a current presence."
+    },
+    {
+      "poem": "D01",
+      "unit": 3,
+      "kind": "good",
+      "example": "only to rise again in my heart",
+      "scorer_pass": true,
+      "valid": true,
+      "reasoning": "The phrase 'only to rise again in my heart' captures the required meaning of a turning point (yet/but/again) and the focus on 'heart' as the central element."
+    },
+    {
+      "poem": "D01",
+      "unit": 3,
+      "kind": "bad",
+      "example": "it leaves my heart",
+      "scorer_pass": false,
+      "valid": true,
+      "reasoning": "The translation lacks a clear expression of contrast or turning point (yet/but/again) as required by the pass conditions, and the phrase 'it leaves my heart' does not convey the intended emotional buildup or surge of sorrow that '愁又涌上心头' implies."
+    },
+    {
+      "poem": "D01",
+      "unit": 4,
+      "kind": "good",
+      "example": "no sooner gone from my brow than it lodges in my heart",
+      "scorer_pass": true,
+      "valid": true,
+      "reasoning": "The translation shows the immediate succession of the emotion leaving the brow and arriving in the heart, maintaining the continuous nature of the sorrow without it disappearing."
+    },
+    {
+      "poem": "D01",
+      "unit": 4,
+      "kind": "bad",
+      "example": "two unrelated statements",
+      "scorer_pass": false,
+      "valid": true,
+      "reasoning": "The translation 'two unrelated statements' does not convey the continuous flow of sorrow between the brow and heart as described, failing to show the seamless transition and inescapable nature of the emotion."
+    },
+    {
+      "poem": "D02",
+      "unit": 1,
+      "kind": "good",
+      "example": "the flock of birds has flown away",
+      "scorer_pass": true,
+      "valid": true,
+      "reasoning": "The translation expresses that all birds have completely disappeared, meeting the requirement of '全部、消失' meaning."
+    },
+    {
+      "poem": "D02",
+      "unit": 1,
+      "kind": "bad",
+      "example": "birds fly high",
+      "scorer_pass": false,
+      "valid": true,
+      "reasoning": "The translation 'birds fly high' does not convey the meaning of 'all birds have flown away completely' or 'disappearance of the bird group', which is required by the pass conditions."
+    },
+    {
+      "poem": "D02",
+      "unit": 2,
+      "kind": "good",
+      "example": "a lone cloud drifts away at leisure",
+      "scorer_pass": true,
+      "valid": true,
+      "reasoning": "The translation includes 'lone' for '孤', 'drifts away' for '独去', and 'at leisure' for '悠闲', meeting all required conditions."
+    },
+    {
+      "poem": "D02",
+      "unit": 2,
+      "kind": "bad",
+      "example": "clouds are lazy",
+      "scorer_pass": false,
+      "valid": true,
+      "reasoning": "The translation lacks the 'alone' aspect and does not convey the 'peaceful, leisurely' state as required by the original phrase."
+    },
+    {
+      "poem": "D02",
+      "unit": 3,
+      "kind": "good",
+      "example": "we gaze at each other and neither tires",
+      "scorer_pass": true,
+      "valid": true,
+      "reasoning": "The translation correctly captures mutual gazing between 'me' and 'the mountain' with neither becoming tired, fulfilling all specified conditions."
+    },
+    {
+      "poem": "D02",
+      "unit": 3,
+      "kind": "bad",
+      "example": "I never tire of looking at the mountain",
+      "scorer_pass": true,
+      "valid": true,
+      "reasoning": "The translation shows mutual viewing between 'me' and the mountain without fatigue, with the mountain acting as the active viewer."
+    },
+    {
+      "poem": "D02",
+      "unit": 4,
+      "kind": "good",
+      "example": "only Mount Jingting",
+      "scorer_pass": true,
+      "valid": true,
+      "reasoning": "The translation uses 'only' to satisfy the 'only/alone' requirement and correctly translates 'Jingting Mountain' as the proper noun without alteration."
+    },
+    {
+      "poem": "D02",
+      "unit": 4,
+      "kind": "bad",
+      "example": "the mountain",
+      "scorer_pass": false,
+      "valid": true,
+      "reasoning": "The translation lacks the 'only' or 'alone' qualifier and does not mention 'Jingting Mountain' as a proper noun."
+    },
+    {
+      "poem": "D03",
+      "unit": 1,
+      "kind": "good",
+      "example": "I urge you to drink one more cup",
+      "scorer_pass": true,
+      "valid": true,
+      "reasoning": "The translation accurately conveys the meaning of urging a friend to drink one additional cup, fulfilling the conditions of the speaker being the one who speaks, the recipient being a friend, and expressing the action of drinking one more cup."
+    },
+    {
+      "poem": "D03",
+      "unit": 1,
+      "kind": "bad",
+      "example": "I will drink another cup",
+      "scorer_pass": false,
+      "valid": true,
+      "reasoning": "The translation incorrectly states that the speaker will drink, but the original phrase indicates the speaker is advising the listener to drink, not the speaker doing the action."
+    },
+    {
+      "poem": "D03",
+      "unit": 2,
+      "kind": "good",
+      "example": "west of Yangguan Pass",
+      "scorer_pass": true,
+      "valid": true,
+      "reasoning": "The phrase 'west of Yanggu:guan Pass' indicates movement westward beyond Yangguan Pass, matching the required meaning of '向西出了阳关' (westward exit from Yangguan)."
+    },
+    {
+      "poem": "D03",
+      "unit": 2,
+      "kind": "bad",
+      "example": "leaving the pass",
+      "scorer_pass": false,
+      "valid": true,
+      "reasoning": "The translation 'leaving the pass' does not specify the west direction or the Yang Pass, which are required by the pass conditions."
+    },
+    {
+      "poem": "D03",
+      "unit": 3,
+      "kind": "good",
+      "example": "you will find no old friend",
+      "scorer_pass": true,
+      "valid": true,
+      "reasoning": "The phrase 'you will find no old friend' directly translates to 'no old friends/acquaintances' without expanding the scope to 'no one at all', meeting both pass conditions."
+    },
+    {
+      "poem": "D03",
+      "unit": 3,
+      "kind": "bad",
+      "example": "there will be nobody there",
+      "scorer_pass": false,
+      "valid": true,
+      "reasoning": "The translation 'there will be nobody there' implies a complete absence of people, which expands the meaning beyond 'no old friends' to 'no one at all', violating the pass condition that the range should not be expanded."
+    },
+    {
+      "poem": "D03",
+      "unit": 4,
+      "kind": "good",
+      "example": "drink once more, for beyond the pass no friend awaits",
+      "scorer_pass": true,
+      "valid": true,
+      "reasoning": "The translation clearly links the act of drinking with the absence of friends beyond the pass, maintaining the causal relationship between the two concepts as required."
+    },
+    {
+      "poem": "D03",
+      "unit": 4,
+      "kind": "bad",
+      "example": "two unrelated statements",
+      "scorer_pass": false,
+      "valid": true,
+      "reasoning": "The translation states that the two parts are unrelated, but the original phrase links '劝酒' (encouraging drinking) with '无故人' (no old friends) through cause and effect, so the translation fails to show the connection between the two ideas."
+    },
+    {
+      "poem": "D04",
+      "unit": 1,
+      "kind": "good",
+      "example": "the Peach Blossom Pool is a thousand feet deep",
+      "scorer_pass": true,
+      "valid": true,
+      "reasoning": "The translation explicitly states the depth of Peach Blossom Pool as a thousand feet, which meets the requirement of expressing the water being very deep (thousand feet or equivalent exaggeration) and preserves the name 'Peach Blossom Pool' as required."
+    },
+    {
+      "poem": "D04",
+      "unit": 1,
+      "kind": "bad",
+      "example": "the water is cold",
+      "scorer_pass": false,
+      "valid": true,
+      "reasoning": "The translation states 'the water is cold' which does not convey that the water is very deep (thousands of feet) as required by the original phrase."
+    },
+    {
+      "poem": "D04",
+      "unit": 2,
+      "kind": "good",
+      "example": "is not as deep as",
+      "scorer_pass": true,
+      "valid": true,
+      "reasoning": "The translation 'is not as deep as' directly expresses that the depth of the lake is less than Wang Lun's feelings, meeting both conditions: it compares the lake's depth to Wang Lun's feelings and does not imply 'deeper' or 'equal depth'."
+    },
+    {
+      "poem": "D04",
+      "unit": 2,
+      "kind": "bad",
+      "example": "deeper than Wang Lun's love",
+      "scorer_pass": true,
+      "valid": true,
+      "reasoning": "The translation 'deeper than Wang: Lun's love' expresses that the depth of the lake is not as deep as Wang Lun's love, matching the requirement that the lake's depth is not as deep as Wang Lun's love without implying 'deeper' or 'equal depth'."
+    },
+    {
+      "poem": "D04",
+      "unit": 3,
+      "kind": "good",
+      "example": "Wang Lun's farewell to me",
+      "scorer_pass": true,
+      "valid": true,
+      "reasoning": "The phrase 'Wang Lun's farewell to me' indicates that Wang Lun is the one performing the farewell action (the sender) and 'me' is the recipient, satisfying the requirement that 'Wang Lun' is the sender and 'I' is the recipient."
+    },
+    {
+      "poem": "D04",
+      "unit": 3,
+      "kind": "bad",
+      "example": "I see Wang Lun off",
+      "scorer_pass": true,
+      "valid": true,
+      "reasoning": "The phrase 'I see Wang Lun off' implies that Wang Lun is the one sending the speaker away, satisfying the condition that Wang Lun is the sender and the speaker is the recipient of the sending."
+    },
+    {
+      "poem": "D04",
+      "unit": 4,
+      "kind": "good",
+      "example": "the depth of his friendship surpasses it",
+      "scorer_pass": true,
+      "valid": true,
+      "reasoning": "The translation uses 'depth' to represent the metaphorical comparison of emotional depth, and 'surpasses it' indicates that the friendship is deeper than the reference point, fulfilling the requirement of comparing emotional depth with depth."
+    },
+    {
+      "poem": "D04",
+      "unit": 4,
+      "kind": "bad",
+      "example": "Wang Lun sent me a gift",
+      "scorer_pass": false,
+      "valid": true,
+      "reasoning": "The translation does not convey the metaphor of comparing emotional depth with water depth, as it describes a literal gift-giving event without any reference to emotional depth or water."
+    },
+    {
+      "poem": "D05",
+      "unit": 1,
+      "kind": "good",
+      "example": "ten years, the living and the dead lost to each other",
+      "scorer_pass": true,
+      "valid": true,
+      "reasoning": "The translation captures the meaning of 'ten years' and expresses the separation and distance between the living and the dead as required."
+    },
+    {
+      "poem": "D05",
+      "unit": 1,
+      "kind": "bad",
+      "example": "ten years of life and death",
+      "scorer_pass": false,
+      "valid": true,
+      "reasoning": "The translation does not convey the separation and distance between the living and the dead as required; it only mentions 'life and death' without indicating the temporal or emotional separation."
+    },
+    {
+      "poem": "D05",
+      "unit": 2,
+      "kind": "good",
+      "example": "I try not to think, yet cannot forget",
+      "scorer_pass": true,
+      "valid": true,
+      "reasoning": "The translation correctly expresses that not deliberately thinking about something still results in it being unforgettable, without implying that not thinking causes forgetting."
+    },
+    {
+      "poem": "D05",
+      "unit": 2,
+      "kind": "bad",
+      "example": "I never think of her",
+      "scorer_pass": false,
+      "valid": true,
+      "reasoning": "The translation implies a complete absence of thought, whereas the original phrase indicates that even without deliberate effort to think, the memory remains strong; the phrase does not convey the idea that not thinking leads to forgetting."
+    },
+    {
+      "poem": "D05",
+      "unit": 3,
+      "kind": "good",
+      "example": "a lonely grave a thousand miles away",
+      "scorer_pass": true,
+      "valid": true,
+      "reasoning": "The translation includes 'lonely' for the required '孤独' and 'a thousand miles away' indicating the distant distance, fulfilling both conditions."
+    },
+    {
+      "poem": "D05",
+      "unit": 3,
+      "kind": "bad",
+      "example": "a grave",
+      "scorer_pass": false,
+      "valid": true,
+      "reasoning": "The translation 'a grave' does not convey 'lonely' or 'isolated' as required by the pass conditions, and lacks any indication of 'thousands of miles' distance."
+    },
+    {
+      "poem": "D05",
+      "unit": 4,
+      "kind": "good",
+      "example": "nowhere to tell my desolation",
+      "scorer_pass": true,
+      "valid": true,
+      "reasoning": "The phrase 'nowhere to tell my desolation' directly expresses the idea of having no place or person to share one's sorrow, which matches the required meaning of '没有地方、没有人可诉说凄凉' and the emotional context of sorrow."
+    },
+    {
+      "poem": "D05",
+      "unit": 4,
+      "kind": "bad",
+      "example": "I tell my sorrow everywhere",
+      "scorer_pass": false,
+      "valid": true,
+      "reasoning": "The phrase 'I tell my sorrow everywhere' implies actively expressing sorrow, whereas the original phrase '无处话凄凉' means there is no place or person to express sorrow, indicating a lack of opportunity rather than active expression."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "translation_id": "D04_S1_T3_Qwen3_r2",
+  "anon_code": "T_2731d29f",
+  "poem_id": "D04",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The water of Tao Lake is deeper than a thousand feet",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the water depth as deeper than a thousand feet, meeting the requirement for expressing the water being very deep (千尺 or equivalent exaggeration) and preserving 'Tao Lake' as the equivalent of 'Peach Blossom Pool'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "it cannot compare to the sincere emotion sent by Wang Lun",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it cannot compare to' directly translates the meaning of '比不上' while maintaining the context of the lake's depth being less than Wang Lun's emotion, satisfying both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The water of Tao Lake is deeper than a thousand feet, but it cannot compare to the sincere emotion sent by Wang Lun.",
+        "evidence_found": true,
+        "reasoning": "The translation correctly identifies Wang Lun as the sender of the emotion (the '送行' part) and 'I' as the recipient, though it rephrases the meaning to compare the depth of Tao Lake's water to Wang Lun's sincere emotion.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The water of Tao Lake is deeper than a thousand feet, but it cannot compare to the sincere emotion sent by Wang Lun.",
+        "evidence_found": true,
+        "reasoning": "The translation compares the depth of water to emotion, but it does not express that the emotion is deeper than the water; instead, it states the water is deeper than a thousand feet but the emotion is still deeper, which reverses the intended comparison.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

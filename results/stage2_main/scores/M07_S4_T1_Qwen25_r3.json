@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S4_T1_Qwen25_r3",
+  "anon_code": "T_b9f97f3e",
+  "poem_id": "M07",
+  "strategy": "S4_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Old燕 in Wang and Xie halls' eaves",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Wang and Xie' directly preserves the specific family names 'Wang' and 'Xie' as required, referring to the Eastern Jin Wang clan and Xie clan.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Old燕 in Wang and Xie halls' eaves Now nest in common homes",
+        "evidence_found": true,
+        "reasoning": "The line shows a clear time contrast with 'Old' (past) and 'Now' (present), and a class contrast between 'Wang and Xie halls' (elite homes) and 'common homes' (ordinary people's homes).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Old燕 in Wang and Xie halls' eaves",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Old燕' directly translates to 'old swallow' but the required meaning is 'swallow as a witness', and the translation uses 'Old燕' which is not the intended meaning of 'swallow as a witness' as it implies an old swallow rather than a swallow acting as a witness over time.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "At the wild flowers by the Zhuque Bridge, The sun slants in the乌衣巷. Old燕 in Wang and Xie halls' eaves Now nest in common homes.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'wild flowers' instead of 'wild grass' and 'sun slants' which does not clearly convey the desolate atmosphere as required, and the reference to 'Zhuque Bridge' and '乌衣巷' (which is a specific historical location) does not align with the intended '荒凉景象' (desolate scene) of wild grass and setting sun.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

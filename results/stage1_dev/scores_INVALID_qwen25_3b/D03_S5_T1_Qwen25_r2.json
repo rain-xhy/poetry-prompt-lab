@@ -1,0 +1,62 @@
+{
+  "translation_id": "D03_S5_T1_Qwen25_r2",
+  "anon_code": "T_afdaa1dd",
+  "poem_id": "D03",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "歌不成声泣无言。",
+        "evidence_found": true,
+        "reasoning": "The provided translation includes an additional line '歌不成声泣无言' which is not present in the original Chinese poem. This introduces new content not found in the original, violating the constraint of not adding characters, events, or facts not in the original.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "歌不成声泣无言。",
+        "evidence_found": true,
+        "reasoning": "The translation includes '歌不成声泣无言' which is not mentioned in the original phrase '西出阳关' and does not preserve the original meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "歌不成声泣无言",
+        "evidence_found": true,
+        "reasoning": "The translation includes '歌不成声泣无言', which expands the meaning to 'no one at all', violating the constraint of not expanding the meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "劝君更尽一杯酒,\n西出阳关无故人。\n歌不成声泣无言。",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '劝酒与无故人之因果' as in the original. Instead, it translates the original poem into a different structure and meaning, which does not maintain the specific relationship between '劝酒' and '无故人' as in the original phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 3,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 2.75,
+    "valid": true
+  }
+}

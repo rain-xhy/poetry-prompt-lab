@@ -1,0 +1,67 @@
+{
+  "translation_id": "M20_S1_T3_Qwen25_r3",
+  "anon_code": "T_7fdb36eb",
+  "poem_id": "M20",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell high by the river's head, you dwell by its tail.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts the two locations with 'head' and 'tail' to show spatial opposition, fulfilling the requirement of head vs tail contrast.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Day by day I think of you but cannot see you",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Day by day I think of you but cannot see you' directly expresses the continuous daily思念 (thoughts) and the contradiction of not being able to see the person, meeting both requirements.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "We share the waters of the Yangtze River.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'We share the waters of the Yangtze River' directly reflects the '共饮一江水' meaning with 'share' indicating commonality and 'waters of the Yangtze River' specifying the river.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell high by the river's head, you dwell by its tail. Day by day I think of you but cannot see you, We share the waters of the Yangtze River.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly shows physical separation (river's head vs tail) and emotional connection (sharing the Yangtze River's waters), creating tension between physical distance and emotional bond.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

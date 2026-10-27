@@ -1,0 +1,19 @@
+{
+  "id": "M07_S1_T3_Qwen3_r1",
+  "poem_id": "M07",
+  "trap_type": "拟人意象",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n朱雀桥边野草花，乌衣巷口夕阳斜。\n旧时王谢堂前燕，飞入寻常百姓家。",
+  "prompt_sha256": "1bad1d640c7c8d8d71e729feedf62d1018cf3fb116e9c0e6c768d15ae1c00909",
+  "translation": "On the wild grass by the Zhujia Bridge, wild flowers bloom in quiet beauty,  \nAt the edge of the Wuyi Terrace, the sunset casts a long shadow.  \nOnce, the grand halls of Wang and Che welcomed the flocks of spring,  \nNow, a commoner's house is where the once-mighty birds fly in.\n\n[The \"wild grass\" and \"wild flowers\" symbolize the passage of time and the decay of once-great places.  \nThe \"old Wang and Che\" refer to the former elite families of Nanjing, now reduced to commoners.]",
+  "metadata": {
+    "input_tokens": 225,
+    "output_tokens": 123,
+    "latency_ms": 10465.841054916382,
+    "timestamp": "2026-10-26T20:14:59.103510",
+    "finish_reason": "stop"
+  }
+}

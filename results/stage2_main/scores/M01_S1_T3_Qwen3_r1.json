@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S1_T3_Qwen3_r1",
+  "anon_code": "T_7018dc18",
+  "poem_id": "M01",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "feels passionately yet seems detached",
+        "evidence_found": true,
+        "reasoning": "The phrase 'feels passionately yet seems detached' directly captures the required paradox of deep emotion and seeming coldness, maintaining the tension between the two concepts without flattening them into a simple statement.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "cannot fully express it",
+        "evidence_found": true,
+        "reasoning": "The phrase 'cannot fully express it' directly translates to '无法/不能笑出' (unable to/cannot) in the context of the poem's emotional tension, while the 'wine' and 'table' context is implied through the 'sorrow in her friend's smile' and 'parting' references.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The candle, with a heart, mourns the parting, weeping until dawn.",
+        "evidence_found": true,
+        "reasoning": "The phrase explicitly states the candle has a heart (拟人化) and mourns parting (惜别), fulfilling both conditions of the pass.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "weeping until dawn",
+        "evidence_found": true,
+        "reasoning": "The phrase 'weeping until dawn' directly corresponds to '蜡烛替人流泪 + 一直到天明' by preserving the time continuation 'until dawn' and the emotional context of the candle weeping for others.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M06_S4_T1_Qwen25_r3",
+  "anon_code": "T_6eeb4405",
+  "poem_id": "M06",
+  "strategy": "S4_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "How Many Blossoms Fall?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'How Many Blossoms Fall?' directly addresses the question of the number of fallen blossoms from the perspective of the observer, matching the requirement that the subject is 'I' or an implied observer.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Spring Sleep Unawares Dawns",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Spring Sleep Unawares Dawns' directly translates the meaning of '春眠不觉晓' by expressing sleep and the unawares aspect of dawn, while maintaining the spring time background.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "All Around Bird Chirps Heard",
+        "evidence_found": true,
+        "reasoning": "The phrase 'All Around' corresponds to '到处' (everywhere) and 'Bird Chirps Heard' indicates auditory perception of birdsong, fulfilling both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Last Night’s Storms, How Many Blossoms Fall?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Last Night’s Storms' does not convey '风雨的声音' (the sound of wind and rain) as required; it refers to the storms themselves rather than the auditory experience of wind and rain.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

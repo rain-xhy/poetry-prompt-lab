@@ -1,0 +1,67 @@
+{
+  "translation_id": "M15_S0_Qwen3_r2",
+  "anon_code": "T_7e9fb65e",
+  "poem_id": "M15",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why need the羌笛 (qiang di) to mourn the willow trees",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Why need' expresses a rhetorical question implying 'no need to', matching the required meaning of '不必/no need to' as a negation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "For spring wind does not reach the western gate.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'does not reach' explicitly includes the required negation and geographical limitation, matching the original meaning of 'spring wind does not reach the western gate' as a translation of '春风不度玉门关'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "For spring wind does not reach the western gate.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'For spring wind does not reach the western gate' directly reflects the causal relationship where the absence of spring wind (causation) leads to the ineffectiveness of lamentation (consequence), aligning with the required causal logic and thematic resonance.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why need the羌笛 (qiang di) to mourn the willow trees",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Why need the羌笛 (qiang di) to mourn the will: trees' directly references the羌笛 and implies the traditional association of willows with parting, fulfilling both conditions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

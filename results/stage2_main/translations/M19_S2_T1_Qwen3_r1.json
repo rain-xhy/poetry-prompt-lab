@@ -1,0 +1,19 @@
+{
+  "id": "M19_S2_T1_Qwen3_r1",
+  "poem_id": "M19",
+  "trap_type": "时态叙事",
+  "strategy": "S2_T1",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nSemantic Analysis (in Chinese):\n“寻常见...几度闻”：过去经常见到、多次听到（过去时）。要点：过去时态，频繁的回忆。\n“正是...又逢”：现在的重逢（现在时）。要点：现在时态，再次相逢。\n“今昔对比”：昔日繁华vs今日飘零。要点：过去与现在的对比，盛衰变化。\n“落花时节”：落花时节的象征意义。要点：既是实景，也象征盛衰。\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n岐王宅里寻常见，崔九堂前几度闻。\n正是江南好风景，落花时节又逢君。",
+  "prompt_sha256": "2c26d18bf645d7ab8ed87e5565891e09228915c231781558e85ebd45ca50783a",
+  "translation": "In the palace of the King of Qi, I often saw the scene, and on the pavilion of Cui, I heard it many times.  \nIt was indeed a splendid landscape in the south, yet again, I met you in the season of falling petals.  \n\n[The reference to \"falling petals\" symbolizes the fleeting nature of beauty and the passage of time.]",
+  "metadata": {
+    "input_tokens": 345,
+    "output_tokens": 78,
+    "latency_ms": 10194.273471832275,
+    "timestamp": "2026-10-26T21:28:31.767588",
+    "finish_reason": "stop"
+  }
+}

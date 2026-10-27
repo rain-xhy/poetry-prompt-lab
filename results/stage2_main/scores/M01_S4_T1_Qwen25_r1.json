@@ -1,0 +1,65 @@
+{
+  "translation_id": "M01_S4_T1_Qwen25_r1",
+  "anon_code": "T_d6be4a75",
+  "poem_id": "M01",
+  "strategy": "S4_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Like candles with a heart, they cherish the farewell, Dropping tears until dawn, a silent witness to our parting.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Like candles with a heart' implies deep love (heart) while 'cherish the farewell' and 'Dropping tears until dawn' suggest seeming coldness/indifference through silent suffering, capturing the paradox of deep affection and seeming coldness.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": null,
+        "valid": false,
+        "raw": "{\n  \"pass\": false,\n  \"evidence\": \"Yet I am left with only a smile that won: a smile that won't come\",\n  \"reasoning\": \"The translation uses 'a smile that won't come' which implies inability to smile, but the phrase 'a smile that won't come' is a bit awkward and the context suggests it's about the inability to smile, not the intention to not smile. However, the phrase 'a smile that won't come' is not the exact phrase that shows the inability to smile, but the translation does express the inability to smile. Wait, let me re-read the requirements. The original phrase is '唯觉尊前笑不成'. The translation says 'Yet I am left with only a smile that won't come.' The phrase 'a smile that won't come' is a bit awkward, but it does express the inability to smile. However, the requirement is to preserve 'in the wine cup before the host' (at the table/at the farewell wine) and the state of being unable to smile. The translation does not explicitly mention 'at the table' or 'at the farewell wine'. The phrase 'a smile that won't come' is a bit awkward, but it does express the inability to smile. Wait, the problem says: 'What must be preserved: 在酒席前笑不出来的状态'. So the state of being unable to smile at the wine table. The translation says 'Yet I am left with only a smile that won't come.' This implies the inability to smile, but it does not explicitly mention 'at the table' or 'at the farewell wine'. The translation does not mention 'at the table' or 'at the farewell wine', so it fails the second condition. The pass conditions are: - 译文表达'无法/不能笑出'（unable to/cannot），不是'不想笑' - 保留'尊前/at the table/at the farewell",
+        "error": null
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Like candles with a heart, they cherish the farewell",
+        "evidence_found": true,
+        "reasoning": "The phrase explicitly states that candles have a heart (拟人化) and cherish the farewell (惜别), meeting both conditions of being the personified subject and preserving the metaphorical effect.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Dropping tears until dawn",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Dropping tears until dawn' directly corresponds to '蜡烛替人流泪 + 一直到天明' by preserving the time continuation 'until dawn' and the concept of candles 'dropping tears' as a metaphor for emotional sacrifice.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 4.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

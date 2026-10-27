@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S5_T2_Qwen25_r3",
+  "anon_code": "T_a00e103e",
+  "poem_id": "M07",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Old times Wang Xie hall before the swallow",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly mentions 'Wang' and 'Xie' as specific family names, referring to the Wang and Xie clans from the Eastern Jin dynasty, which matches the requirement to preserve the specific family names without generalization.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Old times the Wang and Xie mansions' orioles fly into the common people's homes",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly contrasts 'old times' with 'now' and 'Wang and Xie mansions' (elite) with 'common people's homes' (ordinary citizens), fulfilling both time and class contrasts.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "旧时王谢堂前燕",
+        "evidence_found": true,
+        "reasoning": "The phrase '旧时王谢堂前燕' directly translates to 'the orioles from the past Wang and Xie's courtyard', which preserves the image of the swallow as a witness while avoiding the claim of a single swallow living for centuries.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "By朱雀桥边野草花，乌衣巷口夕阳斜。",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly includes '野草花' (wild grass flowers) and '夕阳斜' (setting sun) while conveying a desolate, decaying atmosphere through the imagery of abandoned historical sites and the fading sun.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

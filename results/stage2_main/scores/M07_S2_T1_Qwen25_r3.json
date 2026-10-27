@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S2_T1_Qwen25_r3",
+  "anon_code": "T_063b2941",
+  "poem_id": "M07",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Once again, the phoenix nest's former guests,",
+        "evidence_found": true,
+        "reasoning": "The phrase 'phoenix nest's former guests' refers to the historical elite families of the Eastern Jin Dynasty, specifically the Wang and Xie clans, which matches the requirement to preserve the specific families without generalization.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Once again, the phoenix nest's former guests, Have flown into common people's homes.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts 'phoenix nest's former guests' (historical elite) with 'common people's homes' (ordinary citizens), showing the time contrast through 'once again' and the class contrast through 'phoenix nest' (former elite) versus 'common people's homes' (commoners).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Once again, the phoenix nest's former guests,",
+        "evidence_found": true,
+        "reasoning": "The phrase 'phoenix nest's former guests' refers to the燕子 (swallows) as the former inhabitants of the phoenix nest, symbolizing their role as witnesses to time and change, thus preserving the燕子 as a witness imagery without implying the same swallow lived for centuries.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "By Zhuque Bridge, wildflowers grow, Unguarded lanes cast a sunset's gloom.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'wildflowers' instead of 'wild grass' and 'sunset's gloom' which does not clearly convey the desolate atmosphere required by the original phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.95,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

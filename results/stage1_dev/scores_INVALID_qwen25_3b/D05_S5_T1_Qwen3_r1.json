@@ -1,0 +1,62 @@
+{
+  "translation_id": "D05_S5_T1_Qwen3_r1",
+  "anon_code": "T_e0f3a47a",
+  "poem_id": "D05",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of separation, two worlds apart, both lost and茫然.",
+        "evidence_found": true,
+        "reasoning": "The phrase '十年生死两茫茫' (Ten years of separation, two worlds apart) is not present in the translation, only '十年' (Ten years) is mentioned. The phrase '彼此渺茫' (both lost and渺茫) is not used in the translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A lonely grave, far away, where sorrow cannot be expressed.",
+        "evidence_found": true,
+        "reasoning": "The translation introduces a new imagery ('A lonely grave, far away, where sorrow cannot be expressed') that is not present in the original phrase and does not align with the meaning of '不思量，自难忘'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "not thinking, yet it is unforgettable",
+        "evidence_found": true,
+        "reasoning": "The phrase 'not thinking, yet it is unforgettable' does not contain the word '孤独' (lonely) or '千里' (thousand miles)",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A lonely grave, far away, where sorrow cannot be expressed.",
+        "evidence_found": true,
+        "reasoning": "The phrase '无处话凄凉' is not preserved in the translation. The translation includes a new context about 'Ten years of separation, two worlds apart' which is not present in the original phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.7,
+    "valid": true
+  }
+}

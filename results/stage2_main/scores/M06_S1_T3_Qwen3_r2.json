@@ -1,0 +1,67 @@
+{
+  "translation_id": "M06_S1_T3_Qwen3_r2",
+  "anon_code": "T_f86db8aa",
+  "poem_id": "M06",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "how many will fall, I wonder",
+        "evidence_found": true,
+        "reasoning": "The phrase 'how many will fall, I wonder' directly expresses the uncertainty of the count of fallen blossoms from the perspective of 'I', fulfilling the requirement that the subject is 'I' or an implied observer.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In the morning, I sleep soundly, unaware of the dawn",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'unaware of the dawn' which indicates the sleep and not noticing the morning, but the phrase 'In the morning' contradicts the original's '春眠' (spring sleep) time background as it specifies the time of day rather than the season.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "everywhere I hear the songs of the birds",
+        "evidence_found": true,
+        "reasoning": "The phrase 'everywhere I hear the songs of the birds' directly translates to '到处听到鸟叫' with 'everywhere' representing 处处 and 'hear the songs of the birds' representing 听到鸟叫, fulfilling the requirement of being auditory and expressing multiple locations.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The sounds of the night's rain and wind have caused the blossoms to fall—how many will fall, I wonder.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'the night's rain and wind' but does not explicitly express the past time as 'last night' or 'yesterday night' as required by the condition that '夜来=昨夜'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

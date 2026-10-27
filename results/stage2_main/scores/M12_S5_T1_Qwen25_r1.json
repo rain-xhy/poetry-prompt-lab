@@ -1,0 +1,67 @@
+{
+  "translation_id": "M12_S5_T1_Qwen25_r1",
+  "anon_code": "T_4aa346e2",
+  "poem_id": "M12",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see further",
+        "evidence_found": true,
+        "reasoning": "The phrase 'To see further' uses 'to see' which expresses the purpose (want to see) and 'further' implies extending the vision beyond the current limit, aligning with the original phrase's meaning of wanting to see a greater distance.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see further, one must Ascend one more step in height.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'To see further, one must Ascend one more step in height' directly expresses the need to 'ascend one more step' as a means to achieve a greater view, fulfilling the requirement of '需要再上一层楼' with the purpose of seeing further.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see further, one must Ascend one more step in height.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'To see further' expresses the purpose (goal) and 'Ascend one more step in height' expresses the means (action), maintaining the purpose-means logical relationship as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The sun sets behind the mountains, And the Yellow River flows to the sea.",
+        "evidence_found": true,
+        "reasoning": "The translation preserves both the mountain sunset and river-to-sea imagery while conveying a sense of vastness and scale.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

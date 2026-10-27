@@ -1,0 +1,71 @@
+{
+  "translation_id": "D02_S1_T2_Qwen25_r1",
+  "anon_code": "T_998383f9",
+  "poem_id": "D02",
+  "strategy": "S1_T2",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "All birds have flown high away,",
+        "evidence_found": true,
+        "reasoning": "The phrase 'All birds have flown high away' does not convey 'bird群都飞走了' (bird group all flew away) as it specifies 'high away' which implies a specific direction and height rather than the complete disappearance or absence of birds.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Solo clouds drift on, carefree and calm.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Solo clouds drift on, carefree and calm' contains 'solo' (which implies 'alone' and 'by oneself') and 'carefree and calm' (which conveys the relaxed, unhurried state required).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Gazing, we two find no end",
+        "evidence_found": true,
+        "reasoning": "The phrase 'we two' implies mutual gazing between two people, but the original specifies 'person and mountain' as the mutual subjects, and the mountain is not active as a 'gazer' here.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Only the solemn peak of Jingting",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Only the solemn peak of Jing:ing' contains 'Only' as the required限定 and 'Jingting' as the preserved proper noun.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "valid": false,
+    "raw": "{\n  \"adequacy\": 5,\n  \"imagery\": 5,\n  \"emotion\": 5,\n  \"fluency\": 5,\n  \"po\": 5\n}"
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

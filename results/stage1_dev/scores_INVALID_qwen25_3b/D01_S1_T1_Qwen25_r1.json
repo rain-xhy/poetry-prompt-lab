@@ -1,0 +1,62 @@
+{
+  "translation_id": "D01_S1_T1_Qwen25_r1",
+  "anon_code": "T_a4c0141e",
+  "poem_id": "D01",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling cannot be dispelled",
+        "evidence_found": true,
+        "reasoning": "The translation states 'This feeling cannot be dispelled', which contradicts the pass condition of 'cannot be eliminated'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling cannot be dispelled",
+        "evidence_found": true,
+        "reasoning": "The translation does not express '才下眉头' which means '才' (just) and '下' (leave) combined with '眉头' (eyebrow) to indicate '刚从眉间离开' (just left from the brow). The translation focuses on the eyelid and heart instead of the original phrase's specific direction from the brow.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling cannot be dispelled",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the word 'yet' or 'but' to express the sense of turning back or repeating, and it does not mention 'heart' directly but 'eyelid's edge'",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling cannot be dispelled",
+        "evidence_found": true,
+        "reasoning": "The rest of the translation does not maintain the exact phrase '才下……却上' and does not fully capture the sense of the original phrase '愁绪在眉与心之间接续转移，无处可逃'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 5,
+    "fluency": 4,
+    "poetic_quality": 2,
+    "overall": 3.55,
+    "valid": true
+  }
+}

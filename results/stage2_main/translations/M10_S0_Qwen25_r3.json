@@ -1,0 +1,19 @@
+{
+  "id": "M10_S0_Qwen25_r3",
+  "poem_id": "M10",
+  "trap_type": "拟人意象",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n野火烧不尽，春风吹又生。",
+  "prompt_sha256": "f44e38d26d08a64cc265b63fe26a42a03ff958da679cd43551fcc9fd81400688",
+  "translation": "This Chinese classical poem translates to English as:\n\n\"The野 fire cannot burn it all down,\nSpring breeze makes it grow anew.\"\n\nNote: The original poem has the character \"野\" (yě) which means \"wild\" or \"wilderness,\" and it appears at the beginning of the poem. It's a common character in Chinese literature and can be translated as \"wild\" or \"wilderness\" in this context. However, without a full context, I've kept it as \"wild\" at the beginning of the line. The second line is a direct translation of the original phrase.",
+  "metadata": {
+    "input_tokens": 50,
+    "output_tokens": 120,
+    "latency_ms": 11584.083318710327,
+    "timestamp": "2026-10-26T20:19:49.609700",
+    "finish_reason": "stop"
+  }
+}

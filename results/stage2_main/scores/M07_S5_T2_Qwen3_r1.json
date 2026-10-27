@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S5_T2_Qwen3_r1",
+  "anon_code": "T_66473348",
+  "poem_id": "M07",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Old times Wang and X:ie's halls",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly preserves 'Wang' and 'Xie' as specific family names without genericization, meeting the requirement for the 'Wang' and 'Xie' family names from the Eastern Jin dynasty.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Old times Wang and Xie's halls, A swallow now flies to commoners' homes",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts 'old times' (past) with 'now' (present) and 'Wang and Xie's halls' (elite) with 'commoners' homes (common people), fulfilling both time and class contrasts.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A swallow now flies to commoners' homes",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A swallow now flies to commoners' homes' does not preserve the 'swallow as witness' imagery; it implies the swallow is moving to commoners' homes, not acting as a witness to past events.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Jade雀 bridge edge wild grass blooms, Ukiyo gate mouth sunset leans",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'Jade雀 bridge edge' and 'Uki:yo gate mouth' which are not standard English terms and seem to be transliterated names or misinterpretations of Chinese terms, and 'wild grass blooms' implies growth rather than desolation, failing to convey the required '荒凉' (desolate) and '衰败' (decaying) atmosphere.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

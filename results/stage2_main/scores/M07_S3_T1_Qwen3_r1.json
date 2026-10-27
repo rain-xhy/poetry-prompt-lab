@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S3_T1_Qwen3_r1",
+  "anon_code": "T_feaf2531",
+  "poem_id": "M07",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the noble houses of Wang and Che",
+        "evidence_found": true,
+        "reasoning": "The translation specifies 'Wang' and 'Che' as distinct noble families, preserving the original '王谢' as a specific historical reference to the Wang and Xie clans of Eastern Jin dynasty.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Once, the noble houses of Wang and Che sang songs on their verandas; Now, the common folk dwell in the places once occupied by them.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts 'noble houses' (past) with 'common folk' (present), showing a clear time and social class contrast as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "At the edge of the Zhuque Bridge, wild grass blooms; At the mouth of the Wuyi巷, the sunset casts a shadow.",
+        "evidence_found": true,
+        "reasoning": "The translation does not mention '燕子' (swallow) as a witness, which is required by the original phrase '堂前燕' (swallow in front of the hall).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "wild grass blooms; ... sunset casts a shadow",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly mentions 'wild grass' and 'sunset' while conveying a sense of desolation through the contrast between past nobility and current common folk dwelling, fulfilling the requirement for a desolate scene.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

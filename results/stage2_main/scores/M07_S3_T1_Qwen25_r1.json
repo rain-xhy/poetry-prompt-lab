@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S3_T1_Qwen25_r1",
+  "anon_code": "T_af7cf129",
+  "poem_id": "M07",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "In old times, the swallow flew into the halls of Wang and X:ie",
+        "evidence_found": false,
+        "reasoning": "The translation specifies 'Wang and Xie' as a specific family name reference, meeting the requirement to preserve the proper names without genericization.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "In old times, the swallow flew into the halls of Wang and X: Now it soars into the common homes.",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly contrasts 'old times' with 'now' for time contrast and 'halls of Wang and Xie' (historically elite) with 'common homes' (ordinary people) for class contrast.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "In old times, the swallow flew into the halls of Wang and Xie; Now it soars into the common homes.",
+        "evidence_found": true,
+        "reasoning": "The translation preserves the swallow (燕子) as a witness (意象) by contrasting its historical presence in the halls of Wang and Xie with its current presence in common homes, without implying the swallow has lived for centuries.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "By Zhuque Bridge, wild flowers grow amidst the weeds; At Wu Yi Lane, the sun sets slantingly.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'wild flowers' and 'sun sets slantingly', but the required '荒凉景象' (desolate scene) is not adequately conveyed as the phrase describes a scene with wild flowers growing and the sun setting, which does not emphasize desolation or decay.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

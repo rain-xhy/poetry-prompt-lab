@@ -1,0 +1,58 @@
+{
+  "translation_id": "A07A_S1_T1_Qwen3_r3",
+  "anon_code": "T_23a20ea3",
+  "poem_id": "A07A",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Careful lest it slip into the river",
+        "evidence_found": true,
+        "reasoning": "The translation does not address the negation or correct negation inference as required by the pass conditions, which specify that version A must also translate to a negation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Careful lest it slip into the river",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Careful lest it slip into the river' directly addresses the need for caution to prevent something from entering the river, which aligns with the requirement of '版本B翻译为否定' (version B translated as a negation) by implying a negative consequence (slipping into the river) through careful avoidance.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Careful lest it slip into the river",
+        "evidence_found": true,
+        "reasoning": "The phrase warns against something slipping into the river, which aligns with the meaning of 'AB一致性' requiring both versions to have the same meaning.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

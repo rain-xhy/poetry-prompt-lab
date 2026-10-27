@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "scripts/stage1_generate.py", line 12, in <module>
+    from src.generator import generate_batch, load_corpus  # noqa: E402
+  File "E:\desktop\北大软微\课程\大语言模型应用与实践\作业\11\代码\poetry-prompt-lab\src\generator.py", line 9, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'

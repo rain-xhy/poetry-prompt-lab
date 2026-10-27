@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S5_T2_Qwen25_r3",
+  "anon_code": "T_4c322b22",
+  "poem_id": "M01",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Deep with emotion yet seeming to care not",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Deep with emotion yet seeming to care not' directly captures both 'deep love/affection' and 'seeming coldness/indifference' while maintaining the paradoxical tension between them.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "At the wine cup, my smile fades away",
+        "evidence_found": true,
+        "reasoning": "The phrase 'my smile fades away' directly expresses 'cannot smile' in the context of the wine cup, meeting the requirement of expressing 'unable to/cannot' rather than 'not wanting to' and preserving the 'at the wine' scene.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Candle with a heart, weeps for the parting",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Candle with a heart, weeps for the part:ing' explicitly states the candle as the subject with a heart (拟人化) and actively weeping for parting, fulfilling the requirement of preserving the candle's personification and emotional context.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Candle with a heart, weeps for the parting, Its tears lasting till the sun sets.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'till the sun sets' does not match 'to dawn' as required, and the translation does not explicitly state 'for us/on our behalf' as a replacement relationship.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

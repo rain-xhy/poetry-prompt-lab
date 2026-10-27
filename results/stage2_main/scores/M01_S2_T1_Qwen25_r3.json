@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S2_T1_Qwen25_r3",
+  "anon_code": "T_d7c28280",
+  "poem_id": "M01",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Lofty with emotion yet seeming indifferent",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Lofty with emotion yet seeming indifferent' directly captures '深情与似无情的悖论张力' by contrasting 'emotion' (deep love/affection) with 'seeming indifferent' (seeming coldness/indifference), maintaining the paradoxical tension without flattening.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I cannot find a smile in the noble hall",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I cannot find a smile' directly translates to '无法笑出来' (unable to smile) and 'noble hall' corresponds to 'at the table/at the farewell wine' scene, meeting both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Like candles with a tender heart and soul, They weep for separation till the dawn breaks.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'candles' as the subject with a 'tender heart and soul', but the original phrase specifies '蜡烛有心还惜别' (candles have a heart and cherish parting), which implies the candles are the active subject of the emotion, not a passive description of their state. The phrase 'weep for separation' is a metaphorical expression that does not fully capture the active '惜别' (cherishing parting) as the candles themselves are the ones experiencing the emotion.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "They weep for separation till the dawn breaks.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'weep for separation till the dawn breaks' captures the '蜡烛替人流泪 + 一直到天明' meaning by indicating the candles weeping (replacing the person) until dawn, fulfilling both conditions of the replace relationship and time continuation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 5,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 4.5,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 4,
+    "valid": true
+  }
+}

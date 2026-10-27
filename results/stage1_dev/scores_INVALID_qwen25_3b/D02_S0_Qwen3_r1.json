@@ -1,0 +1,57 @@
+{
+  "translation_id": "D02_S0_Qwen3_r1",
+  "anon_code": "T_cbe20cea",
+  "poem_id": "D02",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "All the birds fly away, and the solitary cloud goes leisurely.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express 'bird groups all fly away' and does not convey the sense of 'all, disappearance'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "All the birds fly away, and the solitary cloud goes leisurely.",
+        "evidence_found": true,
+        "reasoning": "The phrase '孤云独去闲' is translated as 'All the birds fly away, and the solitary cloud goes leisurely.' This translation does not preserve the exact phrase '孤云独去闲' and does not include the word '悠闲' (leisurely).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "They look at each other without hatred, only the Jingting Mountain.",
+        "evidence_found": true,
+        "reasoning": "The phrase '人与山互相看着' is not preserved and the mountain is not presented as the active viewer.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "They look at each other without hatred, only the Jingting Mountain.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'only the Jingting Mountain' is used, but 'only' is not preserved in the translation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\"adequacy\":1,\"imagery\":0,\"emotion\":1,\"fluency\":2,\"poetic_quality\":0}"
+  }
+}

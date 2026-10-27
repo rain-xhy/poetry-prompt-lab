@@ -1,0 +1,71 @@
+{
+  "translation_id": "D06_S0_Qwen3_r2",
+  "anon_code": "T_6c34c4f6",
+  "poem_id": "D06",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I know that brothers will climb high for autumn,",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I know that' implies direct observation rather than imagining from a distance, which violates the requirement that it should express 'from a distance imagining/anticipating' without direct observation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I know that brothers will climb high for autumn",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly mention 'plant the mugwort stalks' or 'one is missing', and the phrase 'climb high for autumn' does not directly convey 'climb the heights' as required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "plant the mugwort stalks",
+        "evidence_found": true,
+        "reasoning": "The phrase 'plant the mugwort stalks' does not convey 'everyone's head is decorated with dogwood sprigs' as required; it describes an action of planting rather than wearing on heads.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "one is missing",
+        "evidence_found": true,
+        "reasoning": "The phrase 'one is missing' directly translates to '少了一个人' in Chinese, and the context implies the speaker is the missing person.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\n  \"original\": \"遥知兄弟登高处，遍插茱萸少一人。\",\n  \"reference_notes\": {\n    \"遥知\": \"在远处想象得知。要点：视角是诗人远距离的推想，不是亲眼所见。\",\n    \"兄弟登高处\": \"兄弟们登高之处。要点：登高的是兄弟，不是诗人。\",\n    \"遍插茱萸\": \"每个人头上都插着茱萸。要点：'遍'表示都，茱萸是重阳习俗物。\",\n    \"少一人\": \"少了我一个人。要点：缺席者是诗人自己。\"\n  },\n  \"translation\": \"I know that brothers will climb high for autumn, And plant the mugwort stalks, but one is missing.\"\n}"
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

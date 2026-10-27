@@ -1,0 +1,19 @@
+{
+  "id": "A06_S1_T1_Qwen3_r3",
+  "poem_id": "A06",
+  "trap_type": "personification_reversal",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n多情却似总无情，唯觉尊前笑不成。\n人有心还惜别，替烛垂泪到天明。",
+  "prompt_sha256": "62323300ba8c8bd3cd725616832eb205534835843888836b4cf8c6ed8b2cdf17",
+  "translation": "The poet's feelings are paradoxically deep yet elusive, as if they cannot be fully expressed. Yet, in the quiet moment of parting, they find solace in the warmth of a shared smile. The heart is wounded, yet the act of shedding tears, even in the dark, reflects the depth of their emotion.\n\n[This poem reflects the tension between emotional intensity and the desire for clarity, a theme common in classical Chinese poetry.]",
+  "metadata": {
+    "input_tokens": 240,
+    "output_tokens": 89,
+    "latency_ms": 849.2169380187988,
+    "timestamp": "2026-10-26T21:42:08.042695",
+    "finish_reason": "stop"
+  }
+}

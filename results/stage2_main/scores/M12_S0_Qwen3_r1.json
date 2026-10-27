@@ -1,0 +1,67 @@
+{
+  "translation_id": "M12_S0_Qwen3_r1",
+  "anon_code": "T_645132d8",
+  "poem_id": "M12",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see a thousand li beyond",
+        "evidence_found": true,
+        "reasoning": "The phrase 'To see a thousand li beyond' uses 'to see' (a verb expressing purpose) and specifies 'a thousand li' (the required distance), meeting both pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see a thousand li beyond, one must climb higher, one level.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'one must climb higher, one level' directly expresses the necessity of climbing an additional level to achieve the goal, fulfilling the requirement for 'need/must' and establishing a purpose-means relationship with the preceding context.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see a thousand li beyond, one must climb higher, one level.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'To see a thousand li beyond, one must climb higher, one level' clearly expresses the purpose (see a thousand li beyond) and the means (climb higher), maintaining the logical relationship between the two.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "White day sets over the mountain, the Yellow River flows into the sea. To see a thousand li beyond, one must climb higher, one level.",
+        "evidence_found": true,
+        "reasoning": "The translation includes an additional phrase 'To see a thousand li beyond, one must climb higher, one level' that is not part of the original Chinese phrase, thus failing to preserve the two original images without extra content.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

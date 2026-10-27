@@ -1,0 +1,67 @@
+{
+  "translation_id": "M16_S5_T1_Qwen3_r3",
+  "anon_code": "T_6be979db",
+  "poem_id": "M16",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The crow's cry echoes over the grass-covered inn, where the moon still lingers.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'the moon still lingers' corresponds to '还有月亮' (there is still moon), and 'grass-covered inn' implies '茅店' (thatched-roof inn), with 'crow's cry' representing '鸡声' (rooster's cry).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Footsteps are visible on the bridge, where frost has spread.",
+        "evidence_found": true,
+        "reasoning": "The English phrase 'Footsteps are visible on the bridge, where frost has spread' directly corresponds to the required meaning of '人的足迹在板桥的霜上' by preserving the three key images: footsteps, bridge, and frost.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Recalling the dream of Du Ling, ducks glide through the winding pond.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Recalling the dream of Du:ling' directly expresses the required meaning of 'therefore thinking of the dream in Du Ling' as a memory of a dream.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "ducks glide through the winding pond",
+        "evidence_found": true,
+        "reasoning": "The phrase 'winding pond' directly translates to '曲折池塘' and 'ducks glide' captures '凫雁满布' as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

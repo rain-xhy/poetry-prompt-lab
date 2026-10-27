@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S5_T3_Qwen3_r3",
+  "anon_code": "T_44fab368",
+  "poem_id": "M02",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Roses grow in the southland, sprout anew in spring. May you gather them abundantly, for this thing is most full of longing.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'roses' instead of 'red beans' (红豆), which are the specific symbol for longing in Chinese culture, thus failing to preserve the intended symbol as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "May you gather them abundantly",
+        "evidence_found": true,
+        "reasoning": "The phrase 'May you gather them abundantly' expresses a wish/hope for the recipient to gather roses, fulfilling the requirement of '劝君多采摘（愿望）' with the direct address 'you' and the action of gathering.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "this thing is most full of longing",
+        "evidence_found": true,
+        "reasoning": "The phrase 'this thing is most full of longing' directly translates to 'this thing most full of longing' which aligns with 'this thing most able to寄托相思之情' as it conveys the concept of being the most full of longing, indicating the strongest connection to longing.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Roses grow in the southland, sprout anew in spring.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'roses' and 'sprout' but does not specify 'spring' as the time when branches grow, and the phrase 'spring' is used in a different context than the original Chinese phrase which refers to the time of year for the growth of branches.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 1.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

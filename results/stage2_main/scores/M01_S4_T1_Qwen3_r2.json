@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S4_T1_Qwen3_r2",
+  "anon_code": "T_d24dfb78",
+  "poem_id": "M01",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The heart is full of feeling yet seems to lack emotion",
+        "evidence_found": true,
+        "reasoning": "This phrase directly captures the required paradox of deep love and seeming coldness, maintaining the tension between the two concepts without flattening them into a simple statement.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "only sensing the sorrow in the face of laughter that cannot be formed",
+        "evidence_found": true,
+        "reasoning": "The phrase 'laughter that cannot be formed' implies inability to form laughter, but the required meaning is 'cannot laugh' (not 'not wanting to laugh'), and the translation does not explicitly mention 'at the table' or 'farewell wine' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The candle, with a heart of its own, still wishes to part company",
+        "evidence_found": true,
+        "reasoning": "The phrase explicitly states the candle has a heart (拟人化) and wishes to part company (惜别), meeting both conditions of the pass.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "weeping for others until the dawn of the morning",
+        "evidence_found": true,
+        "reasoning": "The phrase 'weeping for others until the dawn of the morning' directly corresponds to '蜡烛替人流泪 + 一直到天明', preserving the '替人/for us/on our behalf' relationship and the time continuation 'until dawn/till morning'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.95,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M11_S1_T1_Qwen25_r2",
+  "anon_code": "T_21a374ab",
+  "poem_id": "M11",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I take this to be frost on the ground",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I take this to be' uses the verb phrase indicating uncertainty and speculation, matching the requirement of using a suspect/wonder/seems/might be construction without a definite statement.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I lift my head, I lower my head",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I lift my head, I lower my head' directly reflects the action sequence and implies that looking at the moon leads to thoughts of home.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Beside my bed a clear, bright moon",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Beside my bed a clear, bright moon' directly translates the original '床前明月光' as 'bedside bright moonlight', meeting the requirement of preserving '床前' position and expressing '月光明亮'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Beside my bed a clear, bright moon, I take this to be frost on the ground. I lift my head, I lower my head, Thinking of home where I belong.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys a sense of quietness and solitude while reflecting on homesickness, meeting both required conditions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

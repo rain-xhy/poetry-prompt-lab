@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S5_T3_Qwen3_r2",
+  "anon_code": "T_d4a2f839",
+  "poem_id": "M01",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The depth of feeling is like being utterly indifferent",
+        "evidence_found": true,
+        "reasoning": "This line directly captures the paradoxical tension between deep feeling and seeming indifference as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Yet I cannot smile at the banquet's table.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'cannot smile' directly expresses '无法/不能笑出' (unable to/cannot smile) and 'banquet's table' corresponds to '酒席前' (at the table/at the farewell wine).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The candle has a heart and wishes to part",
+        "evidence_found": true,
+        "reasoning": "The phrase directly states the candle's personification with 'has a heart' and 'wishes to part', fulfilling the requirement of preserving the candle as the拟人主体 with emotional intent.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "sheds tears for others until the dawn",
+        "evidence_found": true,
+        "reasoning": "The phrase 'sheds tears for others until the dawn' directly corresponds to '蜡烛替人流泪 + 一直到天明', preserving the '替人/for us/on our behalf' relationship and the time continuation 'until dawn'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

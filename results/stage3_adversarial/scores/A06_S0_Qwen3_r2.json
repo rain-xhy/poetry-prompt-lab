@@ -1,0 +1,58 @@
+{
+  "translation_id": "A06_S0_Qwen3_r2",
+  "anon_code": "T_b3c6d1e2",
+  "poem_id": "A06",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "they weep for the candle until the morning light",
+        "evidence_found": true,
+        "reasoning": "The phrase 'they weep for the candle' does not capture the 'person weeps for candle' inversion relationship as required, as it uses plural 'they' instead of singular 'person' and lacks the inversion emphasis.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When people have hearts, they still cherish parting; they weep for the candle until the morning light.",
+        "evidence_found": true,
+        "reasoning": "The translation does not directly address the direction of '替' changing, which is required to be preserved as '识别' '替' 的方向改变了. The phrase 'when people have hearts, they still cherish parting' does not convey the specific meaning of '替' direction change as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Her heart is full of emotion, yet she seems to be indifferent. Only when she notices the smile on her face can she not help but feel sorrow. When people have hearts, they still cherish parting; they weep for the candle until the morning light.",
+        "evidence_found": true,
+        "reasoning": "The translation reverses the meaning of the original poem by suggesting that the person is indifferent when she has emotion, whereas the original poem indicates that the person is emotionally engaged and sorrowful when she smiles.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

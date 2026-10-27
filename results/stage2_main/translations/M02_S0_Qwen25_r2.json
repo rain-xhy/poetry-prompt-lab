@@ -1,0 +1,19 @@
+{
+  "id": "M02_S0_Qwen25_r2",
+  "poem_id": "M02",
+  "trap_type": "情感反差",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n红豆生南国，春来发几枝。\n愿君多采撷，此物最相思。",
+  "prompt_sha256": "91200c3ece4e90fb7437f93c55cdf2aa99acc30f257584795e929c0e8efb9cbb",
+  "translation": "Here is the English translation of the provided Chinese classical poem:\n\nRed beans grow in the Southland,\nSpring comes and how many sprouts do they bear?\n愿 (yuàn) you take many more,\nThis thing is the most for thoughts of longing. \n\nNote: The character \"愿\" (yuàn) is often translated as \"may\" or \"wish\" to convey the poetic sentiment. It can also be rendered as \"willing\" or \"desiring\" depending on the context, but \"may\" or \"wish\" seems to fit best in this context.",
+  "metadata": {
+    "input_tokens": 64,
+    "output_tokens": 117,
+    "latency_ms": 1673.0306148529053,
+    "timestamp": "2026-10-26T20:01:24.533064",
+    "finish_reason": "stop"
+  }
+}

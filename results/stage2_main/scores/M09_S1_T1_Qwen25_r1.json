@@ -1,0 +1,67 @@
+{
+  "translation_id": "M09_S1_T1_Qwen25_r1",
+  "anon_code": "T_df0bd7b4",
+  "poem_id": "M09",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The moon sets and the乌鸦 cry,霜覆盖了夜: The moon sets and the乌鸦 cry,霜覆盖了夜空",
+        "evidence_found": false,
+        "reasoning": "The translation includes the Chinese characters '乌鸦' and '霜' which are not in English, and the phrase '霜覆盖了夜空' translates to 'frost covers the sky' which is not the intended meaning of the original Chinese phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Riverside maples and fishing lamps face my sorrowful sleep",
+        "evidence_found": true,
+        "reasoning": "The phrase 'face my sorrowful sleep' directly expresses '面对愁绪而眠' by showing that the elements (maples and fishing lamps) are oriented towards the sorrowful sleep, fulfilling both conditions: '面对' relation and '愁绪' accompanying sleep.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Riverside maples and fishing lamps face my sorrowful sleep.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Riverside map:maples' incorrectly uses 'maples' instead of 'maples' (which is the correct term for '枫树' in Chinese poetry), and the translation does not clearly convey the two distinct imagery elements as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The moon sets and the乌鸦 cry,霜覆盖了夜空",
+        "evidence_found": true,
+        "reasoning": "The phrase conveys a lonely and cold atmosphere with the moon setting and crows crying, indicating a solitary and melancholic mood.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

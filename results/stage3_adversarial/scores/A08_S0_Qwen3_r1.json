@@ -1,0 +1,58 @@
+{
+  "translation_id": "A08_S0_Qwen3_r1",
+  "anon_code": "T_d40f1c4a",
+  "poem_id": "A08",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Once the mighty mansion's hall",
+        "evidence_found": true,
+        "reasoning": "The phrase 'mighty mansion' directly translates '豪门' as a wealthy/noble/aristocratic family, fulfilling the requirement to preserve '豪门' as a generalized expression.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "On the wild grass by the Zhaoq. Bridge, The sun sets behind the Uyí巷口. Once the mighty mansion's hall, Now a common home for the people.",
+        "evidence_found": false,
+        "reasoning": "The translation conveys the loss of historical specificity by contrasting past grandeur with present common use, matching the required meaning of '识别失去了特定历史背景' without mentioning specific surnames.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "On the wild grass by the Zhaoqiao Bridge, The sun sets behind the Uyí巷口.",
+        "evidence_found": true,
+        "reasoning": "The translation incorrectly uses 'Uyí巷口' which is a transliteration of 'Wu Yi' (a place name) instead of the correct 'Wu Yi Lane' as in the original poem, thus failing to preserve the proper noun '乌衣巷' (Wu Yi Lane) without generalization.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

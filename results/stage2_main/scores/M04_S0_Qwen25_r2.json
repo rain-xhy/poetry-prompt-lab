@@ -1,0 +1,67 @@
+{
+  "translation_id": "M04_S0_Qwen25_r2",
+  "anon_code": "T_7e5fe54c",
+  "poem_id": "M04",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "If two hearts are true to each other, How many meetings a day or night are needed?",
+        "evidence_found": true,
+        "reasoning": "The translation does not express 'long-lasting' or 'enduring' emotions as required; it focuses on the frequency of meetings rather than the duration of emotional connection.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "How many meetings a day or night are needed?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'How many meetings a day or night are needed?' implies that the number of meetings is not necessary, expressing the idea that one does not need to meet daily or nightly, which aligns with the original Chinese's meaning of 'not needing to be together every day.'",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "How many meetings a day or night are needed?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'how many meetings a day or night' does not convey the continuous, repeated nature of '朝朝暮暮' as required; it implies a count of meetings rather than the persistent, overlapping time periods.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If two hearts are true to each other, How many meetings a day or night are needed?",
+        "evidence_found": true,
+        "reasoning": "The translation maintains the conditional structure 'If...' and the rhetorical question 'How many...' which reflects the original's condition-and-reversal logic without altering the core meaning.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

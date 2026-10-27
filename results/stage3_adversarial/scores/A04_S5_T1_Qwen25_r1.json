@@ -1,0 +1,58 @@
+{
+  "translation_id": "A04_S5_T1_Qwen25_r1",
+  "anon_code": "T_f3138896",
+  "poem_id": "A04",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This sentiment has already matured into a yearning, Yet then it was already marred with despair.",
+        "evidence_found": true,
+        "reasoning": "The translation uses past perfect tense 'has already matured' and 'was already marred' to indicate completed actions in the past, fulfilling the requirement to preserve '已待' as a completed action.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This sentiment has already matured into a yearning, Yet then it was already marred with despair.",
+        "evidence_found": true,
+        "reasoning": "The translation uses declarative structure without rhetorical questions, confirming it's a statement not a rhetorical question.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This sentiment has already matured into a yearning, Yet then it was already marred with despair.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'has already matured' and 'was already marred', which indicates a completed action in the past, but the original Chinese phrase '可待' (which implies potential future action) is incorrectly translated as 'has already matured' (past perfect), thus failing to preserve the temporal nuance of '可待' as something that can be awaited in the future rather than being completed in the past.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

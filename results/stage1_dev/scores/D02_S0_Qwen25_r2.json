@@ -1,0 +1,76 @@
+{
+  "translation_id": "D02_S0_Qwen25_r2",
+  "anon_code": "T_b7678a09",
+  "poem_id": "D02",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "All the birds have flown high away",
+        "evidence_found": true,
+        "reasoning": "The phrase 'All the birds have flown high away' does not convey 'bird群都飞走了' (bird group all flew away) with the required meaning of 'all birds have flown far/disappeared' as the translation focuses on 'high away' rather than complete disappearance or absence.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "And the solitary cloud wanders carefree.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'solitary cloud' does not convey '孤云独自' (lonely cloud alone) as it lacks the 'alone' aspect and the translation uses 'wanders carefree' which implies a state of leisure but does not explicitly capture the 'self-contained' or 'independent' nature of the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "And neither grows tired of the other",
+        "evidence_found": true,
+        "reasoning": "The phrase 'neither grows tired of the other' does not explicitly state that the mountain is the active viewer, as required by the condition that '山作为主动的看者被保留' (the mountain is the active viewer). The translation implies mutual viewing but does not specify the mountain as the active subject.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "But rather, I see only the mountain of Jingting.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'only the mountain of Jing:ing' directly corresponds to '只有敬亭山' with the required 'only' and the proper noun 'Jingting Mountain' preserved.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

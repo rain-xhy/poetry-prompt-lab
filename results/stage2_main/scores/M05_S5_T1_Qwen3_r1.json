@@ -1,0 +1,67 @@
+{
+  "translation_id": "M05_S5_T1_Qwen3_r1",
+  "anon_code": "T_5ee118c4",
+  "poem_id": "M05",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Seeking and searching, yet filled with loneliness, sorrow, and grief.",
+        "evidence_found": true,
+        "reasoning": "The phrase does not explicitly convey the repetitive or continuous action of 'seeking' as required; it describes a state of emotion rather than the motion of searching.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The cold, quiet environment mirrors the deep sorrow within.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'cold, quiet environment' directly translates to '环境的冷清凄凉' and the context shows it forms a recursive progression with the preceding line.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking and searching, yet filled with loneliness, sorrow, and grief. The cold, quiet environment mirrors the deep sorrow within.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly conveys deep sorrow through layered emotional terms like 'loneliness, sorrow, and grief' and contrasts the external environment with internal emotional depth, meeting both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking and searching, yet filled with loneliness, sorrow, and grief. The cold, quiet environment mirrors the deep sorrow within.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly shows the progression from action (seeking and searching) to environment (cold, quiet environment) to emotion (loneliness, sorrow, grief) without disrupting the sequence.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

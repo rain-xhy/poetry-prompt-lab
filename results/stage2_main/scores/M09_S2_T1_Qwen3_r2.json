@@ -1,0 +1,67 @@
+{
+  "translation_id": "M09_S2_T1_Qwen3_r2",
+  "anon_code": "T_43a80c16",
+  "poem_id": "M09",
+  "strategy": "S2_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The moon sinks, the crows call out, and frost blankets the sky. On the riverbank, the red maple stands, and the fishing fire flickers—sleeping in the midst of sorrow.",
+        "evidence_found": true,
+        "reasoning": "The translation adds extra elements like 'red maple' and 'fishing fire' which are not in the original phrase, and introduces a causal relationship with 'sleeping in the midst of sorrow' that implies a consequence rather than just parallel imagery.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "sleeping in the midst of sorrow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'sleeping in the midst of sorrow' directly expresses '面对愁绪而眠' by indicating that sleep occurs amidst sorrow, fulfilling both conditions: the relationship of facing sorrow and sorrow accompanying sleep.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "On the riverbank, the red maple stands, and the fishing fire flickers",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly mentions 'red maple' (枫树) and 'fishing fire' (渔火) as two distinct, parallel elements on the riverbank, satisfying the requirement to preserve both意象 without merging them.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "sleeping in the midst of sorrow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'sleeping in the midst of sorrow' conveys the required sense of solitude and melancholy, avoiding any joyful connotations.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

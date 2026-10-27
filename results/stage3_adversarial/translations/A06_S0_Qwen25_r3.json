@@ -1,0 +1,19 @@
+{
+  "id": "A06_S0_Qwen25_r3",
+  "poem_id": "A06",
+  "trap_type": "personification_reversal",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n多情却似总无情，唯觉尊前笑不成。\n人有心还惜别，替烛垂泪到天明。",
+  "prompt_sha256": "1f13466cd1a880f9ac317183ee016533368463d80c836755fa4b1fc17d938270",
+  "translation": "The poem you've provided appears to be a translation of a classical Chinese poem, and I'll attempt to provide an English version that captures the essence and spirit of the original, while also being as poetic as possible.\n\nOriginal:\n多情却似总无情，唯觉尊前笑不成。\n人有心还惜别，替烛垂泪到天明。\n\nEnglish Translation:\nThough filled with tender feelings, they seem to bring no joy, for I can't manage a smile by your side.\nPeople still yearn for each other, even in moments of farewell; I weep for the flame, hoping it will last until dawn.",
+  "metadata": {
+    "input_tokens": 70,
+    "output_tokens": 130,
+    "latency_ms": 1848.3824729919434,
+    "timestamp": "2026-10-26T21:51:18.914898",
+    "finish_reason": "stop"
+  }
+}

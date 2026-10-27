@@ -1,0 +1,19 @@
+{
+  "id": "M14_S0_Qwen25_r2",
+  "poem_id": "M14",
+  "trap_type": "否定逻辑",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n秦时明月汉时关，万里长征人未还。\n但使龙城飞将在，不教胡马度阴山。",
+  "prompt_sha256": "afaf5a9a8d77e9e52a07805ddfb53b85899c6fe5c3704626791e457843bbffc1",
+  "translation": "Here is the English translation of the provided Chinese classical poem:\n\n\"When Qin's bright moon shines on Han's rampart,\nA万里万里 long march of men never returns.\nIf only the Dragon City's valiant general were here,\nHe would not allow the barbarian horse to cross the Yan Mountains.\" \n\nNote: This poem is based on the traditional interpretation of \"Qin\" and \"Han\" as two dynasties, with \"Qin\" being the Qin Dynasty (221-206 BC) and \"Han\" referring to the Western Han (206 BC - 9 AD) and Eastern Han (25-220 AD) periods. The poem is often associated with the general Li Guang (李廣), who was a renowned military leader during the Han Dynasty. The phrase \"龙城飞将\" (Dragon City's valiant general) refers to Li Guang. \n\nThe translation maintains the structure and meaning of the original poem, but please be aware that the precise historical context and exact identity of the \"龙城飞将\" are debated and not definitively tied to Li Guang in every historical account.",
+  "metadata": {
+    "input_tokens": 70,
+    "output_tokens": 233,
+    "latency_ms": 3243.230104446411,
+    "timestamp": "2026-10-26T19:58:39.792420",
+    "finish_reason": "stop"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "translation_id": "A08_S1_T1_Qwen3_r3",
+  "anon_code": "T_e82be53c",
+  "poem_id": "A08",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the grand halls of the wealthy",
+        "evidence_found": true,
+        "reasoning": "The phrase 'the grand halls of the wealthy' directly translates '豪门' as a wealthy/noble/aristocratic family context, fulfilling the requirement to preserve '豪门' as a generalized expression.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Once, the grand halls of the wealthy stood where the birds now fly, Now they dwell in the homes of common folk, unnoticed by all.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the loss of specific historical context by contrasting past grandeur with current humble dwellings, emphasizing how historical significance is no longer recognized.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "At the edge of the Júquè Bridge, wildflowers grow in the wild grass, At the mouth of Wūyī巷, the sunset casts a shadow across the sky.",
+        "evidence_found": true,
+        "reasoning": "The translation correctly identifies the location and setting described in the original poem, preserving the key elements of the scene without altering the specific names or their contextual meaning.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "translation_id": "A04_S5_T1_Qwen3_r2",
+  "anon_code": "T_8203c762",
+  "poem_id": "A04",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling has already become a memory",
+        "evidence_found": true,
+        "reasoning": "The phrase 'has already become' indicates the completed action of becoming a memory, matching the requirement to preserve '已待' as a completed action.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling has already become a memory, yet it was then that I was truly bewildered.",
+        "evidence_found": true,
+        "reasoning": "The translation uses a declarative structure without rhetorical questions, clearly stating that the feeling is a memory and the speaker was bewildered, fulfilling the requirement to identify it as a statement rather than a rhetorical question.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling has already become a memory, yet it was then that I was truly bewildered.",
+        "evidence_found": true,
+        "reasoning": "The translation correctly captures the temporal contrast between past bewilderment and present memory, indicating that the feeling was once bewildering but now is a memory, thus preserving the '可待' to '已待' temporal shift.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

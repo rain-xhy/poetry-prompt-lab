@@ -1,0 +1,67 @@
+{
+  "translation_id": "M13_S5_T1_Qwen25_r1",
+  "anon_code": "T_96c814ac",
+  "poem_id": "M13",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no bird's flight",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no bird's flight' directly translates to the meaning of 'no birds' and captures the absolute negation of birds flying as required by '鸟飞绝'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no human trace",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no human trace' directly translates to '人的踪迹消失' with absolute negation, capturing the '灭' (disappearance) sense.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A solitary boat, a fisher in a蓑衣",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A solitary boat' emphasizes 'alone' as required, and 'a fisher in a蓑衣' implies the action of fishing while maintaining the solitude.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Thousand mountains silent, no bird's flight, Ten thousand paths, no human trace. A solitary boat, a fisher in a蓑衣, Fishing alone in the snowy river.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly shows vast space with 'Thousand mountains' and 'Ten thousand paths', and emphasizes solitude with 'solitary boat' and 'fishing alone', creating a strong contrast between the expansive landscape and the isolated individual.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

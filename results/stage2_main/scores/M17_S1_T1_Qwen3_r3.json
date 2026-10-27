@@ -1,0 +1,67 @@
+{
+  "translation_id": "M17_S1_T1_Qwen3_r3",
+  "anon_code": "T_5eafb5ad",
+  "poem_id": "M17",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling can wait to become a memory",
+        "evidence_found": true,
+        "reasoning": "The phrase 'can wait to become a memory' uses 'can' to express possibility (must/can/could) and indicates a future state of becoming a memory, fulfilling the requirement for the translation to express 'become a memory' in the future tense.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "already it is futile",
+        "evidence_found": true,
+        "reasoning": "The phrase 'already it is futile' captures the completed state with 'already' indicating the past completion and 'futile' conveying the sense of futility that aligns with the original's meaning of 'when it was already lost or confused'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling can wait to become a memory, but already it is futile.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'this feeling' does not clearly refer to 'this emotion' as required by the original phrase '此情', which needs to preserve the specific emotional context.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling can wait to become a memory, but already it is futile.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the contrast between future memory (\"can wait to become a memory\") and past futility (\"already it is futile\") while maintaining the complex tense interplay.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

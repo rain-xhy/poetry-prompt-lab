@@ -1,0 +1,67 @@
+{
+  "translation_id": "M06_S1_T1_Qwen3_r1",
+  "anon_code": "T_f0afdadc",
+  "poem_id": "M06",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I wonder, what number of flowers have fallen?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I wonder, what number of flowers have fallen?' directly expresses the speaker's uncertainty about the count of fallen flowers, matching the requirement that the subject is 'I' and the meaning of '不知道花落了多少' (not knowing how many flowers have fallen).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In the morning, I sleep soundly, unaware of the dawn, and all around me, the birds啼醒 the world.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'In the morning' which contradicts the time background of '春天' (spring) required, and 'birds啼醒 the world' introduces new elements not present in the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "all around me, the birds啼醒 the world",
+        "evidence_found": true,
+        "reasoning": "The phrase 'all around me' does not express '到处' (everywhere) as required, and 'birds啼醒 the world' is a visual metaphor rather than auditory description of hearing birds.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The sound of the night's rain and wind fills the air",
+        "evidence_found": true,
+        "reasoning": "The phrase 'night's rain and wind' does not match the required 'last night's sound of wind and rain' as it implies continuous rain and wind rather than a specific past event.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 1.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

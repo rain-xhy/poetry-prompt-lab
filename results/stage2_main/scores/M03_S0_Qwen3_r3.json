@@ -1,0 +1,67 @@
+{
+  "translation_id": "M03_S0_Qwen3_r3",
+  "anon_code": "T_4287893e",
+  "poem_id": "M03",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "there is no definite time",
+        "evidence_found": true,
+        "reasoning": "The phrase 'there is no definite time' directly translates to '尚未确定' and meets the requirement of expressing 'cannot yet be set' without implying 'no deadline' or 'never'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When will we sit by the west window and light the candle together?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'When will we sit by the west window and light the candle together?' uses the future tense 'will' to express a future assumption about sharing the candle with the partner, matching the required meaning of '什么时候能一起剪西窗烛' (when can we light the candle together at the west window).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When you ask about my return date, there is no definite time. The night rain in the Bashan Mountains fills the autumn pool. When will we sit by the west window and light the",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly mention 'recalling past' or 'talking about past night rain' in the context of future memory, but rather describes current and future actions without clear temporal markers for past recollection.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The night rain in the Bashan Mountains fills the autumn pool.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states that the night rain in Bashan fills the autumn pool, directly matching the required meaning of '雨使池水上涨' while preserving the three required imagery elements: 巴山 (Bashan), 夜雨 (night rain), and 秋池 (autumn pool).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "M05_S0_Qwen25_r1",
+  "poem_id": "M05",
+  "trap_type": "情感反差",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n寻寻觅觅，冷冷清清，凄凄惨惨戚戚。",
+  "prompt_sha256": "bab7e4ab09eb425de87e1fff5c97021bc493f660e06a292574473966afb21107",
+  "translation": "This Chinese classical poem can be translated into English as follows:\n\n\"I keep on searching, but in vain,\nThe air is cold and dim, sorrowful and bleak.\"\n\nPlease note that this is a free translation, aiming to capture the essence and tone of the original poem while being faithful to the poetic style. The poem's meaning and the overall mood are preserved, but the exact lines may vary slightly to suit the English poetic form.",
+  "metadata": {
+    "input_tokens": 57,
+    "output_tokens": 87,
+    "latency_ms": 1261.8935108184814,
+    "timestamp": "2026-10-26T20:30:18.549999",
+    "finish_reason": "stop"
+  }
+}

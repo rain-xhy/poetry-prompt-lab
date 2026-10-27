@@ -1,0 +1,58 @@
+{
+  "translation_id": "A10_S1_T1_Qwen3_r2",
+  "anon_code": "T_6c5bd946",
+  "poem_id": "A10",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Once we shared the western window candlelight",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Once we shared...' uses 'once' to indicate a past event, fulfilling the requirement to identify '曾经' as past tense.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When you inquire about my return date, I have no fixed time—",
+        "evidence_found": true,
+        "reasoning": "This line explicitly states the lack of a fixed return date, indicating that the speaker is recalling past events rather than expecting a future one.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When you inquire about my return date, I have no fixed time—",
+        "evidence_found": true,
+        "reasoning": "The original phrase '与原诗对比' requires preserving the temporal shift from '何当' (when) to '曾经' (once), but the translation uses present tense 'have no fixed time' instead of past tense, reversing the temporal relationship as per the pass condition.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

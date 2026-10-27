@@ -1,0 +1,67 @@
+{
+  "translation_id": "M13_S5_T2_Qwen3_r3",
+  "anon_code": "T_a311957b",
+  "poem_id": "M13",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Silent wings of birds have flown away",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Silent wings of birds have flown away' implies birds have left but does not explicitly convey the absolute absence of birds as required by '鸟飞绝' which demands no birds exist.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "All paths are lost in empty trace",
+        "evidence_found": true,
+        "reasoning": "The phrase 'All paths are lost in empty trace' directly conveys the meaning of '人踪灭' as the complete absence of human traces, with 'lost in empty trace' capturing the 'disappearance' and 'absolute negation' required for '灭'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A lone old man in蓑笠, Sits on a boat, alone, watching the cold snow fall.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'lone old man' and 'alone' directly emphasize solitude, and 'sits on a boat' shows the action of垂钓 (fishing) in context.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "All paths are lost in empty trace. A lone old man in蓑笠, sits on a boat, alone, watching the cold snow fall.",
+        "evidence_found": true,
+        "reasoning": "The translation shows vast space through 'All paths are lost in empty trace' and human solitude through 'a lone old man... sits on a boat, alone', forming a contrast between the expansive landscape and the isolated individual.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.95,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

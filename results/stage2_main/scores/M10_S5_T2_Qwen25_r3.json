@@ -1,0 +1,67 @@
+{
+  "translation_id": "M10_S5_T2_Qwen25_r3",
+  "anon_code": "T_343678af",
+  "poem_id": "M10",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wild fire cannot consume it",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Wild fire cannot consume it' directly translates to the meaning of '烧不尽' with a negative verb 'cannot consume' indicating the fire does not burn it completely, fulfilling the requirement of expressing 'burning never ends' with a negative connotation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Spring breeze makes it grow again.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Spring breeze makes it grow again' directly expresses the required meaning of 'spring breeze' and 'again growing', fulfilling both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wild fire cannot consume it, Spring breeze makes it grow again.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly shows the relationship between fire and grass through the contrast of fire's inability to consume and the breeze's role in regrowth, preserving the personification of grass as a resilient entity.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wild fire cannot consume it, Spring breeze makes it grow again. Grasses flourish where ashes lie.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys the unyielding resilience of grass through the cycle of destruction and rebirth, meeting both conditions of expressing '顽强、坚韧' and the '烧不尽→又生' cycle.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

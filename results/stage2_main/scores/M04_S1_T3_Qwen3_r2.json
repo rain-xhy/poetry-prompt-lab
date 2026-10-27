@@ -1,0 +1,67 @@
+{
+  "translation_id": "M04_S1_T3_Qwen3_r2",
+  "anon_code": "T_56342c5a",
+  "poem_id": "M04",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When two hearts are truly devoted, it matters not whether they meet each day or not.",
+        "evidence_found": true,
+        "reasoning": "The translation focuses on the frequency of meeting rather than the duration of emotional commitment, failing to express '长久' (long-lasting) as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "it matters not whether they meet each day or not",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it matters not whether they meet each day or not' directly expresses the meaning of '又岂在朝朝暮暮' as a negation of daily meetings being necessary, fulfilling the requirement of expressing a negative or rhetorical meaning without daily adherence.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "it matters not whether they meet each day or not",
+        "evidence_found": true,
+        "reasoning": "The phrase 'each day' implies frequent or continuous time intervals, and 'meet' suggests ongoing interaction, preserving the time叠加感 of '朝朝暮暮' without directly translating the Chinese phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When two hearts are truly devoted, it matters not whether they meet each day or not.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the conditional relationship (if hearts are devoted) and the rhetorical question (it matters not whether they meet) by implying that the condition of devotion overrides the need for daily meetings, thus preserving the logical structure of the original phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

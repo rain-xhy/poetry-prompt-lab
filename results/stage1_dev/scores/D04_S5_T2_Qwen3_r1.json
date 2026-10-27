@@ -1,0 +1,71 @@
+{
+  "translation_id": "D04_S5_T2_Qwen3_r1",
+  "anon_code": "T_5a5b25de",
+  "poem_id": "D04",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The depth of the Tao Lake's waters is a thousand feet,",
+        "evidence_found": true,
+        "reasoning": "The translation states the depth of the Tao Lake's waters as a thousand feet, but the original phrase specifies 'Peach Blossom Pool' (桃花潭), not 'Tao Lake', and the phrase 'the depth of the Tao Lake's waters is a thousand feet' does not convey the intended meaning of the original phrase which is about the depth of Peach Bloss as deep as a thousand feet.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Yet it cannot match the depth of my sincere feeling.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'cannot match' directly corresponds to '比不上' and the context implies the depth of the lake is less than the depth of feeling, satisfying the condition that it does not become 'deeper' or 'the same depth'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The wind knocks at the door for me, And I am bound by the warmth of your kindness.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'for me' indicates the speaker is the recipient of the action, and 'your kindness' implies the person sending the speaker is the one being referred to as the sender.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The depth of the Tao Lake's waters is a thousand feet, Yet it cannot match the depth of my sincere feeling.",
+        "evidence_found": true,
+        "reasoning": "The translation directly compares the depth of the lake (water) to the depth of the speaker's sincere feeling, fulfilling the requirement to contrast '情谊' with 'depth' and express that the feeling is deeper than the lake's depth.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "valid": false,
+    "raw": "{\n  \"adequacy\": 4,\n  \"imagery\": 4,\n  \"emotion\": 4,\n  \"fluency\": 4,\n  \"po\": 4\n}"
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

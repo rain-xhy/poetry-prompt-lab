@@ -1,0 +1,67 @@
+{
+  "translation_id": "M16_S4_T1_Qwen25_r2",
+  "anon_code": "T_38ff2664",
+  "poem_id": "M16",
+  "strategy": "S4_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Rooster crowing outside a thatched inn, moon hanging high",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Rooster crowing outside a that: inn, moon hanging high' does not match the required meaning of '鸡鸣时茅店上还有月亮' which implies the moon is still visible on the thatched inn at rooster crowing time, but the translation states 'moon hanging high' which suggests the moon is high in the sky, not necessarily visible on the thatched inn.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Footprints on the boardwalk, frost glitters on the bridge.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Footprints on the boardwalk, frost glitters on the bridge' does not match the required meaning of '人的足迹在板桥的霜上' which should be 'human footprints on the bridge's frost' without the extra 'glitters' and 'boardwalk' (板桥 is a bridge with wooden planks, not a boardwalk).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Recalling dreams of Du Ling",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Recalling dreams of Du Ling' directly translates the meaning of '因思杜陵梦' as remembering dreams from Du Ling, fulfilling the requirement of expressing memories or thinking of something in a dream.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Flock of ducks and ge: fill the pond's curve",
+        "evidence_found": false,
+        "reasoning": "The phrase 'Flock of ducks and geese fill the pond's curve' directly translates the requirement of '凫雁满布曲折池塘' by expressing a flock of ducks and geese filling a curved pond, meeting both conditions of depicting a winding pond and the dense presence of ducks and geese.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

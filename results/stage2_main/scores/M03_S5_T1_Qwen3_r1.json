@@ -1,0 +1,67 @@
+{
+  "translation_id": "M03_S5_T1_Qwen3_r1",
+  "anon_code": "T_423655df",
+  "poem_id": "M03",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I still have no fixed date",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I still have no fixed date' directly translates to '尚未确定' and meets the requirement of expressing 'cannot yet be set' without implying 'no deadline' or 'never'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When will we share the glow of a candle on the western window?",
+        "evidence_found": true,
+        "reasoning": "The phrase uses 'when will' to express a future assumption about sharing the candlelight on the western window, meeting both the future tense requirement and the expectation/hopeful tone.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I recall the rain in Bashan now—something I cannot yet say.",
+        "evidence_found": true,
+        "reasoning": "The phrase does not explicitly convey '将来回忆过去' (future recollection of past) as required; it states a current recollection without clear temporal contrast between past and future.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "The rain in Bashan fills the autumn pools.",
+        "evidence_found": false,
+        "reasoning": "The phrase 'The rain in Bash: fills the autumn pools' directly translates the required meaning of 'rain makes the autumn pool water rise' while preserving the three required imagery elements: Bashan, night rain, and autumn pool.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.65,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

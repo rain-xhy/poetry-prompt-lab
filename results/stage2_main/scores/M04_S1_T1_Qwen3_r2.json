@@ -1,0 +1,67 @@
+{
+  "translation_id": "M04_S1_T1_Qwen3_r2",
+  "anon_code": "T_b73ac5d0",
+  "poem_id": "M04",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When two hearts are truly eternal, what does it matter if they meet only once in a day or twice in a year?",
+        "evidence_found": true,
+        "reasoning": "The translation does not use a conditional clause (if/as long as) to express 'if the emotions are long-lasting' as required; instead, it describes a scenario of meeting frequency without a condition.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "what does it matter if they meet only once in a day or twice in a year?",
+        "evidence_found": true,
+        "reasoning": "The translation implies that meeting frequently is not necessary, which aligns with the requirement to express that there is no need for daily meetings.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When two hearts are truly eternal, what does it matter if they meet only once in a day or twice in a year?",
+        "evidence_found": true,
+        "reasoning": "The translation focuses on meeting frequency rather than the continuous time aspect required by '朝朝暮暮', which implies constant presence rather than specific meeting counts.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When two hearts are truly eternal, what does it matter if they meet only once in a day or twice in a year?",
+        "evidence_found": true,
+        "reasoning": "The translation maintains the conditional structure by starting with 'When two hearts are truly eternal' (condition) and then poses a question about the consequence (what does it matter if they meet...), preserving the logical relationship between condition and counterquestion as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

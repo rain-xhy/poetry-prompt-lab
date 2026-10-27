@@ -1,0 +1,62 @@
+{
+  "translation_id": "D03_S5_T3_Qwen25_r2",
+  "anon_code": "T_1b455de4",
+  "poem_id": "D03",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Please drink one more cup of wine",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'Please drink one more cup of wine' instead of '我劝你再干一杯酒' which means 'Please drink one more cup of wine' but does not preserve the original phrase '我劝你再干一杯酒'",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Please drink one more cup of wine",
+        "evidence_found": true,
+        "reasoning": "The provided translation does not include the phrase '西出阳关' (Xī chū yáng guān), which is required to satisfy the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Please drink one more cup of wine, Westward beyond the Yangguan, no old friend remains.",
+        "evidence_found": true,
+        "reasoning": "The translation expands the meaning to 'no old friend remains' which is not the exact phrase '没有老朋友' and includes additional context that is not required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Please drink one more cup of wine",
+        "evidence_found": true,
+        "reasoning": "The translation starts with 'Please drink one more cup of wine', which does not directly connect to the original phrase '劝酒与无故人之因果' (Please advise to drink one more cup of wine, due to the absence of old friends). The translation focuses on the farewell aspect without explicitly mentioning the absence of old friends.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 3,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 2.75,
+    "valid": true
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "translation_id": "D06_S1_T3_Qwen3_r2",
+  "anon_code": "T_7ebc60d4",
+  "poem_id": "D06",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The speaker knows that brothers and sisters will climb high for the autumn festival",
+        "evidence_found": true,
+        "reasoning": "The phrase '遥知' translates to 'knowing from afar' or 'imagining from a distance', and the translation shows the speaker's knowledge of their brothers and sisters' actions without being physically present, which matches the required meaning of 'in distant imagination knowing'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The speaker knows that brothers and sisters will climb high for the autumn festival",
+        "evidence_found": true,
+        "reasoning": "The original phrase specifies 'brothers' (兄弟) as the subject, but the translation uses 'brothers and sisters' (brothers and sisters), which adds 'sisters' and changes the meaning to include a gender that wasn't in the original.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The speaker knows that brothers and sisters will climb high for the autumn festival, but one will be missing because of the long journey.",
+        "evidence_found": true,
+        "reasoning": "The translation describes the context of the festival and missing someone but does not mention anyone wearing dogwood sprigs, which is required by the original phrase '遍插茱萸' meaning 'everyone wears dogwood sprigs on their heads'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "one will be missing because of the long journey",
+        "evidence_found": true,
+        "reasoning": "The phrase 'one will be missing' directly corresponds to '少了一个人' (missing one person), and the context implies the speaker is missing themselves due to the long journey.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

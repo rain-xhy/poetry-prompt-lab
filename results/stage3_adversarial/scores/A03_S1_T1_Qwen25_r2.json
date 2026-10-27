@@ -1,0 +1,58 @@
+{
+  "translation_id": "A03_S1_T1_Qwen25_r2",
+  "anon_code": "T_9c5181c8",
+  "poem_id": "A03",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Tempted to speak, I hold my tongue,",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Tempted to speak, I hold my tongue,' captures the '想说-但止住' contradiction but the second line 'Yet say, 'The cool autumn skies bring good fortune.' does not convey emotional suppression or the intended emotional reversal as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Tempted to speak, I hold my tongue, Yet say, 'The cool autumn skies bring good fortune.'",
+        "evidence_found": true,
+        "reasoning": "The translation does not distinguish between true emotion and surface words as required; it presents the surface statement as a literal statement rather than a surface phrase that masks deeper meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Tempted to speak, I hold my tongue,",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Tempted to speak, I hold my tongue' directly reflects the internal emotional conflict between wanting to express oneself and suppressing speech, which embodies the 'discrepancy between inner emotion and expression' as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 1.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

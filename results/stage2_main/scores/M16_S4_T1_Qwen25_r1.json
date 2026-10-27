@@ -1,0 +1,67 @@
+{
+  "translation_id": "M16_S4_T1_Qwen25_r1",
+  "anon_code": "T_b8f03669",
+  "poem_id": "M16",
+  "strategy": "S4_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Cockcrow pierces the moonlit茅店, footprints on the frosty bridge.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Cockcrow pierces the moonlit茅店' does not correctly convey the meaning of '鸡声茅店月' as it includes a non-Chinese character '茅店' (which is a Chinese term for a thatched cottage) and the phrase 'moonlit' does not match the original's '还有月亮' (there is still a moon).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "footprints on the frosty bridge",
+        "evidence_found": true,
+        "reasoning": "The phrase 'footprints on the frosty bridge' directly corresponds to the required meaning of '人的足迹在板桥的霜上' with the three imagery elements preserved: footprints, bridge, and frost.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Recalling dreams in Du Ling",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Recalling dreams in Du Ling' directly translates the meaning of '因思杜陵梦' as remembering dreams in Du Ling, which matches the requirement of expressing 'recalling' and being a dream.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "geese and ducks fill the pond",
+        "evidence_found": true,
+        "reasoning": "The phrase 'geese and ducks fill the pond' directly translates the '凫雁满布' part, and the context implies a pond that is curved or winding as it's a dream scene in Du Ling.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

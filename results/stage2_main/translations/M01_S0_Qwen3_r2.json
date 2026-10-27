@@ -1,0 +1,19 @@
+{
+  "id": "M01_S0_Qwen3_r2",
+  "poem_id": "M01",
+  "trap_type": "情感反差",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n多情却似总无情，唯觉尊前笑不成。\n蜡烛有心还惜别，替人垂泪到天明。",
+  "prompt_sha256": "a6effaed208becb030b6443626a0e60b6c725ebb4578f8667d022e2343c6b3b7",
+  "translation": "Her heart is full of emotion, yet she seems to be always indifferent. Only when she sees the reflection of herself in the mirror does she feel the sorrow that cannot be expressed. The candle, with a heart of its own, wishes to part company with her, and tears its own moisture until the dawn.",
+  "metadata": {
+    "input_tokens": 58,
+    "output_tokens": 63,
+    "latency_ms": 10479.3381690979,
+    "timestamp": "2026-10-26T20:25:09.477828",
+    "finish_reason": "stop"
+  }
+}

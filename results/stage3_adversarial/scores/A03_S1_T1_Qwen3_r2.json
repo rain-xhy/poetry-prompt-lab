@@ -1,0 +1,58 @@
+{
+  "translation_id": "A03_S1_T1_Qwen3_r2",
+  "anon_code": "T_d75f4dc1",
+  "poem_id": "A03",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The wind stops speaking, yet it claims the autumn is cool and pleasant.",
+        "evidence_found": true,
+        "reasoning": "The translation describes the wind stopping speech and claiming autumn's coolness, which does not convey the internal conflict of wanting to speak but stopping, as required by '想说又止的情感反转'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The wind stops speaking, yet it claims the autumn is cool and pleasant.",
+        "evidence_found": true,
+        "reasoning": "The translation focuses on the wind's claim about autumn being cool and pleasant, but the original phrase '却道的表面话语' emphasizes that '却道' introduces only surface-level words, not the wind's actual feelings or deeper meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The wind stops speaking, yet it claims the autumn is cool and pleasant.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the contrast between the wind's silence (internal emotion) and its assertion of autumn's pleasantness (external expression), reflecting the inconsistency between inner feeling and outward communication.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 1.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "translation_id": "A09_S5_T1_Qwen3_r1",
+  "anon_code": "T_45ce5520",
+  "poem_id": "A09",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Only because the dragon city's flying general exists",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Only because' directly uses 'because' as a causal conjunction, fulfilling the requirement to preserve '只因' as indicating causality rather than condition.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The bright moon of the Qin dynasty, the ancient walls of the Han, A hundred miles of journey, yet the soldiers remain unreturning. Only because the dragon city's flying general exists, The northern horse fails to cross the Yin mountain.",
+        "evidence_found": true,
+        "reasoning": "The translation uses factual language to describe historical elements without making assumptions, directly stating the existence of the Qin dynasty's bright moon and Han dynasty's ancient walls as historical facts, and the soldiers' unreturning status as a factual condition, while the dragon city's flying general being present is presented as a factual reason for the northern horse not crossing the Yin mountain.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Only because the dragon city's flying general exists",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Only because' directly translates '只因' from the original Chinese, indicating a causal relationship that changes the logical meaning from 'but as long as' in the original poem, thus meeting the pass condition of different logical relationship with the original poem.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

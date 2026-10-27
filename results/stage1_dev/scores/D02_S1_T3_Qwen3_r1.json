@@ -1,0 +1,76 @@
+{
+  "translation_id": "D02_S1_T3_Qwen3_r1",
+  "anon_code": "T_66f35369",
+  "poem_id": "D02",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Birds fly away far and high",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Birds fly away far and high' does not convey the meaning of '鸟群都飞走了' (bird flocks have all flown away) as it describes birds flying far and high without indicating they have completely disappeared or vanished.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Clouds drift alone and leisurely.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Clouds drift alone and leisurely' contains 'alone' (对应 '独自') and 'leisurely' (对应 '悠闲'), fulfilling both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "We look at each other without hate",
+        "evidence_found": true,
+        "reasoning": "The phrase 'We look at each other without hate' directly reflects the mutual gaze between 'me' and the mountain, with the mountain acting as the active observer as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Only the mountain of Jingting remains.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Only the mountain of Jing: Jingting' directly translates '只有敬亭山' with 'Jingting' as the proper noun and 'only' as the required限定 word.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

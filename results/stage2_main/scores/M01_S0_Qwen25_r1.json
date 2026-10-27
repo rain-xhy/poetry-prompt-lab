@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S0_Qwen25_r1",
+  "anon_code": "T_9cf10a23",
+  "poem_id": "M01",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Those who are emotionally attached seem to be indifferent, only to find my smile failing at the wine cup.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly mention 'deep love/affection' or 'seeming coldness/indifference' as required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "only to find my smile failing at the wine cup",
+        "evidence_found": true,
+        "reasoning": "The phrase 'smile failing' does not convey 'unable to/cannot laugh' as required; it implies a temporary inability to smile, not the state of being unable to laugh at the wine table.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The wax candle has a heart and is also loath to part, shedding tears for me until dawn.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states that the wax candle has a heart and is lo: loath to part, which directly preserves the personification of the candle as having emotions and a desire to stay with the speaker.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "shedding tears for me until dawn",
+        "evidence_found": true,
+        "reasoning": "The phrase 'shedding tears for me until dawn' directly corresponds to '替人流泪 + 一直到天明' with 'for me' indicating the '替人' relationship and 'until dawn' capturing the time extension to morning.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

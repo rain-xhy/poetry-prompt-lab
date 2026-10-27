@@ -1,0 +1,19 @@
+{
+  "id": "D04_S5_T2_Qwen3_r1",
+  "poem_id": "D04",
+  "trap_type": "否定逻辑",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Poetic rendering for English poetry reading.\nAudience: Poetry lovers at literary events.\nConstraints:\n- Prioritize rhythm and natural flow when read aloud\n- You may adapt imagery for English poetic conventions\n- You may reorder or restructure lines for English verse\n- Preserve the core emotional tone and main imagery\n- You may sacrifice minor details for poetic effect\n- No notes (pure poetry)\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nSemantic Analysis (in Chinese):\n“桃花潭水深千尺”：桃花潭水极深。要点：夸张的深度，专名桃花潭。\n“不及”：比不上。要点：比较的方向：潭水之深比不上情谊之深。\n“汪伦送我”：汪伦为我送行。要点：施事是汪伦，受事是'我'。\n“情”：以水深比情深的比喻。要点：情谊被量化为深度来比较。\n\nExamples of Common Mistakes to Avoid:\n\nExample 1: Emotional Paradox\n❌ Wrong: \"情愈深时语愈淡\" → \"passionate but plain words\" (literal, loses the escalation)\n✅ Right: \"情愈深时语愈淡\" → \"the deeper the feeling, the plainer the words\"\n\nExample 2: Emotional State\n❌ Wrong: \"歌不成声泣无言\" → \"only feel cannot sing\" (broken grammar)\n✅ Right: \"歌不成声泣无言\" → \"my throat chokes, unable to sing; tears flow without words\"\n\nExample 3: Implicit Negation\n❌ Wrong: \"莫待花谢始惜春\" → \"wait until flowers fall to cherish spring\" (negation reversed!)\n✅ Right: \"莫待花谢始惜春\" → \"don't wait until flowers fall to cherish spring\"\n\nExample 4: Personification\n❌ Wrong: \"风为我叩门\" → \"I knock on the door when wind blows\" (loses personification)\n✅ Right: \"风为我叩门\" → \"the wind knocks at the door for me\"\n\nExample 5: Action Subject\n❌ Wrong: \"邻舟问客何处去\" → \"the traveler asks the boat\" (wrong subject)\n✅ Right: \"邻舟问客何处去\" → \"someone from the neighboring boat asks the traveler where he is headed\"\n\nCommon Pitfalls to Avoid:\n\n1. Negation Reversal\n   - Don't translate implicit negation as affirmation\n   - \"莫待花谢始惜春\" means \"don't wait until flowers fall to cherish spring\", not \"wait until flowers fall\"\n2. Personification Loss\n   - Keep personification of objects\n   - \"山欲留客\" = \"the hills wish to keep the guest\", not just \"I stayed by the hills\"\n3. Emotional Paradox Flattening\n   - Don't flatten emotional paradoxes into simple statements; preserve the tension\n   - \"情愈深时语愈淡\" has escalating tension between feeling and words\n4. Adding Information\n   - Don't add characters, events, or relationships not in the original\n   - \"风为我叩门\" = the wind knocks for me, not \"wind brings a visitor\"\n5. Who Does What to Whom\n   - Check action subjects and objects carefully\n   - \"邻舟问客何处去\" = the neighbor asks where the traveler goes (not the reverse)\n6. Temporal Relations\n   - Distinguish past, present, future, and hypothetical\n   - \"待明年花开时\" = when blossoms bloom next year (future), not past\n\nOutput Format: 2-4 lines of English verse, no title, no author name, no notes.\n\nPoem:\n桃花潭水深千尺，不及汪伦送我情。",
+  "prompt_sha256": "7f38a4ba162a3a11235d7cf46adee172ba80ffe1caeb5ba754297a20c835f9b8",
+  "translation": "The depth of the Tao Lake's waters is a thousand feet,  \nYet it cannot match the depth of my sincere feeling.  \nThe wind knocks at the door for me,  \nAnd I am bound by the warmth of your kindness.",
+  "metadata": {
+    "input_tokens": 873,
+    "output_tokens": 48,
+    "latency_ms": 11853.894233703613,
+    "timestamp": "2026-10-26T16:24:43.140819",
+    "finish_reason": "stop"
+  }
+}

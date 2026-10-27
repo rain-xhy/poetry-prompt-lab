@@ -1,0 +1,67 @@
+{
+  "translation_id": "M09_S2_T1_Qwen25_r1",
+  "anon_code": "T_3425cbf6",
+  "poem_id": "M09",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Moon sets, crows cry,霜覆盖了夜, Riverside maples and fishing lights",
+        "evidence_found": false,
+        "reasoning": "The translation preserves three distinct imagery elements: moon setting, crows crying, and frost covering the sky, without establishing causal relationships between them.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Face sorrow, sleepless.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Face sorrow, sleepless' directly expresses '面对愁绪而眠' by indicating that sorrow is faced (面对) and sleep is not achieved (sleepless), meeting both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Riverside maples and fishing lights",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Riverside maples and fishing lights' directly translates the required two意象: 江边枫树 (riverside maples) and 渔火 (fishing lights) as a parallel structure.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Moon sets, crows cry,霜覆盖了夜空，Riverside maples and fishing lights Face sorrow, sleepless.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys a sense of solitude and coldness through the imagery of setting moon, crying crows, frost covering the night sky, and sleepless sorrow, which aligns with the required meaning of 'nightboat's solitude and coldness'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "translation_id": "A05_S5_T1_Qwen25_r3",
+  "anon_code": "T_4b00d922",
+  "poem_id": "A05",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I must part from you",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I must part from you' directly translates the '不得不' meaning 'must' as required, indicating a necessity to part, which aligns with the original Chinese phrase's meaning of compulsion or obligation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I must part from you, yet not see nor think of you.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the conditional relationship where 'not seeing' implies 'not thinking', as the phrase 'yet not see nor think of you' indicates the consequence of parting without seeing.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I must part from you, yet not see nor think of you.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the dual negation (not see nor think) and conditional negation (must part from you) as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "translation_id": "D06_S5_T3_Qwen25_r1",
+  "anon_code": "T_2e4438a4",
+  "poem_id": "D06",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Far away, I know my brothers climb the high place",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Far away, I know' directly translates the concept of 'in distant imagination' as required, avoiding direct visual observation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Far away, I know my brothers climb the high place",
+        "evidence_found": true,
+        "reasoning": "The phrase 'climb the high place' directly translates to '登高' (climb the heights) and the subject 'my brothers' matches '兄弟们'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Every head adorned with the _osmanthus_萸",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Every head adorned with the _osman:th_萸' directly translates to 'everyone's head is decorated with osmanthus sprigs', which matches the required meaning of 'everyone's head is decorated with osmanthus sprigs' while preserving the cultural reference to the traditional custom of wearing osmanthus on Double Ninth Festival.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Yet, one person is missing among them, For I am not with them.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'one person is missing among them' directly translates to '少了一个人' and 'For I am not with them' explicitly states that the speaker is the missing person.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M20_S1_T3_Qwen3_r1",
+  "anon_code": "T_ed13271a",
+  "poem_id": "M20",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell at the head of the river, you dwell at its tail.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts the two positions (head vs tail of the river) as required by the space and contrast condition.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Each day I think of you, but you cannot be seen.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly convey the continuous nature of 'daily/every day' as a recurring action, and the phrase 'you cannot be seen' does not capture the contradiction between longing and absence as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "We share the same river, drinking together.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'We share the same river, drinking together' directly reflects the 'commonality' of '共' and the 'shared drinking' aspect of the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell at the head of the river, you dwell at its tail. Each day I think of you, but you cannot be seen. We share the same river, drinking together.",
+        "evidence_found": true,
+        "reasoning": "The translation shows physical separation (head and tail of the river) and emotional connection (thinking of someone, sharing the river), creating tension between physical distance and emotional bond.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

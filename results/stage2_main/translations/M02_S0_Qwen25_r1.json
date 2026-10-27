@@ -1,0 +1,19 @@
+{
+  "id": "M02_S0_Qwen25_r1",
+  "poem_id": "M02",
+  "trap_type": "情感反差",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n红豆生南国，春来发几枝。\n愿君多采撷，此物最相思。",
+  "prompt_sha256": "91200c3ece4e90fb7437f93c55cdf2aa99acc30f257584795e929c0e8efb9cbb",
+  "translation": "Red beans grow in the Southland,\nSpring comes and how many sprouts do they bear?\nI hope you gather many,\nThis is the thing most of all for thoughts. \n\nNote: The poem you provided translates to \"Red beans\" which is a common theme in Chinese poetry. The poem suggests that the red beans symbolize deep affection or longing, and it's a common theme in many Chinese poems and songs. The translation is a literal and faithful rendition of the original lines.",
+  "metadata": {
+    "input_tokens": 64,
+    "output_tokens": 98,
+    "latency_ms": 10975.025177001953,
+    "timestamp": "2026-10-26T19:46:56.508277",
+    "finish_reason": "stop"
+  }
+}

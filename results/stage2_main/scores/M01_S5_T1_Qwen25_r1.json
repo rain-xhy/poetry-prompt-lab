@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S5_T1_Qwen25_r1",
+  "anon_code": "T_8699c60d",
+  "poem_id": "M01",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Deep with emotion yet seeming indifferent",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Deep with emotion yet seeming indifferent' directly captures both 'deep love/affection' and 'seeming coldness/indifference' while maintaining the paradoxical tension between them.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "unable to smile here",
+        "evidence_found": true,
+        "reasoning": "The phrase 'unable to smile here' directly expresses '无法/不能笑出' (unable to/cannot smile) while 'here' implies the '酒席前' (at the table) context.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Like candles with a tender heart, They weep for us till dawn.",
+        "evidence_found": true,
+        "reasoning": "The phrase explicitly states candles have a tender heart (拟人化) and weep (惜别), fulfilling both conditions of being the human-like subject and preserving the metaphorical effect.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "They weep for us till dawn.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'weep for us' directly translates '替人垂泪' (replace for others' tears) and 'till dawn' matches '到天明' (until dawn).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

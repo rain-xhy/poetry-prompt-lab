@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S1_T3_Qwen3_r2",
+  "anon_code": "T_30d1c79b",
+  "poem_id": "M07",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Once, the grand halls of Wang and Che echoed with the song of the spring",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Wang and Che' directly references the specific families 'Wang' and 'Xie' (王氏 and 谢氏) as required, with 'Che' being a transliteration of 'Xie' in this context.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Once, the grand halls of Wang and Che echoed with the song of the spring, Now, a commoner's house is where the once-famous bird flies in.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts 'Once' (past) with 'Now' (present) to show time contrast, and 'grand halls of Wang and Che' (former elite) with 'commoner's house' (common people) to show social class contrast.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Now, a commoner's house is where the once-famous bird flies in.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'once-famous bird' refers to the '燕子' (swallow) as a witness, preserving the swallow's imagery without implying the swallow has lived for centuries.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "On the wild grass by the Ji Qiao Bridge, wild flowers bloom in wild beauty, At the western slope of the Uyi巷, the sunset casts its golden light.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly mentions 'wild grass' and 'sunset' while conveying a sense of desolation through phrases like 'wild flowers bloom in wild beauty' and 'casts its golden light', which align with the required '荒凉景象（野草、夕阳）'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.95,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

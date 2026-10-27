@@ -1,0 +1,67 @@
+{
+  "translation_id": "M10_S5_T1_Qwen3_r3",
+  "anon_code": "T_930cfc80",
+  "poem_id": "M10",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The fire cannot extinguish it",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The fire cannot extinguish it' directly translates to '烧不尽' with a negative verb 'cannot' and the meaning of not being burned completely, matching the required '否定+拟人' structure.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The wild fire cannot burn it all, and the spring wind brings it back again.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'spring wind brings it back again' which implies regrowth but does not explicitly convey the 'grass' or 'plants' that are being regrown, and the phrase 'cannot burn it all' refers to fire rather than the 'spring wind' directly causing regrowth as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The fire cannot extinguish it, and the spring wind brings it back again.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states that the fire (wild fire) cannot extinguish the grass, maintaining the personification of fire and grass as a relationship where the spring wind brings the grass back.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The fire cannot extinguish it, and the spring wind brings it back again.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys the cyclical nature of unyielding life force through the fire and spring wind imagery, meeting both conditions of expressing tenacity and the 'burning and regrowth' cycle.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

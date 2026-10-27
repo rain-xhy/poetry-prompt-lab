@@ -1,0 +1,58 @@
+{
+  "translation_id": "A04_S0_Qwen3_r2",
+  "anon_code": "T_5113af92",
+  "poem_id": "A04",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling has already awaited becoming a reminiscence",
+        "evidence_found": true,
+        "reasoning": "The phrase 'has already awaited' uses the present perfect tense to indicate a completed action, fulfilling the requirement that '已待' is a completed action rather than a rhetorical question.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling has already awaited becoming a reminiscence, but only in that moment was it already sorrowful.",
+        "evidence_found": true,
+        "reasoning": "The translation uses a declarative structure without rhetorical questions, clearly stating the feeling's transition to sorrow without posing a question.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling has already awaited becoming a reminiscence, but only in that moment was it already sorrowful.",
+        "evidence_found": true,
+        "reasoning": "The translation uses present perfect tense 'has already awaited' and past perfect 'was it already sorrowful', which does not match the original poem's temporal structure where '可待' (can wait) implies a future possibility rather than past completion.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 1,
+    "overall": 1.8,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

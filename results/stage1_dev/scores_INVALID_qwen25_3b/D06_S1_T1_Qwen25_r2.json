@@ -1,0 +1,62 @@
+{
+  "translation_id": "D06_S1_T1_Qwen25_r2",
+  "anon_code": "T_e776c274",
+  "poem_id": "D06",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I knew they climbed the hill today",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'I knew' which is not '遥知' (I imagine from afar).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I knew they climbed the hill today",
+        "evidence_found": true,
+        "reasoning": "The translation does not use '兄弟们' (brothers) as the main subject and does not include '登高' (climb the heights) or '登高处' (the place to climb the heights)",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "They wore the herb to ward off ill fortune,",
+        "evidence_found": true,
+        "reasoning": "The phrase '遍插茱萸' is not preserved in the translation. Instead, the translation introduces a new context about climbing a hill and wearing chrysanthemums, which does not match the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Except one figure missing, alone.",
+        "evidence_found": true,
+        "reasoning": "The phrase '少一人' is not preserved in the translation. The translation states 'Except one figure missing, alone.' which does not match the original phrase '少一人'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.4,
+    "valid": true
+  }
+}

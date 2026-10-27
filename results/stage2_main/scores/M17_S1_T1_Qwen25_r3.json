@@ -1,0 +1,67 @@
+{
+  "translation_id": "M17_S1_T1_Qwen25_r3",
+  "anon_code": "T_45252e41",
+  "poem_id": "M17",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling could never be truly understood, Yet it was already a state of profound sadness. Now distant memories haunt my waning heart, Echoes of that moment linger, etched in pain.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'could never' to express a future impossibility (implied future) and 'distant memories' and 'Echoes of that moment' to convey the concept of becoming memories, fulfilling the requirement of a question structure and future state of being memories.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Yet it was already a state of profound sadness.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it was already' directly expresses the completed state with 'already' indicating prior completion, fulfilling the requirement for past tense and 'already' to convey the sense of completion.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling could never be truly understood, Yet it was already a state of profound sadness. Now distant memories haunt my waning heart, Echoes of that moment linger, etched in pain.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the emotional depth and the sense of unattainable feeling and lingering sadness associated with 'this feeling' as a specific emotional state.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Now distant memories haunt my waning heart, Echoes of that moment linger, etched in pain.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts future memories (distant memories) with past moments (that moment) through the use of present tense for lingering effects and past tense for the moment, showing the required temporal complexity.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

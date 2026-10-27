@@ -1,0 +1,67 @@
+{
+  "translation_id": "M13_S4_T1_Qwen25_r1",
+  "anon_code": "T_e7b778e5",
+  "poem_id": "M13",
+  "strategy": "S4_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A thousand mountains mute, no bird's flight; A myriad paths, no human trace.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no bird's flight' does not convey the absolute absence of birds as required by '鸟飞绝' (no birds/not a single bird), but rather implies the absence of bird movement or sound.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no human trace",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no human trace' directly translates to '人的踪迹消失' with absolute negation, capturing the '灭' (disappearance) sense.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A solitary boat and old fisherman",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A solitary boat and old fish:erman' directly emphasizes 'solitary' which corresponds to '独自' (alone) and includes the action of fishing implied by 'fisherman'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A thousand mountains mute, no bird's flight; A myriad paths, no human trace.",
+        "evidence_found": true,
+        "reasoning": "The first two lines explicitly convey vast spatial scale through 'thousand mountains' and 'myriad paths' while emphasizing human absence with 'no bird's flight' and 'no human trace', fulfilling the contrast between expansive space and solitary human presence.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

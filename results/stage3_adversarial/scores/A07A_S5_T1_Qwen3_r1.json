@@ -1,0 +1,53 @@
+{
+  "translation_id": "A07A_S5_T1_Qwen3_r1",
+  "anon_code": "T_e75f2f00",
+  "poem_id": "A07A",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The river bends gently, its surface smooth and still. The wind whispers through the willows, a silent companion.",
+        "evidence_found": true,
+        "reasoning": "The translation describes a peaceful natural scene but does not address whether the 'ambiguous version' can infer the correct negation, as required by the original phrase's meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The river bends gently, its surface smooth and still. The wind whispers through the willows, a silent companion.",
+        "evidence_found": true,
+        "reasoning": "The translation describes a peaceful natural scene but does not explicitly convey the negation or correction of version B as required by the original phrase's meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The river bends gently, its surface smooth and still. The wind whispers through the willows, a silent companion.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the serene and tranquil imagery of a bending river with a still surface and the quiet movement of wind through willows, maintaining consistent meaning between the two versions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\n  \"original\": \"小心滑入河中\",\n  \"reference_notes\": \"版本A的歧义推断：能否从歧义版推断出正确否定。版本B的明确否定：明确版本应该正确。AB一致性：两个版本应该意思相同。\",\n  \"translation\": \"The river bends gently, its surface smooth and still. The wind whispers through the willows, a silent companion.\"\n}"
+  },
+  "layer3": {
+    "academic_translation": 1,
+    "poetic_reading": 1,
+    "valid": true
+  }
+}

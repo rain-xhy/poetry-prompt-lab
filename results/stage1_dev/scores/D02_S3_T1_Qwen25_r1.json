@@ -1,0 +1,76 @@
+{
+  "translation_id": "D02_S3_T1_Qwen25_r1",
+  "anon_code": "T_4f88fdf1",
+  "poem_id": "D02",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "All birds have flown high",
+        "evidence_found": true,
+        "reasoning": "The phrase 'All birds have flown high' directly translates to '鸟群都飞走了' with the meaning of birds flying away completely, satisfying the requirement of '全部、消失'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "solitary clouds drift idly",
+        "evidence_found": true,
+        "reasoning": "The phrase 'solitary clouds drift idly' directly translates to '孤云独去闲' with 'solitary' matching '孤', 'drift idly' capturing '独去悠闲地飘走' meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I gaze upon the mountain, you and I never grow tired.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'you and I never grow tired' directly corresponds to '人与山互相看着，都不厌倦' by indicating mutual non-fatigue between the speaker and the mountain.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Only the敬亭山sees us through, steadfast and unchanging.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Only the敬亭山' directly matches the required Chinese phrase '只有敬亭山' with the specified meaning and preserves the proper noun 'Jingting Mountain' as '敬亭山' in English.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

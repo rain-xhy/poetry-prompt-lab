@@ -1,0 +1,76 @@
+{
+  "translation_id": "D05_S1_T1_Qwen3_r1",
+  "anon_code": "T_b68f1f46",
+  "poem_id": "D05",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Ten years of death and life, two worlds apart",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Ten years of death and life, two worlds apart' directly captures the meaning of '十年生死两茫茫' by expressing the separation between the living and dead over a decade, emphasizing their distant and indistinct state.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Not thinking of me, yet I remain deeply remembered.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Not thinking of me, yet I remain deeply remembered' directly matches the required meaning of 'even if not deliberately thinking, still cannot forget', with the correct contrast and negation.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A thousand miles away, my grave lies alone",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A thousand miles away' indicates a distant distance, and 'my grave lies alone' conveys a lonely grave, meeting both required conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Where I cannot express the sorrow of my heart",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Where I cannot express the sorrow of my heart' directly translates the concept of '无处话凄凉' by indicating the inability to express sorrow, fulfilling both the requirement of 'no place/person to speak of sorrow' and the emotional context of sorrow.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 5,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.2,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

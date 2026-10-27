@@ -1,0 +1,67 @@
+{
+  "translation_id": "M09_S3_T1_Qwen25_r2",
+  "anon_code": "T_3bb11009",
+  "poem_id": "M09",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The moon sets, the乌鸦 cry,霜 covers the sky",
+        "evidence_found": true,
+        "reasoning": "The translation preserves three distinct imagery elements (moon setting, crows crying, frost covering the sky) without establishing causal relationships between them.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "渔灯伴愁眠",
+        "evidence_found": true,
+        "reasoning": "The phrase '渔灯伴愁眠' directly translates to 'fisherman's lamp accompanies sorrowful sleep', which shows the relationship of facing sorrow and sleeping as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Rivulet oaks,渔灯伴愁眠",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Rivulet oaks' does not refer to '江边枫树' (riverbank maple trees) and '渔灯' (fishermen's lamps) is incorrectly translated as '渔灯' (which is Chinese for 'fishermen's lamps') but the context shows it's a mistranslation of 'fishermen's lamps' as 'oaks' and the phrase '伴愁眠' (accompanying sorrowful sleep) is not part of the required meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The moon sets, the乌鸦 cry,霜 covers the sky, Rivulet oaks,渔灯伴愁眠.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys a lonely and cold atmosphere with imagery of setting moon, crows, frost, and fishing lamps, which matches the required 'night boat's solitude and coldness' without being joyful.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

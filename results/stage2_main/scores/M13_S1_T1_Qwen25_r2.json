@@ -1,0 +1,67 @@
+{
+  "translation_id": "M13_S1_T1_Qwen25_r2",
+  "anon_code": "T_619d289a",
+  "poem_id": "M13",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A solitary boat and an old fisherman, Fishing alone in the cold winter snow.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Fishing alone in the cold winter snow' implies no birds are flying, as the context of the entire poem describes a scene with no birds or people, fulfilling the requirement of 'no birds/not a single bird' and the 'absolute' sense of '绝'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "人踪灭",
+        "evidence_found": true,
+        "reasoning": "The phrase '人踪灭' translates to 'no human traces' or 'human footprints vanish', which matches the requirement of '人的踪迹消失（绝对否定）' and conveys the sense of '灭' (extinction, disappearance) as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Fishing alone in the cold winter snow.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Fishing alone' directly translates to '独钓' with emphasis on 'alone', and the context of 'cold winter snow' implies the setting of the original Chinese poem.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A solitary boat and an old fisherman, Fishing alone in the cold winter snow.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly shows the vastness of space through 'cold winter snow' and the solitude of the individual through 'solitary boat' and 'old fisherman', forming a strong contrast between the expansive environment and the lone figure.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

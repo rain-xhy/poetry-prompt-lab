@@ -1,0 +1,67 @@
+{
+  "translation_id": "M09_S1_T3_Qwen25_r3",
+  "anon_code": "T_08bd15da",
+  "poem_id": "M09",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The moon sets and the乌鸦 crows,霜 frost covers the sky.",
+        "evidence_found": true,
+        "reasoning": "The translation preserves three distinct imagery elements (moon, owls, frost) without establishing causal relationships between them.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "River maples and fishing lights face my sorrowful sleep.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'face my sorrowful sleep' does not correctly convey '面对愁绪而眠' as it implies the maples and fishing lights are actively facing the sleep, rather than the person facing the sorrowful state during sleep.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "River maples and fishing lights face my sorrowful sleep.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'River maples' instead of 'river maples' (which is the correct term for 江枫) and 'fishing lights' instead of 'fishing lights' (which is the correct term for 渔火), but the phrase 'face my sorrowful sleep' adds an extra meaning that is not in the original Chinese phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The moon sets and the乌鸦 crows,霜 frost covers the sky. River maples and fishing lights face my sorrowful sleep.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys a sense of solitude and coldness through imagery like 'sorrowful sleep' and 'frost covers the sky', avoiding any joyful elements.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

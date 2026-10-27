@@ -1,0 +1,67 @@
+{
+  "translation_id": "M13_S5_T1_Qwen25_r2",
+  "anon_code": "T_b3d95a07",
+  "poem_id": "M13",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "no birdsong heard",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no birdsong heard' refers to the absence of bird sounds rather than the complete absence of birds, which does not fully capture the absolute negation of birds as required by '鸟飞绝'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no human trace",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no human trace' directly translates to '人的踪迹消失' with absolute negation, capturing the '灭' (disappearance) sense.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A fisher wears a raincoat, alone in the cold river snow.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'alone in the cold river snow' emphasizes solitude as required, and 'fishing boat' implies the action of垂钓.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A fisher wears a raincoat, alone in the cold river snow.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A fisher wears a raincoat, alone in the cold river snow' does not convey the intended meaning of '孤舟...独' (a solitary boat, alone) as it adds unnecessary details like 'wears a raincoat' and 'cold river snow' which are not present in the original Chinese phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

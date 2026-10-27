@@ -1,0 +1,19 @@
+{
+  "id": "M01_S0_Qwen25_r3",
+  "poem_id": "M01",
+  "trap_type": "情感反差",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n多情却似总无情，唯觉尊前笑不成。\n蜡烛有心还惜别，替人垂泪到天明。",
+  "prompt_sha256": "a6effaed208becb030b6443626a0e60b6c725ebb4578f8667d022e2343c6b3b7",
+  "translation": "This Chinese classical poem can be translated into English as follows:\n\n\"Despite my fondness, it seems to be as if you have no feelings; I only find my laughter failing when we are seated before the wine cup. The wax candle, with its heart, also cherishes our farewell; it weeps for us even until dawn.\"\n\nNote that the last line, \"替人垂泪到天明\" (to weep for us even until dawn), is a poetic way to express that the candle is serving as a witness and a symbol of their enduring sorrow. In the original poem, there is no direct translation for the \"serving as a witness\" concept, so I've translated it as \"weeps for us even until dawn,\" which captures the essence of the sentiment.",
+  "metadata": {
+    "input_tokens": 71,
+    "output_tokens": 159,
+    "latency_ms": 14176.58257484436,
+    "timestamp": "2026-10-26T20:30:15.653494",
+    "finish_reason": "stop"
+  }
+}

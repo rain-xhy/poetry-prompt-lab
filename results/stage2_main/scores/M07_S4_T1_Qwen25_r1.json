@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S4_T1_Qwen25_r1",
+  "anon_code": "T_31ad5b40",
+  "poem_id": "M07",
+  "strategy": "S4_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "By Zhuoxie Bridge wildflowers grow",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'Zhuoxie Bridge' which is a transliteration of a place name, not the specific 'Wang' and 'Xie' family names as required by the original phrase '王谢' referring to the Eastern Jin Wang and Xie clans.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "In old Uchiashang the swallows flew, Now in humble dwellings they pursue.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts 'old Uchiash:ang' (past elite status) with 'humble dwellings' (present common people's homes), showing the time and social class contrast as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "In old Uchiashang the swallows flew",
+        "evidence_found": true,
+        "reasoning": "The phrase 'swallows flew' preserves the swallow (燕子) as a witness (意象) without implying the same swallow lived for centuries.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "By Zhuoxie Bridge wildflowers grow, Unguarded lanes the setting sun draws.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'wildflowers' instead of 'wild grass' and 'setting sun' which does not convey the desolate atmosphere as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

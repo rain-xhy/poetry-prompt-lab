@@ -1,0 +1,67 @@
+{
+  "translation_id": "M04_S0_Qwen25_r1",
+  "anon_code": "T_d2adeb46",
+  "poem_id": "M04",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "If two minds are truly destined to last, Then it doesn't matter how many times a day they meet.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express 'long-lasting' as a condition for the relationship, but rather states that the frequency of meeting is irrelevant once the relationship is destined to last, which misrepresents the original phrase's meaning of 'if the emotions are long-lasting, then the meeting frequency is not important.'",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Then it doesn't matter how many times a as a day they meet.",
+        "evidence_found": false,
+        "reasoning": "The translation uses 'doesn't matter how many times a day they meet' to convey that the frequency of meeting is not important, which aligns with the requirement of 'not necessarily daily meetings' in the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "how many times a day they meet",
+        "evidence_found": true,
+        "reasoning": "The phrase 'how many times a day' captures the repeated, continuous nature of the original phrase '朝朝暮暮', which implies frequent or persistent interaction over time.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "If two minds are truly destined to last, Then it doesn't matter how many times a: day they meet.",
+        "evidence_found": false,
+        "reasoning": "The translation maintains the conditional structure 'If...then...' and the counterfactual implication that meeting frequency becomes irrelevant once the condition of lasting connection is met, preserving the original's logic and rhetorical contrast.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 3.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

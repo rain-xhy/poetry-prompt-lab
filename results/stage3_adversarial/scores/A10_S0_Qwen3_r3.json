@@ -1,0 +1,58 @@
+{
+  "translation_id": "A10_S0_Qwen3_r3",
+  "anon_code": "T_3ee74307",
+  "poem_id": "A10",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Once we lit the western window candle together",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Once' explicitly indicates past time and matches the requirement for past tense as specified in the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When you ask for the time of my return, I say there is no specific time. The night rain in the western mountain pool rises with the autumn season. Once we lit the western window candle together, and then we spoke of the rain in the western mountain again.",
+        "evidence_found": true,
+        "reasoning": "The translation describes a past event (lit the candle together) but does not explicitly convey the distinction between recalling past memories versus expecting future returns, which is required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When you ask for the time of my return, I say there is no specific time.",
+        "evidence_found": true,
+        "reasoning": "The translation states 'there is no specific time' for the return, but the original poem uses '何当' which implies a future time (when) rather than a past time (once).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

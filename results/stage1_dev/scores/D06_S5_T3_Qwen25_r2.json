@@ -1,0 +1,76 @@
+{
+  "translation_id": "D06_S5_T3_Qwen25_r2",
+  "anon_code": "T_efab105c",
+  "poem_id": "D06",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I know my brothers climb the high place",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I know my brothers climb the high place' expresses the meaning of 'in distant places imagining knowing' as required, without using 'I see/I watch'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I know my brothers climb the high place",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I know my brothers climb the high place' directly translates the meaning of '兄弟们登高之处' by specifying the subject as 'brothers' and the action of 'climb the high place' which matches the required meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Everyone wears one, except for one less.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Everyone wears one, except for one less' directly translates to '每个人头上都插着茱萸' with the exception of one person, which matches the required meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Everyone wears one, except for one less.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'except for one less' directly indicates that one person is missing, and the context implies the speaker is the one missing.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

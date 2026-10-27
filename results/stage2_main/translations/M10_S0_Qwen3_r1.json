@@ -1,0 +1,19 @@
+{
+  "id": "M10_S0_Qwen3_r1",
+  "poem_id": "M10",
+  "trap_type": "拟人意象",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n野火烧不尽，春风吹又生。",
+  "prompt_sha256": "f44e38d26d08a64cc265b63fe26a42a03ff958da679cd43551fcc9fd81400688",
+  "translation": "Wildfires cannot erase it, for spring wind brings it back again.",
+  "metadata": {
+    "input_tokens": 37,
+    "output_tokens": 15,
+    "latency_ms": 240.65256118774414,
+    "timestamp": "2026-10-26T19:43:17.274372",
+    "finish_reason": "stop"
+  }
+}

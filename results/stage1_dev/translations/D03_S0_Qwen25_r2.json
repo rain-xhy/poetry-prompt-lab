@@ -1,0 +1,19 @@
+{
+  "id": "D03_S0_Qwen25_r2",
+  "poem_id": "D03",
+  "trap_type": "否定逻辑",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n劝君更尽一杯酒，西出阳关无故人。",
+  "prompt_sha256": "f29cb8786297e2f81a4230fd5f07724f2601cf8c25f2201d07ab377c327b359a",
+  "translation": "Here is a translation of the Chinese classical poem into English:\n\n\"Encourage me to drink one more cup of wine,\nFor beyond the Western Pass there are no old friends.\"\n\nThis translation aims to capture the essence and meaning of the original poem while rendering it in idiomatic English. The poem is traditionally known as \"The Song of the Road\" (《送元二使安西》) and is a farewell poem to a friend traveling to the Western Regions (安西).",
+  "metadata": {
+    "input_tokens": 56,
+    "output_tokens": 97,
+    "latency_ms": 3050.2326488494873,
+    "timestamp": "2026-10-26T16:24:31.285316",
+    "finish_reason": "stop"
+  }
+}

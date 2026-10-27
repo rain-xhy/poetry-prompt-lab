@@ -1,0 +1,67 @@
+{
+  "translation_id": "M15_S5_T2_Qwen25_r2",
+  "anon_code": "T_824dc4fe",
+  "poem_id": "M15",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Why should the羌笛怨怨杨柳春",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Why should the羌笛怨怨杨: 何须怨' translates to 'why must one complain' or 'why need one to complain', but the translation uses 'Why should the羌笛怨怨杨柳春' which is a literal translation of the Chinese phrase without the intended meaning of 'no need to complain'. The required meaning is 'no need to complain' (反问, 意为不必), but the translation uses a question form that implies a complaint rather than a negation of necessity.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "For winds never breach玉门关's barrier.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'winds never breach' directly translates to 'winds cannot reach' or 'winds do not reach', fulfilling the requirement of a negative statement with geographical limitation to the Jade Gate Pass.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Why should the羌笛怨怨杨柳春",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Why should the羌笛怨怨杨柳春' does not correctly convey the causal relationship where 'spring wind does not reach' leads to 'useless to complain' as required by the original Chinese phrase's logic.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Why should the羌笛怨怨杨柳春",
+        "evidence_found": true,
+        "reasoning": "The translation includes '羌笛' but the phrase '怨怨杨柳春' does not correctly convey the intended meaning of '吹奏《折杨柳》曲' which refers to playing the 'Folded Willows' tune associated with parting. The phrase '怨怨' implies complaint rather than the melodic tradition of the tune, and '杨柳春' is not the correct term for the tune's name.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

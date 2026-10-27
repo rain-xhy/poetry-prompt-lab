@@ -1,0 +1,19 @@
+{
+  "id": "M16_S0_Qwen3_r1",
+  "poem_id": "M16",
+  "trap_type": "时态叙事",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n晨起动征铎，客行悲故乡。\n鸡声茅店月，人迹板桥霜。\n槲叶落山路，枳花明驿墙。\n因思杜陵梦，凫雁满回塘。",
+  "prompt_sha256": "2585d17af740c41c9989536179901210ff756094ff19167c67e91993a53c175d",
+  "translation": "Early in the morning, the bell tower shakes as I start my journey. Travelers grieve for their distant hometown. The crow calls at the茅店, the moon shines on the plum leaves. Footsteps are seen on the board bridge, frost covers the path. The oak leaves fall down the road, and the wild plum blossoms shine on the驿站 wall. I think of the Du Ling dream, and the geese fly full of the back pond.",
+  "metadata": {
+    "input_tokens": 74,
+    "output_tokens": 94,
+    "latency_ms": 985.1679801940918,
+    "timestamp": "2026-10-26T20:56:24.977780",
+    "finish_reason": "stop"
+  }
+}

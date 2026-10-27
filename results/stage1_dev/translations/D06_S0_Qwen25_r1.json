@@ -1,0 +1,19 @@
+{
+  "id": "D06_S0_Qwen25_r1",
+  "poem_id": "D06",
+  "trap_type": "时态叙事",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n遥知兄弟登高处，遍插茱萸少一人。",
+  "prompt_sha256": "7cf6f83c6e13878ea45de23d449e629e9ba3141bbdb27992306d88e3b7374768",
+  "translation": "Here's an English translation of the Chinese classical poem you provided:\n\n\"I know my brothers climb the high place today,\nAll worn with茱萸but one person less.\"\n\nThis translation aims to capture the essence of the original poem while making it more coherent and flowing in English. The original line \"遍插茱萸少一人\" is challenging to render directly, so I've used \"All worn with茱萸but one person less\" to convey the idea of everyone wearing the qiuju (fragrant osmanthus leaves) except for one, which is a common custom during the Double Ninth Festival in China. The rest of the line \"登高处\" is translated as \"climb the high place today,\" preserving the image of the brothers climbing together.",
+  "metadata": {
+    "input_tokens": 55,
+    "output_tokens": 153,
+    "latency_ms": 4847.71990776062,
+    "timestamp": "2026-10-26T16:31:15.843852",
+    "finish_reason": "stop"
+  }
+}

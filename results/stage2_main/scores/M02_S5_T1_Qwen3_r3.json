@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S5_T1_Qwen3_r3",
+  "anon_code": "T_ceebd95e",
+  "poem_id": "M02",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The红豆 grow in the southland, blooming in spring with few branches.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The红豆' directly references the Chinese term '红豆' as a specific symbol of longing, fulfilling the requirement to preserve '红豆' as a specific symbol of longing.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "May you gather them abundantly",
+        "evidence_found": true,
+        "reasoning": "The phrase 'May you gather them abundantly' expresses a wish/hope for the recipient to gather the red beans, fulfilling the requirement of '劝君多采摘（愿望）' with the direct address 'you' and the action of gathering.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "this thing holds the deepest longing",
+        "evidence_found": true,
+        "reasoning": "The phrase 'this thing holds the deepest longing' directly translates to 'this thing most deeply expresses longing', which matches the requirement of expressing 'this thing most can symbolize/hold longing'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The红豆 grow in the southland, blooming in spring with few branches.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'blooming in spring with few branches' which implies the time of spring but does not explicitly state '春天来时长出几枝' as the phrase requires the natural action of '发枝' (branching out) to be preserved.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

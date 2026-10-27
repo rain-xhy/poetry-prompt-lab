@@ -1,0 +1,76 @@
+{
+  "translation_id": "D06_S0_Qwen25_r1",
+  "anon_code": "T_505911c9",
+  "poem_id": "D06",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I know my brothers climb the high place today,",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I know my brothers climb the high place today' does not express 'in distant imagination' as required; it states a direct observation rather than a distant imaginative thought.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I know my brothers climb the high place today",
+        "evidence_found": true,
+        "reasoning": "The phrase 'climb the high place today' directly translates the meaning of '兄弟登高处' as 'brothers climb the high place', meeting the requirement of having 'climb the heights' meaning and using 'brothers' as the subject.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "All worn with茱萸but one person less",
+        "evidence_found": true,
+        "reasoning": "The translation uses '茱萸' (a Chinese character) instead of the English term for cornel/dogwood sprigs, and the phrase 'worn with' is not the correct verb for 'plugging' or 'inserting' the sprigs.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "All worn with茱萸but one person less",
+        "evidence_found": true,
+        "reasoning": "The translation states 'one person less' but does not explicitly mention that this person is the speaker, which is required by the pass conditions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.65,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

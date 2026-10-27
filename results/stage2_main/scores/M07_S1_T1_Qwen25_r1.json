@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S1_T1_Qwen25_r1",
+  "anon_code": "T_1b117285",
+  "poem_id": "M07",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "The swallows that once nested in the Wang and X:ie halls’ eaves",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly preserves 'Wang' and 'Xie' as specific family names without genericization, meeting the requirement for the Eastern Jin Wang and Xie families.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The swallows that once nested in the Wang and Xie halls’ eaves, Now fly into the common household.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts 'once nested in the Wang and Xie halls’ eaves' (past elite context) with 'now fly into the common household' (present common people), fulfilling both time and social class contrasts.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The swallows that once nested in the Wang and Xie halls’ eaves",
+        "evidence_found": true,
+        "reasoning": "The phrase preserves the swallow (燕子) as a witness (意象) by referencing their past nesting in halls, indicating a change over time without implying the same swallow lived centuries.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "By the wild flowers by the Jin Kuei Bridge, Under the slanting sun in Wu Yi Lane.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'wild flowers' corresponds to 野草 and 'slanting sun' corresponds to 夕阳, both conveying a desolate and decaying atmosphere as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

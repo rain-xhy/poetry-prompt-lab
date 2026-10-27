@@ -1,0 +1,67 @@
+{
+  "translation_id": "M03_S5_T2_Qwen3_r3",
+  "anon_code": "T_93b86dc7",
+  "poem_id": "M03",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I know it is not fixed",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I know it is not fixed' directly translates to '尚未确定' and meets the requirement of expressing 'cannot yet be set' without implying 'no deadline' or 'never'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When will we share the candlelight on the west window",
+        "evidence_found": true,
+        "reasoning": "The phrase 'When will we share the candlelight on the west window' uses the future tense 'will' to express the future assumption of sharing candlelight, matching the required meaning of '什么时候能一起剪西窗烛' (when can we together trim the west window candle).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When asked about my return date, I know it is not fixed, The rain in Bashan rises, filling the autumn pool. When will we share the candlelight on the west window, To recount the rain of Bash, when it falls?",
+        "evidence_found": false,
+        "reasoning": "The translation does not explicitly convey '将来回忆过去' (future recalling past) as it focuses on future events and present actions without clear temporal markers for past recollection.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The rain in Bashan rises, filling the autumn pool.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The rain in Bash: rises, filling the autumn pool' directly translates the required meaning of 'rain makes the autumn pool water rise' while preserving the three required imagery elements: Bashan, night rain, and autumn pool.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

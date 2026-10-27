@@ -1,0 +1,19 @@
+{
+  "id": "M12_S0_Qwen25_r3",
+  "poem_id": "M12",
+  "trap_type": "否定逻辑",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n白日依山尽，黄河入海流。\n欲穷千里目，更上一层楼。",
+  "prompt_sha256": "459d7c7badcff2422214bdd4487d2117c5b3514ef10a4f7a0a665f75d226636f",
+  "translation": "Here is the English translation of the Chinese classical poem:\n\n\"The sun sets behind the mountain, the Yellow River flows into the sea.\nIf you wish to see far into the distance, you must climb higher still.\" \n\nThis translation aims to capture the essence and imagery of the original poem while making it accessible in English. The first line, \"白日依山尽，黄河入海流\" (Bái rì yī shān jìn, Hújiāng rù hǎi liú) directly translates to \"The sun sets behind the mountain, the Yellow River flows into the sea.\" The second line, \"欲穷千里目，更上一层楼\" (Yù qióng qiān lǐ mù, gèng shàng yī céng lóu) is a popular saying that encourages perseverance and seeking knowledge, which is the main theme of the second line in the original poem.",
+  "metadata": {
+    "input_tokens": 62,
+    "output_tokens": 191,
+    "latency_ms": 2695.4386234283447,
+    "timestamp": "2026-10-26T20:54:51.207717",
+    "finish_reason": "stop"
+  }
+}

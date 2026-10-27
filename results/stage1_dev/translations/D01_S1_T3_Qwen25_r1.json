@@ -1,0 +1,19 @@
+{
+  "id": "D01_S1_T3_Qwen25_r1",
+  "poem_id": "D01",
+  "trap_type": "情感反差",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n此情无计可消除，才下眉头，却上心头。",
+  "prompt_sha256": "aa444ecff1588c212657ff2121420dbf68c961a5d09211a8f1f22de4312fa64e",
+  "translation": "Here is the translation:\n\nThere’s nothing I can do to dispel this feeling,\nIt moves from my brow, only to return to my heart.\n\n[Note: The poem uses the metaphor of a weeping face (眉头) to represent the sorrowful expression on one's face, and the heart (心头) to symbolize the inner turmoil. The phrase \"才下眉头，却上心头\" suggests that emotions are easily evoked but also difficult to suppress or forget.]\n\n(2 lines of English, 1 note)",
+  "metadata": {
+    "input_tokens": 224,
+    "output_tokens": 107,
+    "latency_ms": 14503.818273544312,
+    "timestamp": "2026-10-26T16:48:22.256824",
+    "finish_reason": "stop"
+  }
+}

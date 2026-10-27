@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S4_T1_Qwen3_r3",
+  "anon_code": "T_a82dac4e",
+  "poem_id": "M01",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "The emotion is deep yet seemingly devoid of: deep love/affection and seeming coldness/indifference",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly contrasts 'deep' emotion with 'seemingly devoid of feeling', capturing the paradoxical tension between deep affection and apparent indifference as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "only the smile on the wine cup remains unformed",
+        "evidence_found": true,
+        "reasoning": "The phrase 'remains unformed' does not convey 'unable to/cannot smile' as required; it implies the smile is not yet formed rather than being unable to form it.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The candle, with a heart, still wishes to part company",
+        "evidence_found": true,
+        "reasoning": "The phrase explicitly states the candle has a heart (拟人化) and wishes to part company (惜别), meeting both conditions of the pass.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "its tears falling until the dawn",
+        "evidence_found": true,
+        "reasoning": "The phrase 'its tears falling until the dawn' directly corresponds to '蜡烛替人流泪 + 一直到天明' by preserving the time continuation 'until the dawn' and the concept of tears falling for others, as 'its tears' implies the candle's action on behalf of people.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

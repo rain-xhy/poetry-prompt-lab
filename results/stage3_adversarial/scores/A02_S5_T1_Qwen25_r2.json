@@ -1,0 +1,58 @@
+{
+  "translation_id": "A02_S5_T1_Qwen25_r2",
+  "anon_code": "T_94ff8768",
+  "poem_id": "A02",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "how many flowers have fallen?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'how many flowers have fallen?' directly addresses the transformation of the subject from 'I' to 'flowers' as required, indicating the focus on flowers rather than the speaker.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In every corner, the birdsong can be heard",
+        "evidence_found": true,
+        "reasoning": "The translation does not mention flowers having cognitive ability or awareness, only birdsong being heard.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Spring slumber passes unaware, all around the dawn; In every corner, the birdsong can be heard.",
+        "evidence_found": true,
+        "reasoning": "The translation does not match the original poem's meaning as it describes a scene of spring slumber passing and birdsong being heard, which is not the same as the original poem's content.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

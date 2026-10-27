@@ -1,0 +1,67 @@
+{
+  "translation_id": "M13_S0_Qwen3_r1",
+  "anon_code": "T_ecc06d5b",
+  "poem_id": "M13",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Furthest mountains, the birds fly away from view; all paths are silent, no human footprints remain. A solitary boat, its old clothes and hat covered in snow, stands alone, fishing in the cold river.",
+        "evidence_found": true,
+        "reasoning": "The translation describes birds flying away from view, not the complete absence of birds as required by '鸟飞绝' which means 'no birds at all' or 'absolutely no birds'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no human footprints remain",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no human footprints remain' directly translates the meaning of '人踪灭' as 'human traces disappear completely', satisfying the requirement for absolute negation of human presence.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A solitary boat, its old clothes and hat covered in snow, stands alone, fishing in the cold river.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'fishing in the cold river' directly translates the '垂钓' action, and 'solitary boat' and 'stands alone' emphasize the 'alone' aspect as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Furthest mountains, the birds fly away from view; all paths are silent, no human footprints remain. A solitary boat, its old clothes and hat covered in snow, stands alone, fishing in the cold river.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly shows vast spatial imagery with 'Furthest mountains' and 'all paths' while emphasizing solitude through 'solitary boat' and 'stands alone', creating a strong contrast between expansive space and isolated individual.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "translation_id": "D05_S5_T1_Qwen25_r2",
+  "anon_code": "T_e6cc38eb",
+  "poem_id": "D05",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of生死 have passed",
+        "evidence_found": true,
+        "reasoning": "The original phrase '十年生死' is not preserved in the translation, only '十年' is mentioned.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of生死 have passed, 即使不刻意去想，也自然难忘",
+        "evidence_found": false,
+        "reasoning": "翻译中直接使用了原文的句子结构，没有表达出'即使不刻意去想，也自然难忘'的转折方向，而是直接翻译为'十年生死已过，世事皆忘'，这与原文的转折关系不符。",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A thousand miles apart, Where can one speak of loneliness?",
+        "evidence_found": true,
+        "reasoning": "The translation includes 'A thousand miles apart' but does not explicitly mention 'loneliness' or '孤独' (lonely).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of生死have passed, ignored by the world, yet still remembered.",
+        "evidence_found": false,
+        "reasoning": "The phrase '无处话凄凉' is not preserved in the translation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "translation_id": "D02_S1_T2_Qwen25_r2",
+  "anon_code": "T_50356d84",
+  "poem_id": "D02",
+  "strategy": "S1_T2",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "众鸟高飞空",
+        "evidence_found": true,
+        "reasoning": "The phrase '众鸟高飞空' implies that the birds have all flown away, matching the requirement of '鸟群都飞走了' with '全部、消失' meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "孤云自舒卷",
+        "evidence_found": true,
+        "reasoning": "The phrase '孤云自舒卷' contains '孤' (lonely) and '自' (by oneself), indicating solitude, and '舒卷' implies a relaxed, unhurried state of movement, fulfilling the requirements for '孤云独自悠闲地飘走'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "relative two not tired",
+        "evidence_found": false,
+        "reasoning": "The phrase 'relative two not tired' does not correctly convey '人与山互相看着，都不厌倦' as it uses 'relative' instead of 'me and the mountain' and 'tired' instead of 'anxious/bored'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "惟有敬亭见",
+        "evidence_found": true,
+        "reasoning": "The phrase '惟有敬亭见' contains 'only' (惟有) and 'Jingting Mountain' (敬亭), meeting both pass conditions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

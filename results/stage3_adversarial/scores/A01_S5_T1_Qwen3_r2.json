@@ -1,0 +1,53 @@
+{
+  "translation_id": "A01_S5_T1_Qwen3_r2",
+  "anon_code": "T_13b829f0",
+  "poem_id": "A01",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The deeper the feeling, the plainer the words",
+        "evidence_found": true,
+        "reasoning": "The translation does not contain any explicit or implicit negative words like 'not', 'don't', 'avoid', or 'prevent' that would indicate the negative meaning of '小心' (caution) in the original Chinese phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The wind knocks at the door for me, Yet I am lost in the river's embrace.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The wind knocks at the door for me' implies a warning or caution, as the wind's action is a subtle but deliberate signal that something is about to happen, aligning with the requirement to preserve a warning tone.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The deeper the feeling, the plainer the words, But I am still bound by the river's embrace.",
+        "evidence_found": true,
+        "reasoning": "The required phrase 'slide/fall + into river' is not present in the translation; the translation describes emotional state and river's embrace without specific action of sliding/falling into the river.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\n  \"original\": \"小心滑入河中\",\n  \"reference_notes\": {\n    \"小心的隐性否定\": \"识别'小心'暗含'不要'的否定意义。\",\n    \"警告语气\": \"保留警告/提醒的语气。\",\n    \"动作完整性\": \"保留'滑入河中'的完整动作。\"\n  },\n  \"translation\": \"The wind knocks at the door for me,  Yet I am lost in the river's embrace.  The deeper the feeling, the plainer the words,  But I am still bound by the river's embrace.\"\n}"
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

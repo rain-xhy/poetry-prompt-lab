@@ -1,0 +1,67 @@
+{
+  "translation_id": "M14_S5_T3_Qwen25_r3",
+  "anon_code": "T_e17a086c",
+  "poem_id": "M14",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "But if a hero of Pulong stands watch",
+        "evidence_found": true,
+        "reasoning": "The phrase 'But if a hero of P: stands watch' uses the conditional structure 'if' to express the assumption that a hero must be present, fulfilling the requirement for a condition clause with assumed tone.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "No barbarian steed will cross the Yin Mountains",
+        "evidence_found": true,
+        "reasoning": "The phrase 'No barbarian steed will cross the Yin Mountains' directly expresses the meaning of '不让...越过' (not allowing something to cross) by stating that barbarian steeds are prevented from crossing the Yin Mountains, fulfilling the requirement of a prohibitive action.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "But if a hero of Pulong stands watch, No barbarian steed will cross the Yin Mountains.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'But if a hero of P: stands watch' establishes a conditional clause that directly leads to the result 'No barbarian steed will cross the Yin Mountains', maintaining the condition-result logic as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A万里-long journey, men never return",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A万里-long journey' does not correctly convey the historical context of 边关名将 (border generals) as required, and the translation focuses on the journey rather than the heroic general.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

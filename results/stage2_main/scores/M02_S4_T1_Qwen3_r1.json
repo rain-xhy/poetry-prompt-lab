@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S4_T1_Qwen3_r1",
+  "anon_code": "T_2bf208ef",
+  "poem_id": "M02",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This most cherished thing is deepest in desire",
+        "evidence_found": true,
+        "reasoning": "The phrase 'this most cherished thing' refers to the red beans as a symbol of longing, fulfilling the requirement that '红豆' is preserved as a specific symbol of longing (metaphor).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "May you diligently pick and gather",
+        "evidence_found": true,
+        "reasoning": "The phrase 'May you diligently pick and gather' expresses a wish/hope for the reader to gather red beans, fulfilling the requirement of '劝君多采摘（愿望）' with the direct address 'you' and the action of picking/gathering.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This most cherished thing is deepest in desire",
+        "evidence_found": true,
+        "reasoning": "The phrase 'This most cherished thing is deepest in desire' translates to 'this most cherished thing' meaning 'this most cherished object' and 'deepest in desire' implying 'deepest in longing', which aligns with 'this most able to寄托相思之情' (this most able to symbolize/express longing).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Their blossoms spring up with each season.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'spring up with each season' does not express the specific time of spring (as required by the pass condition) but rather implies growth across all seasons, which contradicts the requirement for the translation to express the time of spring.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

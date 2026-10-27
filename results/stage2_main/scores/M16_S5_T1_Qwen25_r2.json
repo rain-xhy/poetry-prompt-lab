@@ -1,0 +1,67 @@
+{
+  "translation_id": "M16_S5_T1_Qwen25_r2",
+  "anon_code": "T_aaa7cc03",
+  "poem_id": "M16",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The cock crows at the thatched inn under the moon",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The cock crows at the thatched inn under the moon' directly corresponds to the required meaning of '鸡鸣时茅店上还有月亮' with the three imagery elements preserved: cock crowing, thatched inn, and moon.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Footprints on the wooden bridge frosty and clear.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Footprints on the wooden bridge frosty and clear' directly corresponds to the required meaning of '人的足迹在板桥的霜上' with the three imagery elements preserved: footprints, wooden bridge, and frost.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Recalling dreams in Duf:eng",
+        "evidence_found": false,
+        "reasoning": "The phrase 'Recalling dreams in Dufeng' directly expresses the meaning of 'therefore thinking of dreams in Dufeng' as required, indicating a memory of dreams in Dufeng (Du陵) which is a historical reference to Du Fu's hometown.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "geese and ducks fill the winding ponds",
+        "evidence_found": true,
+        "reasoning": "The phrase 'winding ponds' directly translates the '曲折池塘' (curved/winding ponds) and 'geese and ducks fill' corresponds to '凫雁满布' (geese and ducks filling the pond).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M03_S5_T1_Qwen25_r1",
+  "anon_code": "T_a152fefa",
+  "poem_id": "M03",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "You seek my return date but I cannot say when",
+        "evidence_found": true,
+        "reasoning": "The phrase 'cannot say when' directly translates to '尚未确定' and 'cannot yet be set', meeting the requirement without implying 'no deadline' or 'never'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When we sit by the west window together again, We'll talk of rainy nights in Sichuan by then.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'When we sit by the west window together again' uses a future conditional structure indicating a future assumption, and 'We'll talk of rainy nights in Sich: by then' implies the future time frame for the action, meeting the requirement of expressing a future assumption with a future tense.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When we sit by the west window together again, We'll talk of rainy nights in S:uan by then.",
+        "evidence_found": false,
+        "reasoning": "The translation refers to a future event (sitting together again) and future conversation about past rain, but the original phrase requires 'recalling past rain when looking back' (past tense of remembering) with the rain being of the current night.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "For autumn pools overflow with night rain in Sich:uan.",
+        "evidence_found": false,
+        "reasoning": "The phrase 'overflow with night rain' directly expresses 'rain makes the pool rise', and 'autumn pools' corresponds to '秋池', while 'Sichuan' refers to '巴山' as the region where the mountain range is located.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S0_Qwen3_r1",
+  "anon_code": "T_52dc44eb",
+  "poem_id": "M02",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Red beans grow in the southern land, Spring comes and they sprout a few branches. May you take them often, dear friend, For this thing is most cherished in longing.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly refers to 'red beans' as the object of longing and uses them as a symbol of affection, fulfilling the requirement to preserve 'red beans' as a specific symbol of longing.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "May you take them often, dear friend",
+        "evidence_found": true,
+        "reasoning": "The phrase 'May you take them often' expresses a wish/hope for the reader to gather the red beans, fulfilling the requirement of 'wishing/urging' and addressing 'you' directly.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "For this thing is most cherished in longing.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'most cherished in longing' directly translates to '最能寄托相思之情' as it conveys that this object is the most significant for expressing or holding deep feelings of longing.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Spring comes and they sprout a few branches.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Spring comes and they sprout a few branches' directly addresses the time of spring and the natural action of sprouting branches as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

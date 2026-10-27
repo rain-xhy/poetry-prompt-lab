@@ -1,0 +1,67 @@
+{
+  "translation_id": "M05_S0_Qwen3_r3",
+  "anon_code": "T_e53a9ab3",
+  "poem_id": "M05",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Whispering here and there, cold and lonely, full of sorrow and grief.",
+        "evidence_found": true,
+        "reasoning": "The translation describes emotional states and atmosphere but does not convey the repetitive searching action required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Whispering here and there, cold and lonely, full of sorrow and grief.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'whispering here and there' which implies activity rather than the quiet coldness required, and 'full of sorrow and grief' is too emotional for the context of a cold, quiet environment.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Whispering here and there, cold and lonely, full of sorrow and grief.",
+        "evidence_found": true,
+        "reasoning": "The translation captures deep sorrow and emotional progression through phrases like 'cold and lonely' and 'full of sorrow and grief', meeting both pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Whispering here and there, cold and lonely, full of sorrow and grief.",
+        "evidence_found": true,
+        "reasoning": "The translation follows the required structure from action (whispering) to environment (cold and lonely) to emotion (sorrow and grief).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

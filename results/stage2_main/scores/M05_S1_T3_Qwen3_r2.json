@@ -1,0 +1,67 @@
+{
+  "translation_id": "M05_S1_T3_Qwen3_r2",
+  "anon_code": "T_4a6a7875",
+  "poem_id": "M05",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Seeking and searching, yet finding nothing; lonely and empty, sorrowful and broken.",
+        "evidence_found": true,
+        "reasoning": "The translation describes a state of not finding anything and emotional states, but does not explicitly convey the repetitive or continuous action of searching as required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "lonely and empty, sorrowful and broken",
+        "evidence_found": true,
+        "reasoning": "The phrase 'lonely and empty, sorrowful and broken' directly conveys a cold, desolate environment with a sense of desolation and emotional emptiness, matching the required meaning of '环境的冷清凄凉' and forming a progressive relationship with the preceding sentence.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking and searching, yet finding nothing; lonely and empty, sorrowful and broken.",
+        "evidence_found": true,
+        "reasoning": "The translation captures deep sorrow through layered expressions of searching, loneliness, emptiness, and emotional fragmentation, meeting both conditions of profound sadness and emotional progression.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking and searching, yet finding nothing; lonely and empty, sorrowful and broken.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly follows the structure from action (seeking and searching) to environment (lonely and empty) to emotion (sorrowful and broken), maintaining the required progression without altering the sequence.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

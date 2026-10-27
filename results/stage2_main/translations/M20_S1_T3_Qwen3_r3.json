@@ -1,0 +1,19 @@
+{
+  "id": "M20_S1_T3_Qwen3_r3",
+  "poem_id": "M20",
+  "trap_type": "时态叙事",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n我住长江头，君住长江尾。\n日日思君不见君，共饮长江水。",
+  "prompt_sha256": "36e2c4741c78ee27b072e566c625a12819f43c3bdbfcd6dfd7eec8cdc24cfc46",
+  "translation": "I dwell at the head of the river, you dwell at its tail.  \nEach day I think of you, but I cannot see you, sharing the same river's waters.\n\n[The poem uses a paradox: the speaker and the listener are on opposite sides of the river, yet they share the same water. This reflects the emotional distance and longing in their relationship.]\n\n[The river symbolizes the vastness of their connection, and the water represents the shared experience of their love.]",
+  "metadata": {
+    "input_tokens": 218,
+    "output_tokens": 98,
+    "latency_ms": 1008.8324546813965,
+    "timestamp": "2026-10-26T20:59:54.035800",
+    "finish_reason": "stop"
+  }
+}

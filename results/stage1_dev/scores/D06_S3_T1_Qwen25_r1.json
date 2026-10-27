@@ -1,0 +1,71 @@
+{
+  "translation_id": "D06_S3_T1_Qwen25_r1",
+  "anon_code": "T_d6def67b",
+  "poem_id": "D06",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I know my brothers climb the hillside today,",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I know my brothers climb the hillside today' implies direct observation rather than imagining from a distance, which violates the condition that it should not be 'I see/I watch'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I know my brothers climb the hillside today,",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'climb the hillside' which implies 'climb the heights', but the required meaning specifies 'brothers' as the subject and 'place where they climb' (登高之处), not just the action of climbing. The phrase 'one less than before' is irrelevant to the required meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Widely they wear the fragrant knot, one less than before.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'one less than before' implies a reduction in the number of people wearing the sprigs, which contradicts the original meaning of 'everyone wearing the sprigs' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "one less than before",
+        "evidence_found": true,
+        "reasoning": "The phrase 'one less than before' directly translates to '少了一个人' meaning 'one person less', and the context implies the speaker is the one missing as it's about the speaker's brothers.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\n  \"original\": \"遥知兄弟登高处，遍插茱萸少一人。\",\n  \"reference_notes\": {\n    \"遥知\": \"在远处想象得知。要点：视角是诗人远距离的推想，不是亲眼所见。\",\n    \"兄弟登高处\": \"兄弟们登高之处。要点：登高的是兄弟，不是诗人。\",\n    \"遍插茱萸\": \"每个人头上都插着茱萸。要点：'遍'表示都，茱萸是重阳习俗物。\",\n    \"少一人\": \"少了我一个人。要点：缺席者是诗人自己。\"\n  },\n  \"translation\": \"I know my brothers climb the hillside today,\\nWidely they wear the fragrant knot, one less than before.\"\n}"
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

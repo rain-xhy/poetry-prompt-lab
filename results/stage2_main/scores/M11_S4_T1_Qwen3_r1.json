@@ -1,0 +1,67 @@
+{
+  "translation_id": "M11_S4_T1_Qwen3_r1",
+  "anon_code": "T_da3468bf",
+  "poem_id": "M11",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "seeming like frost upon the ground",
+        "evidence_found": true,
+        "reasoning": "The phrase 'seeming like frost upon the ground' uses the verb 'seeming' (a form of 'seem') to indicate uncertainty, matching the requirement for a speculative verb and avoiding a definite statement.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When I raise my head, the bright moon shines above; but when I lower my head, I think of my dear fatherland.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly shows the sequence of actions (raising head, lowering head) and the causal link between looking at the moon and thinking of home, preserving the emotional logic of 望月→思乡.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The moonlight on my bed is bright, seeming like frost upon the ground.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The moonlight on my bed is bright' directly corresponds to '床前明月光' while preserving '床前' and expressing '月光明亮' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The moonlight on my bed is bright, seeming like frost upon the ground. When I raise my head, the bright moon shines above; but when I lower my head, I think of my dear fatherland.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys a tranquil atmosphere through the imagery of moonlight and frost, and expresses solitude and homesickness through the contrast between looking up at the moon and thinking of one's homeland.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

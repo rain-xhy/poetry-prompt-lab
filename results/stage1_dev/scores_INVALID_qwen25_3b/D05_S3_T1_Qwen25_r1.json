@@ -1,0 +1,62 @@
+{
+  "translation_id": "D05_S3_T1_Qwen25_r1",
+  "anon_code": "T_59c22da6",
+  "poem_id": "D05",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of生死, both are vague and distant, never thought of, yet they remain etched in my heart.",
+        "evidence_found": true,
+        "reasoning": "The phrase '十年生死' is not present in the translation, only '十年' is mentioned.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of生死, both are vague and distant, never thought of, yet they remain etched in my heart.",
+        "evidence_found": true,
+        "reasoning": "The translation contains the phrase 'Ten years of生死, both are vague and distant, never thought of, yet they remain etched in my heart.' which directly contradicts the original phrase '不思量' (not thinking about). This translation implies that the poet thought about the '生死' (生死 means 'life and death') for ten years, which is not the intended meaning of the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "yet they remain etched in my heart.",
+        "evidence_found": true,
+        "reasoning": "The phrase '相隔千里的孤独坟墓' (a solitary grave lies a thousand miles away, where one cannot find a place to speak of the sorrow) is not present in the translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of生死, both are vague and distant, never thought of, yet they remain etched in my heart.",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the phrase '无处话凄凉' and instead focuses on a different theme related to death and distance.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 2,
+    "overall": 3.85,
+    "valid": true
+  }
+}

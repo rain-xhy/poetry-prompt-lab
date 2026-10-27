@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S0_Qwen3_r3",
+  "anon_code": "T_131ebf8e",
+  "poem_id": "M07",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wang and Che",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly mentions 'Wang' and 'Che' as specific families, preserving the required '东晋王氏谢氏世家' without genericization.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Once, the grand halls of Wang and Che welcomed the flying swallows, Now they dwell in the homes of common people.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts 'Once' (past) with 'Now' (present) to show time contrast, and 'grand halls of Wang and Che' (former elite) with 'homes of common people' (ordinary citizens) to show social class contrast.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the flying swallows",
+        "evidence_found": true,
+        "reasoning": "The phrase 'flying swallows' directly refers to the swallow bird, preserving the '燕子' (swallow) imagery as a witness while avoiding the claim of a swallow living for centuries.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "On the wild grass by the Juzha Bridge, wild flowers bloom; At the mouth of Wuyi Terrace, the setting sun casts a shadow.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly mentions 'wild grass' and 'setting sun', which directly correspond to the required 荒凉景象 (wild grass, setting sun) while conveying a sense of desolation and decay through the imagery.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

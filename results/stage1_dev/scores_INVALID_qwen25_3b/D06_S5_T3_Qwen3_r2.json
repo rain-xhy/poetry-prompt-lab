@@ -1,0 +1,62 @@
+{
+  "translation_id": "D06_S5_T3_Qwen3_r2",
+  "anon_code": "T_4a108e60",
+  "poem_id": "D06",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "But one is missing—just him.",
+        "evidence_found": true,
+        "reasoning": "The translation contains 'But one is missing—just him.' which does not match the expected '遥知' and '在远处想象得知' as per the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The poet knows that his brothers are climbing high",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the phrase '兄弟们登高之处' (The brothers are climbing high).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The phrase '每个人的头上都插着茱萸' is not directly quoted in the translation.",
+        "evidence_found": false,
+        "reasoning": "The translation does not include the exact phrase '每个人的头上都插着茱萸'",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "But one is missing—just him.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '少一人' and does not explicitly state that the missing person is the speaker.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 2,
+    "overall": 3.15,
+    "valid": true
+  }
+}

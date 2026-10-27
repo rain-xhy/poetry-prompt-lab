@@ -1,0 +1,67 @@
+{
+  "translation_id": "M03_S1_T3_Qwen3_r2",
+  "anon_code": "T_0593c8ee",
+  "poem_id": "M03",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When you ask about my return date, there is no fixed time—night rain fills the autumn pool in Bashan.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no fixed time' directly translates to '尚未确定' and avoids 'no deadline' or 'never', meeting all pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When will we jointly light the west window candle, and recount the Bashan rain again?",
+        "evidence_found": true,
+        "reasoning": "The phrase uses 'When will' to indicate future assumption, and 'jointly light the west window candle' directly translates the action of '共剪西窗烛' with clear expectation.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When will we jointly light the west window candle, and recount the Bashan rain again?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'recount the Bashan rain again' explicitly refers to recalling past rain events in Bashan, fulfilling the 'future recollection of past' temporal requirement while specifying the current night's rain context.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "night rain fills the autumn pool in Bashan",
+        "evidence_found": true,
+        "reasoning": "The phrase 'night rain fills the autumn pool in Bash. ' directly translates the required meaning of 'rain makes the autumn pool water rise' while preserving the three required imagery elements: Bashan, night rain, and autumn pool.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 4,
+    "valid": true
+  }
+}

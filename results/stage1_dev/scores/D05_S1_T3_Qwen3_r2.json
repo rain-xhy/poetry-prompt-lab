@@ -1,0 +1,76 @@
+{
+  "translation_id": "D05_S1_T3_Qwen3_r2",
+  "anon_code": "T_cee9eeed",
+  "poem_id": "D05",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of death and life, two souls separated—no thinking, yet it is unforgettable. A thousand miles away, my wife's grave, no place to vent my sorrow.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly mention 'ten years' as a continuous period but uses 'Ten years of death and life' which implies a duration but lacks the specific '十年' context. Additionally, it describes a grave and sorrow without directly expressing the 'separation between living and dead' or 'mutual distance and obscurity' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no thinking, yet it is unforgettable",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no thinking, yet it is unforgettable' directly matches the required meaning of 'even if not deliberately thinking, still unforgettable' without implying that not thinking causes forgetting.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A thousand miles away, my wife's grave",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A thousand miles away' indicates a distant separation, and 'my wife's grave' refers to a lonely tomb, meeting both required conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no place to vent my sorrow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no place to vent my sorrow' directly translates to '没有地方、没有人可诉说凄凉' as required, expressing the inability to find a place or person to express sorrow.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 5,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.2,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

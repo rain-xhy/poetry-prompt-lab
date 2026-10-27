@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S0_Qwen25_r3",
+  "anon_code": "T_10ce6bd7",
+  "poem_id": "M01",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Despite my fondness, it seems to be as if you have no feelings",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Despite my fondness' directly translates '多情' (deep love/affection) while 'it seems to be as if you have no feelings' captures '似无情' (seeming coldness/indifference), maintaining the paradoxical tension between deep emotion and apparent indifference.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I only find my laughter failing when we are seated before the wine cup",
+        "evidence_found": true,
+        "reasoning": "The phrase 'laughter failing' does not clearly convey 'unable to/cannot laugh' as required; it implies a temporary inability rather than a state of being unable to laugh.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The wax candle, with its heart, also cherishes our farewell",
+        "evidence_found": true,
+        "reasoning": "The phrase 'with its heart' explicitly shows the candle has a heart (拟人化), and 'cherishes our farewell' directly translates the '惜别' meaning, preserving the personification without weakening it to a simple adjective.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "it weeps for us even until dawn",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it weeps for us even until dawn' directly expresses the candle's role in '替人垂泪' (weeping for us) and the time extension 'until dawn' as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

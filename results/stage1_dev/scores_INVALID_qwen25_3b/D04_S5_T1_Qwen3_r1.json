@@ -1,0 +1,62 @@
+{
+  "translation_id": "D04_S5_T1_Qwen3_r1",
+  "anon_code": "T_f8d4baf3",
+  "poem_id": "D04",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The deep waters of Tao'an Lake surpass a thousand feet",
+        "evidence_found": true,
+        "reasoning": "The translated phrase does not preserve the exact phrase '桃花潭水深千尺' and does not mention the name '桃花潭' (Peach Blossom Pool). The translation focuses on the poet's feelings rather than the depth of the water.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The wind knocks at the door for me, and the hills wish to keep me.",
+        "evidence_found": true,
+        "reasoning": "The translation contains phrases 'The deep waters of Tao'an Lake surpass a thousand feet' which is not part of the original poem and introduces new elements not aligned with the original meaning. The phrase 'cannot match the depth of my affection bestowed by Wang Lun' is not '不及' and does not preserve the original meaning. The phrase 'The wind knocks at the door for me, and the hills wish to keep me' is not part of the original poem and does not preserve the original meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The translation does not mention Wang Lun as the one who sends the speaker off.",
+        "evidence_found": false,
+        "reasoning": "The translation states 'The wind knocks at the door for me, and the hills wish to keep me.' which does not align with the original phrase '汪伦送我' where Wang Lun is the one who sends the speaker off.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The wind knocks at the door for me, and the hills wish to keep me.",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the phrase '以水深比情深的比喻' and does not express the idea of comparing affection to depth, instead focusing on a specific scene from a poem.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 2,
+    "overall": 3.85,
+    "valid": true
+  }
+}

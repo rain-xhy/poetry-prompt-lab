@@ -1,0 +1,19 @@
+{
+  "id": "D02_S1_T3_Qwen3_r1",
+  "poem_id": "D02",
+  "trap_type": "拟人意象",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n众鸟高飞尽，孤云独去闲。\n相看两不厌，只有敬亭山。",
+  "prompt_sha256": "3a5c93bd7298f36d384cd1ca6725249ddaade02e962f1d1c055d205c01d54d09",
+  "translation": "Birds fly away far and high,  \nClouds drift alone and leisurely.  \nWe look at each other without hate,  \nOnly the mountain of Jingting remains.\n\n[The poem uses personification of birds and clouds, and the mountain is treated as a companion. The emotional tone is one of mutual admiration and quiet peace.]\n\n[The \"two not厌\" (two not weary) reflects a deep, unending admiration, even in solitude.]",
+  "metadata": {
+    "input_tokens": 219,
+    "output_tokens": 92,
+    "latency_ms": 12856.017351150513,
+    "timestamp": "2026-10-26T16:25:42.706322",
+    "finish_reason": "stop"
+  }
+}

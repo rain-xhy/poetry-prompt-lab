@@ -1,0 +1,67 @@
+{
+  "translation_id": "M05_S5_T3_Qwen3_r1",
+  "anon_code": "T_6e77fd04",
+  "poem_id": "M05",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Seeking and searching, filled with sorrow, the world is empty and cold, filled with grief and sorrow.",
+        "evidence_found": true,
+        "reasoning": "The translation describes emotional states and surroundings rather than the repetitive action of searching, failing to capture the 'repeated searching' aspect required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the world is empty and cold, filled with grief and sorrow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'the world is empty and cold, filled with grief and sorrow' captures the cold, desolate environment and the sense of sorrow and desolation required, while also implying a progression from the previous sentence's context.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "filled with sorrow, the world is empty and cold, filled with grief and sorrow",
+        "evidence_found": true,
+        "reasoning": "The translation captures deep sorrow and emotional progression through phrases like 'filled with sorrow', 'empty and cold', and 'grief and sorrow', reflecting extreme sadness as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking and searching, filled with sorrow, the world is empty and cold, filled with grief and sorrow.",
+        "evidence_found": true,
+        "reasoning": "The translation follows the required structure from action to environment to emotion without altering the sequence.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 1,
+    "overall": 1.8,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

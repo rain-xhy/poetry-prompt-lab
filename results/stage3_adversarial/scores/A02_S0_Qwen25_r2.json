@@ -1,0 +1,58 @@
+{
+  "translation_id": "A02_S0_Qwen25_r2",
+  "anon_code": "T_3a604d43",
+  "poem_id": "A02",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "How many flowers fell I wonder.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'How many flowers fell I wonder' directly addresses the transformation of the subject from 'I' to 'flowers' as required, indicating the speaker's uncertainty about the number of flowers that fell.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Spring slumber doesn't know dawn, All around the birdsong is heard.",
+        "evidence_found": true,
+        "reasoning": "The translation does not mention any flowers having cognitive abilities or knowledge, so it fails to express the required meaning of '花具有认知能力（知道）'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Spring slumber doesn't know dawn, All around the birdsong is heard. Last night's wind and rain sounds, How many flowers fell I wonder.",
+        "evidence_found": true,
+        "reasoning": "The translation does not match the original poem '春晓' which is a famous Tang dynasty poem by Meng Haoran. The original poem is: '春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少.' The given translation has a different structure and meaning compared to the original, as it misrepresents the original's meaning by saying 'Spring slumber doesn't know dawn' instead of 'Spring sleep doesn't know dawn' and the phrase 'How many flowers fell I wonder' is a misinterpretation of the original's '花落知多少' which means 'How many flowers have fallen?' The translation also adds 'sounds' in 'Last night's wind and rain sounds' which is not present in the original. Therefore, the translation is a significant rewrite and does not preserve the original meaning.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

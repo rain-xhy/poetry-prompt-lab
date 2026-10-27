@@ -1,0 +1,58 @@
+{
+  "translation_id": "A02_S0_Qwen25_r3",
+  "anon_code": "T_f6296c02",
+  "poem_id": "A02",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Last night's wind and rain, how many blooms did you shed?",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'blooms' as the subject, but the required meaning specifies that the subject should be 'flowers/blossoms' from '我' (I) transformed into 'flowers'. The phrase 'how many blooms did you shed' implies the subject is 'blooms' (plural), which does not match the requirement that the subject should be 'flowers/blossoms' from '我' (I) transformed into 'flowers'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Spring slumber unaware of dawn",
+        "evidence_found": true,
+        "reasoning": "The phrase does not mention any cognitive ability of flowers, only the slumber of a person being unaware of dawn.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Spring slumber unaware of dawn, Birdsong heard everywhere in spring. Last night's wind and rain, how many blooms did you shed?",
+        "evidence_found": true,
+        "reasoning": "The translation does not match the original poem '春晓' which has four lines of 5-character lines, but the provided translation has a different structure and content, indicating it is a rewrite rather than a direct translation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S1_T3_Qwen3_r2",
+  "anon_code": "T_ffabb002",
+  "poem_id": "M02",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This thing holds the deepest longing",
+        "evidence_found": true,
+        "reasoning": "The phrase 'this thing' refers to the red beans, which are the symbol of longing in the original Chinese poem, thus preserving the symbolic meaning of 红豆 as a metaphor for missing someone.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "May you gather them with care",
+        "evidence_found": true,
+        "reasoning": "The phrase 'May you gather them with care' expresses a wish/hope for the reader to gather the red beans, fulfilling the requirement of '劝君多采摘（愿望）' with the direct address 'you' and the action of gathering.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This thing holds the deepest longing",
+        "evidence_found": true,
+        "reasoning": "The phrase 'holds the deepest longing' directly translates to '最能寄托相思之情' as it conveys the idea of holding or embodying the deepest feelings of longing, which aligns with the requirement to express 'this thing most symbolizes/embodies longing'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Spring brings them forth, few in number.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Spring brings them forth' does not express the time of spring but rather the action of spring causing growth, and 'few in number' does not convey the specific count of branches as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

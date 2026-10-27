@@ -1,0 +1,58 @@
+{
+  "translation_id": "A10_S1_T1_Qwen25_r3",
+  "anon_code": "T_8b32ab0e",
+  "poem_id": "A10",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "We once shared a candle by the west window",
+        "evidence_found": true,
+        "reasoning": "The phrase 'We once shared' uses the past tense 'once' to indicate a past action, fulfilling the requirement to preserve '曾经' as past tense.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "You ask about my return, but I have no set date",
+        "evidence_found": true,
+        "reasoning": "This line directly addresses the uncertainty of return (recalling past) rather than future expectations.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "We once shared a candle by the west window",
+        "evidence_found": true,
+        "reasoning": "The phrase 'We once shared a candle by the west window' uses 'once' which indicates past tense, but the original poem's '何当' (when will I return) implies future tense, so the translation incorrectly changes the temporal aspect from future to past.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

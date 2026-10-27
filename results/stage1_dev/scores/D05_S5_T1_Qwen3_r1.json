@@ -1,0 +1,76 @@
+{
+  "translation_id": "D05_S5_T1_Qwen3_r1",
+  "anon_code": "T_e0f3a47a",
+  "poem_id": "D05",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of separation, two worlds apart, both lost and茫然",
+        "evidence_found": true,
+        "reasoning": "The phrase '茫然' is not translated correctly; it should be 'mysterious' or 'vague' to convey the meaning of '渺茫' (vague, indistinct).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Not thinking, yet it is unforgettable",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Not thinking, yet it is unforgettable' directly matches the required meaning of '即使不刻意去想，也自然难忘' by expressing that even without deliberate thought, the memory remains unforgettable, without implying that not thinking leads to forgetting.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A lonely grave, far away",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A lonely grave, far away' directly translates to 'a lonely grave' and 'far away' which corresponds to '孤独坟墓' and '千里/遥远的距离' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "where sorrow cannot be expressed",
+        "evidence_found": true,
+        "reasoning": "The phrase 'where sorrow cannot be expressed' directly translates to '没有地方、没有人可诉说凄凉' by indicating the inability to express sorrow due to lack of place or person.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 1.9,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.65,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

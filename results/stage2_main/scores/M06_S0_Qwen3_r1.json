@@ -1,0 +1,67 @@
+{
+  "translation_id": "M06_S0_Qwen3_r1",
+  "anon_code": "T_7ff2645d",
+  "poem_id": "M06",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "How many petals will never return?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'How many petals will never return?' directly expresses the uncertainty of the count of fallen petals from the perspective of 'I', matching the requirement that the subject is 'I' or an implied observer.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Spring sleep does not wake me up, All around I hear the birds' song. The rain came last night, the flowers fall— How many petals will never return?",
+        "evidence_found": true,
+        "reasoning": "The translation includes additional lines beyond the original phrase and does not focus on the sleep and unawareness of dawn as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "All around I hear the birds' song",
+        "evidence_found": true,
+        "reasoning": "The phrase 'All around' corresponds to '到处' (everywhere) and 'I hear the birds' song' indicates auditory perception of birdsong, fulfilling both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The rain came last night",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The rain came last night' directly translates the time reference '夜来' as 'last night' and includes the sound of rain as part of the weather event.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

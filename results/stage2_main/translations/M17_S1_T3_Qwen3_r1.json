@@ -1,0 +1,19 @@
+{
+  "id": "M17_S1_T3_Qwen3_r1",
+  "poem_id": "M17",
+  "trap_type": "时态叙事",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n此情可待成追忆，只是当时已惘然。",
+  "prompt_sha256": "6db441b097640c9eb614a69e39c06f6f1327f720d4e34bc9f4094bf7ed55a7b4",
+  "translation": "This feeling can wait to become a memory, but already it is futile.  \n\n[The phrase \"此情可待成追忆\" reflects the poet's realization that the current state of emotion is too deep and irreversible to be forgotten, even if it were possible.]  \n\n[The use of \"惘然\" emphasizes the poet's sorrow and the futility of trying to hold onto the past.]  \n\nThis feeling can wait to become a memory, but already it is futile.",
+  "metadata": {
+    "input_tokens": 210,
+    "output_tokens": 97,
+    "latency_ms": 1040.6975746154785,
+    "timestamp": "2026-10-26T20:53:28.691572",
+    "finish_reason": "stop"
+  }
+}

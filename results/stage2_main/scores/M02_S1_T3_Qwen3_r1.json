@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S1_T3_Qwen3_r1",
+  "anon_code": "T_6a77020b",
+  "poem_id": "M02",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Red beans grow in the southern land, blooming each spring with several branches. May you take them carefully and diligently, for this gift is most deeply cherished in the heart.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly refers to 'red beans' as a gift that is 'most deeply cherished in the heart', indicating their symbolic role as a representation of longing and affection.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "May you take them carefully and diligently",
+        "evidence_found": true,
+        "reasoning": "The phrase 'May you take them carefully and diligently' expresses a wish/hope for the recipient to gather the red beans, fulfilling the requirement of '劝君多采摘（愿望）' with the direct address 'you' and the action of 'taking' (which implies 'harvesting' or 'collecting').",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "this gift is most deeply cherished in the heart",
+        "evidence_found": true,
+        "reasoning": "The phrase 'most deeply cherished in the heart' conveys the meaning of 'most able to寄托相思之情' (most able to symbolize or寄托 feelings of longing).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Red beans grow in the southern land, blooming each spring with several branches.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'blooming each spring with several branches' which implies the spring time and growth, but the original phrase '春来发几枝' specifically refers to the number of branches that sprout when spring comes, not the blooming process or the gift aspect.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

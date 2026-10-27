@@ -1,0 +1,67 @@
+{
+  "translation_id": "M19_S5_T3_Qwen3_r2",
+  "anon_code": "T_1c496e24",
+  "poem_id": "M19",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I often saw, and on the terrace of Cui Ji, I heard several times",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I often saw' indicates past frequent action, and 'heard several times' shows multiple past occurrences, meeting both conditions for past frequency and past tense.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "again, I meet you in the bloom of spring",
+        "evidence_found": true,
+        "reasoning": "The phrase 'again, I meet you' directly corresponds to '又' (again) and '重逢' (reunion), while 'in the bloom of spring' implies the current season, expressing the present moment of reunion.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In the palace of the King's brother, I often saw, and on the terrace of Cui Ji, I heard several times. It is a beautiful season in the south, and again, I meet you in the bloom of spring.",
+        "evidence_found": true,
+        "reasoning": "The translation focuses on personal experiences and seasonal beauty without explicitly contrasting past and present or indicating changes in circumstances.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In the palace of the King's brother, I often saw, and on the terrace of Cui Ji, I heard several times. It is a beautiful season in the south, and again, I meet you in the bloom of spring.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the '落花时节' (fallen flower season) imagery; instead, it describes a specific location and a meeting in spring, which lacks the symbolic meaning of falling flowers.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "M07_S1_T3_Qwen3_r2",
+  "poem_id": "M07",
+  "trap_type": "拟人意象",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n朱雀桥边野草花，乌衣巷口夕阳斜。\n旧时王谢堂前燕，飞入寻常百姓家。",
+  "prompt_sha256": "1bad1d640c7c8d8d71e729feedf62d1018cf3fb116e9c0e6c768d15ae1c00909",
+  "translation": "On the wild grass by the Ji Qiao Bridge, wild flowers bloom in wild beauty,  \nAt the western slope of the Uyi巷, the sunset casts its golden light.  \nOnce, the grand halls of Wang and Che echoed with the song of the spring,  \nNow, a commoner's house is where the once-famous bird flies in.\n\n[Note: \"乌衣巷\" (Uyi Xiang) refers to a once-famous ancient residence in Nanjing, now a park. The \"wild grass\" and \"wild flowers\" symbolize the decay of once-great places. The \"old halls of Wang and Che\" refer to the former residences of the influential families of the Jin Dynasty, now long gone.]  \n[Note: The \"commoner's house\" contrasts with the once-great halls, highlighting the passage of time and the fall of empires.]",
+  "metadata": {
+    "input_tokens": 225,
+    "output_tokens": 181,
+    "latency_ms": 14648.249387741089,
+    "timestamp": "2026-10-26T20:03:03.891704",
+    "finish_reason": "stop"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "translation_id": "A06_S0_Qwen25_r1",
+  "anon_code": "T_864b3d4b",
+  "poem_id": "A06",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To replace the candle's tears, I weep all night long.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'To replace the candle's tears' directly corresponds to '人替烛' (person replaces candle) and 'weep all night long' captures the '颠倒关系' (reversed relationship) where the person weeps for the candle's tears, indicating a reversal of roles.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To replace the candle's tears, I weep all night long.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'To replace the candle's tears' directly corresponds to '替的方向' in the context of the translation, indicating the direction of replacement or substitution as required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Too much affection seems to be always in vain, Only the smile I want to share does not come to me. People still hold dear the thought of parting, To replace the candle's tears, I weep all night long.",
+        "evidence_found": true,
+        "reasoning": "The translation reverses the meaning of the original poem by expressing the poet's inability to smile at parting instead of the poet's longing for a smile to share with the person they are parting with.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.6,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

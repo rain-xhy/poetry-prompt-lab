@@ -1,0 +1,58 @@
+{
+  "translation_id": "A03_S0_Qwen25_r3",
+  "anon_code": "T_1e8845f5",
+  "poem_id": "A03",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I wanted to speak but then I let it go",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I wanted to speak but then I let it go' does not convey the '想说-但止住' contradiction as it implies completion of the action (letting go) rather than the intended stop.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "And said, how nice it is, the cool autumn",
+        "evidence_found": true,
+        "reasoning": "The phrase 'And said, how nice it is, the cool autumn' directly reflects the surface statement in the original Chinese phrase '却道天凉好个秋', which is the surface language that contrasts with the deeper emotion.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I wanted to speak but then I let it go, And said, how nice it is, the cool autumn.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the internal emotional conflict and the contrast between the speaker's desire to express and the eventual expression of a seemingly positive statement about autumn, reflecting the required meaning of '内心情感与表达的不一致' (inconsistency between inner emotion and expression).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

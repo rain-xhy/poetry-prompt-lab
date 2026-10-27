@@ -1,0 +1,67 @@
+{
+  "translation_id": "M09_S4_T1_Qwen3_r2",
+  "anon_code": "T_cfc755f9",
+  "poem_id": "M09",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Moon falls, crickets call, frost covers the sky—",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'crickets' instead of 'crows' (乌), which changes the intended imagery and breaks the three parallel natural elements (moon, crows, frost) required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The river's willow fires light up the sorrowful sleep",
+        "evidence_found": true,
+        "reasoning": "The phrase 'sorrowful sleep' implies facing sorrow while sleeping, meeting both conditions of 'facing' and 'sorrow accompanying sleep'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The river's willow fires light up the sorrowful sleep.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'willow fires' incorrectly refers to willows instead of maple trees, and 'sorrowful sleep' does not convey the intended imagery of fishing lights.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Moon falls, crickets call, frost covers the sky—",
+        "evidence_found": true,
+        "reasoning": "The phrase conveys a lonely and cold atmosphere with natural elements suggesting isolation and melancholy, avoiding any joyful connotations.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "translation_id": "A08_S1_T1_Qwen25_r3",
+  "anon_code": "T_1768eb24",
+  "poem_id": "A08",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the old nobleman's hall",
+        "evidence_found": true,
+        "reasoning": "The phrase 'old nobleman's hall' refers to '豪门' as a generalized expression of aristocratic families, meeting the requirement.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Where once only the elite could dwell, now it’s the, common folk.",
+        "evidence_found": false,
+        "reasoning": "The translation captures the historical specificity by contrasting past elite residence with current common folk, meeting the requirement to preserve '识别失去了特定历史背景' without specific names.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "In the U衣巷, the sun slants in the west.",
+        "evidence_found": true,
+        "reasoning": "The translation correctly identifies the location 'U衣巷' as a proper noun that has been generalized in the context of the poem, preserving the specific reference to the historical location while maintaining the intended meaning.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,18 @@
+stage2_main / quality: 20 poems x 9 strategies (poems with all strategies)
+strategy  mean  sd_across_poems  ci_lo  ci_hi  n_poems
+   S2_T1 3.882            0.807  3.535  4.214       20
+   S5_T1 3.730            0.835  3.361  4.092       20
+   S1_T1 3.694            0.835  3.336  4.037       20
+   S1_T3 3.557            0.900  3.151  3.931       20
+   S3_T1 3.550            0.961  3.137  3.980       20
+   S4_T1 3.550            0.896  3.166  3.935       20
+      S0 3.531            0.822  3.173  3.857       20
+   S5_T3 3.395            0.989  2.991  3.811       20
+   S5_T2 3.258            0.969  2.839  3.673       20
+
+pairs with Holm p < .05:
+    a     b  mean_diff  ci_lo  ci_hi      t      p  cohen_d  n_poems  p_holm   p_bh
+S2_T1 S4_T1     0.3312 0.1857 0.4726 4.3973 0.0003   0.9833       20  0.0111 0.0111
+S2_T1 S5_T2     0.6237 0.3253 0.9340 3.9777 0.0008   0.8894       20  0.0282 0.0145
+(36 pairs tested; exploratory, small n of poems)
+mixed model written

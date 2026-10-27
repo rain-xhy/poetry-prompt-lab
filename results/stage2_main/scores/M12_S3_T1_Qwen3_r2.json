@@ -1,0 +1,67 @@
+{
+  "translation_id": "M12_S3_T1_Qwen3_r2",
+  "anon_code": "T_171a82e0",
+  "poem_id": "M12",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "To see thousands of miles, one must climb higher, and thus, ascend a level.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'to see' which implies a purpose but does not explicitly use a verb like 'want to' or 'wish to' as required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see thousands of miles, one must climb higher, and thus, ascend a level.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'one must climb higher' directly expresses the requirement to 'climb higher' (再上一层楼), and the structure shows a purpose (to see thousands of miles) with the means (climbing higher) as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see thousands of miles, one must climb higher, and thus, ascend a level.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'To see thousands of miles, one must climb higher' directly expresses the purpose (see thousands of miles) and the means (climb higher), fulfilling the required logical relationship.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "To see thousands of miles, one must climb higher, and thus, ascend a level.",
+        "evidence_found": true,
+        "reasoning": "The translation adds an unrelated phrase about climbing higher and seeing further, which does not match the original Chinese phrase that only describes the sunset behind mountains and the Yellow River flowing into the sea.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

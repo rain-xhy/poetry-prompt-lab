@@ -1,0 +1,76 @@
+{
+  "translation_id": "D03_S3_only_Qwen25_r1",
+  "anon_code": "T_1d77ee32",
+  "poem_id": "D03",
+  "strategy": "S3_only",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Encourage me to drink one more cup of wine, for beyond the western passes there are no old friends.",
+        "evidence_found": true,
+        "reasoning": "The translation incorrectly shifts the subject from the speaker (who is encouraging) to the listener (being encouraged), and adds extraneous context about western passes and old friends that are not in the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "beyond the western passes",
+        "evidence_found": true,
+        "reasoning": "The phrase 'beyond the western passes' indicates movement westward past Yang Pass, fulfilling the requirement for west direction and Yang Pass reference.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no old friends",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no old friends' directly matches the required meaning of '没有老朋友' without expanding the scope to 'no one at all'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Encourage me to drink one more cup of wine, for beyond the western passes there are no old friends.",
+        "evidence_found": true,
+        "reasoning": "The translation connects the encouragement to drink with the absence of old friends beyond the western passes, showing the causal relationship between the two ideas as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 3.9,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

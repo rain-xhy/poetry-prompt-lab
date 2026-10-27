@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S2_T1_Qwen25_r1",
+  "anon_code": "T_4685a144",
+  "poem_id": "M01",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Deeply moved, yet seeming to feel nothing at all",
+        "evidence_found": true,
+        "reasoning": "The phrase directly captures 'deep love/affection' as 'deeply moved' and 'seeming coldness/indifference' as 'seeming to feel nothing at all', maintaining the paradoxical tension between the two concepts.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Only a smile remains unformed at the wine's display.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'remains unformed' directly translates to 'cannot form' a smile, indicating inability to smile at the wine display, which matches the required meaning of '无法/不能笑出' at the table scene.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A heart within a candle, grieving at parting's call",
+        "evidence_found": true,
+        "reasoning": "The phrase explicitly states that the candle has a heart (有心) and is grieving (惜别) at the parting, fulfilling the requirement of preserving the candle's personification as the subject with emotional depth.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Drops tears for hours until the sun breaks into day",
+        "evidence_found": true,
+        "reasoning": "The phrase 'drops tears for hours' does not match the required '蜡烛替人流泪' (candle tears for people) and '一直到天明' (until dawn) as the translation uses 'sun breaks into day' instead of 'dawn', and the time duration is described as 'hours' rather than the continuous 'until dawn'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

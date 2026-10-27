@@ -1,0 +1,57 @@
+{
+  "translation_id": "D03_S3_only_Qwen3_r2",
+  "anon_code": "T_85b8a3a2",
+  "poem_id": "D03",
+  "strategy": "S3_only",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Drink until the last drop, farewell, and may your journey be blessed with company. Beyond the Yangguan, there is no old friend.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '劝君更尽一杯酒' and introduces new elements not aligned with the original meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "farewell, and may your journey be blessed with company. Beyond the Yangguan, there is no old friend.",
+        "evidence_found": true,
+        "reasoning": "The phrase '西出阳关' is not preserved in the translation. The direction 'west' is not explicitly mentioned. The phrase '向西出了阳关' is not quoted from the translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "may your journey be blessed with company",
+        "evidence_found": true,
+        "reasoning": "The translation expands the meaning to include 'no old friends' beyond the scope of the original phrase '无故人'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "farewell, and may your journey be blessed with company",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the original meaning and the relationship between the two sentences as clearly as the original phrase does.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\"adequacy\":1,\"imagery\":0,\"emotion\":2,\"fluency\":2,\"poetic_quality\":0}"
+  }
+}

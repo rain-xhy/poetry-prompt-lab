@@ -1,0 +1,67 @@
+{
+  "translation_id": "M19_S4_T1_Qwen25_r1",
+  "anon_code": "T_d83a7c4a",
+  "poem_id": "M19",
+  "strategy": "S4_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I heard Cui Jiu several times",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I heard Cui Jiu several times' uses past tense and indicates multiple instances of hearing, fulfilling the requirement of past frequency.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Now that it's the best time for Jiangnan scenery, In this season of fallen flowers, I meet you again.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I meet you again' explicitly indicates a current reunion, fulfilling the requirement for 'now' and 'again' as per the original phrase's meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I once frequented Ji Wang's宅 in Qin Ji's courtyard, Where I heard Cui Jiu several times. Now that it's the best time for Jiangnan scenery, In this season of fallen flowers, I meet you again.",
+        "evidence_found": true,
+        "reasoning": "The translation contrasts past activities (frequented Ji Wang's courtyard, heard Cui Jiu) with current circumstances (fallen flowers, meeting again), implying a change in situation over time.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "In this season of fallen flowers",
+        "evidence_found": true,
+        "reasoning": "The phrase 'fallen flowers' directly preserves the 落花意象 and implies the symbolic meaning of transience and melancholy associated with the Chinese classical poem.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

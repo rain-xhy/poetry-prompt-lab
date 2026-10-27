@@ -1,0 +1,67 @@
+{
+  "translation_id": "M06_S5_T1_Qwen3_r2",
+  "anon_code": "T_efb9af1f",
+  "poem_id": "M06",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "How many blossoms have fallen?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'How many blossoms have fallen?' directly expresses the uncertainty of the count, matching the requirement that the subject is 'I' or the observer, as the question implies the speaker's unawareness of the exact number.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Spring sleep leaves me unaware of dawn",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Spring sleep leaves me unaware of dawn' directly expresses the sleep and unawareness of dawn as required, with the time background of spring.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Where every bird's song is heard",
+        "evidence_found": true,
+        "reasoning": "The phrase 'every bird's song is heard' indicates multiple locations where birds are being heard, fulfilling the requirement for '多处/到处' and being auditory in nature.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Last night's storm and rain",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Last night's storm and rain' directly corresponds to the required meaning of '昨夜听到风雨声' by expressing the past time ('last night') and the sound of wind and rain.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

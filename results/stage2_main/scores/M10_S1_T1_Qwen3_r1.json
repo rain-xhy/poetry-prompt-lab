@@ -1,0 +1,67 @@
+{
+  "translation_id": "M10_S1_T1_Qwen3_r1",
+  "anon_code": "T_1d7bbf1b",
+  "poem_id": "M10",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wildfire cannot extinguish",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Wildfire cannot extinguish' directly translates to the meaning of '烧不尽' with a negative verb 'cannot' and the concept of fire not being able to stop the spring wind's return, fulfilling the requirement of expressing 'burning without end' with a negative connotation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "spring wind brings it back again",
+        "evidence_found": true,
+        "reasoning": "The phrase 'spring wind brings it back again' directly addresses the role of spring wind in causing regrowth, fulfilling both conditions of expressing renewed growth and the spring wind's action.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wildfire cannot extinguish, spring wind brings it back again.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly shows the relationship between wildfire and grass through the active verbs 'cannot extinguish' and 'brings it back', maintaining the personification where wildfire and grass interact dynamically.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wildfire cannot extinguish, spring wind brings it back again.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys the unyielding resilience of grass through the cycle of wildfire and spring wind, meeting both conditions of expressing tenacity and the regrowth cycle.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

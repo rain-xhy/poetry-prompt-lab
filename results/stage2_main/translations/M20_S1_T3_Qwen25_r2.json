@@ -1,0 +1,19 @@
+{
+  "id": "M20_S1_T3_Qwen25_r2",
+  "poem_id": "M20",
+  "trap_type": "时态叙事",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n我住长江头，君住长江尾。\n日日思君不见君，共饮长江水。",
+  "prompt_sha256": "36e2c4741c78ee27b072e566c625a12819f43c3bdbfcd6dfd7eec8cdc24cfc46",
+  "translation": "**English Translation:**\n\nI dwell high by the Yangtze’s head,  \nYou live far below its tail.  \nDay and night I think of you,  \nDrinking from the same Yangtze’s wave.  \n\n**Note:** \nIn ancient Chinese poetry, \"长江头\" (Yangtze’s head) and \"长江尾\" (Yangtze’s tail) are personifications that symbolize distance and separation, despite the physical flow of the river being continuous.",
+  "metadata": {
+    "input_tokens": 231,
+    "output_tokens": 99,
+    "latency_ms": 11462.891101837158,
+    "timestamp": "2026-10-26T20:51:26.131142",
+    "finish_reason": "stop"
+  }
+}

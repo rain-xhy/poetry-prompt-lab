@@ -1,0 +1,76 @@
+{
+  "translation_id": "D04_S5_T3_Qwen3_r1",
+  "anon_code": "T_efd22c2b",
+  "poem_id": "D04",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The depth of the Tao Lake water is a thousand feet",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the depth of the water as a thousand feet, which matches the requirement of expressing the water being very deep (thousand feet or equivalent exaggeration), and 'Tao Lake' corresponds to 'Peach Blossom Pool' as per the requirement to preserve the name.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "it cannot match the depth of my heartfelt friendship from Wang Lun",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it cannot match' directly corresponds to '比不上' and the context specifies the comparison of water depth to friendship depth without implying 'deeper' or 'equal depth'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The depth of the Tao Lake water is a thousand feet, but it cannot match the depth of my heartfelt friendship from Wang Lun.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'my heartfelt friendship from Wang Lun' indicates that Wang Lun is the sender of the friendship, fulfilling the requirement that Wang Lun is the person sending the person (the speaker) away.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The depth of the Tao Lake water is a thousand feet, but it cannot match the depth of my heartfelt friendship from Wang Lun.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly compares the depth of Tao Lake water (a thousand feet) to the depth of the friendship, showing that the friendship is deeper than the lake's water, thus preserving the 'water depth as a metaphor for deep friendship' concept.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

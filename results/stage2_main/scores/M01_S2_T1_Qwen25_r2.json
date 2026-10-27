@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S2_T1_Qwen25_r2",
+  "anon_code": "T_fe10e46f",
+  "poem_id": "M01",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Lofty emotion yet seems to bring no joy",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Lofty emotion' corresponds to 'deep love/affection' and 'seems to bring no joy' corresponds to 'seeming coldness/indifference', capturing the paradoxical tension between deep feeling and apparent indifference.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Only in wine cups do I fail to smile",
+        "evidence_found": true,
+        "reasoning": "The phrase 'fail to smile' directly translates to '无法笑出' (unable to smile) and 'wine cups' refers to '酒席前' (at the wine table), meeting both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Candles with a heart regret the parting",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Candles with a heart regret the parting' directly preserves the personification of candles as having a heart and regretting parting, meeting both conditions of being the personified subject and maintaining the metaphorical effect.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Weeping for hours until dawn breaks",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Weeping for hours until dawn breaks' directly translates the required meaning of '蜡烛替人流泪 + 一直到天明' by expressing the candles weeping (替人流泪) until dawn (到天'ing').",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M03_S5_T1_Qwen3_r2",
+  "anon_code": "T_6ffedbae",
+  "poem_id": "M03",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I know it is not determined",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I know it is not determined' directly expresses '尚未确定/cannot yet be set' as required, avoiding 'no deadline' or 'never'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When will we share the warmth of a west window candle?",
+        "evidence_found": true,
+        "reasoning": "The phrase uses 'when will' to indicate future assumption and expresses the expectation of sharing the candlelight together.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When asked about the time of my return, I know it is not determined—Barcelona's night rain fills the autumn pool. When will we share the warmth of a west window candle? I recall the rain of Ba Mountain now, as it once was.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly convey '将来回忆过去' (future recollection of past) as it states 'I recall the rain of Ba Mountain now, as it once was', which implies current recollection of past rather than future recollection of past. Additionally, it mentions 'Barcelona' instead of 'Ba Mountain', which is a geographical error.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Barcelona's night rain fills the autumn pool",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Barcelona's night rain fills the autumn pool' directly translates the required meaning of '雨使池水上涨' while preserving the three key imagery elements: 巴山 (Barcelona), 夜雨 (night rain), and 秋池 (autumn pool).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 3,
+    "poetic_quality": 1,
+    "overall": 1.6,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

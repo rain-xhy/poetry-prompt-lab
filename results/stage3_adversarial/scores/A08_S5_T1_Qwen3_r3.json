@@ -1,0 +1,58 @@
+{
+  "translation_id": "A08_S5_T1_Qwen3_r3",
+  "anon_code": "T_590109a4",
+  "poem_id": "A08",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Jade雀 Bridge is bordered by wild grass flowers, and the: the old nobleman's hall's winged birds fly into the common people's home",
+        "evidence_found": false,
+        "reasoning": "The phrase '豪门的泛化' requires identification of '豪门' as a generalized expression, but the translation uses 'Jade雀 Bridge' and 'old nobleman's hall' which do not convey the generalized meaning of 'wealthy/noble/aristocratic families' as a broad category.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Jade雀 Bridge is bordered by wild grass flowers, and the sun sets at the mouth of the Uchi-washi district. The old nobleman's hall's winged birds fly into the common people's home.",
+        "evidence_found": true,
+        "reasoning": "The translation does not convey the meaning of '识别失去了特定历史背景' (identification has lost specific historical context) as required; it describes a scene with a bridge, flowers, and birds, which is unrelated to the concept of historical context loss.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Jade雀 Bridge is bordered by wild grass flowers, and the sun sets at the mouth of the Uchi-washi district. The old nobleman's hall's winged birds fly into the common people's home.",
+        "evidence_found": true,
+        "reasoning": "The translation incorrectly uses 'Jade雀 Bridge' (should be 'Jade Gate Bridge') and 'Uchi-washi district' (should be 'Wu Yi' or 'Yi' district), which are misrepresentations of proper nouns from the original poem, violating the requirement to preserve specific names without generalization.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

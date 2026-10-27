@@ -1,0 +1,19 @@
+{
+  "id": "M19_S1_T1_Qwen25_r1",
+  "poem_id": "M19",
+  "trap_type": "时态叙事",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n岐王宅里寻常见，崔九堂前几度闻。\n正是江南好风景，落花时节又逢君。",
+  "prompt_sha256": "445d3441272b5dbdbf884cd350c7b06f64ba8cc25ef91be11311710801fc5ebc",
+  "translation": "I met you many times at Qiwang’s mansion, \nAnd heard you play on Cuijiu’s veranda.\nWhen the Southern Dynasties were at their peak, \nFlowers fell in the spring when we met again. \n\n[Note: Southern Dynasties refer to the Southern Liang, Southern Chen, Southern Qi, and Southern Chen dynasties, which existed from the late 5th to the early 7th century.]",
+  "metadata": {
+    "input_tokens": 251,
+    "output_tokens": 93,
+    "latency_ms": 9831.73680305481,
+    "timestamp": "2026-10-26T19:39:55.269006",
+    "finish_reason": "stop"
+  }
+}

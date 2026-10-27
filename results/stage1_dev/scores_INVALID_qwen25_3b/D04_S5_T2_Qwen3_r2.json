@@ -1,0 +1,62 @@
+{
+  "translation_id": "D04_S5_T2_Qwen3_r2",
+  "anon_code": "T_8c6b88d6",
+  "poem_id": "D04",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Cannot Match the Deep Affection Weng Lun Sent Me.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express the潭水极深 condition. The phrase 'Cannot Match the Deep Affection Weng Lun Sent Me.' does not convey the idea of the water being deep as a thousand li.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Cannot Match the Deep Affection Weng Lun Sent Me.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'Cannot Match' which is not equivalent to '不及' (not as deep or not as much affection). It also introduces new names 'Tang Tao' and 'Weng Lun' which are not present in the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Cannot Match the Deep Affection Weng Lun Sent Me.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the original phrase '汪伦送我' and does not explicitly state that '我' is the one being sent, only mentioning that Weng Lun sent someone.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Cannot Match the Deep Affection Weng Lun Sent Me.",
+        "evidence_found": true,
+        "reasoning": "The translation uses a different metaphor, 'Tang Tao's Spring Water Deep as a Thousand Li', which does not align with the original phrase '情' and the instruction to use '以水深比情深的比喻'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 5,
+    "fluency": 4,
+    "poetic_quality": 2,
+    "overall": 3.55,
+    "valid": true
+  }
+}

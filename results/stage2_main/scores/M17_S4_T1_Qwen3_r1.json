@@ -1,0 +1,67 @@
+{
+  "translation_id": "M17_S4_T1_Qwen3_r1",
+  "anon_code": "T_b1d11e47",
+  "poem_id": "M17",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling can wait to be remembered, but already it is futile.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'can wait to be remembered' which implies possibility rather than the required future tense 'become a memory', and the phrase 'already it is futile' does not convey the intended meaning of 'becoming a a memory' as a future event.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling can wait to be remembered, but already it is futile.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'already it is futile' does not convey the completed past state with 'already' as a marker of completion, and the translation lacks the temporal marker 'past' for the completed action.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling can wait to be remembered, but already it is futile.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'this feeling' does not clearly refer to 'this emotion' as required, and the translation lacks explicit emotional vocabulary like 'love' or 'sorrow' to meet the emotional class requirement.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling can wait to be remembered, but already it is futile.",
+        "evidence_found": true,
+        "reasoning": "The phrase captures the contrast between future memory (waiting to be remembered) and past state (already futile), showing the complex tense interplay as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 1.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

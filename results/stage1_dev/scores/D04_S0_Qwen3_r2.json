@@ -1,0 +1,76 @@
+{
+  "translation_id": "D04_S0_Qwen3_r2",
+  "anon_code": "T_ab377b57",
+  "poem_id": "D04",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The depth of the Peach Blossom Lake is thousands of feet",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the depth of the lake as thousands of feet, which matches the requirement of expressing the water being very deep (thousands of feet or equivalent exaggeration), and uses 'Peach Blossom Lake' as the equivalent of '桃花潭' (Peach Blossom Pool).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "it cannot match the sincere emotion of Wang Dun's farewell",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it cannot match' directly corresponds to '比不上' and the context specifies the depth of the lake not being as deep as Wang Dun's emotion, satisfying the condition that it doesn't become 'deeper' or 'the same depth'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wang Dun's farewell",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Wang Dun's farewell' indicates that Wang Dun is the one performing the farewell action, fulfilling the requirement that 'Wang Lun' is the sender and 'I' is the recipient.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The depth of the Peach Blossom Lake is thousands of feet, but it cannot match the sincere emotion of Wang Dun's farewell.",
+        "evidence_found": true,
+        "reasoning": "The translation compares the depth of Peach Bloss as a metaphor for emotional depth, but it does not explicitly contrast '情谊' (friendship/emotional bond) with 'depth' as required; instead, it uses 'sincere emotion' which is not the same as '情谊' and the comparison is to 'Peach Blossom Lake' rather than directly to 'depth'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

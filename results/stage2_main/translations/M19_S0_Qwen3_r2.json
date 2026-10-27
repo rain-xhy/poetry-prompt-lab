@@ -1,0 +1,19 @@
+{
+  "id": "M19_S0_Qwen3_r2",
+  "poem_id": "M19",
+  "trap_type": "时态叙事",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n岐王宅里寻常见，崔九堂前几度闻。\n正是江南好风景，落花时节又逢君。",
+  "prompt_sha256": "ca8b115f889194366fd4a0a3a4701f4c56a98d4cb532e3365bf280ae7cefe7c0",
+  "translation": "In the palace of Prince Li, I met often; on the hall of Cui, I heard several times. It was indeed a beautiful landscape in the south, and we met again during the time of falling flowers.",
+  "metadata": {
+    "input_tokens": 55,
+    "output_tokens": 45,
+    "latency_ms": 485.0189685821533,
+    "timestamp": "2026-10-26T20:44:02.411715",
+    "finish_reason": "stop"
+  }
+}

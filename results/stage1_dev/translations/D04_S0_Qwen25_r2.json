@@ -1,0 +1,19 @@
+{
+  "id": "D04_S0_Qwen25_r2",
+  "poem_id": "D04",
+  "trap_type": "否定逻辑",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n桃花潭水深千尺，不及汪伦送我情。",
+  "prompt_sha256": "03f96b48bcf3f324db9f27925699b86807a6e4e590d178c0e606d512dd74aa85",
+  "translation": "The poem \"桃花潭水深千尺，不及汪伦送我情\" can be translated into English as follows:\n\n\"The潭 of peach blossoms' waters are deep as a thousand尺, do not match the affection that Wang Léng sent me.\"\n\nHowever, this translation seems a bit awkward. A more natural and faithful translation could be:\n\n\"The depth of桃花潭 water is ten thousand feet, \ncannot compare to Wang Lun's affection for me.\"\n\nHere, \"ten thousand feet\" is used to convey the sense of \"a thousand feet\" and \"affection\" is used to represent \"情,\" which better captures the sentiment of the original poem.",
+  "metadata": {
+    "input_tokens": 55,
+    "output_tokens": 135,
+    "latency_ms": 12990.490436553955,
+    "timestamp": "2026-10-26T16:27:35.484351",
+    "finish_reason": "stop"
+  }
+}

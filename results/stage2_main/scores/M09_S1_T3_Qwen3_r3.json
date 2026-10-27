@@ -1,0 +1,67 @@
+{
+  "translation_id": "M09_S1_T3_Qwen3_r3",
+  "anon_code": "T_261ae995",
+  "poem_id": "M09",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Moon falls, crickets cry, frost covers the sky—",
+        "evidence_found": true,
+        "reasoning": "The translation includes three images: 'Moon', 'crickets', and 'frost', but the phrase 'Jiang river's willow trees light up with fish fires, as the traveler sleeps in sorrow' introduces additional elements that are not in the original Chinese phrase, thus violating the requirement of preserving only three images without causal relationships.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "as the traveler sleeps in sorrow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'sleeps in sorrow' implies facing sorrow while sleeping, satisfying both conditions of 'facing' and 'sorrow accompanying sleep'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Jiang river's willow trees light up with fish fires",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Jiang river's willow trees' incorrectly refers to willow trees instead of maple trees, and 'fish fires' is a mistranslation of 'fish fire' (渔火), which should be the fire from fishing boats, not fish.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Moon falls, crickets cry, frost covers the sky—",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Moon falls, crickets cry, frost covers the sky' conveys a lonely and cold atmosphere with natural elements that evoke solitude and melancholy, fitting the requirement of '夜泊的孤寂凄凉' (the solitude and coldness of a night boat).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

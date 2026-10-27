@@ -1,0 +1,76 @@
+{
+  "translation_id": "D05_S5_T2_Qwen25_r2",
+  "anon_code": "T_ab8689af",
+  "poem_id": "D05",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years生死twogray, Not in thought, yet heart remains.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Ten years生死twogray' contains '生死' (life and death) but is incorrectly written as 'twogray' which is not a standard English word and does not convey the intended meaning of 'two worlds separated by life and death'. The translation also fails to express the concept of 'ten years' as a period of separation between the living and the dead, and the phrase 'Not in thought, yet heart remains' does not adequately capture the sense of 'two worlds separated by life and death' as required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Not in thought, yet heart remains.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Not in thought, yet heart remains' implies that the heart remains (is not forgotten) even when not thinking about it, which contradicts the requirement that the translation should not express 'because not thinking so forgot'. However, the original phrase '不思量，自难忘' means 'even if not deliberately thinking about it, it is naturally unforgettable', so the translation should not imply that the heart remains (is not forgotten) due to not thinking, but rather that it is naturally unforgettable without the need for deliberate thought. The phrase 'Not in thought, yet heart remains' suggests that the heart remains (is not forgotten) because of not thinking, which is the opposite of what is required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A solitary grave, Thousand miles",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A solitary grave, Thousand miles' directly translates to 'a solitary grave' (which implies loneliness) and 'Thousand miles' (indicating a vast distance), meeting both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Nowhere to speak of sorrow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Nowhere to speak of sorrow' directly translates the requirement of '没有地方、没有人可诉说凄凉' with the emotion of sorrow.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 1.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 2,
+    "poetic_quality": 2,
+    "overall": 2.5,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

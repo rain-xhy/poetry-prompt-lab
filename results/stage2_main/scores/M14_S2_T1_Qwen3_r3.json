@@ -1,0 +1,67 @@
+{
+  "translation_id": "M14_S2_T1_Qwen3_r3",
+  "anon_code": "T_4e7fe636",
+  "poem_id": "M14",
+  "strategy": "S2_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If the hero of the eastern frontier were still here",
+        "evidence_found": true,
+        "reasoning": "The phrase 'If the hero of the eastern frontier were still here' uses a conditional clause starting with 'If' to express a hypothetical situation, matching the required condition assumption structure.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "the nomads would never dare to cross the mountain pass",
+        "evidence_found": true,
+        "reasoning": "The phrase 'would never dare to cross' implies permission or willingness rather than active prevention, failing to capture the 'not allow' aspect required by '不让...越过'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If the hero of the eastern frontier were still here, the nomads would never dare to cross the mountain pass.",
+        "evidence_found": true,
+        "reasoning": "The conditional structure 'If... would...' clearly expresses the cause-effect relationship where the presence of the hero prevents the nomads from crossing, fulfilling the condition-result logic required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In times of the Qin, the moon shone over the Han frontier, and the great wall stood as a symbol of vigilance.",
+        "evidence_found": true,
+        "reasoning": "The translation describes historical context and fortifications but does not explicitly mention a specific historical military figure or convey the image of a formidable border general as required by the original phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

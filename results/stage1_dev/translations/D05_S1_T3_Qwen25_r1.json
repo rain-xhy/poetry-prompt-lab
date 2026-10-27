@@ -1,0 +1,19 @@
+{
+  "id": "D05_S1_T3_Qwen25_r1",
+  "poem_id": "D05",
+  "trap_type": "时态叙事",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n十年生死两茫茫，不思量，自难忘。\n千里孤坟，无处话凄凉。",
+  "prompt_sha256": "d5155870ef8bb6c7ae98c460b8303fa2a3d79fd7f0b25bfd902e4a5048050dbd",
+  "translation": "Here is the English translation, adhering to the key requirements:\n\n[Note: The poet uses the image of a \"empty cup\" to metaphorically represent the absence of their deceased spouse, which is a common cultural reference in classical Chinese poetry.]\n\nTen years of life and death seem empty, yet the memory remains unforgettably poignant.\nA lonely grave stretches afar, where no words can express the profound sorrow.\n[Note: This note explains the cultural reference of using \"empty cup\" imagery to symbolize the absence of a loved one.]\n\nThe poem conveys the profound grief and longing of a spouse for their deceased partner, despite the passage of time. The use of \"empty cup\" imagery underscores the sense of emptiness and absence left by the loss.",
+  "metadata": {
+    "input_tokens": 231,
+    "output_tokens": 154,
+    "latency_ms": 4807.703018188477,
+    "timestamp": "2026-10-26T16:31:10.993932",
+    "finish_reason": "stop"
+  }
+}

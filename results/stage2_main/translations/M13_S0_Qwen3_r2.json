@@ -1,0 +1,19 @@
+{
+  "id": "M13_S0_Qwen3_r2",
+  "poem_id": "M13",
+  "trap_type": "否定逻辑",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n千山鸟飞绝，万径人踪灭。\n孤舟蓑笠翁，独钓寒江雪。",
+  "prompt_sha256": "6040b154e8ebaaf71ec21c8620cbf190826e687a30580c7e8849a7842482e772",
+  "translation": "Falls the snow upon the mountains, and no bird flies; all the paths are empty, and no human footprints remain. An old man in a cloak and hat sits alone on a small boat, catching the falling snow in the cold river.",
+  "metadata": {
+    "input_tokens": 52,
+    "output_tokens": 51,
+    "latency_ms": 528.557538986206,
+    "timestamp": "2026-10-26T20:23:49.437188",
+    "finish_reason": "stop"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S5_T3_Qwen25_r2",
+  "anon_code": "T_42d91130",
+  "poem_id": "M02",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "红豆生于南方的土地，春天来临又生出多少新枝？",
+        "evidence_found": true,
+        "reasoning": "The English translation explicitly states that 'red beans' (红豆) are a symbol of deep affection, which meets the requirement of preserving '红豆' as a specific metaphor for longing.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "愿你多多摘取",
+        "evidence_found": true,
+        "reasoning": "The phrase '愿你多多摘取' directly translates to 'wish you to take many' which expresses a wish/hope and explicitly addresses 'you' to perform the action of picking.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "此物最能寄托相思之情",
+        "evidence_found": true,
+        "reasoning": "The English translation explicitly states '此物最能寄托相思之情' which matches the required meaning of 'this thing most symbolizes/embodies longing'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "春天来临又生出多少新枝？",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly mention 'spring' as a time period but refers to 'spring coming' in a way that implies the time of year without specifying it as a temporal marker.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

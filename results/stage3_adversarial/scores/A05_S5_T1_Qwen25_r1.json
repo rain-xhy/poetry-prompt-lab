@@ -1,0 +1,58 @@
+{
+  "translation_id": "A05_S5_T1_Qwen25_r1",
+  "anon_code": "T_0340d8d9",
+  "poem_id": "A05",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I must part from you, yet cannot bring myself to part",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I must part from you' directly corresponds to '不得不' meaning 'must/have to', and the context implies the required double negative structure without explicitly stating the negation, fulfilling the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Though we do not see each other, my thoughts linger on you.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Though we do not see each other' directly expresses the condition '不见' and the consequence 'my thoughts linger on you' shows the negation of '不思' (not thinking of), fulfilling the requirement of if...then structure with the condition and result.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I must part from you, yet cannot bring myself to part. Though we do not see each other, my thoughts linger on you.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the dual negation structure by expressing both the necessity of parting and the inability to part, while also conveying the conditional aspect of not seeing each other but still having thoughts linger.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

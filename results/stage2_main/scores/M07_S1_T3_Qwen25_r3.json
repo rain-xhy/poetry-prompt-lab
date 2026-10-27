@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S1_T3_Qwen25_r3",
+  "anon_code": "T_5b86eb83",
+  "poem_id": "M07",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The swallow’s nest once in the royal halls, Now found in humble homes, where the common folk dwell.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly mention 'Wang' or 'Xie' as specific families, and the phrase 'common folk' does not preserve the specific historical context of the Eastern Jin dynasty's Wang and Xie families.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The swallow’s nest once in the royal halls, Now found in humble homes, where the common folk dwell.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts 'royal halls' (past elite status) with 'humble homes' and 'common folk' (present ordinary people), showing the time and social contrast as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The swallow’s nest once in the royal halls, Now found in humble homes, where the common folk dwell.",
+        "evidence_found": true,
+        "reasoning": "The translation preserves the swallow (燕子) as a witness to the change from imperial to common life, showing its movement from royal halls to humble homes, fulfilling the requirement of the swallow as a witness without implying the swallow lived for centuries.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Over the broken bridge, wildflowers bloom, In the old alley, the sun sets low.",
+        "evidence_found": true,
+        "reasoning": "The translation describes wildflowers blooming and the sun setting, which contradicts the requirement of preserving a desolate scene with wild grasses and the setting sun, as it implies vitality (blooming) rather than decay.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

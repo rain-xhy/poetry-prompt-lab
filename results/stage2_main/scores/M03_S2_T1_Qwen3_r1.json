@@ -1,0 +1,67 @@
+{
+  "translation_id": "M03_S2_T1_Qwen3_r1",
+  "anon_code": "T_e0af1eab",
+  "poem_id": "M03",
+  "strategy": "S2_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "it is still uncertain",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it is still uncertain' directly matches the required meaning of '尚未确定/cannot yet be set' without implying 'no deadline' or 'never'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When will we share the candlelight on the west window",
+        "evidence_found": true,
+        "reasoning": "The phrase 'When will we share the candlelight on the west window' uses the future tense 'will' to express the future assumption of sharing candlelight, matching the required meaning of '什么时候能一起剪西窗烛' (when can we together cut the candle on the west window).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When you ask about my return date, it is still uncertain, The rain in Bashan has raised the autumn pool.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly convey '将来回忆过去' (future recollection of past) or '今夜的雨' (this night's rain) as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The rain in Bashan has raised the autumn pool.",
+        "evidence_found": true,
+        "reasoning": "The English line directly translates the required meaning of 'rain making the pool rise' while preserving the three required imagery elements: Bashan, night rain, and autumn pool.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

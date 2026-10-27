@@ -1,0 +1,67 @@
+{
+  "translation_id": "M14_S5_T1_Qwen25_r1",
+  "anon_code": "T_8f9d9d58",
+  "poem_id": "M14",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "But if the Dragon City's hero stood",
+        "evidence_found": true,
+        "reasoning": "The phrase 'But if the Dragon: hero stood' uses the conditional 'if' to express the assumption that the Dragon City's hero would stand guard, fulfilling the requirement for a condition clause with assumed tone.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "He'd keep the Huns from crossing the Yan Mountains",
+        "evidence_found": true,
+        "reasoning": "The phrase 'keep the Huns from crossing' directly translates to '不让...越过' (prevent from crossing), fulfilling the requirement of a negative action that stops something from happening.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "But if the Dragon City's hero stood, He'd keep the Huns from crossing the Yan Mountains.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'But if the Dragon: hero stood, He'd keep the Huns from crossing the Yan Mountains' clearly establishes a conditional relationship where the action (hero standing guard) leads to the result (Huns not crossing), fulfilling the condition-result logic required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Dragon City's hero",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Dragon City's hero' directly refers to a border commander with historical significance, embodying the image of a formidable military leader who defends against invaders.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

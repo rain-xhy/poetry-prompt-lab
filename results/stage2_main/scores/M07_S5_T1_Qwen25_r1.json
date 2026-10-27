@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S5_T1_Qwen25_r1",
+  "anon_code": "T_ea7ae95c",
+  "poem_id": "M07",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Formerly, in Wang and X:ie halls’ eaves",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly preserves 'Wang' and 'Xie' as specific family names without genericization, meeting the requirement for the 'Wang' and 'Xie' family names from the Eastern Jin dynasty.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Formerly, in Wang and X: halls’ eaves, Swallows have flown into common households.",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly contrasts 'Formerly' (past) with 'common households' (present), showing the shift from elite residences (Wang and Xie halls) to ordinary homes, fulfilling both time and social class contrasts.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Swallows have flown into common households",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Swallows have flown into common households' preserves the swallow (燕子) as a witness (意象) by indicating their presence in ordinary homes, which aligns with the requirement of the swallow being a witness without implying the swallow has lived for centuries.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "At the corner of Zhuque Bridge, wildflowers sprout; Ungarbed alley, the sun slants.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'wildflowers' instead of 'wild grass' and does not clearly convey the desolate atmosphere as required by the '荒凉景象（野草、夕阳）' specification.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.95,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

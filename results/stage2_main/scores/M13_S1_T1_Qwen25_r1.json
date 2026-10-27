@@ -1,0 +1,62 @@
+{
+  "translation_id": "M13_S1_T1_Qwen25_r1",
+  "anon_code": "T_6d170471",
+  "poem_id": "M13",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no bird in flight",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no bird in flight' directly translates to the absence of birds flying, fulfilling the requirement of expressing 'no birds/not a single bird' and capturing the absolute negation implied by '绝'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no footprints made",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no footprints made' directly translates to '人的踪迹消失' with absolute negation, capturing the '灭' (disappearance) sense without implying any presence.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A solitary fishing boat",
+        "evidence_found": true,
+        "reasoning": "The phrase 'solitary fishing boat' directly translates to '独自垂钓' with 'solitary' emphasizing 'alone' and 'fishing boat' indicating the action of '垂钓'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Thousand mountains mute, no bird in flight, Ten paths unseen, no footprints made. A solitary fishing boat, In蓑笠Wear cloak and straw hat, Finds quietness in icy cold, Fishing in the snowy river.",
+        "evidence_found": true,
+        "reasoning": "The translation effectively conveys the vastness of space through 'Thousand mountains' and 'Ten paths', while emphasizing solitude with 'solitary fishing boat' and 'no bird in flight', creating a clear contrast between expansive landscapes and isolated individuals.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\n  \"original\": \"千山鸟飞绝，万径人踪灭。孤舟蓑笠翁，独钓寒江雪。\",\n  \"reference_notes\": {\n    \"鸟飞绝\": \"鸟飞尽、没有鸟飞（绝对否定）。要点：绝对否定，一只鸟都没有。\",\n    \"人踪灭\": \"人的踪迹消失（绝对否定）。要点：完全没有人迹。\",\n    \"独钓\": \"独自垂钓（孤独强调）。要点：孤独、独自一人。\",\n    \"千山...万径...孤舟...独\": \"从宏大空间到孤独个体的对比。要点：广阔空间与孤独个体的反差。\"\n  },\n  \"translation\": \"Thousand mountains mute, no bird in flight,\\nTen paths unseen, no footprints made.\\nA solitary fishing boat,\\nIn蓑笠Wear cloak and straw hat,\\nFinds quietness in icy cold,\\nFishing in the snowy river.\"\n}"
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

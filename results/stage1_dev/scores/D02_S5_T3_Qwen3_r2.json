@@ -1,0 +1,76 @@
+{
+  "translation_id": "D02_S5_T3_Qwen3_r2",
+  "anon_code": "T_59f7e347",
+  "poem_id": "D02",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Birds fly away far and wide, leaving only one lone cloud to drift leisurely.",
+        "evidence_found": true,
+        "reasoning": "The translation describes birds flying away but does not explicitly convey the complete disappearance of all birds as required by the condition of '全部、消失' meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Birds fly away far and wide, leaving only one lone cloud to drift leisurely.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'lone cloud' which implies '孤云', but the phrase 'drift leisurely' does not explicitly convey '独自悠闲地' as it lacks the 'alone' aspect and the 'leisurely' state is not clearly tied to the cloud's action.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "They look upon each other without ever being tired, and only the mountain of Jingting remains.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'they look upon each other' implies mutual action between two entities, but the original specifies '人与山' (person and mountain), and the translation does not explicitly state that the mountain is the active viewer; it suggests a mutual action between two unspecified entities, which does not preserve the mountain as the active 'looker' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "only the mountain of Jingting remains",
+        "evidence_found": true,
+        "reasoning": "The phrase 'only the mountain of Jing:ing remains' directly translates the requirement of preserving 'only' and 'Jingting Mountain' as specified.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

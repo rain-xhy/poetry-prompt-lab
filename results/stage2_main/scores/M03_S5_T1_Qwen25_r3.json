@@ -1,0 +1,67 @@
+{
+  "translation_id": "M03_S5_T1_Qwen25_r3",
+  "anon_code": "T_56d125cd",
+  "poem_id": "M03",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "it remains uncertain",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it remains uncertain' directly translates to '尚未确定' and meets the requirement of expressing '尚未确定/cannot yet be set' without implying 'no deadline' or 'never'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When we can sit by the west window and trim our candles",
+        "evidence_found": true,
+        "reasoning": "The phrase uses 'when we can' to express a future assumption about the ability to share the activity, matching the required future tense and hopeful tone.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When we can sit by the west window and trim our candles, We'll recount under the night rain in the Bashan.",
+        "evidence_found": true,
+        "reasoning": "The translation uses future tense 'We'll recount' which does not match the required '将来回忆过去' (future recalling past) and the phrase 'under the night rain in the Bashan' does not explicitly state '今夜巴山雨' (this night's Bashan rain).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "In the mountain passes, rain soaks the autumn pond.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'rain soaks the autumn pond' directly translates to '雨使秋池水涨' as required, preserving the three key imagery elements: 巴山 (mountain passes), 夜雨 (rain), and 秋池 (autumn pond).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

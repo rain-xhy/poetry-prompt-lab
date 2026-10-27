@@ -1,0 +1,76 @@
+{
+  "translation_id": "D04_S3_only_Qwen3_r2",
+  "anon_code": "T_827d6125",
+  "poem_id": "D04",
+  "strategy": "S3_only",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The depth of the Peach Blossom Spring is thousands of feet",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the depth of the Peach Blossom Spring as thousands of feet, which matches the requirement of expressing the water being very deep (thousands of feet or equivalent exaggeration) and preserves the Peach Blossom Pool reference.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "cannot match the deep emotion that Wang Lun sends me",
+        "evidence_found": true,
+        "reasoning": "The phrase 'cannot match' directly corresponds to '比不上' and the context specifies the depth of the Peach Blossom Spring not being as deep as Wang Lun's emotion, avoiding 'deeper' or 'equally deep' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wang Lun sends me",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Wang Lun sends me' indicates that Wang Lun is the sender and 'I' is the recipient, fulfilling the requirement that 'Wang: the person who sends, 'I': the person who is sent.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The depth of the Peach Blossom Spring is thousands of feet, yet it cannot match the deep emotion that Wang Lun sends me.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly compares the depth of Peach Bloss as a metaphor for emotional depth, showing that the emotional depth (情) is greater than the physical depth of the Peach Blossom Spring.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

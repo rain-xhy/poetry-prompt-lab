@@ -1,0 +1,62 @@
+{
+  "translation_id": "D04_S1_T3_Qwen3_r2",
+  "anon_code": "T_2731d29f",
+  "poem_id": "D04",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The water of Tao Lake is deeper than a thousand feet",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the original phrase '桃花潭水深千尺' and does not express the water being extremely deep as a thousand feet or an equivalent exaggeration.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The water of Tao Lake is deeper than a thousand feet, but it cannot compare to the sincere emotion sent by Wang Lun.",
+        "evidence_found": true,
+        "reasoning": "The phrase '不及' is not preserved and the translation introduces new elements like '更深' and '一样深', which are not in the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The translation does not mention '汪伦为我送行', and the phrase 'The water of Tao Lake is deeper than a thousand feet, but it cannot compare to the sincere emotion sent by Wang Lun.' does not preserve the original meaning or the specific context of '汪伦送我'.",
+        "evidence_found": false,
+        "reasoning": "",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The water of Tao Lake is deeper than a thousand feet, but it cannot compare to the sincere emotion sent by Wang Lun.",
+        "evidence_found": true,
+        "reasoning": "The translation does not use the phrase '以水深比情深的比喻' and does not express '情谊被表达为更深的一方'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.2,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M09_S5_T2_Qwen3_r3",
+  "anon_code": "T_9576ce2e",
+  "poem_id": "M09",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Moon falls, cranes cry, frost stains the sky—",
+        "evidence_found": true,
+        "reasoning": "The translation includes three images: 'Moon', 'cranes', and 'frost', but the phrase 'stains the sky' implies a causal relationship (frost causing the sky to be stained), which violates the requirement of not establishing causality.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "sleep in sorrow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'sleep in sorrow' directly expresses the concept of '面对愁绪而眠' by indicating that sleep occurs amidst sorrow, fulfilling both conditions: the relationship of facing sorrow and sorrow accompanying sleep.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Jiang side, red maple, fish fire",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'red maple' instead of 'maple tree' and 'fish fire' instead of 'fishery fire', which alters the intended imagery of '枫树' (maple tree) and '渔火' (fishery fire) as distinct natural elements.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Moon falls, cranes cry, frost stains the sky—",
+        "evidence_found": true,
+        "reasoning": "The phrase conveys a lonely and cold atmosphere with imagery of moonlight, cranes (often associated with solitude), and frost, which aligns with the required 'nightboat's solitude and coldness' without being joyful.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

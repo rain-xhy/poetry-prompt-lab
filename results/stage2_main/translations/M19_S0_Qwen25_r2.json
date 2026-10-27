@@ -1,0 +1,19 @@
+{
+  "id": "M19_S0_Qwen25_r2",
+  "poem_id": "M19",
+  "trap_type": "时态叙事",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n岐王宅里寻常见，崔九堂前几度闻。\n正是江南好风景，落花时节又逢君。",
+  "prompt_sha256": "ca8b115f889194366fd4a0a3a4701f4c56a98d4cb532e3365bf280ae7cefe7c0",
+  "translation": "Here's the English translation of the poem:\n\nI've often been to Mr. Qi's house in Linjiang,\nWhere I've heard Mr. Cui Nine in many a song.\nNow in the beautiful scenes of Jiangning,\nThe blossoming flowers meet once again, dear friend.",
+  "metadata": {
+    "input_tokens": 68,
+    "output_tokens": 58,
+    "latency_ms": 13315.084457397461,
+    "timestamp": "2026-10-26T19:35:26.463932",
+    "finish_reason": "stop"
+  }
+}

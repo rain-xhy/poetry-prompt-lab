@@ -1,0 +1,76 @@
+{
+  "translation_id": "D06_S3_T1_Qwen3_r1",
+  "anon_code": "T_3628e0af",
+  "poem_id": "D06",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The deeper the feeling, the plainer the words",
+        "evidence_found": true,
+        "reasoning": "The phrase '遥知' means 'to imagine/deduce from afar' but the translation focuses on the depth of feeling and plainness of words, which does not convey the concept of imagining from a distance.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The deeper the feeling, the plainer the words",
+        "evidence_found": true,
+        "reasoning": "The translation does not mention 'brothers' as the subject or convey 'climb the heights' meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The deeper the feeling, the plainer the words",
+        "evidence_found": true,
+        "reasoning": "The required meaning 'everyone wears chrysanthemum sprigs on their heads' is not expressed; the translation focuses on emotional depth and wind, not the specific action of wearing chrysanthem, and 'chrysanthemum sprigs' is not mentioned.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The deeper the feeling, the plainer the words The wind knocks at the door for me A single figure stands alone in the autumn breeze",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly state that the person is the speaker; it describes a figure standing alone but does not indicate that this figure is the speaker.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 1.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

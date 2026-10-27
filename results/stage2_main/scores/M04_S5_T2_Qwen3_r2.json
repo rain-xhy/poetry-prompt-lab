@@ -1,0 +1,67 @@
+{
+  "translation_id": "M04_S5_T2_Qwen3_r2",
+  "anon_code": "T_4cdf6fa3",
+  "poem_id": "M04",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When two hearts are truly deep, what is there to wait for but eternal time? Yet why should one cling to daily embrace?",
+        "evidence_found": true,
+        "reasoning": "The translation does not use a conditional clause (if/as long as) to express 'if two people's emotions are long-lasting' as required; instead, it presents a rhetorical question about time and embraces without explicitly stating a condition for lasting love.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Yet why should one cling to daily embrace?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'why should one cling to daily embrace' directly translates to '何必在乎日日相守' (what is there to be concerned about daily adherence) and implies the negation through the rhetorical question structure, meeting the requirement of expressing a negation or question about not needing daily presence.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When two hearts are truly deep, what is there to wait for but eternal time? Yet why should one cling to daily embrace?",
+        "evidence_found": true,
+        "reasoning": "The translation captures the continuous, repetitive nature of '朝朝暮暮' through 'daily embrace', implying frequent or persistent interaction, and the phrase 'eternal time' contrasts with the daily cycle to maintain the time叠加感.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When two hearts are truly deep, what is there to wait for but eternal time? Yet why should one cling to daily embrace?",
+        "evidence_found": true,
+        "reasoning": "The translation captures the conditional structure 'if two hearts are deep' leading to the conclusion 'eternal time' and the rhetorical question 'why cling to daily embrace' that reflects the original's logic of condition and counter-question.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

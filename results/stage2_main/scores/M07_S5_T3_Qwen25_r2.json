@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S5_T3_Qwen25_r2",
+  "anon_code": "T_48e390da",
+  "poem_id": "M07",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Formerly, the orioles in the Wang and X:ie halls' eaves nested",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly preserves 'Wang' and 'Xie' as specific family names without genericization, meeting the requirement for the 'Wang and Xie' family names to be retained as proper nouns.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Formerly, the orioles in the Wang and Xie halls' eaves nested; Now, they perch in any household's home.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts 'Formerly' (past) with 'Now' (present) and shows the shift from 'Wang and Xie halls' (aristocratic homes) to 'any household's home' (common people's homes), fulfilling both time and class contrasts.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "In the old Uchiya alley, the sun casts a faint shadow. Formerly, the orioles in the Wang and X. halls' eaves nested; Now, they perch in any household's home.",
+        "evidence_found": false,
+        "reasoning": "The translation preserves the image of the swallow (燕子) as a witness to historical change, showing its transition from aristocratic halls to ordinary households, without implying the swallow has lived for centuries.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "At the corner of the Red Partridges Bridge, wildflowers grow; In the old Uchiya alley, the sun casts a faint shadow.",
+        "evidence_found": true,
+        "reasoning": "The translation focuses on the current state of wildflowers and the setting sun in an old alley, but does not explicitly convey the sense of desolation or decay as required by the original phrase's context of '荒凉景象（野草、夕阳）'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

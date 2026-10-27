@@ -1,0 +1,62 @@
+{
+  "translation_id": "D06_S3_T1_Qwen25_r1",
+  "anon_code": "T_d6def67b",
+  "poem_id": "D06",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "widely they wear the fragrant knot, one less than before.",
+        "evidence_found": true,
+        "reasoning": "The translation contains 'widely they wear the fragrant knot, one less than before.' which is not a direct translation of '遥知' and does not express the idea of 'from afar knowing'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I know my brothers climb the hillside today",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the phrase '兄弟们登高之处' (brothers climb the high place) and uses 'widely they wear the fragrant knot, one less than before.' which is not a direct translation of the original meaning of '登高处'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "widely they wear the fragrant knot, one less than before.",
+        "evidence_found": true,
+        "reasoning": "The phrase '遍插茱萸' is not preserved in the translation. Instead, 'widely they wear the fragrant knot' is used, which does not match the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I know my brothers climb the hillside today,",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the phrase '少一人' and does not explicitly state that the speaker is missing one person.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 2,
+    "overall": 3.15,
+    "valid": true
+  }
+}

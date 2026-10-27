@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S1_T1_Qwen3_r1",
+  "anon_code": "T_fe01ff4c",
+  "poem_id": "M01",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The poet's heart is full of emotion yet seems to lack expression, as if it cannot find the right words",
+        "evidence_found": true,
+        "reasoning": "The phrase captures 'deep love/affection' through 'heart is full of emotion' and 'seeming coldness/indifference' through 'seems to lack expression', maintaining the paradoxical tension between the two concepts.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The poet's heart is full of emotion yet seems to lack expression, as if it cannot find the right words.",
+        "evidence_found": true,
+        "reasoning": "The translation describes the poet's emotional state and difficulty in finding words, but does not explicitly convey the 'unable to/cannot smile' state at the wine table as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The candle, with a heart of its own, mourns the parting and sheds tears for the person it is meant to comfort.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states that the candle has a heart (拟人化) and mourns parting (惜别), fulfilling both conditions of preserving the personification and the emotional effect.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "sheds tears for the person it is meant to comfort",
+        "evidence_found": true,
+        "reasoning": "The phrase 'sheds tears for the person it is meant to comfort' directly translates the '替人垂泪' (tears for the person) and 'it is meant to comfort' implies the 'for us/on our behalf' relationship, while the context of the candle's role suggests the time continuation until dawn.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

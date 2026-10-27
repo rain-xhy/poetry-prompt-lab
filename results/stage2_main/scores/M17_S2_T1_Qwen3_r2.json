@@ -1,0 +1,67 @@
+{
+  "translation_id": "M17_S2_T1_Qwen3_r2",
+  "anon_code": "T_d90f1fe1",
+  "poem_id": "M17",
+  "strategy": "S2_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This emotion can be transformed into a memory",
+        "evidence_found": true,
+        "reasoning": "The translation states 'can be transformed into a memory' which implies a future possibility but does not explicitly use a question form or convey the sense of 'waiting' to become a memory as required by the original phrase's meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "at the time it was already bewildered",
+        "evidence_found": true,
+        "reasoning": "The phrase 'at the time it was already bewildered' uses past tense and 'already' to convey the completed state of being bewildered at that moment.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This emotion can be transformed into a memory, yet at the time it was already bewildered.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'this emotion' does not clearly refer to 'this feeling' as required by the original Chinese phrase '此情', which should denote a specific emotional state or feeling rather than a general emotion that can be transformed into memory.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This emotion can be transformed into a memory, yet at the time it was already bewildered.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the contrast between future memory (transformed into memory) and past confusion (already bewildered at the time), meeting both conditions of complex tense and future vs past contrast.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

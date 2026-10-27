@@ -1,0 +1,76 @@
+{
+  "translation_id": "D01_S3_T1_Qwen25_r2",
+  "anon_code": "T_d9f58ca8",
+  "poem_id": "D01",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling, no method can dispel it",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no method can dispel it' directly translates to '无法消除' as required, and the context shows it's about inability to eliminate emotion without implying completion of elimination.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Just fades away from my brow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Just fades away from my brow' directly translates the concept of 'just left the brow' as required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Just fades away from my brow, and straightway appears on my heart",
+        "evidence_found": true,
+        "reasoning": "The phrase 'just fades away from my brow, and straightway appears on my heart' shows a contrast (fades away vs. appears) and ends with 'heart', meeting both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Just fades away from my brow, and straightway appears on my heart",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Just fades away from my brow, and straightway appears on my heart' shows the continuous transfer of sorrow from the brow to the heart without disappearance, meeting both pass conditions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

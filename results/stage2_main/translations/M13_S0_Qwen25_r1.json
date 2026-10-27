@@ -1,0 +1,19 @@
+{
+  "id": "M13_S0_Qwen25_r1",
+  "poem_id": "M13",
+  "trap_type": "否定逻辑",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n千山鸟飞绝，万径人踪灭。\n孤舟蓑笠翁，独钓寒江雪。",
+  "prompt_sha256": "6040b154e8ebaaf71ec21c8620cbf190826e687a30580c7e8849a7842482e772",
+  "translation": "Here is the English translation of the provided Chinese classical poem:\n\nThousands of mountains mute, not a bird in flight,\nAll paths obliterated, no human trace.\nA solitary fishing boat, a fisherman in a蓑衣 (蓑 is a type of raincoat made from the fibres of the pine needle),\nDucks into the cold river snow.",
+  "metadata": {
+    "input_tokens": 65,
+    "output_tokens": 71,
+    "latency_ms": 1046.9322204589844,
+    "timestamp": "2026-10-26T20:24:58.997369",
+    "finish_reason": "stop"
+  }
+}

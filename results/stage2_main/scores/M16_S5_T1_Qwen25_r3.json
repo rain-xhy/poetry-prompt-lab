@@ -1,0 +1,67 @@
+{
+  "translation_id": "M16_S5_T1_Qwen25_r3",
+  "anon_code": "T_a57beaca",
+  "poem_id": "M16",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The rooster crows at the thatched inn",
+        "evidence_found": true,
+        "reasoning": "The phrase '鸡声茅店月' requires the three images of rooster crowing, thatched inn, and moon to be preserved with extreme omission, but the translation only includes 'rooster crows at the thatched inn' without mentioning the moon, failing to meet the requirement of preserving the moon image.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The rooster crows at the thatched inn, With moonlight shining on the frosty path.",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the three required imagery elements: human footprints on a wooden bridge covered in frost, which is the core meaning of the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Recalling dreams in Du Ling",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Recalling dreams in Du Ling' directly translates to '因此想起在杜陵做的梦' but the translation mentions 'dreams' which is plural and the original phrase refers to a singular dream, and the context implies it's a specific dream from Du Ling, not a general recollection of dreams.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "geese and ducks fill the winding ponds",
+        "evidence_found": true,
+        "reasoning": "The phrase 'winding ponds' directly translates the '曲折池塘' (curved/winding pond) and 'geese and ducks fill' matches '凫雁满布' (geese and ducks filling the pond).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 3,
+    "overall": 2.25,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

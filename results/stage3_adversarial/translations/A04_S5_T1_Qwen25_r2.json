@@ -1,0 +1,19 @@
+{
+  "id": "A04_S5_T1_Qwen25_r2",
+  "poem_id": "A04",
+  "trap_type": "tense_change",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nSemantic Analysis (in Chinese):\n已待的时态：识别'已待'是完成时，不是反问。\n陈述vs反问：识别这是陈述句，不是反问句。\n与原诗对比：识别'可待'变'已待'的时态变化。\n\nExamples of Common Mistakes to Avoid:\n\nExample 1: Emotional Paradox\n❌ Wrong: \"情愈深时语愈淡\" → \"passionate but plain words\" (literal, loses the escalation)\n✅ Right: \"情愈深时语愈淡\" → \"the deeper the feeling, the plainer the words\"\n\nExample 2: Emotional State\n❌ Wrong: \"歌不成声泣无言\" → \"only feel cannot sing\" (broken grammar)\n✅ Right: \"歌不成声泣无言\" → \"my throat chokes, unable to sing; tears flow without words\"\n\nExample 3: Implicit Negation\n❌ Wrong: \"莫待花谢始惜春\" → \"wait until flowers fall to cherish spring\" (negation reversed!)\n✅ Right: \"莫待花谢始惜春\" → \"don't wait until flowers fall to cherish spring\"\n\nExample 4: Personification\n❌ Wrong: \"风为我叩门\" → \"I knock on the door when wind blows\" (loses personification)\n✅ Right: \"风为我叩门\" → \"the wind knocks at the door for me\"\n\nExample 5: Action Subject\n❌ Wrong: \"邻舟问客何处去\" → \"the traveler asks the boat\" (wrong subject)\n✅ Right: \"邻舟问客何处去\" → \"someone from the neighboring boat asks the traveler where he is headed\"\n\nCommon Pitfalls to Avoid:\n\n1. Negation Reversal\n   - Don't translate implicit negation as affirmation\n   - \"莫待花谢始惜春\" means \"don't wait until flowers fall to cherish spring\", not \"wait until flowers fall\"\n2. Personification Loss\n   - Keep personification of objects\n   - \"山欲留客\" = \"the hills wish to keep the guest\", not just \"I stayed by the hills\"\n3. Emotional Paradox Flattening\n   - Don't flatten emotional paradoxes into simple statements; preserve the tension\n   - \"情愈深时语愈淡\" has escalating tension between feeling and words\n4. Adding Information\n   - Don't add characters, events, or relationships not in the original\n   - \"风为我叩门\" = the wind knocks for me, not \"wind brings a visitor\"\n5. Who Does What to Whom\n   - Check action subjects and objects carefully\n   - \"邻舟问客何处去\" = the neighbor asks where the traveler goes (not the reverse)\n6. Temporal Relations\n   - Distinguish past, present, future, and hypothetical\n   - \"待明年花开时\" = when blossoms bloom next year (future), not past\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n此情已待成追忆，只是当时已惘然。",
+  "prompt_sha256": "c82af82499dbd79c846615a3430f2c7328ef8030123e6e4d225968266e6c2edf",
+  "translation": "This feeling has already matured into a memory,  \nBut then it was already bittersweet in its time.  \nNote: \"追忆\" (zhuī yín) refers to memories or reflections on the past.",
+  "metadata": {
+    "input_tokens": 856,
+    "output_tokens": 47,
+    "latency_ms": 10523.782014846802,
+    "timestamp": "2026-10-26T21:52:08.799094",
+    "finish_reason": "stop"
+  }
+}

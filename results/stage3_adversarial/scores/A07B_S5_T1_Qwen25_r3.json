@@ -1,0 +1,58 @@
+{
+  "translation_id": "A07B_S5_T1_Qwen25_r3",
+  "anon_code": "T_c7a1ae67",
+  "poem_id": "A07B",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Beware not to slip into the river, For then your heart would drown in sorrow.",
+        "evidence_found": true,
+        "reasoning": "The translation does not address the negation aspect of the original phrase, which requires checking if the 'ambiguous version' can infer the correct negation. The phrase focuses on avoiding a consequence but does not explicitly handle negation or the inference of negation as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Beware not to slip into the river, For then your heart would drown in sorrow.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly warns against a specific action (slipping into the river) that leads to negative consequences (heart drowning in sorrow), directly reflecting the original phrase's emphasis on avoiding a harmful outcome through clear negation.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Beware not to slip into the river, For then your heart would drown in sorrow.",
+        "evidence_found": true,
+        "reasoning": "The translation warns against a specific action (slipping into the river) with consequences (heart drowning in sorrow), matching the requirement of meaning consistency between versions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

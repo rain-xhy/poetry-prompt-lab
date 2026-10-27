@@ -1,0 +1,19 @@
+{
+  "id": "M15_S1_T1_Qwen3_r2",
+  "poem_id": "M15",
+  "trap_type": "否定逻辑",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n黄河远上白云间，一片孤城万仞山。\n羌笛何须怨杨柳，春风不度玉门关。",
+  "prompt_sha256": "e532ab1753119c61d0366fc10c27b003b505066ae4a394eb881065946bae4511",
+  "translation": "The Yellow River flows far beyond the clouds, a solitary city standing against the peaks. Why should the羌笛 (Qiang flute) mourn the willow trees, when the spring wind does not reach the Jade Gate? [A cultural reference: The Jade Gate is a historical landmark in western China, symbolizing the difficulty of crossing the desert.]\n\nThe Yellow River flows far beyond the clouds, a solitary city standing against the peaks. Why should the Qiang flute mourn the willow trees, when the spring wind does not reach the Jade Gate.",
+  "metadata": {
+    "input_tokens": 239,
+    "output_tokens": 110,
+    "latency_ms": 10992.56443977356,
+    "timestamp": "2026-10-26T21:01:25.650593",
+    "finish_reason": "stop"
+  }
+}

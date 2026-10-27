@@ -1,0 +1,58 @@
+{
+  "translation_id": "A04_S0_Qwen25_r3",
+  "anon_code": "T_75b2263b",
+  "poem_id": "A04",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling has already become a thing of past",
+        "evidence_found": true,
+        "reasoning": "The phrase 'has already become' indicates the completed action of waiting, fulfilling the requirement to identify '已待' as a completed action.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling has already become a thing of past, Yet back then it brought only a sense of bewilderment.",
+        "evidence_found": true,
+        "reasoning": "The translation uses a declarative structure with no rhetorical questions, clearly stating that the feeling is past and caused bewilderment, fulfilling the requirement to identify it as a statement rather than a question.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling has already become a thing of past",
+        "evidence_found": true,
+        "reasoning": "The phrase 'has already become a thing of past' indicates a completed action with present result, matching the required '可待' to '已待' temporal shift from potential to actualized waiting.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

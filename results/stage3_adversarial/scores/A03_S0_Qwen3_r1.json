@@ -1,0 +1,58 @@
+{
+  "translation_id": "A03_S0_Qwen3_r1",
+  "anon_code": "T_cc5043cd",
+  "poem_id": "A03",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When I wish to speak, it is interrupted",
+        "evidence_found": true,
+        "reasoning": "The phrase 'When I wish to speak, it is interrupted' directly captures the '想说-但止住' contradiction by indicating the intention to speak followed by an interruption, fulfilling the requirement of expressing the emotional suppression conflict.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When I wish to speak, it is interrupted; yet I say, \"It is cool and beautiful this autumn.\"",
+        "evidence_found": true,
+        "reasoning": "The translation does not distinguish between true feelings and surface words as required, as it presents the statement as a genuine expression rather than a surface phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When I wish to speak, it is interrupted; yet I say, \"It is cool and beautiful this autumn.\"",
+        "evidence_found": true,
+        "reasoning": "The translation captures the contrast between internal emotion and external expression by showing the interruption of speech and the contrasting statement about autumn, reflecting the required 'inconsistency' and 'oppression' of emotion.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

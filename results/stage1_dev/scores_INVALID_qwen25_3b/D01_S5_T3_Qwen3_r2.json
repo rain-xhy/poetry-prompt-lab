@@ -1,0 +1,62 @@
+{
+  "translation_id": "D01_S5_T3_Qwen3_r2",
+  "anon_code": "T_c69ed97a",
+  "poem_id": "D01",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "unrelenting sorrow cannot be dispelled",
+        "evidence_found": true,
+        "reasoning": "The translation uses the phrase 'unrelenting sorrow' which implies the sorrow is still present, contradicting the requirement to express that the sorrow cannot be dispelled.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This unrelenting sorrow cannot be dispelled. The sorrow slips away from the brows, but then returns to the heart.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express '愁刚从眉间离开' (the sorrow just left from the brows, but then returns to the heart, which contradicts the original phrase '才下眉头' (the sorrow just left from the brows). The translation also introduces new elements not present in the original phrase like 'unrelenting sorrow' and 'returns to the heart'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "unrelenting sorrow cannot be dispelled",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the exact phrase '愁又涌上心头' and does not express the sense of return and recurrence of sorrow.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "cannot be dispelled",
+        "evidence_found": true,
+        "reasoning": "The translation does not maintain the exact phrase '才下……却上' and does not clearly convey the idea of the sorrow '接续转移' and '无处可逃'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 5,
+    "fluency": 4,
+    "poetic_quality": 2,
+    "overall": 3.55,
+    "valid": true
+  }
+}

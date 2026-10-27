@@ -1,0 +1,19 @@
+{
+  "id": "D02_S0_Qwen25_r2",
+  "poem_id": "D02",
+  "trap_type": "拟人意象",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n众鸟高飞尽，孤云独去闲。\n相看两不厌，只有敬亭山。",
+  "prompt_sha256": "d9a4bd87732ba74c7cc8cad197a16e364717d520c1694fc9e618c799c7098187",
+  "translation": "Here is the English translation of the provided Chinese classical poem:\n\nAll the birds have flown high away,\nAnd the solitary cloud wanders carefree.\nI gaze upon you, my dear,\nAnd you upon me too;\nAnd neither grows tired of the other,\nBut rather, I see only the mountain of Jingting. \n\nThis translation aims to preserve the essence and imagery of the original poem while making it accessible in English. The poem expresses a deep, intimate connection between the speaker and the mountain, Jingting, evoking a sense of companionship and understanding in a meditative, contemplative setting.",
+  "metadata": {
+    "input_tokens": 64,
+    "output_tokens": 121,
+    "latency_ms": 3942.4397945404053,
+    "timestamp": "2026-10-26T16:30:31.378546",
+    "finish_reason": "stop"
+  }
+}

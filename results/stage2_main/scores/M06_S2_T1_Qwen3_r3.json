@@ -1,0 +1,67 @@
+{
+  "translation_id": "M06_S2_T1_Qwen3_r3",
+  "anon_code": "T_3eb29bc8",
+  "poem_id": "M06",
+  "strategy": "S2_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "how many petals have fallen—do I know?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'how many petals have fallen—do I know?' directly expresses the uncertainty of the speaker about the number of fallen petals, matching the requirement that the subject is 'I' and the meaning of '不知道花落了多少'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "In the spring, I sleep soundly and do not notice the dawn.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the time background of spring and the sleep condition without noticing the dawn, fulfilling both required conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Everywhere, the cries of birds are heard",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Everywhere, the cries of birds are heard' directly translates the meaning of '到处闻啼鸟' by expressing 'everywhere' (多处/到处) and 'cries of birds' (听觉) as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Last night, the sounds of rain and wind were heard",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Last night, the sounds of rain and wind were heard' directly corresponds to the required meaning of '昨夜听到风雨声' with the time reference 'last night' and the sounds of rain and wind.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

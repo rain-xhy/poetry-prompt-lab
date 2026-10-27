@@ -1,0 +1,57 @@
+{
+  "translation_id": "D05_S5_T2_Qwen25_r1",
+  "anon_code": "T_4da31795",
+  "poem_id": "D05",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years生死twonotwo茫茫",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '十年生死两茫茫' and introduces incorrect words '生死twonotwo' which are not present in the original.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years生死twonotwo茫茫, Not thinking of thee, I cannot forget.",
+        "evidence_found": true,
+        "reasoning": "The translation directly quotes 'Ten years生死twonotwo茫茫, Not thinking of thee, I cannot forget.' which contradicts the original '不思量，自难忘' (Not thinking of thee, I cannot forget.) and introduces new content about '生死twonotwo茫茫' (生死twonotwo茫茫) and '孤独grave' (孤独grave), thus failing to preserve the original meaning and structure.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Not thinking of thee, I cannot forget.",
+        "evidence_found": true,
+        "reasoning": "The translation contains 'Not thinking of thee, I cannot forget.' which does not include the word '孤独' (lonely) or '千里' (thousand miles).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Not thinking of thee, I cannot forget.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express '无处话凄凉' (no place to speak of lonely woes) and instead uses 'not thinking of thee, I cannot forget.' which does not preserve the original meaning.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\"adequacy\":1,\"imagery\":0,\"emotion\":2,\"fluency\":1,\"poetic_quality\":0}"
+  }
+}

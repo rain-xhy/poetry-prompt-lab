@@ -1,0 +1,67 @@
+{
+  "translation_id": "M08_S0_Qwen3_r3",
+  "anon_code": "T_b330eccf",
+  "poem_id": "M08",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no person in sight, but only the sound of human speech",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no person in sight' directly corresponds to '看不见人' (can't see people) and 'but only the sound of human, human speech' corresponds to '但闻人语响' (only hear human speech sounds), preserving the contrast between not seeing people and hearing speech without implying 'no one' exists.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The reflected light enters the deep forest, and shines upon the green moss.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The reflected light enters the deep forest' directly translates the dynamic movement of '返景入深林' with '返景' meaning 'reflected light' (sunlight) and 'enters the deep forest' capturing the action of entering the deep woods.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "shines upon the green moss",
+        "evidence_found": true,
+        "reasoning": "The phrase 'shines upon the green moss' directly corresponds to the required meaning of '又照在青苔上' by expressing the reflection of light on moss, fulfilling both the 'again/reflection' and moss imagery conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Empty mountain, no person in sight, but only the sound of human speech.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Empty mountain' directly translates to '空山' and implies a vast, open space (空旷) while 'no person in sight' suggests solitude and quietness (幽静), meeting both required conditions without denying the existence of the mountain.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

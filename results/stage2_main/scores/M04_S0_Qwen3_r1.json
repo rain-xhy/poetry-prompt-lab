@@ -1,0 +1,67 @@
+{
+  "translation_id": "M04_S0_Qwen3_r1",
+  "anon_code": "T_4ed6481d",
+  "poem_id": "M04",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When two hearts are truly eternal, what does it matter whether they meet every day or not?",
+        "evidence_found": true,
+        "reasoning": "The translation focuses on 'eternal' hearts and daily meetings, but the original phrase emphasizes the condition that if emotions last long, it doesn't matter about meeting frequency. The phrase 'what does it matter' implies indifference to meeting, which is not the intended meaning of the original Chinese phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "what does it matter whether they meet every day or not",
+        "evidence_found": true,
+        "reasoning": "The phrase 'what does it matter whether they meet every day or not' directly expresses the negation of daily meeting as a requirement, fulfilling the requirement to show that it's unnecessary to meet every day.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When two hearts are truly eternal, what does it matter whether they meet every day or not?",
+        "evidence_found": true,
+        "reasoning": "The translation focuses on the meeting frequency rather than the continuous time aspect required by '朝朝暮暮', which implies constant presence rather than daily meetings.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When two hearts are truly eternal, what does it matter whether they meet every day or not?",
+        "evidence_found": true,
+        "reasoning": "The translation captures the conditional relationship (if hearts are eternal) and the rhetorical question (what matters) that implies the conclusion (meeting daily is unimportant), maintaining logical flow and internal consistency.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

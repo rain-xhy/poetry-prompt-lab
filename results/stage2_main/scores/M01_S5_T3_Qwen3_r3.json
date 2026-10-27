@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S5_T3_Qwen3_r3",
+  "anon_code": "T_863c6fb5",
+  "poem_id": "M01",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The depth of feeling yet seems devoid of emotion",
+        "evidence_found": true,
+        "reasoning": "This phrase directly captures the required paradox of deep love and seeming coldness as specified.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "unable to laugh at the table",
+        "evidence_found": true,
+        "reasoning": "The phrase 'unable to laugh at the table' does not capture the 'inability to laugh' (无法/不能笑) as it implies a temporary state of not being able to laugh due to emotional depth, rather than the literal inability to produce laughter. The required meaning is 'inability to laugh' at the: the table (at the farewell wine), but the translation uses 'at the table' which is ambiguous and does not convey the specific context of 'at the farewell wine' (尊前).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A candle with a heart still wishes to part company",
+        "evidence_found": true,
+        "reasoning": "The phrase explicitly states the candle has a heart (拟人化) and wishes to part company (惜别), fulfilling the requirement of preserving the personification and emotional context.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "weeping for others until the dawn",
+        "evidence_found": true,
+        "reasoning": "The phrase 'weeping for others until the dawn' directly translates the required meaning of '替人垂泪到天明' by preserving the 'for others' relationship and the time extension until dawn.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

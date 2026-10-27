@@ -1,0 +1,19 @@
+{
+  "id": "A09_S0_Qwen25_r1",
+  "poem_id": "A09",
+  "trap_type": "conditional_to_causal",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n秦时明月汉时关，万里长征人未还。\n只因龙城飞将在，胡马不度阴山。",
+  "prompt_sha256": "99095a7c75f6e712d33b31536dfaf736968d44d04c759701d2cbaed80331b962",
+  "translation": "Here is my translation of the Chinese classical poem into English:\n\n\"During Qin's bright moonlight and Han's ancient passes,\nA万里-long march sees no return of men.\nJust because General Yulong still guards the northern frontier,\nThe barbarian horses cannot cross the sandy hills of Yinshan.\"\n\nNote that this is an interpretation and translation of the poem. The original Chinese poem is quite well-known and has been translated and interpreted in various ways. This version aims to capture the essence and meaning of the original, while adapting it to sound natural in English.",
+  "metadata": {
+    "input_tokens": 69,
+    "output_tokens": 112,
+    "latency_ms": 11901.995182037354,
+    "timestamp": "2026-10-26T21:49:24.327647",
+    "finish_reason": "stop"
+  }
+}

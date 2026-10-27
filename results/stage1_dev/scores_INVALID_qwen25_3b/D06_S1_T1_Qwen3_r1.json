@@ -1,0 +1,62 @@
+{
+  "translation_id": "D06_S1_T1_Qwen3_r1",
+  "anon_code": "T_c4ebba3a",
+  "poem_id": "D06",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The phrase '在远处想象得知' is not used in the translation.",
+        "evidence_found": false,
+        "reasoning": "The translation does not include the exact phrase '在远处想象得知' as required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The translation does not explicitly state that the main subject is '兄弟们' (brothers). The translation says 'The poet anticipates the joy of kinship as they ascend to the highlands, yet notices that one of them is absent, their absence silently marked by the unfurling of wild herbs.'",
+        "evidence_found": false,
+        "reasoning": "The translation does not preserve the exact phrase '兄弟们登高之处'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The phrase '遍插茱萸' is not directly translated as '每个人头上都插着茱萸'. The translation focuses on the absence of a companion and the imagery of wild herbs, but does not include the exact phrase '遍插茱萸'.",
+        "evidence_found": false,
+        "reasoning": "The translation does not preserve the exact phrase '遍插茱萸'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The translation does not explicitly state '少了我一个人'",
+        "evidence_found": false,
+        "reasoning": "The translation mentions 'one of them is absent', but does not directly state '少了我一个人'",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 4.2,
+    "valid": true
+  }
+}

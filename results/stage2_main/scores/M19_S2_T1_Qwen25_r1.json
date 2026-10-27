@@ -1,0 +1,67 @@
+{
+  "translation_id": "M19_S2_T1_Qwen25_r1",
+  "anon_code": "T_f19abbb6",
+  "poem_id": "M19",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "In岐王宅里我曾常见，崔九堂前我几度聆听",
+        "evidence_found": true,
+        "reasoning": "The phrase '我曾常见' indicates past frequent occurrence, and '几度聆听' shows multiple past hearings, meeting both conditions for past frequency and past tense.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "now is the time for the south of the river's beautiful scenery, the falling flowers season, and meet you again",
+        "evidence_found": false,
+        "reasoning": "The translation uses 'now is the time' to express present tense and 'meet you again' to convey 'again' and 'reunion', fulfilling both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In岐王宅里我曾常见，崔九堂前我几度聆听。如今正是江南美景，落花时节再次与君相逢。",
+        "evidence_found": false,
+        "reasoning": "The translation does not explicitly contrast past and present or imply a change in circumstances as required; it describes specific past experiences and a current meeting without showing temporal contrast or situational change.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "In岐王宅里我曾常见，崔九堂前我几度聆听。如今正是江南美景，落花时节再次与君相逢。",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly mentions '落花时节' as '落花时节再次与君相逢', preserving the floral imagery and implying the symbolic meaning of fleeting time and reunion.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

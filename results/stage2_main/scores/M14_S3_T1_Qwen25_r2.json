@@ -1,0 +1,67 @@
+{
+  "translation_id": "M14_S3_T1_Qwen25_r2",
+  "anon_code": "T_46e1884e",
+  "poem_id": "M14",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "But if only General Li Guang were here",
+        "evidence_found": true,
+        "reasoning": "The phrase 'But if only General Li: Guang were here' uses the conditional structure 'if only' to express a hypothetical situation, fulfilling the requirement for a condition assumption with the correct grammatical structure.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "He'd stop the Huns' steeds from crossing the Yin Mountains' rear",
+        "evidence_found": true,
+        "reasoning": "The phrase 'stop the Huns' steeds from crossing' directly translates to '不让...越过' (prevent from crossing), indicating active prevention of the Huns' movement.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "But if only General Li Guang were here, He'd stop the Huns' steeds from crossing the Yin Mountains' rear.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'But if only General Li: Guang were here, He'd stop the Huns' steeds from crossing the Yin Mountains' rear' clearly expresses a conditional relationship where the presence of General Li Guang (the condition) would result in stopping the Huns (the result), fulfilling the requirement of condition-result logic and maintaining coherence with the original phrase's meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "General Li Guang",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly names 'General Li Guang', a historical figure known as a famous border general from the Han dynasty, fulfilling the requirement of a historical border commander.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 4,
+    "valid": true
+  }
+}

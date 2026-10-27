@@ -1,0 +1,67 @@
+{
+  "translation_id": "M12_S2_T1_Qwen3_r1",
+  "anon_code": "T_7f900994",
+  "poem_id": "M12",
+  "strategy": "S2_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see beyond a thousand miles",
+        "evidence_found": true,
+        "reasoning": "The phrase 'To see beyond a thousand miles' uses 'to see' (indicating purpose) and 'a thousand miles' (the required distance), fulfilling both pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see beyond a thousand miles, one must climb higher.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'one must climb higher' directly expresses the necessity of climbing higher (再上一层楼) as a means to achieve the goal of seeing beyond a thousand miles, fulfilling the requirement for a purpose- means relationship and the need for further action.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see beyond a thousand miles, one must climb higher.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'To see beyond a thousand miles' expresses the goal (purpose) and 'climb higher' expresses the means (action), maintaining the purpose-means logical relationship as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "To see beyond a thousand miles, one must climb higher.",
+        "evidence_found": true,
+        "reasoning": "The original phrase describes two distinct natural scenes: the sun setting behind mountains and the Yellow River flowing into the sea. The provided translation adds an unrelated phrase about climbing higher to see further, which does not match the original's two-landscape description.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

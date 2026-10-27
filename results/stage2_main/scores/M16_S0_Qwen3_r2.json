@@ -1,0 +1,67 @@
+{
+  "translation_id": "M16_S0_Qwen3_r2",
+  "anon_code": "T_c675a4b8",
+  "poem_id": "M16",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "the crow's cry echoes over the茅店 (a simple inn), where the moon hangs",
+        "evidence_found": true,
+        "reasoning": "The phrase 'the crow's cry echoes over the茅店 (a simple inn), where the moon hangs' does not correctly convey '鸡声茅店月' as it mentions 'crow's cry' instead of 'rooster's cry' and the structure does not match the required meaning of 'rooster's cry at the simple inn with the moon still visible'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Footsteps are rare on the board bridge",
+        "evidence_found": true,
+        "reasoning": "The phrase '人迹板桥霜' refers to human footprints on a wooden bridge covered in frost, but the translation says 'Footsteps are rare on the board bridge', which implies scarcity rather than the presence of footprints in frost, and the original phrase does not mention rarity.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I think of the Du Ling dream",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I think of the Du Ling dream' directly expresses recalling a dream from Du Ling, meeting both conditions of expressing memory and being a dream.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the geese fly满 the back pond",
+        "evidence_found": true,
+        "reasoning": "The phrase 'the geese fly满 the back pond' directly translates the '凫雁满布曲折池塘' meaning, with 'back pond' indicating the curved or winding pond and 'geese fly满' showing the geese filling the pond.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "M16_S1_T3_Qwen3_r2",
+  "poem_id": "M16",
+  "trap_type": "时态叙事",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n晨起动征铎，客行悲故乡。\n鸡声茅店月，人迹板桥霜。\n槲叶落山路，枳花明驿墙。\n因思杜陵梦，凫雁满回塘。",
+  "prompt_sha256": "375fe10f9d776a4e4ae7bf2eec6c7ddca1463acb7c12f17ae92fe5a88e9066d4",
+  "translation": "Early in the morning, the bell of my home is shaken, as I journey away, filled with sorrow for my distant homeland. The rooster's call echoes over the moss-covered inn, and the footpath is lined with frost. Qu leaves fall across the road, and the bright red flowers of the枳 plant shine on the wall of my驿站. I recall the dream of Du Ling, where swans fill the backwater pond.\n\n[Note: \"杜陵\" refers to the county of Du Ling, where the poet Li Bai once dreamed of returning home. \"枳花\" refers to the red flower of the枳 plant, a common symbol of hope and longing in Chinese poetry.]\n\n[Note: The imagery of frost on the board bridge and the falling qu leaves evokes a cold, isolated landscape, reflecting the poet's loneliness and longing for home.]",
+  "metadata": {
+    "input_tokens": 242,
+    "output_tokens": 175,
+    "latency_ms": 10898.2253074646,
+    "timestamp": "2026-10-26T20:49:27.906824",
+    "finish_reason": "stop"
+  }
+}

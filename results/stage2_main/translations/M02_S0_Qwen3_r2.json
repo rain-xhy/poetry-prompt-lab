@@ -1,0 +1,19 @@
+{
+  "id": "M02_S0_Qwen3_r2",
+  "poem_id": "M02",
+  "trap_type": "情感反差",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n红豆生南国，春来发几枝。\n愿君多采撷，此物最相思。",
+  "prompt_sha256": "91200c3ece4e90fb7437f93c55cdf2aa99acc30f257584795e929c0e8efb9cbb",
+  "translation": "Red beans grow in the southern land,  \nTheir branches sprout in spring.  \nMay you take them often,  \nFor this thing is most dear to the heart.",
+  "metadata": {
+    "input_tokens": 51,
+    "output_tokens": 35,
+    "latency_ms": 359.846830368042,
+    "timestamp": "2026-10-26T20:55:55.791268",
+    "finish_reason": "stop"
+  }
+}

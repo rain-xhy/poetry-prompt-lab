@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S0_Qwen3_r2",
+  "anon_code": "T_884ba3d2",
+  "poem_id": "M02",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Red beans grow in the southern land, Their branches sprout in spring. May you take them often, For this thing is most dear to the heart.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly refers to 'red beans' as the central object and implies their symbolic meaning through the context of being 'most dear to the heart', which aligns with the requirement that 'red beans' represent longing for a loved one.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "May you take them often",
+        "evidence_found": true,
+        "reasoning": "The phrase 'May you take them often' expresses a wish/hope for the reader to frequently gather the red beans, fulfilling the requirement of expressing hope and specifically addressing 'you' to take (harvest).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "For this thing is most dear to the heart.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'most dear to the heart' conveys the meaning of 'most able to寄托相思之情' (most able to symbolize or寄托 longing) as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Their branches sprout in spring",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Their branches sprout in spring' does not explicitly state the time when the branches sprout (spring) as a specific time period but rather indicates the season, which does not fully meet the requirement of expressing the time of spring's arrival as per the original phrase's context.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

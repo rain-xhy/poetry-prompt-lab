@@ -1,0 +1,67 @@
+{
+  "translation_id": "M14_S5_T2_Qwen25_r1",
+  "anon_code": "T_51f8420b",
+  "poem_id": "M14",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "But as long as the Dragon City's general is present,",
+        "evidence_found": false,
+        "reasoning": "The phrase 'But as long as the Dragon City's general is present' uses the conditional structure 'as long as' to express the assumption that the general's presence is a condition for the Rouran horses not crossing the Yin Mountains.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Rum",
+        "evidence_found": false,
+        "reasoning": "The phrase '胡马休度有阴山' translates to 'Huns' horses should not cross the Yinshan Mountains', where '休度' implies 'not allow to cross', meeting the requirement of 'not allow/prevent' and active prevention.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "But if the Dragon City's general were present, the Hu horses would not cross the Yin Shan.",
+        "evidence_found": false,
+        "reasoning": "The translation clearly expresses the conditional relationship where the presence of the general (condition) leads to the result that the enemy horses do not cross the Yin Shan, maintaining the logical flow and context.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "but make the Dragon City flying general present",
+        "evidence_found": false,
+        "reasoning": "The phrase 'but make the Dragon City flying general present' directly references the historical figure and the border region context, fulfilling the requirement for a border commander with a fierce and victorious image.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

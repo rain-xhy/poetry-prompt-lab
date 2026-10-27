@@ -1,0 +1,67 @@
+{
+  "translation_id": "M11_S2_T1_Qwen25_r3",
+  "anon_code": "T_5b240c1d",
+  "poem_id": "M11",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I wonder if it is frost on the ground.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I wonder if it is frost on the ground' uses 'wonder' as the推测词 (suspect/wonder/seems/might be) and expresses uncertainty, matching the required meaning of '怀疑是地上的霜（推测，不确定）'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I raise my head and see the bright moon, I lower my head and think of home.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly shows the sequence of actions (raising head to look at the moon, then lowering head to think of home) and implies that seeing the moon leads to thoughts of home.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Beside my bed a clear light shines",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Beside my bed a clear light shines' directly corresponds to '床前明月光' by preserving 'bed' (床) and 'before' (前) as the location, and 'clear light' represents the 'bright moonlight' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Beside my bed a clear light shines, I wonder if it is frost on the: ground. I raise my head and see the bright moon, I lower my head and think of home.",
+        "evidence_found": false,
+        "reasoning": "The translation conveys a sense of quiet stillness and solitude while reflecting on homesickness, meeting both required conditions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

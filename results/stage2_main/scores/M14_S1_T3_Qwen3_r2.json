@@ -1,0 +1,67 @@
+{
+  "translation_id": "M14_S1_T3_Qwen3_r2",
+  "anon_code": "T_ab9311dd",
+  "poem_id": "M14",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If the general of the dragon city were present",
+        "evidence_found": true,
+        "reasoning": "The phrase 'If the general of the dragon as long as the general of the dragon city were present' uses the conditional 'if' to express the assumption that the general's presence is a condition for the nomads not crossing the mountain, fulfilling the requirement for a condition clause.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "the nomads would never cross the dark mountain",
+        "evidence_found": true,
+        "reasoning": "The phrase 'would never cross' does not express 'not allow/prevent' as a deliberate action by someone; it describes a consequence of absence, not active prevention.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If the general of the dragon city were present, the nomads would never cross the dark mountain.",
+        "evidence_found": true,
+        "reasoning": "The translation uses a conditional clause 'If...were present' followed by a result clause 'would never cross', clearly expressing the condition-result logic required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The general of the dragon city",
+        "evidence_found": true,
+        "reasoning": "The phrase 'dragon city' refers to a historical location in Chinese, but the translation uses 'the general of the dragon city' which implies a general associated with a place rather than a specific historical figure or title as required by '边关名将（历史典故）'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

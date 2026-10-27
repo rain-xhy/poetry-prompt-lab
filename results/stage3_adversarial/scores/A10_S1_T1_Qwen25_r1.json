@@ -1,0 +1,58 @@
+{
+  "translation_id": "A10_S1_T1_Qwen25_r1",
+  "anon_code": "T_3cefae3d",
+  "poem_id": "A10",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "We once shared the warmth of the west window in candlelight",
+        "evidence_found": true,
+        "reasoning": "The phrase 'We once shared...' uses the past tense 'once' to indicate a past event, fulfilling the requirement to preserve '曾经' as past tense.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "We once shared the warmth of the west window in candlelight",
+        "evidence_found": true,
+        "reasoning": "This line explicitly refers to past shared experiences, confirming it's about recalling past memories rather than future expectations.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "We once shared the warmth of the west window in candlelight",
+        "evidence_found": true,
+        "reasoning": "The phrase 'We once shared' uses the past tense 'once' to indicate a past event, matching the requirement to preserve the time shift from '何当' (when) to '曾经' (once) in the original poem's context.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

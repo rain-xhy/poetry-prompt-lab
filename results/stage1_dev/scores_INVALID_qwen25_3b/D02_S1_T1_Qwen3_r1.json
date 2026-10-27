@@ -1,0 +1,62 @@
+{
+  "translation_id": "D02_S1_T1_Qwen3_r1",
+  "anon_code": "T_8941a703",
+  "poem_id": "D02",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Birds fly away into the distance, and alone, the clouds drift away in leisure.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express '鸟群都飞走了' (all birds have flown away) or convey the idea of '消失' (disappearance). Instead, it describes the clouds drifting away in a leisurely manner, which does not match the original meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Birds fly away into the distance, and alone, the clouds drift away in leisure.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '孤云独去闲' and does not include the word '悠闲' (leisurely).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "They look at each other and neither dislikes nor refuses",
+        "evidence_found": true,
+        "reasoning": "The phrase '人与山互相看着' is not preserved in the translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "They look at each other and neither dislikes nor refuses, only the mountain of Jingting stands firm and unchanging.",
+        "evidence_found": true,
+        "reasoning": "The phrase '只有敬亭山' is not preserved in the translation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.95,
+    "valid": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "translation_id": "A07B_S0_Qwen3_r1",
+  "anon_code": "T_de5e1c52",
+  "poem_id": "A07B",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Be careful not to fall into the river.",
+        "evidence_found": true,
+        "reasoning": "The translation does not address the negation or the inference of correct negation from a ambiguous version, which is required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Be careful not to fall into the river.",
+        "evidence_found": true,
+        "reasoning": "The translation directly expresses the warning against a specific negative outcome, aligning with the requirement to avoid the river as a form of negation.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Be careful not to fall into the river.",
+        "evidence_found": true,
+        "reasoning": "The English translation directly conveys the warning to avoid a dangerous situation, matching the requirement for both versions to have the same meaning.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\n  \"original\": \"小心别滑入河中\",\n  \"reference_notes\": \"版本A的歧义推断：能否从歧义版推断出正确否定。版本B的明确否定：明确版本应该正确。AB一致性：两个版本应该意思相同。\",\n  \"translation\": \"Be careful not to fall into the river.\"\n}"
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 4,
+    "valid": true
+  }
+}

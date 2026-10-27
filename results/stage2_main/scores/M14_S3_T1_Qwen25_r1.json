@@ -1,0 +1,67 @@
+{
+  "translation_id": "M14_S3_T1_Qwen25_r1",
+  "anon_code": "T_548beca3",
+  "poem_id": "M14",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If only the flying general at Longcheng were present",
+        "evidence_found": true,
+        "reasoning": "The phrase 'If only... were present' uses a conditional structure with 'if only' to express a hypothetical situation, matching the required condition assumption and the '只要...在' structure.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the barbarian horses would not cross the Yin Mountains",
+        "evidence_found": true,
+        "reasoning": "The phrase 'would not cross' directly translates to '不让...越过' (prevent/not allow crossing) as a negative prohibition of the action, fulfilling the requirement of 'not allow' with an active blocking action.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If only the flying general at Longcheng were present, the barbarian horses would not cross the Yin Mountains.",
+        "evidence_found": true,
+        "reasoning": "The translation uses a conditional clause 'If only... were present' followed by a result clause 'the barbarian horses would not cross the Yin Mountains', clearly preserving the condition-result logic required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the flying general at Longcheng",
+        "evidence_found": true,
+        "reasoning": "The phrase 'flying general at Longcheng' directly refers to a historical military figure associated with border defense, meeting the requirement of being a border commander with a strong military reputation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

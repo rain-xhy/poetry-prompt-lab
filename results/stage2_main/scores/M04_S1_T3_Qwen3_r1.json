@@ -1,0 +1,67 @@
+{
+  "translation_id": "M04_S1_T3_Qwen3_r1",
+  "anon_code": "T_6dacc607",
+  "poem_id": "M04",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When two hearts are truly devoted, it matters not whether they meet each day or not.",
+        "evidence_found": true,
+        "reasoning": "The translation focuses on daily meetings and devotion rather than expressing the conditional 'if' structure or the concept of 'long-lasting' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "it matters not whether they meet each day or not",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it matters not whether they meet each day or not' directly expresses the negation of daily meeting (日日相守) and implies that true devotion doesn't require constant companionship, fulfilling the requirement of '不必日日相守' while maintaining the rhetorical question structure.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "it matters not whether they meet each day or not",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it matters not whether they meet each day or not' conveys the frequent or continuous nature of meeting, aligning with the requirement of expressing frequent or continuous action while maintaining the time叠加感 (overlap) through the repetition of 'each day'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When two hearts are truly devoted, it matters not whether they meet each day or not.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the conditional relationship (if hearts are devoted) and the counterfactual conclusion (it matters not whether they meet daily), maintaining the logical contrast between temporary companionship and enduring devotion.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

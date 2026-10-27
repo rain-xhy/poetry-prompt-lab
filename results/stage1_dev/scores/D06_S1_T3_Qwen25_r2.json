@@ -1,0 +1,76 @@
+{
+  "translation_id": "D06_S1_T3_Qwen25_r2",
+  "anon_code": "T_47585471",
+  "poem_id": "D06",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Far away, I know my brothers are climbing high",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Far away, I know my brothers are climbing high' directly expresses the meaning of '遥知' as 'from a distance, I imagine/anticipate' without using 'I see/I watch'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Far away, I know my brothers are climbing high",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Far away, I know my brothers are climbing high' directly translates the meaning of '兄弟登高处' with 'brothers' as the subject and 'climbing high' expressing the action of 'climb the heights'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "All wearing fragrant _rhubarb_萸 in their hair",
+        "evidence_found": true,
+        "reasoning": "The phrase 'All wearing fragrant _rhub: The translation states 'All wearing fragrant _rhubarb_萸 in their hair', which directly corresponds to the required meaning of 'everyone wearing chrysanthemum (茱萸) in their hair'. The term 'rhubarb' is a transliteration of 'zhū yú' (the Chinese term for a type of plant used in the poem), and the phrase 'in their hair' indicates that everyone is wearing it on their heads, fulfilling the requirement that 'everyone wears chrysanthemum in their hair'. The context of the poem also supports that this is a classical reference where '茱萸' is personified as wearing it.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "One person is missing from their gathering, As I sit in my _solitude_庐.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'One person is missing from their gathering' directly translates the meaning of '少一人' as 'one person is missing', and the context of 'As I sit in my solitude庐' indicates that the speaker is the one missing, fulfilling the requirement that the person missing is the speaker.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

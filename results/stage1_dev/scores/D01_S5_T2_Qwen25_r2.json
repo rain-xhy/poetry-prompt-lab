@@ -1,0 +1,76 @@
+{
+  "translation_id": "D01_S5_T2_Qwen25_r2",
+  "anon_code": "T_8d8fdbff",
+  "poem_id": "D01",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling, how to dispel it?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'how to dispel it' directly addresses the inability to eliminate the emotion, matching the requirement of expressing '无法/没有办法消除这份情绪' without implying elimination or lack of desire.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "It hides behind the brows, then rises anew,",
+        "evidence_found": true,
+        "reasoning": "The phrase 'brows' refers to eyebrows but the required meaning is 'just left the brow' (愁刚从眉间离开), which implies a recent departure, not a hiding or rising anew.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "It hides behind the brows, then rises anew, Upon the: heart's cold surface.",
+        "evidence_found": false,
+        "reasoning": "The translation shows a shift from the brows to the heart, indicating a turning point (yet/but/again) and ends with 'heart's cold surface' which directly relates to 'heart' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "It hides behind the brows, then rises anew, Upon the heart's cold surface.",
+        "evidence_found": true,
+        "reasoning": "The translation shows the continuous transfer of sorrow from brows to heart without disappearance, meeting both pass conditions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "translation_id": "D04_S1_T3_Qwen25_r2",
+  "anon_code": "T_0406efac",
+  "poem_id": "D04",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The waters of Peach Blossom Pool run deep as a thousand feet",
+        "evidence_found": true,
+        "reasoning": "The phrase directly expresses the depth of Peach Blossom Pool being extremely deep (千尺 or equivalent exaggeration) as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "But they don't match the depth of Wang Lun's affection for me.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'don't match the depth' directly corresponds to '比不上' while maintaining the context of water depth versus emotional depth without implying 'deeper' or 'equal depth'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wang Lun's affection for me",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Wang Lun's affection for me' directly indicates that Wang Lun is the sender of the affection (the person sending the farewell), and 'me' is the recipient (the person being sent).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The waters of Peach Blossom Pool run deep as a thousand feet, But they don't match the depth of Wang Lun's affection for me.",
+        "evidence_found": true,
+        "reasoning": "The translation directly compares the depth of Peach Blossom Pool's waters to the depth of Wang as a metaphor for emotional connection, fulfilling the requirement to contrast '情谊' with 'depth' where '情谊' is expressed as deeper.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

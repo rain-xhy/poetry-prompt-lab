@@ -1,0 +1,67 @@
+{
+  "translation_id": "M04_S5_T1_Qwen25_r3",
+  "anon_code": "T_46d53c60",
+  "poem_id": "M04",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "If it were meant to be for eternity,",
+        "evidence_found": true,
+        "reasoning": "The phrase 'if it were meant to be for eternity' does not express 'if two people's emotions are long-lasting' as required; it uses a conditional about intention rather than emotional duration.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why must we be together day in, day out?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Why must we be together day in, day out?' directly expresses the required meaning of '又何必在乎日日相守（反问）' by posing a question that implies the necessity of daily coexistence is unnecessary.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why must we be together day in, day out?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'day in, day out' directly expresses the frequent or continuous nature of time passage as required, and the context implies persistent companionship over time.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If it were meant to be for eternity, Why must we be together day in, day out?",
+        "evidence_found": true,
+        "reasoning": "The translation uses a conditional clause 'If it were meant to be for eternity' followed by a rhetorical question 'Why must we be together day in, day out?' which preserves the conditional and counter-question logic of the original phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

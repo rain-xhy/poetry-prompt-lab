@@ -1,0 +1,67 @@
+{
+  "translation_id": "M19_S2_T1_Qwen25_r2",
+  "anon_code": "T_b07ed9d2",
+  "poem_id": "M19",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "I曾几度相遇",
+        "evidence_found": false,
+        "reasoning": "The phrase 'I曾几度相遇' uses past tense '曾' (has) with '几度' (several times) to indicate past frequent encounters, meeting the requirement of past frequent occurrence.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "As flowers fall, we meet again.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'we meet again' directly expresses the current reunion (now) with the 'again' implying a second meeting.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "In岐王宅里，我曾几度相遇；崔九门前，落花时节再遇君。Now in the verdant landscapes of Jiangnan, As flowers fall, we meet again.",
+        "evidence_found": false,
+        "reasoning": "The translation contrasts past (岐王宅里, 崔九门前) with present (verdant landscapes of Jiang, flowers fall) and implies a change in circumstances through the imagery of falling flowers and meeting again.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "As flowers fall, we meet again.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'As flowers fall' directly preserves the 落花意象 and implies the symbolic meaning of fleeting time and reunion.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

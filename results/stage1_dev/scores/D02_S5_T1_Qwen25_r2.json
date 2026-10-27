@@ -1,0 +1,76 @@
+{
+  "translation_id": "D02_S5_T1_Qwen25_r2",
+  "anon_code": "T_d204ddf1",
+  "poem_id": "D02",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "All the birds have flown away",
+        "evidence_found": true,
+        "reasoning": "The phrase 'All the birds have flown away' directly translates the meaning of '众鸟高飞尽' as birds flying far or disappearing completely, satisfying the requirement of expressing 'bird group all flew away' with the connotation of 'all' and 'disappearance'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The solitary cloud wanders idly.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The solitary cloud wanders idly' contains 'solitary' (孤) and 'idly' (悠闲) as required, showing the cloud's independent and leisurely movement.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "We gaze upon each other without tiredness",
+        "evidence_found": true,
+        "reasoning": "The phrase 'We gaze upon each other without tiredness' directly translates the meaning of '相看两不厌' while preserving the mutual gaze between 'me' and the mountain as the active observer.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Only the敬亭山remains steadfast.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Only the敬亭山' directly matches the required Chinese phrase '只有敬亭山' with the specified translation of 'Jingting Mountain' preserved as a proper noun.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

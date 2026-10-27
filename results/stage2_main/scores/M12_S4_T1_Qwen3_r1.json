@@ -1,0 +1,67 @@
+{
+  "translation_id": "M12_S4_T1_Qwen3_r1",
+  "anon_code": "T_9fdb3f3d",
+  "poem_id": "M12",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Desiring to see thousands of miles",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Desiring to see thousands of miles' uses 'desiring' (a form of 'want to') and specifies 'thousands of miles' which matches the required '千里的距离' and '想要看尽千里（目的、愿望）'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "one must climb higher, and thus ascend a level",
+        "evidence_found": true,
+        "reasoning": "The phrase 'one must climb higher' directly expresses the necessity to go up one more level, forming a purpose-action relationship with 'ascend a level' as the means to achieve the goal of seeing thousands of miles.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Desiring to see thousands of miles, one must climb higher, and thus ascend a level.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Desiring to see thousands of miles' expresses the purpose (wanting to see far) and 'one must climb higher' shows the means (climbing higher), maintaining the purpose-means logic as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "White day sets behind the mountains, the Yellow River flows into the sea. Desiring to see thousands of miles, one must climb higher, and thus ascend a level.",
+        "evidence_found": true,
+        "reasoning": "The translation includes an additional line about climbing higher that is not present in the original Chinese phrase, thus failing to preserve the two distinct images required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

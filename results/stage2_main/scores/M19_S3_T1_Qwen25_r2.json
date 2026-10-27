@@ -1,0 +1,67 @@
+{
+  "translation_id": "M19_S3_T1_Qwen25_r2",
+  "anon_code": "T_4e899bcf",
+  "poem_id": "M19",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I met you several times at Cui Jiù's hall in Qí王府, When the flowers were in bloom, we would often hear songs.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I met you several times' indicates past frequency, and 'we would often hear songs' shows repeated past actions, meeting the requirement of past frequency and multiple occurrences.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Now that I am in the beautiful scenery of Jiangning, It's the spring of fallen flowers when we meet again.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'It's the spring of fallen flowers when we meet again' directly expresses the current reunion (now) with the connotation of 'again' (又) as per the required meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I met you several times at Cui Jiù's hall in Qí王府, When the flowers were in bloom, we would often hear songs. Now that I am in the beautiful scenery of Jiangning, It's the spring of fallen flowers when we meet again.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts past meetings with blooming flowers (past) and current meetings with fallen flowers (present), showing time contrast and implying a change in circumstances.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "It's the spring of fallen flowers when we meet again",
+        "evidence_found": true,
+        "reasoning": "The phrase 'spring of fallen flowers' directly translates the '落花时节' symbolism of transient beauty and fleeting moments, meeting in the context of decay.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

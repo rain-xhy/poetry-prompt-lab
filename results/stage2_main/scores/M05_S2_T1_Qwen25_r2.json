@@ -1,0 +1,67 @@
+{
+  "translation_id": "M05_S2_T1_Qwen25_r2",
+  "anon_code": "T_3b8eab47",
+  "poem_id": "M05",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking and seeking",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Seeking and seeking' directly translates the repeated action of '寻寻觅觅' with repetition to preserve the rhythmic quality.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "cold and lonely, sorrowful and凄凉",
+        "evidence_found": true,
+        "reasoning": "The phrase 'cold and lonely, sorrowful and凄凉' directly conveys the cold, desolate environment as required, and the structure shows progression from actions to environment to emotions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking and seeking, the air is cold and lonely, sorrowful and凄凉. Three layers of叠词, progressing from actions to environment to emotions. Like pealing bells and cymbals, deepening the sadness.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys deep sorrow through layered descriptions of actions, environment, and emotions, meeting both the requirement for profound sadness and emotional progression.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking and seeking, the air is cold and lonely, sorrowful and凄凉. Three layers of叠词, progressing from actions to environment to emotions. Like pealing bells and cymbals, deepening the sadness.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly shows the progression from actions (seeking and seeking), environment (cold and lonely air), to emotions (sorrowful and凄凉), maintaining the required order without disruption.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 1.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M03_S4_T1_Qwen25_r2",
+  "anon_code": "T_c846a99e",
+  "poem_id": "M03",
+  "strategy": "S4_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "You ask when I'll be home, but I have no set date",
+        "evidence_found": true,
+        "reasoning": "The phrase 'have no set date' directly translates to '尚未确定' and meets the requirement of expressing 'cannot yet be set' without implying 'no deadline' or 'never'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When we can sit by the west window together and trim the candles",
+        "evidence_found": true,
+        "reasoning": "The phrase uses 'when we can' to express a future assumption and expectation, matching the required meaning of '什么时候能一起剪西窗烛' (when will we be able to together trim the west window candles).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When we can sit by the west window together and trim the candles, I'll tell you stories of the Chish:an rain when we can talk again.",
+        "evidence_found": false,
+        "reasoning": "The translation refers to future actions (when we can sit) and future storytelling, but the original phrase '却话巴山夜雨时' implies recalling past rain events during a past time, not future storytelling about future rain.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "In the night, the rain in Chish:an Springs swells the autumn pool.",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly states that the rain causes the autumn pool to swell, preserving the three required imagery elements: 巴山 (Chishan Springs), 夜雨 (night rain), and 秋池 (autumn pool).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.65,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

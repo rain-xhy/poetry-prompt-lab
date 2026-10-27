@@ -1,0 +1,67 @@
+{
+  "translation_id": "M13_S0_Qwen3_r2",
+  "anon_code": "T_fb86607f",
+  "poem_id": "M13",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "no bird flies",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no bird flies' does not convey the absolute negation of birds flying as required by '鸟飞绝', which implies no birds exist at all, not just no birds flying.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "all the paths are empty, and no human footprints remain",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no human footprints remain' directly translates the absolute negation of '人踪灭' (human traces disappear) while capturing the 'disappearance' sense of '灭'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "An old man in a cloak and hat sits alone on a small boat",
+        "evidence_found": true,
+        "reasoning": "The phrase 'sits alone' does not convey the intended '垂钓' (fishing) action, which is required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Falls the snow upon the mountains, and no bird flies; all the paths are empty, and no human footprints remain. An old man in a cloak and hat sits alone on a small boat, catching the falling snow in the cold river.",
+        "evidence_found": true,
+        "reasoning": "The translation effectively contrasts the vast, empty natural landscape with the solitary figure on a small boat, emphasizing both the expansive space and the individual's isolation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

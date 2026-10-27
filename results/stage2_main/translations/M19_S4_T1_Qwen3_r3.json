@@ -1,0 +1,19 @@
+{
+  "id": "M19_S4_T1_Qwen3_r3",
+  "poem_id": "M19",
+  "trap_type": "时态叙事",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nCommon Pitfalls to Avoid:\n\n1. Negation Reversal\n   - Don't translate implicit negation as affirmation\n   - \"莫待花谢始惜春\" means \"don't wait until flowers fall to cherish spring\", not \"wait until flowers fall\"\n2. Personification Loss\n   - Keep personification of objects\n   - \"山欲留客\" = \"the hills wish to keep the guest\", not just \"I stayed by the hills\"\n3. Emotional Paradox Flattening\n   - Don't flatten emotional paradoxes into simple statements; preserve the tension\n   - \"情愈深时语愈淡\" has escalating tension between feeling and words\n4. Adding Information\n   - Don't add characters, events, or relationships not in the original\n   - \"风为我叩门\" = the wind knocks for me, not \"wind brings a visitor\"\n5. Who Does What to Whom\n   - Check action subjects and objects carefully\n   - \"邻舟问客何处去\" = the neighbor asks where the traveler goes (not the reverse)\n6. Temporal Relations\n   - Distinguish past, present, future, and hypothetical\n   - \"待明年花开时\" = when blossoms bloom next year (future), not past\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n岐王宅里寻常见，崔九堂前几度闻。\n正是江南好风景，落花时节又逢君。",
+  "prompt_sha256": "70829c74aa3696561c22777772f452ff908535d99c03db5691cbc0d0b72607f0",
+  "translation": "In the palace of the King of Qi, I met familiar faces, and heard of his hall countless times.  \nIt was indeed a beautiful scene in the south, where blossoms fell and flowers bloomed again, and I met you once more.  \n\n[The reference to \"岐王\" (King of Qi) and \"崔九\" (Li Zhongji) is a historical figure, but the poem does not mention specific names, so the translation retains the original titles.]",
+  "metadata": {
+    "input_tokens": 503,
+    "output_tokens": 98,
+    "latency_ms": 980.5221557617188,
+    "timestamp": "2026-10-26T21:33:29.957664",
+    "finish_reason": "stop"
+  }
+}

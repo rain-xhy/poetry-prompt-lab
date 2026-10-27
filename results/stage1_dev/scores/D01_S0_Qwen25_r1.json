@@ -1,0 +1,76 @@
+{
+  "translation_id": "D01_S0_Qwen25_r1",
+  "anon_code": "T_959a1e52",
+  "poem_id": "D01",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling cannot be dispelled",
+        "evidence_found": true,
+        "reasoning": "The phrase 'This feeling cannot be dispelled' directly matches the requirement of expressing '无法消除' (cannot eliminate) without implying elimination or desire to eliminate.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Just as it fades from the眉头",
+        "evidence_found": true,
+        "reasoning": "The phrase 'fades from the眉头' does not correctly express '愁刚从眉间离开' as it uses 'fades' (fades) instead of 'just left' (刚离开) and '眉头' is a direct translation of 'brow' but the context requires '眉间' (between eyebrows) for the correct meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "It rises anew to the heart",
+        "evidence_found": true,
+        "reasoning": "The phrase 'It rises anew to the heart' shows the required meaning of a feeling returning to the heart after fading, with 'anew' indicating a recurrence (turning point) and 'heart' as the focus.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Just as it fades from the眉头, It rises anew to the heart.",
+        "evidence_found": true,
+        "reasoning": "The translation shows the continuous transfer of sorrow from brow to heart without disappearance, meeting both pass conditions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

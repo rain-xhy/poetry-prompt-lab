@@ -1,0 +1,67 @@
+{
+  "translation_id": "M20_S4_T1_Qwen25_r1",
+  "anon_code": "T_92ca0611",
+  "poem_id": "M20",
+  "strategy": "S4_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell in the headwaters of the Yangtze, you in its tail.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts the speaker's position (headwaters) with the listener's position (tail) using 'I' and 'you', fulfilling the requirement for spatial parallelism and opposition between the two ends.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Day and night I think of you but cannot see you",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Day and night' expresses the continuous daily/every day aspect, and 'I think of you but cannot see you' captures the contradiction between longing and not being able to see.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Sharing the waters of the Yangtze",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Sharing the waters of the Yang' directly reflects the '共饮一江水' concept, emphasizing the shared water resource and the connection between the two parties.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell in the headwaters of the Yangtze, you in its tail. Day and night I think of you but cannot see you, Sharing the waters of the Yangtze.",
+        "evidence_found": true,
+        "reasoning": "The translation shows physical separation (headwaters vs tail of Yangtze) and emotional connection (thinking of someone, sharing waters), creating tension between physical distance and emotional bond.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

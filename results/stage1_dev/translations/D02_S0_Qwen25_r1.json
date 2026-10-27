@@ -1,0 +1,19 @@
+{
+  "id": "D02_S0_Qwen25_r1",
+  "poem_id": "D02",
+  "trap_type": "拟人意象",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n众鸟高飞尽，孤云独去闲。\n相看两不厌，只有敬亭山。",
+  "prompt_sha256": "d9a4bd87732ba74c7cc8cad197a16e364717d520c1694fc9e618c799c7098187",
+  "translation": "Here is the English translation of the provided Chinese classical poem:\n\nAll the birds have flown far away,\nAnd the solitary cloud wanders free.\nI gaze at thee, my friend,\nAnd thou dost gaze back at me.\nWe tire not of each other's sight,\nSave for the mountain of respect and purity.",
+  "metadata": {
+    "input_tokens": 64,
+    "output_tokens": 63,
+    "latency_ms": 10167.94204711914,
+    "timestamp": "2026-10-26T16:23:58.249865",
+    "finish_reason": "stop"
+  }
+}

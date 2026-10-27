@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S5_T1_Qwen25_r3",
+  "anon_code": "T_a514fe80",
+  "poem_id": "M07",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The old swallow once nested in the Wang and Xie halls",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly preserves 'Wang' and 'Xie' as specific family names without genericization, meeting the requirement for the East Jin Wang and Xie clans.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The old swallow once nested in the Wang and Xie halls, Has now flown into the homes of ordinary people.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts 'once nested in the Wang and X:ie halls' (past elite status) with 'now flown into the homes of ordinary people' (present common people), fulfilling both time and class contrasts.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The old swallow once nested in the Wang and Xie halls",
+        "evidence_found": true,
+        "reasoning": "The phrase 'old swallow' refers to the swallow (燕子) as a witness, and 'nested in the Wang and Xie halls' indicates the historical context where the swallow was a witness to the halls, fulfilling the requirement of preserving the swallow as a witness imagery without implying the swallow lived for centuries.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "By Zhuque Bridge, wildflowers sprout amidst the weeds, In the U-shaped alley, the sun sets with a slant.",
+        "evidence_found": true,
+        "reasoning": "The translation preserves the wildflowers (野草花) and sunset (夕阳斜) imagery while conveying a desolate, decaying atmosphere through the description of weeds and the slanting sun.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 5,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.4,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

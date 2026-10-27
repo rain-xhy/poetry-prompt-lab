@@ -1,0 +1,67 @@
+{
+  "translation_id": "M04_S5_T3_Qwen3_r1",
+  "anon_code": "T_c599a9a5",
+  "poem_id": "M04",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "If two hearts are as deep as time, then what is the difference between day and as long as",
+        "evidence_found": false,
+        "reasoning": "The translation does not correctly express the condition 'if' and 'long time' as required; it uses a metaphorical comparison instead of a direct condition clause.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "If two hearts are as deep as time, then what is the difference between day and as the difference between day and night?",
+        "evidence_found": false,
+        "reasoning": "The translation uses a rhetorical question to imply that constant presence is unnecessary, matching the original's meaning of 'not needing daily presence'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "If two hearts are as deep as time, then what is the difference between day and as deep as time, then what is the difference between day and night?",
+        "evidence_found": false,
+        "reasoning": "The phrase 'If two hearts are as deep as time' implies continuous time, and 'what is the difference between day and night' shows the continuous nature of time, meeting both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "If two hearts are as deep as time, then what is the difference between day and as deep as time, then what is the difference between day and night?",
+        "evidence_found": false,
+        "reasoning": "The translation maintains the conditional structure 'if...then...' and the rhetorical question 'what is the difference...' which reflects the original's condition and counterquestion logic.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 1.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

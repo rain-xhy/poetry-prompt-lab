@@ -1,0 +1,67 @@
+{
+  "translation_id": "M10_S5_T3_Qwen25_r2",
+  "anon_code": "T_2775e00e",
+  "poem_id": "M10",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wildfires cannot consume it all",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Wildfires cannot consume it all' directly uses 'cannot' to express the negative meaning and implies the grass does not burn completely, matching the requirement for '烧不尽' with a negative and personified meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Spring breezes make it grow again.",
+        "evidence_found": true,
+        "reasoning": "The English translation explicitly states that spring breezes cause the grass to regrow, fulfilling both the requirement of expressing 'again growth' and the role of spring breeze in the regrowth process.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wildfires cannot consume it all, Spring breezes make it grow again.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly shows the grass surviving wildfires and regrowing with spring breezes, preserving the personification of grass as resilient and active.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wildfires cannot consume it all, Spring breezes make it grow again.",
+        "evidence_found": true,
+        "reasoning": "The translation directly conveys the cyclical nature of resilience through wildfires and spring breezes, meeting both conditions of expressing tenacity and the 'burn again' cycle.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

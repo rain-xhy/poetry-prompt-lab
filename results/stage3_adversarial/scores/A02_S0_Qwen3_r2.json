@@ -1,0 +1,58 @@
+{
+  "translation_id": "A02_S0_Qwen3_r2",
+  "anon_code": "T_1e86b5d5",
+  "poem_id": "A02",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Knowing how many flowers fall",
+        "evidence_found": true,
+        "reasoning": "The phrase 'knowing how many flowers fall' directly indicates that the subject of 'fall' is flowers, fulfilling the requirement that the subject of 'fall' changed from 'I' to 'flowers'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Knowing how many flowers fall",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Knowing how many flowers fall' directly expresses the cognitive ability of the flowers to know their own fall, fulfilling the requirement of expressing the flowers' cognition.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Spring sleep does not wake me up, All over the place, the birds sing. The rain came last night, a sound loud, Knowing how many flowers fall.",
+        "evidence_found": true,
+        "reasoning": "The translation does not match the original poem's meaning as it misrepresents the structure and content of the classical Chinese poem 'Spring Dawn' (春晓). The original poem describes waking up to find birds singing and rain that has fallen, but the translation incorrectly states 'the rain came last night, a sound loud' and 'knowing how many flowers fall', which are not accurate representations of the original poem's meaning.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 1,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 1.95,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

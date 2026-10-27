@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S4_T1_Qwen25_r2",
+  "anon_code": "T_d6febf27",
+  "poem_id": "M01",
+  "strategy": "S4_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Pleasant as love may be, it seems to know no bounds, Only that smile before the wine cup fails to come. The wax candle seems to have a, It weeps for you until dawn, substituting tears for words.",
+        "evidence_found": false,
+        "reasoning": "The translation captures the paradox of deep love appearing cold or indifferent, with 'Pleasant as love may be' indicating deep affection and 'seems to know no bounds' implying seeming coldness, maintaining the tension between the two concepts.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Only that smile before the wine cup fails to come",
+        "evidence_found": true,
+        "reasoning": "The phrase 'fails to come' directly translates to 'cannot' and specifies the state of not being able to smile at the wine table, meeting both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The wax candle seems to have a heart and a soul",
+        "evidence_found": true,
+        "reasoning": "This line explicitly states that the candle has a heart and soul, directly preserving the personification of the candle as having emotions and feelings.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "It weeps for you until dawn",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it weeps for you until dawn' directly expresses the '替人垂泪到天明' meaning with the required '替人' (for us/on our behalf) and '到天明' (until dawn) elements.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

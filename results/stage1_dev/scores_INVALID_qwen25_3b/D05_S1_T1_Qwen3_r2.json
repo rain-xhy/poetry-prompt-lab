@@ -1,0 +1,62 @@
+{
+  "translation_id": "D05_S1_T1_Qwen3_r2",
+  "anon_code": "T_4a7de398",
+  "poem_id": "D05",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of death and life, two miles apart, neither thinking nor remembering.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '十年生死两茫茫' and does not express the concept of '生者与逝者两相隔绝、彼此渺茫'",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of death and life, two miles apart, neither thinking nor remembering.",
+        "evidence_found": true,
+        "reasoning": "The translation contains the phrase 'Ten years of death and life, two miles apart, neither thinking nor remembering.' which contradicts the original phrase '不思量' (not thinking about it).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A thousand miles of lonely grave",
+        "evidence_found": true,
+        "reasoning": "The translation contains the exact phrase 'a thousand miles of lonely grave', which satisfies one of the pass conditions. However, the translation does not contain the word 'lonely' or 'lonely grave' as a whole, thus failing to satisfy the condition of having '相隔千里的孤独坟墓' (a lonely grave separated by a thousand miles).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A thousand miles of lonely grave, where I cannot express my sorrow.",
+        "evidence_found": true,
+        "reasoning": "The phrase '没有地方、没有人可诉说凄凉' is not preserved in the translation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 2,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.15,
+    "valid": true
+  }
+}

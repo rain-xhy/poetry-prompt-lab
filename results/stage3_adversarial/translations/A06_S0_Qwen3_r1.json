@@ -1,0 +1,19 @@
+{
+  "id": "A06_S0_Qwen3_r1",
+  "poem_id": "A06",
+  "trap_type": "personification_reversal",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n多情却似总无情，唯觉尊前笑不成。\n人有心还惜别，替烛垂泪到天明。",
+  "prompt_sha256": "1f13466cd1a880f9ac317183ee016533368463d80c836755fa4b1fc17d938270",
+  "translation": "Delicate yet full of emotion, he is always indifferent,  \nOnly sensing the sorrow in the face of those he loves, unable to smile.  \nWhen people have hearts, they still cherish parting,  \nAnd weep until the morning light shines bright.",
+  "metadata": {
+    "input_tokens": 57,
+    "output_tokens": 53,
+    "latency_ms": 516.3781642913818,
+    "timestamp": "2026-10-26T21:50:02.248480",
+    "finish_reason": "stop"
+  }
+}

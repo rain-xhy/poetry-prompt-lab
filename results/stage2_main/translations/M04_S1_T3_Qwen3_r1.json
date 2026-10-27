@@ -1,0 +1,19 @@
+{
+  "id": "M04_S1_T3_Qwen3_r1",
+  "poem_id": "M04",
+  "trap_type": "情感反差",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n两情若是久长时，又岂在朝朝暮暮。",
+  "prompt_sha256": "da0e14651832efcf52b5b7fd8d3f803b5c049fa81678eed49c77fa3d5a5d7715",
+  "translation": "When two hearts are truly devoted, it matters not whether they meet each day or not.  \n\n[This poem reflects the idea that enduring love transcends time and distance, emphasizing the depth of emotional connection over the fleeting nature of physical presence.]\n\nThe core message is about the lasting nature of true love, contrasting the transient pleasures of daily companionship with the eternal quality of a devoted heart.",
+  "metadata": {
+    "input_tokens": 211,
+    "output_tokens": 78,
+    "latency_ms": 11438.20309638977,
+    "timestamp": "2026-10-26T20:26:17.044023",
+    "finish_reason": "stop"
+  }
+}

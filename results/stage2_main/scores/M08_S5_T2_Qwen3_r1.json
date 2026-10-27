@@ -1,0 +1,67 @@
+{
+  "translation_id": "M08_S5_T2_Qwen3_r1",
+  "anon_code": "T_34ae0943",
+  "poem_id": "M08",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Silent mountains, no figures seen, Yet the sound of voices reaches me.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly contrast '看不见' (can't see) and '听得见' (can hear) as required; it states 'no figures seen' but does not specify that the voices are heard, and 'reaches me' implies the sound is perceived rather than the direct contrast of visibility and audibility.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Sunlight filters into the woods,",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Sunlight filters into the woods' directly expresses the dynamic movement of sunlight entering the deep forest as required by the original phrase '返景入深林' with '返景' interpreted as sunset.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Again it shines upon the moss.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Again it shines upon the moss' directly translates the required meaning of '又照在青苔上' with 'again' representing '又/再次' and 'moss' representing '青苔', fulfilling both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Silent mountains, no figures seen, Yet the sound of voices reaches me. Sunlight filters into the woods, Again it shines upon the moss.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Silent mountains, no figures seen' conveys the emptiness and quietness of the mountains, which aligns with '空旷、幽静的山' (vast, quiet mountains).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

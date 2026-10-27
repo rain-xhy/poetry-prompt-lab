@@ -1,0 +1,57 @@
+{
+  "translation_id": "D06_S3_T1_Qwen3_r1",
+  "anon_code": "T_3628e0af",
+  "poem_id": "D06",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The wind knocks at the door for me",
+        "evidence_found": true,
+        "reasoning": "The phrase '在远处想象得知' is not preserved in the translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The deeper the feeling, the plainer the words",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the main subject '兄弟们' (brothers) and the phrase '登高之处' (the place to climb the heights).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The translation does not mention '茱萸' or 'dogwood sprigs' and does not express the idea of 'everybody wearing/putting on dogwood'",
+        "evidence_found": false,
+        "reasoning": "The translation focuses on the feeling of autumn and the image of a single person standing in the autumn breeze, without mentioning the phrase '遍插茱萸' or the idea of wearing dogwood.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The wind knocks at the door for me",
+        "evidence_found": true,
+        "reasoning": "The phrase '少一人' is not preserved in the translation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\"adequacy\":1,\"imagery\":0,\"emotion\":1,\"fluency\":2,\"poetic_quality\":0}"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M13_S4_T1_Qwen3_r2",
+  "anon_code": "T_4df0b436",
+  "poem_id": "M13",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no bird flies",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no bird flies' directly translates to the required meaning of 'no birds/not a single bird' and captures the absolute negation of birds flying as specified by '绝' (extreme sense).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no person is seen",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no person is seen' directly translates the concept of '人踪灭' as 'human traces disappear' with absolute negation, capturing the '灭' (extinction/disappearance) sense.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A solitary boat, its old cloak and hat worn, stands alone, casting the cold snow in the frozen river.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A solitary boat' emphasizes 'alone' and 'stands alone' directly conveys the action of '垂钓' (fishing) in context.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Beyond the boundless mountains, no bird flies; through every path, no person is seen. A solitary boat, its old cloak and hat worn, stands alone, casting the cold snow in the frozen river.",
+        "evidence_found": true,
+        "reasoning": "The translation effectively conveys the vastness of space with 'boundless mountains' and 'every path', while emphasizing solitude through 'no bird flies', 'no person is seen', and 'solitary boat', creating a clear contrast between the expansive landscape and the isolated individual.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

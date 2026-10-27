@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S1_T3_Qwen3_r3",
+  "anon_code": "T_20d6b6ef",
+  "poem_id": "M01",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The poet's heart is full of emotion yet seems to be devoid of feeling",
+        "evidence_found": true,
+        "reasoning": "This phrase directly captures the paradoxical tension between deep emotion and seeming coldness as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The poet's heart is full of emotion yet seems to be devoid of feeling, yet he feels deeply moved by the laughter of his companion.",
+        "evidence_found": true,
+        "reasoning": "The translation describes the poet feeling moved by laughter, which contradicts the requirement of 'unable to/cannot smile' at the wine table.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The candle, with a heart of its own, mourns the parting and sheds tears for him, enduring until the dawn.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the candle has a heart (拟人化) and mourns parting (惜别), fulfilling both conditions of the pass.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the candle, with a heart of its own, mourns the parting and sheds tears for him, enduring until the dawn",
+        "evidence_found": true,
+        "reasoning": "The phrase 'sheds tears for him' explicitly shows '替人/for us/on our behalf' relationship, and 'enduring until the dawn' directly corresponds to '到天明/until dawn/till morning' time continuation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.95,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M08_S5_T3_Qwen25_r3",
+  "anon_code": "T_a2e8f6ed",
+  "poem_id": "M08",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no one to be seen, Only the sound of human voices can be heard",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts 'no one to be seen' (看不见人) with 'only the sound of human voices can be heard' (听得见说话声), fulfilling the requirement to preserve the contrast between '看不见' and '听得见' without implying 'no one'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The fading light returns to the deep forest",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The fading light returns to the deep forest' directly expresses the dynamic movement of sunlight (as 'fading light') returning to the deep forest, fulfilling the requirement that '返景' refers to the setting sun and the translation captures the dynamic aspect of light entering the deep forest.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "And once again, it shines on the moss green.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'once again' directly translates '又/再次' and 'shines on the moss green' corresponds to '照在青苔上' with 'moss' representing '青苔' and 'green' indicating the color.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The mountain is silent, no one to be seen",
+        "evidence_found": true,
+        "reasoning": "This line conveys the emptiness and quietness of the mountain, matching the requirement for '空旷、幽静的山' without denying the existence of the mountain.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

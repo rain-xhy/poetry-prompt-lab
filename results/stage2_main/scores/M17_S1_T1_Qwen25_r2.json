@@ -1,0 +1,67 @@
+{
+  "translation_id": "M17_S1_T1_Qwen25_r2",
+  "anon_code": "T_429208eb",
+  "poem_id": "M17",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling could never truly be forgotten, For it was but a fleeting, sorrowful dream. Now in hindsight, it seems so faint and lost, A poignant moment that time could not erase.",
+        "evidence_found": true,
+        "reasoning": "The translation focuses on the feeling being forgotten and the dream-like quality, but does not explicitly use a question structure or convey the 'waiting to become a memory' aspect as required by the Chinese phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Now in hindsight, it seems so faint and lost, A poignant moment that time could not erase.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Now in hindsight, it seems so faint and lost' conveys the completed past feeling with 'already' (faint and lost implies past completion), and 'A poignant moment that time could' implies the past event that time could not erase, fulfilling the requirement of past tense and 'already' completion sense.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling could never truly be forgotten",
+        "evidence_found": true,
+        "reasoning": "The phrase 'This feeling' directly refers to the emotional context of 'this feeling' in the original Chinese phrase '此情', and the translation explicitly addresses the emotional aspect with 'could never truly be forgotten', fulfilling both the clear reference and emotional vocabulary requirements.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling could never truly be forgotten, For it was but a fleeting, sorrowful dream. Now in hindsight, it seems so faint and lost, A poignant moment that time could not erase.",
+        "evidence_found": true,
+        "reasoning": "The translation effectively contrasts future memory (\"could never truly be forgotten\") with past experience (\"fleeting, sorrowful dream\" and \"in hindsight\") while maintaining complex tense interplay.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

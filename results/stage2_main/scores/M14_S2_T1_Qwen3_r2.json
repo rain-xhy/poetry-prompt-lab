@@ -1,0 +1,67 @@
+{
+  "translation_id": "M14_S2_T1_Qwen3_r2",
+  "anon_code": "T_51e7c5c3",
+  "poem_id": "M14",
+  "strategy": "S2_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "But if the brave general of Longcheng were still here",
+        "evidence_found": true,
+        "reasoning": "The phrase 'But if the brave general of Long as long as' in the translation uses the conditional 'if' to express the assumption that the general is still present, fulfilling the requirement for a condition clause with the appropriate tone.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The northern nomads would never cross the dark mountain",
+        "evidence_found": true,
+        "reasoning": "The phrase 'would never cross' expresses a definitive prevention of the nomads from crossing the mountain, matching the required meaning of 'not allow/prevent' with an active stopping action.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "But if the brave general of Longcheng were still here, The northern nomads would never cross the dark mountain.",
+        "evidence_found": true,
+        "reasoning": "The conditional phrase 'But if the brave general of Long: 1. The phrase 'But if' establishes a clear conditional clause, 2. 'were still here' indicates a hypothetical situation, 3. 'The northern nomads would never cross the dark mountain' shows the result of the condition being met, thus preserving the condition-result logic.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The brave general of Longcheng",
+        "evidence_found": true,
+        "reasoning": "The phrase 'brave general of Longcheng' directly refers to a historical military figure associated with border defense, meeting the requirement of '边关名将（历史典故）' and conveying a formidable military image.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

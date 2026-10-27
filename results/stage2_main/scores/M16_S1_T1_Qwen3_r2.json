@@ -1,0 +1,67 @@
+{
+  "translation_id": "M16_S1_T1_Qwen3_r2",
+  "anon_code": "T_cf5d2b32",
+  "poem_id": "M16",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "the crow's call echoes over the moss-covered inn",
+        "evidence_found": true,
+        "reasoning": "The original phrase '鸡声茅店月' refers to the image of a chicken's crow, a thatched cottage, and the moon, but the translation uses 'crow's call' instead of 'chicken's crow', and does not mention the moon at all.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The path is lined with frost",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'frost' but does not include the three required imagery elements: human footprints, wooden bridge, and frost on the bridge. The phrase 'the path is lined with frost' only covers the frost element, while the original Chinese phrase '人迹板桥霜' specifically refers to human footprints on a wooden bridge covered in frost.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I think of the Du Ling dream",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I think of the Du Ling dream' directly expresses recalling a dream from Du Ling, meeting both conditions of expressing memory and being a dream.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "the swans are full in the back pond",
+        "evidence_found": true,
+        "reasoning": "The phrase 'swans are full in the back pond' does not convey the 'curved/winding pond' aspect required by the pass conditions, as it only mentions a pond without indicating its shape or curvature.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

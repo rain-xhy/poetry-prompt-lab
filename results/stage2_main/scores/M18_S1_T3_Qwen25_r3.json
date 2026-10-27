@@ -1,0 +1,62 @@
+{
+  "translation_id": "M18_S1_T3_Qwen25_r3",
+  "anon_code": "T_0ca907ac",
+  "poem_id": "M18",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "helpless",
+        "evidence_found": true,
+        "reasoning": "The phrase 'helpless' directly conveys the sense of helplessness or resignation from '无可奈何', and the action of the flower falling is implied through the context of the translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "the swallows return as if they have been seen before",
+        "evidence_found": false,
+        "reasoning": "The translation captures the 'seem familiar' aspect through 'as if they have been seen before' and the 'swallows returning' action, meeting both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "the flower falls away while the swallow returns",
+        "evidence_found": false,
+        "reasoning": "The phrase 'the flower falls away while the swallow returns' directly contrasts the departure and return of the flower and swallow, fulfilling the requirement of showing the contrast in direction between '花落去' and '燕归来'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "time flows",
+        "evidence_found": false,
+        "reasoning": "The phrase 'time flows' directly conveys the concept of time passing, fulfilling the first condition of expressing time's passage.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\n  \"original\": \"无可奈何花落去，似曾相识燕归来。\",\n  \"reference_notes\": {\n    \"无可奈何花落去\": \"无力挽留地看着花落。要点：无奈、无力的情感。\",\n    \"似曾相识燕归来\": \"归来的燕子仿佛曾经见过。要点：'似曾相识'的模糊感。\",\n    \"花落去vs燕归来\": \"离去与归来的对比。要点：去与来的对比结构。\",\n    \"时间流逝的感慨\": \"对时光流逝、物是人非的感慨。要点：时间、变化的主题。\"\n  },\n  \"translation\": \"**English Translation:**\",\n  \"notes\": [\n    \"- The poem uses personification to give human-like qualities to the flower (falling) and the swallow (returning), making these natural phenomena more relatable and emotional.\",\n    \"- \\\"无可奈何\\\" (wú kě nài hé) expresses a sense of helplessness or resignation, which is conveyed through the metaphorical references to the flower and the swallow.\"\n  ]\n}"
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M09_S5_T2_Qwen3_r1",
+  "anon_code": "T_d03a769d",
+  "poem_id": "M09",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Moon falls, cranes call, frost covers the sky. Jiang side, red maple, fishing fire—sleeps with sorrow.",
+        "evidence_found": true,
+        "reasoning": "The translation introduces additional elements (Jiang side, red as well as the phrase 'sleeps with sorrow') that are not present in the original Chinese phrase, thus it does not strictly preserve the three original意象 without establishing causal relationships.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "sleeps with sorrow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'sleeps with sorrow' directly implies facing sorrow while sleeping, satisfying both conditions: '面对愁绪而眠' (facing sorrow while sleeping) and '愁绪伴随睡眠' (sorrow accompanies sleep).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Jiang side, red maple, fishing fire—sleeps with sorrow.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Jiang side, red maple, fishing fire' does not correctly preserve the two required意象 (江枫 and 渔火) as separate, distinct elements; 'fishing fire' is a mistranslation of '渔火' (fishing fire) and the phrase structure does not maintain the required parallelism between the two意象.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Moon falls, cranes call, frost covers the sky. Jiang side, red maple, fishing fire—sleeps with sorrow.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys a lonely and cold atmosphere through imagery of moonlight, cranes, frost, and sorrowful sleep, avoiding any joyful elements.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

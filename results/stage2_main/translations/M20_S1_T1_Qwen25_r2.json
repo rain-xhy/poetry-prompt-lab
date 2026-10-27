@@ -1,0 +1,19 @@
+{
+  "id": "M20_S1_T1_Qwen25_r2",
+  "poem_id": "M20",
+  "trap_type": "时态叙事",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n我住长江头，君住长江尾。\n日日思君不见君，共饮长江水。",
+  "prompt_sha256": "a184c0a7996c4471300b06ea2e35c8bd3e5def217c17eef294fa26a8e2107897",
+  "translation": "I dwell in the upper reaches of the Yangtze,\nYou in the lower still stand.\nDay after day I think of you yet cannot see you,\nSharing the waters of the Yangtze we two.",
+  "metadata": {
+    "input_tokens": 246,
+    "output_tokens": 43,
+    "latency_ms": 12405.149698257446,
+    "timestamp": "2026-10-26T20:53:41.097832",
+    "finish_reason": "stop"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M09_S5_T1_Qwen3_r2",
+  "anon_code": "T_1f06a1dc",
+  "poem_id": "M09",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The moon has fallen, the cranes have cried, and frost has covered the sky. On the riverbank, the willows are bare, and the fishing fires shine in solitude. The wind knocks at the door for me.",
+        "evidence_found": true,
+        "reasoning": "The translation introduces additional elements (riverbank, willows, fishing fires) beyond the original three意象 (moon, cranes, frost), violating the requirement of preserving only three意象.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The wind knocks at the door for me.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The wind knocks at the door for me' does not explicitly convey 'facing' or 'confronting' sorrowful feelings while sleeping, as required by the original phrase '对愁眠' which implies facing sorrowful emotions during sleep.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "On the riverbank, the willows are bare, and the fishing fires shine in solitude.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'on the riverbank' corresponds to 江边 (riverbank), 'the willows are bare' implies the absence of leaves (which is a common poetic device for autumnal scenes), and 'fishing fires' directly translates to 渔火 (fishing lights). The translation explicitly mentions both 江边枫树 (riverbank maple trees) and 渔火 (f as two distinct elements in parallel structure.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The wind knocks at the door for me.",
+        "evidence_found": true,
+        "reasoning": "The phrase conveys a sense of solitude and melancholy, fitting the required meaning of '夜泊的孤寂凄凉' without being joyful.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

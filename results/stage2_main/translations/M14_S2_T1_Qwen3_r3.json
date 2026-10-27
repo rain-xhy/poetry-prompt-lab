@@ -1,0 +1,19 @@
+{
+  "id": "M14_S2_T1_Qwen3_r3",
+  "poem_id": "M14",
+  "trap_type": "否定逻辑",
+  "strategy": "S2_T1",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nSemantic Analysis (in Chinese):\n“但使...在”：只要...在（条件假设）。要点：条件假设的语气。\n“不教...度”：不让...越过（否定+使动）。要点：禁止、不让的主动否定。\n“但使...不教”：条件-结果的逻辑关系。要点：如果将军在，就不让敌人越山。\n“龙城飞将”：边关名将（历史典故）。要点：名将的身份和威慑力。\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n秦时明月汉时关，万里长征人未还。\n但使龙城飞将在，不教胡马度阴山。",
+  "prompt_sha256": "8f70d20668e5780867748285270c3fc6b9f9ff3d9cca0a988bc7758349a5c71a",
+  "translation": "In times of the Qin, the moon shone over the Han frontier, and the great wall stood as a symbol of vigilance. The journey across ten thousand miles left no man behind, yet the spirit of the soldiers remained unbroken. If the hero of the eastern frontier were still here, the nomads would never dare to cross the mountain pass.\n\n[The term \"龙城飞将\" refers to a legendary general from history, known for his martial prowess and ability to repel invaders.]",
+  "metadata": {
+    "input_tokens": 344,
+    "output_tokens": 101,
+    "latency_ms": 11496.21033668518,
+    "timestamp": "2026-10-26T21:20:56.417535",
+    "finish_reason": "stop"
+  }
+}

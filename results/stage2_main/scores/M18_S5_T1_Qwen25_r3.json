@@ -1,0 +1,67 @@
+{
+  "translation_id": "M18_S5_T1_Qwen25_r3",
+  "anon_code": "T_7a96c6de",
+  "poem_id": "M18",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "There's nothing we can do as flowers fall away,",
+        "evidence_found": true,
+        "reasoning": "The translation includes the phrase 'There's nothing we can do as flowers fall away,' which expresses the feeling of helplessness regarding the falling flowers, but it does not explicitly convey the action of watching the flowers fall (the 'watching' aspect) as required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "And yet the swallows come back as if we've met before.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'swallows come back as if we've met before' captures the '燕子归来的动作' (swallows returning) but does not explicitly convey '似曾相识' (seem familiar) as 'we've met before' implies a past meeting rather than a sense of familiarity from past experience.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Flowers depart, swallows return, life’s ebb and flow",
+        "evidence_found": true,
+        "reasoning": "This line explicitly contrasts the departure of flowers (离去) with the return of swallows (归来), capturing the directional contrast required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Flowers depart, swallows return, life’s ebb and: time's inexorable flow",
+        "evidence_found": false,
+        "reasoning": "The translation conveys time passing (flowers departing) and the feeling of people and things changing (swallows returning as if met before), reflecting the sentiment of time's passage and the impermanence of things.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

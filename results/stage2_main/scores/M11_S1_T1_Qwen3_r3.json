@@ -1,0 +1,67 @@
+{
+  "translation_id": "M11_S1_T1_Qwen3_r3",
+  "anon_code": "T_37b5040f",
+  "poem_id": "M11",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "it seems as if the frost has fallen upon the ground",
+        "evidence_found": true,
+        "reasoning": "The phrase uses 'seems as if' to indicate uncertainty and matches the requirement of using a speculative verb phrase without stating a definite fact.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "He raises his head to gaze at the moon, yet lowers his gaze to think of his homeland.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly shows the sequence of actions (raising head to gaze at moon, lowering gaze to think of homeland) and implies that gazing at the moon leads to thoughts of home.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Before the moonlight on the mat, clear and bright, it seems as if the frost has fallen upon the ground.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve '床前' as a fixed phrase and the phrase '月光明亮' is not directly expressed in the given English text.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Before the moonlight on the mat, clear and bright, it seems as if the frost has fallen upon the ground. He raises his head to gaze at the moon, yet lowers his gaze to think of his homeland.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys a sense of tranquility through the moonlight and frost imagery, and expresses solitude and homesickness through the contrast between gazing at the moon and thinking of the homeland.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M20_S0_Qwen25_r1",
+  "anon_code": "T_1e8e79f2",
+  "poem_id": "M20",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "I dwell by the head of the Yangtze, You dwell by the tail of the Yang: I dwell by the head of the Yangtze, You dwell by the tail of the Yangtze.",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly contrasts the two positions (head vs tail of the Yangtze) with clear head and tail opposition, fulfilling the requirement for spatial parallelism and contrast.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Day and night I think of you yet cannot see you",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Day and night' expresses continuous daily thought, and 'cannot see you' directly addresses the contradiction between longing and not being able to meet.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Sharing the waters of the Yangtze we two",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Sharing the waters of the Yangtze we two' directly reflects the '共饮长江水' meaning with 'sharing' indicating the commonality of '共' and 'waters of the Yangtze' corresponding to '长江水', fulfilling both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell by the head of the Yangtze, You dwell by the tail of the Yangtze.",
+        "evidence_found": true,
+        "reasoning": "This line explicitly shows physical separation (head vs tail of Yangtze River) while maintaining a symbolic emotional connection through shared water.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

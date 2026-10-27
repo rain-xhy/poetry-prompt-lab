@@ -1,0 +1,58 @@
+{
+  "translation_id": "A07A_S5_T1_Qwen3_r3",
+  "anon_code": "T_36b6f994",
+  "poem_id": "A07A",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Careful slip into the river",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Careful slip into the river' does not convey the meaning of '能否从歧义版推断出正确否定' which requires checking if the ambiguous version can infer the correct negation, but the translation provided does not address negation or ambiguity in the context of the poem.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The deeper the feeling, the plainer the words\nThe more the spring waits, the more the traveler goes",
+        "evidence_found": true,
+        "reasoning": "The translation captures the meaning of '明确版本应该正确' by emphasizing the relationship between the spring's waiting and the traveler's departure, showing that the version should be correct through the contrast of feelings and actions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The deeper the feeling, the plainer the words\nThe more the spring waits, the more the traveler goes",
+        "evidence_found": true,
+        "reasoning": "The English translation captures the meaning of the original Chinese phrase by expressing the relationship between the spring's waiting and the traveler's departure, maintaining consistent meaning across both versions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

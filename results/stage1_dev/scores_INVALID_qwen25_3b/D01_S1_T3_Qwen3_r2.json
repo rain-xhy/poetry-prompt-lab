@@ -1,0 +1,62 @@
+{
+  "translation_id": "D01_S1_T3_Qwen3_r2",
+  "anon_code": "T_1ca87b4c",
+  "poem_id": "D01",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling cannot be erased, for when it falls, it rises again.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express '愁绪无法排遣' which means 'cannot be eliminated' and '愁绪' (chóu xù) is not preserved. Instead, it translates to 'cannot be erased' which is a different phrase and does not preserve the original meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling cannot be erased, for when it falls, it rises again.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express '愁刚从眉间离开' (the feeling just left from the brow). It only conveys the general idea of a recurring feeling, but does not specify the context of the brow or the phrase '愁刚从眉间离开'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling cannot be erased, for when it falls, it rises again.",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the exact phrase '愁又涌上心头' and does not explicitly state that the feeling is '愁' (a sense of sorrow or melancholy). The translation focuses on the idea of the feeling recurring, but does not preserve the specific emotional context and the exact phrase from the original.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling cannot be erased, for when it falls, it rises again.",
+        "evidence_found": true,
+        "reasoning": "The translation only repeats the same phrase twice without forming a clear connection between the two sentences and does not capture the essence of the original phrase '才下……却上' which implies a cyclical or recurrent nature of the feeling.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 1,
+    "overall": 3.6,
+    "valid": true
+  }
+}

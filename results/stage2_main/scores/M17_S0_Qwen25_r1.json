@@ -1,0 +1,67 @@
+{
+  "translation_id": "M17_S0_Qwen25_r1",
+  "anon_code": "T_76a6516a",
+  "poem_id": "M17",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling could not be forgotten, alas, for it was already sorrowful at the time.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express a future state of becoming a memory (as required by '可待成追忆') but instead describes a past sorrowful state that was already forgotten, which contradicts the requirement of expressing a future becoming a memory.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling could not be forgotten, alas, for it was already sorrowful at the time.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'was already sorrowful' which implies a past state but does not explicitly convey the completed aspect with 'already' as required by the original phrase's meaning of 'already sorrowful at the time'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling could not be forgotten, alas, for it was already sorrowful at the time.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly convey the 'this feeling' or 'this emotion' as a specific emotional state, but rather describes a feeling that cannot be forgotten and was sorrowful. The phrase 'this feeling' is not directly present in the translation, and the translation focuses on the sorrowful aspect rather than the emotional state itself.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling could not be forgotten, alas, for it was already sorrowful at the time.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the contrast between future memory ('could not be forgotten') and past sorrow ('was already sorrowful at the time'), showing the complex tense interplay as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 1.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

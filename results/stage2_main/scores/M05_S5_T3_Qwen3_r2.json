@@ -1,0 +1,67 @@
+{
+  "translation_id": "M05_S5_T3_Qwen3_r2",
+  "anon_code": "T_d002f375",
+  "poem_id": "M05",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Seeking and searching, filled with loneliness, and filled with sorrow. The cold, empty, and sorrowful.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly convey the repetitive or continuous nature of the search action, which is essential for preserving the meaning of '反复寻找的动作' (repeatedly searching). The phrase 'Seeking and searching' uses repetition but is followed by descriptions of emotional states and conditions rather than emphasizing the ongoing, repetitive motion of searching.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The cold, empty, and sorrowful.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The cold, empty, and sorrowful' directly conveys the cold, desolate, and melancholic environment as required, and the context implies a progression from the previous line's loneliness to this state of coldness and sorrow.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking and searching, filled with loneliness, and filled with sorrow. The cold, empty, and sorrowful.",
+        "evidence_found": true,
+        "reasoning": "The translation captures deep sorrow through layered expressions of loneliness, searching, and emotional coldness, meeting both conditions of profound sadness and emotional progression.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking and searching, filled with loneliness, and filled with sorrow. The cold, empty, and sorrowful.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly shows the progression from actions (seeking and searching) to environment (cold, empty) to emotion (sorrow, loneliness), maintaining the required order without disruption.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 1.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

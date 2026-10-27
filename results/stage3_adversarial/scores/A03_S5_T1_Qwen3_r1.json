@@ -1,0 +1,58 @@
+{
+  "translation_id": "A03_S5_T1_Qwen3_r1",
+  "anon_code": "T_b6f5e936",
+  "poem_id": "A03",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Want to speak but it stops, yet say \"the autumn is cool and pleasant.\" The wind knocks at the door for me, but I cannot speak.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the internal conflict of wanting to speak but stopping, as seen in 'Want to speak but it stops' and 'I cannot speak', directly reflecting the '想说-但止住' contradiction.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Want to speak but it stops, yet say \"the autumn is cool and pleasant.\"",
+        "evidence_found": true,
+        "reasoning": "The translation captures the contrast between suppressed emotion and surface words, with 'yet say' indicating the surface speech that '却道' implies.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Want to speak but it stops, yet say \"the autumn is cool and pleasant.\" The wind knocks at the door for me, but I cannot speak.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the internal emotional conflict and the inability to express oneself, showing the contrast between inner feelings and external expression as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.4,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

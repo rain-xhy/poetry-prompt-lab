@@ -1,0 +1,76 @@
+{
+  "translation_id": "D03_S3_only_Qwen3_r1",
+  "anon_code": "T_8206da1e",
+  "poem_id": "D03",
+  "strategy": "S3_only",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Drink to the last drop of this one drink, West of the Yang Guan, there is no old friend.",
+        "evidence_found": true,
+        "reasoning": "The translation does not convey the meaning of 'I urge you to drink one more cup' as required; it describes a location and a statement about friends rather than the speaker's action urging the listener to drink.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "West of the Yang Guan",
+        "evidence_found": true,
+        "reasoning": "The phrase 'West of the Yang Guan' directly translates to '向西出了阳关' as it specifies the west direction and the Yang Guan pass.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "there is no old friend",
+        "evidence_found": true,
+        "reasoning": "The phrase 'there is no old friend' directly translates to '没有老朋友' as required, and does not expand the meaning to 'no one at all'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Drink to the last drop of this one drink, West of the Yang Guan, there is no old friend.",
+        "evidence_found": true,
+        "reasoning": "The translation connects the act of drinking (劝酒) with the absence of old friends (无故人) by stating that west of Yang Guan there is no old friend, implying the reason for drinking again.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 3.9,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

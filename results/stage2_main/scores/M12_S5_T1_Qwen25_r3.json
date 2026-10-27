@@ -1,0 +1,67 @@
+{
+  "translation_id": "M12_S5_T1_Qwen25_r3",
+  "anon_code": "T_517a56b9",
+  "poem_id": "M12",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see farther, one must climb one more step.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'To see farther' uses the verb 'to' with the infinitive 'see' to express the purpose, and 'farther' implies the 'thousand miles' concept by indicating a greater distance beyond the current view.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see farther, one must climb one more step.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'must climb one more step' directly expresses the requirement to take an additional step, fulfilling the condition of needing to go up one more level as a means to achieve a greater view.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see farther, one must climb one more step.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the purpose (to see farther) and the means (climb one more step), maintaining the logical relationship between the two.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The sun sets behind the mountains, the Yellow River flows into the sea.",
+        "evidence_found": true,
+        "reasoning": "The translation directly preserves the two distinct images of the sun setting behind mountains and the Yellow River flowing into the sea, conveying a vast and expansive sense of scale without additional content.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

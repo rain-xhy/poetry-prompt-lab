@@ -1,0 +1,67 @@
+{
+  "translation_id": "M10_S3_T1_Qwen3_r1",
+  "anon_code": "T_d595b433",
+  "poem_id": "M10",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wild fire cannot burn it all away",
+        "evidence_found": true,
+        "reasoning": "The phrase 'cannot burn it all away' directly expresses the meaning of '烧不尽' with a negative verb 'cannot' and implies the fire never completely burns it, matching the requirement for a negative expression of 'burning without end'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "spring wind brings it back again",
+        "evidence_found": true,
+        "reasoning": "The phrase 'spring wind brings it back again' directly expresses the role of spring wind in causing regrowth, fulfilling the requirement that the translation must express 'again growth' and the role of spring wind.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wild fire cannot burn it all away, and spring wind brings it back again.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states that wild fire cannot completely destroy the grass, implying the grass survives, and the spring wind regrows it, preserving the personification of grass as something that can be reborn by the wind.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wild fire cannot burn it all away, and spring wind brings it back again.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the cyclical nature of unbreakable life force through the imagery of wild fire and spring wind, directly addressing the 'burning and regrowth' cycle required by the theme.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

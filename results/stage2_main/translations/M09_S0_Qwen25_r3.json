@@ -1,0 +1,19 @@
+{
+  "id": "M09_S0_Qwen25_r3",
+  "poem_id": "M09",
+  "trap_type": "拟人意象",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n月落乌啼霜满天，江枫渔火对愁眠。",
+  "prompt_sha256": "3130991d30a52d520ee34caaba9024845af4ff80532f49ebaf7305c1aa790d80",
+  "translation": "Here is my translation of the Chinese classical poem into English:\n\n\"When the moon sets and the乌鸦 (night birds) begin to啼 (call),霜 (frost) fills the night sky. I see the江枫 (riverside maples) and渔火 (fishermen's lamps) flickering as I struggle with my愁 (sorrowful) sleep.\"\n\nPlease note that \"乌鸦\" (night birds) is typically translated as \"night birds\" rather than \"crows\" as \"乌鸦\" has a more specific connotation in this context. The term \"愁\" (sorrowful) is used to convey the poem's melancholic mood.",
+  "metadata": {
+    "input_tokens": 57,
+    "output_tokens": 138,
+    "latency_ms": 15651.032447814941,
+    "timestamp": "2026-10-26T20:36:03.884057",
+    "finish_reason": "stop"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "M03_S1_T1_Qwen3_r3",
+  "poem_id": "M03",
+  "trap_type": "情感反差",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n君问归期未有期，巴山夜雨涨秋池。\n何当共剪西窗烛，却话巴山夜雨时。",
+  "prompt_sha256": "7aa7dd687345dc628c97043aa147957d46657f30101c3fdfa8298f257f565e11",
+  "translation": "When you ask for my return date, I have none; the night rain in the Bashan Mountains fills the autumn pool.  \nWhen will we share the warmth of a western window candle? We will recount the rain of Bashan again.  \n\n[The phrase \"commonly associated with the poet\" refers to the tradition of sharing personal experiences in poetry.]",
+  "metadata": {
+    "input_tokens": 242,
+    "output_tokens": 72,
+    "latency_ms": 8976.921319961548,
+    "timestamp": "2026-10-26T20:00:33.567410",
+    "finish_reason": "stop"
+  }
+}

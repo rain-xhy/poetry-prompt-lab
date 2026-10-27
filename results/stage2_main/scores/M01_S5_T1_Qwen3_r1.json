@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S5_T1_Qwen3_r1",
+  "anon_code": "T_133d49dc",
+  "poem_id": "M01",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The depth of feeling yet seems devoid of emotion",
+        "evidence_found": true,
+        "reasoning": "The phrase directly captures 'deep love/affection' and 'seeming coldness/indifference' while maintaining the paradoxical tension between them.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I cannot smile at the wine table",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I cannot smile at the wine table' directly expresses '无法/不能笑出' (unable to smile) in the context of '酒席前' (at the wine table), meeting both pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The candle, with a heart, mourns parting",
+        "evidence_found": true,
+        "reasoning": "The phrase explicitly states the candle has a heart (拟人化) and mourns part, fulfilling the requirement of preserving the candle's personification without weakening the metaphor.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Its tears fall for others, until the dawn is spent.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'for others' explicitly shows the '替人' (for us/on our behalf) relationship, and 'until the dawn is spent' directly corresponds to '到天明' (until dawn/till morning) with time continuation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

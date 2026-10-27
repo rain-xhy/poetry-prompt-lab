@@ -1,0 +1,67 @@
+{
+  "translation_id": "M15_S3_T1_Qwen25_r3",
+  "anon_code": "T_e1a8bbc2",
+  "poem_id": "M15",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why should the羌flute lament willows",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Why should' expresses a rhetorical question implying 'there is no need to', matching the required meaning of '不必/no need to' as a negation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "For spring wind does not reach the Jade Gate Pass.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'does not reach' explicitly includes the negation and the geographical limitation as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why should the羌flute lament willows, For spring wind does not reach the Jade Gate Pass.",
+        "evidence_found": true,
+        "reasoning": "The translation correctly captures the causal relationship where the spring wind not reaching the Jade Gate Pass (the cause) leads to the ineffectiveness of lamenting willows (the effect), maintaining the original's logical structure.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why should the羌flute lament willows",
+        "evidence_found": true,
+        "reasoning": "The phrase '羌flute lament willows' directly references the羌笛 (Qiang flute) and implies the 'willows' as part of the '折杨柳' (cut willows) tradition associated with parting, fulfilling the requirement to preserve羌笛 and hint at the separation meaning of '折杨柳'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

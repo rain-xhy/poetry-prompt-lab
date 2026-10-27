@@ -1,0 +1,67 @@
+{
+  "translation_id": "M10_S1_T3_Qwen25_r3",
+  "anon_code": "T_c1481f77",
+  "poem_id": "M10",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wildfires cannot consume it entirely",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Wildfires cannot consume it entirely' directly translates to the meaning of '烧不尽' with a negative verb phrase indicating that the grass cannot be completely destroyed by wildfires, fulfilling the requirement of expressing 'burning without end' with a negative connotation and personification.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Spring breezes make it flourish anew",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Spring breezes make it flourish anew' directly expresses the required meaning of 'spring wind causing regrowth' and 'spring wind's role in renewal'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wildfires cannot consume it entirely, Spring breezes make it flourish anew.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states that wildfires cannot destroy the grass completely and spring breezes cause it to regrow, preserving the personification of grass as resilient and capable of rebirth after destruction.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wildfires cannot consume it entirely, Spring breezes make it flourish anew.",
+        "evidence_found": true,
+        "reasoning": "The translation directly conveys the cyclical nature of resilience through the imagery of wildfires and spring breezes, fulfilling both conditions of expressing '顽强、坚韧' and the '烧不尽→又生' cycle.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

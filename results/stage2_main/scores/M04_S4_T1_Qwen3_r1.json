@@ -1,0 +1,67 @@
+{
+  "translation_id": "M04_S4_T1_Qwen3_r1",
+  "anon_code": "T_c626f5ad",
+  "poem_id": "M04",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When two hearts are truly sincere, what does matter is not the fleeting days of daily visits.",
+        "evidence_found": true,
+        "reasoning": "The translation does not use a conditional clause (if/as long as) to express 'if the emotions are long-lasting' as required, but instead describes a different concept of sincerity and time.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "what does matter is not the fleeting days of daily visits",
+        "evidence_found": true,
+        "reasoning": "The phrase expresses a negation of daily visits being important, aligning with the requirement to show that one does not need to be together every day.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When two hearts are truly sincere, what does matter is not the fleeting days of daily visits.",
+        "evidence_found": true,
+        "reasoning": "The phrase does not convey the required 'time叠加感' (time accumulation) or 'frequent/duration' as specified; it focuses on the fleeting nature of time rather than continuous presence.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When two hearts are truly sincere, what does matter is not the fleeting days of daily visits.",
+        "evidence_found": true,
+        "reasoning": "The translation preserves the conditional logic by starting with 'When two hearts are truly sincere' (condition) and then states the conclusion 'what does matter is not the fleeting days of daily visits' (result), while the phrase 'the hills wish to keep the guest, yet the, the wind knocks for me' provides a contrasting element that echoes the conditional relationship.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

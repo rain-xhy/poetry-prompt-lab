@@ -1,0 +1,58 @@
+{
+  "translation_id": "A07B_S1_T1_Qwen3_r3",
+  "anon_code": "T_a8747c6e",
+  "poem_id": "A07B",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The river flows with silent sorrow, its surface a mirror of the heart's unspoken tears.",
+        "evidence_found": true,
+        "reasoning": "The translation focuses on the river's sorrow and reflection of emotions, but does not address the negation or the question of whether the ambiguous version can infer the correct negation as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Be careful not to fall into the river.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Be careful not to fall into the river' directly translates the requirement of '版本B翻译为否定' as a warning against a negative action, fulfilling the condition of explicit negation.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The river flows with silent sorrow, its surface a mirror of the heart's unspoken tears.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys the meaning of 'AB一致性' as two versions having the same meaning by expressing a consistent emotional state and reflection in the river, matching the requirement that both versions should mean the same.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 1,
+    "valid": true
+  }
+}

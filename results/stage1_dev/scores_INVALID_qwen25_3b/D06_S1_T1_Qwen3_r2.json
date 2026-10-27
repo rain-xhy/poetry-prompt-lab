@@ -1,0 +1,62 @@
+{
+  "translation_id": "D06_S1_T1_Qwen3_r2",
+  "anon_code": "T_3fd839f4",
+  "poem_id": "D06",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The poet reflects on the distant joy of brothers climbing high",
+        "evidence_found": true,
+        "reasoning": "The provided translation does not include the phrase '遥知' and instead describes a different scene involving brothers climbing high and feeling a solitary pang.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The translation does not explicitly state '兄弟们登高之处'",
+        "evidence_found": false,
+        "reasoning": "The translation mentions 'The poet reflects on the distant joy of brothers climbing high', but does not use the exact phrase '兄弟们登高之处'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The phrase '遍插茱萸' is not directly translated or preserved in the provided translation.",
+        "evidence_found": false,
+        "reasoning": "The translation does not include the phrase '遍插茱萸' or any equivalent that preserves the meaning of '每个人头上都插着茱萸'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The translation does not explicitly state '少一人' or '少了我一个人'.",
+        "evidence_found": false,
+        "reasoning": "The translation focuses on the poet's feelings of loneliness and the scene of a lone traveler, but does not directly convey the phrase '少一人' or the sentiment of being left behind.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.4,
+    "valid": true
+  }
+}

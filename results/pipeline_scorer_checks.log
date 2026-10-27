@@ -1,0 +1,21 @@
+repeat scoring:   0%|          | 0/30 [00:00<?, ?it/s]repeat scoring:   3%|▎         | 1/30 [00:22<10:49, 22.39s/it]repeat scoring:   7%|▋         | 2/30 [00:38<08:40, 18.59s/it]repeat scoring:  10%|█         | 3/30 [00:51<07:17, 16.20s/it]repeat scoring:  13%|█▎        | 4/30 [01:04<06:22, 14.72s/it]repeat scoring:  17%|█▋        | 5/30 [01:18<06:01, 14.46s/it]repeat scoring:  20%|██        | 6/30 [01:31<05:40, 14.20s/it]repeat scoring:  23%|██▎       | 7/30 [01:46<05:32, 14.46s/it]repeat scoring:  27%|██▋       | 8/30 [01:59<05:05, 13.89s/it]repeat scoring:  30%|███       | 9/30 [02:13<04:55, 14.08s/it]repeat scoring:  33%|███▎      | 10/30 [02:26<04:33, 13.67s/it]repeat scoring:  37%|███▋      | 11/30 [02:40<04:18, 13.60s/it]repeat scoring:  40%|████      | 12/30 [02:53<04:03, 13.52s/it]repeat scoring:  43%|████▎     | 13/30 [03:09<04:00, 14.13s/it]repeat scoring:  47%|████▋     | 14/30 [03:23<03:46, 14.18s/it]repeat scoring:  50%|█████     | 15/30 [03:35<03:24, 13.66s/it]repeat scoring:  53%|█████▎    | 16/30 [03:48<03:06, 13.32s/it]repeat scoring:  57%|█████▋    | 17/30 [04:01<02:51, 13.20s/it]repeat scoring:  60%|██████    | 18/30 [04:17<02:50, 14.23s/it]repeat scoring:  63%|██████▎   | 19/30 [04:31<02:33, 13.94s/it]repeat scoring:  67%|██████▋   | 20/30 [04:44<02:18, 13.87s/it]repeat scoring:  70%|███████   | 21/30 [05:01<02:12, 14.72s/it]repeat scoring:  73%|███████▎  | 22/30 [05:15<01:55, 14.41s/it]repeat scoring:  77%|███████▋  | 23/30 [05:27<01:37, 13.92s/it]repeat scoring:  80%|████████  | 24/30 [05:41<01:22, 13.82s/it]repeat scoring:  83%|████████▎ | 25/30 [05:55<01:09, 13.94s/it]repeat scoring:  87%|████████▋ | 26/30 [06:07<00:53, 13.41s/it]repeat scoring:  90%|█████████ | 27/30 [06:22<00:40, 13.64s/it]repeat scoring:  93%|█████████▎| 28/30 [06:36<00:27, 13.90s/it]repeat scoring:  97%|█████████▋| 29/30 [06:49<00:13, 13.71s/it]repeat scoring: 100%|██████████| 30/30 [07:04<00:00, 13.96s/it]repeat scoring: 100%|██████████| 30/30 [07:04<00:00, 14.15s/it]
+second model gemma2:2b:   0%|          | 0/20 [00:00<?, ?it/s]second model gemma2:2b:   5%|▌         | 1/20 [00:20<06:21, 20.05s/it]second model gemma2:2b:  10%|█         | 2/20 [00:26<03:35, 11.99s/it]second model gemma2:2b:  15%|█▌        | 3/20 [00:32<02:37,  9.25s/it]second model gemma2:2b:  20%|██        | 4/20 [00:37<02:04,  7.77s/it]second model gemma2:2b:  25%|██▌       | 5/20 [00:43<01:43,  6.91s/it]second model gemma2:2b:  30%|███       | 6/20 [00:48<01:29,  6.37s/it]second model gemma2:2b:  35%|███▌      | 7/20 [00:53<01:17,  5.94s/it]second model gemma2:2b:  40%|████      | 8/20 [01:01<01:20,  6.70s/it]second model gemma2:2b:  45%|████▌     | 9/20 [01:08<01:14,  6.77s/it]second model gemma2:2b:  50%|█████     | 10/20 [01:14<01:03,  6.30s/it]second model gemma2:2b:  55%|█████▌    | 11/20 [01:20<00:55,  6.18s/it]second model gemma2:2b:  60%|██████    | 12/20 [01:26<00:49,  6.19s/it]second model gemma2:2b:  65%|██████▌   | 13/20 [01:33<00:44,  6.37s/it]second model gemma2:2b:  70%|███████   | 14/20 [01:37<00:35,  5.91s/it]second model gemma2:2b:  75%|███████▌  | 15/20 [01:43<00:28,  5.80s/it]second model gemma2:2b:  80%|████████  | 16/20 [01:49<00:22,  5.73s/it]second model gemma2:2b:  85%|████████▌ | 17/20 [01:54<00:17,  5.68s/it]second model gemma2:2b:  90%|█████████ | 18/20 [02:00<00:11,  5.63s/it]second model gemma2:2b:  95%|█████████▌| 19/20 [02:06<00:05,  5.78s/it]second model gemma2:2b: 100%|██████████| 20/20 [02:12<00:00,  5.90s/it]second model gemma2:2b: 100%|██████████| 20/20 [02:12<00:00,  6.62s/it]
+{
+  "repeat_scoring": {
+    "n_units": 120,
+    "unit_agreement": 1.0,
+    "mean_abs_diff_accuracy": 0.0,
+    "n_translations": 30,
+    "seed": 7919
+  },
+  "second_model": {
+    "n_units": 79,
+    "unit_agreement": 0.6835443037974683,
+    "mean_abs_diff_accuracy": 0.27083333333333337,
+    "model": "gemma2:2b",
+    "n_translations": 20,
+    "both_pass": 48,
+    "main_pass_only": 9,
+    "second_pass_only": 16
+  }
+}

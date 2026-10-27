@@ -1,0 +1,67 @@
+{
+  "translation_id": "M14_S0_Qwen25_r1",
+  "anon_code": "T_5ed63450",
+  "poem_id": "M14",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If only the Dragon City's valiant general were there",
+        "evidence_found": true,
+        "reasoning": "The phrase 'If only... were there' forms a conditional assumption that matches the required '只要...在' structure, indicating a hypothetical situation where the general's presence is assumed to prevent the barbarian horses from crossing.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "He would not allow the barbarian horses to cross the Yin Mountains",
+        "evidence_found": true,
+        "reasoning": "The phrase 'would not allow' directly translates to '不让' (prevent/not allow) and 'the barbarian horses to cross' corresponds to '越过' (cross over), fulfilling the requirement of a negative active verb meaning 'prevent' and the action of stopping something from crossing.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If only the Dragon City's valiant general were there, He would not allow the barbarian horses to cross the Yin Mountains.",
+        "evidence_found": true,
+        "reasoning": "The English translation explicitly states a conditional clause ('If only... were there') followed by the result ('He would not allow...'), preserving the condition-result logic while maintaining the original's meaning and context.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "If only the Dragon City's valiant general were there",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Dragon City's valiant general' refers to a historical figure (the 'Dragon City' being a historical border region) but the translation uses 'Dragon City' as a proper noun rather than indicating a historical border region, and the term 'valiant general' does not fully capture the 'martial prowess' and 'historical context' required for a 'border general' from Chinese classical poetry.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

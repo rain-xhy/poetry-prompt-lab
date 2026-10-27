@@ -1,0 +1,76 @@
+{
+  "translation_id": "D06_S3_only_Qwen3_r1",
+  "anon_code": "T_06009f84",
+  "poem_id": "D06",
+  "strategy": "S3_only",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When I know my brothers will ascend the highlands",
+        "evidence_found": true,
+        "reasoning": "The phrase 'When I know' implies distant imagination, and 'will ascend' suggests anticipation rather than direct observation, meeting the requirement of expressing 'from afar' without using 'I see/I watch'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When I know my brothers will ascend the highlands",
+        "evidence_found": true,
+        "reasoning": "The phrase 'When I know my brothers will ascend the highlands' captures the meaning of '兄弟们登高之处' by indicating that the brothers are the subject and they are about to climb high places, fulfilling both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When I know my brothers will ascend the highlands, and I am missing one of them.",
+        "evidence_found": true,
+        "reasoning": "The translation does not mention anyone wearing or wearing dogwood sprigs, which is required by the original phrase '遍插茱萸' meaning 'everyone wears dogwood sprigs on their heads'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When I know my brothers will ascend the highlands, and I am missing one of them.",
+        "evidence_found": true,
+        "reasoning": "The translation states that the speaker is missing one person (the 'one of them'), which implies the speaker is the one who is missing, fulfilling the requirement that the translation expresses '少了一个人' and identifies the person as the speaker.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 1.7,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 4,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.65,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

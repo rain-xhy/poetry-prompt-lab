@@ -1,0 +1,19 @@
+{
+  "id": "D03_S1_T3_Qwen3_r2",
+  "poem_id": "D03",
+  "trap_type": "否定逻辑",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n劝君更尽一杯酒，西出阳关无故人。",
+  "prompt_sha256": "17fd605673869066d3d6cad1fb29e6896c46e56be6bc32d7fb728cfb4204edc0",
+  "translation": "Drink until it is empty, farewell to this last cup of wine,  \nBeyond the Yangguan Pass, there is no old friend to greet.\n\n[The phrase \"劝君更尽一杯酒\" reflects a common poetic custom in Chinese poetry, where a poet invites a friend to drink until they are both drunk, symbolizing the bittersweet farewell.]  \n[The reference to \"阳关\" (Yangguan) is a real place in northwest China, and \"无故人\" (no old friend) captures the loneliness of parting.]\n\nDrink until it is empty, farewell to this last cup of wine,  \nBeyond the Yangguan Pass, there is no old friend to greet.",
+  "metadata": {
+    "input_tokens": 211,
+    "output_tokens": 143,
+    "latency_ms": 3552.631378173828,
+    "timestamp": "2026-10-26T16:37:14.859717",
+    "finish_reason": "stop"
+  }
+}

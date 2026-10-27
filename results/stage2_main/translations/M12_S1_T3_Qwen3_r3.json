@@ -1,0 +1,19 @@
+{
+  "id": "M12_S1_T3_Qwen3_r3",
+  "poem_id": "M12",
+  "trap_type": "否定逻辑",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n白日依山尽，黄河入海流。\n欲穷千里目，更上一层楼。",
+  "prompt_sha256": "d85ac0437e4c85b0a4966280d239ca305ea4c01ce2c665ebb7850d106f080d97",
+  "translation": "White day sets over the mountains, the Yellow River flows into the sea.  \nTo see thousands of miles, one must climb higher, to the next level.\n\n[The first line reflects the passage of time and the gradual fading of the sun over the landscape. The second line emphasizes the vastness of the river and its journey toward the ocean.]  \n[The poem uses the image of climbing to symbolize the pursuit of knowledge and vision, reflecting the spirit of striving and growth.]",
+  "metadata": {
+    "input_tokens": 217,
+    "output_tokens": 97,
+    "latency_ms": 996.8602657318115,
+    "timestamp": "2026-10-26T20:01:39.960497",
+    "finish_reason": "stop"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "translation_id": "D05_S1_T3_Qwen3_r1",
+  "anon_code": "T_26193a31",
+  "poem_id": "D05",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Ten years of death and life, two souls separated, never to meet again.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Ten years of death and life, two souls separated, never to meet again' captures the meaning of '十年生死两茫茫' by expressing the separation between the living and dead over ten years, emphasizing their isolation and the vast distance between them.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Not thinking of me, yet I remain forever remembered",
+        "evidence_found": true,
+        "reasoning": "The phrase directly expresses the meaning of 'even if not deliberately thinking, it is still unforgettable' without implying that not thinking leads to forgetting.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A lonely grave",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A lonely grave' directly translates to 'a lonely grave' which matches the required meaning of 'a lonely grave' and implies the 'thousand miles' separation through context of being isolated.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "without a place to express my sorrow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'without a place to express my sorrow' directly translates the requirement of '没有地方、没有人可诉说凄凉' by indicating the absence of a place to convey sorrow, capturing the essence of being unable to express one's feelings of sadness.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 5,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.2,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

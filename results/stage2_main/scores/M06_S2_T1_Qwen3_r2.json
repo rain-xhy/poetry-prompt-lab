@@ -1,0 +1,67 @@
+{
+  "translation_id": "M06_S2_T1_Qwen3_r2",
+  "anon_code": "T_5b25229b",
+  "poem_id": "M06",
+  "strategy": "S2_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "How many petals have fallen?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'How many petals have fallen?' directly expresses the uncertainty of the count, matching the requirement that the subject is 'I' or an implied observer.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Spring sleep escapes the dawn, Where every bird’s cry is heard. Last night’s rain and wind still linger, How many petals have fallen?",
+        "evidence_found": true,
+        "reasoning": "The translation does not express 'sleep and not noticing the dawn' as required; it describes a scene with birds, rain, wind, and fallen petals, which is not the meaning of the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Where every bird’s cry is heard",
+        "evidence_found": true,
+        "reasoning": "The phrase 'every bird’s cry' indicates multiple birds being heard, satisfying '多处/到处', and 'heard' confirms it's auditory perception.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Last night’s rain and wind still linger",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Last night’s rain and wind' directly corresponds to '昨夜听到风雨声' by expressing the past time (last night) and the sound of rain and wind.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

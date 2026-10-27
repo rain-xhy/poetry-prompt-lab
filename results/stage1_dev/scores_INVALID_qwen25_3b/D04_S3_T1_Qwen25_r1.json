@@ -1,0 +1,57 @@
+{
+  "translation_id": "D04_S3_T1_Qwen25_r1",
+  "anon_code": "T_2864e62f",
+  "poem_id": "D04",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Wang Lien sends me affection.",
+        "evidence_found": false,
+        "reasoning": "The translation does not preserve the original phrase '桃花潭水深千尺' and introduces new content '汪伦送我情' which is not present in the original.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Fail to match the affection that汪伦送我情 (Wang Lien sends me affection).",
+        "evidence_found": true,
+        "reasoning": "The translation states 'Fail to match the affection that Wang Lien sends me affection.' which does not preserve the original '不及' and introduces new words '汪伦送我情' (Wang Lien sends me affection) which is not present in the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "汪伦送我",
+        "evidence_found": true,
+        "reasoning": "汪伦为我送行中的汪伦未被翻译成汪伦送我",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The waters of Tafan Spring deep as a thousand feet, Fail to match the affection that汪伦送我情 (Wang Lien sends me affection).",
+        "evidence_found": true,
+        "reasoning": "The translation does not use the phrase '以水深比情深的比喻' and does not preserve the original meaning of comparing depth to affection.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\"adequacy\":1,\"imagery\":0,\"emotion\":1,\"fluency\":1,\"poetic_quality\":0}"
+  }
+}

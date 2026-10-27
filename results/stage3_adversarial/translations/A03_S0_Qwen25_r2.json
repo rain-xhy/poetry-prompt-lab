@@ -1,0 +1,19 @@
+{
+  "id": "A03_S0_Qwen25_r2",
+  "poem_id": "A03",
+  "trap_type": "emotional_suppression",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n欲语还休，却道天凉好个秋。",
+  "prompt_sha256": "b9fe62cae991bd62d892bd7375c89208707d8bfe5be98d8246421c21a967aff8",
+  "translation": "The poem \"欲语还休，却道天凉好个秋\" can be translated into English as:\n\n\"I wanted to speak, but I restrained myself, saying instead, 'It's a fine autumn.'\"\n\nThis translation aims to capture the essence and rhythm of the original Chinese verse. The first part \"欲语还休\" (I wanted to speak, but I restrained myself) is straightforward, maintaining the reluctance or uncertainty expressed in the Chinese version. The second part \"却道天凉好个秋\" (saying instead, 'It's a fine autumn') translates \"却道天凉好个秋\" (qu diao tian liang hao ge qiu) to convey the unexpected or ironic turn of the poet's words, which is a characteristic feature of this line.",
+  "metadata": {
+    "input_tokens": 54,
+    "output_tokens": 163,
+    "latency_ms": 2303.8814067840576,
+    "timestamp": "2026-10-26T21:39:11.470571",
+    "finish_reason": "stop"
+  }
+}

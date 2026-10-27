@@ -1,0 +1,67 @@
+{
+  "translation_id": "M14_S1_T1_Qwen25_r2",
+  "anon_code": "T_1c868f3c",
+  "poem_id": "M14",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "If only Pengl as General were here",
+        "evidence_found": false,
+        "reasoning": "The phrase 'If only...' forms a conditional assumption that matches the required condition sentence structure for '只要...在' (as long as... is present).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "He’d keep the Huns from crossing the Yin Mountains",
+        "evidence_found": true,
+        "reasoning": "The phrase 'keep the Huns from crossing' directly translates to '不让...越过' (prevent from crossing), fulfilling the requirement of a negative action that actively stops something from happening.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "If only Pengl:ai General were here, He’d keep the Huns from crossing the Yin Mountains.",
+        "evidence_found": false,
+        "reasoning": "The phrase 'If only Penglai General were here, He’d keep the Huns from crossing the Yin Mountains' clearly establishes a conditional relationship where the presence of Penglai General (the condition) results in the Huns not crossing the Yin Mountains (the result), fulfilling the requirement of condition-result logic and maintaining coherence with the original phrase's meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Qin Dynasty moon, Han Dynasty ramparts, Millions march, never to return. If only Penglai General were here, He’d keep the Huns from crossing the Yin Mountains.",
+        "evidence_found": true,
+        "reasoning": "The translation refers to historical periods and specific military contexts but does not explicitly mention a 'border pass general' or 'historical allusion' as required by the original phrase 龙城飞将, which denotes a legendary border general from Chinese history.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

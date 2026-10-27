@@ -1,0 +1,76 @@
+{
+  "translation_id": "D01_S1_T3_Qwen3_r2",
+  "anon_code": "T_1ca87b4c",
+  "poem_id": "D01",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling cannot be erased, for when it falls, it rises again.",
+        "evidence_found": true,
+        "reasoning": "The translation implies the feeling rises again after falling, suggesting a cyclical nature that contradicts the requirement of '愁绪无法排遣' (emotional distress that cannot be dispelled), which should indicate a continuous inability to eliminate the emotion without implying recurrence.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling cannot be erased, for when it falls, it rises again.",
+        "evidence_found": true,
+        "reasoning": "The translation describes a feeling that rises and falls, but the original phrase '才下眉头' refers to 'sorrow just leaving the brow', not a feeling that rises and falls.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling cannot be erased, for when it falls, it rises again.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express a clear contrast or turn (yet/but/again) as required, and the focus is on the feeling's recurrence rather than the heart as the central point.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling cannot be erased, for when it falls, it rises again.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the continuous nature of sorrow without resolution, showing that the feeling persists and cycles between falling and rising, indicating no true escape from the emotion.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

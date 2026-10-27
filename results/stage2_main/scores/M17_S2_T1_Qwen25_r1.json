@@ -1,0 +1,67 @@
+{
+  "translation_id": "M17_S2_T1_Qwen25_r1",
+  "anon_code": "T_fddfaae2",
+  "poem_id": "M17",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling could be cherished as a memory, But now it is already dim in the past. Complex timeframes intertwine: In the future, it will be recalled, While in the moment, it was already lost in sorrow.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'could be cherished as a memory' (potential future) and 'will be recalled' (future tense) to express the future becoming a memory, while the phrase 'it was already lost in sorrow' implies the past loss, fulfilling the requirement of a rhetorical question about waiting to become a memory.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "it was already lost in sorrow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it was already lost in sorrow' uses past tense and 'already' to convey the completed state of being lost, matching the required meaning of '当时就已经惘然' (past perfect with 'already').",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling could be cherished as a memory, But now it is already dim in the past.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly convey the specific emotional reference of 'this feeling' as a distinct emotional state, but rather describes a memory that is fading, which does not directly preserve the 'this feeling' as a singular emotional entity.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "In the future, it will be recalled, While in the moment, it was already lost in sorrow.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts future recall with past loss, showing the complex interweaving of timeframes as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "translation_id": "D06_S1_T3_Qwen3_r1",
+  "anon_code": "T_4d42ce81",
+  "poem_id": "D06",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The speaker knows that brothers and sisters will ascend to the high place, but one is missing because of the plum blossoms.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express '遥知' which means 'from afar, I imagine' or 'I imagine from afar'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The speaker knows that brothers and sisters will ascend to the high place",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the exact phrase '兄弟们登高之处' and the main subject is not '兄弟们' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The speaker knows that brothers and sisters will ascend to the high place, but one is missing because of the plum blossoms.",
+        "evidence_found": true,
+        "reasoning": "The translation does not mention '茱萸' or '茱萸被保留' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The speaker knows that brothers and sisters will ascend to the high place, but one is missing because of the plum blossoms.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '少一人' and does not explicitly state that the missing person is the speaker.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\"adequacy\":1,\"imagery\":0,\"emotion\":0,\"fluency\":1,\"poetic_quality\":0}"
+  }
+}

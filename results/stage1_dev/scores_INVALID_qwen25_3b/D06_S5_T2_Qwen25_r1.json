@@ -1,0 +1,62 @@
+{
+  "translation_id": "D06_S5_T2_Qwen25_r1",
+  "anon_code": "T_fd8fc32d",
+  "poem_id": "D06",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Yet one is missing, standing alone",
+        "evidence_found": true,
+        "reasoning": "The translation includes 'Yet one is missing, standing alone', which is not aligned with the provided pass condition of '译文表达从远处想到/料想' (from afar, I know/estimate).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Yet one is missing, standing alone",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the phrase '登高处' (climb the heights) as a key element.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "their heads all crowned with fragrant chrysium.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'all crowned with fragrant chrysium' does not directly translate the Chinese '遍插茱萸' which means 'everywhere wearing dogwood sprigs'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Yet one is missing, standing alone",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'Yet one is missing, standing alone' instead of '少一人' which directly expresses the idea of '少了一人' (one less, or one missing).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 3,
+    "overall": 4.05,
+    "valid": true
+  }
+}

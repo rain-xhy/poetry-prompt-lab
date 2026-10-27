@@ -1,0 +1,67 @@
+{
+  "translation_id": "M12_S1_T1_Qwen3_r3",
+  "anon_code": "T_3c6bb1fd",
+  "poem_id": "M12",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To stretch our vision across thousands of miles",
+        "evidence_found": true,
+        "reasoning": "The phrase uses 'to stretch' which expresses the purpose (want to) and 'across thousands of miles' directly references the 'thousands of as the required distance.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "we must climb higher",
+        "evidence_found": true,
+        "reasoning": "The phrase 'we must climb higher' directly expresses the necessity of climbing higher (需要再上一层楼) as a means to achieve the goal of stretching vision across thousands of miles, fulfilling the purpose-meaning requirement.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To stretch our vision across thousands of miles, we must climb higher.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'To stretch our vision across thousands of: miles' expresses the purpose (stretch vision) and 'we must climb higher' expresses the means (climb higher), maintaining the purpose-means logic as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "To stretch our vision across thousands of miles, we must climb higher.",
+        "evidence_found": true,
+        "reasoning": "The additional sentence about climbing higher introduces a new idea not present in the original Chinese phrase, which only describes two visual scenes without any imperative or action.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

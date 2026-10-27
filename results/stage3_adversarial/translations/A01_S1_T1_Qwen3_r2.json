@@ -1,0 +1,19 @@
+{
+  "id": "A01_S1_T1_Qwen3_r2",
+  "poem_id": "A01",
+  "trap_type": "implicit_negation",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n小心滑入河中",
+  "prompt_sha256": "87ad70a7a07faf6297fcc14c8f0b75c09033bfddb67a69a6847cff685c1e6570",
+  "translation": "Careful lest it slip into the river\n\n[The river is a mirror, reflecting the soul's quiet sorrow.]  \n\nThe flow is gentle, yet it carries away the heart's quiet sorrow.",
+  "metadata": {
+    "input_tokens": 216,
+    "output_tokens": 40,
+    "latency_ms": 9143.676042556763,
+    "timestamp": "2026-10-26T21:40:35.525499",
+    "finish_reason": "stop"
+  }
+}

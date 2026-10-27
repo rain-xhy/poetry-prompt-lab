@@ -1,0 +1,58 @@
+{
+  "translation_id": "A04_S1_T1_Qwen25_r3",
+  "anon_code": "T_08e644c6",
+  "poem_id": "A04",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling has already become a memory to be regretted, Yet at the time, it was already filled with anguish and bewilderment.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'has already become' and 'was already filled' explicitly convey the completed action with emphasis on prior occurrence, satisfying the requirement to preserve '已待' as a completed action rather than a rhetorical question.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling has already become a memory to be regretted, Yet at the time, it was already filled with anguish and bewilderment.",
+        "evidence_found": true,
+        "reasoning": "The translation uses declarative structure without rhetorical questions, preserving the original's statement nature.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling has already become a memory to be regretted, Yet at the time, it was already filled with anguish and bewilderment.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'has already become' and 'was already filled' which implies a completed action in the past, but the original Chinese phrase '可待' (which means 'can wait' or 'may be waited for') requires a temporal contrast between potential future and past experience. The translation fails to preserve the specific temporal nuance of '可待' changing to '已待' (already waited for) as a shift from potential to actualized waiting, which is critical for the required meaning.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

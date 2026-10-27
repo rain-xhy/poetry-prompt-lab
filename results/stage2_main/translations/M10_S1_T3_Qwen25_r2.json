@@ -1,0 +1,19 @@
+{
+  "id": "M10_S1_T3_Qwen25_r2",
+  "poem_id": "M10",
+  "trap_type": "拟人意象",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n野火烧不尽，春风吹又生。",
+  "prompt_sha256": "9186b4872e85dd8ee0112264aea732f5a9ce7c35a8bcde5b3083a4076c700eec",
+  "translation": "Wildfires cannot consume it entirely, \nSpring breezes make it grow again.\n[Note: The poem personifies the spring breeze, giving it the power to revive the grass that is threatened by the wildfires.]\n\nThe original poem, \"赋得古原草送别\" by白居易 (White Jiuyi), uses the image of grass to convey themes of impermanence and renewal. The \"野火烧\" (wildfire) and \"春风吹\" (spring breeze) represent cycles of life and death, and the poem’s conclusion that \"春风吹又生\" (spring breeze makes it grow again) emphasizes the resilience and enduring nature of life.",
+  "metadata": {
+    "input_tokens": 218,
+    "output_tokens": 135,
+    "latency_ms": 14354.339122772217,
+    "timestamp": "2026-10-26T20:05:56.526896",
+    "finish_reason": "stop"
+  }
+}

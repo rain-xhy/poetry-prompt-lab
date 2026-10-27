@@ -1,0 +1,67 @@
+{
+  "translation_id": "M10_S5_T1_Qwen25_r3",
+  "anon_code": "T_5f673e51",
+  "poem_id": "M10",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Wilde flames can't consume it",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Wilde flames can't consume it' does not express the meaning of 'burning forever' or 'never being burned', but rather implies that the flames cannot consume it, which is a different nuance. The original phrase '烧不尽' means 'burning forever' or 'never being burned', but the translation uses 'can't consume' which is a different meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Spring breezes make it grow again",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Spring breezes make it grow again' directly expresses the required meaning of 'spring wind's role in causing grass to regrow' and 'repeated growth' as per the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Wilde flames can't consume it, Spring breezes make it grow again.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly state that the wild fire is personified as 'burning grass' but rather describes the fire's inability to consume the grass and the breeze's role in regrowth, which does not directly preserve the 'fire burns grass' personification relationship as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wilde flames can't consume it, Spring breezes make it grow again.",
+        "evidence_found": true,
+        "reasoning": "The translation directly conveys the grass's unyielding resilience through the imagery of wild fire being unable to destroy it and spring breezes regenerating it, fulfilling both pass conditions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

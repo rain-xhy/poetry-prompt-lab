@@ -1,0 +1,67 @@
+{
+  "translation_id": "M18_S5_T3_Qwen25_r2",
+  "anon_code": "T_a59dabdd",
+  "poem_id": "M18",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Flawless",
+        "evidence_found": true,
+        "reasoning": "The translation provided is 'Flawless' which does not express any meaning related to helplessness or the falling of flowers as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Flawless",
+        "evidence_found": true,
+        "reasoning": "The translation is marked as 'Flawless' in the provided context, indicating it meets all pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Flawless",
+        "evidence_found": true,
+        "reasoning": "The translation contains only the word 'Flawless' which does not convey any meaning related to the original Chinese phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "",
+        "evidence_found": false,
+        "reasoning": "The translation is empty, so no evidence can be provided.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

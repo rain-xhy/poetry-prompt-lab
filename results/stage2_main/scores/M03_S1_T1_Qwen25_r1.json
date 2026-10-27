@@ -1,0 +1,67 @@
+{
+  "translation_id": "M03_S1_T1_Qwen25_r1",
+  "anon_code": "T_b890a79e",
+  "poem_id": "M03",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no set time",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no set time' directly translates to '尚未确定' and meets the requirement of expressing 'cannot yet be set' without implying 'no deadline' or 'never'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When we can sit by the west window and trim the candle’s flame",
+        "evidence_found": true,
+        "reasoning": "The phrase uses 'when we can' to express a future assumption about the ability to share the activity, matching the required future tense and hopeful tone.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When we can sit by the west window and trim the candle’s flame, We’ll recount in candlelight our rain on the Chongqing hills.",
+        "evidence_found": true,
+        "reasoning": "The translation refers to a future action ('We’ll recount') rather than past recollection, failing to capture the '将来回忆过去' (future recalling past) temporal relationship required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In the night, in Chong:qing’s mountains, rain fills the autumn pool.",
+        "evidence_found": false,
+        "reasoning": "The translation uses 'Chongqing' instead of 'Ba' (巴), which is a critical error as the original specifies 'Ba' mountains, not Chongqing.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

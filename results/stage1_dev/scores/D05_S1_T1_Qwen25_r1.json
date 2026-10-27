@@ -1,0 +1,76 @@
+{
+  "translation_id": "D05_S1_T1_Qwen25_r1",
+  "anon_code": "T_01dc482c",
+  "poem_id": "D05",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of生死 are but a fleeting moment, Not thought upon, yet the memories remain. A lonely grave stretches ten thousand miles, Where no words can echo the sorrow's pain.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly mention '十年' (ten years) in the required context and fails to convey the '生与死的隔绝、渺茫' (separation and distance between living and dead) as the core meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Not thought upon, yet the memories remain.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Not thought upon, yet the memories remain' directly translates the meaning of '不思量，自难忘' by expressing that even without deliberate thought, memories persist, fulfilling both the requirement of expressing 'not thinking but still remembering' and the correct turn of events without implying forgetting.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A lonely grave stretches ten thousand miles",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A lonely grave stretches ten thousand miles' directly translates to 'a lonely grave' (meeting the 'lonely' requirement) and 'ten thousand miles' (meeting the 'thousand miles' requirement for distant distance).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Where no words can echo the sorrow's pain",
+        "evidence_found": true,
+        "reasoning": "The phrase 'where no words can echo the sorrow's pain' directly translates to '没有地方、没有人可诉说凄凉' by expressing the absence of a place or person to convey sorrow.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 5,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.2,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

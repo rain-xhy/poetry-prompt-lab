@@ -1,0 +1,58 @@
+{
+  "translation_id": "A09_S0_Qwen3_r3",
+  "anon_code": "T_c00f5a2f",
+  "poem_id": "A09",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "For it was because of the flying general at Lóng Chéng",
+        "evidence_found": true,
+        "reasoning": "The phrase 'For it was because of...' uses 'because of' to explicitly indicate causation, fulfilling the requirement that '只因' expresses causation rather than condition.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "When the moon shone over the Qin dynasty and the Great Wall of the Han, the journey of a thousand li remained unreturning, as soldiers wandered far and wide. For it was because of the flying general at Lóng Chéng, that the: the horses of the enemy could not cross the Yin Shān.",
+        "evidence_found": false,
+        "reasoning": "The translation uses factual language to describe historical events without introducing hypothetical scenarios, clearly stating that the unreturning journey and the enemy's inability to cross Yin Shān were direct results of the flying general's presence, thus preserving the distinction between fact and assumption.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "For it was because of the flying general at Lóng Chéng, that the horses of the enemy could not cross the Yin Shān.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'For it was because of' which implies causation, but the original phrase '但使' (but make) indicates a conditional relationship where the outcome depends on the condition being met, not a direct cause-effect relationship as in the translation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M14_S2_T1_Qwen25_r2",
+  "anon_code": "T_6b50f73b",
+  "poem_id": "M14",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If only the Dragon City General were here",
+        "evidence_found": true,
+        "reasoning": "The phrase 'If only...' forms a conditional assumption as required, matching the '只要...在' structure.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "He would not let the barbarian horses cross the Yinz:han",
+        "evidence_found": false,
+        "reasoning": "The phrase 'would not let' directly translates to '不让' (prevent/not allow) and 'barbarian horses cross' implies 'barbarian horses' (the subject) being prevented from 'crossing' (the action), fulfilling the requirement of a negative verb phrase with a prohibitive meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "He would not let the barbarian horses cross the Yinz: 1. The phrase 'would not let' directly expresses the conditional result (if the general were here, then the barbarian horses would not cross). 2. The phrase 'cross the Yinzhan' implies the result of the condition (the barbarian horses crossing the border), which is the expected outcome of the general's presence. 3. The structure 'If only... were here, he would...' clearly establishes the conditional relationship between the presence of the general and the prevention of the barbarian horses from crossing.",
+        "evidence_found": false,
+        "reasoning": "The translation maintains the conditional-result logic by using 'would not let' to indicate the result of the condition (the general's presence), and the phrase 'cross the Yinzhan' refers to the expected outcome of the condition being met.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If only the Dragon City General were here",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Dragon City General' directly refers to the historical figure of the 'Dragon City General' (a border commander from ancient Chinese history), fulfilling the requirement of preserving the historical border general context.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

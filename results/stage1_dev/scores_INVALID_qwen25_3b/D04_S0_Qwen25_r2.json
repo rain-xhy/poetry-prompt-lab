@@ -1,0 +1,62 @@
+{
+  "translation_id": "D04_S0_Qwen25_r2",
+  "anon_code": "T_8fe81e7a",
+  "poem_id": "D04",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "cannot compare to Wang Lun's affection for me.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '桃花潭水深千尺' and does not express the depth of the water in a way that matches the original meaning of '深千尺'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "cannot match汪伦送我情",
+        "evidence_found": false,
+        "reasoning": "The phrase '汪伦送我情' is not preserved in the translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "cannot be determined",
+        "evidence_found": false,
+        "reasoning": "The translation does not preserve the exact phrase '汪伦为我送行' as per the pass conditions. The translation focuses on conveying the sentiment rather than reproducing the exact phraseology.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The poem '桃花潭水深千尺，不及汪伦送我情' can be translated into English as follows: 'The depth of桃花潭 water is ten thousand feet, cannot compare to Wang Lun's affection for me.'",
+        "evidence_found": false,
+        "reasoning": "The phrase '情' is not preserved as 'affection' in the translation. The phrase '情' should be preserved as '情' in the translation to satisfy the pass conditions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 1,
+    "emotion": 4,
+    "fluency": 2,
+    "poetic_quality": 2,
+    "overall": 2.75,
+    "valid": true
+  }
+}

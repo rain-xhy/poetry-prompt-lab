@@ -1,0 +1,67 @@
+{
+  "translation_id": "M17_S5_T2_Qwen25_r2",
+  "anon_code": "T_ee96f778",
+  "poem_id": "M17",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Could待成追忆此情是，当时已惘然。",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Could待成追:忆' contains the Chinese characters '待' and '追忆' which are not English words, so it does not express the required meaning in English.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Yet in that moment, Fate whispered in shadows.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Yet in that moment' captures the past moment with completion, and 'Fate whispered in, shadows' implies the past regret and completion of the feeling.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Could待成追忆此情是，当时已惘然。",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Could待成追: 1. The phrase 'Could待成追忆此情是' directly translates to 'Could it become a memory of this feeling' which captures the essence of 'this feeling' as a specific emotional state. 2. The phrase '当时已惘然' translates to 'at that time it was already vague' which conveys the emotional state of being uncertain or unclear about the past. Together, these phrases maintain the emotional context and the specific reference to 'this feeling' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Could待成追忆此情是，当时已惘然。",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Could待成追忆此情是，当时已惘: 1. 'Could' implies future possibility (将来), 2. '待成追忆' suggests future memories (将来回忆), 3. '当时已惘然' explicitly states past confusion (当时已惘然), creating a clear contrast between future memory and past state.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

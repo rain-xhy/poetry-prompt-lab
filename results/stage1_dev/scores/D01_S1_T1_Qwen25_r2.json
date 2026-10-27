@@ -1,0 +1,76 @@
+{
+  "translation_id": "D01_S1_T1_Qwen25_r2",
+  "anon_code": "T_2894f55b",
+  "poem_id": "D01",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling cannot be dispelled",
+        "evidence_found": true,
+        "reasoning": "The phrase 'This feeling cannot be dispelled' directly matches the requirement of expressing '无法消除这份情绪' with the correct negative direction indicating it cannot be eliminated, not already eliminated or unwilling to eliminate.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Just vanishing from the brow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Just vanishing from the brow' does not convey '愁刚从眉间离开' which means 'sorrow just left the brow' rather than 'vanishing from the brow'. The translation uses 'vanishing' implying disappearance, whereas the original phrase indicates a recent, immediate departure of sorrow from the brow.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Then back to the heart it goes",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Then back to the heart it goes' contains 'heart' and implies a return (turning back) which matches the required meaning of '却上心头' with a turn/contrast.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling cannot be dispelled, Just vanishing from the brow, Then back to the heart it goes.",
+        "evidence_found": true,
+        "reasoning": "The translation shows the continuous, inescapable nature of the sorrow moving between the brow and heart, with no true disappearance.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

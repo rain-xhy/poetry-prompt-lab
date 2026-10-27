@@ -1,0 +1,58 @@
+{
+  "translation_id": "A06_S0_Qwen3_r1",
+  "anon_code": "T_02bea8ef",
+  "poem_id": "A06",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Delicate yet full of emotion, he is always indifferent, Only sensing the sorrow in the face of those he loves, unable to smile. When people have hearts, they still cherish parting, And weep until the morning light shines bright.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly mention 'weeps for candle' or any candle-related imagery, and the phrase 'weep until the morning light shines bright' refers to general weeping rather than a specific candle context.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When people have hearts, they still cherish parting",
+        "evidence_found": true,
+        "reasoning": "The phrase '替的方向' translates to 'the direction of substitution' or 'the direction of replacement', but the translation uses 'parting' which refers to separation rather than substitution or replacement.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Delicate yet full of emotion, he is always indifferent, Only sensing the sorrow in the face of those he loves, unable to smile.",
+        "evidence_found": true,
+        "reasoning": "The translation reverses the meaning of the original poem by describing the person as 'delicate yet full of emotion' and 'always indifferent', which contradicts the original poem's theme of expressing deep emotional connection and sorrow during parting.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

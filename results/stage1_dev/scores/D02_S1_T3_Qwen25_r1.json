@@ -1,0 +1,76 @@
+{
+  "translation_id": "D02_S1_T3_Qwen25_r1",
+  "anon_code": "T_b9869d1a",
+  "poem_id": "D02",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "All the birds have flown away",
+        "evidence_found": true,
+        "reasoning": "The phrase 'All the birds have flown away' directly matches the required meaning of '鸟群都飞走了' which implies the complete disappearance of birds.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The cloud floats idly in the sky.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'floats idly' captures the '悠闲/从容' state and 'the cloud' implies '孤云', while 'idly' conveys the '独自' aspect of wandering without purpose.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "You and I cannot tire of each other",
+        "evidence_found": true,
+        "reasoning": "The phrase 'You and I cannot tire of each other' directly reflects the mutual non-fatigue between the speaker and the mountain, with the mountain being the active 'you' in the relationship.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Only the mountain remains steadfast.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Only the mountain remains steadfast' directly includes 'only' as the required限定 and refers to 'Jingting Mountain' as the steadfast mountain, fulfilling the preservation of the proper noun.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

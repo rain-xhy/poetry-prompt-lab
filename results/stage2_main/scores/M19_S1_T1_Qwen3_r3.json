@@ -1,0 +1,67 @@
+{
+  "translation_id": "M19_S1_T1_Qwen3_r3",
+  "anon_code": "T_fb5d40f2",
+  "poem_id": "M19",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "I met many familiar faces, heard of his estate's beauty countless times",
+        "evidence_found": false,
+        "reasoning": "The translation uses past tense and 'countless times' indicates frequent occurrence, matching the requirement of past experience and multiple hearings.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Yet again, I encountered you in the season of falling flowers.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Yet again, I encountered you' directly translates the '又逢' meaning 'again meeting', and 'encountered' implies the present moment of meeting, fulfilling the requirement for 'now' and 'again'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "In the palace of the King of Ji, I met many familiar faces, And heard of his estate's beauty countless times. It was indeed a splendid scene in the southern land, Yet again, I encountered you in the season of falling flowers.",
+        "evidence_found": true,
+        "reasoning": "The translation contrasts past splendor with present decay through the imagery of 'splendid scene in the southern land' versus 'season of falling flowers', implying a change in circumstances.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Yet again, I encountered you in the season of falling flowers.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'season of falling flowers' directly preserves the 落花意象 and implies the symbolic meaning of transience and melancholy associated with 落花时节.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

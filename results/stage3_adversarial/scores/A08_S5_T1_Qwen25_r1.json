@@ -1,0 +1,58 @@
+{
+  "translation_id": "A08_S5_T1_Qwen25_r1",
+  "anon_code": "T_e13d7602",
+  "poem_id": "A08",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The Uchi House Courtyard Sets the Sun Low",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Uchi House' is a direct translation of '豪门' as a generic term for aristocratic families, fulfilling the requirement to use a generalized vocabulary for wealthy/noble/aristocratic families.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The Swallows from the Former Aristocratic Hall Now Nest in Ordinary Homes.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The Swallows from the Former Aristocratic Hall Now Nest in Ordinary Homes' directly corresponds to '识别失去了特定历史背景' by indicating that what was once specific to an aristocratic context (historical background) now exists in ordinary homes, showing the loss of historical specificity.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "At the Wild Flowers of Zhuque Bridge, The Uchi House Courtyard Sets the Sun Low. The Swallows from the Former Aristocratic Hall Now Nest in Ordinary Homes.",
+        "evidence_found": true,
+        "reasoning": "The translation correctly captures the contrast between past aristocratic settings and current ordinary homes, preserving the meaning of the original poem's theme while using different phrasing.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

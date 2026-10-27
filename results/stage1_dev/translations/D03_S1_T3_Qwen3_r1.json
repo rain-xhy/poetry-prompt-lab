@@ -1,0 +1,19 @@
+{
+  "id": "D03_S1_T3_Qwen3_r1",
+  "poem_id": "D03",
+  "trap_type": "否定逻辑",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n劝君更尽一杯酒，西出阳关无故人。",
+  "prompt_sha256": "17fd605673869066d3d6cad1fb29e6896c46e56be6bc32d7fb728cfb4204edc0",
+  "translation": "Drink until empty, farewell to this last cup of wine,  \nBeyond the Yang Mountains, there is no old friend to meet.  \n\n[The poem uses a classical Chinese structure that reflects the sorrow of parting, with \"更尽\" (drink until empty) and \"无故人\" (no old friend) creating an emotional paradox. The \"Yang Mountains\" are a well-known reference in Chinese poetry, symbolizing the end of friendship or a journey away from home.]\n\n[The line \"西出阳关无故人\" is a well-known line from the Tang poet岑参 (Cen Shen), often quoted in Chinese literature for its poignant depiction of farewell.]",
+  "metadata": {
+    "input_tokens": 211,
+    "output_tokens": 137,
+    "latency_ms": 12556.568145751953,
+    "timestamp": "2026-10-26T16:34:53.359280",
+    "finish_reason": "stop"
+  }
+}

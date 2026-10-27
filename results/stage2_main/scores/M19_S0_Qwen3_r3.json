@@ -1,0 +1,67 @@
+{
+  "translation_id": "M19_S0_Qwen3_r3",
+  "anon_code": "T_851032cd",
+  "poem_id": "M19",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In the palace of the King of Ji, I saw you often, And heard of your residence on the courtyard of Cui.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'saw you often' uses present perfect tense ('have seen') but the translation uses past simple 'saw', which does not match the required past perfect tense for '过去经常见到'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "And we met again during the time of falling flowers.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'met again' directly corresponds to '又' (again) and '重逢' (reunion), while 'during the time of falling flowers' implies the present moment as the context for the reunion.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "In the palace of the King of Ji, I saw you often, And heard of your residence on the courtyard of Cui. It was indeed a beautiful landscape in the south, And we met again during the time of falling flowers.",
+        "evidence_found": true,
+        "reasoning": "The translation contrasts past and present by mentioning past meetings in the palace and courtyard, and the current meeting during falling flowers, implying a change in circumstances.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "during the time of falling flowers",
+        "evidence_found": true,
+        "reasoning": "The phrase 'during the time of falling flowers' directly translates the '落花时节' and preserves its symbolic meaning of fleeting beauty and transience.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

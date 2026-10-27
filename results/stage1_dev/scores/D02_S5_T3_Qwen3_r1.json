@@ -1,0 +1,76 @@
+{
+  "translation_id": "D02_S5_T3_Qwen3_r1",
+  "anon_code": "T_8da0e26b",
+  "poem_id": "D02",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Birds fly away far and wide, leaving only lone clouds drifting leisurely.",
+        "evidence_found": true,
+        "reasoning": "The translation describes birds flying away but does not explicitly convey the complete disappearance or 'all birds flying away' as required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Birds fly away far and wide, leaving only lone clouds drifting leisurely.",
+        "evidence_found": true,
+        "reasoning": "The phrase does not explicitly mention 'alone' or 'by oneself' as required by the original Chinese phrase, and the translation focuses on birds flying away rather than the cloud's solitary movement.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The mountain stands unchanged, watching without fatigue, only the敬亭山.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'watching without fatigue' directly corresponds to '不厌倦' and 'the mountain' is explicitly identified as the active observer in 'the mountain stands unchanged, watching without fatigue'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "only the敬亭山",
+        "evidence_found": true,
+        "reasoning": "The phrase 'only the敬亭山' directly preserves the required Chinese phrase '只有敬亭山' with the intended meaning of 'only Jingting Mountain' as a proper noun.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.95,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

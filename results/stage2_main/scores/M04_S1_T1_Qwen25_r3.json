@@ -1,0 +1,67 @@
+{
+  "translation_id": "M04_S1_T1_Qwen25_r3",
+  "anon_code": "T_72ab9dd8",
+  "poem_id": "M04",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "If two hearts are meant to be true, It matters not how often they meet. Such meeting, though not daily, Can bind them through the ages yet.",
+        "evidence_found": true,
+        "reasoning": "The translation does not use a conditional clause (if/as long as) to express 'if two people's emotions are long-lasting' as required; instead, it describes a scenario where meetings are infrequent but still binding, which does not directly convey the condition of emotional longevity.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "It matters not how often they meet.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'It matters not how often they meet' directly expresses the idea that daily meetings are not necessary, fulfilling the requirement of expressing a negation or question about the need for daily meetings.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "It matters not how often they meet. Such meeting, though not daily, Can bind them through the ages yet.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys the idea of frequent or continuous meeting (though not daily) and preserves the sense of time's repetition and duration, meeting the criteria of expressing frequency and maintaining a temporal叠加感.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If two hearts are meant to be true, It matters not how often they meet. Such meeting, though not daily, Can bind them through the ages yet.",
+        "evidence_found": true,
+        "reasoning": "The translation maintains the conditional structure 'if...then' and the rhetorical question implied by 'it matters not how often they meet', while the phrase 'such meeting, though not daily, can bind them through the ages yet' directly addresses the consequence of the condition without daily meetings, fulfilling the requirement of condition-conclusion logic and forward-backward resonance.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

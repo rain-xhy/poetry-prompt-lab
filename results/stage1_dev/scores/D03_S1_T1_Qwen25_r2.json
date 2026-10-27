@@ -1,0 +1,76 @@
+{
+  "translation_id": "D03_S1_T1_Qwen25_r2",
+  "anon_code": "T_df301e38",
+  "poem_id": "D03",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Sip this cup of wine, dear friend, for westward beyond Yangguan there are no old acquaintances.",
+        "evidence_found": true,
+        "reasoning": "The translation focuses on the context of westward beyond Yangguan and old acquaintances, which is not part of the original phrase's meaning. The original phrase '劝君更尽一杯酒' means 'I urge you to drink one more cup of wine', emphasizing the speaker's urging action towards a friend to drink another cup, not the geographical context or the absence of old acquaintances.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "westward beyond Yangguan",
+        "evidence_found": true,
+        "reasoning": "The phrase 'westward beyond Yanggu:guan' explicitly indicates movement westward past Yang Pass, fulfilling the requirement to preserve the west direction and Yangguan.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no old acquaintances",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no old acquaintances' directly translates to '没有老朋友' as required, without expanding the meaning to 'no one at all'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Sip this cup of wine, dear friend, for westward beyond Yangguan there are no old acquaintances.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly links the act of drinking (sip this cup of wine) with the absence of old acquaintances (no old acquaintances) beyond Yangguan, showing the causal relationship between the two as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

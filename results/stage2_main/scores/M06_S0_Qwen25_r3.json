@@ -1,0 +1,67 @@
+{
+  "translation_id": "M06_S0_Qwen25_r3",
+  "anon_code": "T_3332635a",
+  "poem_id": "M06",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I know not how, Many flowers have fallen, I cannot tell.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the speaker's uncertainty about the number of fallen flowers, with the subject being 'I' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Spring slumber I take without woe",
+        "evidence_found": true,
+        "reasoning": "The phrase does not explicitly convey 'sleeping without noticing the morning' as required; it mentions 'slumber' but lacks the element of 'not knowing the morning has come'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Birdsong heard everywhere",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Birdsong heard everywhere' directly translates to '到处听到鸟叫' with 'everywhere' expressing '多处/到处' and 'heard' indicating the auditory aspect.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Last night's rain and wind",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Last night's rain and wind' directly corresponds to the required meaning of '昨夜听到风雨声' by expressing the past time ('Last night') and the sound of wind and rain.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "translation_id": "A07A_S1_T1_Qwen3_r1",
+  "anon_code": "T_1d56a64d",
+  "poem_id": "A07A",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The river slips into the hand, A silent whisper of time.",
+        "evidence_found": true,
+        "reasoning": "The translation does not address the negation aspect required by the pass condition, which mandates that the version also translates to negation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The river slips into the hand, A silent whisper of time.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the meaning of '明确版本应该正确' by implying that version B is a clear negation, as the phrase 'a silent whisper of, time' suggests a subtle or incorrect version that is being negated.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The river slips into the hand, A silent whisper of time.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the essence of the original phrase by conveying the fleeting nature of time and the transient quality of moments, which aligns with the requirement that both versions should mean the same.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 1,
+    "valid": true
+  }
+}

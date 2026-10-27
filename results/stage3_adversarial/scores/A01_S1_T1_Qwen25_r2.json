@@ -1,0 +1,58 @@
+{
+  "translation_id": "A01_S1_T1_Qwen25_r2",
+  "anon_code": "T_76cc8b5b",
+  "poem_id": "A01",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Cautiously, she might slip into the river’s embrace",
+        "evidence_found": true,
+        "reasoning": "The phrase does not contain a clear negative word like 'not' or 'don't' to express the implicit negation of '小心' meaning 'do not' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Cautiously, she might slip into the river’s embrace",
+        "evidence_found": true,
+        "reasoning": "The phrase does not convey a warning tone but rather a gentle, poetic description of a potential action without any cautionary or advisory language.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "slip into the river’s embrace",
+        "evidence_found": true,
+        "reasoning": "The phrase 'slip into the river’s embrace' does not explicitly convey 'fall' as required by the pass conditions, which mandate 'slide/fall + into river'. The translation uses 'slip' (a type of sliding) but lacks the 'fall' element, and 'embrace' implies a gentle, non-falling action rather than a direct fall into the river.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "M17_S0_Qwen3_r3",
+  "poem_id": "M17",
+  "trap_type": "时态叙事",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n此情可待成追忆，只是当时已惘然。",
+  "prompt_sha256": "2ac189fc2f4abaf78c99f72858d7b92bb01b844cdff6880e738f42b4b3e41850",
+  "translation": "This sentiment can be cherished as a memory, but it is already sorrowful when we reflect upon it.",
+  "metadata": {
+    "input_tokens": 42,
+    "output_tokens": 22,
+    "latency_ms": 316.73717498779297,
+    "timestamp": "2026-10-26T20:55:55.429745",
+    "finish_reason": "stop"
+  }
+}

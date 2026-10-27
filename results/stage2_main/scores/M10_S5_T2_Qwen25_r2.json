@@ -1,0 +1,62 @@
+{
+  "translation_id": "M10_S5_T2_Qwen25_r2",
+  "anon_code": "T_4359adba",
+  "poem_id": "M10",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wildfire cannot consume it entirely",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Wildfire cannot consume it entirely' directly translates to the meaning of '烧不尽' with a negative verb 'cannot consume' and implies the grass will not be completely burned, matching the requirement of 'not' and 'burning without end'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Spring breezes bring new life again",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Spring breezes bring new life again' directly expresses the 'spring breeze' and 'renewal of growth' as required, fulfilling both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Grass grows lush where ashes lie, Life rekindles, resilient and strong.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Grass grows lush where ashes lie' directly shows the relationship between wildfire and grass by indicating grass growth in the aftermath of fire, and 'Life rekindles' preserves the personification of life overcoming destruction.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wildfire cannot consume it entirely, Spring breezes bring new life again. Grass grows lush where ashes lie, Life rekindles, resilient and strong.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly conveys the theme of unyielding vitality through the cycle of destruction and rebirth, with 'resilient and strong' directly addressing the required robustness and persistence.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\n  \"original\": \"野火烧不尽，春风吹又生。\",\n  \"reference_notes\": {\n    \"烧不尽\": \"烧不完（否定+拟人）。要点：否定意义，火烧不完草。\",\n    \"春风吹又生\": \"春风吹拂，草又生长。要点：再生、重生的意义。\",\n    \"野火...野草\": \"火烧草的拟人关系。要点：火作为施动者，草作为受动者。\",\n    \"顽强生命力主题\": \"草的不屈生命力。要点：生命力旺盛、不屈不挠的主题。\"\n  },\n  \"translation\": \"Wildfire cannot consume it entirely,\\nSpring breezes bring new life again.\\nGrass grows lush where ashes lie,\\nLife rekindles, resilient and strong.\"\n}"
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

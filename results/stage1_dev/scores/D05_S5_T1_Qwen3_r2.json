@@ -1,0 +1,76 @@
+{
+  "translation_id": "D05_S5_T1_Qwen3_r2",
+  "anon_code": "T_3217c6cc",
+  "poem_id": "D05",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Ten years of separation, both living and dead, vast and unspoken.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Ten years of separation, both living and dead, vast and unspoken' captures the meaning of '十年生死两茫茫' by indicating the passage of ten years and the separation between the living and dead, emphasizing their vast and unspoken distance.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Not thinking, yet it is deeply remembered",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Not thinking, yet it is deeply remembered' directly matches the required meaning of '即使不刻意去想，也自然难忘' by expressing that even without deliberate thought, the memory remains strong.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A lonely grave, far away",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A lonely grave, far away' directly translates to 'a lonely grave' and 'far away' which corresponds to '孤独坟墓' and '千里/遥远的距离' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "where words cannot be shared in sorrow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'where words cannot be shared in sorrow' directly translates the concept of '无处话凄凉' by expressing the inability to share sorrow, fulfilling the requirement of 'no place/person to express sorrow' and the emotional context of sorrow.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 5,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.2,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

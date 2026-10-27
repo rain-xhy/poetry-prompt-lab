@@ -1,0 +1,76 @@
+{
+  "translation_id": "D03_S5_T3_Qwen3_r2",
+  "anon_code": "T_689ee54e",
+  "poem_id": "D03",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The wind knocks at the door for me, the hills wish to keep the guest.",
+        "evidence_found": true,
+        "reasoning": "The English translation captures the meaning of '劝君更尽一杯酒' by expressing the act of urging someone to drink one more cup, with the context of parting and farewell implied in the second line.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the wind knocks at the door for me, the hills wish to keep the guest.",
+        "evidence_found": true,
+        "reasoning": "The English translation implies moving west beyond Yang Pass with no friends left, matching the required meaning of 'west direction' and 'Yang Pass' without explicitly using the Chinese terms.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the hills wish to keep the guest",
+        "evidence_found": true,
+        "reasoning": "The phrase 'the hills wish to keep the guest' implies that there are no old friends beyond the hills, meaning no old friends/acquaintances as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The wind knocks at the door for me, the hills wish to keep the guest.",
+        "evidence_found": true,
+        "reasoning": "The English translation explicitly links the act of drinking (劝君更尽一杯酒) with the absence of old friends (西出阳关无故人) by showing the consequence of leaving, where the wind and hills symbolize the natural world's reaction to the guest's departure, thus preserving the causal relationship between the two parts of the original phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

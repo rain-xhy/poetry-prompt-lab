@@ -1,0 +1,19 @@
+{
+  "id": "D05_S3_only_Qwen3_r1",
+  "poem_id": "D05",
+  "trap_type": "时态叙事",
+  "strategy": "S3_only",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nExamples of Common Mistakes to Avoid:\n\nExample 1: Emotional Paradox\n❌ Wrong: \"情愈深时语愈淡\" → \"passionate but plain words\" (literal, loses the escalation)\n✅ Right: \"情愈深时语愈淡\" → \"the deeper the feeling, the plainer the words\"\n\nExample 2: Emotional State\n❌ Wrong: \"歌不成声泣无言\" → \"only feel cannot sing\" (broken grammar)\n✅ Right: \"歌不成声泣无言\" → \"my throat chokes, unable to sing; tears flow without words\"\n\nExample 3: Implicit Negation\n❌ Wrong: \"莫待花谢始惜春\" → \"wait until flowers fall to cherish spring\" (negation reversed!)\n✅ Right: \"莫待花谢始惜春\" → \"don't wait until flowers fall to cherish spring\"\n\nExample 4: Personification\n❌ Wrong: \"风为我叩门\" → \"I knock on the door when wind blows\" (loses personification)\n✅ Right: \"风为我叩门\" → \"the wind knocks at the door for me\"\n\nExample 5: Action Subject\n❌ Wrong: \"邻舟问客何处去\" → \"the traveler asks the boat\" (wrong subject)\n✅ Right: \"邻舟问客何处去\" → \"someone from the neighboring boat asks the traveler where he is headed\"\n\nOutput Format: English translation only, no title, no author name.\n\nPoem:\n十年生死两茫茫，不思量，自难忘。\n千里孤坟，无处话凄凉。",
+  "prompt_sha256": "356ae4aa5889a371061ac0fd748653d9908c8b8b9d780a9af41f0431a202f60d",
+  "translation": "Ten years of death and life, two miles apart, not thinking, yet remembering.  \nA thousand miles of grave, without a place to vent sorrow.",
+  "metadata": {
+    "input_tokens": 357,
+    "output_tokens": 32,
+    "latency_ms": 11457.768201828003,
+    "timestamp": "2026-10-26T16:44:04.035791",
+    "finish_reason": "stop"
+  }
+}

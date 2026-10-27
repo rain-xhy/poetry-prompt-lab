@@ -1,0 +1,58 @@
+{
+  "translation_id": "A02_S1_T1_Qwen3_r3",
+  "anon_code": "T_cde2ebd6",
+  "poem_id": "A02",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "blossoms that know when to fall",
+        "evidence_found": true,
+        "reasoning": "The phrase 'blossoms that know when to fall' directly refers to flowers (blossoms) that are the subject of the original phrase, fulfilling the requirement that the subject changed from 'I' to 'flowers/blossoms'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "blossoms that know when to fall",
+        "evidence_found": true,
+        "reasoning": "The phrase 'blossoms that know when to fall' directly indicates that flowers have cognitive awareness of their falling time, fulfilling the requirement that the translation expresses the flower's cognitive ability (know).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In the early morning, I sleep soundly, unaware of the dawn, and everywhere I hear the songs of the birds. The sounds of the night's rain and wind remind me of the blossoms that know when to fall, yet remain unseen.",
+        "evidence_found": true,
+        "reasoning": "The translation does not match the original poem's meaning as it introduces elements like 'night's rain and wind' and 'blossoms that know when to fall' which are not present in the original '春晓' poem.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

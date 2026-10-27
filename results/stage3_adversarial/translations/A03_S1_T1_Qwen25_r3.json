@@ -1,0 +1,19 @@
+{
+  "id": "A03_S1_T1_Qwen25_r3",
+  "poem_id": "A03",
+  "trap_type": "emotional_suppression",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n欲语还休，却道天凉好个秋。",
+  "prompt_sha256": "08df49607cf0ce9c42479c454284b017afe98b292cf0f75da2879519c1326f3a",
+  "translation": "I would translate the poem as follows, keeping the core meaning, key imagery, and emotional tone:\n\n\"I want to speak, but then I hold my peace,\nYet I say, 'It's a fine autumn, the weather just so.'\"\n\n[Note: In Chinese culture, autumn is often associated with a sense of transition and change, which can be seen as both a time of cooling off and a time of reflection or contemplation.]",
+  "metadata": {
+    "input_tokens": 237,
+    "output_tokens": 88,
+    "latency_ms": 1312.734842300415,
+    "timestamp": "2026-10-26T21:38:18.608072",
+    "finish_reason": "stop"
+  }
+}

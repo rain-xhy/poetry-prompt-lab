@@ -1,0 +1,67 @@
+{
+  "translation_id": "M18_S1_T1_Qwen3_r1",
+  "anon_code": "T_e53d0d5a",
+  "poem_id": "M18",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The flowers fall and fade, leaving no way to prevent it, yet the once-forgotten swallow returns.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'the flowers fall and fade' which covers the '花落' action, but it does not explicitly convey the 'helpless/inevitable' feeling required by '无可奈何' as it focuses on the swallow's return instead of the inability to stop the flowers from falling.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The flowers fall and fade, leaving no way to prevent it, yet the once-forgotten swallow returns.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'swallow' instead of 'swallow' (燕子) and does not explicitly convey 'seem familiar' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The flowers fall and fade, leaving no way to prevent it, yet the once-forgotten swallow returns.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts the flowers' departure (fall and fade) with the swallow's return, showing the opposite directions of leaving and returning.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The transformation of beauty into nothingness, and the return of what once was, reflects the ephemeral nature of existence.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly conveys time passing and the contrast between past and present, capturing the essence of 'time passing and the change of people and things' as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

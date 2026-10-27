@@ -1,0 +1,67 @@
+{
+  "translation_id": "M18_S5_T3_Qwen3_r1",
+  "anon_code": "T_f6d7dbc8",
+  "poem_id": "M18",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The flowers fall, and I cannot stop it; the return of the swan feels familiar, as if I have seen it before.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'the flowers fall' and 'I cannot stop it' which covers the '花落' and '无法阻止' aspects, but it incorrectly translates '燕' (swan) as 'the return of the sw, which is not part of the original phrase and changes the meaning to include a swan that the speaker has seen before, whereas the original phrase '无可奈何花落去' only expresses the helplessness of watching flowers fall without any reference to a swan.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The return of the燕 (swan) feels familiar, as if I have seen it before.",
+        "evidence_found": true,
+        "reasoning": "The translation incorrectly identifies '燕' as 'swan' instead of 'swallow', and the phrase 'the return of the燕' does not convey the '燕子归来的动作' (the action of swallows returning) as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The flowers fall, and I cannot stop it; the return of the swan feels familiar, as if I have seen it before.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'swan' instead of 'swallow' (燕), which changes the meaning from a bird that returns in spring to a bird associated with the end of life, and does not clearly convey the contrast between the flowers' departure and the swallow's return.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The flowers fall, and I cannot stop it; the return of the swan feels familiar, as if I have seen it before.",
+        "evidence_found": true,
+        "reasoning": "The translation focuses on falling flowers and a familiar swan, but does not explicitly convey the '物是人非' (things unchanged but people changed) aspect of the original phrase, which is required for a pass.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

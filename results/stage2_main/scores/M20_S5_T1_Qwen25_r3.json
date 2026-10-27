@@ -1,0 +1,67 @@
+{
+  "translation_id": "M20_S5_T1_Qwen25_r3",
+  "anon_code": "T_4c058b78",
+  "poem_id": "M20",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell in the upper reaches of the Yangtze River, You reside at the tail of the river.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts the speaker's location (upper reaches) with the other person's location (tail of the river), fulfilling the requirement for spatial parallelism and contrast between head and tail.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Day by day, I think of you but cannot see you",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Day by day, I think of you but cannot see you' directly expresses the continuous daily思念 (longing) and the contradiction of not being able to see the person, meeting both required conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Drinking the waters of the Yang: together",
+        "evidence_found": false,
+        "reasoning": "The phrase 'Drinking the waters of the Yangtze together' directly reflects the '共' (commonality) and '共饮一江水' (sharing one river's water) meaning required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell in the upper reaches of the Yangtze River, You reside at the tail of the river.",
+        "evidence_found": true,
+        "reasoning": "This line explicitly shows physical separation (upper reaches vs tail of the river) while implying emotional connection through the Yangtze River's symbolic role.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

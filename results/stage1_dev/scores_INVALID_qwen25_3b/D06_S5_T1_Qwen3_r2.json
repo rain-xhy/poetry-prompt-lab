@@ -1,0 +1,57 @@
+{
+  "translation_id": "D06_S5_T1_Qwen3_r2",
+  "anon_code": "T_40beebff",
+  "poem_id": "D06",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The poet knows that his brothers have climbed high, and he is absent, plucking chrysanthemums for them. The hills wish to keep him, but he is alone.",
+        "evidence_found": true,
+        "reasoning": "The provided translation does not express '遥知' as '在远处想象得知', and it includes additional content not related to the original phrase '遥知'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The poet knows that his brothers have climbed high, and he is absent, plucking chrysanthemums for them.",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the phrase '兄弟们登高之处' and instead focuses on the poet's absence and the hills' wish to keep him.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The poet knows that his brothers have climbed high, and he is absent, plucking chrysanthemums for them.",
+        "evidence_found": true,
+        "reasoning": "The phrase '遍插茱萸' is not preserved in the translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The hills wish to keep him, but he is alone.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express '少了我一个人' and does not read out the person as the speaker.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\"adequacy\":1,\"imagery\":0,\"emotion\":1,\"fluency\":2,\"poetic_quality\":0}"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "translation_id": "A06_S5_T1_Qwen25_r2",
+  "anon_code": "T_9f08cfdd",
+  "poem_id": "A06",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Substituting candles for tears, weeping till dawn.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Substituting candles for tears' directly reflects the '人替烛' (person substituting candles) relationship described in the original phrase, indicating the inversion where candles replace tears, which is the core meaning to preserve.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Substituting candles for tears, weeping till dawn.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Substituting candles for tears' directly corresponds to '替的方向' being interpreted as 'substituting' (replacing) and 'candles for tears' representing the direction of emotional substitution, fulfilling the requirement to identify '替'的方向 changed.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Lofty passion seems to elicit no response, Only laughter fails to form at the wine cup.",
+        "evidence_found": true,
+        "reasoning": "The translation reverses the meaning of the original poem by suggesting that the speaker's passion is unresponsive (as if the passion is the one being unresponsive), whereas the original poem indicates that the speaker's passion is the one that is being responsive (i.e., the speaker's passion is the one that is being 'elicit no response' from the other person).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

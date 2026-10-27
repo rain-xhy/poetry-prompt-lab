@@ -1,0 +1,76 @@
+{
+  "translation_id": "D05_S5_T3_Qwen3_r1",
+  "anon_code": "T_e24cebe7",
+  "poem_id": "D05",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of life and death, two miles apart—",
+        "evidence_found": true,
+        "reasoning": "The phrase does not accurately convey the meaning of '十年生死两茫茫' as it incorrectly states 'two miles apart' instead of expressing the vast separation between the living and the dead, and the phrase 'Ten years of life and death' is a misinterpretation of the original Chinese phrase which means 'Ten years of life and death being separated in space and time.'",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Not thinking, yet it is deeply remembered.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Not thinking, yet it is deeply remembered' directly matches the required meaning of 'even if not deliberately thinking, it is still unforgettable', with the correct contrast between not thinking and being remembered.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A thousand miles away, a lonely grave—",
+        "evidence_found": true,
+        "reasoning": "The phrase 'a lonely grave' directly translates to '孤独坟墓' and 'a thousand miles away' indicates the '千里' distance requirement.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "There is no place to vent my sorrow.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'There is no place to vent my sorrow' directly translates the requirement of '没有地方、没有人可诉说凄凉' by expressing the absence of a place or person to express sorrow, while maintaining the emotional tone of sadness.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 5,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.2,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

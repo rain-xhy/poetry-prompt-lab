@@ -1,0 +1,19 @@
+{
+  "id": "A01_S0_Qwen3_r2",
+  "poem_id": "A01",
+  "trap_type": "implicit_negation",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n小心滑入河中",
+  "prompt_sha256": "4ad526028672a41551ef57956c933825642f64700666d7753f7298b5c9ffdff7",
+  "translation": "Be cautious of falling into the river.",
+  "metadata": {
+    "input_tokens": 33,
+    "output_tokens": 9,
+    "latency_ms": 9947.38245010376,
+    "timestamp": "2026-10-26T21:46:52.726149",
+    "finish_reason": "stop"
+  }
+}

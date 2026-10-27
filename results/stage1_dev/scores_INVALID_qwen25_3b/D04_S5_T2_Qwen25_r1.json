@@ -1,0 +1,62 @@
+{
+  "translation_id": "D04_S5_T2_Qwen25_r1",
+  "anon_code": "T_1785f037",
+  "poem_id": "D04",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Tang water deep as a thousand尺,",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'Tang water' instead of '桃花潭水' and the depth is expressed as 'thousand尺' which is not an exaggeration but a specific measurement.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Yet not as deep as Wáng Lún’s parting grace.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'deep' instead of '比不上' (not as deep as), which breaks the condition of preserving '比不上'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Yet not as deep as Wáng Lún’s parting grace.",
+        "evidence_found": true,
+        "reasoning": "The translation does not mention that Wáng Lún is the one sending the person off, only that his parting is deep.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Tang water deep as a thousand尺, Yet not as deep as Wáng Lún’s parting grace.",
+        "evidence_found": true,
+        "reasoning": "The translation uses '尺' (尺) which is not part of the original phrase '情' and does not preserve the metaphor of comparing depth to the depth of one's feelings.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.4,
+    "valid": true
+  }
+}

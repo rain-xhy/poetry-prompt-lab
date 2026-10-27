@@ -1,0 +1,57 @@
+{
+  "translation_id": "D06_S3_only_Qwen3_r1",
+  "anon_code": "T_06009f84",
+  "poem_id": "D06",
+  "strategy": "S3_only",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When I know my brothers will ascend the highlands, and I am missing one of them.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express '遥知' which means 'from afar, I imagine/anticipate'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When I know my brothers will ascend the highlands, and I am missing one of them.",
+        "evidence_found": true,
+        "reasoning": "The translation does not use '兄弟们' as the subject and does not include '登高之处' or '登高' (climb the heights).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When I know my brothers will ascend the highlands, and I am missing one of them.",
+        "evidence_found": true,
+        "reasoning": "The translation does not mention '茱萸' or '插着茱萸' and instead refers to 'missing one of them' which is not aligned with the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When I know my brothers will ascend the highlands, and I am missing one of them.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '少一人' and does not indicate that the missing person is the speaker.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\"adequacy\":1,\"imagery\":0,\"emotion\":1,\"fluency\":2,\"poetic_quality\":0}"
+  }
+}

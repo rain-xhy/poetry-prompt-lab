@@ -1,0 +1,67 @@
+{
+  "translation_id": "M16_S1_T1_Qwen3_r1",
+  "anon_code": "T_ee4a76b6",
+  "poem_id": "M16",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The caw of the rooster calls at a moonlit茅店",
+        "evidence_found": true,
+        "reasoning": "The phrase 'moonlit茅店' does not match the required meaning of '茅店上还有月亮' (茅店 has moon) as it implies the store is lit by the moon, not that there is a moon above the store.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "human footprints are seen on the board bridge frost",
+        "evidence_found": true,
+        "reasoning": "The phrase 'human footprints are seen on the board bridge frost' directly corresponds to the required meaning of '人的足迹在板桥的霜上' with the three imagery elements preserved: human footprints, board bridge, and frost.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Because of this, I think of the Du Ling dream",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Because of this, I think of the Du Ling dream' directly translates the required meaning of 'therefore recalling the dream in Du Ling' as per the original phrase's intent.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "the geese fly full across the back塘",
+        "evidence_found": true,
+        "reasoning": "The phrase 'back塘' is a direct translation of '回塘' but the required meaning of 'curved/winding pond' is not expressed as a curved or winding body of water in the English text.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M05_S1_T1_Qwen3_r3",
+  "anon_code": "T_579e6ad1",
+  "poem_id": "M05",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Seeking and searching, yet lonely and empty, sorrowful and heartbroken.",
+        "evidence_found": true,
+        "reasoning": "The translation describes emotional states and feelings but does not convey the repetitive or continuous action of searching as required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking and searching, yet lonely and empty, sorrowful and heartbroken.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys a cold, desolate environment through the imagery of loneliness and emptiness, and the phrase 'sorrowful and heartbroken' implies a progression of emotional desolation that aligns with the requirement for a recursive effect with the previous sentence.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking and searching, yet lonely and empty, sorrowful and heartbroken.",
+        "evidence_found": true,
+        "reasoning": "The translation captures deep sorrow through layered emotional progression from seeking to loneliness to heartbreak.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking and searching, yet lonely and empty, sorrowful and heartbroken.",
+        "evidence_found": true,
+        "reasoning": "The translation follows the required order of action (seeking and searching), environment (lonely and empty), and emotion (sorrowful and heart:broken), maintaining the progressive structure without altering the sequence.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

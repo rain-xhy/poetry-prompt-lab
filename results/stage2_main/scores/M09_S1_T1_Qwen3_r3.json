@@ -1,0 +1,67 @@
+{
+  "translation_id": "M09_S1_T1_Qwen3_r3",
+  "anon_code": "T_e5412e62",
+  "poem_id": "M09",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The moon fades, and the cranes cry out as frost blankets the sky. The river's willows light up against the sorrowful sleep of the traveler.",
+        "evidence_found": true,
+        "reasoning": "The translation introduces two new elements (river's willows, sorrowful sleep of the traveler) and implies a causal relationship between the frost and the cranes' cries, which violates the requirement of preserving only three parallel意象 without causal connections.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "sorrowful sleep of the traveler",
+        "evidence_found": true,
+        "reasoning": "The phrase 'sorrowful sleep of the traveler' directly reflects '面对愁绪而眠' by indicating that the traveler's sleep is accompanied by sorrow, fulfilling both conditions of '面对' (the traveler facing sorrow) and '愁绪伴随睡眠' (sorrow accompanying sleep).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The river's willows light up against the sorrowful sleep of the traveler.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'willows' instead of 'maple trees' and does not explicitly mention 'fishery lights' or 'fishing fire', so it fails to preserve both the maple trees and fishing lights as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The moon fades, and the cranes cry out as frost blankets the sky. The river's willows light up against the sorrowful sleep of the traveler.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys a sense of solitude and coldness through imagery of fading moon, crying cranes, frost, and sorrowful sleep, avoiding any joyful elements.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

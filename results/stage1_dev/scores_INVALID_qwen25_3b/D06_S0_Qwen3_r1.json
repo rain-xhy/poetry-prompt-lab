@@ -1,0 +1,57 @@
+{
+  "translation_id": "D06_S0_Qwen3_r1",
+  "anon_code": "T_f9324931",
+  "poem_id": "D06",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I wonder if my brothers will climb high for the autumn festival, And I am missing one among them while planting the fragrant zhu zhu.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the phrase '遥知' and instead introduces new content not related to the original phrase '遥知' (I wonder if I know). The translation also does not express '从远处想到/料想', which is one of the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I wonder if my brothers will climb high for the autumn festival",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the phrase '兄弟们登高之处' and the main subject is not '兄弟们' but '我' (I).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "And I am missing one among them while planting the fragrant zhu zhu.",
+        "evidence_found": true,
+        "reasoning": "The phrase '遍插茱萸' is not preserved in the translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I wonder if my brothers will climb high for the autumn festival, And I am missing one among them while planting the fragrant zhu zhu.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '少一人' and does not explicitly state that the missing person is the speaker.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\"adequacy\":1,\"imagery\":0,\"emotion\":1,\"fluency\":2,\"poetic_quality\":0}"
+  }
+}

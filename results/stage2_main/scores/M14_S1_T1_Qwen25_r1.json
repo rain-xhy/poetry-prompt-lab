@@ -1,0 +1,67 @@
+{
+  "translation_id": "M14_S1_T1_Qwen25_r1",
+  "anon_code": "T_56d0fbc3",
+  "poem_id": "M14",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If only the Dragon City’s hero, Stood guard against the Huns, They would not let the steeds of the North, Pasture on Shan Mountains’ heights.",
+        "evidence_found": true,
+        "reasoning": "The translation uses the conditional structure 'If only... Stood guard against the Huns, They would not...' which matches the required condition assumption and conditional clause.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "They would not let the steeds of the North",
+        "evidence_found": true,
+        "reasoning": "The phrase 'would not let' directly translates the '不让' (prevent/not allow) aspect of the original Chinese phrase '不教...度', indicating active prevention of the steeds from crossing.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If only the Dragon City’s hero, Stood guard against the Huns, They would not let the steeds of the North, Pasture on Shan Mountains’ heights.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states a conditional relationship where the hero guarding against the Huns (condition) would prevent the northern steeds from pasturing on the mountains (result), fulfilling the required condition-result logic and maintaining internal consistency.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If only the Dragon City’s hero, Stood guard against the Huns",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Dragon City’s hero' directly refers to a historical border general (边关名将) from the context of the original Chinese phrase '龙城飞将', and 'Stood guard against the Huns' implies a strong, border defense role with a sense of martial prowess.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

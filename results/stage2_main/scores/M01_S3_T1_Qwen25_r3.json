@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S3_T1_Qwen25_r3",
+  "anon_code": "T_ed992024",
+  "poem_id": "M01",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Pity is as elusive as it seems, profound yet unable to as expressed in smiles. Like candles with their own hearts, they too cherish departures, shedding tears until dawn.",
+        "evidence_found": false,
+        "reasoning": "The translation captures 'deep love/affection' through 'profound' and 'seeming coldness/indifference' through 'as elusive as it seems', maintaining the paradoxical tension between the two concepts.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "profound yet unable to be expressed in smiles",
+        "evidence_found": true,
+        "reasoning": "The phrase 'unable to be expressed in smiles' does not convey 'cannot laugh' but rather 'cannot be expressed through smiles', which is a different meaning than 'cannot laugh'. The required meaning is 'unable to/cannot laugh at the wine table', but the translation focuses on expression of smiles rather than the act of laughing.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Like candles with their own hearts, they too cherish departures, shedding tears until dawn.",
+        "evidence_found": true,
+        "reasoning": "The phrase explicitly states that candles have hearts (拟人化) and cherish departures (惜别), fulfilling the requirement of preserving the personification without weakening the metaphor.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Like candles with their own hearts, they too cherish departures, shedding tears until dawn.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly state 'for us/on our behalf' as required by the '替人' relationship, and the phrase 'shedding tears until dawn' does not clearly convey the 'time continuation' aspect as specified.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 4.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

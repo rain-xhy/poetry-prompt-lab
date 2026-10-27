@@ -1,0 +1,76 @@
+{
+  "translation_id": "D04_S0_Qwen25_r1",
+  "anon_code": "T_22bcffb8",
+  "poem_id": "D04",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The waters of Peach Blossom Pool run deep A thousand feet",
+        "evidence_found": true,
+        "reasoning": "The phrase 'run deep A thousand feet' directly expresses the depth of the water being extremely deep (a thousand feet), meeting the requirement for the water to be very deep, and 'Peach Blossom Pool' is preserved as the name of the location.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Yet cannot match the sentiment you've given me",
+        "evidence_found": true,
+        "reasoning": "The phrase 'cannot match' directly corresponds to '比不上' and the context of the translation specifies that the depth of the water is being compared to the sentiment, fulfilling the requirement that it does not become 'deeper' or 'the same depth'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The waters of Peach Blossom Pool run deep A thousand feet, Yet cannot match the sentiment you've given me.",
+        "evidence_found": true,
+        "reasoning": "The translation refers to 'you' as the sender of sentiment, but the original phrase specifies '汪伦' as the person sending the farewell, so 'you' does not correctly represent '汪伦' as the sender.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The waters of Peach Blossom Pool run deep A thousand feet, Yet cannot match the sentiment you've given me.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly compares the depth of the waters to the depth of sentiment, with the sentiment being described as deeper than the water's depth.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

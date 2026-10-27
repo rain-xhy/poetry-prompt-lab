@@ -1,0 +1,76 @@
+{
+  "translation_id": "D03_S3_T1_Qwen3_r2",
+  "anon_code": "T_a46b2117",
+  "poem_id": "D03",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The deeper the feeling, the plainer the words The traveler asks where the wanderer is headed",
+        "evidence_found": true,
+        "reasoning": "The translation does not convey the meaning of 'I urge you to drink one more cup of wine' as required; it describes a different scenario involving travelers and wanderers.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The deeper the feeling, the plainer the words",
+        "evidence_found": true,
+        "reasoning": "The translation does not mention 'west' or 'Yang Pass' as required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The deeper the feeling, the plainer the words",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The deeper the feeling, the plainer the words' does not convey 'no old friends/acquaintances' as required; it describes a relationship between emotional depth and word simplicity, not the absence of old friends.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The deeper the feeling, the plainer the words",
+        "evidence_found": true,
+        "reasoning": "The translation does not convey the connection between the act of劝酒 (encouraging drinking) and the absence of故人 (old friends) as required by the original phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 1.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.65,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

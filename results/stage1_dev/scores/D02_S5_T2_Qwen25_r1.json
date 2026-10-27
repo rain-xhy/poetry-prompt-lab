@@ -1,0 +1,76 @@
+{
+  "translation_id": "D02_S5_T2_Qwen25_r1",
+  "anon_code": "T_6dff2877",
+  "poem_id": "D02",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "众鸟高飞空",
+        "evidence_found": true,
+        "reasoning": "The phrase '众鸟高飞空' implies that the birds have all flown away, matching the requirement of '鸟群都飞走了' with '全部、消失' meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "孤云独去悠",
+        "evidence_found": true,
+        "reasoning": "The phrase '孤云独去悠' contains '孤云' (lonely cloud) and '独' (alone), indicating the required meaning of 'lonely cloud alone goes leisurely'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "relative two not tired",
+        "evidence_found": false,
+        "reasoning": "The phrase 'relative two not tired' directly translates to '相看两不厌', indicating mutual non-fatigue between the speaker and the mountain, with the mountain acting as the active observer.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "only",
+        "evidence_found": false,
+        "reasoning": "The English translation uses 'only' to satisfy the requirement of having a word like 'only/alone' as a限定, and 'Jingting Mountain' is implied by the context of the poem which is about the mountain.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

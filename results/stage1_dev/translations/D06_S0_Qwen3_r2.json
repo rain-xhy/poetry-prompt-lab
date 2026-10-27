@@ -1,0 +1,19 @@
+{
+  "id": "D06_S0_Qwen3_r2",
+  "poem_id": "D06",
+  "trap_type": "时态叙事",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n遥知兄弟登高处，遍插茱萸少一人。",
+  "prompt_sha256": "7cf6f83c6e13878ea45de23d449e629e9ba3141bbdb27992306d88e3b7374768",
+  "translation": "I know that brothers will climb high for autumn,  \nAnd plant the mugwort stalks, but one is missing.",
+  "metadata": {
+    "input_tokens": 42,
+    "output_tokens": 25,
+    "latency_ms": 607.6574325561523,
+    "timestamp": "2026-10-26T16:45:02.487626",
+    "finish_reason": "stop"
+  }
+}

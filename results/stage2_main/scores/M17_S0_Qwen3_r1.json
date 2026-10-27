@@ -1,0 +1,67 @@
+{
+  "translation_id": "M17_S0_Qwen3_r1",
+  "anon_code": "T_ecfd841b",
+  "poem_id": "M17",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling can wait to become a memorial, but it was already惘然 (wǎng rán), when it was meant to be.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'can wait to become a memorial' which implies a future tense but the phrase 'was already惘然' suggests past tense, contradicting the requirement for 'become a memory' in the future tense as per the original phrase's meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "it was already惘然 (wǎng rán)",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it was already惘然' does not correctly convey the past perfect tense 'already' with 'when it was meant to be' implying a completed action before another past action, but the Chinese phrase '当时已惘然' specifically means 'at that time it was already lost in confusion' indicating a state of confusion that had already occurred by that time, not a completed action in the past perfect tense.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling can wait to become a memorial, but it was already惘然 (wǎng rán), when it was meant to be.",
+        "evidence_found": true,
+        "reasoning": "The translation does not clearly indicate the specific emotional state or the referent of 'this feeling' as required by the original phrase '此情', which refers to a particular emotional context or relationship.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling can wait to become a memorial, but it was already惘然 (wǎng rán), when it was meant to be.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the contrast between future (\"can wait to become a memorial\") and past (\"was already惘然\") tenses, showing the temporal complexity required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 1.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

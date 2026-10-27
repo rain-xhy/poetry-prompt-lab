@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S1_T1_Qwen3_r3",
+  "anon_code": "T_3d641f0f",
+  "poem_id": "M07",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wang and Che",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly uses 'Wang' and 'Che' to refer to the specific families, meeting the requirement to preserve the proper names without generalization.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Once, the grand halls of Wang and Che welcomed the flying swallows, Now they nest in the homes of common people, unremarked.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly contrasts 'grand halls of Wang and Che' (past elite status) with 'homes of common people' (present ordinary status), showing the time contrast between 'once' and 'now' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Once, the grand halls of Wang and Che welcomed the flying swallows",
+        "evidence_found": true,
+        "reasoning": "The phrase 'flying swallows' directly refers to '燕子' (swallows) as a witness, preserving the intended imagery without implying the same swallow lived for centuries.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "wild grass blooms in the wild wildness, sunset casts a long shadow",
+        "evidence_found": false,
+        "reasoning": "The phrase directly includes 'wild grass' and 'sunset' while conveying a desolate atmosphere through 'blooms in the wild wildness' and 'casts a long shadow', meeting both preservation requirements and the need for desolation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

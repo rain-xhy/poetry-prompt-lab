@@ -1,0 +1,67 @@
+{
+  "translation_id": "M12_S2_T1_Qwen25_r3",
+  "anon_code": "T_df0f3809",
+  "poem_id": "M12",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see farther",
+        "evidence_found": true,
+        "reasoning": "The phrase 'To see farther' uses 'to see' which expresses the purpose (want to see) and 'farther' implies extending the vision beyond the current limit, aligning with the original's 'want to see the entire thousand li (purpose)'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see farther, one must Ascend one more floor.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'To see farther, one must Ascend one more floor' directly expresses the need to 'ascend one more floor' as a means to achieve a purpose (seeing farther), fulfilling the requirement of '需要再上一层楼（条件、手段）' with the conditional 'must' and the purpose-手段 relationship.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see farther, one must Ascend one more floor.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'To see farther, one must Ascend one more floor' directly expresses the purpose ('see farther') and the means ('ascend one more floor') with a clear logical relationship, fulfilling the requirement of purpose and means.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "To see farther, one must ascend one more floor.",
+        "evidence_found": true,
+        "reasoning": "The original phrase describes two distinct natural scenes (the sun setting behind mountains and the Yellow River flowing into the sea), but the translation adds an unrelated line about ascending floors, which does not preserve the two original images or the required壮阔景象 (vast, grand scenery).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

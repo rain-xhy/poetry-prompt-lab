@@ -1,0 +1,67 @@
+{
+  "translation_id": "M15_S2_T1_Qwen25_r1",
+  "anon_code": "T_a33b09d6",
+  "poem_id": "M15",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why should the羌笛怨杨柳? For the spring breeze fails to reach the Jade Gate Pass.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Why should the羌笛怨杨: the translation uses a rhetorical question structure to express 'no need to' as required, with 'why should' implying negation and the context of the spring breeze not reaching the Jade Gate Pass aligning with the original meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "For the spring breeze fails to reach the Jade Gate Pass.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'fails to reach' explicitly shows the spring breeze cannot reach the Jade's Jade Gate Pass, meeting the requirement of '否定+地理限制'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why should the羌笛怨杨柳? For the spring breeze fails to reach the Jade Gate Pass.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the cause (spring breeze not reaching Jade Gate Pass) and effect (complaining about willow trees is pointless), maintaining the causal logic and thematic echo.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why should the羌笛怨杨柳?",
+        "evidence_found": true,
+        "reasoning": "The phrase '羌笛怨杨柳' directly translates to 'Qiang flute complains about willows', which implies the traditional 'fold willow' melody associated with parting, meeting the requirement for the meaning of '折杨柳' as a farewell song.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.45,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

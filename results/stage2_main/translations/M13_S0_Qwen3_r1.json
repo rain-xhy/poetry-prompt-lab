@@ -1,0 +1,19 @@
+{
+  "id": "M13_S0_Qwen3_r1",
+  "poem_id": "M13",
+  "trap_type": "否定逻辑",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n千山鸟飞绝，万径人踪灭。\n孤舟蓑笠翁，独钓寒江雪。",
+  "prompt_sha256": "6040b154e8ebaaf71ec21c8620cbf190826e687a30580c7e8849a7842482e772",
+  "translation": "Furthest mountains, the birds fly away from view; all paths are silent, no human footprints remain. A solitary boat, its old clothes and hat covered in snow, stands alone, fishing in the cold river.",
+  "metadata": {
+    "input_tokens": 52,
+    "output_tokens": 46,
+    "latency_ms": 555.6004047393799,
+    "timestamp": "2026-10-26T19:57:30.854742",
+    "finish_reason": "stop"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "M14_S1_T3_Qwen25_r1",
+  "poem_id": "M14",
+  "trap_type": "否定逻辑",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n秦时明月汉时关，万里长征人未还。\n但使龙城飞将在，不教胡马度阴山。",
+  "prompt_sha256": "1f115a6346305e6c1e4f676e773e31b59ae7527daecf0bc36e9e51246ef3f215",
+  "translation": "**English Translation:**\n\n[Note: \"龙城飞将\" (Longcheng Fuyang) refers to Meng Tien, a Han dynasty general who was stationed at the Longcheng Fort, known for his military prowess and his successful campaigns against Xiongnu raids.]\n\n**English Translation:**\nQin Dynasty’s bright moon, Han Dynasty’s pass,\nMillions march off, never to return.\nIf only Meng Tien were here at Longcheng,\nHe would not let the Huns cross the Yan Mountains.\n\n(Explanation: The poem speaks of the recurring military campaigns against the Xiongnu during the Han Dynasty, invoking the memory of a legendary general Meng Tien to suggest that with his presence, the threat would be neutralized.)",
+  "metadata": {
+    "input_tokens": 238,
+    "output_tokens": 150,
+    "latency_ms": 2181.718587875366,
+    "timestamp": "2026-10-26T20:52:14.164313",
+    "finish_reason": "stop"
+  }
+}

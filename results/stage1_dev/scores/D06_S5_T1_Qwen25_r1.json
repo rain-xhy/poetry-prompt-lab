@@ -1,0 +1,72 @@
+{
+  "translation_id": "D06_S5_T1_Qwen25_r1",
+  "anon_code": "T_4453e800",
+  "poem_id": "D06",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 2,
+    "passed_units": 2,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": null,
+        "valid": false,
+        "raw": "",
+        "error": null
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Far away, I know my brothers climb the hillside",
+        "evidence_found": true,
+        "reasoning": "The phrase 'climb the hillside' directly translates to '登高' (climb the heights) and the subject 'my brothers' corresponds to '兄弟们'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Each wearing the _loose_ _fragrance_ of _qiuju_萸",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Each wearing' directly corresponds to '每个人头上都插着茱萸' meaning everyone is wearing or wearing on their head, and 'qiuju' refers to the preserved cornel/dogwood sprigs as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": null,
+        "valid": false,
+        "raw": "{\n  \"pass\": true,\n  \"evidence\": \"But one less is there—Me, at home, unable to join.\",\n  \"reasoning\": \"The phrase 'But one less is there—Me, at home, unable to join' directly expresses that there is one less person (the speaker) compared to the others.\"\n",
+        "error": null
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M13_S3_T1_Qwen3_r2",
+  "anon_code": "T_37b20a84",
+  "poem_id": "M13",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no bird flies",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no bird flies' directly translates to the required meaning of 'no birds/not a single bird' and captures the '绝' (extreme) sense of absolute absence.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no human footprints remain",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no human footprints remain' directly translates to '人的踪迹消失' with absolute negation, capturing the '灭' (disappearance) sense.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A solitary boatman, clad in a蓑笠, stands alone, casting the snow upon the frozen river.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A solitary boatman' emphasizes 'alone' and 'stands alone' reinforces the solitude, while 'casting the snow upon the frozen river' implies the action of '垂钓' (fishing) through the context of the frozen river and snow.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "In the boundless mountains, no bird flies; in the vast paths, no human footprints remain. A solitary boatman, clad in a蓑笠, stands alone, casting the snow upon the frozen river.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly shows vast natural spaces (boundless mountains, vast paths) and emphasizes human solitude (solitary boatman, stands alone), creating a strong contrast between the expansive environment and the isolated individual.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

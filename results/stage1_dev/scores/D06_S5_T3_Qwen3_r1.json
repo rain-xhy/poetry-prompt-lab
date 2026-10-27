@@ -1,0 +1,76 @@
+{
+  "translation_id": "D06_S5_T3_Qwen3_r1",
+  "anon_code": "T_1250b2a8",
+  "poem_id": "D06",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The poet knows that his brothers are climbing high",
+        "evidence_found": true,
+        "reasoning": "The translation describes the poet knowing his brothers' actions, but the original phrase '遥知' means 'to imagine/dream of something from afar' without specifying the poet's knowledge of others' actions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The poet knows that his brothers are climbing high",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'brothers' as the subject but uses 'climbing high' instead of 'climb the heights', and the phrase 'everyone is plucking the autumn sage' adds extra context not present in the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "everyone is plucking the autumn sage",
+        "evidence_found": true,
+        "reasoning": "The phrase 'everyone is plucking the autumn sage' corresponds to 'everyone头上都插着茱萸' (everyone's head is adorned with dogwood sprigs), where 'plucking' implies wearing or inserting, and 'autumn sage' refers to the dogwood sprigs (cornel/dogwood sprigs) as a symbol of remembrance and protection.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "But one person is missing—himself.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'one person is missing—himself' directly translates to '少了我一个人' by indicating that the missing person is the speaker (himself).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

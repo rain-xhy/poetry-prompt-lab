@@ -1,0 +1,67 @@
+{
+  "translation_id": "M04_S5_T3_Qwen25_r3",
+  "anon_code": "T_81e9c1c9",
+  "poem_id": "M04",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "If love endures through time, It need not be day by day.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly use a conditional structure with 'if/as long as' to express 'long-lasting' as required; it focuses on the duration of love rather than the condition of emotional longevity.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "It need not be day by day.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'It need not be day by day' directly expresses the required meaning of 'not needing to be day by day' as a negation of constant daily presence, fulfilling the condition of expressing a negation or question about not needing to be together daily.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "If love endures through time, It need not be day by day.",
+        "evidence_found": true,
+        "reasoning": "The translation states that love does not need to be day by day, which contradicts the requirement to preserve '日夜夜、时时刻刻相守' meaning continuous presence.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If love endures through time, It need not be day by day.",
+        "evidence_found": true,
+        "reasoning": "The translation preserves the conditional structure 'If love endures through time' as the condition and 'It need not be day by, day' as the conclusion, maintaining the logical relationship and thematic focus on love's endurance without constant presence.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

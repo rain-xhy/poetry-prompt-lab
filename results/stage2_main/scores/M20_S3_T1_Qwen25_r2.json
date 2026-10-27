@@ -1,0 +1,65 @@
+{
+  "translation_id": "M20_S3_T1_Qwen25_r2",
+  "anon_code": "T_03411bd4",
+  "poem_id": "M20",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell in the upper reaches of the Yangtze, You reside at its far end.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts the speaker's location (upper reaches) with the other person's location (far end) of the Yangtze River, fulfilling the requirement for spatial parallelism and contrast between head and tail.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Day and night, I think of you yet cannot see you",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Day and night' expresses continuous daily thought, and 'I think of you yet cannot see you' captures the contradiction between longing and inability to meet.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Sharing the waters of the Yangtze",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Sharing the waters of the Yang: ' directly reflects the '共饮一江水' concept, emphasizing the shared water resource and the connection between the two parties.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": null,
+        "valid": false,
+        "raw": "",
+        "error": "prediction aborted, token repeat limit reached (status code: 500)"
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

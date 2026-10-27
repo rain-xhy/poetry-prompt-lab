@@ -1,0 +1,67 @@
+{
+  "translation_id": "M16_S5_T3_Qwen25_r2",
+  "anon_code": "T_5fa8d452",
+  "poem_id": "M16",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Cockcrow at the thatched inn under the moon",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Cockcrow at the thatched inn under the moon' does not explicitly state 'there is still a moon' as required by the original phrase's meaning of '鸡声茅店月' (chicken crow sound, thatched inn, moon). The original phrase implies the moon is still visible at the thatched inn when the cock crows, but the translation uses 'under the moon' which suggests the moon is present but does not convey the 'still' aspect as required by the extreme omission in the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Cockcrow at the thatched inn under the moon, frost on the wooden bridge.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'frost on the wooden bridge' does not match the required meaning of '人的足迹在板桥的霜上' which implies human footprints on the frosty wooden bridge, not just frost on the bridge.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Recalling the dream in Du Ling, geese and as the translation says: 'Recalling the dream in Du Ling'",
+        "evidence_found": false,
+        "reasoning": "The phrase 'Recalling the dream in Du Ling' directly expresses the meaning of 'therefore thinking of the dream in Du Ling' as required, indicating a memory of a dream set in Du Ling.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "geese and ducks flourish by the curved pond",
+        "evidence_found": true,
+        "reasoning": "The phrase 'curved pond' directly translates to the required 'curved' pool, and 'geese and ducks flourish' matches the 'geese and ducks full' imagery in the original phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

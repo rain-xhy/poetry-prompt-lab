@@ -1,0 +1,62 @@
+{
+  "translation_id": "D02_S1_T3_Qwen3_r2",
+  "anon_code": "T_f86e2d5e",
+  "poem_id": "D02",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Birds fly away in great numbers, and the solitary clouds drift off alone.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express 'all birds have flown away' or 'all birds have disappeared', and does not contain the phrase 'all' or 'disappear'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Birds fly away in great numbers, and the solitary clouds drift off alone.",
+        "evidence_found": true,
+        "reasoning": "The translation does not contain the exact phrase '孤云独自' and does not convey the meaning of '孤云独去闲'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "They look upon each other without hesitation, and only the Jingting Mountain remains truly admirable.",
+        "evidence_found": true,
+        "reasoning": "The phrase '人与山互相看着' is not preserved and the mountain is not portrayed as the active viewer.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "They look upon each other without hesitation, and only the Jingting Mountain remains truly admirable.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'only the Jingting Mountain remains truly admirable' does not preserve the original 'only' and does not include the word 'only' or 'alone' as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.95,
+    "valid": true
+  }
+}

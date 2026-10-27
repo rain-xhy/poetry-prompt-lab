@@ -1,0 +1,19 @@
+{
+  "id": "M04_S5_T2_Qwen3_r1",
+  "poem_id": "M04",
+  "trap_type": "情感反差",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Poetic rendering for English poetry reading.\nAudience: Poetry lovers at literary events.\nConstraints:\n- Prioritize rhythm and natural flow when read aloud\n- You may adapt imagery for English poetic conventions\n- You may reorder or restructure lines for English verse\n- Preserve the core emotional tone and main imagery\n- You may sacrifice minor details for poetic effect\n- No notes (pure poetry)\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nSemantic Analysis (in Chinese):\n“两情若是久长时”：如果两人情感长久（条件假设）。要点：条件假设的语气。\n“又岂在朝朝暮暮”：又何必在乎日日相守（反问）。要点：反问语气，意为'不必在于'。\n“朝朝暮暮”：日日夜夜、时时刻刻相守。要点：持续相守的状态。\n“若是...又岂在”：条件与反问的逻辑关系。要点：如果长久，就不必日日相守的逻辑。\n\nExamples of Common Mistakes to Avoid:\n\nExample 1: Emotional Paradox\n❌ Wrong: \"情愈深时语愈淡\" → \"passionate but plain words\" (literal, loses the escalation)\n✅ Right: \"情愈深时语愈淡\" → \"the deeper the feeling, the plainer the words\"\n\nExample 2: Emotional State\n❌ Wrong: \"歌不成声泣无言\" → \"only feel cannot sing\" (broken grammar)\n✅ Right: \"歌不成声泣无言\" → \"my throat chokes, unable to sing; tears flow without words\"\n\nExample 3: Implicit Negation\n❌ Wrong: \"莫待花谢始惜春\" → \"wait until flowers fall to cherish spring\" (negation reversed!)\n✅ Right: \"莫待花谢始惜春\" → \"don't wait until flowers fall to cherish spring\"\n\nExample 4: Personification\n❌ Wrong: \"风为我叩门\" → \"I knock on the door when wind blows\" (loses personification)\n✅ Right: \"风为我叩门\" → \"the wind knocks at the door for me\"\n\nExample 5: Action Subject\n❌ Wrong: \"邻舟问客何处去\" → \"the traveler asks the boat\" (wrong subject)\n✅ Right: \"邻舟问客何处去\" → \"someone from the neighboring boat asks the traveler where he is headed\"\n\nCommon Pitfalls to Avoid:\n\n1. Negation Reversal\n   - Don't translate implicit negation as affirmation\n   - \"莫待花谢始惜春\" means \"don't wait until flowers fall to cherish spring\", not \"wait until flowers fall\"\n2. Personification Loss\n   - Keep personification of objects\n   - \"山欲留客\" = \"the hills wish to keep the guest\", not just \"I stayed by the hills\"\n3. Emotional Paradox Flattening\n   - Don't flatten emotional paradoxes into simple statements; preserve the tension\n   - \"情愈深时语愈淡\" has escalating tension between feeling and words\n4. Adding Information\n   - Don't add characters, events, or relationships not in the original\n   - \"风为我叩门\" = the wind knocks for me, not \"wind brings a visitor\"\n5. Who Does What to Whom\n   - Check action subjects and objects carefully\n   - \"邻舟问客何处去\" = the neighbor asks where the traveler goes (not the reverse)\n6. Temporal Relations\n   - Distinguish past, present, future, and hypothetical\n   - \"待明年花开时\" = when blossoms bloom next year (future), not past\n\nOutput Format: 2-4 lines of English verse, no title, no author name, no notes.\n\nPoem:\n两情若是久长时，又岂在朝朝暮暮。",
+  "prompt_sha256": "1f00eec6034b7bc82b8d0f879ac93bbf63291d8c7f5f8d12bec32bce21d23454",
+  "translation": "When two hearts are as enduring as the stars,  \nWhy should they be bound by day and night?  \n\nThe wind knocks at the door for me,  \nAnd I, in silence, await the light.",
+  "metadata": {
+    "input_tokens": 884,
+    "output_tokens": 43,
+    "latency_ms": 8638.44633102417,
+    "timestamp": "2026-10-26T19:49:10.037169",
+    "finish_reason": "stop"
+  }
+}

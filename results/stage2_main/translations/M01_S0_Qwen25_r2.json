@@ -1,0 +1,19 @@
+{
+  "id": "M01_S0_Qwen25_r2",
+  "poem_id": "M01",
+  "trap_type": "情感反差",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n多情却似总无情，唯觉尊前笑不成。\n蜡烛有心还惜别，替人垂泪到天明。",
+  "prompt_sha256": "a6effaed208becb030b6443626a0e60b6c725ebb4578f8667d022e2343c6b3b7",
+  "translation": "Here's the English translation of the provided Chinese classical poem:\n\n\"Romantic as it may be, it seems to bring no joy, \nOnly that laugh of mine seems to elude me when I'm at the wine cup.\nThe wax candle has a heart and so too does it cherish,\nIt weeps for you till dawn as it lights your farewell.\"\n\nThis translation aims to capture the essence and imagery of the original poem, maintaining its poetic tone while rendering it into clear, flowing English.",
+  "metadata": {
+    "input_tokens": 71,
+    "output_tokens": 100,
+    "latency_ms": 10849.588394165039,
+    "timestamp": "2026-10-26T20:16:27.566999",
+    "finish_reason": "stop"
+  }
+}

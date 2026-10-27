@@ -1,0 +1,19 @@
+{
+  "id": "M05_S1_T3_Qwen25_r2",
+  "poem_id": "M05",
+  "trap_type": "情感反差",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n寻寻觅觅，冷冷清清，凄凄惨惨戚戚。",
+  "prompt_sha256": "d430675164bd3cf23dc9f1bcda8857024e5104751745bc666d03395b00715804",
+  "translation": "Seeking, seeking in vain,  \nColdly, coldly alone,  \nSorrowfully, sorrowfully alone.  \n\n[Note: This poem depicts a woman's desperate and melancholic state, using the personification of coldness and loneliness to evoke her emotional turmoil.]\n\n寻寻觅觅，  \n冷冷清清，  \n凄凄惨惨戚戚。  \n\n[Note: The original classical Chinese uses personification to describe the coldness and loneliness, which is maintained in the English version while keeping the core meaning intact.]",
+  "metadata": {
+    "input_tokens": 225,
+    "output_tokens": 107,
+    "latency_ms": 12313.947916030884,
+    "timestamp": "2026-10-26T19:56:54.700886",
+    "finish_reason": "stop"
+  }
+}

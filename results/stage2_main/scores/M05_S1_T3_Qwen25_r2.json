@@ -1,0 +1,67 @@
+{
+  "translation_id": "M05_S1_T3_Qwen25_r2",
+  "anon_code": "T_25ee025c",
+  "poem_id": "M05",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking, seeking in vain",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Seeking, seeking in vain' directly expresses the repeated action of searching, fulfilling the requirement of '反复寻找的动作' (repeated searching) while maintaining the rhythmic repetition of the original Chinese phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Coldly, coldly alone",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Coldly, coldly alone' directly conveys the cold, desolate environment as required, and forms a progressive relationship with the previous line.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking, seeking in vain, Coldly, coldly alone, Sorrowfully, sorrowfully alone.",
+        "evidence_found": true,
+        "reasoning": "The translation uses layered adverbs to convey deep sorrow with progressive emotional intensity, matching the required meaning of 'extreme sadness' and emotional hierarchy.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking, seeking in vain, Coldly, coldly alone, Sorrowfully, sorrowfully alone.",
+        "evidence_found": true,
+        "reasoning": "The English translation follows the required structure of action → environment → emotion with clear progression, maintaining the original's layered meaning without altering the sequence.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

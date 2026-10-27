@@ -1,0 +1,67 @@
+{
+  "translation_id": "M15_S4_T1_Qwen25_r1",
+  "anon_code": "T_cc6ee6c4",
+  "poem_id": "M15",
+  "strategy": "S4_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why should the羌笛bluesong blame the willows' green",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Why should' forms a rhetorical question implying 'there is no need to', matching the required meaning of '不必/no need to' as a negation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "For spring's breeze never reaches the qíngmén关of Yù.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'never reaches' explicitly conveys the negative meaning and geographical limitation required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why should the羌笛bluesong blame the willows' green, For spring's breeze never reaches the qíngmén关of Yù.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the cause (spring's breeze not reaching the gate) and effect (blaming willows) as required by the causal logic, with the phrase 'spring's breeze never reaches' directly corresponding to '春风不度' and the consequence of blaming will as '怨'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why should the羌笛bluesong blame the willows' green",
+        "evidence_found": true,
+        "reasoning": "The phrase '羌笛bluesong' directly preserves '羌笛' and implies the '折杨柳' (willow) context with 'bluesong' suggesting the melody's emotional tone, while 'willows' green' references the traditional willow symbolism for parting.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.45,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

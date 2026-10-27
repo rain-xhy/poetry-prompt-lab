@@ -1,0 +1,76 @@
+{
+  "translation_id": "D06_S1_T1_Qwen3_r1",
+  "anon_code": "T_c4ebba3a",
+  "poem_id": "D06",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The poet anticipates the joy of kinship",
+        "evidence_found": true,
+        "reasoning": "The phrase 'anticipates the joy of kin' does not convey 'in distant imagination' or 'from afar' as required; it focuses on future expectation rather than distant imagination.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The poet anticipates the joy of kinship as they ascend to the highlands",
+        "evidence_found": true,
+        "reasoning": "The phrase 'ascend to the highlands' captures the 'climb the heights' meaning, and 'kinship' implies 'brothers' with the context of anticipation for their presence.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The poet anticipates the joy of kinship as they ascend to the highlands, yet notices that one of them is absent, their absence silently marked by the unfurling of wild herbs.",
+        "evidence_found": true,
+        "reasoning": "The translation does not mention 'cornel/dogwood sprigs' (茱萸) or describe anyone wearing them, so it fails to preserve the required meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "one of them is absent",
+        "evidence_found": true,
+        "reasoning": "The phrase 'one of them is absent' does not specify that the person is the speaker, which is required by the condition '能读出这个人是说话者' (the person missing is the speaker).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

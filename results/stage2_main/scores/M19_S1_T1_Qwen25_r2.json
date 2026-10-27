@@ -1,0 +1,67 @@
+{
+  "translation_id": "M19_S1_T1_Qwen25_r2",
+  "anon_code": "T_f5854bde",
+  "poem_id": "M19",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "I曾多次相见, 我也曾倾听",
+        "evidence_found": false,
+        "reasoning": "The phrase 'I曾多次相见, 我也曾倾听' uses past tense ('曾') and indicates repeated actions ('多次') for both 'meeting' and 'listening', fulfilling the requirement of past frequency.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "now is the most beautiful season in the south, again meeting you",
+        "evidence_found": false,
+        "reasoning": "The phrase 'now is the most beautiful season in the south' expresses the present time, and 'again meeting you' directly translates '又' as 'again' and 're-encounter' as 'meeting', fulfilling both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "In岐王宅里我曾多次相见，崔九堂前吟唱，我也曾倾听。如今正是江南最美的时节，落花满地之时，再次与你相遇。",
+        "evidence_found": false,
+        "reasoning": "The translation contrasts past encounters with current circumstances, showing a shift from past prosperity to present decline through the imagery of past meetings and present falling flowers.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "落花满地之时",
+        "evidence_found": true,
+        "reasoning": "The phrase '落花满地之时' directly translates to 'the time when fallen flowers cover the ground', preserving the '落花' (fallen flowers) imagery and implying the symbolic meaning of fleeting beauty and transience.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

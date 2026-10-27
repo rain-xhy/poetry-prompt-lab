@@ -1,0 +1,67 @@
+{
+  "translation_id": "M10_S2_T1_Qwen25_r2",
+  "anon_code": "T_7b61c097",
+  "poem_id": "M10",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wildfires cannot consume it entirely",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Wildfires cannot consume it entirely' directly expresses the meaning of '烧不尽' with a negative verb ('cannot consume') and implies the grass survives the flames, fulfilling both conditions of the pass.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Spring breezes make it grow again.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Spring breezes make it grow again' directly expresses the required meaning of 'spring wind's role in causing regrowth' and 'repeated growth' as per the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wildfires cannot consume it entirely, Spring breezes make it grow again. The grass with its resilient life force, Survives the flames and blooms anew.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly shows the grass surviving wildfires and regrowing through spring breezes, maintaining the personification of grass as having life force and resilience against fire.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wildfires cannot consume it entirely, Spring breezes make it grow again. The grass with its resilient life force, Survives the flames and blooms anew.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys the theme of unyielding vitality through the imagery of wildfires and spring breezes, showing the cyclical rebirth of grass after fire, which aligns with the required meaning of '顽强生命力' and '烧不尽→又生的循环'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

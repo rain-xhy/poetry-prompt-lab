@@ -1,0 +1,19 @@
+{
+  "id": "D05_S0_Qwen25_r2",
+  "poem_id": "D05",
+  "trap_type": "时态叙事",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n十年生死两茫茫，不思量，自难忘。\n千里孤坟，无处话凄凉。",
+  "prompt_sha256": "7488550d354f9a8835c0c45421706df3d8e3bccab15fa332c0bf27405d730a32",
+  "translation": "Here is a translation of the provided Chinese classical poem into English:\n\n\"Ten years of生死 (life and death), both are void; Not thinking about it, yet it remains deeply in my heart.\nA solitary grave at a thousand miles, Where no words can express my sorrow.\"\n\nPlease note that this translation aims to capture the essence and meaning of the original poem, but it does not directly translate every line as some of its metaphors and nuances might be challenging to convey precisely in another language. The poem expresses deep grief and the enduring memory of a deceased loved one, despite being far away from their grave.",
+  "metadata": {
+    "input_tokens": 63,
+    "output_tokens": 123,
+    "latency_ms": 4482.412099838257,
+    "timestamp": "2026-10-26T16:38:04.124914",
+    "finish_reason": "stop"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M14_S1_T3_Qwen25_r1",
+  "anon_code": "T_2f70e7fc",
+  "poem_id": "M14",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "If only Meng T:ien were here at Longcheng, He would not let the Huns cross the Yan Mountains.",
+        "evidence_found": false,
+        "reasoning": "The translation uses the conditional structure 'If only... were here' to express the hypothetical scenario where Meng Tien's presence would prevent the Huns from crossing the Yan Mountains, fulfilling the requirement for a condition clause with assumed tone.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "He would not let the Huns cross the Yan Mountains",
+        "evidence_found": true,
+        "reasoning": "The phrase 'would not let the H:uns cross' directly translates the 'not allow' meaning with the active prevention action required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "If only Meng T: If only Meng Tien were here at Longcheng, He would not let the Huns cross the Yan Mountains.",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly states the conditional clause 'If only Meng Tien were here at Longcheng' and the result 'He would not let the Huns cross the Yan Mountains', preserving the condition-result logic while maintaining the original's context.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Qin Dynasty’s bright moon, Han Dynasty’s pass,",
+        "evidence_found": true,
+        "reasoning": "The translation focuses on dynastic references and historical context rather than directly addressing the historical figure or the border military context required by the phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

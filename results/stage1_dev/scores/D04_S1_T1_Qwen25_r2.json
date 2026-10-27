@@ -1,0 +1,76 @@
+{
+  "translation_id": "D04_S1_T1_Qwen25_r2",
+  "anon_code": "T_0a95e4df",
+  "poem_id": "D04",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The waters of桃花潭are deep as a thousand feet",
+        "evidence_found": true,
+        "reasoning": "The phrase 'deep as a thousand feet' directly expresses the required meaning of the water being very deep (千尺 or equivalent exaggeration), and '桃花潭' is preserved as '桃花潭' which refers to Peach Blossom Pool.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "But they don't match the情you,汪伦, bestowed on me.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'don't match' directly corresponds to '比不上' and the context specifies the depth of the water not being as deep as the feelings of Wang Lun, satisfying both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "But they don't match the情you,汪伦, bestowed on me.",
+        "evidence_found": true,
+        "reasoning": "The phrase '汪伦, bestowed on me' indicates that 汪伦 is the one who bestowed (sent) the gift, fulfilling the requirement that 汪伦 is the sender and 'I' is the recipient.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The waters of桃花潭are deep as a thousand feet, But they don't match the情you,汪伦, bestowed on me.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly compares the depth of the water to the depth of the relationship, with the relationship being deeper than the water's depth.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

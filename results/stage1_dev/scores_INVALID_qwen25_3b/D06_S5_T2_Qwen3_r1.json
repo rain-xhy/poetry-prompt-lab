@@ -1,0 +1,62 @@
+{
+  "translation_id": "D06_S5_T2_Qwen3_r1",
+  "anon_code": "T_25bc05be",
+  "poem_id": "D06",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When I think of brothers climbing high",
+        "evidence_found": true,
+        "reasoning": "The phrase '遥知' is not directly translated as 'When I think of' but rather as 'When I know from afar' which does not preserve the exact meaning of '遥知'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When I think of brothers climbing high",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly state '兄弟们登高之处' (brothers climbing high). It only mentions 'brothers climbing high' without specifying the location.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When I think of brothers climbing high, I know the autumn moon is missing one.",
+        "evidence_found": true,
+        "reasoning": "The phrase '遍插茱萸' is not preserved in the translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When I think of brothers climbing high, I know the autumn moon is missing one.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly state '少一人' or '少了我一个人', which is required to satisfy the pass conditions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  }
+}

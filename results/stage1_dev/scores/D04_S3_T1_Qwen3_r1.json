@@ -1,0 +1,76 @@
+{
+  "translation_id": "D04_S3_T1_Qwen3_r1",
+  "anon_code": "T_e8ba5db8",
+  "poem_id": "D04",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Tianhua潭水 deep as thousand feet, yet cannot match the deep emotion of Wang Lun's farewell.",
+        "evidence_found": true,
+        "reasoning": "The translation does not correctly express the depth of Peach Blossom Pool's water as 'deep as thousand feet' because it uses 'Tianhua潭' (which is not the correct transliteration for 'Peach Blossom Pool') and the phrase 'deep as thousand feet' is not the intended meaning of the original Chinese phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Tianhua潭水 deep as thousand feet, yet cannot match the deep emotion of Wang Lun's farewell.",
+        "evidence_found": true,
+        "reasoning": "The translation correctly conveys that the depth of Tianhua潭 water does not compare to Wang Lun's emotional depth, without implying 'deeper' or 'equal depth'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wang Lun's farewell",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Wang Lun's farewell' indicates that Wang Lun is the one performing the farewell action, satisfying the requirement that 'Wang Lun' is the sender and 'I' is the recipient.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Tianhua潭水 deep as thousand feet, yet cannot match the deep emotion of Wang Lun's farewell.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly compares the depth of water to the depth of emotion, showing that the emotion is deeper than the water's depth.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

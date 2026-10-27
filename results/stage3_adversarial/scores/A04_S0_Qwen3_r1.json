@@ -1,0 +1,58 @@
+{
+  "translation_id": "A04_S0_Qwen3_r1",
+  "anon_code": "T_de8c9156",
+  "poem_id": "A04",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling has already become a memory",
+        "evidence_found": true,
+        "reasoning": "The phrase 'has already become' indicates the completed action of waiting, matching the requirement to identify '已待' as a completed action.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling has already become a memory, but it is just now sorrowful and bewildered.",
+        "evidence_found": true,
+        "reasoning": "The translation uses a declarative structure without rhetorical questions, clearly stating that the feeling is a memory and currently sorrowful and bewildered.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling has already become a memory, but it is just now sorrowful and bewildered.",
+        "evidence_found": true,
+        "reasoning": "The translation uses present perfect tense 'has already become' and present tense 'is just now sorrowful', which does not preserve the temporal contrast between '可待' (waiting for) and '已待' (already waited) as required by the original poem's time progression.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M14_S0_Qwen25_r3",
+  "anon_code": "T_118005a3",
+  "poem_id": "M14",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If only the brave general of Longcheng were there",
+        "evidence_found": true,
+        "reasoning": "The phrase 'If only' introduces a conditional assumption, matching the required '只要...在' structure with the correct conditional tone.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To stop the barbarian horses from crossing the阴Mountain",
+        "evidence_found": true,
+        "reasoning": "The phrase 'stop the barbarian horses from crossing' directly translates to '不让...越过' (prevent from crossing), fulfilling the requirement of a negative action that actively prevents something from happening.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If only the brave general of Longcheng were there, To stop the barbarian horses from crossing the阴Mountain.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'If only the brave general of Long: were there, To stop the barbarian horses from crossing the阴Mountain' clearly establishes a conditional clause ('If only...were there') leading to a result ('To stop...'), preserving the condition-result logic while maintaining the original's poetic structure and meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "If only the brave general of Longcheng were there",
+        "evidence_found": true,
+        "reasoning": "The phrase 'brave general of Longcheng' does not correctly identify the historical figure associated with 'Longcheng' as a border military commandery; the term 'Longcheng' (龙城) refers to a specific historical border fortress in ancient China, not a general's name.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.45,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

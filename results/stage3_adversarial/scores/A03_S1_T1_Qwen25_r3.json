@@ -1,0 +1,58 @@
+{
+  "translation_id": "A03_S1_T1_Qwen25_r3",
+  "anon_code": "T_93227c6c",
+  "poem_id": "A03",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I want to speak, but then I hold my peace",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I want to speak, but then I hold my peace' directly captures the '想说-但止住' contradiction required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I want to speak, but then I hold my peace, Yet I say, 'It's a fine autumn, the weather just so.'",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly distinguish between true feelings and surface words as required by '却道'引出的只是表面话, which implies that '却道' introduces only surface language, not genuine emotion.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I want to speak, but then I hold my peace",
+        "evidence_found": true,
+        "reasoning": "The phrase shows internal emotional conflict and suppression of speech, reflecting the required 'internal emotion vs. expression inconsistency' with the 'opposition or restraint' condition.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

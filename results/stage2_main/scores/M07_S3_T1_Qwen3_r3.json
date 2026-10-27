@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S3_T1_Qwen3_r3",
+  "anon_code": "T_ca555033",
+  "poem_id": "M07",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wang and Che",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly mentions 'Wang' and 'Che' as specific families, preserving the required 'Wang' and 'Xie' (with 'Che' being a transliteration of 'Xie' in this context).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Once, the halls of Wang and Che sang songs of spring and summer, Now, the winged dove from their former halls has flown into the common home",
+        "evidence_found": true,
+        "reasoning": "The translation clearly contrasts 'halls of Wang and: Che' (past elite) with 'common home' (present ordinary people), showing the time contrast between 'once' and 'now' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the winged dove from their former halls has flown into the common home",
+        "evidence_found": true,
+        "reasoning": "The phrase 'winged dove' refers to the swallow (燕子) as a witness, and 'has flown into the common home' implies the swallow's presence as a witness over time, avoiding the 'same swallow living for centuries' implication.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "On the wild grass by the Zhuqiao Bridge, wild flowers bloom in the fading light, At the mouth of Wuyi Park, the sunset casts a shadow in the west.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly mentions 'wild grass' and 'sunset' while conveying a desolate atmosphere through phrases like 'fading light' and 'casts a shadow in the west', meeting both preservation requirements and pass conditions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

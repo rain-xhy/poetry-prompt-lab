@@ -1,0 +1,76 @@
+{
+  "translation_id": "D02_S1_T2_Qwen3_r1",
+  "anon_code": "T_333e06ee",
+  "poem_id": "D02",
+  "strategy": "S1_T2",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Birds fly high and vanish",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Birds fly high and vanish' does not convey 'all birds have flown away' as required; 'vanish' implies disappearance rather than complete flight, and the translation lacks the sense of 'all' birds flying away.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Clouds drift alone, serene.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'drift alone' captures '孤云独自' meaning solitude and individuality, while 'serene' conveys the '悠闲/从容' state of calmness and ease.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "We gaze upon each other—",
+        "evidence_found": true,
+        "reasoning": "The phrase 'We gaze upon each other' directly reflects mutual viewing between 'me' and the mountain without fatigue, fulfilling the requirement that both parties are active viewers.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Only the mountain remains.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Only the mountain remains' directly corresponds to '只有敬亭山' by preserving the specific mountain name 'Jingting Mountain' (implied by 'mountain') and using 'only' as the required限定.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

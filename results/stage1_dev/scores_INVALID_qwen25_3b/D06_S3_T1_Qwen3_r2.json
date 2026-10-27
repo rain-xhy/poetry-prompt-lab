@@ -1,0 +1,57 @@
+{
+  "translation_id": "D06_S3_T1_Qwen3_r2",
+  "anon_code": "T_d36822e0",
+  "poem_id": "D06",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The deeper the feeling, the plainer the words.",
+        "evidence_found": true,
+        "reasoning": "The phrase '在远处想象得知' is not preserved in the translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The deeper the feeling, the plainer the words.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the original phrase '兄弟们登高之处' and does not mention '登高' or 'climb the heights'. Instead, it focuses on the relationship between the depth of feeling and the clarity of words, which does not align with the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The deeper the feeling, the plainer the words. The plainer the words, the more distant the face.",
+        "evidence_found": true,
+        "reasoning": "The translation does not mention '茱萸' or '插着茱萸' and instead focuses on the concept of 'plain words' and 'distant face' which do not satisfy the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The deeper the feeling, the plainer the words.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express '少了我一个人' and does not read out the person as the speaker.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\"adequacy\":1,\"imagery\":0,\"emotion\":2,\"fluency\":2,\"poetic_quality\":0}"
+  }
+}

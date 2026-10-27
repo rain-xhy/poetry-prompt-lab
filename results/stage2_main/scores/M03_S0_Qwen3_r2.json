@@ -1,0 +1,67 @@
+{
+  "translation_id": "M03_S0_Qwen3_r2",
+  "anon_code": "T_03a24bb0",
+  "poem_id": "M03",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I have no definite period",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I have no definite period' directly translates to '尚未确定' and meets the requirement of expressing 'cannot yet be set' without implying 'no deadline' or 'never'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When will we share the warm glow of candlelight on the western window?",
+        "evidence_found": true,
+        "reasoning": "The phrase uses 'when will' to express a future assumption about sharing candlelight, matching the required future tense and hopeful tone.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When you ask for the time when I will return, I have no definite period. The night rain in the western mountain lake fills the autumn pool. When will we share the warm glow of candlelight on the western window? Then we will talk about the night rain in the western mountain again.",
+        "evidence_found": true,
+        "reasoning": "The translation describes future events and does not convey '将来回忆过去' (future recalling past) as required; it focuses on future conversations about past rain rather than past memories being recalled in the future.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The night rain in the western mountain lake fills the autumn pool.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states that the night rain causes the autumn pool to fill, matching the required meaning of '雨使池水上涨' while preserving the three required imagery elements: 巴山 (western mountain lake), 夜雨 (night rain), and 秋池 (autumn pool).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

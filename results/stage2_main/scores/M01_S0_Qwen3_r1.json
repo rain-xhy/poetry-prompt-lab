@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S0_Qwen3_r1",
+  "anon_code": "T_7552dd20",
+  "poem_id": "M01",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Her heart is full of emotion, yet she seems to be always indifferent",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts 'full of emotion' (deep love) with 'seems to be always indifferent' (seeming coldness), capturing the paradoxical tension between deep affection and apparent indifference as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Only when she sees her beloved's smile does she feel powerless to smile",
+        "evidence_found": true,
+        "reasoning": "The phrase 'feel powerless to smile' does not directly express 'cannot smile' as required; it implies emotional helplessness rather than inability to smile physically.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The candle, with a heart of its own, regrets parting, and tears it sheds for her until the morning light fades.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the candle has a heart (拟人化) and regrets part, showing the emotional aspect without weakening the metaphor.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "tears it sheds for her until the morning light fades",
+        "evidence_found": true,
+        "reasoning": "The phrase 'tears it sheds for her until the morning light fades' captures the '蜡烛替人流泪 + 一直到天明' meaning by showing the candle shedding tears for her (替人) until dawn (到天明).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

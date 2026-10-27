@@ -1,0 +1,19 @@
+{
+  "id": "A07B_S1_T1_Qwen25_r1",
+  "poem_id": "A07B",
+  "trap_type": "ambiguity_test",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n小心别滑入河中",
+  "prompt_sha256": "f150818095e022fdcb004fc90499496e16708617db1c63bb9d32bbb1bfa32370",
+  "translation": "Gently tread, lest you slip  \nInto the river's soft embrace  \nWhere shadows dance and dreams float  \nIn nature’s gentle, watery grace.",
+  "metadata": {
+    "input_tokens": 230,
+    "output_tokens": 32,
+    "latency_ms": 10517.143726348877,
+    "timestamp": "2026-10-26T21:48:10.483814",
+    "finish_reason": "stop"
+  }
+}

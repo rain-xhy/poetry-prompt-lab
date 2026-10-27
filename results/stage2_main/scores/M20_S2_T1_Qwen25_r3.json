@@ -1,0 +1,67 @@
+{
+  "translation_id": "M20_S2_T1_Qwen25_r3",
+  "anon_code": "T_1246668b",
+  "poem_id": "M20",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I stand at the head of the Yangtze, you at its tail",
+        "evidence_found": true,
+        "reasoning": "This line explicitly contrasts the two positions (head vs tail) of the Yangtze River, fulfilling the requirement for spatial parallelism and opposition between the two ends.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Daily I yearn for you yet cannot see",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Daily I yearn for you yet cannot see' directly expresses the continuous daily思念 (yearning) and the contradiction of not being able to see (不见), meeting both required conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Despite our physical distance, we drink from the same stream",
+        "evidence_found": true,
+        "reasoning": "The phrase 'we drink from the same stream' directly reflects the '共饮一江水' meaning with the shared water connection, and 'despite our physical distance' addresses the '虽不见面' aspect, fulfilling both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "I stand at the head of the Yangtze, you at its tail, Daily I yearn for you yet cannot see, we share the Yang: Despite our physical distance, we drink from the same stream, In tension between separation and the harmony of our shared water.",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly mentions physical distance through 'physical distance' and shows emotional connection through 'we share the Yangtze's flow' and 'we drink from the same stream', creating tension between separation and shared water.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

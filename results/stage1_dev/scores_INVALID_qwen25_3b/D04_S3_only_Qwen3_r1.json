@@ -1,0 +1,57 @@
+{
+  "translation_id": "D04_S3_only_Qwen3_r1",
+  "anon_code": "T_2de8e81d",
+  "poem_id": "D04",
+  "strategy": "S3_only",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The depth of the桃花潭 water is thousands of feet, yet it cannot match the deep emotion of汪伦's farewell.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the original phrase '桃花潭水深千尺' and does not express the depth of the water in a way that matches the original meaning or intent.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The depth of the桃花潭 water is thousands of feet, yet it cannot match the deep emotion of汪伦's farewell.",
+        "evidence_found": true,
+        "reasoning": "The phrase '不及' is not preserved and the translation changes '不及' to 'cannot match' which implies a comparison of depth, not the original meaning of '不及' which means 'not as deep as' or 'not as deep as'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The depth of the桃花潭 water is thousands of feet, yet it cannot match the deep emotion of汪伦's farewell.",
+        "evidence_found": true,
+        "reasoning": "The translation does not mention汪伦送我, instead it talks about the depth of the桃花潭 water and the emotion of汪伦's farewell to the 'me'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The depth of the桃花潭 water is thousands of feet, yet it cannot match the deep emotion of汪伦's farewell.",
+        "evidence_found": true,
+        "reasoning": "The translation uses a different metaphor and does not preserve the original phrase '情' or the specific metaphor '以水深比情深'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\"adequacy\":1,\"imagery\":0,\"emotion\":1,\"fluency\":1,\"poetic_quality\":0}"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S1_T1_Qwen25_r2",
+  "anon_code": "T_6db8f681",
+  "poem_id": "M01",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Full of emotion yet seeming indifferent",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Full of emotion yet seeming indifferent' directly captures the required 'deep love/affection' and 'seeming coldness/indifference' with their inherent tension.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Only the guests' laughter fails to come",
+        "evidence_found": true,
+        "reasoning": "The phrase 'fails to come' implies inability to produce laughter, but the required meaning is 'cannot laugh' at the wine table, and the translation does not specify the wine table context.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The wax candle, with its heart for its own, Keeps weeping for love, till dawn breaks.",
+        "evidence_found": true,
+        "reasoning": "The phrase explicitly states the candle has a heart (有心) and is weeping for love (惜别), maintaining the personification and emotional depth required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The wax candle, with its heart for its own, Keeps weeping for love, till dawn breaks.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Keeps weeping for love, till dawn breaks' directly translates the time continuation 'until dawn' and implies the candle's role in 'weeping for us' through 'for love', satisfying the '替人垂泪' (candle weeping for people) relationship.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

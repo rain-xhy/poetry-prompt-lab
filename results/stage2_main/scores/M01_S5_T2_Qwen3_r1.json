@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S5_T2_Qwen3_r1",
+  "anon_code": "T_7309919c",
+  "poem_id": "M01",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Deep feeling yet seems to lack emotion",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Deep feeling yet seems to and lacks emotion' directly addresses the required paradox of deep affection and seeming coldness, fulfilling all pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A smile cannot be made at the banquet's table",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A smile cannot be made' directly expresses '无法/不能笑出' (unable to/cannot smile) while 'at the banquet's table' preserves the '酒席前' (at the table) scene, meeting all pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The candle, with heart, still wishes to part",
+        "evidence_found": true,
+        "reasoning": "The phrase explicitly states the candle has a heart (拟人化) and wishes to part (惜别), fulfilling the requirement of preserving the personification and emotional meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Lays tears for others, until the dawn is far",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Lays tears for others' directly translates '替人流泪' (tears for others) and 'until the dawn is far' implies the time continuation 'until dawn' as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

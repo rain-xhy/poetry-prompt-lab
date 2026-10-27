@@ -1,0 +1,58 @@
+{
+  "translation_id": "A08_S0_Qwen25_r2",
+  "anon_code": "T_86b6c614",
+  "poem_id": "A08",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The swallow that once nested by the old豪门's porch",
+        "evidence_found": true,
+        "reasoning": "The Chinese phrase '豪门' is not translated as a generic term like 'wealthy/noble/aristocratic families' but appears as a literal term '豪门' in the English translation, which does not meet the requirement to use a generalized vocabulary.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The swallow that once nested by the old豪门's porch, Has flown into the common household.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'the swallow that once nested by the old豪门's porch' corresponds to '识别失去了特定历史背景' (the identification has lost specific historical context), and 'has flown into the common household' implies the loss of historical specificity.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Over by the wildflowers by the Red-Crowned Sparrow Bridge,",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Red-Crowned Sparrow Bridge' is a misinterpretation of the original Chinese term, which refers to a specific location in the poem 'Wu Yi Xiang' (The Old House Lane), not a bridge associated with a bird.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S4_T1_Qwen25_r2",
+  "anon_code": "T_dc19508a",
+  "poem_id": "M07",
+  "strategy": "S4_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Old燕子 in Wang and Xie families' halls (formerly in noble families)",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Wang and Xie families' directly preserves the specific dynastic families 'Wang' and 'Xie' as required, without genericizing them.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Old燕子 in Wang and Xie families' halls (formerly in noble families), Now dwell in humble households, where commoners dwell.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts 'formerly in noble families' with 'humble households' and 'commoners', showing the time contrast between past and present and the class contrast between nobility and commoners.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Old燕子 in Wang and Xie families' halls (formerly in noble families)",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Old燕子' directly refers to the燕子 (swallow) as a witness, preserving the swallow imagery without implying the swallow lived for centuries.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "By Zhuque Bridge, wild flowers sprout amid wild grass flowers, U-shaped alley gates, sunset lingers at",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly mentions 'wild grass flowers' and 'sunset' while conveying a sense of desolation through phrases like 'wild flowers sprout amid' and 'sunset lages at U-shaped alley gates', indicating a decayed landscape.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

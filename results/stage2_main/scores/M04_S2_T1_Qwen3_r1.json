@@ -1,0 +1,67 @@
+{
+  "translation_id": "M04_S2_T1_Qwen3_r1",
+  "anon_code": "T_5efa938b",
+  "poem_id": "M04",
+  "strategy": "S2_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When two hearts are truly eternal, Why should they be bound by day and night?",
+        "evidence_found": true,
+        "reasoning": "The translation does not express 'long-lasting' as a condition for the relationship, but rather poses a rhetorical question about being bound by day and night, which does not convey the intended meaning of 'if the emotions are long-lasting, then the relationship will endure'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why should they be bound by day and night?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Why should they be bound by day and night?' directly expresses the required meaning of '又何必在乎日日相守（反问）' by posing a question that implies the necessity of daily togetherness is unnecessary.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When two hearts are truly eternal, Why should they be bound by day and night?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'bound by day and night' implies a restriction rather than the continuous, overlapping nature of '朝朝暮暮' which refers to constant, repeated presence.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When two hearts are truly eternal, Why should they be bound by day and night?",
+        "evidence_found": true,
+        "reasoning": "The translation maintains the conditional structure 'if two hearts are truly eternal' and the rhetorical question 'why should they be bound by day and night' which reflects the original's condition-and-reversal logic.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

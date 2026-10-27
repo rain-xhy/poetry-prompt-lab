@@ -1,0 +1,19 @@
+{
+  "id": "M09_S0_Qwen25_r2",
+  "poem_id": "M09",
+  "trap_type": "拟人意象",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n月落乌啼霜满天，江枫渔火对愁眠。",
+  "prompt_sha256": "3130991d30a52d520ee34caaba9024845af4ff80532f49ebaf7305c1aa790d80",
+  "translation": "Here is a translation of the Chinese classical poem into English:\n\nMoon sets and crows cry out,霜 fills the sky;  \nRounding fishing lights face my sorrowful slumber by the river. \n\nThis translation aims to capture the essence and imagery of the original poem while rendering it in a more accessible and flowing English. The first line, \"月落乌啼霜满天,\" is translated as \"Moon sets and crows cry out,霜 fills the sky,\" where \"霜\" (shuāng) is translated as \"frost\" instead of \"霜\" as it sounds more natural in English.",
+  "metadata": {
+    "input_tokens": 57,
+    "output_tokens": 126,
+    "latency_ms": 1757.5228214263916,
+    "timestamp": "2026-10-26T20:09:42.593640",
+    "finish_reason": "stop"
+  }
+}

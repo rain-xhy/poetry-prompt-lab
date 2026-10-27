@@ -1,0 +1,67 @@
+{
+  "translation_id": "M20_S5_T2_Qwen25_r3",
+  "anon_code": "T_323f0cf6",
+  "poem_id": "M20",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I stand by the Yangtze's head, you at its tail",
+        "evidence_found": true,
+        "reasoning": "This line explicitly contrasts the two positions (head vs tail) of the Yangtze River, fulfilling the requirement for spatial parallelism and opposition between the two ends.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Daily I yearn, yet you remain unseen",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Daily I yearn' expresses the daily/continuous nature of longing, and 'yet you remain unseen' directly conveys the contradiction between longing and not being seen.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Drinking the Yangtze's waters, we're joined in this, Though apart, we share the same flowing stream.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the shared connection through drinking the Yangtze's waters and emphasizes the commonality despite physical separation, fulfilling both conditions of '共' (commonality) and the drinking connection.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I stand by the Yangtze's head, you at its tail, Daily I yearn, yet you remain unseen, Drinking the Yangtze's waters, we're joined in this, Though apart, we share the same flowing stream.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly shows physical separation (Yangtze's head vs tail), emotional connection (yearning, sharing the same stream), and tension between the two.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

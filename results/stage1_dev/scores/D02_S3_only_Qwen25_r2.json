@@ -1,0 +1,71 @@
+{
+  "translation_id": "D02_S3_only_Qwen25_r2",
+  "anon_code": "T_81e92b72",
+  "poem_id": "D02",
+  "strategy": "S3_only",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "All birds have flown high away",
+        "evidence_found": true,
+        "reasoning": "The phrase 'All birds have flown high away' directly translates the meaning of '众鸟高飞尽' as birds flying far away, indicating they have completely disappeared, meeting the requirement of expressing 'bird all flew away' with the connotation of 'all' and 'disappearance'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "solitary clouds drift idly",
+        "evidence_found": true,
+        "reasoning": "The phrase 'solitary clouds drift idly' directly translates to '孤云独去闲' with 'solitary' matching '孤', 'drift idly' capturing '独去悠闲地飘走' meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "You gaze upon me and I gaze back, never growing weary.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'You gaze upon me and I gaze back, never growing weary' directly reflects the mutual gaze between 'me' and the mountain (敬亭山) without fatigue, fulfilling the requirement that both parties are active viewers and do not grow weary.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "There is only the敬亭山, steadfast and unyielding.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'There is only the敬亭山, steadfast and unyielding.' contains 'only' as the required限定 and preserves the proper noun '敬亭山' as specified.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "valid": false,
+    "raw": "{\n  \"adequacy\": 5,\n  \"imagery\": 5,\n  \"emotion\": 5,\n  \"fluency\": 5,\n  \"po\": 5\n}"
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "D01_S0_Qwen3_r2",
+  "poem_id": "D01",
+  "trap_type": "情感反差",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n此情无计可消除，才下眉头，却上心头。",
+  "prompt_sha256": "0bbc906a86ae54f93512c884be6b64c8990131597ed18efd43e52da7cace1eb9",
+  "translation": "This feeling cannot be erased, for it rises from the brow and then returns to the heart.",
+  "metadata": {
+    "input_tokens": 43,
+    "output_tokens": 20,
+    "latency_ms": 10485.985279083252,
+    "timestamp": "2026-10-26T16:27:20.650395",
+    "finish_reason": "stop"
+  }
+}

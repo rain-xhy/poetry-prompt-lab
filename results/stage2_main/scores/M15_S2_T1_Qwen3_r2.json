@@ -1,0 +1,67 @@
+{
+  "translation_id": "M15_S2_T1_Qwen3_r2",
+  "anon_code": "T_5803883b",
+  "poem_id": "M15",
+  "strategy": "S2_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Why should the羌笛 mourn the withering will: Why should the羌笛 mourn the withering willow?",
+        "evidence_found": false,
+        "reasoning": "The phrase 'Why should the羌笛 mourn the withering willow?' expresses a rhetorical question implying 'there is no need to', matching the required meaning of '不必/no need to' as a negation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The spring wind cannot reach the玉门关",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the spring wind cannot reach the Jade Gate Pass (玉门关), fulfilling the requirement of a negative verb and geographical limitation.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Why should the羌笛 mourn the withering will: The spring wind cannot reach the玉门关.",
+        "evidence_found": false,
+        "reasoning": "The translation correctly expresses the causal relationship where the spring wind not reaching the Jade Gate Pass makes lamenting the withering willow pointless, aligning with the required causal logic and maintaining the original's poetic structure.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why should the羌笛 lament the withering willow?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'lament the withering willow' directly implies the departure meaning of '折杨柳' as required, and '羌笛' is preserved as specified.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

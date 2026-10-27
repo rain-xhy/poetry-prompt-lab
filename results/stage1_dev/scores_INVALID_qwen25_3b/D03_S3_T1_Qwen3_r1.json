@@ -1,0 +1,62 @@
+{
+  "translation_id": "D03_S3_T1_Qwen3_r1",
+  "anon_code": "T_ab9117b1",
+  "poem_id": "D03",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "劝君更尽一杯酒",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '劝君更尽一杯酒' and instead uses '我劝你再干一杯酒' which does not match the original meaning and context.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "劝君更尽一杯酒，西出阳关无故人.",
+        "evidence_found": true,
+        "reasoning": "Translation contains '劝君更尽一杯酒，' which does not match the original '西出阳关'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "劝君更尽一杯酒，西出阳关无故人.",
+        "evidence_found": true,
+        "reasoning": "翻译中包含了原诗句，且翻译内容为劝酒之语，暗示了没有老朋友的意思，但原诗句中并没有直接使用'故人'来表达老朋友，而是通过'西出阳关'来暗示离别和没有老朋友。",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "劝君更尽一杯酒",
+        "evidence_found": true,
+        "reasoning": "The provided translation does not preserve the original phrase '劝酒与无故人之因果' and does not directly convey the relationship between the '劝酒' (advise to drink) and '无故人' (no old acquaintance). Instead, it translates a different phrase from a different poem, '劝君更尽一杯酒', which is not related to the original meaning.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 2.2,
+    "valid": true
+  }
+}

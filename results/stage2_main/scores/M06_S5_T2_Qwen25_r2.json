@@ -1,0 +1,67 @@
+{
+  "translation_id": "M06_S5_T2_Qwen25_r2",
+  "anon_code": "T_1ecf3bdf",
+  "poem_id": "M06",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Flowers fallen, how many are gone?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'how many are gone' directly expresses the uncertainty of the count, matching the requirement that the subject is 'I' observing the unknown number of fallen flowers.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Spring slumber deep, dawn unknown,",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Spring slumber deep, dawn unknown' captures the sleep and unawareness of dawn but does not explicitly mention 'spring' as the time background, which is required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Birdsong fills all around",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Birdsong fills all around' expresses '到处听到鸟叫' by indicating hearing (birdsong) and the widespread nature (all around) of the sound.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Last night, rain and wind did sound",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Last night, rain and wind did sound' directly translates the required meaning of '昨夜听到风雨声' by expressing the past time ('Last night') and the sound of wind and rain ('rain and wind did sound').",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

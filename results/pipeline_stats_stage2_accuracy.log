@@ -1,0 +1,18 @@
+stage2_main / accuracy: 20 poems x 9 strategies (poems with all strategies)
+strategy  mean  sd_across_poems  ci_lo  ci_hi  n_poems
+   S5_T1 0.744            0.186  0.660  0.819       20
+   S1_T1 0.736            0.146  0.672  0.799       20
+   S4_T1 0.733            0.192  0.652  0.808       20
+   S1_T3 0.729            0.195  0.642  0.804       20
+   S2_T1 0.713            0.147  0.652  0.775       20
+   S5_T3 0.690            0.211  0.598  0.777       20
+   S3_T1 0.690            0.172  0.617  0.765       20
+      S0 0.674            0.213  0.579  0.760       20
+   S5_T2 0.669            0.197  0.588  0.748       20
+
+pairs with Holm p < .05:
+Empty DataFrame
+Columns: [a, b, mean_diff, ci_lo, ci_hi, t, p, cohen_d, n_poems, p_holm, p_bh]
+Index: []
+(36 pairs tested; exploratory, small n of poems)
+mixed model written

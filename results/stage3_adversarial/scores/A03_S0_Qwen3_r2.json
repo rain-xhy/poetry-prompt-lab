@@ -1,0 +1,58 @@
+{
+  "translation_id": "A03_S0_Qwen3_r2",
+  "anon_code": "T_7c82efdb",
+  "poem_id": "A03",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When I wish to speak, it is interrupted; I say, \"It is cool and pleasant now, a nice autumn.\"",
+        "evidence_found": true,
+        "reasoning": "The translation describes a moment of interruption in speech but shifts to describing the pleasant autumn weather, which does not convey the emotional tension of 'wanting to speak but stopping' as required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When I wish to speak, it is interrupted; I say, \"It is cool and pleasant now, a nice autumn.\"",
+        "evidence_found": true,
+        "reasoning": "The translation describes a situation where someone is interrupted while trying to speak and then makes a statement about autumn, but it does not distinguish between true feelings and surface words as required by '却道'引出的只是表面话.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When I wish to speak, it is interrupted; I say, \"It is cool and pleasant now, a nice autumn.\"",
+        "evidence_found": true,
+        "reasoning": "The translation describes a moment of interrupted speech followed by a statement about autumn, but it does not convey the emotional tension or internal conflict between feelings and expression that the original phrase requires. The phrase '情感与话语的反差' specifically refers to the contrast or inconsistency between inner emotions and expressed words, which the translation fails to capture as it focuses on a peaceful autumn description rather than emotional suppression or conflict.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.4,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

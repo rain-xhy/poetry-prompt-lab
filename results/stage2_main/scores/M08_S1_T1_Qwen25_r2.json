@@ -1,0 +1,67 @@
+{
+  "translation_id": "M08_S1_T1_Qwen25_r2",
+  "anon_code": "T_f9cd4b0b",
+  "poem_id": "M08",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "There's no one in the empty mountains, Only the sound of voices fades away.",
+        "evidence_found": true,
+        "reasoning": "The translation states 'There's no one' which contradicts the requirement to preserve '看不见人' (can't see people) and '听得见说话声' (can hear voices), not 'no one' as in absence of people.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The sun's dim light returns to the deep woods",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The sun's dim light returns to the deep woods' directly expresses the dynamic movement of sunlight (返景) as the setting sun (夕阳) entering the deep forest (深林).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Reaching the green moss on the ground",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Reaching the green moss on the ground' directly corresponds to '又照在青苔上' by expressing the sun's light returning to the moss, fulfilling the requirement for '又/再次' and the moss imagery.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "There's no one in the empty mountains",
+        "evidence_found": true,
+        "reasoning": "The phrase 'empty mountains' directly translates to '空旷' (open, vast) and implies '幽静' (quiet, secluded) through the context of 'no one' and the fading voices.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.95,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

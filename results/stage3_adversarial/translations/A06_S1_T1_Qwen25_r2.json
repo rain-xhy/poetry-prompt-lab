@@ -1,0 +1,19 @@
+{
+  "id": "A06_S1_T1_Qwen25_r2",
+  "poem_id": "A06",
+  "trap_type": "personification_reversal",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n多情却似总无情，唯觉尊前笑不成。\n人有心还惜别，替烛垂泪到天明。",
+  "prompt_sha256": "62323300ba8c8bd3cd725616832eb205534835843888836b4cf8c6ed8b2cdf17",
+  "translation": "Full of emotion yet seeming indifferent,  \nOnly a smile eludes my lips tonight.  \nFor those with hearts, partings are dear,  \nThey weep for the flame, till dawn's light.  \n\n[Note: In Chinese culture, candles are often personified as having a life or soul, hence \"they weep.\"]",
+  "metadata": {
+    "input_tokens": 253,
+    "output_tokens": 68,
+    "latency_ms": 1001.103401184082,
+    "timestamp": "2026-10-26T21:52:33.920763",
+    "finish_reason": "stop"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M06_S0_Qwen3_r2",
+  "anon_code": "T_e7fa0560",
+  "poem_id": "M06",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "How many petals have fallen now?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'How many petals have fallen now?' directly addresses the question of the quantity of fallen petals from the perspective of 'I' (the observer), matching the requirement that the subject is 'I' or an implied observer.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Spring sleep does not wake me up, All over the place, birds sing.",
+        "evidence_found": true,
+        "reasoning": "The translation does not convey the time background of 'spring' in the phrase '春眠不觉晓', and the phrase 'All over the place, birds sing' does not match the original meaning of 'not waking up' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "All over the place, birds sing.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'All over the place' directly translates to '到处' (everywhere) and 'birds sing' indicates auditory perception of birds, meeting both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The rain came last night",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The rain came last night' directly translates the time reference '夜来' as 'last night' and includes the concept of 'rain' as part of '风雨' (wind and rain), fulfilling both conditions of past time and wind/rain sound.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

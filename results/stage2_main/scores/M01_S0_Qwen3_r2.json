@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S0_Qwen3_r2",
+  "anon_code": "T_6a40a70c",
+  "poem_id": "M01",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Her heart is full of emotion, yet she seems to be always indifferent",
+        "evidence_found": true,
+        "reasoning": "The phrase directly contrasts 'emotion' (deep love/affection) with 'seeming indifference', capturing the paradoxical tension between deep feeling and apparent coldness.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "she seems to be always indifferent. Only when she sees the reflection of herself in the mirror does she feel the sorrow that cannot be expressed",
+        "evidence_found": true,
+        "reasoning": "The translation describes 'sorrow that cannot be expressed' which implies emotional inability to express, not the literal 'unable to/cannot laugh' as required. The phrase 'cannot be expressed' does not equate to 'cannot laugh' and the context shifts from the original's 'at the table' to 'mirror reflection', failing to preserve the specific scene of 'at the wine table'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The candle, with a heart of its own, wishes to part company with her",
+        "evidence_found": true,
+        "reasoning": "The phrase explicitly states the candle has a heart (拟人化) and wishes to part company (惜别), fulfilling both conditions of the pass.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "tears its own moisture until the dawn",
+        "evidence_found": true,
+        "reasoning": "The phrase 'tears its own moisture until the dawn' directly corresponds to '蜡烛替人流泪 + 一直到天明', where 'tears its own moisture' implies the candle's action of shedding tears on behalf of others, and 'until the dawn' matches the time extension to dawn.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

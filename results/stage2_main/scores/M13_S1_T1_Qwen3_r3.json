@@ -1,0 +1,67 @@
+{
+  "translation_id": "M13_S1_T1_Qwen3_r3",
+  "anon_code": "T_0db6e206",
+  "poem_id": "M13",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no trace of human footsteps remains",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no trace of human footsteps remains' implies the absence of birds as well, aligning with '鸟飞绝' meaning no birds are flying.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no trace of human footsteps remains",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no trace of human footsteps remains' directly expresses the absolute negation of human traces disappearing as required, capturing the '灭' (disappearance) sense.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A solitary boatman, draped in a蓑笠",
+        "evidence_found": true,
+        "reasoning": "The phrase 'solitary boatman' directly translates to '独自' (alone) and 'boatman' implies '垂钓' (fishing), meeting both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Beyond the boundless mountains, the birds fly away from sight; Through every path, no trace of human footsteps remains. A solitary boatman, draped in a蓑笠, Dips his rod into the frozen snow alone.",
+        "evidence_found": true,
+        "reasoning": "The translation effectively conveys the vastness of space with 'boundless mountains' and 'every path', while highlighting human solitude through 'solitary boatman' and 'no trace of human footsteps remains', creating a clear contrast between the expansive landscape and the isolated individual.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

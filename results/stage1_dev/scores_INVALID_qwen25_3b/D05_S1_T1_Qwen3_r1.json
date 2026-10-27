@@ -1,0 +1,62 @@
+{
+  "translation_id": "D05_S1_T1_Qwen3_r1",
+  "anon_code": "T_b68f1f46",
+  "poem_id": "D05",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of death and life, two worlds apart,",
+        "evidence_found": true,
+        "reasoning": "The rest of the translation does not fully capture the essence and poetic imagery of the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Not thinking of me, yet I remain deeply remembered.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'Not thinking of me, yet I remain deeply remembered' which contradicts the original '不思量，自难忘' (not thinking of, yet naturally forgets not).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "yet I remain deeply remembered.",
+        "evidence_found": true,
+        "reasoning": "The phrase '相隔千里的孤独坟墓' is not preserved in the translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Not thinking of me, yet I remain deeply remembered.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'not thinking of me' does not directly translate to '无处话凄凉' (no place to talk about sorrow).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 4.2,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M08_S0_Qwen25_r3",
+  "anon_code": "T_c6ca0f12",
+  "poem_id": "M08",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Empty mountain, no one can be seen, Only the sound of human voices is heard.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts 'no one can be seen' (看不见人) with 'the sound of human voices is heard' (听得见说话声), avoiding the implication of 'no one' by focusing on the sensory experience rather than absence.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Sunlight returns to enter the deep woods",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Sunlight returns to enter the deep woods' directly translates the dynamic movement of sunlight (返景) as sunset (夕) and the action of entering deep woods (深林), meeting all pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "And again casts its light on the green moss",
+        "evidence_found": true,
+        "reasoning": "The phrase 'again casts its light' directly translates '又照' and 'on the green moss' corresponds to '青苔上', preserving the intended imagery and meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Empty mountain, no one can be seen",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Empty mountain' directly translates to '空山' and implies a vast, uninhabited space, which aligns with '空旷' (vast/open) and '幽静' (quiet/peaceful) as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

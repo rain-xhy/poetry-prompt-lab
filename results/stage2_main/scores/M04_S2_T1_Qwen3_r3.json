@@ -1,0 +1,67 @@
+{
+  "translation_id": "M04_S2_T1_Qwen3_r3",
+  "anon_code": "T_2c7f1c9e",
+  "poem_id": "M04",
+  "strategy": "S2_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When two hearts are truly devoted, enduring through time",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly use a conditional structure (if/as long as) to express the condition that 'if two people's emotions are long-lasting, then they should not be bound by time', which is required by the 'if' condition.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why should they be bound by the fleeting hours of day and night?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Why should they be bound by the fleeting hours of day and night?' directly expresses a question implying that they do not need to be together every day, fulfilling the requirement of expressing a negative or questioning tone and clearly stating that daily coexistence is unnecessary.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When two hearts are truly devoted, enduring through time, Why should they be bound by the fleeting hours of day and night?",
+        "evidence_found": true,
+        "reasoning": "The translation focuses on 'enduring through time' and 'fleeting hours of day and night', which does not convey the continuous, repetitive nature of '朝朝暮暮' as required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "When two hearts are truly devoted, enduring through time, Why should they be bound by the fleeting hours of day and,",
+        "evidence_found": false,
+        "reasoning": "The translation maintains the conditional structure 'if two hearts are devoted' and the rhetorical question 'why should they be bound', preserving the logical relationship between condition and counter-question as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M18_S4_T1_Qwen3_r2",
+  "anon_code": "T_64b76c04",
+  "poem_id": "M18",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Cannot help but mourn as petals fall, yet the once-familiar swallow returns. The wind knocks for me, yet I remain unmoved.",
+        "evidence_found": true,
+        "reasoning": "The translation introduces new elements like 'swallow' and 'wind knocking' that are not in the original phrase, and focuses on the swallow's return and the wind's action rather than the helpless observation of petals falling.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Cannot help but mourn as petals fall, yet the once-familiar swallow returns. The wind knocks for me, yet I remain unmoved.",
+        "evidence_found": true,
+        "reasoning": "The translation includes an extra sentence about the wind knocking for the speaker and the speaker remaining unmoved, which is not part of the original Chinese phrase. The original phrase only describes the swallow returning and the feeling of familiarity, but the translation adds additional elements that are not present in the original.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Cannot help but mourn as petals fall, yet the once-familiar swallow returns.",
+        "evidence_found": true,
+        "reasoning": "The phrase captures the contrast between the falling petals (花落去) and the returning swallow (燕归来), emphasizing their opposite directions and the emotional contrast.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Cannot help but mourn as petals fall, yet the once-familiar swallow returns.",
+        "evidence_found": true,
+        "reasoning": "The phrase expresses the passage of time through falling petals and the return of a familiar swallow, indicating both time's passage and the contrast between past and present, which aligns with the required meaning of time's passage and the feeling of things unchanged while people have changed.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

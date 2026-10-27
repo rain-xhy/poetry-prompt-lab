@@ -1,0 +1,67 @@
+{
+  "translation_id": "M16_S3_T1_Qwen3_r2",
+  "anon_code": "T_e180ef9a",
+  "poem_id": "M16",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The crow calls at the moss-covered inn, and the moon shines over the wooden bridge.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'the crow calls' instead of 'chicken' (鸡) and 'moss-covered inn' instead of '茅店' (thatch-roofed inn), and 'moon shines over the wooden bridge' instead of 'there is still a moon on the thatch-roofed inn'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The crow calls at the moss-covered inn, and the moon shines over the wooden bridge.",
+        "evidence_found": true,
+        "reasoning": "The translation does not mention 'human footprints on the wooden bridge covered in frost' as required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Because of this, I remember the dream of Du Ling, where the swans fill the back pond.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I remember the dream of Du:ling' directly translates the concept of recalling a dream from Du Ling, fulfilling the requirement of expressing 'recalling' and specifying it as a dream.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the swans fill the back pond",
+        "evidence_found": true,
+        "reasoning": "The phrase 'the swans fill the back pond' directly corresponds to '凫雁满布曲折池塘' by expressing the swans filling the pond and the 'back pond' implying the curved or winding nature of the pond.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

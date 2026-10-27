@@ -1,0 +1,58 @@
+{
+  "translation_id": "A06_S1_T1_Qwen25_r1",
+  "anon_code": "T_b5b1a5aa",
+  "poem_id": "A06",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "As candles weep at night to greet the farewells",
+        "evidence_found": true,
+        "reasoning": "The phrase 'candles weep' does not correctly capture '人替烛' (person replaces candle) as the translation implies candles are weeping, not a person replacing the candle.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Pity, yet it seems, is ever absent; Only in wine cups, laughter fails to stay. For lovers, parting still elicits care, As candles weep at night to greet the farewells.",
+        "evidence_found": true,
+        "reasoning": "The translation does not convey the meaning of '替的方向改变了' (the direction of substitution has changed) as required; it focuses on emotional states and metaphors related to parting, not the concept of direction change in substitution.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Pity, yet it seems, is ever absent; Only in wine cups, laughter fails to stay.",
+        "evidence_found": true,
+        "reasoning": "The translation reverses the meaning of the original poem by stating that pity is absent (contrary to the original's implication that pity is present) and that laughter fails to stay in wine cups (contrary to the original's implication that laughter remains in wine cups).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

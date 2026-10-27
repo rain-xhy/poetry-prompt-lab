@@ -1,0 +1,19 @@
+{
+  "id": "M02_S1_T3_Qwen25_r3",
+  "poem_id": "M02",
+  "trap_type": "情感反差",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n红豆生南国，春来发几枝。\n愿君多采撷，此物最相思。",
+  "prompt_sha256": "7d06d3cd35213089a5f37fc61faff9aeef06dd5b9f8f157cc354801272b8b43f",
+  "translation": "**English Translation:**\n\nRed beans grow in the South,\nSpring brings many leaves to sprout.\nMay you pick many, this\nSymbol of love-lost love.\n\n[Note: The poem uses the red bean (红豆) as a metaphor for love-lost love, a common theme in classical Chinese poetry. The red bean is often associated with deep, enduring feelings.]\n\n**English Translation:**\n\nRed beans flourish in the South,\nSpring greets them with multiple sprouts.\nMay you gather many, for this\nIs the red bean, dear to the heart.\n\n[Note: This version emphasizes the metaphorical use of the red bean, highlighting its significance in expressing deep affection.]",
+  "metadata": {
+    "input_tokens": 232,
+    "output_tokens": 138,
+    "latency_ms": 13314.979076385498,
+    "timestamp": "2026-10-26T20:20:41.403714",
+    "finish_reason": "stop"
+  }
+}

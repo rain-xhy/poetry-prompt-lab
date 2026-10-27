@@ -1,0 +1,58 @@
+{
+  "translation_id": "A02_S5_T1_Qwen25_r3",
+  "anon_code": "T_0c9d89ab",
+  "poem_id": "A02",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "How many petals did the flowers shed?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'flowers' in the last line directly addresses the subject of petal shedding, fulfilling the requirement that the subject is flowers/blossoms.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Spring sleep unaware of dawn, All around the bird's song is heard. Last night the wind and rain spoke, How many petals did the flowers shed?",
+        "evidence_found": true,
+        "reasoning": "The translation describes flowers shedding petals due to wind and rain, but does not explicitly state that flowers have cognitive ability to know or be aware of the events, which is required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Spring sleep unaware of dawn, All around the bird's song is heard. Last night the wind and rain spoke, How many petals did the flowers shed?",
+        "evidence_found": true,
+        "reasoning": "The translation does not match the original poem's meaning as it misrepresents the original poem's content. The original poem '春晓' by Tang Dynasty poet Meng Haoran describes the awakening from sleep to find the birds singing and the flowers falling due to the previous night's rain. The translation provided here is a modern interpretation that adds elements like 'the wind and rain spoke' and 'how many petals did the flowers shed', which are not present in the original poem. The original poem is a simple description of the natural scene without the added narrative elements of the translation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.95,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

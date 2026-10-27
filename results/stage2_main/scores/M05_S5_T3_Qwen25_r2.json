@@ -1,0 +1,67 @@
+{
+  "translation_id": "M05_S5_T3_Qwen25_r2",
+  "anon_code": "T_d08a6a3b",
+  "poem_id": "M05",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking, seeking, cold and lonely",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Seeking, seeking' directly translates the repeated action of '寻寻觅觅' with repetition to preserve the rhythmic quality and convey the continuous searching motion.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking, seeking, cold and lonely, Silent and bleak, sorrowful and bleak.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'cold and lonely' and 'silent and bleak' directly convey the cold, desolate environment required, and the structure shows progression from the previous lines.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking, seeking, cold and lonely, Silent and bleak, sorrowful and bleak. My throat chokes, unable to sing; tears flow without words.",
+        "evidence_found": true,
+        "reasoning": "The translation captures deep sorrow through layered emotional progression from searching and isolation to physical and emotional breakdown, meeting both pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking, seeking, cold and lonely, Silent and bleak, sorrowful and bleak. My throat chokes, unable to sing; tears flow without words.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly progresses from action (seeking), environment (cold and lonely, silent and bleak), to emotion (sorrowful and bleak, throat chokes, tears flow), maintaining the required order without disruption.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.1,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

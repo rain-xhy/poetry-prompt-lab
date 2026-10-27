@@ -1,0 +1,71 @@
+{
+  "translation_id": "D03_S5_T3_Qwen3_r1",
+  "anon_code": "T_11f08a83",
+  "poem_id": "D03",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The wind knocks at the door for me, And the hills wish to keep the guest.",
+        "evidence_found": true,
+        "reasoning": "The translation does not convey the meaning of '我劝你再干一杯酒' which is urging someone to drink one more cup of wine, but instead describes natural elements interacting with the speaker.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "West out Yangguan",
+        "evidence_found": false,
+        "reasoning": "The phrase 'West out Yangguan' directly translates to '向西出了阳关' as required, indicating movement westward beyond Yang Pass.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "West of Yang Pass, there are no old friends.",
+        "evidence_found": false,
+        "reasoning": "The phrase 'no old friends' directly matches the required meaning of '没有老朋友' without expanding the scope to 'no one at all'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The wind knocks at the door for me, And the hills wish to keep the guest.",
+        "evidence_found": true,
+        "reasoning": "The English translation connects the act of drinking (劝君更尽一杯酒) with the absence of old friends (西出阳关无故人) by implying that the wind and hills are trying to keep the guest from leaving, thus showing the relationship between the two parts.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "valid": false,
+    "raw": "{\n  \"adequacy\": 5,\n  \"imagery\": 5,\n  \"emotion\": 5,\n  \"fluency\": 5,\n  \"po\": 5\n}"
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

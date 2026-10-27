@@ -1,0 +1,62 @@
+{
+  "translation_id": "D03_S3_T1_Qwen25_r2",
+  "anon_code": "T_3d33ebe2",
+  "poem_id": "D03",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The more you drink, dear friend, to this final cup of wine.",
+        "evidence_found": true,
+        "reasoning": "The phrase '西出阳关无故人' is not preserved in the translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The more you drink, dear friend, to this final cup of wine.",
+        "evidence_found": true,
+        "reasoning": "The phrase '西出阳关无故人' is not preserved in the translation. Instead, '西出阳关' is translated as 'When you travel west from here' which does not preserve the original meaning and context.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "无故人",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'no old friends' which expands the meaning to 'no one at all', not preserving '没有老朋友' as per the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When you travel west from here, there will be no old friends.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '劝酒与无故人之因果' and does not clearly show the relationship between the first sentence (劝君更尽一杯酒) and the second sentence (西出阳关无故人).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 3,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.0,
+    "valid": true
+  }
+}

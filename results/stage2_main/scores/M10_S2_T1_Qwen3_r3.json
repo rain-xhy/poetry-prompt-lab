@@ -1,0 +1,67 @@
+{
+  "translation_id": "M10_S2_T1_Qwen3_r3",
+  "anon_code": "T_4947e4d8",
+  "poem_id": "M10",
+  "strategy": "S2_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wild fire cannot burn it out",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Wild fire cannot burn it out' directly translates to the required meaning of 'burn never' (not/cannot) and expresses the idea of not being burned out, matching the requirement for '烧不完' with a negative and personification.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wild fire cannot burn it out, and spring wind brings it back again.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly mentions 'spring wind brings it back again', which directly addresses the requirement of 'spring wind's role in regrowth' and implies the repeated growth process as per 'again'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wild fire cannot burn it out, and spring wind brings it back again.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states that wild fire cannot destroy the grass (preserving the 'fire burns grass' relationship) and the spring wind regrows it, maintaining the personification where the wind 'brings it back' as if it has agency.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wild fire cannot burn it out, and spring wind brings it back again.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys the cyclical nature of unbreakable life force through the imagery of fire and wind, matching the required themes of resilience and regeneration.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

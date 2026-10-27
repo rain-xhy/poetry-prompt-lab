@@ -1,0 +1,19 @@
+{
+  "id": "M04_S0_Qwen3_r3",
+  "poem_id": "M04",
+  "trap_type": "情感反差",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n两情若是久长时，又岂在朝朝暮暮。",
+  "prompt_sha256": "af09b02805709ee29899f701c7f25000a6886b6ab5dde654a7a53635ea1b0a48",
+  "translation": "If true love were as enduring as the stars, it would not matter whether we were apart or together.",
+  "metadata": {
+    "input_tokens": 43,
+    "output_tokens": 22,
+    "latency_ms": 9814.598560333252,
+    "timestamp": "2026-10-26T20:40:39.274591",
+    "finish_reason": "stop"
+  }
+}

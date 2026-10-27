@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S1_T3_Qwen25_r3",
+  "anon_code": "T_a4c47ddc",
+  "poem_id": "M01",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Full of emotion yet seems indifferent",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Full of emotion yet seems indifferent' directly captures both 'deep love/affection' and 'seeming coldness/indifference' while maintaining the paradoxical tension between them.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Only a smile fails to form at the cup.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'fails to form' directly translates to 'cannot form' (unable to), and 'at the cup' refers to the wine scene context.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The candle, with its heart, cherishes parting",
+        "evidence_found": true,
+        "reasoning": "This line explicitly states the candle as a personified subject with a heart (有心) that cherishes parting (惜别), meeting both conditions of clear personification and preserving the metaphorical effect.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Washes tears all night for those who must part",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Washes tears all night for those who must part' directly translates the required meaning of '蜡烛替人流泪 + 一直到天明' by indicating the candle's action of 'washing tears' (symbolizing shedding tears) for others ('those who must part') throughout the night until dawn.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 5,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.4,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

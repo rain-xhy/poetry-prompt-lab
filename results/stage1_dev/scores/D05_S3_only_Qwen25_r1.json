@@ -1,0 +1,76 @@
+{
+  "translation_id": "D05_S3_only_Qwen25_r1",
+  "anon_code": "T_207e0aab",
+  "poem_id": "D05",
+  "strategy": "S3_only",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of生死 are but a fleeting moment, thought not of, yet always remembered.",
+        "evidence_found": true,
+        "reasoning": "The phrase '生死' is not translated correctly as 'fleeting moment' and does not convey the intended meaning of separation between living and dead.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "thought not of, yet always remembered",
+        "evidence_found": true,
+        "reasoning": "The phrase 'thought not of, yet always remembered' directly matches the required meaning of '即使不刻意去想，也自然难忘' by expressing that even without deliberate thought, the memory remains.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A solitary grave, a thousand miles away",
+        "evidence_found": true,
+        "reasoning": "The phrase 'a solitary grave' directly translates to '孤独坟墓' (lonely grave) and 'a thousand miles away' indicates the '千里的遥远的距离' required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "where can one speak of the sorrow?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'where can one speak of the sorrow?' directly translates the concept of '无处话凄凉' by expressing the inability to find a place or person to express sorrow, matching the required meaning of '没有地方、没有人可诉说凄凉' with the emotion of凄凉/sorrow.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 5,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.2,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "translation_id": "D01_S3_only_Qwen3_r1",
+  "anon_code": "T_fae524e9",
+  "poem_id": "D01",
+  "strategy": "S3_only",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling cannot be erased. When it falls away, it returns again.",
+        "evidence_found": true,
+        "reasoning": "The translation states 'cannot be erased' which implies a permanent inability to eliminate, but the required meaning specifies '愁绪无法排遣' (emotional distress that cannot be dispelled), and the second part 'When it falls away, it returns again' introduces a cyclical return that the original phrase does not convey, indicating a failure to meet the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When it falls away, it returns again.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'When it falls away' does not convey 'just left the brow' as required, and 'it returns again' implies recurrence rather than the initial departure.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling cannot be erased. When it falls away, it returns again.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express a clear contrast or turn (yet/but/again) as required, and the focus is on the feeling returning rather than the emotion specifically returning to the heart.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling cannot be erased. When it falls away, it returns again.",
+        "evidence_found": true,
+        "reasoning": "The translation does not convey that the sorrow continuously shifts between the brow and heart without escape, but rather suggests a cyclical return after falling away, which implies a temporary absence rather than continuous transfer.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

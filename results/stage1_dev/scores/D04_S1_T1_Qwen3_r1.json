@@ -1,0 +1,76 @@
+{
+  "translation_id": "D04_S1_T1_Qwen3_r1",
+  "anon_code": "T_3d0ca27d",
+  "poem_id": "D04",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The water of Tao Lake is deeper than a thousand feet, yet it cannot match the sincerity of Wang Lun's farewell.",
+        "evidence_found": true,
+        "reasoning": "The translation adds a comparison to Wang Lun's farewell sincerity which is not in the original phrase, and the phrase 'deeper than a thousand feet' does not directly express '千尺' as a measure of depth but rather a comparison to a thousand feet.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "it cannot match the sincerity of Wang Lun's farewell",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it cannot match' directly corresponds to '比不上' and the context implies the water's depth is less than Wang Lun's sincerity, satisfying the condition that it doesn't become 'deeper' or 'the same depth'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wang Lun's farewell",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Wang Lun's farewell' indicates that Wang Lun is the one performing the farewell action, satisfying the requirement that 'Wang Lun is the person who sends off the person'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The water of Tao Lake is deeper than a thousand feet, yet it cannot match the sincerity of Wang Lun's farewell.",
+        "evidence_found": true,
+        "reasoning": "The translation compares the depth of water to the depth of emotion but does not explicitly state that the emotion is deeper than the water; it says the water is deeper than a thousand feet but cannot match the sincerity, implying the sincerity is deeper, which contradicts the requirement that '情谊被表达为更深的一方' (the emotion is expressed as the deeper one).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M04_S1_T3_Qwen25_r2",
+  "anon_code": "T_0142f5ef",
+  "poem_id": "M04",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Two loves if true for long,",
+        "evidence_found": true,
+        "reasoning": "The phrase does not use a conditional clause with 'if' as required by the pass conditions, and 'long' does not clearly convey the meaning of 'long-lasting' as needed.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Two loves if true for long, Are not bound by day and night.",
+        "evidence_found": true,
+        "reasoning": "The translation states that true love is not bound by time, but the original phrase '又岂在朝朝暮暮' implies that the relationship does not need to be maintained daily, which is not explicitly stated in the translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Are not bound by day and night",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Are not bound by day and night' captures the continuous, repetitive nature of time (日日夜夜) and implies constant presence without physical separation, aligning with the original's theme of transcending physical presence through persistent connection.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Two loves if true for long, Are not bound by day and night.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the conditional structure 'if true for long' and the counter-statement 'are not bound by and night', maintaining the logical relationship between condition and conclusion while reflecting the theme of love transcending physical presence.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

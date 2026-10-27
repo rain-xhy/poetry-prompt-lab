@@ -1,0 +1,58 @@
+{
+  "translation_id": "A08_S0_Qwen25_r3",
+  "anon_code": "T_136beb66",
+  "poem_id": "A08",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The swallows that once nested in the noble halls' porch",
+        "evidence_found": true,
+        "reasoning": "The phrase 'noble halls' directly translates '豪门' as a generic term for wealthy/noble/aristocratic families, fulfilling the requirement to preserve '豪门' as a generalized expression.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The swallows that once nested in the noble halls' porch Have now flown into the common homes.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the loss of historical specificity by contrasting the past (noble halls) with the present (common homes), indicating a shift in context that aligns with the original phrase's meaning of 'historical specificity lost'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Over by the wildflowers by the Zhuque Bridge grows wild grass, Through the U-Wing Lane, the sun sets at an oblique angle. The swallows that once nested in the noble halls' porch Have now flown into the common homes.",
+        "evidence_found": true,
+        "reasoning": "The translation correctly captures the meaning of the original poem by contrasting the past and present states of the swallows, the wild grass, and the sun setting, while maintaining the contrast between noble and common spaces as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

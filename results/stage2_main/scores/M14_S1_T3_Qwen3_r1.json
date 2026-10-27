@@ -1,0 +1,67 @@
+{
+  "translation_id": "M14_S1_T3_Qwen3_r1",
+  "anon_code": "T_866a278e",
+  "poem_id": "M14",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If the general of the dragon city had been alive, he would never allow the northern invaders to cross the dark mountain.",
+        "evidence_found": true,
+        "reasoning": "The translation uses the conditional structure 'If... had been alive, he would never allow...' which matches the required condition assumption and conditional clause.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "he would never allow the northern invaders to cross the dark mountain",
+        "evidence_found": true,
+        "reasoning": "The phrase 'never allow' directly translates the '不让' meaning 'not allow' and 'cross the dark mountain' corresponds to '越过' in the context of preventing movement.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If the general of the dragon city had been alive, he would never allow the northern invaders to cross the dark mountain.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states a conditional clause ('If the general of the dragon: had been alive') followed by a result ('he would never allow the northern invaders to cross the dark mountain'), preserving the condition-result logic while maintaining the original's context of military defense.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If the general of the dragon city had been alive, he would never allow the northern invaders to cross the dark mountain.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'general of the dragon city' directly references the historical figure and the border region, conveying a formidable military leader who protects the frontier.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.65,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

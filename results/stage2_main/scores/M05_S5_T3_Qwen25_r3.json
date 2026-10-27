@@ -1,0 +1,67 @@
+{
+  "translation_id": "M05_S5_T3_Qwen25_r3",
+  "anon_code": "T_6ea1d79d",
+  "poem_id": "M05",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Searching for something, yet nothing found",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Searching for something, yet nothing found' directly expresses the repeated searching action as required, with the first part of the translation capturing the '反复寻找的动作' through the continuous search effort described.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The room so lonely, the air so cold",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The room so lonely, the air so cold' directly expresses the cold, desolate environment as required, and the structure aligns with the progression from action to environment to emotion.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "With sorrow deepening, my heart in pain.",
+        "evidence_found": true,
+        "reasoning": "The phrase does not adequately convey the 'extreme sadness' required; it focuses on a single emotional state without showing the layered progression from action to environment to emotion as specified.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "From searching to surroundings, then to the intensity of sorrow.",
+        "evidence_found": true,
+        "reasoning": "The phrase explicitly states the progression from action (searching) to environment (surroundings) to emotion (intensity of, sorrow), maintaining the required order without disruption.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "A05_S0_Qwen3_r2",
+  "poem_id": "A05",
+  "trap_type": "double_negation",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n不得不离君而去，不见不思量。",
+  "prompt_sha256": "90ce823d285d42884609173bdccde6d75b6a1f31a46765ea9f80af548c5a29db",
+  "translation": "I cannot leave you, I cannot part from you. I cannot forget you, I cannot think of you.",
+  "metadata": {
+    "input_tokens": 38,
+    "output_tokens": 23,
+    "latency_ms": 9217.920064926147,
+    "timestamp": "2026-10-26T21:44:03.084243",
+    "finish_reason": "stop"
+  }
+}

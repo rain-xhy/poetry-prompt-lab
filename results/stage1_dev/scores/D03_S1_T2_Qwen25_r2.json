@@ -1,0 +1,76 @@
+{
+  "translation_id": "D03_S1_T2_Qwen25_r2",
+  "anon_code": "T_a0cafcae",
+  "poem_id": "D03",
+  "strategy": "S1_T2",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "劝君再饮杯中酒",
+        "evidence_found": true,
+        "reasoning": "The phrase '劝君再饮杯中酒' directly translates to 'encourage you to drink another cup of wine' which matches the required meaning of '我劝你再干一杯酒' with the speaker addressing a friend and expressing the action of drinking again.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "West",
+        "evidence_found": false,
+        "reasoning": "The translation uses 'West' to indicate the west direction, and 'Yangguan' is present as 'Yangguan' in the context of the phrase 'West Yangguan'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Westward beyond Yang Pass, few friends are known.",
+        "evidence_found": false,
+        "reasoning": "The phrase 'few friends are known' directly translates to 'no old friends' within the specified range, avoiding expansion to 'no one at all'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "劝君再饮杯中酒，西行阳关少知音。",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly links the act of drinking (劝君再饮杯中酒) with the absence of old friends (西行阳关少知音), showing the causal relationship between the two as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.65,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

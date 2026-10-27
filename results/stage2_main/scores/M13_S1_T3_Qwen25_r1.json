@@ -1,0 +1,67 @@
+{
+  "translation_id": "M13_S1_T3_Qwen25_r1",
+  "anon_code": "T_d0be29dc",
+  "poem_id": "M13",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A thousand mountains mute the cries of birds",
+        "evidence_found": true,
+        "reasoning": "The phrase 'mute the cries of birds' implies birds are present but silenced, not the complete absence of birds as required by '鸟飞绝' (no birds/not a single bird).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A myriad paths vanish from human footsteps.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'vanish from human footsteps' directly conveys the absolute absence of human traces as required by '人的踪迹消失（绝对否定）', with 'vanish' capturing the '灭' sense of disappearance.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A solitary boat and an old fisherman",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A solitary boat and an old fisherman' directly emphasizes 'alone' through 'solitary', fulfilling the requirement for '独自/alone' and the action of '垂钓' implied by the context of the fisherman in a boat.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A thousand mountains mute the cries of birds, A myriad paths vanish from human footsteps. A solitary boat and an old fisherman, Finds peaceful solitude in the winter snow.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'thousand mountains' to convey vast space, 'myriad paths' for extensive area, 'solitary boat' and 'old fish as a symbol of isolation, and 'winter snow' to emphasize solitude, creating a clear contrast between the expansive landscape and the individual's loneliness.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.95,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S0_Qwen25_r1",
+  "anon_code": "T_0ea01fe1",
+  "poem_id": "M02",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Red beans grow in the Southland",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Red beans' directly corresponds to '红豆' and is used as the specific image for longing in the translation, fulfilling the requirement of preserving '红豆' as a symbol of longing (metaphor).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I hope you gather many",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I hope you gather many' directly expresses a wish/hope for the recipient to collect a large amount, fulfilling the requirement of expressing hope and addressing 'you' specifically for the action of gathering.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This is the thing most of all for thoughts.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'This is the thing most of all for thoughts' directly translates to 'this thing most can寄托相思之情' (this thing most can symbolize/express longing), meeting the requirement of expressing 'this thing most can symbolize/express longing' without implying 'this thing will think'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Spring comes and how many sprouts do they bear?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Spring comes and how many sprouts do they bear?' directly addresses the timing of spring and the natural action of sprouting, fulfilling both conditions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

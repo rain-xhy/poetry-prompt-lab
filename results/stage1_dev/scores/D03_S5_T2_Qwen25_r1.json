@@ -1,0 +1,76 @@
+{
+  "translation_id": "D03_S5_T2_Qwen25_r1",
+  "anon_code": "T_61f82d20",
+  "poem_id": "D03",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Speak not of ties that bind, Beyond the setting sun, Where friends like trees in silence stand, And shadows stretch where footsteps end.",
+        "evidence_found": true,
+        "reasoning": "The translation does not convey the act of drinking or the specific instruction to 'drink one more cup' as required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Beyond the setting sun",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Beyond the setting sun' does not explicitly mention 'west' or 'west direction', which is required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Speak not of ties that bind, Beyond the setting sun, Where friends like trees in silence stand, And shadows stretch where footsteps end.",
+        "evidence_found": true,
+        "reasoning": "The translation refers to 'friends like trees in silence stand' which implies a specific group of friends rather than 'no old friends', and the phrase 'shadows stretch where footsteps end' suggests absence of friends rather than 'no one at all'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Speak not of ties that bind, Beyond the setting sun, Where friends like trees in silence stand, And shadows stretch where footsteps end.",
+        "evidence_found": true,
+        "reasoning": "The translation connects the act of劝酒 (encouraging drinking) with the absence of故人 (old friends) by contrasting the setting sun with the silent standing of friends, implying that without old friends, one should drink again.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

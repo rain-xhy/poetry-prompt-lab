@@ -1,0 +1,62 @@
+{
+  "translation_id": "D03_S5_T1_Qwen25_r1",
+  "anon_code": "T_fe33a1ae",
+  "poem_id": "D03",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "劝君更尽一杯酒",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '劝君更尽一杯酒' as required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "劝君更尽一杯酒，西出阳关无故人。",
+        "evidence_found": true,
+        "reasoning": "The translation includes '西出阳关' which preserves the direction and the place name '阳关' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "劝君更尽一杯酒，西出阳关无故人。",
+        "evidence_found": true,
+        "reasoning": "翻译中包含了原诗句，没有完全满足'没有老朋友'的翻译要求",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "劝君更尽一杯酒，西出阳关无故人。",
+        "evidence_found": true,
+        "reasoning": "The provided translation does not preserve the original phrase '劝酒与无故人之因果' and does not directly convey the relationship between the '劝酒' and '无故人' as stated in the original phrase. Instead, it translates to 'Here's the translation, adhering to the constraints and key requirements:'劝君更尽一杯酒，西出阳关无故人。' which is a different phrase and does not reflect the relationship between '劝酒' and '无故人' as specified in the original phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 1,
+    "overall": 3.6,
+    "valid": true
+  }
+}

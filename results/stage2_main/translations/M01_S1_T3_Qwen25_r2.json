@@ -1,0 +1,19 @@
+{
+  "id": "M01_S1_T3_Qwen25_r2",
+  "poem_id": "M01",
+  "trap_type": "情感反差",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n多情却似总无情，唯觉尊前笑不成。\n蜡烛有心还惜别，替人垂泪到天明。",
+  "prompt_sha256": "ddce11dcba293b5b3ed0819afaf35da7ab6d13cd97ec091e3981c124ecfd833d",
+  "translation": "Here is the English translation, following the key requirements and constraints:\n\n[The poem uses the metaphor of a candle to convey the speaker's deep sorrow and emotional detachment. In classical Chinese poetry, candles often symbolize farewell or separation, and their \"heart\" (heart) can be personified to express the emotional pain.]\n\nTwo lines of English translation:\nLofty wine cups fail to evoke a smile,\nAs if the candles, with their own hearts, weep.\n\nNotes:\nThe poem uses the metaphor of a candle to convey the speaker's deep sorrow and emotional detachment. In classical Chinese poetry, candles often symbolize farewell or separation, and their \"heart\" (心) can be personified to express the emotional pain.",
+  "metadata": {
+    "input_tokens": 239,
+    "output_tokens": 146,
+    "latency_ms": 11775.89225769043,
+    "timestamp": "2026-10-26T21:02:26.633581",
+    "finish_reason": "stop"
+  }
+}

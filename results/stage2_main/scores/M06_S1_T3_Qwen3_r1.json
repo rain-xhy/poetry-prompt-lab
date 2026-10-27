@@ -1,0 +1,67 @@
+{
+  "translation_id": "M06_S1_T3_Qwen3_r1",
+  "anon_code": "T_616cc145",
+  "poem_id": "M06",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "how many blossoms have fallen?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'how many blossoms have fallen?' directly corresponds to '不知道花落了多少' with the implied subject 'I' as the observer.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In the morning, I sleep soundly, unaware of the dawn, and everywhere I hear the cries of birds.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'unaware of the dawn' which covers '未察觉' but adds extra elements like 'in the morning' and 'hearing birds' that are not in the original phrase, and the time background is not correctly specified as 'spring' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "everywhere I hear the cries of birds",
+        "evidence_found": true,
+        "reasoning": "The phrase 'everywhere I hear the cries of birds' directly translates to '到处听到鸟叫' with 'everywhere' expressing '到处' and 'hear the cries of birds' indicating the auditory aspect.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The sound of last night's rain and wind is heard",
+        "evidence_found": true,
+        "reasoning": "The phrase 'last night's rain and wind' does not match the required '昨夜听到风雨声' which specifies hearing the sound of wind and rain from the previous night, but the translation uses 'last night's rain and wind' as a noun phrase rather than the active hearing of the sound.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

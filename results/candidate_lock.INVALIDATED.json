@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-10-26T18:13:54.333208",
+  "dev_results": {
+    "S5_T1": 0.0521,
+    "S5_T3": 0.0312,
+    "S5_T2": 0.0,
+    "S3_T1": 0.0,
+    "S1_T1": 0.0,
+    "S0": 0.0,
+    "S1_T3": 0.0,
+    "S1_T2": 0.0,
+    "S3_only": 0.0
+  },
+  "dev_quality": {
+    "S5_T1": 3.5819,
+    "S5_T3": 3.5076,
+    "S5_T2": 3.7757,
+    "S3_T1": 3.7229,
+    "S1_T1": 3.6965,
+    "S0": 3.5653,
+    "S1_T3": 3.5069,
+    "S1_T2": 3.4812,
+    "S3_only": 3.34
+  },
+  "selected_strategies": [
+    "S0",
+    "S5_T1",
+    "S5_T3",
+    "S5_T2",
+    "S3_T1"
+  ],
+  "selection_rule": "S0 baseline always kept; top 4 others by mean semantic accuracy (ties: quality overall, then fewer input tokens)",
+  "n_translations_scored": 216,
+  "scorer": "qwen2.5:3b (temperature=0)",
+  "sha256": "79458624d1c0fc27aaf4ce69350164af23d1c2381bdada0a1cdb6661bf23fa1f",
+  "status": "INVALIDATED",
+  "invalid_reason": "Scorer qwen2.5:3b judged 854/863 units as fail with self-contradictory reasoning; accuracy ~0 is a scorer failure, not a strategy effect. Do not use for stage 2."
+}

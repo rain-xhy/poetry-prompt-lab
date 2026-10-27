@@ -1,0 +1,19 @@
+{
+  "id": "M03_S1_T3_Qwen25_r3",
+  "poem_id": "M03",
+  "trap_type": "情感反差",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n君问归期未有期，巴山夜雨涨秋池。\n何当共剪西窗烛，却话巴山夜雨时。",
+  "prompt_sha256": "d1874b0d50f69fcaa9074d09fee24fcd91b221308a092bda8fe3d41fac8f767a",
+  "translation": "Here is the English translation:\n\n[The poem expresses the poet's longing and the uncertainty of a reunion, using the imagery of rain in a dark alley to symbolize the poet's loneliness and the difficulties in communication.]\n\nWhen will you come back? I don't know,  \nIn the autumn night, rain fills the pool in the mountain.  \nWhen we can sit together by the west window in the rain,  \nI will tell you stories of the rain in the alley of Ba Mountain.",
+  "metadata": {
+    "input_tokens": 240,
+    "output_tokens": 99,
+    "latency_ms": 1510.7378959655762,
+    "timestamp": "2026-10-26T19:41:03.784739",
+    "finish_reason": "stop"
+  }
+}

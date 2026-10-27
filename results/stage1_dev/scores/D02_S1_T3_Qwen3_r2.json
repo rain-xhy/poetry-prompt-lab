@@ -1,0 +1,76 @@
+{
+  "translation_id": "D02_S1_T3_Qwen3_r2",
+  "anon_code": "T_f86e2d5e",
+  "poem_id": "D02",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Birds fly away in great numbers, and the solitary clouds drift off alone.",
+        "evidence_found": true,
+        "reasoning": "The translation describes birds flying away in large numbers but does not convey the complete disappearance or 'all birds flying away' as required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Birds fly away in great numbers, and the solitary clouds drift off alone.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'solitary clouds' which implies '孤云' but does not convey '独自' (alone) in the sense of the cloud drifting off by itself; the phrase 'drift off alone' suggests the cloud moves alone, but the required meaning of '孤云独自悠闲地飘走' emphasizes the cloud's solitary and leisurely movement without explicit 'alone' as a separate state.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "They look upon each other without hesitation",
+        "evidence_found": true,
+        "reasoning": "The phrase 'they look upon each other' implies mutual looking but does not specify 'me and the mountain' as required, and 'without hesitation' does not match the original's 'not tired' meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "only the Jingting Mountain remains truly admirable",
+        "evidence_found": true,
+        "reasoning": "The phrase 'only the Jing:ing Mountain remains truly admirable' contains 'only' as the required限定 and explicitly refers to 'Jingting Mountain' as the proper noun.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

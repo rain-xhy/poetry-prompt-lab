@@ -1,0 +1,58 @@
+{
+  "translation_id": "A05_S1_T1_Qwen3_r3",
+  "anon_code": "T_dde465b4",
+  "poem_id": "A05",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "yet I must go",
+        "evidence_found": true,
+        "reasoning": "The phrase 'yet I must go' directly translates the required meaning of '不得不' as 'must' in the context of the translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Not seeing you, not thinking of you",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Not seeing you, not thinking of: not seeing you' directly reflects the conditional relationship '不见→不思' as required, with the 'yet I must go' providing context without altering the core conditional meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Not seeing you, not thinking of you, yet I must go.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the dual negation (not seeing you, not thinking of, you) and conditional negation (yet I must go) as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 3.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

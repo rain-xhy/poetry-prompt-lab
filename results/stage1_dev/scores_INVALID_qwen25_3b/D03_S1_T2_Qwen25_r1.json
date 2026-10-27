@@ -1,0 +1,57 @@
+{
+  "translation_id": "D03_S1_T2_Qwen25_r1",
+  "anon_code": "T_9afc9772",
+  "poem_id": "D03",
+  "strategy": "S1_T2",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "劝君再饮杯中酒",
+        "evidence_found": true,
+        "reasoning": "表达再/更饮一杯的句子缺失",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "西出阳关尽余情",
+        "evidence_found": true,
+        "reasoning": "劝君再饮杯中酒，西出阳关尽余情，路漫漫无人共赏，独自饮酒忆故人。",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "劝君再饮杯中酒，路漫漫无人共赏",
+        "evidence_found": false,
+        "reasoning": "翻译中包含了没有老朋友的意思，但同时也扩大了范围，提到了没有人共赏，没有仅表达no old friends/acquaintances",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "劝君再饮杯中酒，路漫漫无人共赏，独自饮酒忆故人。",
+        "evidence_found": false,
+        "reasoning": "The translation does not preserve the original phrase '劝酒与无故人之因果' and does not clearly show the relationship between the '劝酒' and '无故人'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\"adequacy\":1,\"imagery\":0,\"emotion\":3,\"fluency\":2,\"poetic_quality\":0}"
+  }
+}

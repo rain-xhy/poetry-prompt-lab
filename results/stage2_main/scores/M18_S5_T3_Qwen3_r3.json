@@ -1,0 +1,67 @@
+{
+  "translation_id": "M18_S5_T3_Qwen3_r3",
+  "anon_code": "T_f81964a2",
+  "poem_id": "M18",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The flowers fall, and I can do nothing to prevent it. The returning燕 (swan) seems familiar, as if I have seen it before.",
+        "evidence_found": true,
+        "reasoning": "The translation includes the phrase 'I can do nothing to prevent it' which expresses helplessness, but it adds extra content about the returning swan that is not in the original Chinese phrase, and the original phrase does not mention a swan.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The returning燕 (swan) seems familiar, as if I have seen it before.",
+        "evidence_found": true,
+        "reasoning": "The translation incorrectly identifies '燕' as 'swan' instead of 'swallow', and the phrase 'seems familiar' does not accurately convey '似曾相识' which means 'feeling familiar as if having seen before'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The flowers fall, and I can do nothing to prevent it. The returning燕 (swan) seems familiar, as if I have seen it before.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly contrasts the flowers falling (departing) with the swan returning, showing the opposite directions of departure and return.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The flowers fall, and I can do nothing to prevent it. The returning燕 (swan) seems familiar, as if I have seen it before.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys time passing through falling flowers and the sense of familiarity with a returning bird, reflecting the feeling of time's passage and unchanged objects with changed people.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.45,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "M14_S0_Qwen25_r1",
+  "poem_id": "M14",
+  "trap_type": "否定逻辑",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n秦时明月汉时关，万里长征人未还。\n但使龙城飞将在，不教胡马度阴山。",
+  "prompt_sha256": "afaf5a9a8d77e9e52a07805ddfb53b85899c6fe5c3704626791e457843bbffc1",
+  "translation": "Here is the English translation of the provided Chinese classical poem:\n\n\"Qin Dynasty's bright moon, Han Dynasty's border wall,\nA万里-long march, its soldiers never return.\nIf only the Dragon City's valiant general were there,\nHe would not allow the barbarian horses to cross the Yin Mountains.\"\n\nNote that this poem is a translation of a famous Chinese poem by Wang Changling, a poet from the Tang Dynasty. The poem expresses a hope that a heroic general from the ancient times will still be present to defend against the enemies.",
+  "metadata": {
+    "input_tokens": 70,
+    "output_tokens": 110,
+    "latency_ms": 1598.6511707305908,
+    "timestamp": "2026-10-26T20:52:47.571910",
+    "finish_reason": "stop"
+  }
+}

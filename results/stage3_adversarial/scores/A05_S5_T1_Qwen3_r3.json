@@ -1,0 +1,58 @@
+{
+  "translation_id": "A05_S5_T1_Qwen3_r3",
+  "anon_code": "T_6e5ddb56",
+  "poem_id": "A05",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The pain of parting cannot be avoided; I cannot help but grieve and forget.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'cannot be avoided' corresponds to '不得不' meaning 'must' or 'have to', and 'cannot help but grieve' implies compulsion to feel grief, fulfilling the requirement for 'must/have to/compelled to'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The wind does not blow, and I do not think of you.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The wind does not blow, and I do not think of you' directly reflects the conditional relationship 'if not seeing (wind does not blow) then not thinking of you (I do not think of you)' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The pain of parting cannot be avoided; I cannot help but grieve and forget. The wind does not blow, and I do not think of you.",
+        "evidence_found": true,
+        "reasoning": "The translation correctly distinguishes between double negation (\"cannot be avoided\" and \"cannot help but\") and conditional negation (\"does not blow\" and \"do not think\") by using negative constructions that imply absence without direct negation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

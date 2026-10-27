@@ -1,0 +1,67 @@
+{
+  "translation_id": "M20_S4_T1_Qwen25_r2",
+  "anon_code": "T_df1462ef",
+  "poem_id": "M20",
+  "strategy": "S4_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell in the upper reaches of the Yangtze, You in the lower reaches.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts the two locations (upper vs. lower reaches of the Yangtze) with clear head and tail positioning, fulfilling the requirement for spatial parallelism and opposition.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Day after day I think of you but cannot see you",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Day after day I think of you but cannot see you' directly expresses the continuous daily思念 (longing) and the contradiction of not being able to see the person, meeting both required conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Sharing the waters of the Yangtze",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Sharing the waters of the Yang: ' directly reflects the '共饮一江水' concept, emphasizing the shared water connection between the two parties.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell in the upper reaches of the Yangtze, You in the lower reaches. Day after day I think of you but cannot see you, Sharing the waters of the Yangtze.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly shows physical separation (upper/lower reaches of Yangtze) and emotional connection (sharing waters), creating tension between distance and emotional bond.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

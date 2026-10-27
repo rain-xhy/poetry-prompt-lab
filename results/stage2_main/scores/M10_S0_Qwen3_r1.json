@@ -1,0 +1,67 @@
+{
+  "translation_id": "M10_S0_Qwen3_r1",
+  "anon_code": "T_ef6d737a",
+  "poem_id": "M10",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wildfires cannot erase it",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Wildfires cannot erase it' directly translates to the meaning of '烧不尽' with a negative verb 'cannot erase' indicating that the fire cannot completely destroy it, fulfilling the requirement of expressing 'burning without end' with a negative connotation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "spring wind brings it back again",
+        "evidence_found": true,
+        "reasoning": "The phrase 'spring wind brings it back again' directly expresses the spring wind's role in causing regrowth, fulfilling both conditions: the repeated growth and the spring wind's action.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wildfires cannot erase it, for spring wind brings it back again.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states that wildfires cannot erase the grass, implying the grass's resilience and the spring wind's role in regrowing it, preserving the personification of grass overcoming fire.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wildfires cannot erase it, for spring wind brings it back again.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys the cyclical nature of unyielding life force through the imagery of wildfires and spring wind, fulfilling both conditions of expressing resilience and the regrowth cycle.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

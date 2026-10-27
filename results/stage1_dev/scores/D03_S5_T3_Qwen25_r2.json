@@ -1,0 +1,76 @@
+{
+  "translation_id": "D03_S5_T3_Qwen25_r2",
+  "anon_code": "T_1b455de4",
+  "poem_id": "D03",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Please drink one more cup of: wine, Westward beyond the Yangguan, no old friend remains.",
+        "evidence_found": false,
+        "reasoning": "The translation does not explicitly state that the action of drinking is directed at a friend, as required by the condition that the subject is the speaker and the object is a friend.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Westward beyond the Yangguan",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Westward beyond the Yangguan' explicitly includes 'Westward' (indicating west direction) and 'Yangguan' (preserving the required location), meeting both pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no old friend remains",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no old friend remains' directly translates the meaning of '无故人' as the absence of familiar companions without expanding the scope to 'no one at all'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Please drink one more cup of: Westward beyond the Yangguan, no old friend remains.",
+        "evidence_found": false,
+        "reasoning": "The English translation explicitly links the act of drinking with the absence of old friends by stating that beyond Yangguan (a place where travelers go west), there are no old friends, showing the connection between the encouragement to drink and the lack of companions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

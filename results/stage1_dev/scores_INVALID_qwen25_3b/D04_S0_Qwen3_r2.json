@@ -1,0 +1,57 @@
+{
+  "translation_id": "D04_S0_Qwen3_r2",
+  "anon_code": "T_ab377b57",
+  "poem_id": "D04",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The depth of the Peach Blossom Lake is thousands of feet, but it cannot match the sincere emotion of Wang Dun's farewell.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the original phrase '桃花潭水深千尺' and does not express the depth of the water in a way that matches the original meaning or exaggeration.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The depth of the Peach Blossom Lake is thousands of feet, but it cannot match the sincere emotion of Wang Dun's farewell.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'thousands of feet' for the depth of the Peach Blossom Lake, which contradicts the original phrase '不及' meaning 'not as deep' or 'not as great'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The translation does not mention '汪伦为我送行' or '我' is the one being sent, only describes the depth of the Peach Blossom Lake.",
+        "evidence_found": false,
+        "reasoning": "The translation focuses on the depth of the Peach Blossom Lake and Wang Dun's farewell, but does not include the specific information about Wang Lun sending the speaker off.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The depth of the Peach Blossom Lake is thousands of feet, but it cannot match the sincere emotion of Wang Dun's farewell.",
+        "evidence_found": true,
+        "reasoning": "The translation uses a lake's depth to compare to Wang Dun's sincere emotion, which does not directly match the original phrase '情' and the metaphor '以水深比情深'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\"adequacy\":1,\"imagery\":0,\"emotion\":1,\"fluency\":2,\"poetic_quality\":0}"
+  }
+}

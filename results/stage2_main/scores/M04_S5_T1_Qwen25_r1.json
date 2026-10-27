@@ -1,0 +1,67 @@
+{
+  "translation_id": "M04_S5_T1_Qwen25_r1",
+  "anon_code": "T_af9ebe9e",
+  "poem_id": "M04",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If two hearts are true to each other, Their meetings need not be constant.",
+        "evidence_found": true,
+        "reasoning": "The translation uses a conditional structure starting with 'If' and expresses the idea that the relationship's longevity does not depend on frequent meetings, fulfilling the requirement for 'if' and 'long-lasting' meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Their meetings need not be constant.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'need not be constant' directly expresses the negation of daily togetherness, fulfilling the requirement of not needing daily presence.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Their meetings need not be constant.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'need not be constant' implies frequent or continuous meetings, preserving the time-overlapping sense required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "If two hearts are true to each as their meetings need not be constant.",
+        "evidence_found": false,
+        "reasoning": "The translation maintains the conditional logic by stating that if two hearts are true to each other, then their meetings do not need to be constant, preserving the original's condition and counter-question relationship.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

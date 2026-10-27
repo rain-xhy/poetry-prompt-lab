@@ -1,0 +1,58 @@
+{
+  "translation_id": "A10_S1_T1_Qwen3_r3",
+  "anon_code": "T_c3855566",
+  "poem_id": "A10",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Once we shared the glow of a candle on the west window",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Once we shared...' uses the past tense 'shared' to indicate a completed past action, fulfilling the requirement for past tense representation of '曾经' (once/used to/had).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When you inquire about my return date, there is no fixed time—the rain in the Bashan Mountains continues to fill the autumn pool.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'When you inquire about my return date, there is no fixed time' directly addresses the uncertainty of return (past memory) rather than future expectation, fulfilling the requirement to distinguish between recalling past events and anticipating future ones.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When you inquire about my return date, there is no fixed time—the rain in the Bashan Mountains continues to fill the autumn pool.",
+        "evidence_found": true,
+        "reasoning": "The translation reverses the temporal sequence: the original poem uses '何当' (when will I return) to express future uncertainty, but the translation states 'there is no fixed time' implying present/past continuity, contradicting the required preservation of '何当' as future tense.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

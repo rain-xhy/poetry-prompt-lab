@@ -1,0 +1,67 @@
+{
+  "translation_id": "M09_S5_T1_Qwen3_r1",
+  "anon_code": "T_b1ae0478",
+  "poem_id": "M09",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The moon sinks, the crows cry, and frost covers the sky. On the riverbank, the maple trees glow with the flicker of fishing fires, and I lie awake, troubled by my sorrow.",
+        "evidence_found": true,
+        "reasoning": "The translation adds extra elements like 'On the riverbank, the maple trees glow with the flicker of fishing fires, and I lie awake, troubled by my sorrow' which are not present in the original Chinese phrase, thus it does not strictly preserve only three parallel imagery without causal relationships.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I lie awake, troubled by my sorrow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I lie awake, troubled by my sorrow' directly expresses the relationship of facing sorrow while sleeping and the presence of sorrow accompanying sleep.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "On the riverbank, the maple trees glow with the flicker of fishing fires",
+        "evidence_found": true,
+        "reasoning": "The phrase explicitly mentions 'maple trees' and 'fishing fires' as two distinct imagery elements on the riverbank, satisfying the requirement to preserve both the maple trees and fishing fires as parallel imagery.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The moon sinks, the crows cry, and frost covers the sky. On the riverbank, the maple trees glow with the flicker of fishing fires, and I lie awake, troubled by my sorrow.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys a sense of solitude and coldness through imagery of the moon sinking, crows crying, frost, and the speaker lying awake in sorrow, which aligns with the required meaning of 'nightboat's solitude and coldness' without any joyful elements.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

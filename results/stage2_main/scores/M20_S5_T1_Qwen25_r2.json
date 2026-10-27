@@ -1,0 +1,67 @@
+{
+  "translation_id": "M20_S5_T1_Qwen25_r2",
+  "anon_code": "T_7778d5cc",
+  "poem_id": "M20",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell in the upper reaches of the Yangtze, You in the lower reaches of the same stream.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts the two locations (upper vs. lower reaches of the Yangtze) with clear head and tail positioning, fulfilling the requirement for spatial parallelism and opposition.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Day by day I think of you but cannot see you",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Day by day I think of you but cannot see you' directly expresses the continuous daily thought and the contradiction of being unable to see the person, meeting both required conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Drinking the Yangtze's waters side by side",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Drinking the Yang: side by side' directly reflects the '共饮一江水' meaning with 'side by side' emphasizing the shared aspect of drinking the water together.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell in the upper reaches of the Yangtze, You in the lower reaches of the same stream.",
+        "evidence_found": true,
+        "reasoning": "This line explicitly shows physical separation (upper vs. lower reaches of the Yangtze) while maintaining a symbolic connection through the same river, creating tension between physical distance and emotional bond.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

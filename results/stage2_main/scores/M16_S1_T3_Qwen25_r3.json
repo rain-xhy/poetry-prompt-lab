@@ -1,0 +1,67 @@
+{
+  "translation_id": "M16_S1_T3_Qwen25_r3",
+  "anon_code": "T_5984f46c",
+  "poem_id": "M16",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Roosters crow over the village inn",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Roosters crow over the village inn' does not convey '鸡鸣时茅店上还有月亮' (chicken crowing at the time when there's still moon on the thatched cottage), as it lacks the moon imagery and the temporal aspect of 'when there's still moon'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Footprints on the frosty bridge at night.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Footprints on the frosty bridge at night' does not match the required structure of '人的足迹在板桥的霜上 (省略)' which should be '人的足迹/在板' (footprints on the board bridge) with frost, but the translation uses 'frosty bridge' instead of 'board bridge' and adds 'at night' which is not in the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Recalling my dream in Duf:eng",
+        "evidence_found": false,
+        "reasoning": "The phrase 'Recalling my dream in Dufeng' directly expresses the meaning of 'therefore thinking of the dream in Dufeng' as required, indicating a memory of a dream in the historical place Dufeng (Du陵).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Geese and ducks fill the circular ponds.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'circular ponds' directly translates to '曲折/环绕的池塘' (curved/winding ponds) and 'geese and ducks fill' matches '凫雁满布'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 3,
+    "overall": 2.25,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

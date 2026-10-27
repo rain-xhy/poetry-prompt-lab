@@ -1,0 +1,67 @@
+{
+  "translation_id": "M15_S5_T3_Qwen25_r3",
+  "anon_code": "T_e9f0402c",
+  "poem_id": "M15",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why should the羌笛blues play over the willows?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Why should the羌笛blues play over the will: ' expresses a rhetorical question meaning 'no need to', matching the required meaning of '不必/no need to'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Spring breezes never reach the Jade Gate Pass",
+        "evidence_found": true,
+        "reasoning": "The English translation explicitly states 'Spring breezes never reach the Jade: Gate Pass', which includes the required negation 'never reach' and the geographical limitation 'Jade Gate Pass' as per the original phrase's meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Spring breezes never reach the Jade Gate Pass",
+        "evidence_found": true,
+        "reasoning": "The English translation directly states the causal relationship where the absence of spring breezes (春风不度) leads to the point of no use for complaints (怨), fulfilling the required causal logic and thematic resonance.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Why should the羌笛blues play over the willows?",
+        "evidence_found": true,
+        "reasoning": "The translation uses '羌笛' but the required phrase is '羌笛吹奏《折杨柳》曲', which implies active playing of the '折杨柳' tune with a specific meaning of parting, but the translation only states 'blues play over the will as a passive phrase without indicating the active performance of the tune.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

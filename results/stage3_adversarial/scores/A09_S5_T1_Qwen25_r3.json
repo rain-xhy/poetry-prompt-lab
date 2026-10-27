@@ -1,0 +1,58 @@
+{
+  "translation_id": "A09_S5_T1_Qwen25_r3",
+  "anon_code": "T_8bb98abc",
+  "poem_id": "A09",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Only the Dragon City's hero guards",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Only the Dragon City's hero guards' uses 'Only' to indicate a specific cause or condition, aligning with the requirement that '只因' expresses causality rather than condition.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "In Qin's time the bright moon shone, Across the vast Han wall, no one returned.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states a historical fact about the Qin dynasty and the Han wall, indicating a factual statement rather than an assumption.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Only the Dragon City's hero guards",
+        "evidence_found": true,
+        "reasoning": "The original phrase '与原诗对比' requires preserving the logical change from '但使' to '只因', but the translation uses 'Only the Dragon City's hero guards' which implies a different logical relationship than the original poem's intended meaning.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

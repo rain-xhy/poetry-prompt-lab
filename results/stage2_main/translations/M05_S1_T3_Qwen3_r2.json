@@ -1,0 +1,19 @@
+{
+  "id": "M05_S1_T3_Qwen3_r2",
+  "poem_id": "M05",
+  "trap_type": "情感反差",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n寻寻觅觅，冷冷清清，凄凄惨惨戚戚。",
+  "prompt_sha256": "d430675164bd3cf23dc9f1bcda8857024e5104751745bc666d03395b00715804",
+  "translation": "Seeking and searching, yet finding nothing; lonely and empty, sorrowful and broken.  \n\n[The poem reflects the deep sense of loneliness and melancholy often felt by poets in the Tang and Song dynasties. The repetition of the four-character structure emphasizes the intensity of emotion.]\n\nSeeking and searching, yet finding nothing; lonely and empty, sorrowful and broken.",
+  "metadata": {
+    "input_tokens": 212,
+    "output_tokens": 76,
+    "latency_ms": 10167.345762252808,
+    "timestamp": "2026-10-26T20:56:22.648770",
+    "finish_reason": "stop"
+  }
+}

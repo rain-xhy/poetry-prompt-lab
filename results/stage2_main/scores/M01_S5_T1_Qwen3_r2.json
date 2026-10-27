@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S5_T1_Qwen3_r2",
+  "anon_code": "T_f9a38a4f",
+  "poem_id": "M01",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The depth of feeling yet seems to lack expression",
+        "evidence_found": true,
+        "reasoning": "This line directly captures '深情' (deep love/affection) and '似无情' (seeming coldness/indifference) while maintaining the paradoxical tension between them.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A smile cannot be made in the presence of respect.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A smile cannot be made' directly translates to '无法/不能笑出' (unable to/cannot smile), and 'in the presence of respect' corresponds to 'at the table/at the farewell wine' scene as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The candle, with a heart, still wishes to part ways",
+        "evidence_found": true,
+        "reasoning": "The phrase explicitly states the candle has a heart (拟人化) and wishes to part ways (惜别), meeting both conditions of being the personified subject and preserving the metaphorical effect.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "weeps for others until the dawn has risen",
+        "evidence_found": true,
+        "reasoning": "The phrase 'weeps for others until the dawn has risen' directly translates the required meaning of '蜡烛替人流泪 + 一直到天明' with '替人' interpreted as 'for others' and 'until the dawn has risen' matching the time continuation to '天明'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 4.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

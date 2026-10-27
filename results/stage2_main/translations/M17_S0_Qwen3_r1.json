@@ -1,0 +1,19 @@
+{
+  "id": "M17_S0_Qwen3_r1",
+  "poem_id": "M17",
+  "trap_type": "时态叙事",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n此情可待成追忆，只是当时已惘然。",
+  "prompt_sha256": "2ac189fc2f4abaf78c99f72858d7b92bb01b844cdff6880e738f42b4b3e41850",
+  "translation": "This feeling can wait to become a memorial, but it was already惘然 (wǎng rán), when it was meant to be.",
+  "metadata": {
+    "input_tokens": 42,
+    "output_tokens": 30,
+    "latency_ms": 354.83527183532715,
+    "timestamp": "2026-10-26T20:28:34.351516",
+    "finish_reason": "stop"
+  }
+}

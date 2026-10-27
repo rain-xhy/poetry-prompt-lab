@@ -1,0 +1,62 @@
+{
+  "translation_id": "D05_S5_T2_Qwen3_r2",
+  "anon_code": "T_fd3bb74d",
+  "poem_id": "D05",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of separation, both living and dead",
+        "evidence_found": true,
+        "reasoning": "The translation includes 'Ten years of separation, both living and dead', which is not an exact match to the original '十年生死两茫茫'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Not thinking, yet it is not forgotten.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'Not thinking, yet it is not forgotten.' which contradicts the original '不思量，自难忘' (not thinking, but it is remembered).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "a thousand miles of lonely grave",
+        "evidence_found": true,
+        "reasoning": "The phrase '相隔千里的孤独坟墓' (a thousand miles of lonely grave) is not used in the provided translation sentence.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Not thinking, yet it is not forgotten.",
+        "evidence_found": true,
+        "reasoning": "The phrase '没有地方、没有人可诉说凄凉' is not directly expressed in the translation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.2,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S5_T2_Qwen25_r2",
+  "anon_code": "T_ccea33ea",
+  "poem_id": "M02",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This thing most for love to pour",
+        "evidence_found": true,
+        "reasoning": "The phrase 'This thing most for love to pour' implies that the red beans (红豆) symbolize longing and love, fulfilling the requirement of preserving 'red beans' as a symbol of longing (借代).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "May you pluck many more",
+        "evidence_found": true,
+        "reasoning": "The phrase 'May you pluck many more' expresses a wish/hope for the reader to gather more, fulfilling the requirement of '劝君多采摘（愿望）' with the direct address 'you' and the action of plucking.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This thing most for love to pour",
+        "evidence_found": true,
+        "reasoning": "The phrase 'This thing most for love to pour' translates to 'this thing most able to express love' which aligns with 'this thing most able to symbolize/express longing'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Spring blooms, how many sprout?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Spring blooms' does not express the time of spring but rather the action of blooming, and 'how many sprout' does not capture the natural growth of branches as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

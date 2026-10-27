@@ -1,0 +1,67 @@
+{
+  "translation_id": "M13_S5_T3_Qwen25_r1",
+  "anon_code": "T_0c3116be",
+  "poem_id": "M13",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Thousand mountains mute their bird song",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Thousand mountains mute their bird song' directly translates the concept of 'no birds' by implying complete silence of birds, fulfilling the absolute negation requirement for '鸟飞绝'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "myriad paths erase all traces of human footprints",
+        "evidence_found": true,
+        "reasoning": "The phrase 'erase all traces of human footprints' directly conveys the absolute absence of human presence as required by '人踪灭', with 'erase all traces' emphasizing complete disappearance without any residual human traces.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "he alone fishes in the cold river snow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'he alone fishes' directly emphasizes 'alone' as required, and 'fishes' corresponds to the action of '垂钓'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Thousand mountains mute their bird song, myriad paths erase all traces of human footprints. A solitary fisherman wears a straw rain cape; he alone fishes in the cold river snow.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly shows the vast, empty landscape (thousand mountains, myriad paths) and the solitary fisherman (solitary, alone) creating a strong contrast between the expansive, desolate environment and the individual's isolation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

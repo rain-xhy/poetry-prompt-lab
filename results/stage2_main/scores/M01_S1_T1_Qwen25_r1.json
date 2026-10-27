@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S1_T1_Qwen25_r1",
+  "anon_code": "T_5853a560",
+  "poem_id": "M01",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Lofty love seems to be void, yet at the wine cup, I find no smile. The wax candle, with a heart of its own, weeps for parting till dawn.",
+        "evidence_found": true,
+        "reasoning": "The translation captures 'deep love' as 'lofty love' and 'seeming coldness' as 'seems to be void' and 'find no smile', while maintaining the paradoxical tension between emotional depth and apparent indifference.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I find no smile",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I find no smile' directly expresses the state of being unable to smile at the wine table, meeting the requirement of expressing 'unable to/cannot' rather than 'not wanting to'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The wax candle, with a heart of its own, weeps for parting till dawn.",
+        "evidence_found": true,
+        "reasoning": "The phrase explicitly states the candle has a heart (有心) and is weeping for part, directly preserving the personification and emotional context of the original Chinese phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The wax candle, with a heart of its own, weeps for parting till dawn.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'weeps for part as a substitute for the person' is clearly expressed by 'weeps for parting', and 'till dawn' directly corresponds to 'to the dawn' as the time continuation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

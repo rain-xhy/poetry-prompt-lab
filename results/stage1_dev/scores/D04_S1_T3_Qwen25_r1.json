@@ -1,0 +1,76 @@
+{
+  "translation_id": "D04_S1_T3_Qwen25_r1",
+  "anon_code": "T_d145917e",
+  "poem_id": "D04",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The waters of Peach Blossom Pool run deep, A thousand feet, yet not as deep as Wang Leng’s farewell to me.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the depth of Peach Blossom Pool as 'a thousand feet' and compares it to Wang Leng's farewell, meeting both conditions of expressing deep water (with the thousand feet exaggeration) and preserving 'Peach Blossom Pool'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "The waters of Peach Bloss as deep as Wang Leng’s farewell to me.",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly states that the water depth is not as deep as Wang Leng's farewell, meeting both conditions without using 'deeper' or 'equally deep'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wang Leng’s farewell to me",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Wang Leng’s farewell to me' explicitly states that Wang Leng is the sender and 'me' is the recipient, fulfilling the requirement that 'Wang L:eng is the sender and 'I' is the recipient.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The Peach Blossom Pool’s waters, though deep, Cannot compare with the warmth of Wang Leng’s heartfelt parting.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states that the waters (depth) of Peach Blossom Pool are deep but cannot compare with the warmth of Wang Leng’s parting, fulfilling the requirement to contrast depth with emotional depth where the emotion is deeper.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

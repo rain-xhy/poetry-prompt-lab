@@ -1,0 +1,19 @@
+{
+  "id": "M12_S0_Qwen25_r1",
+  "poem_id": "M12",
+  "trap_type": "否定逻辑",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n白日依山尽，黄河入海流。\n欲穷千里目，更上一层楼。",
+  "prompt_sha256": "459d7c7badcff2422214bdd4487d2117c5b3514ef10a4f7a0a665f75d226636f",
+  "translation": "The sun sets behind the mountains, the Yellow River flows into the sea.\nIf you wish to see far into the distance, you must climb one more story up.",
+  "metadata": {
+    "input_tokens": 62,
+    "output_tokens": 34,
+    "latency_ms": 11040.990829467773,
+    "timestamp": "2026-10-26T20:38:24.542497",
+    "finish_reason": "stop"
+  }
+}

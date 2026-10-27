@@ -1,0 +1,57 @@
+{
+  "translation_id": "D05_S3_only_Qwen25_r2",
+  "anon_code": "T_9dfdfdd2",
+  "poem_id": "D05",
+  "strategy": "S3_only",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of生死, both茫茫, not thinking about, self remains eternally难忘.",
+        "evidence_found": true,
+        "reasoning": "The phrase '十年生死' is not '十年生死两茫茫' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of生死, both茫茫, not thinking about, self remains eternally难忘.",
+        "evidence_found": true,
+        "reasoning": "The translation contains the exact phrase 'Ten years of生死, both茫茫, not thinking about' which contradicts the original '不思量' and introduces new content about '生死' and '茫茫', thus failing to preserve the original meaning and structure.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Thousand li solitary tomb, no place to诉说凄凉.",
+        "evidence_found": true,
+        "reasoning": "The phrase '孤独坟墓' (lonely tomb) is not present in the translation, only '凄凉' (melancholy) is mentioned.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "no place to诉说凄凉",
+        "evidence_found": true,
+        "reasoning": "Thousand li solitary tomb, no place to诉说凄凉.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\"adequacy\":1,\"imagery\":0,\"emotion\":1,\"fluency\":1,\"poetic_quality\":0}"
+  }
+}

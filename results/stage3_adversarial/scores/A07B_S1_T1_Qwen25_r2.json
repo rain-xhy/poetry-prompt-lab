@@ -1,0 +1,58 @@
+{
+  "translation_id": "A07B_S1_T1_Qwen25_r2",
+  "anon_code": "T_fe94323a",
+  "poem_id": "A07B",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Gently tread, As if on a silver stream's brink. Careful not to slip, Into the river's cold embrace.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the caution and potential fall into the river, implying the negative consequence of slipping, thus preserving the meaning of whether the ambiguous version can infer the correct negation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Careful not to slip, Into the river's cold embrace.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Careful not to slip, Into the river's cold embrace.' directly addresses the need for caution to avoid falling into the river, which aligns with the requirement of '明确版本应该正确' (the clear version should be correct) by emphasizing the negative consequence of slipping into the river.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Gently tread, As if on a silver stream's brink. Careful not to slip, Into the river's cold embrace.",
+        "evidence_found": true,
+        "reasoning": "The English translation accurately conveys the meaning of being cautious while walking near a river, avoiding slipping into the water, with the imagery of a silver stream's edge and the cold river's embrace matching the original's intent.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 5,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 4.5,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

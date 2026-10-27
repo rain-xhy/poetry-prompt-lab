@@ -1,0 +1,58 @@
+{
+  "translation_id": "A02_S1_T1_Qwen25_r1",
+  "anon_code": "T_89a3f0fa",
+  "poem_id": "A02",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "How many flowers fell I heard?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'How many flowers fell I heard?' directly indicates that the subject of 'heard' changed from 'I' to 'flowers', fulfilling the requirement that the translation preserves the shift from '我' to '花' as the subject.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Spring slumber knows no dawn, Bird songs everywhere are heard.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly mention flowers having cognitive ability (knowing) as required; it describes spring slumber and bird songs without linking to flowers' awareness.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Spring slumber knows no dawn, Bird songs everywhere are heard. Last night's rain and wind sounds, How many flowers fell I heard?",
+        "evidence_found": true,
+        "reasoning": "The translation does not match the original poem's meaning as it misrepresents the original's structure and content. The original '春晓' (Spring Dawn) poem by Tang Dynasty poet Meng Haoran describes the awakening from sleep in spring, the sound of birds, and the falling of flowers due to rain, but the translation here incorrectly states 'Spring slumber knows no dawn' which implies the slumber is unaware of dawn, whereas the original poem suggests the slumber is awakened by dawn. Additionally, the phrase 'How many flowers fell I heard' is a misrepresentation as the original poem does not use the active voice of 'I heard' but rather describes the flowers falling without direct observation by the speaker.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 1,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 1.95,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

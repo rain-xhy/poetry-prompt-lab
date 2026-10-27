@@ -1,0 +1,67 @@
+{
+  "translation_id": "M19_S5_T1_Qwen3_r1",
+  "anon_code": "T_eec2135d",
+  "poem_id": "M19",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In the palace of Prince Li, I often saw the scene, and on the terrace of Cui, I heard it several times.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'often saw' implies past frequency but does not explicitly convey 'multiple times' as required by the original phrase's meaning of 'several times'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "we meet again",
+        "evidence_found": true,
+        "reasoning": "The phrase 'we meet again' directly translates to '又逢' meaning a current reunion, fulfilling the requirement for present tense and 'again' as the second meeting.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In the palace of Prince Li, I often saw the scene, and on the terrace of Cui, I heard it several times. It is indeed a splendid landscape in the south, where the blossoms fall and we meet again.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly contrast past and present or imply a change in circumstances; it describes a scene without temporal contrast or situational change.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "where the blossoms fall",
+        "evidence_found": true,
+        "reasoning": "The phrase 'where the blossoms fall' directly preserves the '落花' (falling flowers) imagery from the original Chinese phrase '落花时节', fulfilling the requirement to retain the symbolic meaning of falling flowers.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 1.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "D03_S1_T1_Qwen3_r2",
+  "poem_id": "D03",
+  "trap_type": "否定逻辑",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n劝君更尽一杯酒，西出阳关无故人。",
+  "prompt_sha256": "75aa7ed3f5329460b397d53a2f71c9a03714dd85bd6372eab37827a7ef8f5738",
+  "translation": "Remind you to drink this last cup of wine,  \nBeyond the Yangguan pass, where friends are no more.  \n\n[The \"Yangguan\" refers to the western border of the Tang Dynasty, a symbol of parting and farewell.]  \n\nThis translation preserves the original's poetic structure and emotional tone, while maintaining the key metaphors and personification.",
+  "metadata": {
+    "input_tokens": 226,
+    "output_tokens": 75,
+    "latency_ms": 1585.4990482330322,
+    "timestamp": "2026-10-26T16:24:13.334895",
+    "finish_reason": "stop"
+  }
+}

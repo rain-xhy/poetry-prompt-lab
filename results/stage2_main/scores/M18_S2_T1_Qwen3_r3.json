@@ -1,0 +1,67 @@
+{
+  "translation_id": "M18_S2_T1_Qwen3_r3",
+  "anon_code": "T_c1b187ee",
+  "poem_id": "M18",
+  "strategy": "S2_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The bloom fades without being held back, A swallow returns, as if it once knew.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express the 'helpless' feeling or the action of flowers falling as required; it mentions a swallow returning instead of the flower falling.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A swallow returns, as if it once knew",
+        "evidence_found": true,
+        "reasoning": "The phrase 'as if it once knew' directly translates '仿佛曾经见过' and 'swallow returns' captures '燕子归来' as the action of the swallow coming back.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The bloom fades without being held back, A swallow returns, as if it once knew.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the contrast between the bloom fading (departure) and the swallow returning (arrival), showing different directions through the verbs 'fades' and 'returns'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The bloom fades without being held back, A swallow returns, as if it once knew.",
+        "evidence_found": true,
+        "reasoning": "The first line conveys time passing (bloom fades) and the second line implies change over time (swallow returns) with a sense of past presence, capturing both time's passage and the feeling of things changing while people are different.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

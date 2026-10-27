@@ -1,0 +1,19 @@
+{
+  "id": "M15_S0_Qwen25_r2",
+  "poem_id": "M15",
+  "trap_type": "否定逻辑",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n黄河远上白云间，一片孤城万仞山。\n羌笛何须怨杨柳，春风不度玉门关。",
+  "prompt_sha256": "77a3de0adee1b564b3c63b23016c8f26cb52ec5e22d99777b53eccb768cd697e",
+  "translation": "Here is a translation of the Chinese classical poem to English:\n\nFrom afar the Yellow River ascends to the blue sky, \nA solitary city stands amidst countless mountains.\nWhy must the羌 flute lament over willows,\nSpring breeze cannot cross the Jade Gate Pass. \n\nNote: The term \"羌笛\" (Qiang Dí) generally refers to a type of Chinese flute, and \"杨柳曲\" (Yang Li Qu) refers to the willow branch theme of a flute song, often associated with spring and departure. The term \"玉门关\" (Yùmén Guān) does indeed refer to the Jade Gate Pass, an ancient pass located in the Xinjiang Uyghur Autonomous Region of China, which is known for its challenging terrain and harsh climate. The phrase \"春风不度玉门关\" (Chūnfēng bù dù Yùmén Guān) literally translates to \"Spring breeze does not reach the Jade Gate Pass,\" metaphorically suggesting that although spring arrives in other parts of China, it does not reach this remote and isolated region.",
+  "metadata": {
+    "input_tokens": 69,
+    "output_tokens": 225,
+    "latency_ms": 13023.964643478394,
+    "timestamp": "2026-10-26T20:32:12.670804",
+    "finish_reason": "stop"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "M15_S1_T3_Qwen25_r1",
+  "poem_id": "M15",
+  "trap_type": "否定逻辑",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n黄河远上白云间，一片孤城万仞山。\n羌笛何须怨杨柳，春风不度玉门关。",
+  "prompt_sha256": "be08830b4158feec563e620c5b315920f6c53db6336b9366f41e2d851b629c33",
+  "translation": "**English Translation:**\n\nThe Yellow River stretches far up to where the clouds meet the sky,\nA solitary city stands amidst countless mountains.\nWhy should the羌dī whistle with longing for spring willows?\nFor the春风does not cross the Jade Gate Pass.\n\n**Notes:**\n- **玉门关 (Yùmén Guān)**: The Jade Gate Pass is a strategic pass in the Hexi Corridor, known for its extreme climate and harsh conditions. It was a vital military checkpoint, hence the phrase \"春风不度\" (Spring wind does not reach) implies that life and warmth do not penetrate the area.\n- **羌笛 (Qiāng Dī)**: The羌dī is a musical instrument traditionally associated with the Qiang people, often used in frontier settings. Its mention here emphasizes the desolate and isolated nature of the setting.",
+  "metadata": {
+    "input_tokens": 237,
+    "output_tokens": 177,
+    "latency_ms": 2542.72723197937,
+    "timestamp": "2026-10-26T20:15:58.219668",
+    "finish_reason": "stop"
+  }
+}

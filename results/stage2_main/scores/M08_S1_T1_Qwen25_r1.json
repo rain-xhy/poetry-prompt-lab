@@ -1,0 +1,67 @@
+{
+  "translation_id": "M08_S1_T1_Qwen25_r1",
+  "anon_code": "T_586e7da2",
+  "poem_id": "M08",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Only my voice echoes, and my echo.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly contrast '看不见' (can't see) and '听得见' (can hear) as required; it focuses on the speaker's voice echoing rather than the absence of people and the presence of sound.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The fading sunlight pierces the deep woods",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The fading sunlight pierces the deep woods' directly expresses the dynamic movement of sunlight entering the deep woods as described in the original phrase '返景入深林', with 'fading sunlight' corresponding to '夕' (evening) and 'pierces' capturing the dynamic action of '入' (entering).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "And light again touches the green moss.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'light again touches' directly expresses '又照' (again illuminates) and 'green moss' corresponds to '青苔', fulfilling both required conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "There’s none to meet in the empty mountain",
+        "evidence_found": true,
+        "reasoning": "The phrase 'empty mountain' directly translates to '空山' and conveys the sense of emptiness and vastness, which aligns with '空旷、幽静的山' (vast and quiet mountain).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

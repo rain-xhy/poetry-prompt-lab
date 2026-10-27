@@ -1,0 +1,76 @@
+{
+  "translation_id": "D04_S3_only_Qwen25_r1",
+  "anon_code": "T_b6a12105",
+  "poem_id": "D04",
+  "strategy": "S3_only",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The water of Tao Tan Spring is a thousand feet deep",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the water depth as a thousand feet, meeting the requirement for the water to be very deep (千尺 or equivalent exaggeration) and preserves 'Tao Tan Spring' as the equivalent of '桃花潭' (Peach Blossom Pool).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Yet it lacks the情that汪伦送我",
+        "evidence_found": true,
+        "reasoning": "The phrase 'lacks the情that汪伦送我' directly translates the meaning of '不及' as 'not as deep as' in the context of comparing the depth of the water to the depth of friendship, satisfying the requirement that it expresses the water's depth being less than Wang Lun's friendship without implying 'deeper' or 'equal depth'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Yet it lacks the情that汪伦送我",
+        "evidence_found": true,
+        "reasoning": "The phrase '汪伦送我' is not translated into English; the translation uses Chinese characters directly in the English text, which violates the requirement that the Chinese phrase should not appear in the translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The water of Tao Tan Spring is a thousand feet deep, Yet it lacks the情that汪伦送我.",
+        "evidence_found": true,
+        "reasoning": "The translation uses '情' directly in English, which is not standard English and does not convey the intended meaning of 'the depth of feelings' as required by the metaphor of water depth.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

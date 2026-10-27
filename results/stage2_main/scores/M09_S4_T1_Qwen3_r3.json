@@ -1,0 +1,67 @@
+{
+  "translation_id": "M09_S4_T1_Qwen3_r3",
+  "anon_code": "T_b53742d6",
+  "poem_id": "M09",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Moon falls, cranes call, frost covers the sky—",
+        "evidence_found": true,
+        "reasoning": "The translation includes three images (moon, cranes, frost) but the phrase 'frost covers the sky' implies a causal relationship between frost and the sky, which violates the requirement of not establishing causality.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The river's lanterns light up the sorrowful night.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'sorrowful night' implies the presence of sorrow (愁绪) accompanying sleep (night), and the context suggests facing this sorrow while sleeping.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The river's lanterns light up the sorrowful night.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The river's lanterns' directly refers to 'river' and 'lanterns' (which represent 'fishery lights' in context), and 'light up the sorrowful night' implies the presence of 'maple trees' through the sorrowful night imagery, maintaining the two key images as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The river's lanterns light up the sorrowful night.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'sorrowful night' directly conveys the required '孤寂凄凉' (lonely and cold) atmosphere without being joyful.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

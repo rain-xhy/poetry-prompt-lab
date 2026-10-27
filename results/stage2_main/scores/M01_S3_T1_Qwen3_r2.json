@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S3_T1_Qwen3_r2",
+  "anon_code": "T_32725869",
+  "poem_id": "M01",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The poet's heart is full of emotion yet seems to lack expression",
+        "evidence_found": true,
+        "reasoning": "This phrase directly captures '深情' (deep love/affection) and '似无情' (seeming coldness/indifference) while maintaining their paradoxical tension.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "only sensing the laughter that fails to reach the eyes",
+        "evidence_found": true,
+        "reasoning": "The phrase 'laughter that fails to reach the eyes' implies the laughter is not reaching the eyes, not that the person cannot laugh, so it does not express 'unable to/cannot' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The candle, with a heart of its own, sheds tears for parting, enduring until dawn.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the candle has a heart (拟人化) and sheds tears for part, directly preserving the original's personification and emotional context.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "sheds tears for parting, enduring until dawn",
+        "evidence_found": true,
+        "reasoning": "The phrase 'sheds tears for part:ing' implies the candle replacing humans to shed tears (替人流泪), and 'enduring until dawn' directly corresponds to '到天明' with the time continuation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

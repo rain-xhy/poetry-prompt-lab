@@ -1,0 +1,19 @@
+{
+  "id": "M07_S0_Qwen25_r2",
+  "poem_id": "M07",
+  "trap_type": "拟人意象",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n朱雀桥边野草花，乌衣巷口夕阳斜。\n旧时王谢堂前燕，飞入寻常百姓家。",
+  "prompt_sha256": "5006bd54a1165303dc55069197830101aaac4e4c090c6ddaa82a0ea5fb5fb336",
+  "translation": "Here is the English translation of the Chinese classical poem you provided:\n\nAt the wild flowers sprouting near the Tricolor Bridge,\nThe Ugly Robe Lane's setting sun casts a slant.\nThe old swallow nests once in Wang and Xie halls' eaves,\nNow perch on any household's eaves of commoners.",
+  "metadata": {
+    "input_tokens": 70,
+    "output_tokens": 67,
+    "latency_ms": 1078.1407356262207,
+    "timestamp": "2026-10-26T20:38:00.196059",
+    "finish_reason": "stop"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "translation_id": "A01_S1_T1_Qwen25_r3",
+  "anon_code": "T_423e7ef5",
+  "poem_id": "A01",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Gently dipping into the stream, It waltzes on the surface like a dream.",
+        "evidence_found": true,
+        "reasoning": "The translation lacks explicit or implicit negative words indicating 'do not' or avoidance, failing to capture the 'don't' negative meaning of '小心' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Yet, it whispers secrets deep below, A trickster in the water's cool emerald bed.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A trickster in the water's cool emerald bed' conveys a warning tone by implying deception and danger beneath the surface, matching the requirement to preserve a warning/reminder tone.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Gently dipping into the stream",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Gently dipping into the stream' does not contain 'slide/fall + into river' as required; it uses 'dipping' instead of 'slide/fall' and 'stream' instead of 'river'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

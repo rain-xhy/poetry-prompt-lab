@@ -1,0 +1,58 @@
+{
+  "translation_id": "A10_S1_T1_Qwen3_r1",
+  "anon_code": "T_507e2322",
+  "poem_id": "A10",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Once we lit the western window candle together",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Once' explicitly indicates past time and matches the requirement for '曾经' to be translated as past tense.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When you ask for the time of my return, I have no definite period. The night rain in the western mountain pool fills with sorrow. Once we lit the western window candle together, and then we spoke of the same rain in the western mountain night.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys the sense of recalling past moments with sorrow, specifically mentioning past shared experiences (lit candle) and the rain, which implies memories rather than future expectations.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When you ask for the time of my return, I have no definite period. The night rain in the western mountain pool fills with sorrow. Once we lit the western window candle together, and then we spoke of the same rain in the western mountain night.",
+        "evidence_found": true,
+        "reasoning": "The translation reverses the temporal sequence of the original poem, stating the future return (\"I have no definite period\") before the past shared experience (\"Once we lit...\") instead of the original's past shared experience before the future return.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.45,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

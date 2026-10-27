@@ -1,0 +1,76 @@
+{
+  "translation_id": "D05_S1_T1_Qwen25_r2",
+  "anon_code": "T_6a0c27e3",
+  "poem_id": "D05",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Ten years of生死 apart, in silent hearts, we yearn.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Ten years of生死 apart' directly translates the '十年生死两茫茫' meaning, expressing the separation between life and death and the sense of being distant and unclear.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of生死 apart, in silent hearts, we yearn. Across thousands of miles, her grave stands alone, a silent plea. Where can we speak of sorrow, where does it linger?",
+        "evidence_found": true,
+        "reasoning": "The translation describes a separation and sorrow but does not convey the specific meaning of 'not deliberately thinking yet still being unable to forget' as required; it focuses on physical separation and emotional longing rather than the concept of unintentional yet persistent memory.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Across thousands of miles, her grave stands alone",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Across thousands of miles' satisfies the '千里/遥远的距离' requirement, and 'her grave stands alone' implies '孤独坟墓' with 'alone' indicating loneliness.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Where can we speak of sorrow, where does it linger?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Where can we speak of sorrow' directly translates the requirement of '无处话凄凉' meaning 'no place to speak of sorrow' and 'sorrow' corresponds to '凄凉'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 5,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.2,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

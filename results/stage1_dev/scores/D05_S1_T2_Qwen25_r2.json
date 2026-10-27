@@ -1,0 +1,76 @@
+{
+  "translation_id": "D05_S1_T2_Qwen25_r2",
+  "anon_code": "T_f90c1f32",
+  "poem_id": "D05",
+  "strategy": "S1_T2",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years生死twilight, Not thought of, yet ever present.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Ten years生死twilight' contains '生死' (life and death) but is incorrectly translated as 'twilight', which does not convey the intended meaning of 'two parties being separated by death'. The translation also fails to express the 'separation and distance' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Not thought of, yet ever present.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Not thought of' implies the absence of deliberate thought, but the translation fails to convey that the memory remains strong despite not thinking about it, as it suggests the memory is 'ever present' rather than 'natural and unavoidable' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Lonely grave, A thousand miles away",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Lonely grave, A thousand miles away' directly translates to '孤独坟墓' (lonely grave) and 'a thousand miles away' (thousand miles), meeting both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "No sound of sorrow's plight",
+        "evidence_found": true,
+        "reasoning": "The phrase 'No sound of sorrow's plight' does not convey 'no place/person to express sorrow' as required; it describes the absence of sound related to sorrow, not the lack of a place or person to express it.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.65,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

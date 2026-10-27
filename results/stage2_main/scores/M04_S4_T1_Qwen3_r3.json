@@ -1,0 +1,67 @@
+{
+  "translation_id": "M04_S4_T1_Qwen3_r3",
+  "anon_code": "T_35007499",
+  "poem_id": "M04",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When two hearts are truly united, it is not the fleeting moments of daily life that matter—",
+        "evidence_found": true,
+        "reasoning": "The translation does not use a conditional clause (if/as long as) to express 'if two people's emotions are long-lasting' as required; it shifts focus to 'daily life' and 'eternal love' without the conditional structure.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Yet how could one compare the enduring warmth of eternal love to the fleeting nature of daily separation?",
+        "evidence_found": true,
+        "reasoning": "The translation uses a rhetorical question structure to imply that daily separation is not the key factor, aligning with the requirement to express a negation or question about the necessity of daily presence.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "fleeting moments of daily life",
+        "evidence_found": true,
+        "reasoning": "The phrase 'fleeting moments of daily life' captures the 'frequent or continuous' aspect of '朝朝暮暮' while maintaining the time叠加感 through 'daily life' implying repeated cycles.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "When two hearts are truly united, it: it is not the fleeting moments of daily life that matter— Yet how could one compare the enduring warmth of eternal love to the fleeting nature of daily separation?",
+        "evidence_found": false,
+        "reasoning": "The translation maintains the conditional structure 'when two hearts are truly united' as the condition and contrasts it with the conclusion about fleeting moments versus enduring love, preserving the logical relationship and thematic echo between the condition and the comparison.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

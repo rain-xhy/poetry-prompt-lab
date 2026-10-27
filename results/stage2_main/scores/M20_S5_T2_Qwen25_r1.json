@@ -1,0 +1,67 @@
+{
+  "translation_id": "M20_S5_T2_Qwen25_r1",
+  "anon_code": "T_ddb302f9",
+  "poem_id": "M20",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell in Chengdu’s head, you in the river’s end.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts the speaker's location (Chengdu) with the listener's location (river's end), fulfilling the requirement for spatial parallelism and opposition between head and tail.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Daily I yearn for you, yet you remain unseen.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Daily I yearn for you' expresses the daily/continuous nature of longing, and 'yet you remain unseen' directly addresses the contradiction between longing and not being able to see the person.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Drinking from the Yangtze, our waters blend. Though miles apart, we share the same stream.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly shows '共' (shared) through 'our waters blend' and 'we share the same stream', and the drinking connection is maintained via 'Drinking from the Yangtze'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell in Chengdu’s head, you in the river’s end. Daily I yearn for you, yet you remain unseen. Drinking from the Yangtze, our waters blend. Though miles apart, we share the same stream.",
+        "evidence_found": true,
+        "reasoning": "The translation captures physical separation (Chengdu’s head vs river’s end, miles apart) and emotional/symbolic connection (yearn, waters blend, share the same stream), creating tension between physical distance and emotional bond.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.35,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

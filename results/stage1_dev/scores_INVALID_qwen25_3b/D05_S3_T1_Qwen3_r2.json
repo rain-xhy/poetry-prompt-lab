@@ -1,0 +1,62 @@
+{
+  "translation_id": "D05_S3_T1_Qwen3_r2",
+  "anon_code": "T_1938c017",
+  "poem_id": "D05",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of death and life, two vast distances apart",
+        "evidence_found": true,
+        "reasoning": "The rest of the translation does not match the pass conditions, as it does not include 'not thinking, yet remembering deeply' and 'a thousand miles of grave, no place to vent my sorrow' which are not present in the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Not thinking, yet remembering deeply.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'Not thinking, yet remembering deeply.' which contradicts the original '不思量，自难忘' (not thinking, yet remembering naturally).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "not thinking, yet remembering deeply.",
+        "evidence_found": true,
+        "reasoning": "The translation includes 'not thinking, yet remembering deeply.' which does not match the original '相隔千里的孤独坟墓' and does not preserve the meaning of '孤独' (lonely).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "no place to vent my sorrow",
+        "evidence_found": true,
+        "reasoning": "Ten years of death and life, two vast distances apart, Not thinking, yet remembering deeply. A thousand miles of grave, no place to vent my sorrow.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.95,
+    "valid": true
+  }
+}

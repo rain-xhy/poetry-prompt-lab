@@ -1,0 +1,67 @@
+{
+  "translation_id": "M20_S1_T1_Qwen25_r3",
+  "anon_code": "T_17afee07",
+  "poem_id": "M20",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell in the upper reaches of the Yangtze, You reside at the river's end.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts the speaker's location (upper reaches of the Yangtze) with the other person's location (river's end), fulfilling the requirement of spatial parallelism and contrast between head and tail.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Daily I think of you and cannot see you",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Daily I think of you and cannot see you' directly expresses the continuous daily thought and the contradiction of not being able to see the person, meeting both required conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Sharing the waters of the Yangtze",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Sharing the waters of the Yang: ' directly reflects the '共饮一江水' concept, emphasizing the shared water resource and the connection between the two parties.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell in the upper reaches of the Yangtze, You reside at the river's end.",
+        "evidence_found": true,
+        "reasoning": "The first two lines explicitly show physical separation by location along the Yangtze River while implying emotional connection through shared river waters.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

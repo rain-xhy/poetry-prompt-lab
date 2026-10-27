@@ -1,0 +1,76 @@
+{
+  "translation_id": "D03_S5_T2_Qwen3_r2",
+  "anon_code": "T_69b954a1",
+  "poem_id": "D03",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The wind knocks at the door for me, A farewell drink, a silent farewell.",
+        "evidence_found": true,
+        "reasoning": "The translation does not convey the specific action of 'encouraging the friend to drink one more cup' as required; it focuses on wind and absence rather than the act of drinking with a friend.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Beyond the west, where spring once bloomed",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Beyond the west' directly corresponds to '向西出了阳关' meaning 'westward beyond Yang Pass' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "No friend remains, no heart to hold.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'No friend remains' directly translates to '没有老朋友' meaning 'no old friends' without expanding the scope to 'no one at all'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "No friend remains, no heart to hold.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'No friend remains' directly corresponds to '无故人' (no old friends) and 'no heart to hold' implies the absence of emotional connection, aligning with the causal relationship between the farewell drink and the lack of friends.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

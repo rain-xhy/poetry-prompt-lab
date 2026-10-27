@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S5_T2_Qwen3_r2",
+  "anon_code": "T_8bce4538",
+  "poem_id": "M07",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Old times Wang and Xie mansion's orioles",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly mentions 'Wang' and 'Xie' as specific family names, preserving the required historical context without genericization.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Old times the Wang and Xie mansions' orioles, now fly into the common people's homes.",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly contrasts 'old times' with 'now' for time comparison and 'Wang and Xie mansions' (historically elite) with 'common people's homes' for social class contrast.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "旧时王谢堂前燕",
+        "evidence_found": true,
+        "reasoning": "The phrase '旧时王谢堂前燕' directly translates to 'The old Wang and Xie's courtyard's swallow' which preserves the swallow as a witness (imagery) without implying the swallow lived for centuries.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "J雀桥畔野草花，乌衣巷日斜。",
+        "evidence_found": true,
+        "reasoning": "The translation does not correctly convey the required '荒凉景象' (desolate scene) as it uses 'J雀桥畔' (which is likely a typo for '冷雀桥畔' or similar) and '乌衣巷日斜' (which refers to a specific historical location rather than a desolate landscape). The phrase '飞入寻常百姓家' (flying into ordinary people's homes) implies a contrast but does not directly express the desolate scene required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

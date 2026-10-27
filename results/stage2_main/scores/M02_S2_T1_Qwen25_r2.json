@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S2_T1_Qwen25_r2",
+  "anon_code": "T_118f5504",
+  "poem_id": "M02",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "红豆生于南国之地，春来时抽枝发新。愿你多多采摘，此物最能寄相:思情。",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly states that '红豆' (red beans) is the object that '最能寄相思情' (most capable of conveying longing), directly preserving its symbolic meaning as a metaphor for longing.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "愿你多多采摘",
+        "evidence_found": true,
+        "reasoning": "The phrase '愿你多多采摘' directly expresses a wish for the person to pick more, fulfilling the requirement of expressing hope and specifically addressing 'you' to pick.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "此物最能寄相思情",
+        "evidence_found": true,
+        "reasoning": "The phrase '此物最能寄相: 1. '此物' means 'this thing' which matches 'this thing' in the required meaning. 2. '最能寄托相思之情' is translated as '最能寄相思情' which directly corresponds to 'most able to symbolize/express longing'. 3. The translation does not imply 'this thing will think' but rather 'this thing can express longing', so it meets the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "春来时抽枝发新",
+        "evidence_found": true,
+        "reasoning": "The phrase '春来时抽枝发新' directly translates to 'when spring comes, sprouts and bears new branches', which expresses the time of spring and the natural action of sprouting branches as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

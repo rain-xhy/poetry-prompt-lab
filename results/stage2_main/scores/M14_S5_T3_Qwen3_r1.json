@@ -1,0 +1,67 @@
+{
+  "translation_id": "M14_S5_T3_Qwen3_r1",
+  "anon_code": "T_ef269bec",
+  "poem_id": "M14",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If the general were in龙城, no enemy would cross the mountain.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'If the general were in龙城' uses a conditional structure with 'if' to express a hypothetical situation, matching the required condition assumption and the 'but as long as' meaning from the original Chinese phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no enemy would cross the mountain",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no enemy would cross the mountain' directly translates to '不让...越过' (prevent/not allow crossing) with the active verb 'cross' indicating the stopping action.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If the general were in龙城, no enemy would cross the mountain.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'If the general were in龙城, no enemy would cross the mountain' clearly expresses a conditional relationship where the condition (the general being in 龙城) leads to the result (no enemy crossing the mountain), fulfilling the requirement of preserving the condition-result logic.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "If the general were in龙城, no enemy would cross the mountain.",
+        "evidence_found": true,
+        "reasoning": "The translation incorrectly includes the Chinese phrase '龙城' in English text, which violates the requirement that the Chinese phrase should not appear in the translation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

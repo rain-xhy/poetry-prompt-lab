@@ -1,0 +1,67 @@
+{
+  "translation_id": "M20_S3_T1_Qwen25_r3",
+  "anon_code": "T_711170da",
+  "poem_id": "M20",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I live by the river of Changjiang, You dwell at the river's end.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts the speaker's location (river of Changjiang) with the other person's location (river's end), fulfilling the requirement for spatial parallelism and contrast between the beginning and end.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Day after day, I think of you but cannot see you",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Day after day' expresses the required daily continuity, but the translation uses 'think of you' instead of '思念' (longing for) and 'cannot see you' instead of '不见' (not seeing), which does not fully capture the emotional intensity of the original Chinese phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Drinking from the same river we share",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Drinking from the same river we share' directly reflects the '共饮一江水' meaning with '共' (shared) and '饮水' (drinking water) as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I live by the river of Changjiang, You dwell at the river's end. Day after day, I think of you but cannot see you, Drinking from the same river we share.",
+        "evidence_found": true,
+        "reasoning": "The translation shows physical separation (different river locations) and emotional/symbolic connection (sharing the same river), creating tension between physical distance and emotional bond.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

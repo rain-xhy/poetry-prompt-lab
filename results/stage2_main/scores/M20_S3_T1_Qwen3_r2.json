@@ -1,0 +1,67 @@
+{
+  "translation_id": "M20_S3_T1_Qwen3_r2",
+  "anon_code": "T_c691fc55",
+  "poem_id": "M20",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell at the head of the river, you dwell at the tail.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts the two positions (head vs tail of the river) as required by the space parallelism and opposition.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Every day I think of you, but I cannot see you",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Every day I think of you, but I cannot see you' directly expresses the required continuous daily thinking and the contradiction between longing and inability to see.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "sharing the same river's flow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'sharing the same river's flow' directly reflects the '共饮一江水' concept of shared water consumption and connection, fulfilling the requirement for '共' (commonality) and '饮水的联系' (water-drinking connection).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell at the head of the river, you dwell at the tail. Every day I think of you, but I cannot see you, sharing the same river's flow.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly shows physical separation (head and tail of the river) and emotional connection (sharing the same river's flow), creating tension between the two.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

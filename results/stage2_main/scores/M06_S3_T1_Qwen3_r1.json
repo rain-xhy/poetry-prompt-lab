@@ -1,0 +1,67 @@
+{
+  "translation_id": "M06_S3_T1_Qwen3_r1",
+  "anon_code": "T_37a7ae74",
+  "poem_id": "M06",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "How many blossoms have fallen, unknown to me?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'unknown to me' directly indicates that the subject 'I' does not know the number of fallen blossoms, fulfilling the requirement that the translation preserves '不知道花落了多少' with 'I' as the subject.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In the morning, I sleep soundly, unaware of the dawn",
+        "evidence_found": true,
+        "reasoning": "The translation includes 'unaware of the dawn' which expresses '未察觉' (unconscious of the dawn), but the phrase 'In the morning' contradicts the original's '春眠' (spring sleep) by specifying a time of day rather than the season context.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "And everywhere, the birds sing, their melodies bright.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'everywhere' corresponds to '到处' and 'birds sing' indicates auditory perception of birds' sounds.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In the morning, I sleep soundly, unaware of the dawn, And everywhere, the birds sing, their melodies bright.",
+        "evidence_found": true,
+        "reasoning": "The translation does not mention 'the storm made a sound' or 'petals fell' as required by the original phrase '夜来风雨声', which refers to the sound of wind and rain during the night.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "translation_id": "A03_S0_Qwen25_r2",
+  "anon_code": "T_3aff65a9",
+  "poem_id": "A03",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I wanted to speak, but I restrained myself, saying instead, 'It's a fine autumn.'",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly convey the 'contradiction of wanting to speak but stopping' as required; it states the action of restraining oneself but does not capture the internal conflict or the emotional tension of the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "saying instead, 'It's a fine autumn.'",
+        "evidence_found": true,
+        "reasoning": "The translation correctly captures the surface statement 'It's a fine autumn' as the '却道' part, while the context implies the deeper meaning is restrained.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I wanted to speak, but I restrained myself, saying instead, 'It's a fine autumn.'",
+        "evidence_found": true,
+        "reasoning": "The translation does not convey the emotional suppression or contrast between inner feeling and expression as required; it presents the statement as a simple, non-ironic observation rather than an ironic or suppressed expression.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

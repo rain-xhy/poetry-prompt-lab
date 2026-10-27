@@ -1,0 +1,76 @@
+{
+  "translation_id": "D03_S1_T3_Qwen3_r1",
+  "anon_code": "T_a20d3497",
+  "poem_id": "D03",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Drink until empty, farewell to this last cup of wine, Beyond the Yang Mountains, there is no old friend to meet.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express '我劝你再干一杯酒' as a direct encouragement to drink one more cup for a friend, but rather describes a farewell scene with a cup of wine and the absence of friends beyond Yang Mountains.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Beyond the Yang Mountains, there is no old friend to meet.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Beyond the Yang Mountains' does not correctly convey 'west' direction as required; it implies a direction away from the Yang Pass rather than westward movement.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "there is no old friend to meet",
+        "evidence_found": true,
+        "reasoning": "The phrase 'there is no old friend to meet' directly translates to '没有老朋友' as required, and does not expand the meaning to 'no one at all'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Drink until empty, farewell to this last cup of wine, Beyond the Yang Mountains, there is no old friend to meet.",
+        "evidence_found": true,
+        "reasoning": "The translation connects the act of drinking (劝酒) with the absence of old friends (无故人) by stating that beyond the Yang Mountains there is no old friend to meet, implying that the last cup of wine is a farewell to this absence.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

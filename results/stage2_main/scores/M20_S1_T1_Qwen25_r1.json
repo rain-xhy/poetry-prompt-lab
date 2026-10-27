@@ -1,0 +1,67 @@
+{
+  "translation_id": "M20_S1_T1_Qwen25_r1",
+  "anon_code": "T_a3300c75",
+  "poem_id": "M20",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell in the upper reaches of the Yangtze, You in the lower reaches where the waves cease.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts the speaker's location (upper Yangtze) with the other person's location (lower Yang, waves cease), fulfilling the spatial parallelism and opposition requirement.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Day after day, I long to see you",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Day after day' expresses continuity but the translation focuses on longing to see rather than the contradiction between思念 (longing) and不见 (not seeing), which is required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Drinking from the Yangtze, we are joined in this peace.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Drinking from the Yangtze, we are joined in this peace' directly reflects the '共饮一江水' (drinking from the same river) and '联系' (connection) as required, emphasizing the shared experience of drinking from the Yangtze River.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell in the upper reaches of the Yangtze, You in the lower reaches where the waves cease.",
+        "evidence_found": true,
+        "reasoning": "This line explicitly shows physical separation (upper vs. lower reaches of Yangtze) and implies emotional connection through the shared river context.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

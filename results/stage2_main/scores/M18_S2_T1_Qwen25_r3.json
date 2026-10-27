@@ -1,0 +1,67 @@
+{
+  "translation_id": "M18_S2_T1_Qwen25_r3",
+  "anon_code": "T_a63331a6",
+  "poem_id": "M18",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "There's nothing we can do as flowers wither and fall,",
+        "evidence_found": true,
+        "reasoning": "The phrase 'There's nothing we can do as flowers wither and fall' does not explicitly convey the 'helpless' feeling required by the original phrase, as it focuses on the action of flowers withering and falling without emphasizing the helpless or无奈 aspect.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Yet returning燕s seem familiar, as if from before.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'returning燕s' contains the Chinese character '燕' (swallow) which is not allowed in English translations as per the requirement to preserve the meaning without Chinese characters.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "There's nothing we can do as flowers wither and fall, Yet returning燕s seem familiar, as if from before.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts the flowers' decline (花落去) with the returning swallows (燕归来), showing their opposite directions and the passage of time.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "There's nothing we can do as flowers wither and fall, Yet returning燕s seem familiar, as if from before. Spring's departure mirrors our own passing time, A timeless echo of transient beauty.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys time passing through 'passing time' and 'transient beauty', and the sense of people and things changing through 'returning燕s seem familiar, as if from as if from before' and 'timeless echo of transient beauty'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

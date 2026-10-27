@@ -1,0 +1,53 @@
+{
+  "translation_id": "A01_S5_T1_Qwen25_r1",
+  "anon_code": "T_12cd328a",
+  "poem_id": "A01",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Do not wait until flowers fall to cherish spring",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Do not wait' explicitly contains the negative command 'do not' which matches the requirement of preserving the implicit negative meaning of '小心' as 'do not'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Do not wait until flowers fall to cherish spring",
+        "evidence_found": true,
+        "reasoning": "This line directly warns against delaying action by using the metaphor of flowers falling, implying a cautionary message about not missing the opportunity.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Carefully I slide into the river",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Carefully I slide into the river' contains 'slide' and 'into river' as required by the pass conditions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\n  \"original\": \"小心滑入河中\",\n  \"reference_notes\": {\n    \"小心的隐性否定\": \"识别'小心'暗含'不要'的否定意义。\",\n    \"警告语气\": \"保留警告/提醒的语气。\",\n    \"动作完整性\": \"保留'滑入河中'的完整动作。\"\n  },\n  \"translation\": \"Carefully I slide into the river,\\nMy throat chokes, unable to sing; tears flow without words.\\nDo not wait until flowers fall to cherish spring,\\nFor the hills wish to keep the guest, the wind knocks at the door.\"\n}"
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

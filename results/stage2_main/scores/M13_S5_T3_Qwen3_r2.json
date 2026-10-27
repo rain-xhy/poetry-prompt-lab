@@ -1,0 +1,67 @@
+{
+  "translation_id": "M13_S5_T3_Qwen3_r2",
+  "anon_code": "T_09c86a8b",
+  "poem_id": "M13",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The birds have flown away, leaving no trace of their flight. The paths are empty, with no footprints left behind.",
+        "evidence_found": true,
+        "reasoning": "The translation describes birds flying away and paths being empty, but does not explicitly convey the absolute absence of birds as required by '鸟飞绝' which means 'no birds at all' or 'absolutely no birds'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The paths are empty, with no footprints left behind.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no footprints left behind' directly translates to '人的踪迹消失' with absolute negation, and 'empty' conveys the '灭' sense of disappearance.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "An old fisherman in a cloak and hat sits alone on a small boat",
+        "evidence_found": true,
+        "reasoning": "The phrase 'sits alone' directly emphasizes 'alone' as required, and the context implies the action of fishing (casting a line) which meets the '垂钓' requirement.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The birds have flown away, leaving no trace of their flight. The paths are empty, with no footprints left behind. An old fisherman in a cloak and hat sits alone on a small boat, casting a line into the cold, lonely river snow.",
+        "evidence_found": true,
+        "reasoning": "The translation effectively conveys the vastness of space through 'the paths are empty' and 'cold, lonely river snow', while emphasizing the individual's solitude with 'sits alone on a small boat', creating a clear contrast between the expansive environment and the solitary figure.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

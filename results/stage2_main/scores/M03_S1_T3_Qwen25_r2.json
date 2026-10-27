@@ -1,0 +1,67 @@
+{
+  "translation_id": "M03_S1_T3_Qwen25_r2",
+  "anon_code": "T_3db86c62",
+  "poem_id": "M03",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "You ask when I'll be home, but I cannot say",
+        "evidence_found": true,
+        "reasoning": "The phrase 'cannot say' directly translates to 'cannot yet be set' as required, avoiding 'no deadline' or 'never'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "You ask when I'll be home, but I cannot say When night rains swell the autumn pool in Chis. When we're together by the west window, We'll talk of this night, then in Chiswick.",
+        "evidence_found": false,
+        "reasoning": "The translation does not express the future assumption of 'when will we be able to' as required; it shifts the focus to the poet's home in Chiswick and uses present tense constructions that do not convey the expected future conditional meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "You ask when I'll be home, but I cannot say When night rains swell the autumn pool in Chis: When we're together by the west window, We'll talk of this night, then in Chiswick.",
+        "evidence_found": false,
+        "reasoning": "The translation does not express '将来回忆过去' (future recollection of past) as required; it describes a future event (when they are together) talking about the current night, which is not the same as recalling the past.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "When night rains swell the autumn pool in Chis:wick",
+        "evidence_found": false,
+        "reasoning": "The phrase 'When night rains swell the autumn pool' directly translates the required meaning of '雨使池水上涨' while preserving the three required意象: 巴山 (Chiswick), 夜雨 (night rains), and 秋池 (autumn pool).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 1.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

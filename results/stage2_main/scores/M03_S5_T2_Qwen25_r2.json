@@ -1,0 +1,67 @@
+{
+  "translation_id": "M03_S5_T2_Qwen25_r2",
+  "anon_code": "T_bff5466c",
+  "poem_id": "M03",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When the rain of Ba mounts, we'll recall",
+        "evidence_found": true,
+        "reasoning": "The phrase 'When the rain of Ba mounts' does not express '尚未确定/cannot yet be set' as required; it implies a future event that is certain, not an undetermined time.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When the rain of Ba mounts, we'll recall",
+        "evidence_found": true,
+        "reasoning": "The phrase 'When the rain of Ba mounts' does not express the future assumption of 'when will' as required; it refers to a specific event (rain of Ba) rather than a general future time for the action of trimming the candle.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When the rain of Ba mounts, we'll recall",
+        "evidence_found": true,
+        "reasoning": "The phrase 'we'll recall' indicates future action, but the original phrase requires 'past memory' (将来回忆过去), so the tense is incorrect.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When the rain of Ba mounts, we'll recall, That autumn pond, now swollen with the night's gale.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the meaning of '巴山夜雨使秋池水涨' by indicating that the rain from Ba (巴山) causes the autumn pond (秋池) to become swollen (水涨), while preserving the three required imagery elements: Ba, night rain, and autumn pond.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M16_S5_T3_Qwen3_r2",
+  "anon_code": "T_ae9f837c",
+  "poem_id": "M16",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The crow's cry echoes over the mossy hut, where the moon lingers.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'crow's cry' instead of 'chicken's crow' and 'mossy hut' instead of '茅店' (thatch-roofed inn), failing to preserve the three key images: chicken crow, thatch-roofed inn, and moon.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Footprints are visible on the bridge, where the frost lies.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'footprints' and 'frost' but does not explicitly state 'on the bridge' as the location for the footprints, and the phrase 'where the frost lies' is not the same as the original's '板桥的霜' (plank bridge frost).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Recalling the dream of Du Ling, the ducks fill the winding pond.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Recalling the dream of Du Ling' directly expresses the required meaning of 'therefore thinking of the dream in Du Ling' as a memory of a dream, fulfilling both conditions of expressing 'recalling' and being a dream.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The ducks fill the winding pond",
+        "evidence_found": true,
+        "reasoning": "The phrase 'winding pond' directly translates to '曲折池塘' (curved/winding pond) and 'ducks fill' corresponds to '凫雁满布' (ducks and geese filling the pond).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.95,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

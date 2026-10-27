@@ -1,0 +1,19 @@
+{
+  "id": "M14_S0_Qwen25_r3",
+  "poem_id": "M14",
+  "trap_type": "否定逻辑",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n秦时明月汉时关，万里长征人未还。\n但使龙城飞将在，不教胡马度阴山。",
+  "prompt_sha256": "afaf5a9a8d77e9e52a07805ddfb53b85899c6fe5c3704626791e457843bbffc1",
+  "translation": "Here is my translation of the Chinese classical poem into English:\n\n\"When the Qin dynasty's bright moon still shines,\nAnd the Great Wall of Han still stands in view.\nIf only the brave general of Longcheng were there,\nTo stop the barbarian horses from crossing the阴Mountain.\"\n\nNote that this poem is a translation of the famous poem \"Bordered by the Yan Mountains\" by Wang Changling, which is a translation of the original Tang dynasty poem. I have attempted to convey the meaning and spirit of the original while adapting it to sound natural in English. The Yan Mountains are referred to as the \"阴Mountain\" (Yin Mountains) in the poem.",
+  "metadata": {
+    "input_tokens": 70,
+    "output_tokens": 134,
+    "latency_ms": 1914.325475692749,
+    "timestamp": "2026-10-26T19:45:04.511619",
+    "finish_reason": "stop"
+  }
+}

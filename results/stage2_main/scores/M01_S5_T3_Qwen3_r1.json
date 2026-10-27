@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S5_T3_Qwen3_r1",
+  "anon_code": "T_03fbbbee",
+  "poem_id": "M01",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The depth of feeling seems to contradict itself",
+        "evidence_found": true,
+        "reasoning": "This phrase directly captures the paradoxical tension between deep affection and seeming coldness as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The depth of feeling seems to contradict itself, yet it cannot suppress its longing. The tears of the candle, though tender, cannot quell the grief of parting.",
+        "evidence_found": true,
+        "reasoning": "The translation describes emotional states and emotional suppression, not the inability to smile at the wine table as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The tears of the candle, though tender, cannot quell the grief of parting.",
+        "evidence_found": true,
+        "reasoning": "The translation fails to explicitly state that the candle is the subject with emotion; instead, it describes the candle's tears as a result of emotion, which shifts the focus from the candle being the active emotional entity to a passive state.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The tears of the candle, though tender, cannot quell the grief of parting.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'cannot quell the grief of part as the tears of the candle' implies the candle's tears continue until dawn, fulfilling the '替人垂泪到天明' meaning with the time continuation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.4,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

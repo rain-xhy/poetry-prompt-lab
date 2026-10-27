@@ -1,0 +1,67 @@
+{
+  "translation_id": "M06_S5_T3_Qwen3_r1",
+  "anon_code": "T_d033f1ce",
+  "poem_id": "M06",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "How many flowers have fallen now?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'How many flowers have fallen now?' directly expresses the uncertainty of the count, with 'now' indicating the current moment, and the subject implied as the observer who is unaware of the exact number.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Spring sleep leaves me unaware of dawn,",
+        "evidence_found": true,
+        "reasoning": "The translation includes 'Spring sleep leaves me unaware of dawn' which captures the sleep and unawareness of dawn, but the required time background of 'spring' is not explicitly stated in the translation as 'spring' is implied by 'dawn' rather than directly mentioned as 'spring'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wherever I go, birds sing in the morning.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Wherever I go' expresses '到处' (everywhere) and 'birds sing' indicates auditory perception of birds, fulfilling both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Last night's storm made a sound",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Last night's storm made a sound' directly corresponds to the original Chinese phrase '夜来风雨声' by expressing the past time ('last night') and the sound of wind and rain.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

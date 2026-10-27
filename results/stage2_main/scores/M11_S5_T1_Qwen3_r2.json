@@ -1,0 +1,67 @@
+{
+  "translation_id": "M11_S5_T1_Qwen3_r2",
+  "anon_code": "T_f475c3d7",
+  "poem_id": "M11",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I wonder if it is frost upon the ground",
+        "evidence_found": true,
+        "reasoning": "The phrase uses 'wonder if' to express uncertainty and 'frost upon the ground' matches the original's '地上的霜' meaning, fulfilling the requirement for a speculative statement without certainty.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I lift my head to gaze at the bright moon, yet lower my gaze to think of my homeland.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly shows the sequence of actions (lifting head to gaze at moon, lowering gaze to think of homeland) and implies that gazing at the moon leads to thoughts of home.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Before the moonlight reaches my bed",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Before the moonlight reaches my bed' directly corresponds to '床前明月光' by preserving the '床前' position and expressing '月光明亮' through 'moonlight'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Before the moonlight reaches my bed, I wonder if it is frost upon the ground. I lift my head to gaze at the bright moon, yet lower my gaze to think of my homeland.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys a sense of quiet solitude and homesickness through the imagery of moonlight, frost, and the contrast between gazing at the moon and thinking of the homeland.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

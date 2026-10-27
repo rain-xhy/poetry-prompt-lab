@@ -1,0 +1,62 @@
+{
+  "translation_id": "D06_S0_Qwen25_r2",
+  "anon_code": "T_5e8f7412",
+  "poem_id": "D06",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Except one, missing far from home.",
+        "evidence_found": true,
+        "reasoning": "The provided translation does not include the phrase '遥知' and does not express the idea of 'from afar' as required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I know my brothers climbing high",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the phrase '兄弟们登高之处' (brothers climbing high).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "All wearing fragrant萸 on their brows",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '遍插茱萸' and does not directly translate '茱萸' as 'fragrant萸'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Except one, missing far from home.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '少一人' and does not indicate that the missing person is the speaker.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.2,
+    "valid": true
+  }
+}

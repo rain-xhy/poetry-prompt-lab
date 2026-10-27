@@ -1,0 +1,58 @@
+{
+  "translation_id": "A08_S5_T1_Qwen3_r2",
+  "anon_code": "T_e1c411e8",
+  "poem_id": "A08",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Old times' noble mansion's winged dove",
+        "evidence_found": true,
+        "reasoning": "The phrase 'noble mansion' does not correctly capture '豪门' as a generalized term for wealthy/noble/aristocratic families; it refers to a specific mansion rather than the broader concept.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Jade雀 Bridge edge sees wild grass blooms, Ukiyo Hall mouth casts a golden sunset.",
+        "evidence_found": true,
+        "reasoning": "The translation does not convey the specific historical context loss as required; it describes a scene without indicating the loss of historical specificity.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Jade雀 Bridge edge sees wild grass blooms, Ukiyo Hall mouth casts a golden sunset.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'Jade雀' (a misspelling of 'Jade Bird') and 'Ukiyo Hall' (a misinterpretation of 'Wu Yi' or 'Wu Yi Lane') which are not the correct names from the original poem, violating the requirement to preserve proper nouns without generalization.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

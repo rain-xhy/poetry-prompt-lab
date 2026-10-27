@@ -1,0 +1,67 @@
+{
+  "translation_id": "M15_S0_Qwen25_r2",
+  "anon_code": "T_ce02c535",
+  "poem_id": "M15",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why must the羌 flute lament over willows",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Why must the羌 flute lament over willows' uses 'must' to express a requirement that is not necessary, aligning with the meaning of '不必/no need to' as a negative or questioning tone.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Spring breeze cannot cross the Jade Gate Pass.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states that the spring breeze cannot reach the Jade Gate Pass, fulfilling the requirement of a negative expression with geographical limitation.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Spring breeze cannot cross the Jade Gate Pass",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Spring breeze cannot cross the Jade Gate Pass' directly reflects the causal relationship where the absence of spring breeze (causation) leads to the ineffectiveness of lamentation (effect), aligning with the required causal logic and thematic resonance.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Why must the羌 flute lament over willows",
+        "evidence_found": true,
+        "reasoning": "The translation mentions '羌 flute' but uses 'lament over willows' which does not explicitly convey the '离别' (parting) meaning required for 《折杨柳》, and the phrase 'lament over will' is not the standard expression for the parting connotation of '折杨柳' in classical Chinese poetry.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S1_T1_Qwen25_r3",
+  "anon_code": "T_f7ef9992",
+  "poem_id": "M01",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Full of sentiment yet seems to care for nothing",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Full of sentiment yet seems to care for nothing' directly captures '深情与似无情的悖论张力' by contrasting deep emotion with seeming indifference, maintaining the paradoxical tension without flattening it into a simple statement.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Only the smile at the wine cup fails to appear",
+        "evidence_found": true,
+        "reasoning": "The phrase 'fails to appear' directly translates to 'cannot' and 'at the wine cup' refers to 'at the table/at the farewell wine' while indicating the inability to smile, not unwillingness.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The wax candle has a heart and also loves to part",
+        "evidence_found": true,
+        "reasoning": "The phrase directly states the candle's personification with 'has a heart' and 'loves to part', fulfilling the requirement of preserving the candle as the拟人主体 with emotional intent.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Weeping silently until dawn breaks in the sky",
+        "evidence_found": true,
+        "reasoning": "The phrase 'weeping silently until dawn breaks in the sky' directly translates the '蜡烛替人流泪 + 一直到天明' meaning with 'until dawn' indicating time continuation and 'weeping silently' showing the candle's emotional act for others.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 4.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

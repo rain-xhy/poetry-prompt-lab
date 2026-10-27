@@ -1,0 +1,67 @@
+{
+  "translation_id": "M09_S2_T1_Qwen3_r1",
+  "anon_code": "T_a19ee587",
+  "poem_id": "M09",
+  "strategy": "S2_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The moon falls, the cuckoo calls, and frost stains the sky—night falls upon the river and its willow. The river's willows and the fishing fires lie in quiet contemplation, facing the sorrow that lingers.",
+        "evidence_found": true,
+        "reasoning": "The translation introduces additional elements like 'night falls upon the river and its will, the river's willows, and the fishing fires' which are not present in the original Chinese phrase, thereby creating a causal relationship and adding elements beyond the three required imagery.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "facing the sorrow that luses",
+        "evidence_found": false,
+        "reasoning": "The phrase 'facing the sorrow that lingers' directly expresses '面对愁绪而眠' by indicating the relationship of facing sorrow and the lingering nature of the emotion, which aligns with the requirement of '愁绪伴随睡眠' (sorrow accompanying sleep).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The river's willows and the fishing fires lie in quiet contemplation, facing the sorrow that lingers.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'willows' instead of 'maple trees' and adds 'facing the sorrow that lingers' which is not in the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The river's willows and the fishing fires lie in quiet contemplation, facing the sorrow that lingers.",
+        "evidence_found": true,
+        "reasoning": "The phrase conveys a sense of solitude and coldness through the imagery of willows and fishing fires in quiet contemplation, reflecting the required 'night泊的孤寂凄凉' without any joyful elements.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

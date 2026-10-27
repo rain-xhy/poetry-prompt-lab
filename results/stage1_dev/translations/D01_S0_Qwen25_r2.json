@@ -1,0 +1,19 @@
+{
+  "id": "D01_S0_Qwen25_r2",
+  "poem_id": "D01",
+  "trap_type": "情感反差",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n此情无计可消除，才下眉头，却上心头。",
+  "prompt_sha256": "0bbc906a86ae54f93512c884be6b64c8990131597ed18efd43e52da7cace1eb9",
+  "translation": "This feeling cannot be dispelled,  \nJust as it fades from the眉头,  \nIt rises once more to the heart.",
+  "metadata": {
+    "input_tokens": 56,
+    "output_tokens": 26,
+    "latency_ms": 820.793628692627,
+    "timestamp": "2026-10-26T16:44:17.281635",
+    "finish_reason": "stop"
+  }
+}

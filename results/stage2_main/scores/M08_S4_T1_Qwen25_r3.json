@@ -1,0 +1,67 @@
+{
+  "translation_id": "M08_S4_T1_Qwen25_r3",
+  "anon_code": "T_d549b068",
+  "poem_id": "M08",
+  "strategy": "S4_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "There are no people in the empty mountains, Only the sound of voices can be heard.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states 'no people' and 'sound of voices' which contrasts '看不见' (can't see people) and '听得见' (can hear voices) without implying 'no one'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The setting sun returns to enter the deep woods",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The setting sun returns to enter the deep woods' directly translates the dynamic movement of '返景入深林' as described, with 'setting sun' corresponding to '夕' (evening) and 'returns to enter' capturing the dynamic action of '返' (returning) and '入' (entering).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "And its light again falls upon the green moss.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'again falls upon' directly translates '又照在' and 'green moss' corresponds to '青苔', fulfilling both required conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "There are no people in the empty mountains",
+        "evidence_found": true,
+        "reasoning": "The phrase 'empty mountains' directly translates to '空旷' (open, vast) and implies '幽静' (quiet, secluded) by stating there are no people, thus preserving the required meaning without denying the existence of mountains.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

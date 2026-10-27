@@ -1,0 +1,67 @@
+{
+  "translation_id": "M13_S1_T1_Qwen3_r1",
+  "anon_code": "T_bebe34ee",
+  "poem_id": "M13",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Beyond the mountains, no bird flies; through the paths, no human footprints remain.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no bird flies' does not convey the absolute negation of birds (no birds at all) required by '鸟飞绝', which implies complete absence rather than the absence of birds flying.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no human footprints remain",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no human footprints remain' directly translates the meaning of '人踪灭' as 'human traces disappear completely', satisfying the absolute negation requirement.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "An old fisherman in a蓑笠, alone on a cold river, catches snow in the cold winter.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'alone on a cold river' explicitly emphasizes 'alone' while describing the action of fishing in cold conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Beyond the mountains, no bird flies; through the paths, no human footprints remain. An old fisherman in a蓑笠, alone on a cold river, catches snow in the cold winter.",
+        "evidence_found": true,
+        "reasoning": "The translation does not accurately convey the contrast between vast space and individual solitude as required. The phrase 'no bird flies' and 'no human footprints remain' suggests absence rather than vastness, and the description of the fisherman is too specific and lacks the intended contrast.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

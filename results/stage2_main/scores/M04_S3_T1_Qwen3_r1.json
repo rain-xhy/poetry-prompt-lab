@@ -1,0 +1,67 @@
+{
+  "translation_id": "M04_S3_T1_Qwen3_r1",
+  "anon_code": "T_2ac591c9",
+  "poem_id": "M04",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When two hearts are truly deep and enduring, what need be the constant cycles of morning and as long as",
+        "evidence_found": false,
+        "reasoning": "The translation does not use a conditional clause (if/as long as) to express the condition that 'if the emotions are long-lasting', but instead describes a state of being deep and enduring without the conditional structure required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "what need be the constant cycles of morning and night?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'what need be the constant cycles of morning and night?' expresses a negation of the necessity for daily repetition, aligning with the requirement to show that there is no need for constant daily presence.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "constant cycles of morning and night",
+        "evidence_found": true,
+        "reasoning": "The phrase 'constant cycles of morning and night' captures the repeated, continuous nature of time as required by the original phrase '朝朝暮暮', fulfilling both the requirement for frequent or continuous expression and the time叠加感 (stacking of time).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "When two hearts are truly deep and enduring, what need be the constant cycles of morning and: night?",
+        "evidence_found": false,
+        "reasoning": "The translation captures the conditional structure 'if two hearts are deep and enduring' and the rhetorical question 'what need be the constant cycles' which reflects the original's logic of condition and counter-question.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

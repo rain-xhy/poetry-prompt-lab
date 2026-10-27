@@ -1,0 +1,19 @@
+{
+  "id": "M05_S2_T1_Qwen25_r1",
+  "poem_id": "M05",
+  "trap_type": "情感反差",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nSemantic Analysis (in Chinese):\n“寻寻觅觅”：反复寻找的动作。要点：叠词的重复感，持续寻找。\n“冷冷清清”：环境的冷清凄凉。要点：从动作转到环境描写。\n“凄凄惨惨戚戚”：情绪的极度悲伤。要点：情感的递进和加深。\n“三组叠词的层次递进”：从动作→环境→情绪的递进结构。要点：三个层次的递进关系。\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n寻寻觅觅，冷冷清清，凄凄惨惨戚戚。",
+  "prompt_sha256": "6e29f0e6758732de5de091817a9c469412b4dae2474bfc4f813033f73c2ffce9",
+  "translation": "Seeking, seeking, in lonely loneliness,\nCold and bleak, in sorrow and woe.\nWretched and bleak, in anguish and despair.\nThree layers of叠词, from action to scene to emotion.",
+  "metadata": {
+    "input_tokens": 344,
+    "output_tokens": 43,
+    "latency_ms": 724.7092723846436,
+    "timestamp": "2026-10-26T21:22:22.871309",
+    "finish_reason": "stop"
+  }
+}

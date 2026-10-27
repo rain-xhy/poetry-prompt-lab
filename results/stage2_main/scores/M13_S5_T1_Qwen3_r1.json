@@ -1,0 +1,67 @@
+{
+  "translation_id": "M13_S5_T1_Qwen3_r1",
+  "anon_code": "T_29d98449",
+  "poem_id": "M13",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no birds fly",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no birds fly' directly translates to the absolute absence of birds as required, capturing the '绝' (extreme) sense of negation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no traces of people",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no traces of people' directly translates to '人的踪迹消失' with absolute negation, capturing the '灭' (disappearance) sense.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A solitary boat, a old man in蓑笠",
+        "evidence_found": true,
+        "reasoning": "The phrase 'solitary boat' emphasizes 'alone' and 'old man in蓑笠' implies the action of fishing (垂钓) with a focus on solitude.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Thousands of mountains, no birds fly; Ten thousand paths, no traces of people. A solitary boat, a old man in蓑笠, Dips his rod in the cold river snow.",
+        "evidence_found": true,
+        "reasoning": "The translation shows vast space with 'Thousands of mountains' and 'Ten thousand paths', while 'a solitary boat' and 'a old man' convey human solitude, creating a contrast between the expansive landscape and the isolated individual.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

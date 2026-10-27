@@ -1,0 +1,67 @@
+{
+  "translation_id": "M15_S5_T1_Qwen25_r2",
+  "anon_code": "T_48104494",
+  "poem_id": "M15",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why should the羌笛怨杨柳",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Why should the羌笛怨杨: 何须怨' translates to 'Why should the羌笛怨杨柳' which expresses a rhetorical question implying 'no need to complain', meeting the requirement of expressing a rhetorical question with the meaning 'no need to'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "For the spring breeze never crosses the Jade Gate Pass?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'never crosses' indicates the spring breeze cannot reach the Jade Gate Pass, fulfilling the requirement of a negative statement with geographical limitation.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why should the羌笛怨杨柳, For the spring breeze never crosses the Jade Gate Pass?",
+        "evidence_found": true,
+        "reasoning": "The translation correctly captures the causal relationship where the spring breeze not reaching the Jade Gate Pass makes complaining about willow trees pointless, maintaining the original's logical flow and thematic resonance.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why should the羌笛怨杨柳",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Why should the羌笛怨杨: 1. It explicitly preserves '羌笛' as required. 2. '怨杨柳' implies a sense of sorrow or longing associated with willow trees, which traditionally symbolize parting and farewell in Chinese culture, thus hinting at the '离别' meaning of '折杨柳' (cutting willows for farewell).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

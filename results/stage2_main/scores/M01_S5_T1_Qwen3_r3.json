@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S5_T1_Qwen3_r3",
+  "anon_code": "T_b8a91dcf",
+  "poem_id": "M01",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The depth of feeling yet seems devoid of emotion",
+        "evidence_found": true,
+        "reasoning": "This line directly captures the required paradox of deep love and seeming coldness, maintaining the tension between the two concepts without flattening them.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A smile cannot be made at the banquet's table",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A smile cannot be made' directly translates to '无法/不能笑出' (unable to/cannot smile), and 'at the banquet's table' corresponds to 'at the table/at the farewell wine' scene.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The candle, with a heart, still wishes to part—",
+        "evidence_found": true,
+        "reasoning": "The phrase explicitly states the candle has a heart (拟人化) and wishes to part (惜别), fulfilling both conditions of being the personified subject and preserving the metaphorical effect.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Its tears, in place of others, fall until the dawn.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'in place of others' directly translates '替人' (for us/on our behalf) and 'fall until the dawn' captures '到天明' (until dawn/till morning) with the required time continuation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

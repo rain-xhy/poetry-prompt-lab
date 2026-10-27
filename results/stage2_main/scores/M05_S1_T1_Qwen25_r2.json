@@ -1,0 +1,67 @@
+{
+  "translation_id": "M05_S1_T1_Qwen25_r2",
+  "anon_code": "T_bd21e92e",
+  "poem_id": "M05",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I seek, I seek, in vain",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I seek, I seek, in vain' directly expresses the repeated searching action with the repetition of 'seek' capturing the rhythmic quality of the original Chinese phrase '寻寻觅觅'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Cold and lonely, bleak and dark",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Cold and lonely, bleak and dark' directly conveys the cold, desolate environment described in the original Chinese phrase '冷冷清清' and forms a logical progression with the preceding line 'I seek, I seek, in vain'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Cold and lonely, bleak and dark, Sorrowful and wretched, full of grief.",
+        "evidence_found": true,
+        "reasoning": "The translation captures deep sorrow through layered descriptors that progress from isolation to emotional desolation, meeting both conditions of profound sadness and emotional escalation.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I seek, I seek, in vain, Cold and lonely, bleak and dark, Sorrowful and wretched, full of grief.",
+        "evidence_found": true,
+        "reasoning": "The translation follows the required structure from action to environment to emotion without altering the sequence.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

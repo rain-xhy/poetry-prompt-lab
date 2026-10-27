@@ -1,0 +1,67 @@
+{
+  "translation_id": "M20_S5_T3_Qwen25_r2",
+  "anon_code": "T_40444857",
+  "poem_id": "M20",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell in the upper reaches of the Yangtze, you dwell in the lower.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts the two locations (upper reaches vs. lower) of the Yangtze River, fulfilling the requirement for spatial parallelism and contrast between the head and tail.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Every day I think of you but cannot see you",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Every day I think of you but cannot see you' directly expresses the continuous daily思念 (thoughts) and the contradiction of not being able to see the person, meeting both required conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "sharing the Yangtze's waters",
+        "evidence_found": true,
+        "reasoning": "The phrase 'sharing the Yang: s waters' directly reflects the '共饮一江水' concept, emphasizing the shared water source despite physical separation.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "I dwell in the upper reaches of the Yangtze, you dwell in the lower. Every day I think of you but cannot see you, sharing the Yang: waters.",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly shows physical separation (upper/lower reaches of Yangtze) and emotional connection (sharing the Yangtze's waters), creating tension between distance and closeness.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "A07A_S0_Qwen25_r2",
+  "poem_id": "A07A",
+  "trap_type": "ambiguity_test",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n小心滑入河中",
+  "prompt_sha256": "4ad526028672a41551ef57956c933825642f64700666d7753f7298b5c9ffdff7",
+  "translation": "Gently slipping into the river.",
+  "metadata": {
+    "input_tokens": 46,
+    "output_tokens": 8,
+    "latency_ms": 201.45702362060547,
+    "timestamp": "2026-10-26T21:46:18.258900",
+    "finish_reason": "stop"
+  }
+}

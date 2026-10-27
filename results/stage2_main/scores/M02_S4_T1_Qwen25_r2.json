@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S4_T1_Qwen25_r2",
+  "anon_code": "T_bc944e64",
+  "poem_id": "M02",
+  "strategy": "S4_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This thing best for parting lovers",
+        "evidence_found": true,
+        "reasoning": "The phrase 'This thing best for parting lovers' directly refers to the symbolic meaning of red beans as a representation of longing and separation, fulfilling the requirement that the translation preserves 'red beans' as a specific symbol for longing.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "May you gather many",
+        "evidence_found": true,
+        "reasoning": "The phrase 'May you gather many' directly expresses a wish for the recipient to collect many items, fulfilling the requirement of expressing hope and specifically addressing 'you' to gather.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This thing best for parting lovers.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'This thing best for parting lovers' directly translates to 'this thing most able to symbolize/express longing' as required, avoiding the misinterpretation of 'this thing will think of itself'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Spring blooms, how many sprout?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Spring blooms' does not express the time of spring but rather the action of blooming, and 'how many sprout' does not capture the natural growth of branches as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

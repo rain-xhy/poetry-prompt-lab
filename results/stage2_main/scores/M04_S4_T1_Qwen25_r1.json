@@ -1,0 +1,67 @@
+{
+  "translation_id": "M04_S4_T1_Qwen25_r1",
+  "anon_code": "T_1bc7d92e",
+  "poem_id": "M04",
+  "strategy": "S4_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "If two hearts are destined to be long-lasting, Then why should they cling so tightly together? They need not meet every single day or night, For true love transcends mere physical proximity.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express 'if two people's emotions are long-lasting' as a condition hypothesis but instead presents a rhetorical question and a statement about love transcending physical proximity, which does not match the required meaning of 'if two people's emotions are long as long as they want to be.'",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "They need not meet every single day or night",
+        "evidence_found": true,
+        "reasoning": "The phrase 'They need not meet every single day or night' directly expresses the requirement that they do not need to be together daily, fulfilling the condition of '不必日日相守' while maintaining the negative/conditional tone of the original.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "They need not meet every single day or night",
+        "evidence_found": true,
+        "reasoning": "The phrase 'every single day or night' contradicts the requirement to preserve '日日夜夜、时时刻刻相守' which implies continuous presence, not absence of meeting.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If two hearts are destined to be long-lasting, Then why should they cling so tightly together?",
+        "evidence_found": true,
+        "reasoning": "The translation maintains the conditional structure 'If...then...' and the rhetorical question 'why should they cling...' which directly addresses the condition and its logical consequence, fulfilling the requirement of condition-conclusion logic and forward-backward resonance.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 3.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

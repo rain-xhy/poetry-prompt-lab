@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S0_Qwen3_r3",
+  "anon_code": "T_a839a1e0",
+  "poem_id": "M01",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Her heart is full of emotion yet seems to: indifferent",
+        "evidence_found": false,
+        "reasoning": "The phrase 'full of emotion' corresponds to 'deep love/affection' and 'seems to be indifferent' directly addresses 'seeming coldness/indifference', maintaining the paradoxical tension between deep feeling and apparent detachment.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "unable to make a smile",
+        "evidence_found": true,
+        "reasoning": "The phrase 'unable to make a smile' directly translates to '无法/不能笑出' as required, and the context implies the scene at the table (尊前) without explicitly stating it, which meets the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The candle, with a heart of its own, regrets parting",
+        "evidence_found": true,
+        "reasoning": "The phrase explicitly states the candle has a heart (拟人化) and regrets parting (惜别), meeting both conditions for preservation.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "tears it sheds until the dawn",
+        "evidence_found": true,
+        "reasoning": "The phrase 'tears it sheds until the dawn' directly corresponds to '蜡烛替人流泪 + 一直到天明', preserving the candle's role in shedding tears for others and the time extension until dawn.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

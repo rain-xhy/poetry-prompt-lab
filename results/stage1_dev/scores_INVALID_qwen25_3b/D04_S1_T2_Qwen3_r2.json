@@ -1,0 +1,57 @@
+{
+  "translation_id": "D04_S1_T2_Qwen3_r2",
+  "anon_code": "T_bfdb750c",
+  "poem_id": "D04",
+  "strategy": "S1_T2",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Tulip潭 water deep as thousand feet",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'Tulip潭' which is not present in the original and does not preserve the meaning of '桃花潭' (Peach Blossom Pool). The phrase 'cannot match the sorrow of Wang Lun's farewell' is not part of the original poem and does not preserve the original meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Cannot match the sorrow of Wang Lun's farewell.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'sorrow' which is not part of the original phrase '不及'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Tulip潭水深千尺，不能及汪伦送我行。",
+        "evidence_found": false,
+        "reasoning": "The translation does not mention Wang Lun as the one who sends off the speaker, and the phrase '汪伦送我' is not preserved.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Tulip潭 water deep as thousand feet",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'Tulip潭 water deep as thousand feet' which does not match the original '以水深比情深的比喻'",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\"adequacy\":1,\"imagery\":0,\"emotion\":0,\"fluency\":1,\"poetic_quality\":0}"
+  }
+}

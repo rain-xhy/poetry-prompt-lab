@@ -1,0 +1,67 @@
+{
+  "translation_id": "M16_S4_T1_Qwen25_r3",
+  "anon_code": "T_0b60cbac",
+  "poem_id": "M16",
+  "strategy": "S4_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Cockcrow at the roadside, moon over the thatched inn, frost on the plank bridge.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Cockcrow at the roadside, moon over the that: inn' does not match the required meaning of '鸡鸣时茅店上还有月亮' which implies the moon is still visible on the thatched inn at cockcrow time, but the translation states 'moon over the thatched inn' without indicating the moon's presence at cockcrow time.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Cockcrow at the roadside, moon over the thatched inn, frost on the plank bridge.",
+        "evidence_found": true,
+        "reasoning": "The translation includes 'frost on the plank bridge' which matches the required '霜' (frost) and '板桥' (plank bridge), but the phrase 'Cockcrow at the roadside' does not correspond to '人迹板桥霜' which is about human footprints on the frosty plank bridge, not cockcrow or roadside.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Recalling my dream of Du Ling",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Recalling my dream of Du Ling' directly expresses the required meaning of 'therefore thinking of the dream in Du Ling' as per the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "geese and ducks abound in the pond",
+        "evidence_found": true,
+        "reasoning": "The phrase 'geese and ducks abound in the pond' directly translates the '凫雁满布' meaning while the context implies a curved or winding pond through the dream setting.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

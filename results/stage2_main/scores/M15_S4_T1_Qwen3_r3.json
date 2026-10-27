@@ -1,0 +1,67 @@
+{
+  "translation_id": "M15_S4_T1_Qwen3_r3",
+  "anon_code": "T_25bdf84c",
+  "poem_id": "M15",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why does the羌笛 (a type of flute) lament the willow trees?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Why does the羌笛 (a type of flute) lament the will: trees?' uses a rhetorical question structure to imply 'there is no need to lament', matching the required meaning of '不必/no need to' as a rhetorical question expressing negation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The spring wind does not reach the western gate",
+        "evidence_found": true,
+        "reasoning": "The phrase 'does not reach' explicitly includes the required negation and indicates the spring wind cannot reach the western gate, fulfilling the geographic restriction condition.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The spring wind does not reach the western gate, blocking the passage of those who wish to come.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states that the spring wind does not reach the western gate, which directly corresponds to the causal relationship in the original phrase where the spring wind not reaching causes the inability to come, thus preserving the causal logic and ensuring the front and back correspondence.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why does the羌笛 (a type of flute) lament the willow trees?",
+        "evidence_found": true,
+        "reasoning": "The phrase explicitly mentions '羌笛' and uses 'lament the willow trees' to imply the traditional association of willows with parting in Chinese culture, which corresponds to the '离别含义' of '折杨柳' (cutting willows for farewell).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M10_S1_T3_Qwen25_r1",
+  "anon_code": "T_a0a653a6",
+  "poem_id": "M10",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wildfires cannot consume it all",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Wildfires cannot consume it all' directly translates the meaning of '烧不尽' by expressing that the wildfire cannot completely destroy it, fulfilling the requirement of having a negation and conveying the idea of not being completely burned.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Spring breezes will make it grow again",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Spring breezes will make it grow again' directly translates the concept of spring breeze causing rebirth and growth, fulfilling both conditions of expressing renewed growth and the role of spring breeze.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wildfires cannot consume it all",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Wildfires cannot consume it all' directly addresses the inability of fire to destroy the grass, preserving the personification of fire and grass as a relationship where fire is active but limited in its destructive power.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wildfires cannot consume it all, Spring breezes will make it grow again.",
+        "evidence_found": true,
+        "reasoning": "The translation directly conveys the theme of unyielding life force through the imagery of wildfires and spring breezes, highlighting the cyclical rebirth after destruction as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

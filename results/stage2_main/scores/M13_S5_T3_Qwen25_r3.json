@@ -1,0 +1,67 @@
+{
+  "translation_id": "M13_S5_T3_Qwen25_r3",
+  "anon_code": "T_21e270f9",
+  "poem_id": "M13",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In a world devoid of birds, paths vanish; A solitary boat and old fisherman, Fishing in the winter's icy stream.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'In a world devoid of birds' does not capture the absolute negation of birds as required by '鸟飞绝', which implies no birds at all, not just a world devoid of birds.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "paths vanish",
+        "evidence_found": true,
+        "reasoning": "The phrase 'paths vanish' does not convey the absolute negation of human traces as required; it implies a temporary disappearance rather than complete absence.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A solitary boat and old fisherman, Fishing in the winter's icy stream.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A solitary boat and old fisherman' directly emphasizes 'alone' as required, and 'Fishing in the winter's icy stream' captures the action of '垂钓' while maintaining the context of solitude.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The hills wish to keep the guest, the river wishes to lead; An old fisherman in a蓑衣 (蓑笠) wears a cloak, Fishing alone in the snow-covered river.",
+        "evidence_found": true,
+        "reasoning": "The translation does not convey the vastness of '千山' or '万径' as required, and the contrast between space and solitude is not clearly established.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "M07_S2_T1_Qwen3_r1",
+  "poem_id": "M07",
+  "trap_type": "拟人意象",
+  "strategy": "S2_T1",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nSemantic Analysis (in Chinese):\n“王谢”：东晋王氏谢氏世家（专名，不可泛化）。要点：保留专名，不能泛化为'富贵人家'。\n“旧时...飞入寻常百姓家”：昔日豪门→如今平民，盛衰对比。要点：时间对比和社会阶层对比。\n“堂前燕”：燕子作为见证者（意象）。要点：燕子不是主角，是见证盛衰的意象。\n“野草花...夕阳斜”：荒凉景象（野草、夕阳）。要点：衰败、荒凉的氛围。\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n朱雀桥边野草花，乌衣巷口夕阳斜。\n旧时王谢堂前燕，飞入寻常百姓家。",
+  "prompt_sha256": "165483fe49c883ebd6c3b6b3121a179557b0723087885f2612cbb7bd6298699b",
+  "translation": "At the edge of the Zhuque Bridge, wild grass blooms in quiet decay,  \nIts mouth shadowed by the setting sun at the mouth of Uyī.  \nOnce, the nobility of Wang and Xie watched the dawn rise,  \nNow, a common bird flies into the hearts of the people.  \n\n[The phrase \"Wang and Xie\" refers to the prestigious clans of the Jin Dynasty, preserving their historical significance.]",
+  "metadata": {
+    "input_tokens": 368,
+    "output_tokens": 90,
+    "latency_ms": 921.9076633453369,
+    "timestamp": "2026-10-26T21:30:05.166488",
+    "finish_reason": "stop"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "translation_id": "D04_S3_only_Qwen3_r1",
+  "anon_code": "T_2de8e81d",
+  "poem_id": "D04",
+  "strategy": "S3_only",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "The depth of the water is thousands of feet",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly states the water depth as 'thousands of feet', which matches the requirement of expressing the water being very deep (thousands of feet or equivalent exaggeration), and '桃花潭' is translated as 'the water' with the context implying Peach Blossom Pool.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "cannot match the deep emotion",
+        "evidence_found": true,
+        "reasoning": "The phrase 'cannot match the deep emotion' directly corresponds to '比不上' in the context of comparing the depth of the water to the depth of emotion, satisfying the requirement that it does not become 'deeper' or 'the same depth'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "汪伦's farewell",
+        "evidence_found": true,
+        "reasoning": "The phrase '汪伦's farewell' indicates that 汪伦 is the one performing the farewell action, satisfying the condition that 汪伦 is the sender. The context implies that 'I' is the recipient of the farewell, as it's a farewell from 汪伦 to the speaker.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the deep emotion of汪伦's farewell",
+        "evidence_found": true,
+        "reasoning": "The phrase 'deep emotion' directly corresponds to '情深' and 'the depth of the桃花潭 water' is used as a comparison to show that the emotion is deeper than the water's depth.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

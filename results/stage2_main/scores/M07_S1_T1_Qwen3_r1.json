@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S1_T1_Qwen3_r1",
+  "anon_code": "T_c782c861",
+  "poem_id": "M07",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the swallows of Wang and Che",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Wang and Che' directly references the specific families 'Wang' and 'Xie' as required, with 'Che' being a transliteration of 'Xie' (a common transliteration variation for the surname 谢 in Chinese)",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Once, the swallows of Wang and Che nested in the halls, now they dwell in the homes of common folk",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts 'Once' (past) with 'now' (present) and 'halls' (elite) with 'homes of common folk' (common people), fulfilling both time and class contrasts.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the swallows of Wang and Che nested in the halls",
+        "evidence_found": true,
+        "reasoning": "The phrase 'swallows of Wang and Che' refers to the燕子 (swallows) as a witness, maintaining the imagery without implying the same swallow lived for centuries.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "On the wild grass at the edge of Zhuque Bridge, the sun sets over the western gate of Wuyi.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'wild grass' and 'sun sets', but the phrase 'Zhuque Bridge' and 'western gate of Wuyi' are specific locations that do not match the original's general 'wild grass' and 'sunset' imagery, and the context implies historical references rather than a desolate landscape.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

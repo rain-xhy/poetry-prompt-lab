@@ -1,0 +1,67 @@
+{
+  "translation_id": "M11_S3_T1_Qwen3_r1",
+  "anon_code": "T_ceabe811",
+  "poem_id": "M11",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "it seems to be frost upon the ground",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it seems to be frost upon the ground' uses the verb 'seems' to indicate uncertainty, matching the requirement of using a speculative verb without stating it as a definite fact.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When lifting my head, I gaze at the bright moon; when lowering my head, I think of my hometown.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly shows the sequence of actions (lifting head to gaze at moon, lowering head to think of hometown) and implies that gazing at the moon leads to thoughts of home.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Before the moonlight shines on the bed, it seems to be frost upon the ground.",
+        "evidence_found": true,
+        "reasoning": "The required phrase '床前的明亮月光' (bright moonlight before the bed) is not directly expressed in the translation; the translation describes the moonlight's effect on the bed rather than the moonlight itself being bright and positioned before the bed.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Before the moonlight shines on the bed, it seems to be frost upon the ground. When lifting my head, I gaze at the bright moon; when lowering my: I think of my hometown.",
+        "evidence_found": false,
+        "reasoning": "The translation conveys a quiet atmosphere through the imagery of moonlight and frost, and expresses solitude and homesickness by contrasting the gaze at the moon with thoughts of hometown.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

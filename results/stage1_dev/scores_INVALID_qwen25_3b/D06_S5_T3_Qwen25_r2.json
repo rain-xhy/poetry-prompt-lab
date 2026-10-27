@@ -1,0 +1,62 @@
+{
+  "translation_id": "D06_S5_T3_Qwen25_r2",
+  "anon_code": "T_efab105c",
+  "poem_id": "D06",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I know my brothers climb the high place",
+        "evidence_found": true,
+        "reasoning": "The provided translation does not include the phrase '遥知' and instead translates '遥知' as 'I know my brothers climb the high place', which does not match the original meaning of '遥知' which means 'from afar, I know'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I know my brothers climb the high place",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the phrase '兄弟们登高之处' (I know my brothers climb the high place)",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Wearing fragrant chrysanthemums all around.",
+        "evidence_found": true,
+        "reasoning": "The phrase '遍插茱萸' is not directly translated as 'Wearing fragrant chrysanthemums all around.' in the provided translation. Instead, it is translated as 'I know my brothers climb the high place, Wearing fragrant chrysanthemums all around.' This translation does not preserve the original meaning of '遍插茱萸'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I know my brothers climb the high place, Wearing fragrant chrysanthemums all around. Everyone wears one, except for one less. Who is the one missing?",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the original phrase '少一人' and does not explicitly state that the missing person is the poet himself.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.95,
+    "valid": true
+  }
+}

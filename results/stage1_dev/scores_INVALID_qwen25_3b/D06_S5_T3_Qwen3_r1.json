@@ -1,0 +1,62 @@
+{
+  "translation_id": "D06_S5_T3_Qwen3_r1",
+  "anon_code": "T_1250b2a8",
+  "poem_id": "D06",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The poet knows that his brothers are climbing high, and everyone is plucking the autumn sage (chunhua, a symbol of remembrance and protection) on their heads. But one person is missing—himself.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express '遥知' which means 'from afar knowing' or 'from afar imagining'",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The poet knows that his brothers are climbing high",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the phrase '兄弟们登高之处' (The brothers are climbing high)",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "plucking the autumn sage on their heads",
+        "evidence_found": false,
+        "reasoning": "The phrase 'plucking the autumn sage' is not 'everybody is plucking the autumn sage on their heads' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The poet knows that his brothers are climbing high, and everyone is plucking the autumn sage (chunhua, a symbol of remembrance and protection) on their heads. But one person is missing—himself.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '少一人' and does not explicitly state that the missing person is the speaker.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 3,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.0,
+    "valid": true
+  }
+}

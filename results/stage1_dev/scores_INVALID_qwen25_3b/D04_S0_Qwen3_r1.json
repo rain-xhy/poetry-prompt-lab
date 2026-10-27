@@ -1,0 +1,57 @@
+{
+  "translation_id": "D04_S0_Qwen3_r1",
+  "anon_code": "T_b38740f7",
+  "poem_id": "D04",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The depth of the Peach Blossom Lake is thousands of feet, but it cannot compare to the sincere farewell之情 sent by Wang Dun.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the original phrase '桃花潭水深千尺' and does not express the depth of the water in a way that is equivalent to or exceeds '千尺'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The depth of the Peach Blossom Lake is thousands of feet, but it cannot compare to the sincere farewell之情 sent by Wang Dun.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'thousands of feet' for the depth of the Peach Blossom Lake, which contradicts the original phrase '不及' meaning 'not as deep' or 'not as great'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The translation states 'The depth of the Peach Blossom Lake is thousands of feet, but it cannot compare to the sincere farewell之情 sent by Wang Dun.'",
+        "evidence_found": false,
+        "reasoning": "The translation does not mention '汪伦为我送行' and instead refers to a lake and Wang Dun's farewell, which does not satisfy the condition of preserving '汪伦为我送行'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The depth of the Peach Blossom Lake is thousands of feet, but it cannot compare to the sincere farewell之情 sent by Wang Dun.",
+        "evidence_found": true,
+        "reasoning": "The translation does not use the phrase '以水深比情深的比喻' and does not express '情谊被表达为更深的一方'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\"adequacy\":1,\"imagery\":0,\"emotion\":0,\"fluency\":1,\"poetic_quality\":0}"
+  }
+}

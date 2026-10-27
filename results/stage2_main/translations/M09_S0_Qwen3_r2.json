@@ -1,0 +1,19 @@
+{
+  "id": "M09_S0_Qwen3_r2",
+  "poem_id": "M09",
+  "trap_type": "拟人意象",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n月落乌啼霜满天，江枫渔火对愁眠。",
+  "prompt_sha256": "3130991d30a52d520ee34caaba9024845af4ff80532f49ebaf7305c1aa790d80",
+  "translation": "Moon falls, the cuckoo cries, frost stains the sky; the river's willow fires light up the sorrowful night.",
+  "metadata": {
+    "input_tokens": 44,
+    "output_tokens": 27,
+    "latency_ms": 8789.704322814941,
+    "timestamp": "2026-10-26T19:42:26.484490",
+    "finish_reason": "stop"
+  }
+}

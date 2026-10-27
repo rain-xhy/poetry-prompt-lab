@@ -1,0 +1,62 @@
+{
+  "translation_id": "D02_S5_T3_Qwen25_r2",
+  "anon_code": "T_f3cee8d3",
+  "poem_id": "D02",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "All birds have flown away",
+        "evidence_found": true,
+        "reasoning": "The translation states 'All birds have flown away', which does not convey the idea of 'bird groups have flown away' as required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "All birds have flown away, The solitary cloud wanders carefree.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '孤云独去闲' as 'All birds have flown away, The solitary cloud wanders carefree.' does not match the original meaning and does not include the word '闲' (idle, leisurely).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "We gaze at each other, never tired",
+        "evidence_found": true,
+        "reasoning": "The phrase '人与山互相看着，都不厌倦' (me and the mountain look at each other, neither tired) is not preserved in the translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Only the敬亭山 stands by my side",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Only the敬亭山 stands by my side' is not preserved in the translation. The original phrase '只有敬亭山' is not included in the final line of the translation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 3,
+    "overall": 4.05,
+    "valid": true
+  }
+}

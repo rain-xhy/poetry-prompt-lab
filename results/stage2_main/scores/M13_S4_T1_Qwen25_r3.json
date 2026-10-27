@@ -1,0 +1,67 @@
+{
+  "translation_id": "M13_S4_T1_Qwen25_r3",
+  "anon_code": "T_1188e317",
+  "poem_id": "M13",
+  "strategy": "S4_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A thousand mountains mute, all bird tracks cease;",
+        "evidence_found": true,
+        "reasoning": "The phrase 'all bird tracks cease' does not express 'no birds' but rather the absence of bird tracks, which is different from the absolute absence of birds as required by '鸟飞绝'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no human trace to be seen",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no human trace to be seen' directly expresses the absolute negation of human presence as required by '人的踪迹消失', capturing the '灭' (disappearance) sense.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "He alone fishes in the cold river snow.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'He alone fishes' directly emphasizes 'alone' and includes the action of fishing, meeting both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A thousand mountains mute, all bird tracks cease; A myriad paths, no human trace to be seen.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly shows vast spatial scale with 'a thousand mountains' and 'a myriad paths' while emphasizing human solitude through 'no human trace to be seen', forming a clear contrast between expansive space and isolated individuals.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

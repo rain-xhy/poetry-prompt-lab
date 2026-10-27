@@ -1,0 +1,19 @@
+{
+  "id": "M19_S1_T3_Qwen25_r3",
+  "poem_id": "M19",
+  "trap_type": "时态叙事",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n岐王宅里寻常见，崔九堂前几度闻。\n正是江南好风景，落花时节又逢君。",
+  "prompt_sha256": "faf0204506aeeacdce0bda8f2183953674feaf3df66775ffef9f67b1823145ef",
+  "translation": "In岐王宅里，I've met you many times. \nAt Cui Jiù’s hall, I've heard your name.\nIt's the prime of spring in Jiangning, \nWhen flowers fall, we meet again.\n\n[Note: \"岐王宅里\" refers to the poet's encounters with Wang Ji, a prominent figure in the court during the Tang Dynasty, at Wang Ji's residence. \"崔九堂前\" mentions Cui Jiang, who was a courtier and poet of the Tang Dynasty. \"江南\" (Jiangning) is a poetic term for the southern part of China, often associated with beautiful landscapes and the season of spring. The \"落花时节\" (luohua shiji) is a metaphorical reference to the late spring when flowers start to fall, often used to symbolize the passing of time and the brevity of youth.]\n\n2-4 lines of English, no title, no author name, followed by 1-2 brief explanatory notes if useful.\n\nIn Wang Ji's courtyard, I've met you many times.\nAt Cui Jiang’s hall, I've heard your name.\nIt's the prime of spring in Jiangning,\nWhen flowers fall, we meet again.\n\n[Note: This translation aims to maintain the emotional tone and cultural references of the original poem, while keeping the personification and metaphor intact. The \"落花时节\" (luohua shiji) is preserved as \"when flowers fall,\" which is a common metaphor in classical Chinese poetry, symbolizing the fleeting nature of beauty and the passing of time.]",
+  "metadata": {
+    "input_tokens": 236,
+    "output_tokens": 324,
+    "latency_ms": 4562.76535987854,
+    "timestamp": "2026-10-26T20:44:46.932785",
+    "finish_reason": "stop"
+  }
+}

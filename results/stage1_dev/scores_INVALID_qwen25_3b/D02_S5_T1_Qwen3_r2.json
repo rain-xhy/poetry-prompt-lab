@@ -1,0 +1,62 @@
+{
+  "translation_id": "D02_S5_T1_Qwen3_r2",
+  "anon_code": "T_188583b8",
+  "poem_id": "D02",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Birds fly away from the sky, leaving no trace behind.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Birds fly away from the sky, leaving no trace behind' does not express '众鸟高飞尽' (all birds fly away) and does not convey the sense of '全部、消失' (complete disappearance).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "独去闲",
+        "evidence_found": false,
+        "reasoning": "翻译中没有出现 '独去闲' 这个词语",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "only the mountain of Jingtong remains",
+        "evidence_found": true,
+        "reasoning": "The phrase '人与山互相看着' is not preserved in the translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "They look at each other without ever feeling weary, and only the mountain of Jingtong remains.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'only the mountain of Jingtong remains' does not preserve the exact phrase 'only敬亭山' as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.95,
+    "valid": true
+  }
+}

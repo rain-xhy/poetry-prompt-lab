@@ -1,0 +1,67 @@
+{
+  "translation_id": "M16_S2_T1_Qwen3_r2",
+  "anon_code": "T_453b6d50",
+  "poem_id": "M16",
+  "strategy": "S2_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "At the cock's call, there is still a moonlit茅店",
+        "evidence_found": true,
+        "reasoning": "The translation includes '茅店' (mossy inn) but it's written as 'moonlit茅店' with a Chinese character, which is not correct English. The phrase should be 'moonlit inn' without Chinese characters.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "footprints are visible on the frost-covered board bridge",
+        "evidence_found": true,
+        "reasoning": "The phrase 'footprints are visible on the frost-covered board bridge' does not match the required structure '人的足迹在板桥的霜上' which implies the footprints are on the bridge's frost, not the frost covering the bridge.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I recall the dream of Du Ling",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I recall the dream of Du Ling' directly expresses the meaning of 'therefore thinking of the dream in Du Ling' as required, indicating a memory of a dream in Du Ling.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "ducks and geese fill the winding pond",
+        "evidence_found": true,
+        "reasoning": "The phrase 'winding pond' directly translates the '曲折池塘' (curved/winding pond) and 'ducks and geese fill' corresponds to '凫雁满布' (ducks and geese filling the pond).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 4,
+    "valid": true
+  }
+}

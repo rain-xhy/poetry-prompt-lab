@@ -1,0 +1,19 @@
+{
+  "id": "A08_S1_T1_Qwen3_r1",
+  "poem_id": "A08",
+  "trap_type": "proper_noun_generalization",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n朱雀桥边野草花，乌衣巷口夕阳斜。\n旧时豪门堂前燕，飞入寻常百姓家。",
+  "prompt_sha256": "ad6319b920de911a537a195f62cce4844a489db237da059d295b4d8d70ff0a68",
+  "translation": "On the wild grass by the Zhujia Bridge, wild flowers bloom in sunset's glow at the edge of Uyin巷.  \nOld lords once ruled from their high halls, now they dwell in common homes with the common folk.  \n\n[The \"old lords\" refer to the once-mighty aristocracy, now reduced to mere commoners.]",
+  "metadata": {
+    "input_tokens": 239,
+    "output_tokens": 73,
+    "latency_ms": 9626.36137008667,
+    "timestamp": "2026-10-26T21:45:45.717504",
+    "finish_reason": "stop"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S1_T1_Qwen25_r3",
+  "anon_code": "T_1f0d1e8f",
+  "poem_id": "M02",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Red beans grow in the South",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Red beans grow in the South' directly references '红豆' as the subject, preserving its role as a specific symbol of longing without explicitly stating its symbolic meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "May you pluck many",
+        "evidence_found": true,
+        "reasoning": "The phrase 'May you pluck many' expresses a wish/hope for the reader to gather the red beans, fulfilling the requirement of a hopeful tone and addressing 'you' directly.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "May you pluck many, this is the most for thought.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'this is the most for thought' directly translates to 'this is the most for thought' which aligns with 'this is the most able to寄托相思之情' (this is the most able to symbolize/express longing).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Spring comes and they sprout many a branch.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Spring comes and they sprout many a branch' directly addresses the time of spring and the natural action of sprouting branches as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.95,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

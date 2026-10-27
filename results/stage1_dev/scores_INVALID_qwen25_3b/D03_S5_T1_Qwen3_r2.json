@@ -1,0 +1,57 @@
+{
+  "translation_id": "D03_S5_T1_Qwen3_r2",
+  "anon_code": "T_cc927e02",
+  "poem_id": "D03",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The deeper the feeling, the plainer the words",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '我劝你再干一杯酒' and does not express the pass conditions correctly.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "",
+        "evidence_found": false,
+        "reasoning": "The translation does not contain the phrase '西出阳关' or '向西出了阳关', nor does it mention the direction 'west' or the place '阳关'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The translation does not contain the phrase '没有老朋友' or any equivalent phrase.",
+        "evidence_found": false,
+        "reasoning": "The translation focuses on the deeper feeling and the guest, but does not include the phrase '没有老朋友'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The deeper the feeling, the plainer the words",
+        "evidence_found": true,
+        "reasoning": "The provided translation does not clearly establish the connection between the original phrase '劝酒与无故人之因果' and the sentiment of '此去没有故人，所以劝再饮一杯'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\"adequacy\":1,\"imagery\":0,\"emotion\":2,\"fluency\":2,\"poetic_quality\":0}"
+  }
+}

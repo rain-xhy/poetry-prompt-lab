@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S1_T1_Qwen3_r3",
+  "anon_code": "T_97810686",
+  "poem_id": "M01",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The poet's affection is like a persistent absence, yet he feels the weight of sorrow in their smiles. The candle, with a heart, mourns parting, weeping until dawn.",
+        "evidence_found": true,
+        "reasoning": "The translation captures 'deep love/affection' through 'affection' and 'seeming coldness/indifference' through 'persistent absence' and 'mourns part, weeping until dawn', maintaining the paradoxical tension between deep emotion and apparent detachment.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The poet's affection is like a persistent absence, yet he feels the weight of sorrow in their smiles. The candle, with a heart, mourns parting, weeping until dawn.",
+        "evidence_found": true,
+        "reasoning": "The translation describes emotional states and metaphors about sorrow and parting, but does not explicitly convey the inability to smile at the wine table as required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The candle, with a heart, mourns parting, we",
+        "evidence_found": true,
+        "reasoning": "The phrase explicitly states the candle has a heart (拟人化) and mourns parting (惜别), fulfilling both conditions of the pass.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "weeps until dawn",
+        "evidence_found": false,
+        "reasoning": "The phrase 'weeps until dawn' does not explicitly convey '替人/for us/on our behalf' as a replacement relationship, and the time continuation 'until dawn' is present but the 'for us' aspect is missing.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

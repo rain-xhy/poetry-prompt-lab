@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S1_T1_Qwen25_r1",
+  "anon_code": "T_46d58366",
+  "poem_id": "M02",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Red beans grow in the South, Spring comes and how many sprout?",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly mentions 'Red beans' as the subject and implies their symbolic meaning through the context of spring growth and abundance, aligning with the requirement that '红豆' represents longing.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "May you pluck many",
+        "evidence_found": true,
+        "reasoning": "The phrase 'May you pluck many' directly expresses the wish/hope for the recipient to gather many items, fulfilling the requirement of expressing hope and addressing 'you' for the action of plucking.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "May you pluck many, this Is what is dearest to one's heart.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'this is what is dearest to one's heart' directly translates to 'this is most cherished' or 'this is most able to寄托相思之情', fulfilling the requirement that it expresses 'this thing most able to symbolize/hold longing'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Spring comes and how many sprout?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Spring comes and how many sprout?' directly expresses the time of spring and the natural action of sprouting, meeting both pass conditions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

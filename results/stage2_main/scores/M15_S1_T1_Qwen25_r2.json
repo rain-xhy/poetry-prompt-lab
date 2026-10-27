@@ -1,0 +1,67 @@
+{
+  "translation_id": "M15_S1_T1_Qwen25_r2",
+  "anon_code": "T_b6b2ff95",
+  "poem_id": "M15",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why must the羌flute complain of winter’s withered willows?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Why must the羌fl:ute complain' expresses a rhetorical question implying 'there is no need to', matching the required meaning of '不必/no need to' as a negation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no gentle breeze reaches the forbidding玉Gate",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no gentle breeze reaches the forbidding玉Gate' explicitly contains the required negation 'no' and the meaning that the spring breeze cannot reach the Jade Gate Pass, fulfilling the conditions of having a negation and indicating it's impossible to reach.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "For even in spring, no gentle breeze reaches the forbidding玉Gate.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no gentle breeze reaches the forbidding玉Gate' directly reflects the causal relationship where the absence of spring breeze (春风) at the Jade Gate (玉Gate) leads to the futility of complaint, preserving the original's causal logic and thematic resonance.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why must the羌flute complain of winter’s withered willows?",
+        "evidence_found": true,
+        "reasoning": "The phrase '羌flute' directly preserves '羌笛', and 'winter’s withered willows' implies the '折杨柳' (willow cutting) tradition associated with parting, as the act of cutting willows symbolizes farewell in Chinese culture.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

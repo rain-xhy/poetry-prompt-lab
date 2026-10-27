@@ -1,0 +1,58 @@
+{
+  "translation_id": "A06_S1_T1_Qwen3_r1",
+  "anon_code": "T_3f2013f1",
+  "poem_id": "A06",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When someone is present, they still cherish the farewell, shedding tears until the dawn.",
+        "evidence_found": true,
+        "reasoning": "The phrase '人替烛' (person replaces candle) is a metaphor for a person weeping for a candle, but the translation describes someone cherishing a farewell and shedding tears, which does not capture the inversion of 'person' and 'candle' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When someone is near, he still mourns the farewell, weeping until the morning light.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the meaning of '识别'替'的方向改变了' by expressing the emotional state of parting and the act of weeping until dawn, which aligns with the required meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Loving yet indifferent, he feels the ache of part, yet cannot bring himself to smile.",
+        "evidence_found": false,
+        "reasoning": "The translation states the poet feels the ache of parting but the original phrase specifies the poet's heart is filled with longing yet seems to dismiss it, indicating a contradiction in the meaning where the translation implies the poet is indifferent while the original shows longing with a dismissive appearance.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.6,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "translation_id": "D06_S5_T1_Qwen3_r1",
+  "anon_code": "T_4d414322",
+  "poem_id": "D06",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The poet knows that his brothers have climbed high, and on the autumn day, he is absent, for he is alone.",
+        "evidence_found": true,
+        "reasoning": "The translation describes the poet's physical absence and the brothers' actions, but the original phrase '遥知' means 'to imagine/deduce from afar' without physical presence, and the translation uses 'knows' which implies direct knowledge rather than imaginative deduction.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The poet knows that his brothers have climbed high",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'brothers' but the required meaning specifies 'brothers have climbed high' as a location (place) rather than an action, and the phrase 'climb the heights' is not directly expressed as a place.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The poet knows that his brothers have climbed high, and on the autumn day, he is absent, for he is alone.",
+        "evidence_found": true,
+        "reasoning": "The translation does not mention 'cornel/dogwood sprigs' or 'everyone's head' as required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The poet knows that his brothers have climbed high, and on the autumn day, he is absent, for he is alone.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly state that the person is the speaker; it refers to 'he' as absent but does not clarify that this 'he' is the speaker.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 1.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.65,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

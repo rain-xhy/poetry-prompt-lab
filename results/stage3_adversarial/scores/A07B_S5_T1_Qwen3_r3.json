@@ -1,0 +1,58 @@
+{
+  "translation_id": "A07B_S5_T1_Qwen3_r3",
+  "anon_code": "T_36322a0b",
+  "poem_id": "A07B",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Careful not to fall into the river",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Careful not to fall into the river' does not express the meaning of '能否从歧义版推断出正确否定' which requires checking if a negated version can be inferred from a ambiguous version, but the translation provided is a literal translation of a classical Chinese poem line and does not address the concept of negation inference.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Careful not to fall into the river",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Careful not to fall into the river' directly corresponds to the requirement of '版本B翻译为否定' by expressing a cautionary statement that avoids a negative outcome, fulfilling the need for a clear negation in the translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Careful not to fall into the river",
+        "evidence_found": true,
+        "reasoning": "The phrase 'AB一致性' requires two versions to have identical meaning, but the English translation provided does not convey the intended meaning of the Chinese phrase which typically refers to a state of harmony or consistency in two versions, not a warning about falling into a river.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

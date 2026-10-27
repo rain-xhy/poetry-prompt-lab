@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S5_T3_Qwen3_r3",
+  "anon_code": "T_a12e683a",
+  "poem_id": "M07",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Old times' Wang and X:ie pavilions",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly preserves 'Wang' and 'Xie' as specific family names without genericization, matching the requirement for the Eastern Jin Wang and Xie clans.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Old times' Wang and Xie pavilions, Now fly into common folk's homes.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'Old times' for '昔日' but 'Wang and Xie pavilions' does not correspond to '豪门' (aristocratic households) and 'common folk's homes' is a literal translation of '百姓家' without capturing the contrast between aristocracy and commoners.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Jade雀 Bridge edge still grows wild grass flowers, Ukiyo Hall mouth fades with setting sun.",
+        "evidence_found": true,
+        "reasoning": "The translation does not mention '燕子' (swallow) as a witness, and the phrase 'Jade雀' is a mistranslation of '堂前燕' (swallows by the hall).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Jade雀 Bridge edge still grows wild grass flowers, Ukiyo Hall mouth fades with setting sun.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'Jade雀' (a misspelling of 'Jade Gate') and 'Ukiyo Hall' (a misinterpretation of 'Wang and Xie pavilions'), which do not preserve the intended 'wild grass' and 'setting sun' imagery as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "A09_S1_T1_Qwen25_r2",
+  "poem_id": "A09",
+  "trap_type": "conditional_to_causal",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n秦时明月汉时关，万里长征人未还。\n只因龙城飞将在，胡马不度阴山。",
+  "prompt_sha256": "ab63ed4802e1d17b80ca9914fe3a58916a6483e030bbd163f9676d352c481c86",
+  "translation": "Qin Dynasty's bright moon, Han Dynasty's fortress,\nA thousand miles of continuous march, no return.\nBecause the Lóng City General flies high,\nThe barbarian horses cannot cross the Yín Mountain.\n\n[Note: Lóng City refers to Li Guang, a renowned Han Dynasty general who was known for his military prowess.]",
+  "metadata": {
+    "input_tokens": 252,
+    "output_tokens": 67,
+    "latency_ms": 14212.634801864624,
+    "timestamp": "2026-10-26T21:37:50.747006",
+    "finish_reason": "stop"
+  }
+}

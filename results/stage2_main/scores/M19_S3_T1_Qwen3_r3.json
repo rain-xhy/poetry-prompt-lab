@@ -1,0 +1,67 @@
+{
+  "translation_id": "M19_S3_T1_Qwen3_r3",
+  "anon_code": "T_89aa721c",
+  "poem_id": "M19",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "And heard of his mansion's halls, many times passed by.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'many times passed by' does not correctly convey 'multiple times heard' as the original phrase requires past frequency of hearing, not physical passing by.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Yet again, I meet you in the bloom of spring's waste.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Yet again, I meet you' directly expresses '又' (again) and 'now' (present tense) as required, with 'meet you' indicating the current reunion.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In the palace of Prince Zhang, I met familiar faces, And heard of his mansion's halls, many times passed by.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly convey time contrast or imply changes in circumstances as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Yet again, I meet you in the bloom of spring's waste.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'spring's waste' implies the fleeting beauty of spring (落花时节), preserving the symbolic meaning of transient beauty in the context of the poem.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

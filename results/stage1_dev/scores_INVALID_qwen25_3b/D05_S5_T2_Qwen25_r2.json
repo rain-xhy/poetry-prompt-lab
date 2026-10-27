@@ -1,0 +1,62 @@
+{
+  "translation_id": "D05_S5_T2_Qwen25_r2",
+  "anon_code": "T_ab8689af",
+  "poem_id": "D05",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years生死twogray",
+        "evidence_found": true,
+        "reasoning": "The translation does not contain '十年生死两茫茫' which is the exact phrase from the original Chinese poem.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years生死twogray",
+        "evidence_found": true,
+        "reasoning": "The translation contains incorrect and nonsensical words '生死twogray' which do not match the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Not in thought, yet heart remains.",
+        "evidence_found": true,
+        "reasoning": "The translation contains 'Not in thought, yet heart remains.' which does not include the word '孤独' (lonely) or '千里' (thousand miles).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Not in thought, yet heart remains.",
+        "evidence_found": true,
+        "reasoning": "Ten years生死twogray, Not in thought, yet heart remains.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 2.4,
+    "valid": true
+  }
+}

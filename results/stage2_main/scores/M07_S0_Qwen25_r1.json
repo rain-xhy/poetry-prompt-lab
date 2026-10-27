@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S0_Qwen25_r1",
+  "anon_code": "T_e1bf8a1e",
+  "poem_id": "M07",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "The swallow that nested in the halls of Wang and X:ie now flies into Common homes.",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly mentions 'Wang and Xie' as a specific family name, preserving the required historical context of the Eastern Jin dynasty's Wang and Xie families.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "The swallow that nested in the halls of Wang and X: now flies into Common homes.",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly contrasts 'halls of Wang and Xie' (historical elite) with 'Common homes' (ordinary people), showing the time contrast through the present action of the swallow flying into homes that were previously exclusive to the elite.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The swallow that nested in the halls of Wang and X. now flies into Common homes.",
+        "evidence_found": false,
+        "reasoning": "The translation refers to 'swallow' instead of 'radish' and implies a specific historical context with 'Wang and Xie' which is not the intended meaning of '燕子 as witness'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Over by the wildflowers by the Red-Crowned Sparrow Bridge, In the U衣巷口, the sun sets with a hint of shade.",
+        "evidence_found": true,
+        "reasoning": "The phrase mentions 'wildflowers' instead of 'wild grasses' and 'sun sets with a hint of shade' implies a warm, not desolate, sunset, failing to convey the required desolation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

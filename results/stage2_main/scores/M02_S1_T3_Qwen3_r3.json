@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S1_T3_Qwen3_r3",
+  "anon_code": "T_bc16f01e",
+  "poem_id": "M02",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "this thing holds the deepest longing",
+        "evidence_found": true,
+        "reasoning": "The phrase 'this thing' refers to the red beans, which are explicitly stated as a symbol of longing in the original Chinese context, thus preserving the symbolic meaning of 红豆 as a metaphor for longing.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "May you gather them carefully",
+        "evidence_found": true,
+        "reasoning": "The phrase 'May you gather them carefully' expresses a wish/hope for the reader to collect the red beans, fulfilling the requirement of '劝君多采摘（愿望）' with the direct address 'you' and the action of gathering.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "this thing holds the deepest longing",
+        "evidence_found": true,
+        "reasoning": "The phrase 'this thing holds the deepest longing' directly translates to 'this thing most deeply embodies longing', which matches the requirement of expressing 'this thing most can symbolize/embodiment of longing'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Red beans grow in the southern land, sprouting new branches each spring.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'sprouting new branches each spring' which indicates the time of spring but does not specifically address the 'length' of branches or the natural action of '发枝' as required by the original phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

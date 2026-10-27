@@ -1,0 +1,67 @@
+{
+  "translation_id": "M14_S3_T1_Qwen3_r2",
+  "anon_code": "T_cd1c4b03",
+  "poem_id": "M14",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "But if the general of Lóng Chéng were still here",
+        "evidence_found": true,
+        "reasoning": "The phrase 'But if the general of Lóng Chéng were still here' uses the conditional 'if' to express a hypothetical situation, matching the required condition of using a conditional clause with an assumption.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "No enemy horse would cross the dark mountain range",
+        "evidence_found": true,
+        "reasoning": "The phrase 'No enemy horse would cross' directly translates to '不让...越过' (prevent/not allow crossing) with the active verb 'cross' indicating the obstructive action.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "But if the general of Lóng Chéng were still here, No enemy horse would cross the dark mountain range.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'But if the general of Lóng Chéng were still here' establishes the condition, and 'No enemy horse would cross the dark mountain, range' shows the result, maintaining the conditional-result logic as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the general of Lóng Chéng",
+        "evidence_found": true,
+        "reasoning": "The phrase 'the general of Lóng Chéng' directly refers to a historical border general from the Chinese classical context, fulfilling the requirement for a border commander with a historical background.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

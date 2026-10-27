@@ -1,0 +1,19 @@
+{
+  "id": "M17_S1_T3_Qwen25_r2",
+  "poem_id": "M17",
+  "trap_type": "时态叙事",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n此情可待成追忆，只是当时已惘然。",
+  "prompt_sha256": "6db441b097640c9eb614a69e39c06f6f1327f720d4e34bc9f4094bf7ed55a7b4",
+  "translation": "Here is my translation of the provided Chinese poem, adhering to the key requirements and constraints:\n\nThis love could be a tale to tell,  \nYet now it's only in our minds.  \nThen it felt so plain and clear.  \n[Note: \"此情\" is personified, and \"追忆\" is translated as \"a tale to tell,\" which maintains the idea of something that can be remembered. \"惘然\" is translated as \"only in our minds,\" capturing the sense of clarity and then obscurity.]\n\nThis translation preserves the core meaning, key imagery, and emotional tone of the original poem. The personification of \"此情\" (this love) and the metaphorical reference to \"a tale to tell\" (which is a common way to express the idea of something that can be remembered) are kept. The notes explain these elements without adding new information.",
+  "metadata": {
+    "input_tokens": 223,
+    "output_tokens": 180,
+    "latency_ms": 12636.555910110474,
+    "timestamp": "2026-10-26T20:42:57.261567",
+    "finish_reason": "stop"
+  }
+}

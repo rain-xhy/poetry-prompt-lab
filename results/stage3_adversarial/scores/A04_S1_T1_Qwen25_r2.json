@@ -1,0 +1,58 @@
+{
+  "translation_id": "A04_S1_T1_Qwen25_r2",
+  "anon_code": "T_7a87f776",
+  "poem_id": "A04",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The flowers we picked together have withered",
+        "evidence_found": true,
+        "reasoning": "The phrase 'have withered' uses present perfect tense to indicate a completed action with present relevance, matching the requirement for '已待' as a completed action.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling is now but a memory, Yet back then it caused me such despair.",
+        "evidence_found": true,
+        "reasoning": "The translation uses declarative statements without rhetorical questions, fulfilling the requirement to identify it as a statement rather than a question.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling is now but a memory,",
+        "evidence_found": true,
+        "reasoning": "The phrase 'now but a memory' indicates the current state of the feeling, contrasting with past despair, which aligns with the requirement to preserve the '可待' to '已待' tense shift from future to past.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

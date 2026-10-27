@@ -1,0 +1,62 @@
+{
+  "translation_id": "D02_S1_T1_Qwen25_r1",
+  "anon_code": "T_7eac6e87",
+  "poem_id": "D02",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "All the birds have flown away",
+        "evidence_found": true,
+        "reasoning": "The translation states 'All the birds have flown away', which does not convey the idea of 'bird groups have flown away' as required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "All the birds have flown away",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'All the birds have flown away' instead of '孤云独去闲', which does not preserve the exact phrase '孤云独去闲'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I gaze upon the mountain, It neither grows weary nor bored with me.",
+        "evidence_found": true,
+        "reasoning": "The phrase '人与山互相看着' is not directly translated as 'I gaze upon the mountain' which implies the mountain is the active viewer, not the person.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "All the birds have flown away, Leaving only clouds to drift idly.",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the phrase '只有敬亭山' and does not preserve the name '敬亭山'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.95,
+    "valid": true
+  }
+}

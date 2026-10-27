@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S5_T3_Qwen25_r3",
+  "anon_code": "T_3c1d8b3e",
+  "poem_id": "M07",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The old swallow of Wang and Xie halls",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Wang and Xie halls' directly preserves the specific family names 'Wang' and 'Xie' as required, indicating the historical context of the Eastern Jin dynasty's Wang and Xie families without genericization.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Once the elegant U衣巷, Now thrives with common folks. The old swallow of Wang and X. halls, Has now found its nest in ordinary homes.",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly contrasts 'elegant U衣巷' (past elite residences) with 'common folks' and 'ordinary homes' (present common people), fulfilling the time and class contrast requirements.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "The old swallow of Wang and X: The old swallow of Wang and Xie halls",
+        "evidence_found": false,
+        "reasoning": "The phrase 'old swallow' directly corresponds to '堂前燕' as the witness of the hall, and the context shows it's not referring to a single swallow living for centuries.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Overgrown with wild flowers, The old bridge by Zhuque passes Sits the setting sun",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly includes 'wild flowers' (representing wild grasses) and 'setting sun' (夕阳), directly fulfilling the required imagery of 荒凉景象 (wild grasses and setting sun) while maintaining the desolate tone.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 3,
+    "poetic_quality": 3,
+    "overall": 3.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S5_T3_Qwen25_r1",
+  "anon_code": "T_b44ee53d",
+  "poem_id": "M07",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The old swallow on the Wang and Xie halls' eaves",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Wang and Xie halls' directly preserves the specific family names 'Wang' and 'Xie' as required, referring to the prominent aristocratic families from the Eastern Jin dynasty.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The old swallow on the Wang and Xie halls' eaves,",
+        "evidence_found": true,
+        "reasoning": "The phrase does not explicitly contrast 'past vs present' or 'aristocracy vs commoners' as required; it describes a historical reference without showing the transformation to 'common households'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The old swallow on the Wang and Xie halls' eaves",
+        "evidence_found": true,
+        "reasoning": "The phrase does not preserve '燕子作为见证者（意象）' as a witness image; it refers to a specific swallow from the Wang and Xie families, not a general witness of time and change.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "At the wild flowers by the Red-Bridge, Ugly clothes line in the U-shaped lane.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly mention 'sunset' and the phrase 'Ugly clothes line' is not a standard term for 'wild grass' or 'wild flowers' as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

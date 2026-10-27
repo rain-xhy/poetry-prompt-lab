@@ -1,0 +1,76 @@
+{
+  "translation_id": "D05_S1_T2_Qwen25_r1",
+  "anon_code": "T_4e40eb49",
+  "poem_id": "D05",
+  "strategy": "S1_T2",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years生死twilight, thoughts unbidden, yet remain.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Ten years生死twilight' contains '生死' (life and death) but is incorrectly translated as 'twilight', which does not convey the intended meaning of 'two parties being separated by death'. The required meaning of '十年生死两茫茫' is 'ten years of separation between the living and the dead, with their fates being distant and indistinct', but the translation uses 'twilight' which is a metaphor for a time of uncertainty rather than the literal separation between life and death.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years生死twilight, thoughts unbidden, yet remain.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Ten years生死twilight' contains '生死' which is not part of the original Chinese phrase and the translation incorrectly implies a time span rather than the intended meaning of 'not deliberately thinking' and 'naturally remembering'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A lonely tomb, a thousand miles away",
+        "evidence_found": true,
+        "reasoning": "The phrase 'a lonely tomb' directly translates to '孤独坟墓' and 'a thousand miles away' indicates the '千里的遥远距离' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no words to mourn in",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no words to mourn in' directly translates to '没有地方、没有人可诉说凄凉' by expressing the absence of a place or person to express sorrow.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.65,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

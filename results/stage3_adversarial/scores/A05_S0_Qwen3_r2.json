@@ -1,0 +1,58 @@
+{
+  "translation_id": "A05_S0_Qwen3_r2",
+  "anon_code": "T_806da7d8",
+  "poem_id": "A05",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I cannot leave you, I cannot part from you. I cannot forget you, I cannot think of you.",
+        "evidence_found": true,
+        "reasoning": "The translation uses repeated 'cannot' to convey the sense of being compelled or unable to avoid actions, which aligns with the meaning of '不得不' (must/have to/compelled to) in Chinese.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I cannot leave you, I cannot part from you. I cannot forget you, I cannot think of you.",
+        "evidence_found": true,
+        "reasoning": "The translation uses a series of 'cannot' clauses that express the conditional relationship where the absence of seeing (不见) leads to the absence of thinking (不思), fulfilling the requirement of if...then structure through negative conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I cannot leave you, I cannot part from you. I cannot forget you, I cannot think of you.",
+        "evidence_found": true,
+        "reasoning": "The translation uses four 'cannot' clauses to express the dual negation structure, emphasizing the speaker's inability to leave, part, forget, or think of the other person, which aligns with distinguishing double negation and conditional negation as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 1.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

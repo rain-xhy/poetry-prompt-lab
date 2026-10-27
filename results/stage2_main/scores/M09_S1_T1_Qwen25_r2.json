@@ -1,0 +1,67 @@
+{
+  "translation_id": "M09_S1_T1_Qwen25_r2",
+  "anon_code": "T_924b109c",
+  "poem_id": "M09",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Moon sets, crows cry,霜 fills the sky; Riverside maples, fishing lights face my sorrowful sleep.",
+        "evidence_found": true,
+        "reasoning": "The translation preserves three distinct imagery elements: moon setting, crows crying, and frost filling the sky, without establishing causal relationships between them.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "fishing lights face my sorrowful sleep",
+        "evidence_found": true,
+        "reasoning": "The phrase 'fishing lights face my sorrowful sleep' directly shows 'fishing lights' (as the subject) facing 'sorrowful sleep' (the object), fulfilling the requirement of '面对愁绪而眠' where '面对' implies a relationship of facing and '愁绪' is translated as 'sorrowful' to convey the emotional state accompanying sleep.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Riverside maples, fishing lights",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly mentions 'Riverside maples' (江边枫树) and 'fishing lights' (渔火) as two distinct, parallel elements, meeting the requirement of preserving both意象 and their parallel structure.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Moon sets, crows cry,霜 fills the sky; Riverside maples, fishing lights face my sorrowful sleep.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys a lonely and cold atmosphere through the imagery of setting moon, crying crows, frosty sky, and sorrowful sleep, avoiding any joyful elements.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 3,
+    "poetic_quality": 3,
+    "overall": 3.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

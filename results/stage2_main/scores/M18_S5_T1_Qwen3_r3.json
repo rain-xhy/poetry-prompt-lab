@@ -1,0 +1,67 @@
+{
+  "translation_id": "M18_S5_T1_Qwen3_r3",
+  "anon_code": "T_9d84ec12",
+  "poem_id": "M18",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The flowers fall, and I cannot help but grieve; the returning swallow seems familiar.",
+        "evidence_found": true,
+        "reasoning": "The translation focuses on the swallow's return and grief, but the original phrase emphasizes the helplessness of watching flowers fall without being able to stop it, which is not captured here.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the returning swallow seems familiar",
+        "evidence_found": true,
+        "reasoning": "The phrase 'the returning swallow seems familiar' directly translates the required meaning of '似曾相识燕归来' by expressing that the swallow's return feels familiar, fulfilling both conditions: '似曾相识/seem familiar' and '燕子归来的动作' (swallow returning).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The flowers fall, and I cannot help but grieve; the returning swallow seems familiar.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts the flowers' departure (fall) with the swallow's return, showing opposite directions of movement.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The flowers fall, and I cannot help but grieve; the returning swallow seems familiar. The bloom fades, yet I remain, and the swallow returns—its return is not without meaning.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys time passing through the fading flowers and the swallow's return, while expressing the feeling of unchanged surroundings and changed people, which matches the required meaning of time passing and the melancholy of things remaining and people changing.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

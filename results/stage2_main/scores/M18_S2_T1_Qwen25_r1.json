@@ -1,0 +1,62 @@
+{
+  "translation_id": "M18_S2_T1_Qwen25_r1",
+  "anon_code": "T_b7dd30bd",
+  "poem_id": "M18",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Oh, how helpless as flowers fall, Like old acquaintances,燕returns. Flowers depart,燕return, Echoes of time's transient dance.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly convey the 'helpless' state as required by the pass conditions; the phrase 'Oh, how helpless as flowers fall' suggests helplessness but the context is ambiguous and the term '燕returns' (which seems to be a typo for 'they return' or 'returning') does not clearly indicate the action of flowers falling.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Like old acquaintances,燕returns.",
+        "evidence_found": true,
+        "reasoning": "The phrase '燕returns' does not correctly convey '燕子归来的动作' (the action of swallows returning) as it uses a non-standard English word '燕' which is Chinese characters, not English words.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Flowers depart,燕return",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Flowers depart,燕return' directly contrasts the departure of flowers with the return of swallows, fulfilling the requirement of showing the contrast between leaving and returning while indicating different directions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Flowers depart,燕return",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Flowers depart' conveys time's passage, and '燕return' (pigeon returning) implies the cyclical nature of time and change, reflecting the '物是人非' (things remain, people change) sentiment.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\n  \"original\": \"无可奈何花落去，似曾相识燕归来。\",\n  \"reference_notes\": {\n    \"无可奈何花落去\": \"无力挽留地看着花落。要点：无奈、无力的情感。\",\n    \"似曾相识燕归来\": \"归来的燕子仿佛曾经见过。要点：'似曾相识'的模糊感。\",\n    \"花落去vs燕归来\": \"离去与归来的对比。要点：去与来的对比结构。\",\n    \"时间流逝的感慨\": \"对时光流逝、物是人非的感慨。要点：时间、变化的主题。\"\n  },\n  \"translation\": \"Oh, how helpless as flowers fall,\\nLike old acquaintances,燕returns.\\nFlowers depart,燕return,\\nEchoes of time's transient dance.\"\n}"
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

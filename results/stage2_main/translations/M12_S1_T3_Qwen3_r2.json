@@ -1,0 +1,19 @@
+{
+  "id": "M12_S1_T3_Qwen3_r2",
+  "poem_id": "M12",
+  "trap_type": "否定逻辑",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n白日依山尽，黄河入海流。\n欲穷千里目，更上一层楼。",
+  "prompt_sha256": "d85ac0437e4c85b0a4966280d239ca305ea4c01ce2c665ebb7850d106f080d97",
+  "translation": "White day fades behind the mountains,  \nThe Yellow River flows into the sea.  \nDesire to see千里 (thousand li) beyond,  \nOne must climb higher, one level more.\n\n[The phrase \"千里\" refers to a thousand li, a traditional measure of distance in ancient China. The poem suggests that one's vision is limited without elevation.]  \n[The image of climbing a tower reflects the idea of seeking knowledge and vision, a common theme in Chinese poetry.]",
+  "metadata": {
+    "input_tokens": 217,
+    "output_tokens": 97,
+    "latency_ms": 12884.220361709595,
+    "timestamp": "2026-10-26T20:05:12.452842",
+    "finish_reason": "stop"
+  }
+}

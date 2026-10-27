@@ -1,0 +1,58 @@
+{
+  "translation_id": "A07A_S0_Qwen3_r2",
+  "anon_code": "T_8c359c1f",
+  "poem_id": "A07A",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Be cautious of slipping into the river.",
+        "evidence_found": true,
+        "reasoning": "The translation does not address the concept of 'correct negation' or 'ambiguity' as required by the original phrase, which focuses on whether a version can infer the correct negation from an ambiguous version.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Be cautious of slipping into the river.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express the required meaning of '明确版本应该正确' which means 'the clear version should be correct' or 'the explicit version should be accurate'. The phrase 'Be cautious of slipping into the river' is a literal translation of a Chinese idiom or phrase that does not convey the meaning of version correctness.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Be cautious of slipping into the river.",
+        "evidence_found": true,
+        "reasoning": "The English translation directly conveys the warning about avoiding a dangerous situation, matching the requirement that both versions should have the same meaning.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 4,
+    "valid": true
+  }
+}

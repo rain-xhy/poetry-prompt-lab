@@ -1,0 +1,62 @@
+{
+  "translation_id": "D04_S0_Qwen25_r1",
+  "anon_code": "T_22bcffb8",
+  "poem_id": "D04",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Yet cannot match the sentiment you've given me.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the original phrase '桃花潭水深千尺' and does not express the sentiment or depth of the water in a way that matches the original meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "cannot match the sentiment you've given me.",
+        "evidence_found": true,
+        "reasoning": "The translation states that the waters of Peach Blossom Pool run deeper than the sentiment, which contradicts the original '不及' meaning 'not as deep as' or 'not as great as'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Yet cannot match the sentiment you've given me.",
+        "evidence_found": true,
+        "reasoning": "The translation does not mention '汪伦为我送行' and '我' is not preserved as the recipient of the sentiment.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The waters of Peach Blossom Pool run deep A thousand feet, Yet cannot match the sentiment you've given me.",
+        "evidence_found": true,
+        "reasoning": "The translation does not use the exact phrase '以水深比情深的比喻' and does not explicitly state that the sentiment is deeper than the water depth.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 4,
+    "emotion": 5,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 4.4,
+    "valid": true
+  }
+}

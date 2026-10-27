@@ -1,0 +1,76 @@
+{
+  "translation_id": "D05_S0_Qwen25_r1",
+  "anon_code": "T_8cb2cb58",
+  "poem_id": "D05",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of生死 (life and death), both are devoid of thought, yet they are hard to forget.",
+        "evidence_found": true,
+        "reasoning": "The translation does not correctly express the required meaning as it uses '生死' (life and death) in a way that is not standard English and the phrase 'both are devoid of thought' does not convey the intended meaning of separation and distance between the living and the dead.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of生死 (life and  death), both are devoid of thought, yet they are hard to forget.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'both are devoid of thought' incorrectly implies the absence of thought, whereas the original phrase '不思量，自难忘' means 'even without deliberate thought, it is naturally unforgettable', so the translation fails to capture the intended meaning of 'not intentionally thinking but still being unforgettable' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A thousand miles away, the solitary grave",
+        "evidence_found": true,
+        "reasoning": "The phrase 'solitary grave' directly translates to '孤独坟墓' and 'a thousand miles away' indicates the long distance required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "where no one can speak of the sorrow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'where no one can speak of the sorrow' does not accurately convey 'no place/person to express sorrow' as the original phrase '无处话凄凉' implies a lack of place or person to express sorrow, not just the absence of someone to speak to.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 2,
+    "poetic_quality": 2,
+    "overall": 2.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 1,
+    "poetic_reading": 1,
+    "valid": true
+  }
+}

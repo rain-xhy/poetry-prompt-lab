@@ -1,0 +1,67 @@
+{
+  "translation_id": "M09_S3_T1_Qwen3_r3",
+  "anon_code": "T_f92efe6f",
+  "poem_id": "M09",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Moon falls, the wailing of cranes fills the sky, frost stains the river bank; the fishing fire stands beside the willow, as the traveler sleeps in sorrow.",
+        "evidence_found": true,
+        "reasoning": "The translation preserves three distinct imagery elements: moon falling, wailing cranes, and frost on river banks, without establishing causal relationships between them.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the traveler sleeps in sorrow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'sleeps in sorrow' implies facing sorrow while sleeping, meeting the requirement of '面对愁绪而眠' through the context of sorrow accompanying sleep.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "the fishing fire stands beside the willow",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'fishing fire' but refers to 'willow' instead of 'maple tree', so it does not preserve the two required意象 (maple tree and fishing fire) as they must be parallel.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Moon falls, the wailing of cranes fills the sky, frost stains the river bank; the traveler sleeps in sorrow",
+        "evidence_found": false,
+        "reasoning": "The translation conveys a sense of solitude and coldness through imagery like 'frost stains the river bank' and 'traveler sleeps in sorrow', avoiding any joyful elements.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

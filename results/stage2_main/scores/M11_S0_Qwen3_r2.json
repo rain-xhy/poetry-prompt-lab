@@ -1,0 +1,67 @@
+{
+  "translation_id": "M11_S0_Qwen3_r2",
+  "anon_code": "T_fb268807",
+  "poem_id": "M11",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "It seems as if the frost had fallen from the sky.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'It seems as if' uses the required speculative language and indicates uncertainty, matching the original's meaning of 'suspect/wonder/might be' without making a definite statement.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I lift my head and gaze at the bright moon, Then lower my head and think of my homeland.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly shows the sequence of actions (lifting head to gaze at moon, then lowering head to think of homeland) and implies that observing the moon leads to thoughts of home.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "On the floor beneath my bed, the moonlight shines bright",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve '床前' as 'on the floor beneath my bed' but rather describes the moonlight's location incorrectly as being 'beneath my bed' instead of 'in front of the bed'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "On the floor beneath my bed, the moonlight shines bright, It seems as if the frost had fallen from the sky. I lift my head and gaze at the bright moon, Then lower my head and think of my homeland.",
+        "evidence_found": true,
+        "reasoning": "The translation describes moonlight and frost imagery but does not explicitly convey the 'quiet atmosphere' or 'lonely homesickness' required by the original phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

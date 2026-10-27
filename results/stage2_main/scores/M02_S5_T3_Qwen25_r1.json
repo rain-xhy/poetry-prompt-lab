@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S5_T3_Qwen25_r1",
+  "anon_code": "T_c50769e0",
+  "poem_id": "M02",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "this红豆 is the most expressive of feelings",
+        "evidence_found": true,
+        "reasoning": "The phrase 'this红豆 is the most expressive of feelings' directly states that the red beans symbolize longing, fulfilling the requirement to preserve '红豆 as a symbol of longing (metaphor)'",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Hope you can pick more red beans",
+        "evidence_found": false,
+        "reasoning": "The phrase 'Hope you can pick more red' directly expresses a wish for the listener to take more red beans, fulfilling the requirement of expressing hope and specifically addressing 'you' to pick.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "this thing most expresses longing",
+        "evidence_found": false,
+        "reasoning": "The English translation states 'this thing most expresses longing', which directly corresponds to the required meaning of 'this thing most can寄托相思之情' (this thing most can symbolize/express longing).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "春天来了，它又发了多少枝桠？",
+        "evidence_found": true,
+        "reasoning": "The English translation explicitly states '春天来了，它又发了多少枝桠？' which directly addresses the time of spring and the natural growth action of '发枝' (sprouting branches).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

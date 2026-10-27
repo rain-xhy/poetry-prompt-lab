@@ -1,0 +1,67 @@
+{
+  "translation_id": "M05_S4_T1_Qwen3_r3",
+  "anon_code": "T_0b2120ee",
+  "poem_id": "M05",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Seeking and searching, filled with cold loneliness, filled as with sorrow and grief. The wind knocks for me, and the hills wish to keep the guest.",
+        "evidence_found": false,
+        "reasoning": "The translation describes emotional states and natural elements but does not convey the repetitive action of searching as required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "filled with cold loneliness, filled with sorrow and grief",
+        "evidence_found": true,
+        "reasoning": "The phrase 'filled with cold loneliness, filled with sorrow and grief' directly conveys the cold, desolate environment and emotional desolation required, and the context implies a progression from the previous line.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Seeking and searching, filled with cold loneliness, filled with sorrow and grief.",
+        "evidence_found": true,
+        "reasoning": "The translation focuses on the emotional state but lacks the layered progression of '凄凄惨惨戚戚' which implies a deepening sorrow through repeated intensification without clear progression to the next emotional state.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking and searching, filled with cold loneliness, filled with sorrow and grief. The wind knocks for me, and the hills wish to keep the guest.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly shows the progression from action (seeking and searching) to environment (cold loneliness, wind knocking) to emotion (sorrow and grief), maintaining the required order without disruption.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

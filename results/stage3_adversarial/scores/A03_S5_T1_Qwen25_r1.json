@@ -1,0 +1,58 @@
+{
+  "translation_id": "A03_S5_T1_Qwen25_r1",
+  "anon_code": "T_14bd5ee6",
+  "poem_id": "A03",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Desire to speak is suppressed, yet it is said that autumn is a fine season.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'Desire to speak is suppressed' which captures the '想说' part but does not explicitly convey the 'but stop' aspect of '但止住' as required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Desire to speak is suppressed, yet it is said that autumn is a fine season.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the contrast between suppressed desire to speak (true emotion) and the surface statement about autumn being a fine season, fulfilling the requirement to distinguish between true emotion and surface words.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Desire to speak is suppressed, yet it is said that autumn is a fine season.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the internal emotional conflict and the suppression of expression, highlighting the contrast between inner feelings and external expression as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 3.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "A07B_S0_Qwen25_r1",
+  "poem_id": "A07B",
+  "trap_type": "ambiguity_test",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n小心别滑入河中",
+  "prompt_sha256": "812f7be732e65e0ba5013be309fd03d9323ace4f6acc841a127f08ff21aaf134",
+  "translation": "Take care not to slip into the river.",
+  "metadata": {
+    "input_tokens": 47,
+    "output_tokens": 10,
+    "latency_ms": 351.75275802612305,
+    "timestamp": "2026-10-26T21:39:11.825264",
+    "finish_reason": "stop"
+  }
+}

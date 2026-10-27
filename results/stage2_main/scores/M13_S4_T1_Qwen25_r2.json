@@ -1,0 +1,67 @@
+{
+  "translation_id": "M13_S4_T1_Qwen25_r2",
+  "anon_code": "T_4967c700",
+  "poem_id": "M13",
+  "strategy": "S4_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no bird's flight",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no bird's flight' directly translates to the absence of birds, fulfilling the requirement of 'no birds/not a single bird' and capturing the absolute negation implied by '绝'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no trace of man",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no trace of man' directly translates to '人的踪迹消失' with absolute negation, capturing the '灭' (disappearance) sense.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A solitary boat, a fisherman wears a straw hat",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A solitary boat' directly translates to '独自' (alone/solitary) and 'a fisherman' implies the action of '垂钓' (fishing) in context.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A thousand mountains mute, no bird's flight; A myriad paths, no trace of man. A solitary boat, a fisherman wears a straw hat, Diligently fishing in the snowy river.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly shows vast space with 'a thousand mountains' and 'a myriad paths', while emphasizing human solitude through 'a solitary boat' and 'a fish, a fisherman wears a straw hat', forming a contrast between the expansive landscape and the isolated individual.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.95,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

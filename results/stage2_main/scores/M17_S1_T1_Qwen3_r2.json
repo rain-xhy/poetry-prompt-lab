@@ -1,0 +1,67 @@
+{
+  "translation_id": "M17_S1_T1_Qwen3_r2",
+  "anon_code": "T_f0128409",
+  "poem_id": "M17",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling can be cherished as a memorial, but it is already futile in the past.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express a future state of becoming a memory (as required by '可待成追忆') but instead describes a past state of being futile, which contradicts the required meaning of 'becoming a memory in the future'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling can be cherished as a memorial, but it is already futile in the past.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'already futile in the past' does not convey the completed state of 'already' with 'past' as in 'past tense' but rather implies a current state of being futile, which does not match the required past perfect tense meaning of '当时就已经惘然' (at that time it was already lost/unclear).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling can be cherished as a memorial, but it is already futile in the past.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'this feeling' does not adequately capture the specific emotional context of 'this feeling' in Chinese classical poetry, which typically refers to a particular emotional state or sentiment rather than a general feeling.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling can be cherished as a memorial, but it is already futile in the past.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts future (cherished as a memorial) and past (already futile) time frames, preserving the required temporal complexity and contrast.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 1.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

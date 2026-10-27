@@ -1,0 +1,67 @@
+{
+  "translation_id": "M03_S0_Qwen25_r2",
+  "anon_code": "T_6c5e49ed",
+  "poem_id": "M03",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "You inquire about my return, but I have no set date.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'have no set date' directly translates to '尚未确定' and 'cannot yet be set', meeting the requirement without implying 'no deadline' or 'never'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When we can sit by the western window and trim the candle together",
+        "evidence_found": true,
+        "reasoning": "The phrase uses 'when we can' to express a future assumption about the ability to share the activity, matching the required future tense and hopeful tone.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "We shall recount the night rain in Ba Mountain then.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'We shall recount' indicates future action, but the original phrase requires 'past memory' (将来回忆过去), so the translation fails to preserve the past-tense memory aspect.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The night rain in Ba Mountain swells the autumn pool.",
+        "evidence_found": true,
+        "reasoning": "The English translation explicitly states that the night rain in Ba Mountain causes the autumn pool to swell, which matches the requirement of expressing 'rain makes the pool water rise' while preserving the three key imagery elements: Ba Mountain, night rain, and autumn pool.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

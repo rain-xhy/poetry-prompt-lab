@@ -1,0 +1,62 @@
+{
+  "translation_id": "D05_S1_T3_Qwen3_r2",
+  "anon_code": "T_cee9eeed",
+  "poem_id": "D05",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of death and life, two souls separated—no thinking, yet it is unforgettable.",
+        "evidence_found": true,
+        "reasoning": "The phrase '十年生死两茫茫' is not preserved, and the translation does not include '两相隔绝、彼此渺茫'",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of death and life, two souls separated—no thinking, yet it is unforgettable.",
+        "evidence_found": true,
+        "reasoning": "The translation includes a context that is not present in the original phrase, specifically mentioning 'Ten years of death and life, two souls separated' which is not part of the original '不思量，自难忘'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "no thinking, yet it is unforgettable",
+        "evidence_found": true,
+        "reasoning": "The translation includes 'no thinking, yet it is unforgettable', which does not match the original '千里孤坟' and does not preserve the meaning of loneliness or distance.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "no place to vent my sorrow",
+        "evidence_found": true,
+        "reasoning": "Ten years of death and life, two souls separated—no thinking, yet it is unforgettable. A thousand miles away, my wife's grave, no place to vent my sorrow.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 2,
+    "overall": 3.85,
+    "valid": true
+  }
+}

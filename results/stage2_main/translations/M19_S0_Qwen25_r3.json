@@ -1,0 +1,19 @@
+{
+  "id": "M19_S0_Qwen25_r3",
+  "poem_id": "M19",
+  "trap_type": "时态叙事",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n岐王宅里寻常见，崔九堂前几度闻。\n正是江南好风景，落花时节又逢君。",
+  "prompt_sha256": "ca8b115f889194366fd4a0a3a4701f4c56a98d4cb532e3365bf280ae7cefe7c0",
+  "translation": "Here is the English translation of the provided Chinese classical poem:\n\nI've known the Qiwang's mansion well,  \nThrough countless visits to Cuijiu's hall.  \nWhen the Jiangnan scenery is at its finest,  \nWe meet again in this season of fading blooms.",
+  "metadata": {
+    "input_tokens": 68,
+    "output_tokens": 57,
+    "latency_ms": 866.1079406738281,
+    "timestamp": "2026-10-26T21:01:40.071980",
+    "finish_reason": "stop"
+  }
+}

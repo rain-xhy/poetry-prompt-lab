@@ -1,0 +1,76 @@
+{
+  "translation_id": "D01_S1_T2_Qwen25_r1",
+  "anon_code": "T_6fe73bf3",
+  "poem_id": "D01",
+  "strategy": "S1_T2",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling, no measure to dispel,",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no measure to dispel' implies a lack of method or means to dispel, but the required meaning is 'cannot eliminate' or 'cannot dispel', which is not accurately captured as it suggests a lack of method rather than an inability to eliminate.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling, no measure to dispel, Just fades to cheek, then straight to heart.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'fades to cheek' and 'straight to heart' but does not express 'just left the brow' or 'brow' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling, no measure to dispel, Just fades to cheek, then straight to, heart.",
+        "evidence_found": false,
+        "reasoning": "The translation does not express a clear turn or contrast (yet/but/again) as required by the pass conditions, and the phrase 'then straight, heart' lacks the necessary connection to 'heart' as the focus.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Just fades to cheek, then straight to heart",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Just fades to cheek, then straight to heart' shows the continuous transfer of sorrow from the cheek to the heart without disappearing, meeting the requirement that the reader feels the sorrow has not truly vanished.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 1.7,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

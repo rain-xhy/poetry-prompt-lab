@@ -1,0 +1,19 @@
+{
+  "id": "M10_S1_T3_Qwen3_r2",
+  "poem_id": "M10",
+  "trap_type": "拟人意象",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n野火烧不尽，春风吹又生。",
+  "prompt_sha256": "9186b4872e85dd8ee0112264aea732f5a9ce7c35a8bcde5b3083a4076c700eec",
+  "translation": "Wildfire cannot erase it, spring wind brings it back again.\n\n[This poem illustrates the cyclical nature of life and renewal, reflecting the resilience of nature and the enduring spirit of the Chinese people.]\n\nWildfire cannot extinguish it, spring wind revives it.\n\n[The imagery reflects the eternal cycle of growth and renewal, symbolizing the unyielding will to thrive despite adversity.]",
+  "metadata": {
+    "input_tokens": 205,
+    "output_tokens": 78,
+    "latency_ms": 17152.16088294983,
+    "timestamp": "2026-10-26T20:04:04.015387",
+    "finish_reason": "stop"
+  }
+}

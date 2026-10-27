@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S3_T1_Qwen3_r2",
+  "anon_code": "T_5a3de0ff",
+  "poem_id": "M07",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wang and Che",
+        "evidence_found": true,
+        "reasoning": "The translation preserves 'Wang' and 'Che' as specific family names from the Eastern Jin dynasty, matching the requirement to retain the proper names without generalization.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Once, the halls of Wang and Che echoed with song, Now, a winged bird flies into the common home of the people",
+        "evidence_found": true,
+        "reasoning": "The translation clearly contrasts 'halls of Wang and: Che' (historical elite) with 'common home of the people' (ordinary citizens), showing the time contrast between past and present.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "a winged bird flies into the common home of the people",
+        "evidence_found": true,
+        "reasoning": "The phrase 'a winged bird' refers to the swallow (燕子) as a witness, fulfilling the requirement without implying the swallow has lived for centuries.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "wild flowers grow wild, sunset casts a long shadow",
+        "evidence_found": false,
+        "reasoning": "The phrase 'wild flowers' and 'sunset' directly correspond to the required wild grass and sunset imagery, conveying a desolate atmosphere through the contrast between past grandeur and current decay.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.95,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

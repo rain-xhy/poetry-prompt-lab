@@ -1,0 +1,19 @@
+{
+  "id": "M01_S1_T3_Qwen25_r3",
+  "poem_id": "M01",
+  "trap_type": "情感反差",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n多情却似总无情，唯觉尊前笑不成。\n蜡烛有心还惜别，替人垂泪到天明。",
+  "prompt_sha256": "ddce11dcba293b5b3ed0819afaf35da7ab6d13cd97ec091e3981c124ecfd833d",
+  "translation": "**English Translation:**\n\nFull of emotion yet seems indifferent, \nOnly a smile fails to form at the cup.\nThe candle, with its heart, cherishes parting,\nWashes tears all night for those who must part.\n\n**Note:** \nThe candle imagery represents the poet’s feelings for the departed. Despite the candle’s apparent indifference (not shedding tears), it still chooses to continue dripping wax (symbolizing the poet’s persistent sorrow) until dawn, mirroring the poet’s own lingering sadness.",
+  "metadata": {
+    "input_tokens": 239,
+    "output_tokens": 102,
+    "latency_ms": 12800.238847732544,
+    "timestamp": "2026-10-26T20:17:38.582100",
+    "finish_reason": "stop"
+  }
+}

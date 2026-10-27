@@ -1,0 +1,19 @@
+{
+  "id": "M19_S0_Qwen25_r1",
+  "poem_id": "M19",
+  "trap_type": "时态叙事",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n岐王宅里寻常见，崔九堂前几度闻。\n正是江南好风景，落花时节又逢君。",
+  "prompt_sha256": "ca8b115f889194366fd4a0a3a4701f4c56a98d4cb532e3365bf280ae7cefe7c0",
+  "translation": "Here's the English translation of the poem:\n\nI have often visited Ji Wang's courtyard, and I have heard Cui Jiù in his hall.\nIt was in the prime of spring in Jiangnan where beautiful scenery abounds,\nWhen once again I met you, the season of falling flowers.",
+  "metadata": {
+    "input_tokens": 68,
+    "output_tokens": 60,
+    "latency_ms": 10964.134693145752,
+    "timestamp": "2026-10-26T20:15:55.671904",
+    "finish_reason": "stop"
+  }
+}

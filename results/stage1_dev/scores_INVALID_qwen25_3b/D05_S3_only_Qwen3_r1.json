@@ -1,0 +1,62 @@
+{
+  "translation_id": "D05_S3_only_Qwen3_r1",
+  "anon_code": "T_8dfc597a",
+  "poem_id": "D05",
+  "strategy": "S3_only",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of death and life, two miles apart, not thinking, yet remembering.",
+        "evidence_found": true,
+        "reasoning": "The phrase '十年生死两茫茫' (Ten years of death and life, two miles apart, not thinking, yet remembering) does not preserve the original meaning and structure of the Chinese phrase '十年生死两茫茫'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of death and life, two miles apart, not thinking, yet remembering.",
+        "evidence_found": true,
+        "reasoning": "The translation states 'not thinking, yet remembering' which contradicts the original '不去想，却自然难忘' (not thinking, yet remembering).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A thousand miles of grave, without a place to vent sorrow.",
+        "evidence_found": true,
+        "reasoning": "The phrase '相隔千里的孤独坟墓' (a thousand miles of grave, lonely tomb) is not present in the translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "without a place to vent sorrow.",
+        "evidence_found": true,
+        "reasoning": "A thousand miles of grave, without a place to vent sorrow.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 2,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.15,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M11_S5_T2_Qwen25_r3",
+  "anon_code": "T_cb638b6d",
+  "poem_id": "M11",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I doubt it's frost upon the ground.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I doubt it's frost upon the ground' uses the verb 'doubt' followed by 'it's' (indicating uncertainty) and 'frost upon the ground' to convey the meaning of 'suspect/wonder/seems/might be' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I lift my head, see the shining light, My thoughts turn to my homeland, so far.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly shows the action sequence (lifting head to see moon) and the emotional consequence (thoughts turning to homeland) without directly stating 'frost', which is a common misinterpretation of the original Chinese.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Beside my bed stands the moon so bright",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Beside my bed stands the moon so bright' directly translates the original '床前明月光' by preserving '床前' (beside my bed) and expressing '月光明亮' (moon so bright).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "My thoughts turn to my homeland, so far.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'My thoughts turn to my homeland, so far' conveys the solitude and homesickness required, as it directly expresses longing for a distant homeland, which aligns with '静夜独处的氛围' (the atmosphere of quiet night solitude).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

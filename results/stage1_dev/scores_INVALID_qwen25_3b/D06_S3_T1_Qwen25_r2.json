@@ -1,0 +1,62 @@
+{
+  "translation_id": "D06_S3_T1_Qwen25_r2",
+  "anon_code": "T_bca06f81",
+  "poem_id": "D06",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I know my brothers climb the hillside today",
+        "evidence_found": true,
+        "reasoning": "The translation contains the phrase 'I know my brothers climb the hillside today', which does not match the original '遥知' (I know from afar).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I know my brothers climb the hillside today",
+        "evidence_found": true,
+        "reasoning": "The translation does not use the exact phrase '兄弟们登高之处' (I know my brothers climb the high place today)",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "All wearing fragrant chrysanthemums, yet one less.",
+        "evidence_found": true,
+        "reasoning": "The phrase '遍插茱萸' is not directly preserved in the translation. Instead, the translation uses 'fragrant chrysanthemums' which is not a direct translation of '茱萸'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I’m sure, for I am not there",
+        "evidence_found": true,
+        "reasoning": "The phrase '少一人' is not preserved in the translation and the person is not explicitly read as the speaker.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 4.2,
+    "valid": true
+  }
+}

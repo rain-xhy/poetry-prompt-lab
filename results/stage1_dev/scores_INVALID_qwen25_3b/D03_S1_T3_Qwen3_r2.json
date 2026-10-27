@@ -1,0 +1,62 @@
+{
+  "translation_id": "D03_S1_T3_Qwen3_r2",
+  "anon_code": "T_6582cb69",
+  "poem_id": "D03",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Drink until it is empty, farewell to this last cup of wine",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the phrase '我劝你再干一杯酒' (I advise you to drink one more cup of wine) and does not include the phrase 'Beyond the Yangguan Pass, there is no old friend to greet.'",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "farewell to this last cup of wine",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the phrase '向西出了阳关' and the direction '向西' is not preserved in the translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "farewell to this last cup of wine",
+        "evidence_found": true,
+        "reasoning": "The translation includes a farewell sentiment which is not present in the original phrase '无故人'",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Drink until it is empty, farewell to this last cup of wine",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '劝酒与无故人之因果' and does not explicitly state the reason for the last cup of wine being empty.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 3,
+    "fluency": 3,
+    "poetic_quality": 1,
+    "overall": 2.9,
+    "valid": true
+  }
+}

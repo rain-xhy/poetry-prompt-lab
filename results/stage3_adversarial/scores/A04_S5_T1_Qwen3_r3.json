@@ -1,0 +1,58 @@
+{
+  "translation_id": "A04_S5_T1_Qwen3_r3",
+  "anon_code": "T_03d0a393",
+  "poem_id": "A04",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This emotion has already become a cherished memory",
+        "evidence_found": true,
+        "reasoning": "The phrase 'has already become' indicates the completed action of becoming a cherished memory, matching the requirement to preserve '已待' as a completed action.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This emotion has already become a cherished memory, yet it was then that I felt utterly confused.",
+        "evidence_found": true,
+        "reasoning": "The translation uses a declarative structure with 'has become' and 'felt' indicating a factual statement, not a rhetorical question.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This emotion has already become a cherished memory, yet it was then that I felt utterly confused.",
+        "evidence_found": true,
+        "reasoning": "The translation correctly captures the temporal contrast between the past confusion and the present memory, indicating that the confusion occurred before the memory was formed, thus preserving the '可待' to '已待' temporal shift.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 3.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

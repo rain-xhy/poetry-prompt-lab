@@ -1,0 +1,58 @@
+{
+  "translation_id": "A04_S5_T1_Qwen3_r1",
+  "anon_code": "T_0695ef7b",
+  "poem_id": "A04",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling has already become a memory",
+        "evidence_found": true,
+        "reasoning": "The phrase 'has already become a memory' uses the present perfect tense to indicate a completed action with present relevance, matching the requirement to preserve '已待' as a completed action.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling has already become a memory, yet it is as if it were never meant to be.",
+        "evidence_found": true,
+        "reasoning": "The translation uses a declarative structure without rhetorical questions, clearly stating the feeling's transformation into memory while maintaining the original's reflective tone.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling has already become a memory, yet it is as if it were never meant to be.",
+        "evidence_found": true,
+        "reasoning": "The translation uses present perfect tense 'has already become' and conditional 'were never meant to be', which does not preserve the original's temporal contrast between '可待' (waiting for) and '已待' (already waited) as required by the condition to check for '可待' vs '已待' tense change.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

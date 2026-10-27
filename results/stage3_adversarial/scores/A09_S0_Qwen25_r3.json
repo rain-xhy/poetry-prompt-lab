@@ -1,0 +1,58 @@
+{
+  "translation_id": "A09_S0_Qwen25_r3",
+  "anon_code": "T_9f95745a",
+  "poem_id": "A09",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Had Li Guang's spirit still been here",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Had Li: Guang's spirit still been here' uses 'had' to indicate a conditional cause, aligning with the requirement that '只因' expresses causality rather than condition.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Had Li Guang's spirit still been here, The Huns would not dare to cross the Yin Mountains.",
+        "evidence_found": true,
+        "reasoning": "The translation uses conditional language to state a fact about historical context, not making an assumption about the past.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Had Li Guang's spirit still been here",
+        "evidence_found": true,
+        "reasoning": "The translation changes 'but if' (but使) to 'only because' (只因), altering the logical relationship from a conditional to a causal explanation, which violates the requirement to preserve the 'but使' to 'only because' logic change.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

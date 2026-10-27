@@ -1,0 +1,67 @@
+{
+  "translation_id": "M03_S2_T1_Qwen3_r3",
+  "anon_code": "T_439092b6",
+  "poem_id": "M03",
+  "strategy": "S2_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "it is still uncertain",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it is still uncertain' directly translates to '尚未确定' which matches the required meaning of '尚未确定/cannot yet be set' without implying 'no deadline' or 'never'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When will we sit by the western window and light the candle together?",
+        "evidence_found": true,
+        "reasoning": "The phrase uses 'when will' to indicate future assumption and expresses the expectation of sharing the candlelit moment with the other person.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I will recount the rain in the western mountains as I remember it now.",
+        "evidence_found": true,
+        "reasoning": "The translation states 'I will recount' which implies future action, but the original phrase requires '将来回忆过去' (future recalling past), indicating a past memory being recounted in the future, not a future action of recounting.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The rain in the western mountains has raised the autumn pool.",
+        "evidence_found": true,
+        "reasoning": "The English phrase directly translates the required meaning of 'rain making the pool rise' while preserving the three required imagery elements: 巴山 (western mountains), 夜雨 (rain), and 秋池 (autumn pool).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

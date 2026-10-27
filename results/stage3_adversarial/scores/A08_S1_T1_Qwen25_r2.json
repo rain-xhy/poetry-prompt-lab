@@ -1,0 +1,58 @@
+{
+  "translation_id": "A08_S1_T1_Qwen25_r2",
+  "anon_code": "T_3719d77a",
+  "poem_id": "A08",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "昔日豪门府前的燕子",
+        "evidence_found": true,
+        "reasoning": "The phrase '昔日豪门府前的燕子' directly translates to 'the swallows that used to fly in front of wealthy/noble/aristocratic families' which preserves the requirement that '豪门' is a generalized expression of wealthy/noble/arist' families.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "By朱雀桥边，野草花开，\n乌衣巷口，夕阳斜挂。\n昔日豪门府前的燕子，\n如今已飞入寻常人家檐下。",
+        "evidence_found": true,
+        "reasoning": "The translation conveys the loss of specific historical context by contrasting past elite residences with present ordinary homes, preserving the meaning of '识别失去了特定历史背景' without mentioning specific surnames.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "By朱雀桥边，野草花开，乌衣巷口，夕阳斜挂。昔日豪门府前的燕子，如今已飞入寻常人家檐下。",
+        "evidence_found": false,
+        "reasoning": "The translation correctly captures the contrast between past and present in the original poem, maintaining the core meaning while using different phrasing as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

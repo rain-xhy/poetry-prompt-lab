@@ -1,0 +1,19 @@
+{
+  "id": "A04_S0_Qwen25_r2",
+  "poem_id": "A04",
+  "trap_type": "tense_change",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n此情已待成追忆，只是当时已惘然。",
+  "prompt_sha256": "a6a99abe63ae81f9ed30c09daf699409667841c7357f5e938dac976dd6c01bf8",
+  "translation": "This feeling has already become a matter of regret,  \nBut at the time, it was already sorrowful and bewildered.",
+  "metadata": {
+    "input_tokens": 55,
+    "output_tokens": 26,
+    "latency_ms": 10747.900009155273,
+    "timestamp": "2026-10-26T21:54:35.647036",
+    "finish_reason": "stop"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M18_S0_Qwen25_r3",
+  "anon_code": "T_746a65df",
+  "poem_id": "M18",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Unavoidable is the withering of flowers",
+        "evidence_found": true,
+        "reasoning": "The phrase does not explicitly convey 'helpless' or 'unable to stop' as required, and 'withering' does not directly equate to 'falling' (花落) in the context of flowers.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Like returning燕s, I recognize them.",
+        "evidence_found": true,
+        "reasoning": "The translation uses '燕s' (which is not the correct term for 'swallows' in Chinese) and the phrase 'I recognize them' does not convey 'seem familiar' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Unavoidable is the withering of flowers, Like returning燕s, I recognize them.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'withering' for 花落 which implies decay rather than 'going away', and 'returning燕s' contains a typo (燕 should be 'swallows' or 'swallows') and does not clearly convey the contrast between departure and return.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Unavoidable is the withering of flowers, Like returning燕s, I recognize them.",
+        "evidence_found": true,
+        "reasoning": "The translation does not convey '物是人非' (things remain, people change) as required; it focuses on the natural cycle of flowers and returning swallows without addressing the change in people or the sense of loss.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

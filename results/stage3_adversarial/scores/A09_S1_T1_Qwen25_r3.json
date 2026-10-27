@@ -1,0 +1,58 @@
+{
+  "translation_id": "A09_S1_T1_Qwen25_r3",
+  "anon_code": "T_a39ac525",
+  "poem_id": "A09",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Only if General Lông cháng flies once more",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Only if' indicates a condition, not a cause, which violates the requirement that '只因' must express causation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Only if General Lông cháng flies once more",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Only if' indicates a conditional statement, not a factual assertion, which contradicts the requirement to identify it as a factual statement rather than an assumption.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Only if General Lông cháng flies once more",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Only if' implies a conditional relationship where the action of General Lông cháng flying is required for the Hū horse to not cross the mountain, but the original poem uses '但使' which means 'as long as' or 'provided that', indicating a condition that is sufficient for the outcome, not a strict requirement for the outcome. The translation's 'Only if' changes the logical relationship from a sufficient condition to a necessary condition, which alters the meaning.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

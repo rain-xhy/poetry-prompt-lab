@@ -1,0 +1,67 @@
+{
+  "translation_id": "M18_S3_T1_Qwen3_r2",
+  "anon_code": "T_10a2ec4d",
+  "poem_id": "M18",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Cannot help but feel the spring's fading bloom, The once-familiar swallow returns to its old place.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express the 'helpless' feeling or the action of flowers falling as required; it describes a swallow returning, which is unrelated to the flower falling.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The once-familiar swallow returns to its old place.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'once-familiar' directly translates to '似曾相识' (seem familiar), and 'swallow returns to its old place' captures the '燕子归来的动作' (swallow returning) as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The once-familiar swallow returns to its old place",
+        "evidence_found": true,
+        "reasoning": "The phrase shows the swallow's return (归来的) while the preceding sentence implies the fading bloom (花落去), creating a contrast between departure and return.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Cannot help but feel the spring's fading bloom, The once-familiar swallow returns to its old place.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys time passing through the fading spring and the swallow's return, reflecting the sentiment of things unchanged but people changed.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M17_S3_T1_Qwen25_r1",
+  "anon_code": "T_3c534b8d",
+  "poem_id": "M17",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling could never be forgotten, Yet it was already a state of melancholy When it occurred.",
+        "evidence_found": true,
+        "reasoning": "The translation does not use a question structure (must/can/could) to express a future state of becoming a memory, but rather states a past occurrence with a present feeling.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Yet it was already a state of melancholy When it occurred.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'already a state of melancholy' captures the completed state of 'wandering' (惘然) with the past perfect sense implied by 'when it occurred', meeting both conditions of past tense and completed feeling.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling could never be forgotten, Yet it was already a state of melancholy When it occurred.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly convey the specific emotional reference of 'this feeling' as required by the original phrase '此情', which is meant to denote a particular emotional state or feeling in context.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling could never be forgotten, Yet it was already a state of melancholy When it occurred.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the contrast between future memory (could never be forgotten) and past state (already a state of melancholy when it occurred), showing the complex tense interplay.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 3,
+    "poetic_quality": 1,
+    "overall": 1.6,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

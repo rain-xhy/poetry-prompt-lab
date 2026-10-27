@@ -1,0 +1,58 @@
+{
+  "translation_id": "A08_S5_T1_Qwen25_r2",
+  "anon_code": "T_3d885c13",
+  "poem_id": "A08",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Old swallows once nested by noble halls",
+        "evidence_found": true,
+        "reasoning": "The phrase 'noble halls' directly translates '豪门' as a generic term for wealthy/noble/aristocratic families, fulfilling the requirement to preserve '豪门' as a generalized expression.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "At the wild flowers growing by Zhuque Bridge, Unguarded Ugly Cloaks’ lane shows the slanting sun. Old swallows once nested by noble halls, Now fly into common homes.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the loss of historical specificity by contrasting past noble settings with current common homes, indicating that the historical context has been lost.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Unguarded Ugly Cloaks’ lane shows the slanting sun",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Unguarded Ugly Cloaks’ lane' directly corresponds to the original poem's reference to the location, and 'shows the slanting sun' captures the temporal and visual element of the scene described in the original poem.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

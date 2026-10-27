@@ -1,0 +1,67 @@
+{
+  "translation_id": "M03_S5_T3_Qwen3_r3",
+  "anon_code": "T_d623c78c",
+  "poem_id": "M03",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "it is still uncertain",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it is still uncertain' directly matches the required meaning of '尚未确定/cannot yet be set' without implying 'no deadline' or 'never'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When will we sit by the west window, burning through the candle",
+        "evidence_found": true,
+        "reasoning": "The phrase uses 'when will' to express future expectation, matching the required future tense and hopeful tone.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "tell of the rain in Ba Sha, now—past tense, not future?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'tell of the rain in Ba, now—past tense, not future?' explicitly indicates recalling past rain events (past tense) while referencing the current moment (now), fulfilling the requirement of '将来回忆过去' (future recall of past) and specifying the rain of the current night (今夜巴山雨).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "filling the pools",
+        "evidence_found": true,
+        "reasoning": "The phrase 'filling the pools' directly translates the meaning of '涨秋池' as water rising in the autumn pools, satisfying the requirement that the translation expresses rain causing the pool water to rise.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

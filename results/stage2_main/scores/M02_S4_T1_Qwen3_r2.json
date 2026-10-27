@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S4_T1_Qwen3_r2",
+  "anon_code": "T_37cf6709",
+  "poem_id": "M02",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Red beans grow in the southern land, blooming each spring with several branches. May you take many and gather them, for this thing is the most cherished in my heart.",
+        "evidence_found": true,
+        "reasoning": "The translation preserves 'red beans' as a symbol of longing and love, explicitly stating it is 'the most cherished in my heart' which reflects the emotional depth required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "May you take many and gather them",
+        "evidence_found": true,
+        "reasoning": "The phrase 'May you take many and gather them' explicitly expresses a wish for the recipient to collect the red beans, fulfilling the requirement of expressing hope/encouragement and addressing 'you' directly for the action of gathering.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "for this thing is the most cherished in my heart",
+        "evidence_found": true,
+        "reasoning": "The phrase 'most cherished in my heart' directly translates to 'most able to寄托相思之情' as it conveys the highest emotional value for longing and affection.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "blooming each spring with several branches",
+        "evidence_found": true,
+        "reasoning": "The phrase 'blooming each spring with several branches' directly addresses the timing of spring and the natural action of branches growing, fulfilling both required conditions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

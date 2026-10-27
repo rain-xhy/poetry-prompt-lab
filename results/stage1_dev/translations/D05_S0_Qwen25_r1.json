@@ -1,0 +1,19 @@
+{
+  "id": "D05_S0_Qwen25_r1",
+  "poem_id": "D05",
+  "trap_type": "时态叙事",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n十年生死两茫茫，不思量，自难忘。\n千里孤坟，无处话凄凉。",
+  "prompt_sha256": "7488550d354f9a8835c0c45421706df3d8e3bccab15fa332c0bf27405d730a32",
+  "translation": "Here is the English translation of the provided Chinese classical poem:\n\n\"Ten years of生死 (life and death), both are devoid of thought, yet they are hard to forget.\nA thousand miles away, the solitary grave, where no one can speak of the sorrow.\" \n\nPlease note that the term \"生死\" (shēngsǐ) is a concise expression in Chinese for life and death, which is often used in this context. In this context, I have translated it as \"life and death\". The second line, \"千里孤坟,无处话凄凉\" (qiānlǐ gū坟, wúchù huà qīliáng) means \"A thousand miles away, the solitary grave, where no one can speak of the sorrow.\" The meaning is that the distance between the couple is so great that they cannot meet, and their graves are far apart, hence they cannot share their sadness together.",
+  "metadata": {
+    "input_tokens": 63,
+    "output_tokens": 190,
+    "latency_ms": 6581.32004737854,
+    "timestamp": "2026-10-26T16:35:13.459415",
+    "finish_reason": "stop"
+  }
+}

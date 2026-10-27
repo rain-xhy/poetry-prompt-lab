@@ -1,0 +1,67 @@
+{
+  "translation_id": "M14_S4_T1_Qwen3_r2",
+  "anon_code": "T_95580300",
+  "poem_id": "M14",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "But if the hero of Lóngchéng flew across the sky",
+        "evidence_found": true,
+        "reasoning": "The phrase 'But if the hero of L:ongchéng flew across the sky' uses a conditional clause starting with 'if' to express a hypothetical situation, matching the required condition assumption structure.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the nomads would never pass through the dark mountains",
+        "evidence_found": true,
+        "reasoning": "The phrase 'would never pass through' directly translates to '不让...越过' (prevent/not allow crossing) with a negative verb phrase indicating active prevention.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "But if the hero of Lóngchéng flew across the sky, the nomads would never pass through the dark mountains.",
+        "evidence_found": true,
+        "reasoning": "The translation uses a conditional structure 'if... would...' to express the condition-result relationship, matching the original phrase's logic.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the hero of Lóngchéng flew across the sky",
+        "evidence_found": true,
+        "reasoning": "The phrase 'hero of Lóngchéng' directly refers to a historical border general (边关名将) from the Chinese context, and 'flew across the sky' conveys the image of a formidable warrior who is skilled in battle (威猛善战).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

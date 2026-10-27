@@ -1,0 +1,57 @@
+{
+  "translation_id": "D04_S1_T1_Qwen25_r2",
+  "anon_code": "T_0a95e4df",
+  "poem_id": "D04",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "But they don't match the情you,汪伦, bestowed on me.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the original phrase '桃花潭水深千尺' and does not express the depth of the water in a way that matches the original meaning or intent.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "But they don't match the情you,汪伦, bestowed on me.",
+        "evidence_found": true,
+        "reasoning": "The phrase '不及' is translated as 'don't match', which changes the meaning from '比不上' to 'not match'. The original phrase '不及' means 'not as deep as' or 'not as good as', but the translation uses 'not match', which is not consistent with the original meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "情you,汪伦, bestowed on me.",
+        "evidence_found": true,
+        "reasoning": "The translation includes a phrase '情you,汪伦, bestowed on me.' which is not present in the original phrase and does not align with the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "But they don't match the情you,汪伦, bestowed on me.",
+        "evidence_found": true,
+        "reasoning": "The translation uses '情' to refer to the depth of the water, which does not align with the original intention of comparing '情' to the depth of the water. Instead, it directly states that the depth of the water does not match the '情' given by the poet's friend, Li Tun.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\"adequacy\":1,\"imagery\":0,\"emotion\":1,\"fluency\":2,\"poetic_quality\":0}"
+  }
+}

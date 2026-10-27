@@ -1,0 +1,67 @@
+{
+  "translation_id": "M10_S4_T1_Qwen25_r2",
+  "anon_code": "T_aa05a85a",
+  "poem_id": "M10",
+  "strategy": "S4_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wildfires can never consume it entirely",
+        "evidence_found": true,
+        "reasoning": "The phrase 'can never consume it entirely' directly translates to '烧不尽' meaning the fire cannot completely burn it out, satisfying the requirement of expressing 'burning without end' with a negative (never) and personification (it) as per the original phrase's intent.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Spring breezes make it flourish again.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Spring breezes make it flourish again' directly addresses both the role of spring breezes and the regrowth of vegetation, fulfilling the requirement to express 'again growing' and the action of spring breezes.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wildfires can never consume it entirely, Spring breezes make it flourish again.",
+        "evidence_found": true,
+        "reasoning": "The translation shows that wildfires (fire) and grass (grass) have a relationship where fire cannot fully destroy the grass, and spring breezes cause the grass to grow again, preserving the personification of fire and grass.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wildfires can never consume it entirely, Spring breezes make it flourish again.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys the unbreakable resilience of grass through the cyclical process of fire and renewal, meeting both conditions of expressing tenacity and the 'burning and regrowing' cycle.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

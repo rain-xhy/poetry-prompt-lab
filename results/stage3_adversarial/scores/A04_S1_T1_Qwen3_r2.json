@@ -1,0 +1,58 @@
+{
+  "translation_id": "A04_S1_T1_Qwen3_r2",
+  "anon_code": "T_5235afc8",
+  "poem_id": "A04",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling has already waited",
+        "evidence_found": true,
+        "reasoning": "The phrase 'has already waited' uses present perfect tense to indicate completion, matching the requirement that '已待' is a completed action.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling has already waited to become a memory, but what was once forgotten is now bewildered.",
+        "evidence_found": true,
+        "reasoning": "The translation uses a declarative structure without rhetorical questions, clearly stating that the feeling has become a memory and forgotten things are now bewildered.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling has already waited to become a memory, but what was once forgotten is now bewildered.",
+        "evidence_found": true,
+        "reasoning": "The translation uses present perfect tense 'has already waited' and past perfect 'was once forgotten', which does not match the original poem's time sequence where '可待' (can wait) implies a future possibility rather than a completed action.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 1,
+    "overall": 1.8,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

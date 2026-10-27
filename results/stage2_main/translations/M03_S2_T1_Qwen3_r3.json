@@ -1,0 +1,19 @@
+{
+  "id": "M03_S2_T1_Qwen3_r3",
+  "poem_id": "M03",
+  "trap_type": "情感反差",
+  "strategy": "S2_T1",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nSemantic Analysis (in Chinese):\n“归期未有期”：归期尚不能确定。要点：不是'没有期限'，而是'还没有确定的日期'。\n“何当共剪西窗烛”：什么时候能一起剪西窗烛（未来假设）。要点：将来时态，期待的假设情境。\n“却话巴山夜雨时”：那时回忆讲述今夜巴山雨。要点：将来回忆现在，时态复杂。\n“巴山夜雨涨秋池”：巴山夜雨使秋池水涨。要点：夜雨和涨水的因果关系。\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n君问归期未有期，巴山夜雨涨秋池。\n何当共剪西窗烛，却话巴山夜雨时。",
+  "prompt_sha256": "8fd27b49c344357f61c28a5b020c7dc02d3a4898961c0015f2b3663627e5e5b0",
+  "translation": "When you ask about my return date, it is still uncertain. The rain in the western mountains has raised the autumn pool.  \nWhen will we sit by the western window and light the candle together?  \nI will recount the rain in the western mountains as I remember it now.  \n\n[The phrase \"巴山夜雨\" refers to the rain in the western mountains, a symbol of longing and the passage of time.]",
+  "metadata": {
+    "input_tokens": 369,
+    "output_tokens": 86,
+    "latency_ms": 12667.927265167236,
+    "timestamp": "2026-10-26T21:12:42.489601",
+    "finish_reason": "stop"
+  }
+}

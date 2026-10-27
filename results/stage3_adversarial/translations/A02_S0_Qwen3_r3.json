@@ -1,0 +1,19 @@
+{
+  "id": "A02_S0_Qwen3_r3",
+  "poem_id": "A02",
+  "trap_type": "subject_confusion",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n春眠不觉晓，处处闻啼鸟。\n夜来风雨声，花知落多少。",
+  "prompt_sha256": "7ada5d51cbeb4785af19733363d5d8bcfd55b96068e6b4a67a3c119d8ed26d94",
+  "translation": "Spring sleep is so peaceful that one does not know dawn has come. All over the place, birds are singing. Sounds of the night's rain, telling us how many flowers have fallen.",
+  "metadata": {
+    "input_tokens": 49,
+    "output_tokens": 39,
+    "latency_ms": 9892.563343048096,
+    "timestamp": "2026-10-26T21:54:45.542931",
+    "finish_reason": "stop"
+  }
+}

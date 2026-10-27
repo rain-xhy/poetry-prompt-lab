@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S4_T1_Qwen3_r3",
+  "anon_code": "T_33a1a8e5",
+  "poem_id": "M07",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wang and Che",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'Wang' and 'Xie' as 'Wang and Che' to preserve the specific family names without genericization.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Once, the grand halls of Wang and Che sang songs of spring, Now, a commoner's home where the common people dwell",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts 'Once' (past) with 'Now' (present) to show time contrast, and 'grand halls of Wang and Che' (former elite) with 'commoner's home' (common people) to show class contrast.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Now, a commoner's home where the common people dwell.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'a commoner's home where the common people dwell' implies the presence of a燕子 (swallow) as a witness through the context of time and change, preserving the swallow as a witness imagery without stating the swallow lived for centuries.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "wild grass blooms, the sunset casts a shadow",
+        "evidence_found": false,
+        "reasoning": "The phrase 'wild grass blooms' directly preserves the '野草' imagery and 'sunset casts a shadow' conveys the '夕阳' imagery while reflecting a desolate and decaying atmosphere.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.95,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

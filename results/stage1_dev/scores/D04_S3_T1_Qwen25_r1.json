@@ -1,0 +1,76 @@
+{
+  "translation_id": "D04_S3_T1_Qwen25_r1",
+  "anon_code": "T_2864e62f",
+  "poem_id": "D04",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "The waters of Taf: The waters of Tafan Spring deep as a thousand feet",
+        "evidence_found": false,
+        "reasoning": "The phrase 'deep as a thousand feet' directly translates the '深千尺' meaning, and 'Tafan Spring' is a transliteration of '桃花潭' that preserves the name of the place.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Fail to match the affection that汪伦送我情 (Wang Lien sends me affection)",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Fail to match the affection' directly translates the meaning of '不及' as '比不上', and the context specifies that the depth of the water does not equal Wang Lien's affection, satisfying both conditions without using 'deeper' or 'the same depth'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Wang Lien sends me affection",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Wang Lien sends me affection' does not correctly convey that 'Wang Lien is the sender of the farewell (送行)' and 'I am the recipient of the farewell', as it implies affection rather than a farewell gesture.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "The waters of Taf: The waters of Tafan Spring deep as a thousand feet, Fail to match the affection that汪伦送我情 (Wang Lien sends me affection).",
+        "evidence_found": false,
+        "reasoning": "The translation compares the depth of water to the depth of affection, with the affection being deeper than the water, fulfilling the requirement to preserve the metaphor of water depth representing emotional depth.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 5,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.2,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

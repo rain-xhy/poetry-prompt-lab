@@ -1,0 +1,67 @@
+{
+  "translation_id": "M13_S0_Qwen3_r3",
+  "anon_code": "T_842ec2d9",
+  "poem_id": "M13",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Furthest mountains, the birds fly away from sight; all the paths are empty, no human footprints remain. A lonely boatman wears a蓑衣 (a type of robe) and a笠 (a hat), and alone he catches the falling snow on the cold river.",
+        "evidence_found": true,
+        "reasoning": "The translation describes birds flying away from sight, not the complete absence of birds as required by '鸟飞绝' which means 'no birds at all' or 'absolutely no birds'. The phrase 'birds fly away from sight' implies birds are still present but out of sight, not the absolute absence of birds.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "all the paths are empty, no human footprints remain",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no human footprints remain' directly translates the absolute negation of '人踪灭' (human traces disappear) while capturing the 'disappearance' sense of '灭'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A lonely boatman wears a蓑衣 (a type of robe) and a笠 (a hat), and alone he catches the falling snow on the cold river.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'alone he catches the falling snow' emphasizes 'alone' and 'catching snow' implies the action of fishing in the context of the poem.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Furthest mountains, the birds fly away from sight; all the paths are empty, no human footprints remain. A lonely boatman wears a蓑衣 (a type of robe) and a笠 (a hat), and alone he catches the falling snow on the cold river.",
+        "evidence_found": true,
+        "reasoning": "The translation effectively conveys the vastness of the landscape through 'Furthest mountains' and 'all the paths are empty', while emphasizing the individual's solitude with 'a lonely boatman' and 'alone he catches the falling snow on the cold, emphasizing the contrast between the expansive natural setting and the solitary figure.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

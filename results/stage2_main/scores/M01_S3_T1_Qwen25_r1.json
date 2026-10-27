@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S3_T1_Qwen25_r1",
+  "anon_code": "T_34ab05e2",
+  "poem_id": "M01",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Full of emotion yet seeming indifferent",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Full of emotion yet seeming indifferent' directly captures both 'deep love/affection' and 'seeming coldness/indifference' while maintaining the paradoxical tension between them.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Full of emotion yet seeming indifferent, I can scarcely find words to speak.",
+        "evidence_found": true,
+        "reasoning": "The translation describes being unable to find words, not the inability to smile, and does not mention the wine-related scene.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Like a candle with a heart, it weeps for us until the break of dawn.",
+        "evidence_found": true,
+        "reasoning": "The phrase explicitly states that the candle has a heart (有心) and weeps (惜别) for the speaker until dawn, preserving the personification and emotional depth.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "it weeps for us until the break of dawn",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it weeps for us until the break of dawn' directly preserves the '替人垂泪到天明' meaning by explicitly stating 'for us' (替人) and 'until the break of dawn' (到天明).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

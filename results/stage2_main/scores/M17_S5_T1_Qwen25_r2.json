@@ -1,0 +1,67 @@
+{
+  "translation_id": "M17_S5_T1_Qwen25_r2",
+  "anon_code": "T_d95a3b36",
+  "poem_id": "M17",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "This love could be remembered as a: dream",
+        "evidence_found": false,
+        "reasoning": "The phrase 'could be remembered as a dream' uses 'could' to express a future possibility (future tense) and implies that the love would become a memory, fulfilling the requirement of expressing 'become a memory' in the future.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "it was already so bittersweet",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it was already so bittersweet' uses past tense and 'already' to convey the completed state of being bittersweet at that time.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The emotions were deep, yet the voice was faint",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The emotions were deep' directly corresponds to 'this emotion's depth' while 'voice was faint' implies the emotional intensity being restrained or unexpressed, fulfilling the requirement for 'this emotion's reference' and emotional vocabulary.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This love could be remembered as a dream, Yet at the time, it was already so bittersweet.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts the future memory ('could be remembered') with the past experience ('at the time, it was already') to capture the temporal complexity required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 1.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

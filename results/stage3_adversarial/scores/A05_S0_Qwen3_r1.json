@@ -1,0 +1,58 @@
+{
+  "translation_id": "A05_S0_Qwen3_r1",
+  "anon_code": "T_9ae21d13",
+  "poem_id": "A05",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I can't leave you, I can't part from you; I cannot help but grieve and think of you.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'can't' and 'cannot help but' to convey the sense of being compelled or unable to avoid separation, which aligns with the meaning of '不得不' (must/have to/compelled to).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "I can't leave you, I can: I cannot help but grieve and think of you.",
+        "evidence_found": false,
+        "reasoning": "The translation conveys the conditional relationship where not being able to leave or part from the person leads to grief and thinking of them, matching the original's '不见不思' meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I can't leave you, I can't part from you; I cannot help but grieve and think of you.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the dual negation structure by using two 'can't' clauses and the conditional 'cannot help but' to express the inability to leave or part, while maintaining the emotional weight of grief and longing.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

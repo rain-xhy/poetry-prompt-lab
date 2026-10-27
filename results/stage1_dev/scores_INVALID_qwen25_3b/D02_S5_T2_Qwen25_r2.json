@@ -1,0 +1,62 @@
+{
+  "translation_id": "D02_S5_T2_Qwen25_r2",
+  "anon_code": "T_90161eb2",
+  "poem_id": "D02",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "孤云自在行",
+        "evidence_found": true,
+        "reasoning": "译文中的'孤云自在行'并没有表达出'全部、消失'之意",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "孤云自在行",
+        "evidence_found": true,
+        "reasoning": "众鸟高飞空，孤云自在行",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "相对两无语，惟有山倾听。",
+        "evidence_found": true,
+        "reasoning": "该句中山为被动的倾听者，不符合山作为主动看者的条件",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "相对两无语，惟有山倾听。",
+        "evidence_found": true,
+        "reasoning": "翻译中没有使用only/alone等限定，且没有保留专名Jingting Mountain（或等价音译/注释）",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.65,
+    "valid": true
+  }
+}

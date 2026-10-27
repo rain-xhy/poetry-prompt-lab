@@ -1,0 +1,67 @@
+{
+  "translation_id": "M13_S5_T1_Qwen3_r3",
+  "anon_code": "T_32cf05ac",
+  "poem_id": "M13",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The flocks of birds have vanished",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The flocks of birds have vanished' does not express 'no birds' but implies birds have disappeared, which is not the same as absolute absence of birds as required by '鸟飞尽、没有鸟飞（绝对否定）'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "All paths are silent, no trace of human footstep",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no trace of human footstep' directly translates the concept of '人的踪迹消失' with absolute negation, and 'All paths are silent' conveys the '灭' (disappearance) sense through silence and absence of human presence.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A solitary boat, draped in a cloak and hat, Sits alone, casting the cold snow in its wake.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'solitary boat' and 'sits alone' directly convey '独自' (alone) and the action of '垂钓' (fishing) is implied through the context of being alone in a boat with cold snow.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "All paths are silent, no trace of human footstep. A solitary boat, draped in a cloak and hat, sits alone, casting the cold snow in its wake.",
+        "evidence_found": true,
+        "reasoning": "The translation effectively conveys the vastness of space through 'all paths' and the solitude of the individual via 'solitary boat' and 'sits alone', creating a clear contrast between the expansive environment and the isolated figure.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

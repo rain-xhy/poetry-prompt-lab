@@ -1,0 +1,62 @@
+{
+  "translation_id": "D05_S0_Qwen25_r2",
+  "anon_code": "T_a87b5a05",
+  "poem_id": "D05",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of生死 (life and death), both are void; Not thinking about it, yet it remains deeply in my heart.",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the phrase '十年生死两茫茫' (Ten years of life and death, both are void) and does not express the 'deeply in my heart' part which is a key element of the original.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of生死 (life and death), both are void; Not thinking about it, yet it remains deeply in my heart.",
+        "evidence_found": true,
+        "reasoning": "The provided translation does not preserve the exact phrase '不思量，自难忘' (not thinking about it, yet it remains deeply in my heart). Instead, it translates '不思量' as 'Ten years of生死 (life and death), both are void; Not thinking about it, yet it remains deeply in my heart.' This translation changes the meaning and does not accurately reflect the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "not thinking about it, yet it remains deeply in my heart.",
+        "evidence_found": true,
+        "reasoning": "The phrase '相隔千里的孤独坟墓' (a solitary grave at a thousand miles, Where no words can express my sorrow) is not present in the provided translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Not thinking about it, yet it remains deeply in my heart.",
+        "evidence_found": true,
+        "reasoning": "The phrase '没有人可诉说凄凉' is not directly translated but implied in the sentiment of the poem.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.2,
+    "valid": true
+  }
+}

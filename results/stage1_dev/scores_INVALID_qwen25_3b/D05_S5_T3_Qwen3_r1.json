@@ -1,0 +1,62 @@
+{
+  "translation_id": "D05_S5_T3_Qwen3_r1",
+  "anon_code": "T_e24cebe7",
+  "poem_id": "D05",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of life and death, two miles apart—",
+        "evidence_found": true,
+        "reasoning": "The phrase '十年生死两茫茫' (Ten years of life and death, two miles apart—) does not accurately translate the original phrase '十年生死两茫茫' (Ten years of life and death, both are vague and indistinct). The translation adds a new concept of 'two miles apart' which is not present in the original. The translation also does not preserve the sense of '两茫茫' (both are vague and indistinct).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of life and death, two miles apart—Not thinking, yet it is deeply remembered.",
+        "evidence_found": false,
+        "reasoning": "The translation states 'Not thinking, yet it is deeply remembered.' which contradicts the original '不思量，自难忘' (not thinking, yet it is naturally remembered).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "a thousand miles away, a lonely grave—There is no place to vent my sorrow.",
+        "evidence_found": false,
+        "reasoning": "The phrase '相隔千里的孤独坟墓' (a thousand miles away, a lonely grave) is not present in the translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "There is no place to vent my sorrow.",
+        "evidence_found": true,
+        "reasoning": "Not thinking, yet it is deeply remembered.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 2,
+    "overall": 3.85,
+    "valid": true
+  }
+}

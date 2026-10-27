@@ -1,0 +1,67 @@
+{
+  "translation_id": "M19_S0_Qwen25_r2",
+  "anon_code": "T_8ccd0570",
+  "poem_id": "M19",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I've often been to Mr. Qi's house in Linjiang, Where I've heard Mr. Cui Nine in many a song.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I've often been' refers to past actions but does not convey 'multiple times' as required; 'many a song' implies multiple songs but not the frequency of hearing.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Now in the beautiful scenes of Jiangning, The blossoming flowers meet once again, dear friend.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'meet once again' directly translates to '又逢' meaning a current re-encounter, and 'now' specifies the present tense.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Now in the beautiful scenes of Jiangning,",
+        "evidence_found": true,
+        "reasoning": "The phrase does not explicitly contrast past and present or imply a change in circumstances as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The blossoming flowers meet once again, dear friend.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'blossoming flowers' directly translates the '落花' (fallen flowers) imagery, and 'meet once again' implies the symbolic meaning of reunion or fleeting moments in the context of the poem.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

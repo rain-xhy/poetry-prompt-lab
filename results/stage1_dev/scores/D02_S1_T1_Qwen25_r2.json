@@ -1,0 +1,76 @@
+{
+  "translation_id": "D02_S1_T1_Qwen25_r2",
+  "anon_code": "T_c45fa30b",
+  "poem_id": "D02",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "All birds have flown away high",
+        "evidence_found": true,
+        "reasoning": "The phrase 'All birds have flown away high' does not convey 'bird群都飞走了' (bird group all flew away) as it specifies 'high' and implies continuous movement rather than complete disappearance.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "All birds have flown away high, And circling clouds drift lazily.",
+        "evidence_found": true,
+        "reasoning": "The translation describes clouds drifting lazily but does not explicitly convey the 'alone' or 'single' aspect required by the original phrase, which emphasizes solitude and individuality of the cloud.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I gaze upon you, my dear, The only mountain I adore.",
+        "evidence_found": true,
+        "reasoning": "The translation states 'I gaze upon you' which implies the speaker is the active subject looking, but the original phrase requires the mountain to be the active 'watcher' (山作为主动的看者), not the speaker.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The only mountain I adore",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The only mountain I adore' directly translates the requirement of 'only Jingting Mountain' with 'only' as the limiting word and 'Jingting Mountain' implied as the adored mountain.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

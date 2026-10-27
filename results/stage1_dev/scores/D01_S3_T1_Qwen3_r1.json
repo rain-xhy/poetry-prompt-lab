@@ -1,0 +1,76 @@
+{
+  "translation_id": "D01_S3_T1_Qwen3_r1",
+  "anon_code": "T_f61a853f",
+  "poem_id": "D01",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling cannot be measured or removed; it first fades from the brow, but then returns to the heart.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'cannot be measured or removed' which does not match the required meaning of '愁绪无法排遣' (emotional distress that cannot be dispelled), and the additional description about fading and returning does not align with the requirement of expressing 'cannot be eliminated' without implying a change in state.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling cannot be measured or removed; it first fades from the brow, but then returns to the heart.",
+        "evidence_found": true,
+        "reasoning": "The translation states 'fades from the brow' which implies the feeling is leaving the brow, but the original phrase '才下眉头' means 'just left the brow' indicating a recent, immediate departure, not a fading process.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling cannot be measured or removed; it first fades from the brow, but then returns to the heart.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express a clear turn or contrast (yet/but/again) as required, and the focus is on 'brow' rather than 'heart' as the final point.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "it first fades from the brow, but then returns to the heart",
+        "evidence_found": true,
+        "reasoning": "The translation shows the sequential transfer of sorrow from the brow to the heart without it disappearing, meeting both conditions of tight succession and persistent emotion.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 3.9,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

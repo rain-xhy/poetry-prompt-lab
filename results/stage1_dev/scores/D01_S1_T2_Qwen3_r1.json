@@ -1,0 +1,76 @@
+{
+  "translation_id": "D01_S1_T2_Qwen3_r1",
+  "anon_code": "T_ae5ecdd3",
+  "poem_id": "D01",
+  "strategy": "S1_T2",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling cannot be erased, A brow that falls, then rises again.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'erased' which implies complete removal, but the original phrase refers to 'eliminating' or 'dispelling' emotions, not erasing. Also, the second line about a brow rising again suggests a cyclical nature that contradicts the requirement for 'cannot be eliminated' without any resolution.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A brow that falls, then rises again.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A brow that falls, then rises again' does not convey the meaning of '愁刚从眉间离开' (sorrow just left the brow) as it describes a cycle of falling and rising rather than the immediate departure of sorrow from the brow.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A brow that falls, then rises again.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express a clear contrast or turn (yet/but/again) as required, and the focus is on the brow rather than the heart.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A brow that falls, then rises again.",
+        "evidence_found": true,
+        "reasoning": "The translation describes a brow rising and falling, but the original phrase '才下……却上' implies a continuous, unbroken flow of sorrow between the brow and heart without actual resolution, whereas the translation suggests a temporary state of the brow that may not convey the persistent, inescapable nature of the sorrow.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

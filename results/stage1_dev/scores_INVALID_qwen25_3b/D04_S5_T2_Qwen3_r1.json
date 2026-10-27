@@ -1,0 +1,57 @@
+{
+  "translation_id": "D04_S5_T2_Qwen3_r1",
+  "anon_code": "T_5a5b25de",
+  "poem_id": "D04",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Yet it cannot match the depth of my sincere feeling.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the original phrase '桃花潭水深千尺' and does not express the depth of the water in a way that matches the original meaning or intent.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Yet it cannot match the depth of my sincere feeling.",
+        "evidence_found": true,
+        "reasoning": "The phrase '不及' is translated as 'cannot match the depth of my sincere feeling', which implies 'deeper' rather than 'not as deep'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The wind knocks at the door for me",
+        "evidence_found": true,
+        "reasoning": "The phrase '汪伦送我' is not preserved in the translation. Instead, the translation introduces a new scenario involving Tao Lake and a wind knocking at the door, which does not match the original meaning of '汪伦送我'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Yet it cannot match the depth of my sincere feeling.",
+        "evidence_found": true,
+        "reasoning": "The phrase '以水深比情深的比喻' is not preserved in the translation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\"adequacy\":1,\"imagery\":0,\"emotion\":1,\"fluency\":2,\"poetic_quality\":0}"
+  }
+}

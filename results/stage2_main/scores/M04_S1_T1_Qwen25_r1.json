@@ -1,0 +1,67 @@
+{
+  "translation_id": "M04_S1_T1_Qwen25_r1",
+  "anon_code": "T_a44848f3",
+  "poem_id": "M04",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If two lovers’ feelings are true and deep, It doesn’t depend on meeting day and night.",
+        "evidence_found": true,
+        "reasoning": "The translation uses a conditional structure starting with 'If' to express the condition assumption, and 'true and deep' conveys the meaning of 'long-lasting' or 'enduring' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "It doesn’t depend on meeting day and night.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'It doesn: t depend on meeting day and night' explicitly states that daily meetings are not necessary, fulfilling the requirement of 'not depending on daily meetings' and expressing a negation through the phrasing.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "It doesn’t depend on meeting day and night.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'meeting day and night' does not convey the continuous, overlapping time sense required by '朝朝暮暮' which implies repeated daily meetings, not just the idea of meeting throughout time.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If two lovers’ feelings are true and deep, It doesn’t depend on meeting day and night.",
+        "evidence_found": true,
+        "reasoning": "The translation preserves the conditional structure 'if...' and the rhetorical question 'it doesn’t depend on' which implies the conclusion through negation, while 'meeting day and night' corresponds to the original's implied condition of frequent meetings.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

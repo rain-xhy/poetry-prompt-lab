@@ -1,0 +1,19 @@
+{
+  "id": "A09_S0_Qwen25_r3",
+  "poem_id": "A09",
+  "trap_type": "conditional_to_causal",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n秦时明月汉时关，万里长征人未还。\n只因龙城飞将在，胡马不度阴山。",
+  "prompt_sha256": "99095a7c75f6e712d33b31536dfaf736968d44d04c759701d2cbaed80331b962",
+  "translation": "Here is my translation of the Chinese classical poem into English:\n\n\"From Qin to Han, the bright moon hangs,\nA万里-long march, no one returns.\nHad Li Guang's spirit still been here,\nThe Huns would not dare to cross the Yin Mountains.\"\n\nNotes on the translation:\n1. \"秦时明月汉时关\" (Qin Shi MIng Yue Han Shi Guan) is translated as \"From Qin to Han, the bright moon hangs,\" maintaining the image of the same bright moon across different dynasties.\n2. \"万里长征人未还\" (Wan Li Chang Zheng Ren Wei Huan) is rendered as \"A万里-long march, no one returns,\" where \"A万里\" (Wan Li) is a common way to express \"Ten Thousand Li\" in classical Chinese poetry.\n3. \"只因龙城飞将在\" (Zhi Yin Long Cheng Fei Zai Jiang) is translated as \"Had Li Guang's spirit still been here,\" referring to Li Guang, a famous general in the Han Dynasty, who was known for his effective defense strategies against the Xiongnu.\n4. \"胡马不度阴山\" (Hu Ma Bu Du Yin Shan) is rendered as \"The Huns would not dare to cross the Yin Mountains,\" where \"胡马\" (Hu Ma) refers to the Huns, and \"阴山\" (Yin Shan) is the name of a mountain range in China, often used in classical poetry to symbolize the frontiers or boundaries.\n\nPlease note that while this translation aims to maintain the essence and poetic qualities of the original, slight adjustments may be necessary for a more natural-sounding English version.",
+  "metadata": {
+    "input_tokens": 69,
+    "output_tokens": 346,
+    "latency_ms": 14829.334735870361,
+    "timestamp": "2026-10-26T21:46:42.777679",
+    "finish_reason": "stop"
+  }
+}

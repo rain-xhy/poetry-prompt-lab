@@ -1,0 +1,19 @@
+{
+  "id": "M09_S1_T1_Qwen3_r2",
+  "poem_id": "M09",
+  "trap_type": "拟人意象",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n月落乌啼霜满天，江枫渔火对愁眠。",
+  "prompt_sha256": "b93d96fcaa09cfbcae4c763cb3212063929f8c7698ea4d4f86c325cd566a53d6",
+  "translation": "The moon sinks, the cranes cry, frost covers the sky—  \nThe river's willow fires light up the sorrowful night.\n\n[The moon's descent and the cranes' cries evoke a sense of solitude and melancholy, reflecting the poet's emotional state.]",
+  "metadata": {
+    "input_tokens": 227,
+    "output_tokens": 56,
+    "latency_ms": 12966.493606567383,
+    "timestamp": "2026-10-26T20:58:02.047114",
+    "finish_reason": "stop"
+  }
+}

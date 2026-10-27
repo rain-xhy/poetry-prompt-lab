@@ -1,0 +1,67 @@
+{
+  "translation_id": "M08_S5_T2_Qwen25_r3",
+  "anon_code": "T_db8288f9",
+  "poem_id": "M08",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "In the empty mountain, no one is seen,",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no one is seen' directly translates to '看不见人' and contrasts with the implied 'sound of voices' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Sunlight returns, deep in the forest",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Sunlight returns, deep in the forest' directly translates the dynamic movement of '返景入深林' as sunlight (夕照) moving into the deep forest.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Illumines the green moss, again and again.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'again and again' directly translates the '又/再次' meaning and '青苔' is represented by 'green moss' in the translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "In the empty mountain, no one is seen, Only the sound of voices fills the scene. Sunlight returns, deep in the forest, Illumines the green moss, again and again.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys an empty or vast mountain (empty mountain) and a quiet, secluded atmosphere (no one is seen, sound of voices fills the scene) without denying the existence of the mountain.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

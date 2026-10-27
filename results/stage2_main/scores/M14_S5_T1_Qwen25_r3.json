@@ -1,0 +1,67 @@
+{
+  "translation_id": "M14_S5_T1_Qwen25_r3",
+  "anon_code": "T_21a0d8df",
+  "poem_id": "M14",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Yet, if the hero at Longcheng were still",
+        "evidence_found": true,
+        "reasoning": "The phrase 'if the hero at Long as long as' matches the condition assumption requirement with the correct conditional structure.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The barbarian horses would not cross the Yin Mountains",
+        "evidence_found": true,
+        "reasoning": "The phrase 'would not cross' directly translates the 'not allow' meaning from the original Chinese phrase '不让...越过', indicating a preventive action against crossing the mountains.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Yet, if the hero at Longcheng were still, the barbarian horses would not cross the Yin Mountains.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'if the hero at Long: the barbarian horses would not cross the Yin Mountains' clearly establishes a conditional relationship where the result (barbarian horses not crossing) depends on the condition (hero at Longcheng being present).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A万里-long march by men never ends",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A万里-long march by men never ends' does not directly refer to a border pass or military leader as required; it describes an endless march without specifying the context of border defense or a specific historical figure.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 1.45,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

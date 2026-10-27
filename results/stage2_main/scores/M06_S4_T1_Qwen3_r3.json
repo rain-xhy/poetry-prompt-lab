@@ -1,0 +1,67 @@
+{
+  "translation_id": "M06_S4_T1_Qwen3_r3",
+  "anon_code": "T_63386b74",
+  "poem_id": "M06",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I wonder how many blossoms have fallen",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I wonder how many bloss' has the subject 'I' and expresses uncertainty about the number of fallen blossoms, matching the requirement that the subject is 'I' and the meaning is '不知道花落了多少'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "In the morning, I sleep soundly, unaware of the dawn",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states 'sleep soundly, unaware of the dawn' which captures the sleep and unawareness of dawn as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "throughout the land, the birds sing in response",
+        "evidence_found": true,
+        "reasoning": "The phrase 'throughout the land' expresses '到处' (everywhere) and 'the birds sing' indicates auditory perception of birds, meeting both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The sound of the wind and rain last night echoes",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The sound of the wind and rain last night echoes' directly corresponds to the required meaning of '昨夜听到风雨声' by expressing the past time ('last night') and the sound of wind and rain.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

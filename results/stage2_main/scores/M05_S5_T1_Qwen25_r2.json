@@ -1,0 +1,67 @@
+{
+  "translation_id": "M05_S5_T1_Qwen25_r2",
+  "anon_code": "T_9e74cf4a",
+  "poem_id": "M05",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Lamenting endlessly, I wander, In a realm of icy silence, My sorrow grows deeper and more intense. Three layers of sorrow, three layers of, From the ceaseless search to the bleak surroundings, And ultimately, to the profound anguish within.",
+        "evidence_found": false,
+        "reasoning": "The phrase 'ceaseless search' directly translates the repeated searching action, and 'Lamenting endlessly' captures the continuous nature of the search, meeting both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "In a realm of icy silence, In a world of cold and emptiness, bleak surroundings",
+        "evidence_found": false,
+        "reasoning": "The phrases 'icy silence', 'cold and emptiness', and 'bleak surroundings' directly convey the cold, desolate environment required, and the context shows progression from the initial state to deeper emotional states.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Lamenting endlessly, I wander, In a realm of icy silence, My sorrow grows deeper and more intense. Three layers of sorrow, three layers of: loneliness, From the ceaseless search to the bleak surroundings, And ultimately, to the profound anguish within.",
+        "evidence_found": false,
+        "reasoning": "The translation captures deep sorrow with layered progression from wandering to emotional depth, meeting both conditions of profound sadness and emotional hierarchy.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Lamenting endlessly, I wander, In a realm of icy silence, My sorrow grows deeper and more intense. Three layers of sorrow, three layers of loneliness, From the ceaseless search to the bleak surroundings, And ultimately, to the, profound anguish within.",
+        "evidence_found": false,
+        "reasoning": "The translation clearly shows the progression from action (wandering), environment (icy silence), to emotion (sorrow deepening), maintaining the required order without disruption.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

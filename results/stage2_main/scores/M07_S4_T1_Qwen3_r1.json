@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S4_T1_Qwen3_r1",
+  "anon_code": "T_8071c6aa",
+  "poem_id": "M07",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the grand halls of Wang and Che",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly mentions 'Wang' and 'Che' as specific family names, preserving the required '东晋王氏谢氏世家' without genericization.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Once, the grand halls of Wang and Che welcomed the f as the winged bird flies in",
+        "evidence_found": false,
+        "reasoning": "The translation shows a clear time contrast with 'Once' and 'now', and contrasts the elite 'grand halls of Wang and Che' with the commoner's home where the bird flies.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "now a commoner's home is where the winged bird flies in",
+        "evidence_found": true,
+        "reasoning": "The phrase 'winged bird' refers to the swallow (燕子) as a witness, preserving the imagery without implying the swallow has lived for centuries.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "On the wild grass by the Ziqiao Bridge, the sun casts a golden shadow at the edge of the Uyí Village.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly mentions 'wild grass' and 'sun' (implied by 'casts a golden shadow'), conveying a desolate scene as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.95,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

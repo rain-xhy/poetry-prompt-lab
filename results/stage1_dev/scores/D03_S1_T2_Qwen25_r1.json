@@ -1,0 +1,76 @@
+{
+  "translation_id": "D03_S1_T2_Qwen25_r1",
+  "anon_code": "T_9afc9772",
+  "poem_id": "D03",
+  "strategy": "S1_T2",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "劝君再饮杯中酒",
+        "evidence_found": true,
+        "reasoning": "The phrase '劝君再饮杯中酒' directly translates to 'encourage you to drink another cup of wine' which matches the required meaning of '我劝你再干一杯酒' with the speaker addressing a friend to drink one more cup of wine.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "West out Yangguan",
+        "evidence_found": false,
+        "reasoning": "The phrase 'West out Yangguan' directly translates to '向西出了阳关' as required, meeting both conditions of west direction and Yangguan preservation.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "路漫漫无人共赏",
+        "evidence_found": true,
+        "reasoning": "The phrase '路漫漫无人共赏' translates to 'the road is long with no one to share the view', which directly expresses 'no old friends/acquaintances' without expanding the scope to 'no one at all'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "路漫漫无人共赏，独自饮酒忆故人",
+        "evidence_found": false,
+        "reasoning": "The phrase '路漫漫无人共赏' directly links the absence of old friends (无故人) to the act of drinking alone, showing the causal relationship between the two concepts as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.65,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

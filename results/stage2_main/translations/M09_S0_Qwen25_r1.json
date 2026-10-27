@@ -1,0 +1,19 @@
+{
+  "id": "M09_S0_Qwen25_r1",
+  "poem_id": "M09",
+  "trap_type": "拟人意象",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n月落乌啼霜满天，江枫渔火对愁眠。",
+  "prompt_sha256": "3130991d30a52d520ee34caaba9024845af4ff80532f49ebaf7305c1aa790d80",
+  "translation": "Here is an English translation of the classical Chinese poem you provided:\n\n\"When the moon has set and the乌鸦 crows,霜 frost fills the sky, the river maple trees light up, I lie awake with sorrow.\"\n\nThis translation aims to capture the essence and imagery of the original poem, maintaining its poetic structure and mood. The poem describes a desolate and melancholic scene at night.",
+  "metadata": {
+    "input_tokens": 57,
+    "output_tokens": 79,
+    "latency_ms": 1148.6313343048096,
+    "timestamp": "2026-10-26T20:06:06.627319",
+    "finish_reason": "stop"
+  }
+}

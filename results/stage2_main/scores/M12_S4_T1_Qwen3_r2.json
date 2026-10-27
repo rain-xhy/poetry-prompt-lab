@@ -1,0 +1,67 @@
+{
+  "translation_id": "M12_S4_T1_Qwen3_r2",
+  "anon_code": "T_88cd40a0",
+  "poem_id": "M12",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Desiring to see a thousand miles beyond",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Desiring to see a thousand miles beyond' uses 'desiring' (a form of 'want to') and specifies 'a thousand miles' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "one must climb higher, to the next level",
+        "evidence_found": true,
+        "reasoning": "The phrase 'one must climb higher, to the next level' directly expresses the requirement to ascend further, fulfilling the condition of needing to go up one more level as a means to achieve the desired view.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Desiring to see a thousand miles beyond, one must climb higher, to the next level.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly expresses the purpose (desiring to see a thousand miles beyond) and the means (climb higher) with a logical connection that matches the required purpose-meaning relationship.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "White day sets behind the mountains, the Yellow River flows into the sea. Desiring to see a thousand miles beyond, one must climb higher, to the next level.",
+        "evidence_found": true,
+        "reasoning": "The translation includes an additional line about climbing higher, which is not part of the original Chinese phrase and thus does not preserve the two original images as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

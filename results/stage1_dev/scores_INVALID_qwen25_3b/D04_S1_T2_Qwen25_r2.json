@@ -1,0 +1,57 @@
+{
+  "translation_id": "D04_S1_T2_Qwen25_r2",
+  "anon_code": "T_11042932",
+  "poem_id": "D04",
+  "strategy": "S1_T2",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Not even thousand-li尺尺 kinship",
+        "evidence_found": true,
+        "reasoning": "The phrase '千尺' (thousand feet) is not preserved in the translation, and the phrase '汪伦汪伦 farewell情情' is added which is not in the original.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Not even thousand-li尺尺 kinship",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Not even thousand-li尺尺 kinship' is not preserved and changes the meaning from '比不上' to '更深' or '一样深'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "汪伦为我送行",
+        "evidence_found": false,
+        "reasoning": "The translation does not mention '汪伦为我送行', only '汪伦送我'",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "情情",
+        "evidence_found": true,
+        "reasoning": "The translation uses '情情' which does not match the '情谊' in the original phrase and the instruction to preserve '以水深比情深的比喻'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\"adequacy\":1,\"imagery\":0,\"emotion\":1,\"fluency\":0,\"poetic_quality\":0}"
+  }
+}

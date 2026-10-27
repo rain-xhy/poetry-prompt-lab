@@ -1,0 +1,67 @@
+{
+  "translation_id": "M18_S5_T2_Qwen25_r3",
+  "anon_code": "T_afb9096d",
+  "poem_id": "M18",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "无可奈何花落去",
+        "evidence_found": true,
+        "reasoning": "The phrase '无可奈何花落去' directly translates to 'helpless flower falling away' which expresses the required sense of helplessness and the action of flowers falling.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "燕归来",
+        "evidence_found": true,
+        "reasoning": "The phrase '燕归来' directly translates to 'swallows returning' which captures the '燕子归来的动作' (swallows returning) and the context implies 'seem familiar' through the poetic structure.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "花落去, 燕归来",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly contrasts the departure of flowers (花落去) with the return of swallows (燕归来), showing the opposite directions of movement as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "无可奈何花落去，似水年华燕归来。春去秋来几多事，人事如梦燕双飞。",
+        "evidence_found": false,
+        "reasoning": "The translation conveys time passing (e.g., '似水年华' meaning 'flowing years') and the sentiment of things unchanged while people change (e.g., '人事如梦' implying transient human affairs).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

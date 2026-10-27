@@ -1,0 +1,67 @@
+{
+  "translation_id": "M17_S5_T3_Qwen3_r1",
+  "anon_code": "T_e8f46067",
+  "poem_id": "M17",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This emotion can be cherished as a memory, yet at the time, it was already茫然 (muddled).",
+        "evidence_found": true,
+        "reasoning": "The translation does not use a question structure (must/can/could) to express the future becoming a memory, but instead states a past state of being muddled without the required question form.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "it was already茫然",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it was already茫然' uses past tense and 'already' to convey the completed state of being muddled at that time, matching the required meaning of '当时就已经惘然 (past perfect).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This emotion can be cherished as a memory, yet at the time, it was already茫然 (muddled).",
+        "evidence_found": true,
+        "reasoning": "The phrase '此情' refers to 'this emotion' or 'this feeling', but the translation describes 'this emotion can be cherished as a memory', which adds a new meaning (being cherished as a memory) that is not present in the original phrase. The original phrase does not imply that the emotion is being cherished as a memory; it simply refers to the emotion itself. Additionally, the term '茫然 (muddled)' is a translation of the Chinese character '茫然', which is not part of the original phrase '此情'. The original phrase '此情' does not include any reference to being muddled or confused.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This emotion can be cherished as a memory, yet at the time, it was already茫然 (muddled).",
+        "evidence_found": true,
+        "reasoning": "The translation captures the contrast between future memory (cherished as a memory) and past confusion (already muddled at the time), meeting both conditions of complex tense and future vs past contrast.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

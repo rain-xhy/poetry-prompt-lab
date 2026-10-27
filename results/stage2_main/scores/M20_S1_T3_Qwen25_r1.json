@@ -1,0 +1,67 @@
+{
+  "translation_id": "M20_S1_T3_Qwen25_r1",
+  "anon_code": "T_34bab4c3",
+  "poem_id": "M20",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell in the upper reaches of the Yangtze, You reside at its farthest edge.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts the speaker's location (upper reaches) with the other person's location (farthest edge) of the Yangtze River, fulfilling the requirement for spatial parallelism and contrast between the two ends.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "日夜思念你，却无缘相见",
+        "evidence_found": true,
+        "reasoning": "The phrase '日夜思念你，却无缘相见' directly expresses the continuous daily思念 (daily thoughts) and the contradiction of not being able to see the person, meeting both pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "共饮此江水",
+        "evidence_found": true,
+        "reasoning": "The phrase '共饮此江水' directly translates to 'drink this river water together', preserving the 'common drinking' aspect and the connection through shared water.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell in the upper reaches of the Yangtze, You reside at its farthest edge.",
+        "evidence_found": true,
+        "reasoning": "The first two lines explicitly describe physical separation (upper reaches vs farthest edge of Yangtze River) while implying emotional connection through the river as a shared symbol, creating tension between physical distance and emotional bond.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "translation_id": "A09_S5_T1_Qwen3_r2",
+  "anon_code": "T_3e101cb5",
+  "poem_id": "A09",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Only because the general of the northern frontier was stationed",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Only because' directly translates '只因' as a causal conjunction, indicating the cause-effect relationship as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The bright moon of the Qin dynasty and the garrison of the Han, a journey of ten thousand li, the traveler has not returned. Only because the general of the northern frontier was stationed, the horses of the enemy cannot cross the mountain.",
+        "evidence_found": true,
+        "reasoning": "The translation describes a historical scenario with specific historical references and military context, which implies assumptions about the Qin and Han dynasties and the nature of the 'traveler' and 'enemy' rather than stating a straightforward factual claim.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Only because the general of the northern frontier was stationed",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'Only because' which implies a causal relationship where the general's presence is the reason for the enemy's inability to cross, whereas the original phrase '但使' indicates a conditional relationship (if) rather than a causal one, thus changing the logical structure as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 1.45,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

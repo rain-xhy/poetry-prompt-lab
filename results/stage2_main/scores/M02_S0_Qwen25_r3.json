@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S0_Qwen25_r3",
+  "anon_code": "T_5345e656",
+  "poem_id": "M02",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "this is the most to express one's thoughts",
+        "evidence_found": true,
+        "reasoning": "The phrase 'this is the most to express one's thoughts' directly translates the symbolic meaning of '红豆' as 'the most to express one's thoughts', indicating it is the embodiment of longing and affection.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I hope you will take many",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I hope you will take many' explicitly expresses a wish/hope for the reader to gather the red beans, fulfilling the requirement of expressing hope/encouragement and addressing 'you' directly for the action of picking.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "for this is the most to express one's thoughts",
+        "evidence_found": true,
+        "reasoning": "The phrase 'this is the most to express one's thoughts' directly translates to 'this is the most able to express longing' which meets the requirement of expressing 'this thing is most able to symbolize/express longing'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "how many sprouts will they bear this spring",
+        "evidence_found": true,
+        "reasoning": "The phrase 'how many sprouts will they bear this spring' directly translates the meaning of '春来发几枝' by expressing the time of spring and the natural action of sprouting.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

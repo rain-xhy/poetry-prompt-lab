@@ -1,0 +1,19 @@
+{
+  "id": "M14_S1_T3_Qwen25_r2",
+  "poem_id": "M14",
+  "trap_type": "否定逻辑",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n秦时明月汉时关，万里长征人未还。\n但使龙城飞将在，不教胡马度阴山。",
+  "prompt_sha256": "1f115a6346305e6c1e4f676e773e31b59ae7527daecf0bc36e9e51246ef3f215",
+  "translation": "**English Translation:**\n\n[Note: The poem refers to the historical context of the Han Dynasty's defense against the Xiongnu (Huns), and \"龙城飞将\" (Longcheng Fjiaoshang) is a metaphor for the heroic generals who would have been stationed at the Longcheng Fort, known for its strategic location on the Great Wall (Yin Shan).]\n\n**English Translation:**\n\n[Note: \"龙城飞将\" (Longcheng Fjiaoshang) is a metaphor for the heroic generals stationed at Longcheng Fort, known for its strategic location on the Great Wall (Yin Shan).]\n\n**English Translation:**\n\n[Note: \"秦时明月汉时关\" (Qin Shi Ming Yue Han Shi Guan) alludes to the historical setting during the Han Dynasty, and \"万里长征人未还\" (Wan Li Zheng Cheng Ren Wei Huan) highlights the endurance and resilience of the soldiers.]\n\n**English Translation:**\n\n[Note: \"但使龙城飞将在\" (Dang Shi Long Cheng Fjiaoshang) expresses the hope for the return of such heroic generals, while \"不教胡马度阴山\" (Bu Jiao Hu Ma Du Yin Shan) emphasizes the determination to defend the northern territories against the enemy.]\n\n**English Translation:**\n\n[Note: The poem employs personification of the \"秦时明月\" (Qin Shi Ming Yue) as a symbol of the enduring and far-reaching nature of the conflict, and the \"汉时关\" (Han Shi Guan) represents the formidable border defenses.]\n\n**English Translation:**\n\n[Note: The poet uses \"秦时明月汉时关\" (Qin Shi Ming Yue Han Shi Guan) to evoke the grandeur and distance of the conflict, and \"万里长征人未还\" (Wan Li Zheng Cheng Ren Wei Huan) underscores the endurance and hardship of the soldiers.]",
+  "metadata": {
+    "input_tokens": 238,
+    "output_tokens": 400,
+    "latency_ms": 5611.886262893677,
+    "timestamp": "2026-10-26T20:08:32.304085",
+    "finish_reason": "stop"
+  }
+}

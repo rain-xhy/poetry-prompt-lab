@@ -1,0 +1,62 @@
+{
+  "translation_id": "D02_S1_T3_Qwen3_r1",
+  "anon_code": "T_66f35369",
+  "poem_id": "D02",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Birds fly away far and high",
+        "evidence_found": true,
+        "reasoning": "The translation states 'Birds fly away far and high', which does not convey the idea of 'all birds flying away' as required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Birds fly away far and high",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'Birds fly away far and high' instead of '孤云独去闲' which means '孤云独自悠闲地飘走'",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Only the mountain of Jingting remains.",
+        "evidence_found": true,
+        "reasoning": "The phrase '人与山互相看着，都不厌倦' is not preserved in the translation. The translation focuses on birds and clouds instead of the original imagery of people and the mountain.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "We look at each other without hate",
+        "evidence_found": true,
+        "reasoning": "The phrase '只有敬亭山' is not preserved in the translation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.95,
+    "valid": true
+  }
+}

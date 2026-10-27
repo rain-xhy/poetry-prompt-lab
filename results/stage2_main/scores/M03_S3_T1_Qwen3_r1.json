@@ -1,0 +1,67 @@
+{
+  "translation_id": "M03_S3_T1_Qwen3_r1",
+  "anon_code": "T_4f5e02d5",
+  "poem_id": "M03",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I have no fixed period",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I have no fixed period' directly translates to '尚未确定' and meets the requirement of expressing 'cannot yet be set' without implying 'no deadline' or 'never'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When will we together light the western window candle",
+        "evidence_found": true,
+        "reasoning": "The phrase 'When will we together light the western window candle' uses the future tense 'will' to express the future assumption of sharing the action of lighting the candle at the western window, matching the required meaning of '什么时候能一起剪西窗烛' (when can we together trim the western window candle).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When you ask for the time of my return, I have no fixed period—",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly convey '将来回忆过去' (future recalling past) or '今夜巴山雨' (this night's Ba Shan rain) as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the night rain in the mountain rivers fills the autumn pool",
+        "evidence_found": true,
+        "reasoning": "The phrase 'the night rain in the mountain rivers fills the autumn pool' directly translates the required meaning of '雨使池水上涨' while preserving the three key意象: 巴山 (mountain rivers), 夜雨 (night rain), and 秋池 (autumn pool).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

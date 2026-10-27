@@ -1,0 +1,62 @@
+{
+  "translation_id": "D04_S5_T3_Qwen3_r2",
+  "anon_code": "T_9080c695",
+  "poem_id": "D04",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The translation states 'The depth of the Tao Lake water is thousands of feet', which does not preserve the original '桃花潭水深千尺' and does not convey the emotional depth implied by '不及' (cannot match the depth of the feelings).",
+        "evidence_found": false,
+        "reasoning": "The translation focuses on the physical depth of the water but does not capture the emotional and metaphorical depth implied by the original phrase, which is a key aspect of the original poem's meaning and tone.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The translation states 'The depth of the Tao Lake water is thousands of feet, but it cannot match the depth of the feelings conveyed by Wang Lun's farewell.'",
+        "evidence_found": false,
+        "reasoning": "The translation does not preserve the original meaning accurately. The original phrase '不及' (not as deep) is not reflected in the translation, which instead compares the depth of the water to thousands of feet, which is not consistent with the original meaning of '不及'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The translation states 'The depth of the Tao Lake water is thousands of feet, but it cannot match the depth of the feelings conveyed by Wang Lun's farewell.'",
+        "evidence_found": false,
+        "reasoning": "The translation does not preserve the original phrase '汪伦送我' and instead uses a metaphorical comparison to the depth of the Tao Lake water, which does not accurately convey the original meaning. The core meaning, key imagery, and emotional tone are not preserved. The translation also does not accurately reflect the original phrase '汪伦送我' as '汪伦为我送行'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The depth of the Tao Lake water is thousands of feet, but it cannot match the depth of the feelings conveyed by Wang Lun's farewell.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the core meaning, key imagery, and emotional tone of the original. It does not use the metaphor of water depth to compare the depth of feelings as in the original phrase '情深似水'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 4.2,
+    "valid": true
+  }
+}

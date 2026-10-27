@@ -1,0 +1,19 @@
+{
+  "id": "M09_S2_T1_Qwen25_r3",
+  "poem_id": "M09",
+  "trap_type": "拟人意象",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nSemantic Analysis (in Chinese):\n“月落乌啼霜满天”：三个意象并列（不是因果）。要点：月落、乌啼、霜满天是并列的画面。\n“对愁眠”：面对愁绪而眠。要点：'对'是面对，'愁'修饰'眠'。\n“江枫渔火”：江边枫树和渔火（两个意象）。要点：江枫和渔火两个并列意象。\n“整体凄清氛围”：夜泊的孤寂凄凉。要点：凄清、孤寂的整体氛围。\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n月落乌啼霜满天，江枫渔火对愁眠。",
+  "prompt_sha256": "872815c9c17de44da208442b79f6ec9fee15f88ea3395e866b5ec4a811af8197",
+  "translation": "Moon sets, crows cry,霜覆盖了天；  \nRiverside maples stand, fishing lights nearby,  \nSleeping with sorrow, the night docks alone,  \nSilent, the scene is bleak and lonely.  \n[Note: The character \"霜\" (shuang) refers to frost or frosty, which in this context symbolizes the cold and solemn atmosphere.]",
+  "metadata": {
+    "input_tokens": 366,
+    "output_tokens": 79,
+    "latency_ms": 12121.923923492432,
+    "timestamp": "2026-10-26T21:18:43.047572",
+    "finish_reason": "stop"
+  }
+}

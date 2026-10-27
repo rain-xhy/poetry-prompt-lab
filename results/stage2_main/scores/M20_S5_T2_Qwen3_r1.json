@@ -1,0 +1,67 @@
+{
+  "translation_id": "M20_S5_T2_Qwen3_r1",
+  "anon_code": "T_051c485e",
+  "poem_id": "M20",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell at the head of the river, you dwell at its tail.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts the speaker's position (head of the river) with the listener's position (tail of the river), fulfilling the requirement for spatial parallelism and opposition between the two ends.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Each day I think of you, but you remain unseen.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Each day I think of you' expresses the daily/continuous nature of thinking, and 'but you remain unseen' captures the contradiction between longing and not being seen.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "We share the same river's flow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'We share the same river's flow' directly reflects the '共饮一江水' meaning with 'shared river flow' emphasizing the commonality of drinking the same water, fulfilling the requirement for '共' (commonality) and '饮水的联系' (connection through drinking water).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "I dwell at the head of the river, you dwell at its tail. We share the same river's flow, though we never meet.",
+        "evidence_found": false,
+        "reasoning": "The translation clearly shows physical separation (head and tail of the river) and emotional/symbolic connection (same river's flow) creating tension through contrast.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

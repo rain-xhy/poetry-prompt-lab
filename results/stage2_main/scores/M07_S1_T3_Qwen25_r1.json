@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S1_T3_Qwen25_r1",
+  "anon_code": "T_1dd9d62d",
+  "poem_id": "M07",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The swallows that once nested in royal halls, Now find their nests in homes where commoners dwell.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly references 'royal halls' for the Wang family and 'homes where commoners dwell' for the: Xie family, preserving the specific historical context of the Eastern Jin dynasty's Wang and Xie clans.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The swallows that once nested in royal halls, Now find their nests in homes where commoners dwell",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts 'once nested in royal halls' (past elite status) with 'now find their nests in homes where common: commoners dwell' (present commoner status), fulfilling both time and social class contrasts.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The swallows that once nested in royal halls, Now find their nests in homes where commoners dwell.",
+        "evidence_found": true,
+        "reasoning": "The translation preserves the swallow as a witness (symbol) by contrasting its past in royal halls with current humble homes, avoiding the 'same swallow living for centuries' implication.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Upon the broken bridge, wildflowers sprout, At the dilapidated walls, the sun slants low.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly uses 'broken bridge' and 'dilapidated walls' to convey the desolate setting, while 'wildflowers sprout' and 'sun slants low' directly reflect the wild grass and setting sun imagery required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

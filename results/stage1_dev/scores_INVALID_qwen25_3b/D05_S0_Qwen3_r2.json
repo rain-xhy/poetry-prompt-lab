@@ -1,0 +1,62 @@
+{
+  "translation_id": "D05_S0_Qwen3_r2",
+  "anon_code": "T_629e5802",
+  "poem_id": "D05",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of life and death, two miles apart, forever separated.",
+        "evidence_found": true,
+        "reasoning": "The phrase '十年生死两茫茫' (Ten years of life and death, two miles apart, forever separated) does not exactly match the original '十年生死两茫茫' and does not preserve the essence of the original meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I do not think of him, yet he remains deeply remembered to me.",
+        "evidence_found": true,
+        "reasoning": "The evidence does not preserve the exact meaning of the original phrase '不思量，自难忘' and introduces new content that contradicts the original, such as 'Ten years of life and death, two miles apart, forever separated' and 'I cannot express my sorrow and grief'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I do not think of him, yet he remains deeply remembered to me.",
+        "evidence_found": true,
+        "reasoning": "The phrase '相隔千里的孤独坟墓' (a thousand miles away, my grave is alone) is not present in the provided translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "cannot express my sorrow and grief.",
+        "evidence_found": true,
+        "reasoning": "A thousand miles away, my grave is alone, and I cannot express my sorrow and grief.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.2,
+    "valid": true
+  }
+}

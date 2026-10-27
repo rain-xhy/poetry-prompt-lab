@@ -1,0 +1,19 @@
+{
+  "id": "M18_S1_T3_Qwen3_r1",
+  "poem_id": "M18",
+  "trap_type": "时态叙事",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n无可奈何花落去，似曾相识燕归来。",
+  "prompt_sha256": "730b06fb704e4fd9aeee76fa39496a9640b0e90df91e890f738a5b2880998d1e",
+  "translation": "Cannot help but lament as the blossoms fall away, and the once-familiar swallow returns.  \n\n[The poem uses the imagery of a flower's fading and a bird's return to convey the fleeting nature of time and the impermanence of memories. The \"similarity\" in the bird's return reflects the lingering impression of the past.]  \n\nCannot help but lament as the blossoms fall away, and the once-familiar swallow returns.  \n\n[The poem uses the imagery of a flower's fading and a bird's return to convey the fleeting nature of time and the impermanence of memories. The \"similarity\" in the bird's return reflects the lingering impression of the past.]",
+  "metadata": {
+    "input_tokens": 209,
+    "output_tokens": 140,
+    "latency_ms": 1373.3901977539062,
+    "timestamp": "2026-10-26T20:31:34.061866",
+    "finish_reason": "stop"
+  }
+}

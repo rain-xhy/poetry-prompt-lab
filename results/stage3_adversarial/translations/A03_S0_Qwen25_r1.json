@@ -1,0 +1,19 @@
+{
+  "id": "A03_S0_Qwen25_r1",
+  "poem_id": "A03",
+  "trap_type": "emotional_suppression",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n欲语还休，却道天凉好个秋。",
+  "prompt_sha256": "b9fe62cae991bd62d892bd7375c89208707d8bfe5be98d8246421c21a967aff8",
+  "translation": "The poem can be translated as follows in English:\n\n\"I wish to speak but hold back, and yet say, how pleasant it is that it's cool and the season is autumn.\"",
+  "metadata": {
+    "input_tokens": 54,
+    "output_tokens": 37,
+    "latency_ms": 13522.430419921875,
+    "timestamp": "2026-10-26T21:38:16.521420",
+    "finish_reason": "stop"
+  }
+}

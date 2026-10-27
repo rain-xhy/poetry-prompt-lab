@@ -1,0 +1,71 @@
+{
+  "translation_id": "D05_S5_T2_Qwen3_r1",
+  "anon_code": "T_80ecff7e",
+  "poem_id": "D05",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of separation, two worlds apart, Not thinking, yet it is not forgotten. A lonely grave, a thousand miles away, Where can I speak of this cruel sadness?",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly mention 'ten years' in the context of separation between living and dead, and the phrase 'two worlds apart' does not convey the required meaning of '生与死的隔绝、彼此渺茫' as specified.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Not thinking, yet it is not forgotten.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Not thinking, yet it is not forgotten' directly matches the required meaning of 'even if not deliberately thinking, still cannot forget', with the correct contrast between not thinking and not forgetting.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A lonely grave, a thousand miles away",
+        "evidence_found": true,
+        "reasoning": "The phrase 'a lonely grave' directly translates to '孤独坟墓' and 'a thousand miles away' indicates the 'thousand miles' distance, meeting both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Where can I speak of this cruel sadness?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Where can I speak of this cruel sadness?' directly translates the meaning of '无处话凄凉' by expressing the inability to find a place or person to express sorrow.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "valid": false,
+    "raw": "{\n  \"adequacy\": 5,\n  \"imagery\": 5,\n  \"emotion\": 5,\n  \"fluency\": 5,\n  \"po\": 5\n}"
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

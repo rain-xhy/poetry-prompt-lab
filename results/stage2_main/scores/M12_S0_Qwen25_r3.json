@@ -1,0 +1,67 @@
+{
+  "translation_id": "M12_S0_Qwen25_r3",
+  "anon_code": "T_e3e90193",
+  "poem_id": "M12",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "If you wish to see far into the, you must climb higher still.",
+        "evidence_found": false,
+        "reasoning": "The phrase 'If you wish to see far' uses 'wish to' to express the purpose, and 'far into the distance' implies the 'thousand li' distance required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "you must climb higher still",
+        "evidence_found": true,
+        "reasoning": "The phrase 'you must climb higher still' directly expresses the requirement to 'climb higher' (more than the current level) as a means to achieve the goal of seeing far, fulfilling the condition of needing to go up one more level.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "If you wish to see far into the: If you wish to see far into the distance, you must climb higher still.",
+        "evidence_found": false,
+        "reasoning": "The English translation explicitly states the purpose (to see far) and the means (climbing higher), maintaining the logical relationship between the two.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The sun sets behind the mountain, the Yellow River flows into the sea.",
+        "evidence_found": true,
+        "reasoning": "The translation includes the first line but adds a second line that is not part of the original phrase being checked, which changes the meaning and does not preserve the required '壮阔景象的描写' (grand scene description) as the focus is shifted to a motivational message.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

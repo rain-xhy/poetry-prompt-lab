@@ -1,0 +1,67 @@
+{
+  "translation_id": "M18_S5_T2_Qwen25_r2",
+  "anon_code": "T_fa33b509",
+  "poem_id": "M18",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Unyielding, petals fall unseen, Yet, like old acquaintances, a bird returns.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express the feeling of helplessness or inability to prevent the falling of petals as required; instead, it describes a bird returning, which is unrelated to the original meaning of the phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Yet, like old acquaintances, a bird returns.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'like old acquaintances' directly translates '似曾相识' (seem familiar) and 'a bird returns' captures the '燕子归来的动作' (the action of the swallow returning).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Unyielding, petals fall unseen, Yet, like old acquaintances, a bird returns.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts the falling petals (花落去) with the returning bird (燕归来), showing their opposite directions and movements.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Unyielding, petals fall unseen, Yet, like old acquaintances, a bird returns. Spring's decay in this transient dance, Echoes through time, in shadows it stands.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys time passing through 'transient dance' and 'echoes through time', while 'petals fall unseen' and 'bird returns' reflect the theme of change and loss, capturing both time's passage and the feeling of things changing while people remain different.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

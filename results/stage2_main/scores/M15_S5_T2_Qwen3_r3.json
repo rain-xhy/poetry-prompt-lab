@@ -1,0 +1,67 @@
+{
+  "translation_id": "M15_S5_T2_Qwen3_r3",
+  "anon_code": "T_f48570d7",
+  "poem_id": "M15",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why mourn the willow by the spring wind?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Why mourn the willow by the spring wind?' expresses a rhetorical question implying 'there is no need to mourn', matching the required meaning of '不必/no need to' as a negation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The spring wind cannot reach the Jade Gate.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the spring wind's inability to reach the Jade Gate, fulfilling the requirement of a negative verb and geographical limitation.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why mourn the willow by the spring wind? The spring wind cannot reach the Jade Gate.",
+        "evidence_found": true,
+        "reasoning": "The translation correctly captures the causal relationship where the spring wind's inability to reach the Jade Gate (the city) is the reason for the lack of need to mourn, aligning with the required causal logic and maintaining the poetic structure.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The spring wind cannot reach the Jade Gate.",
+        "evidence_found": true,
+        "reasoning": "The translation does not mention 'Qiang di' (羌笛) or imply the 'fold willow' (折杨柳) as a farewell symbol, so it fails to meet the required conditions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M19_S2_T1_Qwen3_r2",
+  "anon_code": "T_d1b27810",
+  "poem_id": "M19",
+  "strategy": "S2_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I often saw familiar sights, and on the terrace of Cui Ji, I heard it many times",
+        "evidence_found": true,
+        "reasoning": "The translation uses past tense and indicates frequent occurrence with 'often' and 'many times', matching the required meaning of past frequent actions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "we met again",
+        "evidence_found": true,
+        "reasoning": "The phrase 'we met again' directly translates to '又逢' meaning a current re-encounter, fulfilling the requirement for present tense and 'again' as specified.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In the palace of the King of the East, I often saw familiar sights, and on the terrace of Cui Ji, I heard it many times. It was indeed a beautiful time in the south, when flowers fell and we met again.",
+        "evidence_found": true,
+        "reasoning": "The translation describes past experiences but does not explicitly contrast past prosperity with current decline, nor does it imply a change in circumstances between the two time periods.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "when flowers fell",
+        "evidence_found": true,
+        "reasoning": "The phrase 'when flowers fell' directly translates the '落花' (falling flowers) imagery from the original Chinese phrase, preserving the key symbolic meaning of falling flowers as a metaphor for transience and beauty in Chinese classical poetry.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

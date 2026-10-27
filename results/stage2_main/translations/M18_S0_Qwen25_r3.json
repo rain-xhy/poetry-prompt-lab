@@ -1,0 +1,19 @@
+{
+  "id": "M18_S0_Qwen25_r3",
+  "poem_id": "M18",
+  "trap_type": "时态叙事",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n无可奈何花落去，似曾相识燕归来。",
+  "prompt_sha256": "73d4a11cbd0492a7571592fc995fce0df08ec505148fa55b9aedfce3db580016",
+  "translation": "Here's a translation of the Chinese classical poem \"无可奈何花落去，似曾相识燕归来\" into English:\n\n\"Unavoidable is the withering of flowers,  \nLike returning燕s, I recognize them.\"\n\nNote: The original poem has a theme of natural cycles and the passing of time. However, the exact species of the returning bird (燕) is not specified in Chinese, which is often the reason for varying translations in English. The term \"swallow\" (燕) is commonly used in English translations. If you are looking for more contextually similar birds, \"swallow\" is a good choice, but \"thrush\" could also work depending on the specific interpretation of \"燕\" in the original.",
+  "metadata": {
+    "input_tokens": 54,
+    "output_tokens": 151,
+    "latency_ms": 13816.57338142395,
+    "timestamp": "2026-10-26T20:02:23.651531",
+    "finish_reason": "stop"
+  }
+}

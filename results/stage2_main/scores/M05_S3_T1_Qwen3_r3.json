@@ -1,0 +1,67 @@
+{
+  "translation_id": "M05_S3_T1_Qwen3_r3",
+  "anon_code": "T_8fddee57",
+  "poem_id": "M05",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Seeking and searching, feeling cold and lonely, filled with sorrow and grief.",
+        "evidence_found": true,
+        "reasoning": "The translation describes emotional states (cold, lonely, sorrow) rather than the repeated physical action of searching, and lacks the rhythmic repetition of the original Chinese phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking and searching, feeling cold and lonely, filled with sorrow and grief.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'feeling cold and lonely' directly conveys the cold, desolate environment required, and the structure implies a progression from initial seeking to deeper emotional states, aligning with the need for a recursive or progressive relationship with the previous sentence.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking and searching, feeling cold and lonely, filled with sorrow and grief.",
+        "evidence_found": true,
+        "reasoning": "The translation captures deep sorrow and emotional progression from seeking to loneliness to sorrow and grief.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking and searching, feeling cold and lonely, filled with sorrow and grief.",
+        "evidence_found": true,
+        "reasoning": "The translation follows the required order of action → environment → emotion with clear progression.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

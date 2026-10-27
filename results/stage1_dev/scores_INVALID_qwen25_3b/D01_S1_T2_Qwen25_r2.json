@@ -1,0 +1,62 @@
+{
+  "translation_id": "D01_S1_T2_Qwen25_r2",
+  "anon_code": "T_f3f56a56",
+  "poem_id": "D01",
+  "strategy": "S1_T2",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Fades at the brow’s edge, only to return",
+        "evidence_found": true,
+        "reasoning": "This sentence implies that the emotion returns, which contradicts the pass condition of not allowing the translation to suggest that the emotion has been eliminated or is not being addressed as something that cannot be eliminated.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Fades at the brow’s edge, only to return",
+        "evidence_found": true,
+        "reasoning": "The translation states that the feeling 'Fades at the brow’s edge', which contradicts the original '才下眉头' which means 'just gone from the brow'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Fades at the brow’s edge, only to return",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'at the brow’s edge' which does not preserve the original '心头' (heart).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Fades at the brow’s edge, only to return",
+        "evidence_found": true,
+        "reasoning": "The translation does not clearly show the '才下……却上' (才下……却上) phrase forming a tight sequence of events, and the feeling of the '愁绪' (愁绪) not being truly dispelled is not as explicit as the original phrase suggests.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 4,
+    "emotion": 5,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 4.4,
+    "valid": true
+  }
+}

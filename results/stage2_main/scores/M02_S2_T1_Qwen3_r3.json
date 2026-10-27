@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S2_T1_Qwen3_r3",
+  "anon_code": "T_3559875c",
+  "poem_id": "M02",
+  "strategy": "S2_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "For this thing holds the deepest sighs",
+        "evidence_found": true,
+        "reasoning": "The phrase 'this thing' refers to the red beans, which are the symbol of longing, as per the original Chinese phrase's meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "May you gather them with care",
+        "evidence_found": true,
+        "reasoning": "The phrase 'May you gather them with care' expresses a wish/hope for the reader to gather the red beans, fulfilling the requirement of '劝君多采摘（愿望）' with the direct address 'you' and the action of gathering.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "For this thing holds the deepest sighs.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'holds the deepest sighs' conveys the idea of 'most deeply expressing longing' as required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Spring brings forth a few branches.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Spring brings forth a few branches' does not explicitly express the time of spring but rather the action of spring 'bringing forth' branches, which does not align with the requirement to preserve the time aspect of '春天来时' (spring coming).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

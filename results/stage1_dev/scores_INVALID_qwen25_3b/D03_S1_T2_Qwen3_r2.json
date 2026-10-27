@@ -1,0 +1,62 @@
+{
+  "translation_id": "D03_S1_T2_Qwen3_r2",
+  "anon_code": "T_1f4749f6",
+  "poem_id": "D03",
+  "strategy": "S1_T2",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Beneath the western sky, you raise the cup once more",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '我劝你再干一杯酒' and does not express '再/更饮一杯' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Beneath the western sky",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'Beneath the western sky' instead of '西出阳关' which does not preserve the direction 'west' and the phrase '阳关' (Yang Pass/Yangguan).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "you raise the cup once more",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'old friends' but also expands the meaning to 'no old friends at all', which does not preserve '没有老朋友'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "To part from the path where old friends once were.",
+        "evidence_found": true,
+        "reasoning": "The provided translation does not directly convey the relationship between the 'old friends' and the 'no reason' in the original phrase. It translates the meaning but does not explicitly state the cause and effect relationship as in the original phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 3,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.0,
+    "valid": true
+  }
+}

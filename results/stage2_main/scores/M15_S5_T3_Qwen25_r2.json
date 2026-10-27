@@ -1,0 +1,67 @@
+{
+  "translation_id": "M15_S5_T3_Qwen25_r2",
+  "anon_code": "T_da6abaaf",
+  "poem_id": "M15",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why should the羌笛(Curly Bamboo flute) mourn over the willows?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Why should...' forms a rhetorical question expressing negation, meaning 'there is no need to', which matches the required meaning of '不必/no need to'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The spring breeze does not reach the Jade Gate Pass.",
+        "evidence_found": true,
+        "reasoning": "The English translation explicitly states the spring breeze cannot reach the Jade Gate Pass, fulfilling the requirement of a negative phrase indicating geographical limitation.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The spring breeze does not reach the Jade Gate Pass.",
+        "evidence_found": true,
+        "reasoning": "The English translation explicitly states that the spring breeze does not reach the Jade Gate Pass, which directly reflects the causal relationship where the spring breeze not passing through (因果逻辑) leads to the futility of complaining (怨也无用).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why should the羌笛(Curly Bamboo flute) mourn over the willows?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'mourn over the willows' implies the traditional '折杨柳' (cutting willows) as a symbol of parting, fulfilling the requirement for the '离别含义' (separation meaning) of 《折杨柳》.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

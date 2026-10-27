@@ -1,0 +1,74 @@
+{
+  "translation_id": "D01_S5_T3_Qwen25_r2",
+  "anon_code": "T_16c17a43",
+  "poem_id": "D01",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling cannot be dispelled, Just as it fades from my brow, It resurfaces on my heart.",
+        "evidence_found": true,
+        "reasoning": "The translation states 'This feeling cannot be dispelled', which implies the emotion cannot be eliminated, but the phrase 'it resurfaces on my heart' suggests the emotion is not eliminated but rather returns, which contradicts the requirement that the translation must not imply 'already eliminated' or 'does not want to eliminate'. The phrase 'cannot be dispelled' is a negative statement about the inability to eliminate, but the subsequent lines describe the emotion's return, which implies it is not eliminated but persists, thus failing the condition that the translation must not become 'already eliminated' or 'does not want to eliminate'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Just as it fades from my brow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'just as it fades from my brow' directly matches the requirement to express '刚刚/才离开眉间' and refers to 'brow' as specified.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "It resurfaces on my heart",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it resurfaces on my heart' does not express a clear contrast or turn (yet/but/again) as required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": null,
+        "valid": false,
+        "raw": "{\n  \"pass\": true,\n  \"evidence\": \"This feeling cannot be dispelled, Just as it fades from my brow, It resurfaces on my heart.\",\n  \"reasoning\": \"The translation shows the emotion temporarily leaving the brow but immediately returning to the heart, indicating the愁绪 (sorrow) persists without true disappearance.\"\n",
+        "error": null
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 4.45,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

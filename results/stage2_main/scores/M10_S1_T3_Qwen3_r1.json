@@ -1,0 +1,67 @@
+{
+  "translation_id": "M10_S1_T3_Qwen3_r1",
+  "anon_code": "T_7999553b",
+  "poem_id": "M10",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wildfires cannot extinguish, for spring winds revive them.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Wildfires cannot extinguish' directly translates to '烧不尽' with a negative verb 'cannot' and the meaning of 'not being extinguished' by the fire, while 'spring winds revive them' captures the 'spring wind' aspect and the cyclical nature of the plant's regrowth.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wildfires cannot extinguish, for spring winds revive them.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states that spring winds revive plants after wildfires, fulfilling both conditions: the repeated growth (revive them) and the role of spring winds.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The fire cannot put out the plant, and the spring wind brings it back again.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the relationship between fire and plants (fire cannot put out the plant) and the spring wind's role in reviving them, maintaining the personification of fire and grass.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wildfires cannot extinguish, for spring winds revive them.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys the cyclical nature of the plant's resilience through wildfires and spring winds, meeting both conditions of expressing '顽强、坚韧' (tenacity) and the '烧不尽→又生的循环' (rebirth cycle after burning).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

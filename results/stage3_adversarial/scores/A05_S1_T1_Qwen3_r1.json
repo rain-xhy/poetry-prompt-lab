@@ -1,0 +1,58 @@
+{
+  "translation_id": "A05_S1_T1_Qwen3_r1",
+  "anon_code": "T_fdab9c05",
+  "poem_id": "A05",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "yet I must go",
+        "evidence_found": true,
+        "reasoning": "The phrase 'yet I must go' directly translates the '不得不' meaning 'must' as required, indicating compulsion to leave despite the emotional context.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Cannot part from you, yet I must go; no longer think of you, no longer remember you.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the conditional relationship where 'not seeing you' leads to 'not thinking of you', expressed through the contrast between the necessity of parting and the absence of thought/memory.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Cannot part from you, yet I must go; no longer think of you, no longer remember you.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the dual negation structure by using 'no longer' twice to express the absence of thought and memory, while the conditional 'yet I must go' implies the necessity despite the emotional state.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "M04_S0_Qwen25_r2",
+  "poem_id": "M04",
+  "trap_type": "情感反差",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n两情若是久长时，又岂在朝朝暮暮。",
+  "prompt_sha256": "af09b02805709ee29899f701c7f25000a6886b6ab5dde654a7a53635ea1b0a48",
+  "translation": "If two hearts are true to each other,  \nHow many meetings a day or night are needed?",
+  "metadata": {
+    "input_tokens": 56,
+    "output_tokens": 21,
+    "latency_ms": 11957.70812034607,
+    "timestamp": "2026-10-26T20:57:03.375514",
+    "finish_reason": "stop"
+  }
+}

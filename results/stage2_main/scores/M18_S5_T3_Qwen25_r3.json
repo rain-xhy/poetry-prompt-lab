@@ -1,0 +1,67 @@
+{
+  "translation_id": "M18_S5_T3_Qwen25_r3",
+  "anon_code": "T_dc6d01b3",
+  "poem_id": "M18",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The falling petals are a poignant reminder of the fleeting nature of life",
+        "evidence_found": true,
+        "reasoning": "The phrase 'fleeting nature of life' directly corresponds to the concept of 'transient nature of life' in the original phrase, and 'falling petals' represents the '花落' action required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "swallows returning as if they were old acquaintances",
+        "evidence_found": true,
+        "reasoning": "The phrase 'swallows returning as if they were old acquaintances' directly translates the meaning of '似曾相识燕归来' by expressing the familiar feeling of swallows returning and the sense of having seen them before.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "The metaphor of \"花落去\" (flower falling) represents the passing of time and the impermanence of: ...",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly contrasts the passing of time (花落去) with the return of familiar things (燕归来) by highlighting their opposite directions and implications.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The falling petals are a poignant reminder of the fleeting nature of life, and the returning swallow suggests a sense of familiarity and continuity in the face of change.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly mentions 'fleeting nature of life' which conveys time passing, and 'familiarity and continuity' which reflects the '物是人非' (things remain, people change) sentiment.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

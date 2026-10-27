@@ -1,0 +1,19 @@
+{
+  "id": "A07A_S1_T1_Qwen25_r3",
+  "poem_id": "A07A",
+  "trap_type": "ambiguity_test",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n小心滑入河中",
+  "prompt_sha256": "87ad70a7a07faf6297fcc14c8f0b75c09033bfddb67a69a6847cff685c1e6570",
+  "translation": "Gently slipping into the stream,\nLike a lover's sigh, soft and sweet.\nIts delicate form a fleeting dream,\nIn nature's arms, it fades away.",
+  "metadata": {
+    "input_tokens": 229,
+    "output_tokens": 34,
+    "latency_ms": 10938.563346862793,
+    "timestamp": "2026-10-26T21:50:13.189929",
+    "finish_reason": "stop"
+  }
+}

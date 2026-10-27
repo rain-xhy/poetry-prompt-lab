@@ -1,0 +1,67 @@
+{
+  "translation_id": "M03_S1_T1_Qwen25_r3",
+  "anon_code": "T_f5f79b04",
+  "poem_id": "M03",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "You inquire about my return, but I have no set date",
+        "evidence_found": true,
+        "reasoning": "The phrase 'have no set date' directly translates to '尚未确定' and avoids 'no deadline' or 'never', meeting the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When we can huddle by the west-facing window",
+        "evidence_found": true,
+        "reasoning": "The phrase 'When we can huddle by the west-facing window' uses the future conditional 'can' to express the expectation of a future time when they will share the moment of lighting the candle together, matching the required future assumption and hopeful tone.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When we can huddle by the west-facing window, We'll recount these autumn rains in the mountain pass.",
+        "evidence_found": true,
+        "reasoning": "The translation refers to a future time ('when we can huddle') and future action ('we'll recount'), but the original phrase requires '将来回忆过去' (future recalling past), not future actions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "As autumn rain fills the pool beneath the mountains of Sich:u at night.",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly states that autumn rain fills the pool, which matches the requirement of expressing rain making the pool water rise, and preserves the three required imagery elements: 巴山 (mountains of Sichuan), 夜雨 (autumn rain), and 秋池 (pool).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.65,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

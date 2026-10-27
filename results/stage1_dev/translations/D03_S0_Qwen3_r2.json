@@ -1,0 +1,19 @@
+{
+  "id": "D03_S0_Qwen3_r2",
+  "poem_id": "D03",
+  "trap_type": "否定逻辑",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n劝君更尽一杯酒，西出阳关无故人。",
+  "prompt_sha256": "f29cb8786297e2f81a4230fd5f07724f2601cf8c25f2201d07ab377c327b359a",
+  "translation": "Drink until it is empty, farewell to this last drink; beyond the Yin Mountains, there is no old friend.",
+  "metadata": {
+    "input_tokens": 43,
+    "output_tokens": 24,
+    "latency_ms": 7018.6192989349365,
+    "timestamp": "2026-10-26T16:40:58.935253",
+    "finish_reason": "stop"
+  }
+}

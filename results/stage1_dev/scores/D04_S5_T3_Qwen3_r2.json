@@ -1,0 +1,76 @@
+{
+  "translation_id": "D04_S5_T3_Qwen3_r2",
+  "anon_code": "T_9080c695",
+  "poem_id": "D04",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The depth of the Tao Lake water is thousands of feet, but it cannot match the depth of the feelings conveyed by Wang Lun's farewell.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the depth of the water as 'thousands of feet' (meeting the requirement for deep water) and uses 'Tao Lake' as the equivalent of 'Peach Blossom Pool', while the phrase 'cannot match the depth of the feelings' directly addresses the comparison with emotional depth as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "but it cannot match the depth of the feelings conveyed by Wang Lun's farewell",
+        "evidence_found": true,
+        "reasoning": "The phrase 'cannot match' directly corresponds to '比不上' and the context clearly shows the comparison between the depth of the water and the depth of feelings, preserving the emotional paradox and personification without implying 'deeper' or 'equal depth'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wang Lun's farewell",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Wang Lun's farewell' explicitly indicates that Wang Lun is the one performing the farewell action (the sender), and 'I' is the recipient of the farewell (the one being sent), meeting both requirements.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The depth of the Tao Lake water is thousands of feet, but it cannot match the depth of the feelings conveyed by Wang Lun's farewell.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly compares the depth of Tao Lake water (a literal measure) to the depth of feelings (an emotional measure), fulfilling the requirement to preserve the metaphor of water depth as a measure of emotional depth.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 4,
+    "valid": true
+  }
+}

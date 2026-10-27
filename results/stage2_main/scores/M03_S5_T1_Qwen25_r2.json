@@ -1,0 +1,67 @@
+{
+  "translation_id": "M03_S5_T1_Qwen25_r2",
+  "anon_code": "T_a6b468b9",
+  "poem_id": "M03",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no set date in sight",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no set date in sight' directly translates to '尚未确定' meaning 'cannot yet be set' without implying 'no deadline' or 'never'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When we can sit by the west window and snip the candles",
+        "evidence_found": true,
+        "reasoning": "The phrase uses 'when we can' to express a future assumption and expectation, matching the required meaning of '什么时候能一起剪西窗烛' with a future tense and hopeful tone.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I’ll tell you of the night rain in Bashan, when we meet.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'when we meet' implies a future meeting, but the original phrase '却话巴山夜雨时' refers to recalling past rain in Bashan, not future rain at a future meeting.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Rain on the autumn pool in Bashan rises at night.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Rain on the autumn pool in Bash: rises at night' directly translates to the required meaning of 'rain makes the autumn pool water rise' while preserving the three required imagery elements: 巴山 (Bashan), 夜雨 (rain at night), and 秋池 (autumn pool).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

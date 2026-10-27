@@ -1,0 +1,67 @@
+{
+  "translation_id": "M08_S1_T1_Qwen3_r1",
+  "anon_code": "T_9c500d8f",
+  "poem_id": "M08",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Beyond the empty mountain, no figure is seen, But the sound of human speech reaches far.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'no figure is seen' which implies absence rather than '看不见' (cannot see), and 'reaches far' does not convey '听得见说话声' (can hear speech) as the original specifies the sound of human speech being heard, not just reaching far.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The reflected light enters the deep woods",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The reflected light enters the deep woods' directly translates the dynamic movement of '返景入深林' as sunlight (reflected) moving into the deep forest.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "shines upon the moss upon the grass",
+        "evidence_found": true,
+        "reasoning": "The phrase 'shines upon the moss' directly corresponds to '又照在青苔上' with 'moss' representing '青苔' and the verb 'shines' indicating the '照射' action.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Beyond the empty mountain, no figure is seen",
+        "evidence_found": true,
+        "reasoning": "The phrase 'empty mountain' directly translates to '空山' and implies a vast, quiet landscape as required by '空旷、幽静的山'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

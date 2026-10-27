@@ -1,0 +1,58 @@
+{
+  "translation_id": "A07A_S0_Qwen25_r2",
+  "anon_code": "T_a7caa898",
+  "poem_id": "A07A",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Gently slipping into the river.",
+        "evidence_found": true,
+        "reasoning": "The translation does not address the negation or correct negation inference as required by the original phrase's meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Gently slipping into the river.",
+        "evidence_found": true,
+        "reasoning": "The phrase '版本B的明确否定' requires a clear negation of version B, but the translation describes a gentle action without any negation.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Gently slipping into the river.",
+        "evidence_found": true,
+        "reasoning": "The English phrase 'Gently slipping into the river' conveys the same meaning as the original Chinese phrase 'AB一致性' which requires both versions to have identical meaning.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

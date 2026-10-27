@@ -1,0 +1,67 @@
+{
+  "translation_id": "M11_S3_T1_Qwen25_r1",
+  "anon_code": "T_a7ef2e97",
+  "poem_id": "M11",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Looks like frost on the ground",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Looks like frost on the ground' uses the verb 'looks like' which is a form of 'seems' (a suspect/wonder/might be) and expresses uncertainty, not a definite statement.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I raise my head to gaze at the bright moon, And bow my head in思念of my hometown.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly shows the sequence of actions (raising head to look at moon, then bowing head to think of hometown) and implies that gazing at the moon leads to thoughts of home.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "In front of my bed, the bright moonlight",
+        "evidence_found": true,
+        "reasoning": "The phrase 'In front of my bed, the bright moonlight' directly corresponds to the required meaning of '床前的明亮月光' while preserving the '床前' position and expressing '月光明亮'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In front of my bed, the bright moonlight, Looks like frost on the ground. I raise my head to gaze at the bright moon, And bow my head in思念of my hometown.",
+        "evidence_found": true,
+        "reasoning": "The translation does not convey '静夜独处的氛围' (quiet night solitude atmosphere) as it lacks explicit mention of solitude and the quiet night setting, and the phrase 'in思念of my hometown' contains a typo and does not properly convey the longing for home.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.45,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

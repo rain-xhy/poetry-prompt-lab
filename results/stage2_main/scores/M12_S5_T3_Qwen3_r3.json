@@ -1,0 +1,67 @@
+{
+  "translation_id": "M12_S5_T3_Qwen3_r3",
+  "anon_code": "T_6c53a47c",
+  "poem_id": "M12",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see far beyond a thousand miles",
+        "evidence_found": true,
+        "reasoning": "The phrase 'To see far beyond a thousand miles' uses 'to see' (indicating purpose) and specifies 'a thousand miles' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "one must climb higher",
+        "evidence_found": true,
+        "reasoning": "The phrase 'one must climb higher' directly expresses the necessity of climbing higher (需要再上一层楼) as a means to achieve the goal of seeing far beyond a thousand miles, forming a clear purpose-means relationship with the preceding context.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see far beyond a thousand miles, one must climb higher.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the purpose (to see far) and the means (climb higher), maintaining the logical relationship between the two.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "To see far beyond a thousand miles, one must climb higher.",
+        "evidence_found": true,
+        "reasoning": "The original phrase describes two distinct natural scenes: the sun setting behind mountains and the Yellow River flowing into the sea. The translation adds an unrelated phrase about climbing higher to see far, which does not match the original's two-landscape description.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

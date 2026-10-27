@@ -1,0 +1,58 @@
+{
+  "translation_id": "A08_S0_Qwen3_r2",
+  "anon_code": "T_6e69a691",
+  "poem_id": "A08",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Once, the noble lords' halls were filled with flying birds",
+        "evidence_found": true,
+        "reasoning": "The phrase 'noble lords' directly corresponds to '豪门' as a generic term for wealthy/noble/aristocratic families, fulfilling the requirement to preserve the generalized expression.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Once, the noble lords' halls were filled with flying birds, Now they fly into the homes of common people.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the historical context shift from noble lords to common people, indicating the loss of specific historical background as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "On the wild grass by the Quxiao Bridge, wild flowers bloom; At the mouth of Wuyi Terrace, the sunset casts a shadow.",
+        "evidence_found": true,
+        "reasoning": "The translation correctly captures the contrast between past nobility and present common people's lives as per the original poem's meaning, even though it uses different phrasing for specific locations.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "M12_S1_T3_Qwen25_r3",
+  "poem_id": "M12",
+  "trap_type": "否定逻辑",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n白日依山尽，黄河入海流。\n欲穷千里目，更上一层楼。",
+  "prompt_sha256": "d85ac0437e4c85b0a4966280d239ca305ea4c01ce2c665ebb7850d106f080d97",
+  "translation": "Here is the translation respecting the key requirements:\n\n**English:**\nThe sun sets behind the mountain,  \nThe Yellow River flows into the sea.  \nTo see a thousand miles further,  \nYou must climb one more story.\n\n**Notes:**\n- The poem uses **personification** of the sun setting and the river flowing, which is preserved in the English version.\n- The phrase \"欲穷千里目\" (to see a thousand miles further) employs **implicit negation** by suggesting that to see more, one must look higher, which is made explicit in the English version as \"You must climb one more story.\"\n\nThis translation aims to convey the core meaning, key imagery, and emotional tone of the original poem while adhering to the constraints provided.",
+  "metadata": {
+    "input_tokens": 230,
+    "output_tokens": 154,
+    "latency_ms": 11932.225227355957,
+    "timestamp": "2026-10-26T20:28:47.559879",
+    "finish_reason": "stop"
+  }
+}

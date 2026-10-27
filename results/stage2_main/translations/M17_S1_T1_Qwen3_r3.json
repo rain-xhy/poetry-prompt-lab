@@ -1,0 +1,19 @@
+{
+  "id": "M17_S1_T1_Qwen3_r3",
+  "poem_id": "M17",
+  "trap_type": "时态叙事",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n此情可待成追忆，只是当时已惘然。",
+  "prompt_sha256": "0660a6a5aa42e1650c3d118af798dc73bed5546b3c70a36630fc26a49c5c5e19",
+  "translation": "This feeling can wait to become a memory, but already it is futile. \n\n[The phrase \"already it is futile\" reflects the emotional paradox of the original, emphasizing the irreversible nature of regret.]\n\n---\n\nThis translation preserves the core meaning, maintains the emotional tone, and retains the metaphors and personification inherent in the original.",
+  "metadata": {
+    "input_tokens": 225,
+    "output_tokens": 67,
+    "latency_ms": 13153.418779373169,
+    "timestamp": "2026-10-26T19:47:34.709594",
+    "finish_reason": "stop"
+  }
+}

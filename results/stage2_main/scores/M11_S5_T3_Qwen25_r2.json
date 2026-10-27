@@ -1,0 +1,67 @@
+{
+  "translation_id": "M11_S5_T3_Qwen25_r2",
+  "anon_code": "T_62ada398",
+  "poem_id": "M11",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I wonder if it's frost on the ground",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I wonder if it's frost on the' uses 'wonder' as the推测词 (suspect/wonder/seems/might be) and expresses uncertainty, matching the required meaning of 'suspect/wonder/seems/might be' without being a definite statement.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I lift my head to gaze at the bright moon, I lower my head and think of home.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly shows the sequence of actions (lifting head to gaze at moon, lowering head to think of home) and implies that gazing at the moon leads to thoughts of home.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Bedroom before me shines bright moonlight",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Bedroom before me shines bright moonlight' directly corresponds to the required meaning of '床前的明亮月光' while preserving the '床前' position and expressing '月光明亮'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I lift my head to gaze at the bright moon, I lower my head and think of home.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the quiet and solitary feeling of the poem, reflecting the longing for home and the sense of isolation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "translation_id": "D03_S1_T3_Qwen25_r2",
+  "anon_code": "T_517b973c",
+  "poem_id": "D03",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "劝君更尽一杯酒，西出阳关无故人。",
+        "evidence_found": false,
+        "reasoning": "The translation includes '西出阳关无故人' which is not part of the original phrase and does not preserve the core meaning, key imagery, and emotional tone of the original poem.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "劝君更尽一杯酒，",
+        "evidence_found": true,
+        "reasoning": "The translation starts with '劝君更尽一杯酒' which does not preserve the original phrase '西出阳关'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "劝君更尽一杯酒，西出阳关无故人。",
+        "evidence_found": false,
+        "reasoning": "The translation includes '西出阳关无故人' which directly translates to 'No old friends at the western pass' and expands the meaning to 'no old friends at all', thus not preserving '没有老朋友'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "劝君更尽一杯酒，西出阳关无故人。",
+        "evidence_found": false,
+        "reasoning": "The provided translation does not preserve the original phrase '劝酒与无故人之因果' and instead translates it as '劝君更尽一杯酒，西出阳关无故人。' which is a different phrase and does not maintain the original meaning of the poem.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  }
+}

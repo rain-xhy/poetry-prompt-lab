@@ -1,0 +1,19 @@
+{
+  "id": "M19_S1_T3_Qwen3_r2",
+  "poem_id": "M19",
+  "trap_type": "时态叙事",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n岐王宅里寻常见，崔九堂前几度闻。\n正是江南好风景，落花时节又逢君。",
+  "prompt_sha256": "faf0204506aeeacdce0bda8f2183953674feaf3df66775ffef9f67b1823145ef",
+  "translation": "In the palace of the King of Ji, I met him often, and heard his praises on the steps of his estate.  \nIt was indeed a beautiful landscape in the south, yet again I encountered you during the season of falling flowers.\n\n[The reference to \"falling flowers\" alludes to the poetic tradition of using nature to reflect human emotions. The meeting of the poet and the former Emperor is symbolized by this seasonal encounter.]  \n[The phrase \"the King of Ji\" refers to the legendary poet Li Bai, who was once the King of Ji and is celebrated in Chinese poetry.]  \n\nIn the palace of the King of Ji, I met him often, and heard his praises on the steps of his estate.  \nIt was indeed a beautiful landscape in the south, yet again I encountered you during the season of falling flowers.",
+  "metadata": {
+    "input_tokens": 223,
+    "output_tokens": 170,
+    "latency_ms": 1686.4292621612549,
+    "timestamp": "2026-10-26T20:43:09.025175",
+    "finish_reason": "stop"
+  }
+}

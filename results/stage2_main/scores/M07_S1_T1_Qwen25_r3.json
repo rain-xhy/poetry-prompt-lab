@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S1_T1_Qwen25_r3",
+  "anon_code": "T_b925c971",
+  "poem_id": "M07",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Bing and Xie",
+        "evidence_found": false,
+        "reasoning": "The translation correctly preserves 'Wang' and 'X:ie' as specific family names from the historical context of the Eastern Jin dynasty.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "fly into the common people's home",
+        "evidence_found": false,
+        "reasoning": "The phrase 'fly into the common people's home' directly contrasts the past opulence of the Wang and Xie families with the present status of ordinary people, fulfilling both time and social class contrasts.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "fly into the ordinary people's home",
+        "evidence_found": false,
+        "reasoning": "The phrase 'fly into the ordinary people's home' directly references the '燕子' (swallow) as a witness to historical change, indicating its role as a symbol of time passing and social transformation without implying the swallow has lived for centuries.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "By朱雀桥边野草花，乌衣巷口夕阳斜。",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly includes the required wild grass and setting sun imagery while conveying a desolate, decaying atmosphere through the historical context of the Wang and Xie families' decline.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

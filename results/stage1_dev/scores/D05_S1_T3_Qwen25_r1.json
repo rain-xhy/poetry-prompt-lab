@@ -1,0 +1,76 @@
+{
+  "translation_id": "D05_S1_T3_Qwen25_r1",
+  "anon_code": "T_3e1db5ea",
+  "poem_id": "D05",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of life and death seem empty, yet the memory remains unforgettably poignant.",
+        "evidence_found": true,
+        "reasoning": "The phrase does not explicitly mention 'ten years' as a duration but uses 'seem empty' which does not convey the intended meaning of 'two parties being separated and distant'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Ten years of life and death seem empty, yet the memory remains unforgettably poignant.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'yet the memory remains unforgettably poignant' directly translates to 'even if not deliberately thinking, it is naturally unforgettable', meeting the requirement that the translation expresses 'not thinking but still not forgetting' without implying that not thinking causes forgetting.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A lonely grave stretches afar",
+        "evidence_found": true,
+        "reasoning": "The phrase 'lonely grave' directly translates to '孤独坟墓' and 'stretches afar' implies the 'thousand miles' distance.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "where no words can express the profound sorrow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'where no words can express the profound sorrow' directly translates to '无处话凄凉' by conveying the absence of a place or person to express sorrow, matching the required meaning of 'no place/person to speak of sorrow' and the emotional context of sadness.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.6,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 5,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.2,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

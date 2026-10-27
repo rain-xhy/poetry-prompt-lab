@@ -1,0 +1,19 @@
+{
+  "id": "A10_S0_Qwen25_r2",
+  "poem_id": "A10",
+  "trap_type": "future_to_past",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n君问归期未有期，巴山夜雨涨秋池。\n曾经共剪西窗烛，回话巴山夜雨时。",
+  "prompt_sha256": "219875f3c457c3460cb3df3a7978df13b2f8c9b4cb2ea2ccbc69598493c7196e",
+  "translation": "You inquire about my return, but I have no set date,  \nIn the autumn pool, the night rain in Bashi swells.  \nWe used to share the glow of the west window in candlelight,  \nAnd talk about the night rain in Bashi when I come back.",
+  "metadata": {
+    "input_tokens": 71,
+    "output_tokens": 59,
+    "latency_ms": 10999.603033065796,
+    "timestamp": "2026-10-26T21:47:04.534178",
+    "finish_reason": "stop"
+  }
+}

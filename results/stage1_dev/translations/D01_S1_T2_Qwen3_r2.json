@@ -1,0 +1,19 @@
+{
+  "id": "D01_S1_T2_Qwen3_r2",
+  "poem_id": "D01",
+  "trap_type": "情感反差",
+  "strategy": "S1_T2",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Poetic rendering for English poetry reading.\nAudience: Poetry lovers at literary events.\nConstraints:\n- Prioritize rhythm and natural flow when read aloud\n- You may adapt imagery for English poetic conventions\n- You may reorder or restructure lines for English verse\n- Preserve the core emotional tone and main imagery\n- You may sacrifice minor details for poetic effect\n- No notes (pure poetry)\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English verse, no title, no author name, no notes.\n\nPoem:\n此情无计可消除，才下眉头，却上心头。",
+  "prompt_sha256": "588bab0738b2169dd82cfac867cec28d0e2a9b1c2b6b2fa8f35e08c7c5df733a",
+  "translation": "This emotion cannot be erased,  \nA brow unfurled, yet nestled in the heart.",
+  "metadata": {
+    "input_tokens": 208,
+    "output_tokens": 20,
+    "latency_ms": 651.1814594268799,
+    "timestamp": "2026-10-26T16:37:05.227826",
+    "finish_reason": "stop"
+  }
+}

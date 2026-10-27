@@ -1,0 +1,67 @@
+{
+  "translation_id": "M09_S2_T1_Qwen3_r3",
+  "anon_code": "T_65244f43",
+  "poem_id": "M09",
+  "strategy": "S2_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The moon slips below the horizon, and the crow cries out as frost stains the sky. On the riverbank, the red maple trees and fishing fires lie in quiet contemplation, their silhouettes intertwined with the lingering sorrow of the night. The night is quiet, isolated, and filled with a mournful stillness.",
+        "evidence_found": true,
+        "reasoning": "The translation introduces additional elements (red maple trees, fishing fires) not present in the original phrase and establishes a causal relationship between the moon, crow, frost, and the sorrow of the night, violating the requirement of preserving only three parallel images without causal relationships.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "On the riverbank, the red maple trees and fishing fires lie in quiet contemplation, their silhouettes intertwined with the lingering sorrow of the night.",
+        "evidence_found": true,
+        "reasoning": "The translation describes the scene with sorrow but does not explicitly convey the relationship of 'facing' the sorrow while sleeping as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "On the riverbank, the red maple trees and fishing fires lie in quiet contemplation",
+        "evidence_found": true,
+        "reasoning": "The phrase explicitly mentions 'red maple trees' (枫树) and 'fishing fires' (渔火) as two distinct imagery elements on the riverbank, satisfying the requirement of preserving both images in parallel.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The night is quiet, isolated, and filled with a mournful stillness.",
+        "evidence_found": true,
+        "reasoning": "The phrase directly conveys the required 'night泊的孤寂凄凉' (night's solitude and coldness) with 'quiet, isolated, and mournful stillness' explicitly expressing the melancholic atmosphere without any joyful elements.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

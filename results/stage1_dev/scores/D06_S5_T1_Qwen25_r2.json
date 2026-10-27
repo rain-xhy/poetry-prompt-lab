@@ -1,0 +1,76 @@
+{
+  "translation_id": "D06_S5_T1_Qwen25_r2",
+  "anon_code": "T_91a3aafa",
+  "poem_id": "D06",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I know my brothers climb the heights with茱萸",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I know my brothers climb the heights with茱萸' does not express 'in distant imagination' or 'from afar imagining' as required; it describes a specific action (climbing heights) rather than a distant mental perception.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I know my brothers climb the heights with茱萸",
+        "evidence_found": true,
+        "reasoning": "The phrase 'climb the heights' is present but the translation specifies 'brothers' as the subject, whereas the original phrase '兄弟登高处' requires the subject to be 'brothers' (brothers) and the meaning to be 'the place where brothers climb the heights'. The translation does not explicitly state 'the place where' or 'place' as required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I know my brothers climb the heights with茱萸, But one less person wears the茱萸 on their brows.",
+        "evidence_found": true,
+        "reasoning": "The translation incorrectly uses 'with茱萸' and 'wears the茱萸' instead of 'wear' for the verb, and the Chinese phrase '茱萸' is not translated to 'cornel/dogwood sprigs' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "But one less person wears the茱萸 on their brows.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'one less person' does not specify that the person is the speaker, and the translation refers to others wearing茱萸, not the speaker's absence.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 1.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

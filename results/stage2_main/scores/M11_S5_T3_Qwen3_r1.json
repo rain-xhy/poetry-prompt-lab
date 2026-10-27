@@ -1,0 +1,67 @@
+{
+  "translation_id": "M11_S5_T3_Qwen3_r1",
+  "anon_code": "T_515f9727",
+  "poem_id": "M11",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "疑是地上霜",
+        "evidence_found": true,
+        "reasoning": "The phrase '疑是地上霜' translates to 'suspect/wonder/seems/might be' as required, and the English translation uses 'Raise head to see the bright moon, lower head to think of home.' which implies uncertainty through the context of 'think of home' without a definite statement.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Raise head to see the bright moon, lower head to think of home.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly follows the action sequence (raise head, lower head) and directly links the act of seeing the moon to thinking of home, fulfilling the emotional logic of '望月→思乡'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Bed前明月光",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Bed前明月光' directly preserves the '床前' position and describes the moon as bright, meeting both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Raise head to see the bright moon, lower head to think of home.",
+        "evidence_found": true,
+        "reasoning": "The translation focuses on the action of looking at the moon and thinking of home, but does not explicitly convey the 'quiet atmosphere' or 'solitude' required by the original phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

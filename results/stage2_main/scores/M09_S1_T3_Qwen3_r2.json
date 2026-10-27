@@ -1,0 +1,67 @@
+{
+  "translation_id": "M09_S1_T3_Qwen3_r2",
+  "anon_code": "T_fb31d06f",
+  "poem_id": "M09",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Moon drops fall, frogs call out, frost covers the sky—night falls, the river's willow lights shine in solitude, and the",
+        "evidence_found": true,
+        "reasoning": "The translation introduces additional elements like 'frogs call out' and 'night falls' which are not in the original phrase, and the phrase structure implies a causal relationship between the elements (e.g., 'frost covers the sky' leading to 'night falls'), violating the requirement of three parallel意象 without causal relationships.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the traveler dreams of sorrow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'the traveler dreams of sorrow' implies facing sorrow while sleeping, meeting both conditions: '面对愁绪而眠' (facing sorrow while sleeping) and '愁绪伴随睡眠' (sorrow accompanies sleep).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the river's willows glow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'the river's willows glow' directly refers to 江枫 (river's willows) and implies the 'fish fire' (渔火) through the context of 'their lights contrast with the traveler's troubled heart', which suggests the presence of lights from fishing boats.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Moonlight falls, the river's willows glow, their lights contrast with the traveler's troubled heart.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys a sense of solitude and melancholy through the imagery of moonlight, willows, and the traveler's troubled heart, avoiding any joyful elements.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 1.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

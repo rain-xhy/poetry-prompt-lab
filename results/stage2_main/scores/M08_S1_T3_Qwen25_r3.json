@@ -1,0 +1,67 @@
+{
+  "translation_id": "M08_S1_T3_Qwen25_r3",
+  "anon_code": "T_cbf2b497",
+  "poem_id": "M08",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no one is seen, Only the sound of voices is heard",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts 'no one is seen' (看不见人) with 'the sound of voices is heard' (听得见说话声), avoiding the implication of 'no one' by specifying the sound is heard.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Sunlight returns to deep woods",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Sunlight returns to deep woods' directly translates the dynamic movement of '返景入深林' as sunlight (返景) moving into deep woods (深林).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Reflects on green moss on the ground",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Reflects on green moss on the ground' captures the '又照在青苔上' meaning with 'reflects' implying 'again' or 'repeatedly' and 'green moss' corresponding to '青苔'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "In empty mountain, no one is seen, Only the sound of voices is heard. Sunlight returns to deep woods, Reflects on green moss on the ground.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys an empty and quiet mountain environment with no people present, which matches the requirement of expressing '空旷、幽静的山' without denying the existence of the mountain.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

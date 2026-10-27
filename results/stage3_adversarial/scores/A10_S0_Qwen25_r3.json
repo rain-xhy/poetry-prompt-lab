@@ -1,0 +1,58 @@
+{
+  "translation_id": "A10_S0_Qwen25_r3",
+  "anon_code": "T_cd6fb217",
+  "poem_id": "A10",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Once we shared lanterns by the west window",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Once we shared lanterns...' uses 'Once' to indicate past experience, fulfilling the requirement for past tense representation of '曾经'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "You inquire about my return, yet I have no set date",
+        "evidence_found": true,
+        "reasoning": "This line directly addresses the uncertainty of return (recalling past) rather than future expectations.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "You inquire about my return, yet I have no set date, In the autumn pool, the night rain in Ba Mountain swells.",
+        "evidence_found": true,
+        "reasoning": "The translation reverses the temporal relationship: the original poem uses '何当' (when will I be able to) to express future hope, but the translation states 'have no set date' implying past uncertainty, which contradicts the required preservation of '何当' as future tense.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M04_S5_T1_Qwen25_r2",
+  "anon_code": "T_5401081a",
+  "poem_id": "M04",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "If it were truly forever true, It wouldn't need daily meetings. For lovers, it’s the heart’s desire That lasts beyond mere time and space. The deeper our feelings, the more we keep silent. If this were true, then constant companionship isn. t necessary.",
+        "evidence_found": false,
+        "reasoning": "The translation does not use a conditional clause (if/as long as) to express 'long-lasting' as a condition for the relationship, but rather describes the state of the relationship after the condition is met, which changes the meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If this were true, then constant companionship isn’t necessary.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'constant companionship isn't necessary' directly corresponds to '不必日日相守' and the context implies a rhetorical question about the necessity of daily meetings, fulfilling the requirement for a negative or questioning tone.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "If it were truly forever true, It wouldn't need daily meetings. For lovers, it’s the heart’s desire That lasts beyond mere time and space. The deeper our feelings, the more we keep silent. If this were true, then constant companionship isn't necessary.",
+        "evidence_found": false,
+        "reasoning": "The translation conveys the concept of continuous, repeated presence through phrases like 'daily meetings' and 'constant companionship', which align with the requirement of expressing frequent or continuous action while maintaining a sense of time's repetition.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If this were true, then constant companionship isn’t necessary.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'If this were true' establishes the conditional clause, and 'constant companionship isn’t necessary' directly addresses the conclusion, preserving the conditional and rhetorical logic of the original Chinese phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

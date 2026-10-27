@@ -1,0 +1,19 @@
+{
+  "id": "M17_S0_Qwen25_r1",
+  "poem_id": "M17",
+  "trap_type": "时态叙事",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n此情可待成追忆，只是当时已惘然。",
+  "prompt_sha256": "2ac189fc2f4abaf78c99f72858d7b92bb01b844cdff6880e738f42b4b3e41850",
+  "translation": "This feeling could not be forgotten, alas, for it was already sorrowful at the time. \n\nNote: This poem is a translation attempt based on the Chinese original. The structure and meaning might be slightly altered to fit English poetic conventions. The original Chinese poem is quite ambiguous and open to various interpretations, so this translation is one possible rendition.",
+  "metadata": {
+    "input_tokens": 55,
+    "output_tokens": 70,
+    "latency_ms": 9746.84190750122,
+    "timestamp": "2026-10-26T19:49:39.611106",
+    "finish_reason": "stop"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M03_S4_T1_Qwen3_r1",
+  "anon_code": "T_51973dd4",
+  "poem_id": "M03",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I have no definite period",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I have no definite period' directly translates to '尚未确定' and meets the requirement of expressing 'cannot yet be set' without implying 'no deadline' or 'never'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When will we jointly light the western window candle",
+        "evidence_found": true,
+        "reasoning": "The phrase 'When will we jointly light the western window candle' uses the future tense 'will' to express the future assumption of sharing the action of lighting the candle together, matching the required meaning of '什么时候能一起剪西窗烛' (when can we jointly trim the western window candle).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When you ask for the time of my return, I have no definite period. The night rain in the Bashan Mountains fills the autumn pool. When will we jointly light the western window candle, and then recount the night rain of Bash,",
+        "evidence_found": false,
+        "reasoning": "The translation does not explicitly convey '将来回忆过去' (future recalling past) as required; it describes a future event (recounting) but the context implies a past action (the night rain) being recalled, not the future recalling past.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The night rain in the Bashan Mountains fills the autumn pool.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states that the night rain in Bashan fills the autumn pool, which matches the required meaning of 'rain makes the pool water rise' while preserving the three required imagery elements: Bashan Mountains, night rain, and autumn pool.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 4,
+    "valid": true
+  }
+}

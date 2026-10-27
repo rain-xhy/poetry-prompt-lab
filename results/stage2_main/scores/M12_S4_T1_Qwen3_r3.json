@@ -1,0 +1,67 @@
+{
+  "translation_id": "M12_S4_T1_Qwen3_r3",
+  "anon_code": "T_90cec844",
+  "poem_id": "M12",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Desiring to see thousands of miles",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Desiring to see thousands of miles' uses 'desiring' (a verb expressing purpose) and 'thousands of miles' (the required distance), meeting both pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "One must climb higher, one must rise above.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states 'must climb higher' and 'must rise above', directly reflecting the requirement to 'need/must climb one more level' as per the conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Desiring to see thousands of miles, One must climb higher, one must rise above.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the purpose (desiring to see thousands of miles) and the necessary action (climb higher/rise above) to achieve it, maintaining the purpose-means logic.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Desiring to see thousands of miles, One must climb higher, one must rise above.",
+        "evidence_found": true,
+        "reasoning": "The original phrase describes two distinct natural scenes: the sun setting behind mountains and the Yellow River flowing into the sea. The translation adds new content about 'desiring to see thousands of miles' and 'climbing higher', which are not present in the original Chinese and thus do not preserve the two original images.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

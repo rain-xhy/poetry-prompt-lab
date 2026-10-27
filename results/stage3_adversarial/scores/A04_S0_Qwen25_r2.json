@@ -1,0 +1,58 @@
+{
+  "translation_id": "A04_S0_Qwen25_r2",
+  "anon_code": "T_e169b3a6",
+  "poem_id": "A04",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling has already become a matter of regret, But at the time, it was already sorrowful and bewildered.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'has already become' and 'was already' indicate completion and past state, fulfilling the requirement to preserve '已待' as completed action.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling has already become a matter of regret, But at the time, it was already sorrowful and bewildered.",
+        "evidence_found": true,
+        "reasoning": "The translation uses declarative structure without rhetorical questions, clearly stating the regret and sorrow as factual states.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling has already become a matter of regret, But at the time, it was already sorrowful and bewildered.",
+        "evidence_found": true,
+        "reasoning": "The translation uses present perfect tense 'has already become' and past perfect 'was already sorrowful' which indicates a completed action in the past, but the original Chinese phrase '与原诗对比' requires preserving the temporal contrast between '可待' (can wait) and '已待' (has waited), implying a shift from potential to actual waiting. The translation does not capture this specific temporal nuance as it focuses on regret and sorrow rather than the temporal progression of waiting.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

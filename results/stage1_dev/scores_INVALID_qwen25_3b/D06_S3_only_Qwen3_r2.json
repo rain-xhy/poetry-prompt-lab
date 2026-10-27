@@ -1,0 +1,62 @@
+{
+  "translation_id": "D06_S3_only_Qwen3_r2",
+  "anon_code": "T_70d25438",
+  "poem_id": "D06",
+  "strategy": "S3_only",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When I know my brothers will ascend the high ground, I am filled with sorrow for the one who is missing.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express '遥知' which means '遥知' in the original phrase. Instead, it translates a different phrase from a different poem.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When I know my brothers will ascend the high ground",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the word 'climb the heights' and the main subject is 'I' instead of 'brothers'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When I know my brothers will ascend the high ground, I am filled with sorrow for the one who is missing.",
+        "evidence_found": true,
+        "reasoning": "The translation does not mention '茱萸' or '插着茱萸' and instead focuses on the context of the poem, which is not aligned with the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When I know my brothers will ascend the high ground, I am filled with sorrow for the one who is missing.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '少一人' and does not explicitly state that the missing person is the speaker.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 2,
+    "overall": 3.15,
+    "valid": true
+  }
+}

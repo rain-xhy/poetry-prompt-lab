@@ -1,0 +1,67 @@
+{
+  "translation_id": "M08_S5_T2_Qwen25_r2",
+  "anon_code": "T_651da3f3",
+  "poem_id": "M08",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In the silent hollow, no one seen,",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no one seen' implies absence rather than '看不见' (cannot see), and the translation does not explicitly contrast 'cannot see' with 'can hear' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Light returns, deep woods it penetrates",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Light returns, deep woods it penetrates' directly expresses the dynamic movement of sunlight (返景) entering deep woods (深林) as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Light returns, deep woods it penetrates, Illuminating the moss with its gentle lights.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Light returns' implies 'again' or 'repeatedly', and 'Illuminating the moss' directly corresponds to '照在青苔上' while preserving the moss imagery.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "In the silent hollow, no one seen, Only the voice of man echoes.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'silent hollow' implies emptiness and stillness, and 'no one seen' suggests absence of people, aligning with the requirement for emptiness and quietness of the mountain.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.95,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

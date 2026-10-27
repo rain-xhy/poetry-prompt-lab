@@ -1,0 +1,62 @@
+{
+  "translation_id": "D03_S5_T3_Qwen3_r1",
+  "anon_code": "T_11f08a83",
+  "poem_id": "D03",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "劝君更尽一杯酒",
+        "evidence_found": true,
+        "reasoning": "The translation does not include '劝君更尽一杯酒', which is a key phrase from the original and does not satisfy the condition of preserving the phrase '劝君更尽一杯酒'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The wind knocks at the door for me, And the hills wish to keep the guest.",
+        "evidence_found": true,
+        "reasoning": "The translation does not mention '西出阳关' or indicate the direction of '西' (west).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "And the hills wish to keep the guest.",
+        "evidence_found": true,
+        "reasoning": "The phrase '无故人' is translated as 'no old friends/acquaintances', which does not preserve the original meaning of '无故人' (no old friends).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "劝君更尽一杯酒，西出阳关无故人.",
+        "evidence_found": true,
+        "reasoning": "The provided translation does not preserve the original meaning and structure of the Chinese phrase. It translates to 'Sip more wine, friend, for after you leave, there will be no old acquaintances.' which does not directly connect the 'causal relationship' of the original phrase. The provided translation does not mention 'no old acquaintances' or 'causal relationship' as in the original phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 2,
+    "overall": 3.15,
+    "valid": true
+  }
+}

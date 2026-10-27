@@ -1,0 +1,67 @@
+{
+  "translation_id": "M17_S5_T2_Qwen3_r3",
+  "anon_code": "T_eb89ae55",
+  "poem_id": "M17",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When this feeling can wait to become a memory",
+        "evidence_found": true,
+        "reasoning": "The phrase 'can wait to become a memory' does not express 'become a memory' as a future state but implies a current ability to wait, which does not match the required future tense of 'becoming a memory'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When this feeling can wait to become a memory, Yet at that time, it was already lost.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it was already lost' does not convey the completed state of 'already' as required by the past perfect tense, and the translation lacks the explicit 'already' completion marker that the original phrase '当时就已经惘然' implies.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When this feeling can wait to become a memory, Yet at that time, it was already lost.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly convey the emotional reference of 'this feeling' as a specific emotional state or relationship, but rather describes a temporal and abstract concept of feeling waiting to become memory, which lacks the specific emotional context required by 'this feeling' in Chinese classical poetry.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When this feeling can wait to become a memory, Yet at that time, it was already lost.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts future memory ('can wait to become a memory') with past loss ('was already lost'), fulfilling the requirement of complex tense interplay between future and past.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

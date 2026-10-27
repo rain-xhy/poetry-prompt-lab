@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S5_T3_Qwen3_r2",
+  "anon_code": "T_aab416c7",
+  "poem_id": "M07",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Old times of Wang and X:ie on the terrace",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly mentions 'Wang' and 'Xie' as specific family names, preserving the required historical context without genericization.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A swallow now flies into common folks' homes",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A swallow now flies into common folks' homes' directly contrasts 'old times' (implied by 'now' vs. past) with 'common folks' (modern) versus 'high society' (implied by 'swallow' as a symbol of aristocracy in the original poem), fulfilling both time and class contrasts.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A swallow now flies into common folks' homes",
+        "evidence_found": true,
+        "reasoning": "The phrase 'a swallow' does not preserve the '燕子' (swallow) as a witness (意象) but refers to a general swallow, not specifically the witness role.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "J雀桥边野草花，乌衣巷口夕阳斜。",
+        "evidence_found": true,
+        "reasoning": "The line directly includes 'wild grass' and 'setting sun' as required, and conveys a desolate atmosphere through the historical context of Wang and Xie's terrace.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

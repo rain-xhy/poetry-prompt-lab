@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S1_T3_Qwen25_r2",
+  "anon_code": "T_4471fac4",
+  "poem_id": "M07",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Formerly, the swallows in Wang and Xie's halls flew into Common homes.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly preserves 'Wang' and 'Xie' as specific family names (王氏 and 谢氏) from the Eastern Jin Dynasty, meeting the requirement to not generalize the names.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Formerly, the swallows in Wang and Xie's halls flew into Common homes.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Formerly, the swallows in Wang and Xie's halls flew into Common homes' directly shows the time contrast ('Formerly') and the class contrast between 'Wang and Xie's halls' (aristocratic) and 'Common homes' (ordinary people).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Formerly, the swallows in Wang and Xie's halls flew into common homes.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'swallows in Wang and Xie's halls' directly references the '王谢堂前燕' (Wang and Xie's hall swallows) imagery, where 'swallows' represent the '燕子' (swallows) as a witness to historical change, and 'flew into common homes' implies the transition from elite to common people, preserving the intended meaning without suggesting the same swallow lived for centuries.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Tranquility of wild flowers by the Qizha Bridge, Umbrella-robed gentry's shadow on the Uyiren Lane slants.",
+        "evidence_found": true,
+        "reasoning": "The translation does not mention wild grass or the setting sun, which are required to be preserved as part of the 荒凉景象 (desolate scene) in the original phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

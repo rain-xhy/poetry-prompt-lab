@@ -1,0 +1,76 @@
+{
+  "translation_id": "D03_S1_T3_Qwen3_r2",
+  "anon_code": "T_6582cb69",
+  "poem_id": "D03",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Drink until it is empty, farewell to this last cup of, Beyond the Yangguan Pass, there is no old friend to greet.",
+        "evidence_found": false,
+        "reasoning": "The translation does not explicitly convey the act of 'encouraging' the friend to drink one more cup, which is required by the original phrase's context of the speaker urging the friend to finish the cup of wine before parting.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Beyond the Yanggu: Pass",
+        "evidence_found": false,
+        "reasoning": "The phrase 'Beyond the Yangguan Pass' in the translation indicates moving west past Yangguan, fulfilling the requirement to express '向西出了阳关' (west of Yangguan).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Beyond the Yanggu: there is no old friend to greet.",
+        "evidence_found": false,
+        "reasoning": "The phrase 'there is no old friend to greet' directly translates to '没有老朋友' as required, and the context specifies 'no old friends/acquaintances' without expanding to 'no one at all'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Drink until it is empty, farewell to this last cup of wine, Beyond the Yangguan Pass, there is no old friend to greet.",
+        "evidence_found": true,
+        "reasoning": "The translation connects the act of drinking (劝酒) with the absence of old friends (无故人) by stating that beyond Yangguan Pass there are no old friends to greet, implying the need to drink one last cup before parting.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

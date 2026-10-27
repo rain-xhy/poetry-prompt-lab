@@ -1,0 +1,58 @@
+{
+  "translation_id": "A04_S0_Qwen3_r3",
+  "anon_code": "T_0ba586b6",
+  "poem_id": "A04",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling has already become a reminiscence; only then did it turn into something sorrowful.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'has already become' indicates the completed action of waiting, fulfilling the requirement to identify '已待' as a completed action rather than a rhetorical question.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling has already become a reminiscence; only then did it turn into something sorrowful.",
+        "evidence_found": true,
+        "reasoning": "The translation uses declarative structure without rhetorical questions, confirming it's a statement not a question.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling has already become a reminiscence; only then did it turn into something sorrowful.",
+        "evidence_found": true,
+        "reasoning": "The translation correctly captures the temporal shift from '可待' (can be waited for) to '已待' (already waited for) by using 'has already become' and 'only then did it turn', indicating the past action completed before the current state.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 1,
+    "overall": 1.8,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

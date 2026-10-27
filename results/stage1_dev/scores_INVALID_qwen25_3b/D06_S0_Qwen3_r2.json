@@ -1,0 +1,62 @@
+{
+  "translation_id": "D06_S0_Qwen3_r2",
+  "anon_code": "T_6c34c4f6",
+  "poem_id": "D06",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I know that brothers will climb high for autumn",
+        "evidence_found": true,
+        "reasoning": "The translation contains a phrase that is not from the original Chinese phrase '遥知' and does not express the idea of 'from afar imagining to know'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I know that brothers will climb high for autumn",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the phrase '登高处' (high place) and the subject is 'I know' instead of '兄弟们' (brothers).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I know that brothers will climb high for autumn,",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the phrase '每个人头上都插着茱萸' and instead translates the original Chinese poem into a new context about brothers climbing high for autumn, which does not preserve the original meaning or the phrase '遍插茱萸'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I know that brothers will climb high for autumn, and plant the mugwort stalks, but one is missing.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '少一人' and does not indicate that the missing person is the speaker.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 2,
+    "overall": 3.15,
+    "valid": true
+  }
+}

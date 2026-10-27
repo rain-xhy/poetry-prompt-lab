@@ -1,0 +1,67 @@
+{
+  "translation_id": "M11_S5_T3_Qwen3_r2",
+  "anon_code": "T_00f7e463",
+  "poem_id": "M11",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "it seems like frost has fallen on the ground",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it seems like frost has fallen on the ground' uses the verb 'seems' to indicate uncertainty, matching the requirement of using a speculative verb without stating it as a definite fact.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When I lift my head, the bright moon shines above; when I lower my head, I think of my homeland.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly shows the sequence of actions (lifting head, lowering head) and the causal link between observing the moon and thinking of home.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Before the moonlight shines on the bed, it seems like frost has fallen on the ground.",
+        "evidence_found": true,
+        "reasoning": "The translation does not mention 'bed' in the context of 'bed before the moonlight' as required by the original phrase '床前明月光', which specifies 'bed front' with moonlight.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Before the moonlight shines on the bed, it seems like frost has fallen on the ground. When I lift my head, the bright moon shines above; when I lower my head, I think of my homeland.",
+        "evidence_found": true,
+        "reasoning": "The translation describes a scene of moonlight and frost but does not explicitly convey the 'solitude' or 'loneliness' required by the original phrase '静夜独处的氛围', which emphasizes a quiet, solitary atmosphere with a sense of homesickness.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "translation_id": "D05_S5_T3_Qwen25_r1",
+  "anon_code": "T_3b853132",
+  "poem_id": "D05",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Ten years of life and death seem vague",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Ten years of life and death seem vague' directly captures the meaning of '十年生死两茫茫' by expressing the isolation and vagueness between the living and the dead over a decade.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Not thinking of them, yet I miss them.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Not thinking of them, yet I miss them' directly matches the required meaning of '即使不刻意去想，也自然难忘' by expressing that even without deliberate thought, the memory remains strong.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A lonely tomb, a thousand miles away",
+        "evidence_found": true,
+        "reasoning": "The phrase 'a lonely tomb' directly translates to '孤独坟墓' and 'a thousand miles away' indicates the 'thousand miles' distance, meeting both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "No place to speak of the sorrow.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'No place to speak of the sorrow' directly translates the requirement of '没有地方、没有人可诉说凄凉' by expressing the absence of a place or person to convey sorrow.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 5,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.2,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

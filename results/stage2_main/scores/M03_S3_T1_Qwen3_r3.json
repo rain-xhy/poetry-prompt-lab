@@ -1,0 +1,67 @@
+{
+  "translation_id": "M03_S3_T1_Qwen3_r3",
+  "anon_code": "T_4d93016a",
+  "poem_id": "M03",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I have no fixed period",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I have no fixed period' directly translates to '尚未确定' and meets the requirement of expressing 'cannot yet be set' without implying 'no deadline' or 'never'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When will we jointly light the Western Window Candle",
+        "evidence_found": true,
+        "reasoning": "The phrase 'When will we jointly light the Western Window Candle' uses the future tense 'will' to express a future assumption about sharing the action of lighting the candle together, matching the required meaning of '什么时候能一起剪西窗烛' (when can we together trim the western window candle).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When you ask for the time of my return, I have no fixed period. The night rain in the mountains of Ba increases the autumn pool. When will we jointly light the Western Window Candle, and recount the night rain of Ba Mountain?",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly convey '将来回忆过去' (future recalling past) as required; it focuses on future actions and current rain, not past memories being recalled in the future.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The night rain in the mountains of Ba increases the autumn pool.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states that the night rain in Ba mountains causes the autumn pool to increase in water level, preserving the three required意象 (巴山, 夜雨, 秋池) and expressing the rain causing the pool to rise.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.45,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

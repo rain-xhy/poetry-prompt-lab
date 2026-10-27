@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S2_T1_Qwen25_r1",
+  "anon_code": "T_1055ca7a",
+  "poem_id": "M02",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "this红豆最能寄托相思之情",
+        "evidence_found": false,
+        "reasoning": "The phrase '红豆最能寄托相思之情' directly states that red beans symbolize longing, fulfilling the requirement of preserving '红豆' as a symbol of longing.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "I hope you can pick more red beans",
+        "evidence_found": false,
+        "reasoning": "The phrase 'I hope you can pick more red beans' directly expresses a wish/hope for the recipient to gather more red beans, fulfilling the requirement of '劝君多采摘（愿望）' with the target 'you' explicitly mentioned.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "because this red bean most can寄托相思之情",
+        "evidence_found": false,
+        "reasoning": "The English translation states 'because this red bean most can寄托相思之情', which directly expresses that the object (red bean) most effectively symbolizes or conveys longing, meeting the requirement of expressing 'this thing most can symbolize/express longing'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "春天到来时，它又将抽出多少新枝？",
+        "evidence_found": true,
+        "reasoning": "The phrase '春天到来时' translates to 'when spring comes', which meets the requirement for expressing the time of spring, but the phrase '它又将抽出多少新枝？' translates to 'how many new branches will it draw out again?', which does not accurately capture the natural action of '发枝' (growing branches) as it implies a future action with 'will' and 'again', whereas the original phrase refers to the natural growth process without such temporal markers.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

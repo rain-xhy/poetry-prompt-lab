@@ -1,0 +1,67 @@
+{
+  "translation_id": "M20_S1_T3_Qwen25_r2",
+  "anon_code": "T_35a57586",
+  "poem_id": "M20",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell high by the Yangtze’s head, You live far below its tail.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts the two positions (head vs tail) with clear spatial opposition, fulfilling the requirement of head vs tail spatial contrast.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Day and night I think of you",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Day and night' explicitly conveys the continuous daily/every day aspect, and 'think of you' captures the '思念' (longing) while the context implies the '不见' (not seeing) through the separation metaphor in the poem.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Drinking from the same Yangtze’s wave",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Drinking from the same Yangtze’s wave' directly reflects the '共饮一江水' concept, emphasizing shared drinking from the same river while maintaining the connection despite physical separation.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell high by the Yangtze’s head, You live far below its tail.",
+        "evidence_found": true,
+        "reasoning": "The first two lines explicitly show physical separation (Yangtze’s head vs tail) while implying emotional connection through the shared river, creating tension between distance and emotional bond.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

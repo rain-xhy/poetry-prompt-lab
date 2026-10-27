@@ -1,0 +1,19 @@
+{
+  "id": "M10_S2_T1_Qwen25_r3",
+  "poem_id": "M10",
+  "trap_type": "拟人意象",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nSemantic Analysis (in Chinese):\n“烧不尽”：烧不完（否定+拟人）。要点：否定意义，火烧不完草。\n“春风吹又生”：春风吹拂，草又生长。要点：再生、重生的意义。\n“野火...野草”：火烧草的拟人关系。要点：火作为施动者，草作为受动者。\n“顽强生命力主题”：草的不屈生命力。要点：生命力旺盛、不屈不挠的主题。\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n野火烧不尽，春风吹又生。",
+  "prompt_sha256": "e9e57c0a52fb2a95d731f99539d8c894459cebc07e052214e11ec60db2028d5e",
+  "translation": "Wild fire cannot burn it all,\nSpring breeze makes it grow again.\n[Note: In Chinese culture, the spring breeze is often personified as having nurturing qualities, much like the metaphorical \"spring breeze of encouragement.\"]\n\nThis translation preserves the core imagery and emotional tone of the original poem. It keeps the metaphorical references, such as personifying the spring wind, and the use of personification to describe the grass. The theme of resilience and persistence is also maintained.",
+  "metadata": {
+    "input_tokens": 335,
+    "output_tokens": 96,
+    "latency_ms": 1421.3416576385498,
+    "timestamp": "2026-10-26T21:23:15.545703",
+    "finish_reason": "stop"
+  }
+}

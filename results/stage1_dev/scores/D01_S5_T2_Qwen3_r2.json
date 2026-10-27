@@ -1,0 +1,76 @@
+{
+  "translation_id": "D01_S5_T2_Qwen3_r2",
+  "anon_code": "T_d6f46de3",
+  "poem_id": "D01",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This emotion cannot be measured or erased",
+        "evidence_found": true,
+        "reasoning": "The phrase 'cannot be measured or erased' directly corresponds to '无法消除' (cannot eliminate) and 'sorrow' is implied by 'emotion' in context, meeting the requirement that the translation expresses '无法消除这份情绪' without implying elimination or lack of desire.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The sorrow slips from the brow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The sorrow slips from the brow' directly translates the meaning of '愁刚从眉间离开' by expressing that sorrow has just left the brow, meeting the requirement of expressing '刚刚/才离开眉间' and pointing to 'brow'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Yet returns to the heart",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Yet returns to the heart' directly expresses the required meaning of a turn (yet) and the focus on the heart, matching the original phrase's requirement to preserve '愁又涌上心头' with a turn and heart as the focus.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The sorrow slips from the brow, Yet returns to the heart.",
+        "evidence_found": true,
+        "reasoning": "The translation shows the emotion moving from the brow to the heart, indicating continuous presence without disappearance, meeting both conditions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

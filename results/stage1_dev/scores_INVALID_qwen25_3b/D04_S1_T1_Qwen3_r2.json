@@ -1,0 +1,62 @@
+{
+  "translation_id": "D04_S1_T1_Qwen3_r2",
+  "anon_code": "T_ce404473",
+  "poem_id": "D04",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The spring water of Tao Lake is deeper than a thousand feet",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '桃花潭水深千尺' and does not mention the name '桃花潭' (Peach Blossom Pool). The translation focuses on the farewell of Wang Lun, which is not part of the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The spring water of Tao Lake is deeper than a thousand feet, yet it cannot match the heartfelt farewell of Wang Lun.",
+        "evidence_found": true,
+        "reasoning": "The phrase '不及' (not as deep) is not preserved and replaced with '更深' (deeper).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The translation does not mention Wang Lun as the one sending someone, nor does it mention '我' (I) as the one being sent. The translation focuses on the depth of the spring water, which is not aligned with the original phrase's context of Wang Lun sending someone away.",
+        "evidence_found": false,
+        "reasoning": "The translation does not preserve the original meaning and context of '汪伦送我'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The spring water of Tao Lake is deeper than a thousand feet, yet it cannot match the heartfelt farewell of Wang Lun.",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the phrase '以水深比情深的比喻' and does not explicitly state that the '情谊' is the deeper one.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 5,
+    "fluency": 4,
+    "poetic_quality": 2,
+    "overall": 3.55,
+    "valid": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "translation_id": "D03_S3_only_Qwen3_r1",
+  "anon_code": "T_8206da1e",
+  "poem_id": "D03",
+  "strategy": "S3_only",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Drink to the last drop of this one drink",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '劝君更尽一杯酒' and introduces new content that does not align with the original meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "West of the Yang Guan, there is no old friend.",
+        "evidence_found": true,
+        "reasoning": "The translation contains 'West of the Yang Guan, there is no old friend.' which preserves '西出阳关' (west of Yangguan) but does not use the exact phrase '西出阳关' and does not mention '西' (west) direction as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "no old friend",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'no old friend' which expands the meaning to 'no one at all', not preserving '没有老朋友'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Drink to the last drop of this one drink",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '因为此去没有故人，所以劝再饮一杯' and does not clearly show the relationship between the '无故人' and the '劝酒'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\"adequacy\":1,\"imagery\":0,\"emotion\":1,\"fluency\":2,\"poetic_quality\":0}"
+  }
+}

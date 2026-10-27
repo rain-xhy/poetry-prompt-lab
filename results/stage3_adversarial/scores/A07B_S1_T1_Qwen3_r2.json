@@ -1,0 +1,58 @@
+{
+  "translation_id": "A07B_S1_T1_Qwen3_r2",
+  "anon_code": "T_1da2d126",
+  "poem_id": "A07B",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Be careful not to fall into the river—",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Be careful not to fall into the river' directly addresses the warning against a negative outcome, fulfilling the requirement to infer the correct negation from the ambiguous version.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Be careful not to fall into the river—",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Be careful not to fall into the river' directly corresponds to the requirement of '版本B翻译为否定' (version B translated as a negation), indicating a cautionary statement that avoids the negative outcome of falling into the river.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Be careful not to fall into the river—\nThe moon hangs low, a lonely companion,  \nIts light flickers, a silent warning.",
+        "evidence_found": true,
+        "reasoning": "The English translation conveys the meaning of caution and the moon's role as a silent warning, aligning with the requirement that both versions should have the same meaning.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

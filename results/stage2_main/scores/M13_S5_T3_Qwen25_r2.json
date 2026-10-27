@@ -1,0 +1,67 @@
+{
+  "translation_id": "M13_S5_T3_Qwen25_r2",
+  "anon_code": "T_855f8430",
+  "poem_id": "M13",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A thousand mountains mute the cries of birds, A myriad paths vanish, none in sight.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'mute the cries of birds' does not convey the absolute absence of birds as required; it implies silence but not the complete absence of birds.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A myriad paths vanish, none in sight.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A myriad paths vanish, none in sight' directly expresses the absolute absence of human traces as required by '人踪灭', capturing the '灭' (disappearance) sense through the active verb 'vanish' and the emphatic 'none in sight'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A solitary boat with a蓑笠 (蓑笠 means a simple outfit worn by fishermen, typically consisting of a straw rain cape and a straw hat) man",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A solitary boat with a...' explicitly emphasizes 'solitary' (alone) and includes the action of fishing through the context of the man on the boat.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "A thousand mountains mute the cries of birds, A myriad paths vanish, none in sight. A solitary boat with a蓑笠 man, Determined to fish in the cold winter snow.",
+        "evidence_found": false,
+        "reasoning": "The translation effectively conveys the vastness of the landscape through 'a thousand mountains' and 'a myriad paths', while highlighting human solitude with 'a solitary boat' and 'a蓑笠 man', creating a clear contrast between the expansive environment and the isolated figure.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.45,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

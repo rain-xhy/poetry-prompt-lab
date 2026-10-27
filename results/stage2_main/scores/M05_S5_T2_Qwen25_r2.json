@@ -1,0 +1,67 @@
+{
+  "translation_id": "M05_S5_T2_Qwen25_r2",
+  "anon_code": "T_a13146ea",
+  "poem_id": "M05",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Searching, searching, in the cold and lonely air",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Searching, searching' directly reflects the repeated action of '反复寻找' with the repetition emphasizing the continuous effort, and the context of 'in the cold and lonely air' aligns with the emotional weight of the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "cold and lonely air, silent and bleak, dreary, empty night",
+        "evidence_found": false,
+        "reasoning": "The translation uses 'cold and lonely air', 'silent and bleak', and 'dreary, empty night' to convey a cold, desolate environment that matches the required meaning of 环境的冷清凄凉 and forms a progressive relationship with the previous line.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Shadows of despair, a haunting, piercing sight, Echoes of sorrow, in this dreary, empty night.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys deep sorrow with layered emotional progression from despair to sorrow in a bleak night.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Searching, searching, in the cold and lonely air, Silent and bleak, my heart in deepest woe, Shadows of despair, a haunting, piercing sight, Echoes of sorrow, in this dreary, empty night.",
+        "evidence_found": true,
+        "reasoning": "The translation follows the required structure from action to environment to emotion, maintaining the intended progression without altering the sequence.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

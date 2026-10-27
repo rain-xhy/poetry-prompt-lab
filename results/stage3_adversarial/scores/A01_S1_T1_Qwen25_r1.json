@@ -1,0 +1,58 @@
+{
+  "translation_id": "A01_S1_T1_Qwen25_r1",
+  "anon_code": "T_17067c1e",
+  "poem_id": "A01",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Gently slipping into the river, As if in a dance with water's cool caress. In silent harmony, it finds its place, A delicate balance where life and death meet.",
+        "evidence_found": true,
+        "reasoning": "The translation describes a peaceful, harmonious scene without any explicit or implicit negative words that convey 'do not' or avoidance, failing to preserve the 'don't' negative meaning of '小心' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Gently slipping into the river, As if in a dance with water's cool caress. In silent harmony, it finds its place, A delicate balance where life and death meet.",
+        "evidence_found": true,
+        "reasoning": "The translation describes a peaceful, harmonious scene with water and life/death balance but lacks explicit warning or cautionary language as required by the original phrase's meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Gently slipping into the river",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Gently slipping into the river' directly contains 'slip' (slide) and 'into river', meeting the pass conditions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

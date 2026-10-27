@@ -1,0 +1,67 @@
+{
+  "translation_id": "M03_S5_T2_Qwen3_r2",
+  "anon_code": "T_a663ee14",
+  "poem_id": "M03",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "it is not yet determined",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it is not yet determined' directly translates to '尚未确定' which matches the required meaning of '尚未确定/cannot yet be set' without implying 'no deadline' or 'never'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When will we share the candlelight on the west window",
+        "evidence_found": true,
+        "reasoning": "The phrase 'When will we share the candlelight on the west window' uses the future tense 'will' to express a future assumption about sharing candlelight, matching the required meaning of '什么时候能一起剪西窗烛' (when can we together trim the west window candle).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When asked about my return date, I say it is not yet determined, The rain in Bashan fills the autumn pool, rising and swelling. When will we share the candlelight on the west window, To recount the rain of Bash, when it falls?",
+        "evidence_found": false,
+        "reasoning": "The translation does not explicitly convey '将来回忆过去' (future recalling past) as it describes a future event (when we share candlelight) rather than recalling past rain events. The phrase 'recount the rain of Bashan when it falls' implies future rain, not past rain being recalled.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The rain in Bashan fills the autumn pool, rising and swelling.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The rain in Bash:an fills the autumn pool, rising and swelling' directly expresses the meaning of '雨使池水上涨' (rain makes the pool water rise) while preserving the three required意象: 巴山 (Bashan), 夜雨 (rain), and 秋池 (autumn pool).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

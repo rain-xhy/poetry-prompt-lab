@@ -1,0 +1,62 @@
+{
+  "translation_id": "D03_S0_Qwen3_r1",
+  "anon_code": "T_5c3ac7dd",
+  "poem_id": "D03",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Drink until it is empty, farewell to this last cup of wine",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the phrase '我劝你再干一杯酒' (Suggest you drink one more cup of wine) and does not express the idea of '再干一杯酒' (drink one more cup of wine)",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "farewell to this last cup of wine",
+        "evidence_found": true,
+        "reasoning": "The translation does not mention '西出阳关' or '向西出了阳关' and does not preserve the direction '向西'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "farewell to this last cup of wine",
+        "evidence_found": true,
+        "reasoning": "The translation expands the meaning to 'no old friend to greet' which is not the exact phrase '没有老朋友'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Drink until it is empty, farewell to this last cup of wine",
+        "evidence_found": true,
+        "reasoning": "The provided translation does not fully capture the original phrase's meaning and the relationship between the two sentences.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 3,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.0,
+    "valid": true
+  }
+}

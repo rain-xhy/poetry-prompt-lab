@@ -1,0 +1,67 @@
+{
+  "translation_id": "M06_S3_T1_Qwen25_r1",
+  "anon_code": "T_deef8e0b",
+  "poem_id": "M06",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Last night's wind and rain sounds, how many flowers have fallen?",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly state the subject 'I' or an implied observer, and the phrase 'how many flowers have fallen' does not convey the uncertainty of the speaker's knowledge as required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Spring Sleep Unaware of Dawn",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Spring Sleep Unaware of Dawn' directly translates the meaning of '春眠不觉晓' by expressing sleep and the unawareness of dawn, with the time background of spring preserved.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Everywhere Heard Are Bird Calls",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Everywhere Heard Are Bird Calls' directly translates to '到处听到鸟叫' with 'everywhere' matching '到处' and 'heard' indicating auditory perception.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Last night's wind and rain sounds",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Last night's wind and rain sounds' directly corresponds to the required meaning of '昨夜听到风雨声' by expressing the past time (last night) and the sound of wind and rain.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.45,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

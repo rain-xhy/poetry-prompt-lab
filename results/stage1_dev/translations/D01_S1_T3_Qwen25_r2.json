@@ -1,0 +1,19 @@
+{
+  "id": "D01_S1_T3_Qwen25_r2",
+  "poem_id": "D01",
+  "trap_type": "情感反差",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n此情无计可消除，才下眉头，却上心头。",
+  "prompt_sha256": "aa444ecff1588c212657ff2121420dbf68c961a5d09211a8f1f22de4312fa64e",
+  "translation": "Here is the English translation, adhering to the provided instructions:\n\nThis feeling is hard to dispel,  \nIt retreats from the brow but then rises to the heart.  \n[Note: This line captures the emotional paradox of the original, where the sadness seems to retreat only to reappear on the heart.]\n\nThis translation preserves the core meaning, key imagery, and emotional tone of the original poem. It maintains the sense of cyclical recurrence and emotional intensity. The personification of the feeling moving from the brow to the heart is kept in the English version, ensuring clarity and avoiding poetic embellishment.",
+  "metadata": {
+    "input_tokens": 224,
+    "output_tokens": 122,
+    "latency_ms": 4584.091663360596,
+    "timestamp": "2026-10-26T16:37:32.456586",
+    "finish_reason": "stop"
+  }
+}

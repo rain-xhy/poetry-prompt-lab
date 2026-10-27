@@ -1,0 +1,67 @@
+{
+  "translation_id": "M09_S0_Qwen3_r1",
+  "anon_code": "T_4c637bf0",
+  "poem_id": "M09",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The moon falls, the cranes cry, frost covers the sky. The river's willows light up with fisherman's fires, and the night is filled with sorrow.",
+        "evidence_found": true,
+        "reasoning": "The translation introduces two additional elements (river's willows and fisherman's fires) that are not present in the original Chinese phrase, thus it does not preserve only three意象 as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The river's willows light up with fisherman's fires, and the night is filled with sorrow.",
+        "evidence_found": true,
+        "reasoning": "The translation describes the night being filled with sorrow but does not explicitly convey the relationship of 'facing' sorrow while sleeping as required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The river's willows light up with fisherman's fires",
+        "evidence_found": true,
+        "reasoning": "The phrase 'river's willows light up with fisherman's fires' directly translates the two required意象: 江边枫树 (river's will and willows, implying the trees near the river) and 渔火 (fisherman's fires), presented in parallel structure.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The river's willows light up with fisherman's fires, and the night is filled with sorrow.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'night is filled with sorrow' directly conveys the '孤寂凄凉' (lonely and cold) atmosphere required, avoiding any joyful connotations.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

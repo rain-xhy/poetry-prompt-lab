@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S5_T1_Qwen3_r1",
+  "anon_code": "T_b663b39c",
+  "poem_id": "M02",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Roses grow in the southland, sprout anew in spring. May you gather them freely, for this thing holds the deepest longing.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'roses' instead of 'red beans' (红豆), which changes the specific symbol from Chinese tradition where red beans represent longing, not roses.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "May you gather them freely",
+        "evidence_found": true,
+        "reasoning": "The phrase 'May you gather them freely' expresses a wish/hope for the reader to collect roses, fulfilling the requirement of '劝君多采摘' (wish to encourage the reader to gather many).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "this thing holds the deepest longing",
+        "evidence_found": true,
+        "reasoning": "The phrase 'this thing holds the deepest longing' directly translates to 'this thing most deeply embodies longing', which matches the requirement of expressing 'this thing most can symbolize/embodiment of longing'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Roses grow in the southland, sprout anew in spring.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'roses' and 'sprout' but does not specify 'spring' as the time when the branches grow, and the phrase 'spring' here refers to the season, not the time when the branches grow.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

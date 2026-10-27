@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S1_T1_Qwen3_r2",
+  "anon_code": "T_76f6c7f4",
+  "poem_id": "M07",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Once, the grand halls of Wang and Che welcomed the winged messenger",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Wang and Che' directly references the specific families (Wang and Xie) as required, with 'Che' being a transliteration of 'Xie' in this context.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Once, the grand halls of Wang and Che welcomed the winged messenger, Now it lands in the home of common people, not the elite.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts 'once' (past) with 'now' (present) to show time contrast, and 'grand halls of Wang and Che' (elite) with 'common people' (ordinary) to show class contrast.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Once, the grand halls of Wang and Che welcomed the winged messenger, Now it lands in the home of common people, not the elite.",
+        "evidence_found": true,
+        "reasoning": "The translation preserves the image of the swallow as a witness by contrasting its historical role in imperial courts with its current presence in common households, without implying the swallow has lived for centuries.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "On the wild grass by the Zhuj as the wild flowers bloom in the fading light, At the edge of the Uyin巷, the sun dips low in the west.",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly mentions 'wild grass' and 'sun dips low in the west' which conveys the desolate and decaying atmosphere as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 5,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.4,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

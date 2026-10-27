@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S0_Qwen25_r2",
+  "anon_code": "T_0df1ea87",
+  "poem_id": "M01",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Romantic as it may be, it seems to bring no joy, Only that laugh of mine seems to elude me when I'm at the wine cup. The wax candle has a heart and so too does it cherish, It weeps for you till dawn as it lights your farewell.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly mention 'deep love/affection' or 'seeming coldness/indifference' as required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Only that laugh of mine seems to elude me when I'm at the wine cup.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'seems to elude me' implies a mental state of avoidance rather than an inability to laugh, which does not meet the requirement of expressing 'unable to/cannot' rather than 'doesn't want to'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The wax candle has a heart and so too does it cherish",
+        "evidence_found": true,
+        "reasoning": "The phrase explicitly states the candle has a heart and cherishes (i.e., 'has a heart and so too does it cherish'), directly preserving the personification of the candle as having emotions and the act of 'cherishing' (惜别) without reducing it to a simple description.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "It weeps for you till dawn as it lights your farewell.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it weeps for you' does not explicitly convey '替人垂泪' (for us/on our behalf) as required, and 'till dawn' does not match the required 'until dawn/till morning' time continuation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.95,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M04_S0_Qwen25_r3",
+  "anon_code": "T_c0a28f45",
+  "poem_id": "M04",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "If two hearts are true to each other, Their love will not be confined to constant meeting.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express '长久' (long-lasting) as required; it focuses on the absence of constant meeting rather than enduring love.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Their love will not be confined to constant meeting.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'will not be confined to constant meeting' directly implies that love does not require daily meetings, fulfilling the requirement of 'not necessarily daily meetings' and the negative/counter-question meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Their love will not be confined to constant meeting",
+        "evidence_found": true,
+        "reasoning": "The translation does not express '日日夜夜、时时刻刻相守' (continuous, unbroken time) but rather the opposite meaning of 'not confined to constant meeting', which implies the absence of continuous time rather than preservation of time's叠加感.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If two hearts are true to each other, Their love will not be confined to constant meeting.",
+        "evidence_found": true,
+        "reasoning": "The translation maintains the conditional structure 'if...then' and the negation of physical proximity as the condition for lasting love, fulfilling the requirement of condition-conclusion logic and mutual resonance.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 3.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

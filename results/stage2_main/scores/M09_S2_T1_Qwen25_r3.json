@@ -1,0 +1,67 @@
+{
+  "translation_id": "M09_S2_T1_Qwen25_r3",
+  "anon_code": "T_a23e90ef",
+  "poem_id": "M09",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Moon sets, crows cry,霜覆盖了天；",
+        "evidence_found": true,
+        "reasoning": "The phrase '霜覆盖了天' contains the Chinese character '霜' which is not in English, and the translation mixes the original Chinese phrase with English, violating the requirement to have only English.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Sleeping with sorrow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Sleeping with sorrow' directly expresses '面对愁绪而眠' by indicating that the person is sleeping while experiencing sorrow, fulfilling both conditions of '面对' (facing) and '愁绪伴随睡眠' (sorrow accompanying sleep).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Riverside maples stand, fishing lights nearby",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Riverside maples stand, fishing lights nearby' directly preserves both the maple trees and fishing lights as distinct, parallel elements in the translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Sleeping with sorrow, the night docks alone, Silent, the scene is bleak and lonely.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly conveys the solitude and melancholy of a night dock, avoiding any joyful elements while emphasizing the bleak atmosphere.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 3,
+    "poetic_quality": 3,
+    "overall": 3.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

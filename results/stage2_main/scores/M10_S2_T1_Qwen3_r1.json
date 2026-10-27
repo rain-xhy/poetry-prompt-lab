@@ -1,0 +1,67 @@
+{
+  "translation_id": "M10_S2_T1_Qwen3_r1",
+  "anon_code": "T_93f3a42e",
+  "poem_id": "M10",
+  "strategy": "S2_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The fire cannot burn it out",
+        "evidence_found": true,
+        "reasoning": "The phrase 'cannot burn it out' directly translates to the negative meaning of 'burn out' and implies the fire never completely destroys the grass, matching the requirement for '烧不完' (not burnable completely).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The fire cannot burn it out, and the spring wind brings it back again.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'spring wind brings it back again' which implies regrowth but does not explicitly convey 'grass grows again' as required by the original phrase's meaning of 'grass grows again after spring wind blows'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The fire cannot burn it out, and the spring wind brings it back again.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states that the fire cannot destroy the grass (preserving the 'fire burns grass' relationship) and the spring wind regrows it, maintaining the personification where the wind 'brings it back' as if it has agency.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The fire cannot burn it out, and the spring wind brings it back again.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys the cyclical nature of the grass's resilience through the imagery of fire not being able to destroy it and the spring wind regenerating it, fulfilling both conditions of expressing tenacity and the 'burning and rebirth' cycle.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

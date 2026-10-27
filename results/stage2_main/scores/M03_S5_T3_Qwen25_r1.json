@@ -1,0 +1,67 @@
+{
+  "translation_id": "M03_S5_T3_Qwen25_r1",
+  "anon_code": "T_7eaacb5e",
+  "poem_id": "M03",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "You inquire when I'll return, but I cannot tell a date.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I cannot tell a date' directly translates to '尚未确定' (not yet determined) and meets the requirement of expressing '尚未确定/cannot yet be set' without implying 'no deadline' or 'never'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When we can sit by the west window together",
+        "evidence_found": true,
+        "reasoning": "The phrase 'When we can sit by the west window together' uses the future conditional 'can' to express a future assumption of sharing a moment, matching the required meaning of '什么时候能一起剪西窗烛' (when will we be able to sit together by the west window to trim the candle).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When we can sit by the west window together, We'll talk about the rainy nights in S:ichuan.",
+        "evidence_found": false,
+        "reasoning": "The translation refers to a future scenario where they will talk about past rainy nights, but the original phrase '却话巴山夜雨时' specifically refers to recalling past rain events during the current night, not future talks about past events.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "The autumn pool swells with night rain in Sich:uan",
+        "evidence_found": false,
+        "reasoning": "The phrase 'The autumn pool swells with night rain in Sichuan' directly translates the required meaning of '巴山夜雨使秋池水涨' by expressing that the night rain causes the autumn pool to rise, while preserving the three required意象: 巴山 (Sichuan), 夜雨 (night rain), and 秋池 (autumn pool).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "translation_id": "D02_S5_T2_Qwen3_r2",
+  "anon_code": "T_e5ed13ca",
+  "poem_id": "D02",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Birds fly away, leaving no trace",
+        "evidence_found": true,
+        "reasoning": "The translation states 'Birds fly away, leaving no trace', which does not fully capture the meaning of '众鸟高飞尽' as '众鸟高飞尽' implies all birds have flown away, leaving nothing behind, which is closer to '众鸟高飞尽, 空山不见人' in the original poem. The translation lacks the sense of '空山不见人' (no one can be seen in the empty mountain).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A lone cloud drifts freely, untroubled.",
+        "evidence_found": true,
+        "reasoning": "The phrase '孤云独去闲' is translated as 'A lone cloud drifts freely, untroubled.' which preserves the meaning of '孤云独去' (lone cloud alone goes) and '闲' (untroubled), but the word '悠闲地' (悠闲地) is not preserved.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "We gaze at one another, never tired",
+        "evidence_found": true,
+        "reasoning": "The rest of the sentence does not preserve the original phrase '相看两不厌' and does not explicitly mention the mountain as the active viewer.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "We gaze at one another, never tired,",
+        "evidence_found": true,
+        "reasoning": "The phrase '只有敬亭山' is not preserved in the translation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.95,
+    "valid": true
+  }
+}

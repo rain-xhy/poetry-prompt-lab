@@ -1,0 +1,67 @@
+{
+  "translation_id": "M16_S1_T3_Qwen3_r3",
+  "anon_code": "T_5a1be9dd",
+  "poem_id": "M16",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The sound of the rooster marks the roof of a cottage",
+        "evidence_found": true,
+        "reasoning": "The phrase 'the sound of the ro:er' does not match the required '鸡鸣时' (rooster crowing time) and the phrase 'marks the roof of a cottage' does not match '茅店上' (cottage roof) as the required meaning is 'rooster crowing time on the cottage roof still has the moon'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Footsteps are visible on the bridge, and the frost lies upon the planks.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'footsteps' and 'frost' but incorrectly places them on 'bridge' and 'planks' instead of 'board bridge' and 'frost on the bridge', which changes the intended imagery.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I recall the dream of Du Ling, where the geese fly full across the pond.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I recall the dream of Du: Ling' directly expresses remembering a dream from Du Ling, fulfilling the requirement of expressing 'recalling' and 'dream'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "the geese fly full across the pond",
+        "evidence_found": true,
+        "reasoning": "The phrase 'fly full across the pond' does not convey the 'curved/winding pond' aspect required by the pass conditions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

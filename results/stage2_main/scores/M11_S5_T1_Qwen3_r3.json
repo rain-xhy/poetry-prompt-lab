@@ -1,0 +1,67 @@
+{
+  "translation_id": "M11_S5_T1_Qwen3_r3",
+  "anon_code": "T_79eee590",
+  "poem_id": "M11",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Before the moonlight fades, the bed is lit with silver frost.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'silver frost' does not include the required speculative language like 'might be' or 'seems', and the translation describes a factual state rather than uncertainty.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The traveler lifts his head to gaze at the bright moon, But lowers his gaze to think of his distant homeland.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly shows the sequence of actions (lifting head to gaze at moon, then lowering gaze to think of homeland) and implies that gazing at the moon triggers thoughts of home.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Before the moonlight fades, the bed is lit with silver frost.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly convey '月光明亮' (bright moonlight) as required; instead, it describes the bed being lit with silver frost, which is a different imagery.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The traveler lifts his head to gaze at the bright moon, But lowers his gaze to think of his distant homeland.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys the quiet atmosphere and the feeling of solitude and homesickness through the traveler's actions and thoughts.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "M17_S0_Qwen25_r3",
+  "poem_id": "M17",
+  "trap_type": "时态叙事",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n此情可待成追忆，只是当时已惘然。",
+  "prompt_sha256": "2ac189fc2f4abaf78c99f72858d7b92bb01b844cdff6880e738f42b4b3e41850",
+  "translation": "This feeling cannot wait to be recalled; alas, it was already sorrowful at the time. \n\nNote: This poem is a translation of a line from the famous poem \"锦瑟\" by the Chinese poet李商隐 (Li Shangxian). The full poem expresses complex emotions and a deep sense of regret, and the line I provided captures the essence of the original sentiment. However, it's important to remember that poetry often has nuances and layers that can't be fully captured in a translation.",
+  "metadata": {
+    "input_tokens": 55,
+    "output_tokens": 103,
+    "latency_ms": 1507.056713104248,
+    "timestamp": "2026-10-26T19:38:08.568146",
+    "finish_reason": "stop"
+  }
+}

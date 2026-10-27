@@ -1,0 +1,67 @@
+{
+  "translation_id": "M03_S4_T1_Qwen3_r2",
+  "anon_code": "T_e6ce6a85",
+  "poem_id": "M03",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I have no definite period",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I have no definite period' directly translates to '尚未确定' and meets the requirement of expressing 'cannot yet be set' without implying 'no deadline' or 'never'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When will we together light the western window candle?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'When will we together light the western window candle?' uses the future tense 'will' to express the future assumption of sharing the action of lighting the candle at the western window, matching the required meaning of '什么时候能一起剪西窗烛' (when can we together trim the western window candle).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When will we together light the western window candle? Then we will talk of the night rain in the western mountains again.",
+        "evidence_found": true,
+        "reasoning": "The translation refers to future actions and future recollection, but the original phrase requires past recollection of past rain events.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The night rain in the western mountains fills the autumn pool.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states that the night rain in the western mountains causes the autumn pool to fill, directly matching the required meaning of '巴山夜雨使秋池水涨' while preserving the three required意象: 巴山 (western mountains), 夜雨 (night rain), and 秋池 (autumn pool).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

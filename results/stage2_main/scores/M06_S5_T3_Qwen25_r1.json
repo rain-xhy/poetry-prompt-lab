@@ -1,0 +1,67 @@
+{
+  "translation_id": "M06_S5_T3_Qwen25_r1",
+  "anon_code": "T_bcb6b8e4",
+  "poem_id": "M06",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "How many petals have fallen?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'How many petals have fallen?' directly expresses the meaning of '不知道花落了多少' with the subject implied as 'I' (the observer), matching the required conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Spring sleep unaware of dawn",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Spring sleep unaware of dawn' directly translates the original Chinese phrase '春眠不觉晓' by expressing both the sleep context and the unawareness of dawn, meeting the required conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Everywhere the birdsong is heard",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Everywhere the birdsong is heard' directly translates the requirement of expressing '多处/到处' (everywhere) and '听觉' (hearing birdsong) as per the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Last night the wind and rain's sound",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Last night the wind and rain's sound' directly matches the required meaning of '昨夜听到风雨声' by expressing the past time ('Last night') and the sound of wind and rain.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

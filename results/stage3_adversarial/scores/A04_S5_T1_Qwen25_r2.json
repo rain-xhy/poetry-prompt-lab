@@ -1,0 +1,58 @@
+{
+  "translation_id": "A04_S5_T1_Qwen25_r2",
+  "anon_code": "T_e4b9b02f",
+  "poem_id": "A04",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling has already matured into a memory, But then it was already bittersweet in its time.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'has already matured' uses present perfect tense to indicate completion, and 'was already bittersweet' uses past perfect tense to show an action completed before another past action, both conveying the required completed aspect without using the Chinese phrase '已待' directly.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling has already matured into a memory, But then it was already bittersweet in its time.",
+        "evidence_found": true,
+        "reasoning": "The translation uses declarative structure without rhetorical questions, confirming it's a statement not a question.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling has already matured into a memory, But then it was already bittersweet in its time.",
+        "evidence_found": true,
+        "reasoning": "The translation uses present perfect tense 'has already matured' and past perfect 'was already bittersweet', which does not match the original poem's temporal structure where '可待' (can wait) implies a future possibility rather than past or present perfect tenses.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

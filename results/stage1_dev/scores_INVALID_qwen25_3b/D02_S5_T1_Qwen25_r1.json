@@ -1,0 +1,62 @@
+{
+  "translation_id": "D02_S5_T1_Qwen25_r1",
+  "anon_code": "T_490182b6",
+  "poem_id": "D02",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "All the birds have flown away",
+        "evidence_found": true,
+        "reasoning": "The translation states 'All the birds have flown away', which does not match the original phrase '众鸟高飞尽' (All the birds have flown away). The original phrase implies that all the birds have flown away, but there is no indication of them flying far or disappearing completely. The translation lacks the sense of 'all' and 'complete disappearance' as expressed in the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "All the birds have flown away",
+        "evidence_found": true,
+        "reasoning": "The phrase '孤云独去闲' (solitary cloud wandering alone) is not preserved in the translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "And the solitary cloud wanders alone.",
+        "evidence_found": true,
+        "reasoning": "The phrase '人与山互相看着' is not preserved in the translation. Instead, 'And the solitary cloud wanders alone.' is used, which does not match the original meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "And the solitary cloud wanders alone.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'And the solitary cloud wanders alone.' does not contain only/alone and does not preserve the name '敬亭山'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.95,
+    "valid": true
+  }
+}

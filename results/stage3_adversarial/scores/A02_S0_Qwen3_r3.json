@@ -1,0 +1,58 @@
+{
+  "translation_id": "A02_S0_Qwen3_r3",
+  "anon_code": "T_b53c99c7",
+  "poem_id": "A02",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "how many flowers have fallen",
+        "evidence_found": true,
+        "reasoning": "The phrase 'how many flowers have fallen' directly indicates that the subject of recognition (the flowers) has changed from 'I' to 'flowers', fulfilling the requirement that the translation preserves the shift from '我' to '花' as the subject.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Spring sleep is so peaceful that one does not know dawn has come. All over the place, birds are singing. Sounds of the night's rain, telling us how many flowers have fallen.",
+        "evidence_found": true,
+        "reasoning": "The translation describes the peacefulness of spring sleep and birds singing, but does not explicitly mention flowers having cognitive ability or awareness; it focuses on sensory experiences rather than flowers' knowledge or consciousness.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Spring sleep is so peaceful that one does not know dawn has come. All over the place, birds are singing. Sounds of the night's rain, telling us how many flowers have fallen.",
+        "evidence_found": true,
+        "reasoning": "The translation does not match the original poem '春晓' which states '春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少.' The original poem describes the peaceful sleep, the birds' songs, the rain's sound, and the falling flowers, but the translation misrepresents the meaning by saying 'sounds of the night's rain, telling us how many flowers have fallen' instead of 'the sound of the night's rain tells us how many flowers have fallen.' The translation also adds 'All over the place' which is not in the original, and the structure is different.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

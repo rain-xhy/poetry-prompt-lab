@@ -1,0 +1,19 @@
+{
+  "id": "M04_S0_Qwen25_r3",
+  "poem_id": "M04",
+  "trap_type": "情感反差",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n两情若是久长时，又岂在朝朝暮暮。",
+  "prompt_sha256": "af09b02805709ee29899f701c7f25000a6886b6ab5dde654a7a53635ea1b0a48",
+  "translation": "If two hearts are true to each other, \nTheir love will not be confined to constant meeting.\nThis translation aims to capture the essence and spirit of the original Chinese poem. The phrase \"两情若是久长时\" (liǎng qíng sì ruò jiǔ zhǎng shí) is translated as \"If two hearts are true to each other,\" which conveys the idea of enduring affection. \"又岂在朝朝暮暮\" (yòu qǐ zài zhāo cháo mù mù) is rendered as \"their love will not be confined to constant meeting,\" maintaining the idea of the uninterrupted nature of true love, despite the frequency of meetings.",
+  "metadata": {
+    "input_tokens": 56,
+    "output_tokens": 143,
+    "latency_ms": 14512.009859085083,
+    "timestamp": "2026-10-26T20:40:53.788034",
+    "finish_reason": "stop"
+  }
+}

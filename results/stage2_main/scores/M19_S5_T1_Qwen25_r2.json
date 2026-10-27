@@ -1,0 +1,67 @@
+{
+  "translation_id": "M19_S5_T1_Qwen25_r2",
+  "anon_code": "T_abb2dfd7",
+  "poem_id": "M19",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "In岐王宅里我曾常见面，崔九宅前我几度听其琴",
+        "evidence_found": true,
+        "reasoning": "The phrase '我曾常见面' uses past tense '曾' and '常见' indicating frequent past encounters, while '几度听其琴' uses '几度' meaning multiple times and past context to indicate repeated listening.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "now is the most beautiful scenery of southern Jiangnan, I meet you again",
+        "evidence_found": false,
+        "reasoning": "The phrase 'now is the most beautiful scenery of southern Jiangnan' expresses the present time, and 'I meet you again' directly translates '又逢' as a repeated meeting in the present.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In岐王宅里我曾常见面，崔九宅前我几度听其琴。如今正是江南最美的风景，落花时节我又遇见了你。",
+        "evidence_found": false,
+        "reasoning": "The translation does not explicitly contrast past and present or imply a change in circumstances as required; it describes past encounters and current scenery without showing temporal contrast or situational change.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "In岐王宅里我曾常见面，崔九宅前我几度听其琴。如今正是江南最美的风景，落花时节我又遇见了你。",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly uses '落花时节' as '落花时节' in the context of meeting someone, preserving the floral imagery and implying the symbolic meaning of fleeting beauty and reunion.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

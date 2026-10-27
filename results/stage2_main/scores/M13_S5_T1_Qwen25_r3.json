@@ -1,0 +1,62 @@
+{
+  "translation_id": "M13_S5_T1_Qwen25_r3",
+  "anon_code": "T_0d5c681b",
+  "poem_id": "M13",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no bird in flight",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no bird in flight' directly translates to the absence of birds, capturing the absolute negation required by '鸟飞绝' with the 'extreme' sense of '绝' as there are no birds flying at all.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no trace of man",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no trace of man' directly translates to '人的踪迹消失' with absolute negation, capturing the '灭' (disappearance) sense.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Fishing alone in the snow-covered river",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Fishing alone' directly translates '独钓' with 'alone' emphasizing solitude as required, and 'in the snow-covered river' implies the action of垂钓 (fishing) in a specific context.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Thousand mountains mute, no bird in flight, Ten thousand paths, no trace of man. A solitary boat wears a hooded coat, fishing alone in the snow-covered river.",
+        "evidence_found": true,
+        "reasoning": "The translation effectively conveys the vastness of space through 'Thousand mountains' and 'Ten thousand paths', while highlighting human solitude with 'solitary boat' and 'fishing alone', creating a clear contrast between the expansive landscape and the isolated individual.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\n  \"original\": \"千山鸟飞绝，万径人踪灭。孤舟蓑笠翁，独钓寒江雪。\",\n  \"reference_notes\": {\n    \"鸟飞绝\": \"鸟飞尽、没有鸟飞（绝对否定）。要点：绝对否定，一只鸟都没有。\",\n    \"人踪灭\": \"人的踪迹消失（绝对否定）。要点：完全没有人迹。\",\n    \"独钓\": \"独自垂钓（孤独强调）。要点：孤独、独自一人。\",\n    \"千山...万径...孤舟...独\": \"从宏大空间到孤独个体的对比。要点：广阔空间与孤独个体的反差。\"\n  },\n  \"translation\": \"Thousand mountains mute, no bird in flight,\\nTen thousand paths, no trace of man.\\nA solitary boat wears a hooded coat,\\nFishing alone in the snow-covered river.\"\n}"
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

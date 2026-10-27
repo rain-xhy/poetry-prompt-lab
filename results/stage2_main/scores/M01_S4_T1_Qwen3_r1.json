@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S4_T1_Qwen3_r1",
+  "anon_code": "T_b22baab1",
+  "poem_id": "M01",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The poet's heart is as tender as it is unfeeling",
+        "evidence_found": true,
+        "reasoning": "This phrase directly captures the paradox of deep love and seeming coldness by stating the heart is both tender and unfeeling, maintaining the tension between the two concepts.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The poet's heart is as tender as it is unfeeling, yet he feels a deep sorrow at the sight of her smiling. The candle, with a heart of its own, still sheds tears for parting, until the dawn of the next day.",
+        "evidence_found": true,
+        "reasoning": "The translation describes emotional states and a candle shedding tears, but does not mention any inability to smile at the wine table, failing to capture the 'unable to/cannot smile' condition required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The candle, with a heart of its own, still sheds tears for parting, until the dawn of the next day.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states that the candle has a heart (拟人化) and sheds tears for parting, preserving the personification and emotional depth required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "still sheds tears for parting, until the dawn of the next day",
+        "evidence_found": true,
+        "reasoning": "The phrase 'still sheds tears for parting' implies the candle's action of replacing the person's tears, and 'until the dawn of the next day' directly corresponds to 'to the next day' in the time continuation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.95,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

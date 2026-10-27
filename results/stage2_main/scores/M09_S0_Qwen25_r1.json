@@ -1,0 +1,67 @@
+{
+  "translation_id": "M09_S0_Qwen25_r1",
+  "anon_code": "T_7f3ca68f",
+  "poem_id": "M09",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When the moon has set and the乌鸦 crows,霜 frost fills the sky, the river maple trees light up, I lie awake with sorrow.",
+        "evidence_found": true,
+        "reasoning": "The translation includes four elements: moon setting, crowing, frost filling the sky, river maple trees lighting up, and the speaker lying awake with sorrow. The original phrase only has three意象 (moon setting, crowing, frost filling the sky), but the translation adds extra elements like river maple trees and the speaker's emotional state, which are not present in the original Chinese phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I lie awake with sorrow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I lie awake with sorrow' does not explicitly convey 'facing' or 'confronting' sorrow while sleeping, as it describes being awake rather than sleeping with sorrow.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "river maple trees light up",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'river maple trees' but does not explicitly include 'fishery fire' (渔火), which is required as one of the two key images.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When the moon has set and the乌鸦 crows,霜 frost fills the sky, the river maple trees light up, I lie awake with sorrow.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys a desolate and melancholic scene with elements like frost, river maple trees, and the speaker lying awake with sorrow, which aligns with the required 'night's solitude and coldness' meaning.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

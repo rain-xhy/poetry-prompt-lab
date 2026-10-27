@@ -1,0 +1,58 @@
+{
+  "translation_id": "A10_S0_Qwen3_r1",
+  "anon_code": "T_4dae04f3",
+  "poem_id": "A10",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Once we lit the western window candle together",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Once we lit...' uses the past tense 'lit' to indicate a completed action in the past, fulfilling the requirement to preserve '曾经' as past tense.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Once we lit the western window candle together, and then we spoke of the rain in the Bashan Mountains again.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'spoke of the rain in the Bashan Mountains again' indicates recalling past events, specifically the shared experience of lighting the candle, which aligns with remembering past memories rather than expecting future events.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When you ask about my return date, there is no definite time. The night rain in the Bashan Mountains fills the autumn pool. Once we lit the western window candle together, and then we spoke of the rain in the Bash: ",
+        "evidence_found": false,
+        "reasoning": "The translation reverses the temporal order of the original poem, stating the future (\"When you ask\") instead of the past (\"When I asked\") and the past (\"Once we lit\") instead of the future (\"We will speak\") as required by the '时态变化' condition.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.65,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

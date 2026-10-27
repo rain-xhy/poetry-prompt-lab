@@ -1,0 +1,67 @@
+{
+  "translation_id": "M05_S5_T2_Qwen25_r1",
+  "anon_code": "T_e0b3c27e",
+  "poem_id": "M05",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking, seeking, in silence cold and clear",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Seeking, seeking' directly replicates the repetition of the original Chinese phrase's action of repeatedly searching, fulfilling the requirement of expressing repeated or continuous searching while maintaining the tonal rhythm through repetition.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "cold and clear",
+        "evidence_found": true,
+        "reasoning": "The phrase 'cold and clear' directly translates to the required 'cold and clear' environment, and the context of the translation shows a progression from silence to deep torment, indicating a recursive and worsening state of isolation.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking, seeking, in silence cold and clear, Lonesome and lone, my heart's in torment deep, Wailing softly, tears that won't retreat, Haunted by shadows, in loneliness I leap.",
+        "evidence_found": true,
+        "reasoning": "The translation captures deep sorrow through layered emotional progression: from silent coldness to heart's torment, wailing tears, and final loneliness, meeting all required conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking, seeking, in silence cold and clear, Lonesome and lone, my heart's in torment deep, Wailing softly, tears that won't retreat, Haunted by shadows, in loneliness I leap.",
+        "evidence_found": true,
+        "reasoning": "The translation follows the required structure: first actions (seeking), then environment (cold and clear silence), then emotions (torment, wailing, tears, loneliness), maintaining the intended progression without altering the sequence.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.35,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

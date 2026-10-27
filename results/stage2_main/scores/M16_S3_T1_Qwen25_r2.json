@@ -1,0 +1,67 @@
+{
+  "translation_id": "M16_S3_T1_Qwen25_r2",
+  "anon_code": "T_364f4108",
+  "poem_id": "M16",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Rooster crowing over the thatched inn",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Rooster crowing over the thatched inn' directly corresponds to the required meaning of '鸡鸣时茅店上还有月亮' by preserving the three key images: rooster crowing (鸡鸣), thatched inn (茅店), and the presence of the moon (implied by '还有月亮' through the context of the scene).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Footprints on the frosty bridge by the boardwalk",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Footprints on the frosty bridge by the board:boardwalk' directly corresponds to the original Chinese phrase '人迹板桥霜' with the required three imagery elements preserved.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Recalling my dream in Duf.eng",
+        "evidence_found": false,
+        "reasoning": "The phrase 'Recalling my dream in Dufeng' directly expresses the meaning of 'therefore thinking of the dream in Dufeng' as required, indicating a memory of a dream in the past.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Geese and ducks fill the curved ponds.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'curved ponds' directly translates the '曲折池塘' (curved/winding ponds) from the original, and 'Geese and ducks fill' matches the '凫雁满布' (geese and ducks filling) imagery required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

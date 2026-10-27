@@ -1,0 +1,58 @@
+{
+  "translation_id": "A09_S0_Qwen25_r2",
+  "anon_code": "T_5f3b4c02",
+  "poem_id": "A09",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Just for the sake of Lóng City's flying general",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Just for the sake of' implies purpose rather than causation, failing to use 'because/since' as required for causal relationship.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A万里-long march returns none.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A万里-long march returns none' implies a hypothetical situation (march returning none) rather than a factual statement, as it describes an outcome that may not be true.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Just for the sake of Lóng City's flying general",
+        "evidence_found": true,
+        "reasoning": "The phrase 'just for the sake of' implies a purpose, but the original '但使' means 'as long as' or 'provided that', indicating a condition rather than a purpose, thus changing the logical relationship from the original poem's 'but as long as' to the translation's 'just for the sake of'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

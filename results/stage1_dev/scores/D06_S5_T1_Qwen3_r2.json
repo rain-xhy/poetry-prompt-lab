@@ -1,0 +1,74 @@
+{
+  "translation_id": "D06_S5_T1_Qwen3_r2",
+  "anon_code": "T_40beebff",
+  "poem_id": "D06",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The poet knows that his brothers have climbed high, and he is absent, plucking chrysanthemums for them.",
+        "evidence_found": true,
+        "reasoning": "The phrase '遥知' means 'to imagine/deduce from afar' but the translation describes a physical action ('plucking chrysanthemums') and does not convey the concept of distant imagination or deduction.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The poet knows that his brothers have climbed high",
+        "evidence_found": true,
+        "reasoning": "The phrase 'brothers have climbed high' directly translates to '兄弟们登高' with 'climb the heights' meaning preserved.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The poet knows that his brothers have climbed high, and he is absent, plucking chrysanthemums for them.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions plucking chrysanthemums instead of wearing dogwood sprigs, and does not describe anyone wearing dogwood sprigs on their heads.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": null,
+        "valid": false,
+        "raw": "{\n  \"pass\": false,\n  \"evidence\": \"The poet knows that his brothers have climbed high, and he is absent, plucking chrysanthemums for them. The hills wish to keep him, but he is alone.\",\n  \"reasoning\": \"The translation does not explicitly state that the person missing is the speaker, and the phrase 'he is absent' does not convey the specific meaning of '少了我一个人' which implies the speaker is the one missing.\"\n",
+        "error": null
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 1.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

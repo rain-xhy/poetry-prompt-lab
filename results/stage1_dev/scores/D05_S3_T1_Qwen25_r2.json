@@ -1,0 +1,76 @@
+{
+  "translation_id": "D05_S3_T1_Qwen25_r2",
+  "anon_code": "T_85ff5887",
+  "poem_id": "D05",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of生死, both silent and empty, not thought of, yet remembered clearly.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Ten years of生死' incorrectly uses '生死' (life and death) as a noun phrase instead of the intended meaning of 'ten years of life and death separation'. The translation fails to express the 'two-way separation' and 'mysterious distance' between the living and dead as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of生死, both silent and empty, not thought of, yet remembered clearly.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'not thought of' contradicts the requirement that it should express 'not deliberately thinking' without implying forgetting, as the translation suggests the memory is not thought of (i.e., forgotten) rather than naturally remembered.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A solitary grave stretches a thousand miles",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A solitary grave stretches a thousand miles' contains 'solitary' (meaning lonely) and 'a thousand miles' (indicating a long distance), fulfilling both required conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no words to share the sorrow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no words to share the sorrow' directly translates to '没有地方、没有人可诉说凄凉' by expressing the inability to find a place or person to express sorrow.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 1.7,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

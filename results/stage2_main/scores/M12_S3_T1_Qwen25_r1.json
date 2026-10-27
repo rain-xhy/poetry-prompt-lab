@@ -1,0 +1,67 @@
+{
+  "translation_id": "M12_S3_T1_Qwen25_r1",
+  "anon_code": "T_372771f6",
+  "poem_id": "M12",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If you wish to see far beyond",
+        "evidence_found": true,
+        "reasoning": "The phrase 'If you wish to see far beyond' uses 'wish to' to express the purpose and implies the need to look over a long distance, matching the requirement for a verb indicating purpose and 'thousand li' distance.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "You must ascend a higher floor.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'You must ascend a higher floor' directly expresses the requirement to 'ascend a higher floor' as a means to see farther, fulfilling the condition of needing to go up one more level.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If you wish to see far beyond, You must ascend a higher floor.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the purpose (to see far) and the means (ascending a higher floor), maintaining the logical relationship between the two.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "If you wish to see far beyond, You must ascend a higher floor.",
+        "evidence_found": true,
+        "reasoning": "The original phrase describes two distinct natural scenes (the sun setting behind mountains and the Yellow River flowing into the sea), but the translation adds an unrelated line about ascending a higher floor, which does not preserve the two original images or the required壮阔景象 (vast, grand scenery) without introducing new elements.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

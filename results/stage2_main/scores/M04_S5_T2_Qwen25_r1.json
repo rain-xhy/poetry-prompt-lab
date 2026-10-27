@@ -1,0 +1,67 @@
+{
+  "translation_id": "M04_S5_T2_Qwen25_r1",
+  "anon_code": "T_c3e1e52d",
+  "poem_id": "M04",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "For you, the hills wish to keep me",
+        "evidence_found": true,
+        "reasoning": "The phrase does not express 'long-lasting' or 'long-term' relationship as required; it describes a temporary state of the hills wanting to keep the speaker, not a condition of enduring love.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "No need for days and nights by your side",
+        "evidence_found": true,
+        "reasoning": "The phrase 'No need for days and nights by your side' directly expresses the requirement that there is no necessity for daily companionship, fulfilling the condition of '不必日日相守' while maintaining the negative/counter-question tone.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "No need for days and nights by your side",
+        "evidence_found": true,
+        "reasoning": "The phrase 'days and nights' directly conveys the continuous time aspect, and 'by your side' implies constant presence, fulfilling the requirement of expressing frequent or continuous time with a sense of time stacking.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "For you, the hills wish to keep me",
+        "evidence_found": true,
+        "reasoning": "This line captures the conditional relationship where the hills' action (keeping the speaker) is dependent on 'you', fulfilling the condition and conclusion logic of the original phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

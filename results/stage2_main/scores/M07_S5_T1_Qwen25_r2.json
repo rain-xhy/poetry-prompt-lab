@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S5_T1_Qwen25_r2",
+  "anon_code": "T_c5068470",
+  "poem_id": "M07",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "ancient Wang and Xie",
+        "evidence_found": true,
+        "reasoning": "The phrase 'ancient Wang and X:ie' directly references the specific Wang and Xie families from the Eastern Jin dynasty as required, preserving the proper names without genericization.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Now, sparrows fly into homes that are no longer noble.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Now, sparrows fly into homes that are no longer noble' directly contrasts the past (ancient Wang and Xie's nests) with the present (sparrows in ordinary homes), showing the time and social class contrast as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "In the eaves where ancient Wang and X: had their nests",
+        "evidence_found": false,
+        "reasoning": "The phrase 'ancient Wang and Xie' refers to historical figures, implying the same location where the original '堂前燕' (radish) once nested, preserving the image of the swallow as a witness of time passing.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "wild flowers sprout; U-shaped alleys echo with the setting sun's dim glow",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly mentions 'wild flowers' (对应野草) and 'setting sun' (对应夕阳), conveying a desolate atmosphere through the imagery of wild flowers and the dim glow of the setting sun.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

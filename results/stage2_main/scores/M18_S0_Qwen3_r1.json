@@ -1,0 +1,66 @@
+{
+  "translation_id": "M18_S0_Qwen3_r1",
+  "anon_code": "T_1d6eecf6",
+  "poem_id": "M18",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "There's no way to stop the blooming flowers from falling, and the燕 (swan) that once knew the place returns.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'blooming flowers' instead of 'falling flowers' and incorrectly adds 'the燕 (swan) that once knew the place returns' which is not in the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "the燕 (swan) that once knew the place returns",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'swan' instead of 'swan' (燕子), and the phrase 'that once knew the place' does not convey 'seem familiar' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "There's no way to stop the blooming flowers from falling, and the燕 (swan) that once knew the place returns.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'blooming flowers' which implies the flowers are still in bloom, contradicting the '花落去' (flowers falling away) meaning, and 'swan' is incorrect for '燕' (swallow), which is a bird that returns in spring, not a swan.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "There's no way to stop the blooming flowers from falling, and the燕 (swan) that once knew the place returns.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions falling flowers (time passing) but uses '燕 (swan)' which is incorrect; the correct term for the bird in Chinese classical poetry is '燕' (swallow), not 'swan'. Additionally, the phrase 'the燕 (swan) that once knew the as the place returns' does not convey '物是人非' (things unchanged, people changed) as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "valid": false,
+    "raw": "{\n  \"original\": \"无可奈何花落去，似曾相识燕归来。\",\n  \"academic_translation\": \"There's no way to stop the blooming flowers from falling, and the燕 (swan) that once knew the place returns.\",\n  \"poetic_reading\": \"There's no way to stop the blooming flowers from falling, and the燕 (swan) that once knew the place returns.\"\n}"
+  }
+}

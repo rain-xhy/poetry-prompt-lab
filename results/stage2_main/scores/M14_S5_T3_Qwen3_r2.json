@@ -1,0 +1,67 @@
+{
+  "translation_id": "M14_S5_T3_Qwen3_r2",
+  "anon_code": "T_4a0ee227",
+  "poem_id": "M14",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If the dragon city general were still present",
+        "evidence_found": true,
+        "reasoning": "The phrase 'If the dragon city general were still present' uses a conditional clause starting with 'If' to express the assumption that the dragon city general remains, fulfilling the requirement for a condition sentence and assumed tone.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no enemy horse would cross the dark mountain",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no enemy horse would cross' directly translates to '不让...越过' (prevent/not allow crossing) with the active verb 'cross' indicating the obstructive action.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If the dragon city general were still present, no enemy horse would cross the dark mountain.",
+        "evidence_found": true,
+        "reasoning": "The conditional phrase 'If the dragon city general were still present' directly corresponds to the condition in '但使...', and the result 'no enemy horse would cross the dark' clearly shows the consequence, preserving the condition-result logic.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If the dragon city general were still present, no enemy horse would cross the dark mountain.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'dragon city general' directly refers to a historical border general, and the context implies a formidable military presence that would deter enemies, fulfilling the requirement of a powerful border commander.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

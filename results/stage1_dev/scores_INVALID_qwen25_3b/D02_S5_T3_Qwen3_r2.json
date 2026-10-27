@@ -1,0 +1,62 @@
+{
+  "translation_id": "D02_S5_T3_Qwen3_r2",
+  "anon_code": "T_59f7e347",
+  "poem_id": "D02",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Birds fly away far and wide, leaving only one lone cloud to drift leisurely.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express '鸟群都飞走了' (all birds have flown away) and does not convey the sense of '消失' (disappearance). Instead, it describes birds flying away and a cloud drifting, which is not consistent with the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Birds fly away far and wide, leaving only one lone cloud to drift leisurely.",
+        "evidence_found": true,
+        "reasoning": "The phrase '孤云独去闲' is not preserved in the translation. The translation uses 'Birds fly away far and wide' which does not match the '孤云' (solitary cloud) part of the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "They look upon each other without ever being tired, and only the mountain of Jingting remains.",
+        "evidence_found": true,
+        "reasoning": "The phrase '人与山互相看着' is not preserved and the mountain is not described as the active viewer.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "They look upon each other without ever being tired, and only the mountain of Jingting remains.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'only the mountain of Jingting remains' does not preserve the original 'only' and does not include the word 'only' or 'alone' as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.95,
+    "valid": true
+  }
+}

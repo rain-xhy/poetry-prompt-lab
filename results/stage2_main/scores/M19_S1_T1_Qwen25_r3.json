@@ -1,0 +1,67 @@
+{
+  "translation_id": "M19_S1_T1_Qwen25_r3",
+  "anon_code": "T_5e055432",
+  "poem_id": "M19",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I once knew you at Ji Wang’s宅 in Chang’an, Through Cui Jiù’s hall, I heard your name.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I once knew you' indicates past experience, and 'heard your name' implies multiple instances of hearing, fulfilling the requirement for past frequency.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Now in the golden autumn of Jiangnan’s beauty, As blossoms fall, we meet once more.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'we meet once more' directly translates '又逢' as a repeated meeting in the present tense, fulfilling the requirement for current reunion.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I once knew you at Ji Wang’s宅 in Chang’an, Through Cui Jiù’s hall, I heard your name. Now in the golden autumn of Jiangnan’s beauty, As blossoms fall, we meet once more.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts past (Ji Wang’s宅 in Chang’an, Cui Jiù’s hall) with present (Jiangnan’s beauty, blossoms falling), showing a change in circumstances and a meeting after time has passed.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "As blossoms fall",
+        "evidence_found": true,
+        "reasoning": "The phrase 'As blossoms fall' directly preserves the '落花' (falling flowers) imagery from the original Chinese phrase '落花时节', fulfilling the requirement to retain the '落花' symbol while implicitly conveying the symbolic meaning of the season of change and fleeting beauty.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.45,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

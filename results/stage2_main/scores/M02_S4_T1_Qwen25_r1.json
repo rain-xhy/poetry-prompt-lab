@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S4_T1_Qwen25_r1",
+  "anon_code": "T_ad43a099",
+  "poem_id": "M02",
+  "strategy": "S4_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Red beans grow in the southern land, Spring comes and how many sprouts appear? 愿你摘取多多，此物最能牵相思。",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states that red beans are the object that 'most can牵相思' (most able to牵相, i.e., evoke longing), fulfilling the requirement that 'red beans' must be preserved as a symbol of longing.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "愿你摘取多多，此物最能牵相思。",
+        "evidence_found": true,
+        "reasoning": "The phrase '愿你摘取多多' directly translates to 'wish you take many' which expresses the hope/encouragement to 'you' to pick, meeting both conditions of the required meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "此物最能牵相思",
+        "evidence_found": true,
+        "reasoning": "The phrase '此物最能牵相: 1. '此物' means 'this thing' which matches 'this thing' in the required meaning. 2. '最能' means 'most able to' which matches 'most able to'. 3. '牵相思' is a creative translation of '寄托相思之情' (to寄托 means to寄托, and '相思' means 'longing' or 'yearning' in Chinese poetry, so '牵相思' implies 'to evoke longing' or 'to carry longing'). The phrase '此物最能牵相思' directly translates to 'this thing most able to evoke longing', which meets the requirement of expressing 'this thing most able to symbolize/express longing'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Spring comes and how many sprouts appear?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Spring comes and how many sprouts appear?' directly expresses the time of spring and the natural action of sprouts growing, meeting both pass conditions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 4,
+    "valid": true
+  }
+}

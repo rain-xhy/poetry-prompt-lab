@@ -1,0 +1,67 @@
+{
+  "translation_id": "M09_S0_Qwen3_r2",
+  "anon_code": "T_e0332c83",
+  "poem_id": "M09",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Moon falls, the cuckoo cries, frost stains the sky",
+        "evidence_found": true,
+        "reasoning": "The translation preserves three distinct imagery elements (moon, cuckoo, frost) without establishing causal relationships between them.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the river's willow fires light up the sorrowful night",
+        "evidence_found": true,
+        "reasoning": "The phrase 'sorrowful night' implies the presence of sorrow (愁绪) accompanying sleep (night), and the context suggests facing this sorrow while sleeping.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "the river's willow fires light up the sorrowful night",
+        "evidence_found": true,
+        "reasoning": "The phrase 'willow fires' incorrectly refers to willows instead of maple trees, and 'fires' implies a different meaning than 'fishery lights' (渔火), which should be the lights from fishing boats.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Moon falls, the cuckoo cries, frost stains the sky; the river's willow fires light up the sorrowful night.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys a sense of solitude and coldness through imagery of moonlight, cuckoo cries, frost, and willow fires, creating an atmosphere of melancholy without any joyful elements.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

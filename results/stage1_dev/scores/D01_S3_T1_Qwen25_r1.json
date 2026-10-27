@@ -1,0 +1,76 @@
+{
+  "translation_id": "D01_S3_T1_Qwen25_r1",
+  "anon_code": "T_c3a4a1b1",
+  "poem_id": "D01",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling, no remedy can quell",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no remedy can quell' directly translates to '无法消除' (cannot eliminate) as required, and the context implies the emotion cannot be dispelled, avoiding any suggestion of elimination or desire to eliminate.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling, no remedy can quell, Just fades to the corner of my eye, And straightway climbs to my very heart.",
+        "evidence_found": true,
+        "reasoning": "The translation describes a feeling fading and climbing to the heart, but does not mention anything about the brow or eyebrows, which is required by the condition of pointing to 'brow'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "And straightway climbs to my very heart",
+        "evidence_found": true,
+        "reasoning": "The phrase 'climbs to my very heart' directly corresponds to the Chinese phrase '却上心头' by expressing a sudden, upward movement to the heart, fulfilling the requirement of a turn (yet) and the focus on the heart.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling, no remedy can quell, Just fades to the corner of my eye, And straightway climbs to my very heart.",
+        "evidence_found": true,
+        "reasoning": "The translation shows the continuous transfer of sorrow from the eyes to the heart without resolution, meeting both conditions of sequential relationship and persistent emotional state.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

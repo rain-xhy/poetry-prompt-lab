@@ -1,0 +1,19 @@
+{
+  "id": "M16_S1_T3_Qwen25_r2",
+  "poem_id": "M16",
+  "trap_type": "时态叙事",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n晨起动征铎，客行悲故乡。\n鸡声茅店月，人迹板桥霜。\n槲叶落山路，枳花明驿墙。\n因思杜陵梦，凫雁满回塘。",
+  "prompt_sha256": "375fe10f9d776a4e4ae7bf2eec6c7ddca1463acb7c12f17ae92fe5a88e9066d4",
+  "translation": "Morning departure rouses the carriage bell,\nTraveling, I feel sorrow for my hometown.\n[Cultural reference: \"征铎\" (zhēng diào) refers to the carriage bell, a common sound that awakens travelers in the early morning.]\n[Cultural reference: \"凫雁\" (fú yàn) are waterfowl like ducks and geese, often associated with peaceful rural scenes.]\n\nMorning departure rouses the carriage bell,\nTraveling, I feel sorrow for my hometown.\nChickens crowing over the thatched inn under the moon,\nFootprints on the boardwalk covered in frost.\nHolly leaves fall on the path through the woods,\n[Note: \"枳花\" (zhǐ huā) refers to the blossoms of the Chinese jujube tree, which are often seen in autumn and can symbolize loneliness or separation.]\n[Note: \"凫雁\" (fú yàn) are waterfowl like ducks and geese, often associated with peaceful rural scenes.]\n\nHolly leaves fall on the path through the woods,\n[Note: This imagery suggests the traveler's isolation and the desolation of the countryside during autumn.]\n[Note: \"凫雁满回塘\" (fú yàn mǎn huí táng) indicates that during a dream, the traveler sees geese and ducks filling the pond, implying a return home.]",
+  "metadata": {
+    "input_tokens": 255,
+    "output_tokens": 285,
+    "latency_ms": 4058.579206466675,
+    "timestamp": "2026-10-26T20:52:19.780714",
+    "finish_reason": "stop"
+  }
+}

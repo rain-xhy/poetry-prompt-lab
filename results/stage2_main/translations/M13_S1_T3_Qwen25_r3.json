@@ -1,0 +1,19 @@
+{
+  "id": "M13_S1_T3_Qwen25_r3",
+  "poem_id": "M13",
+  "trap_type": "否定逻辑",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n千山鸟飞绝，万径人踪灭。\n孤舟蓑笠翁，独钓寒江雪。",
+  "prompt_sha256": "5f88c37128897dd4c9565404616f0a0a9161c635fb6dd7bb1861dfe888c8250d",
+  "translation": "Two lines of English:\nAll birds are silent on a thousand mountains,\nNo traces of people on ten thousand paths.\n\nOne note:\n[The image of a solitary fisherman wearing a raincoat and hat silently fishing in the snow-covered river highlights the loneliness and isolation of nature in winter.]\n\nTwo lines of English:\nA lone fisherman in a蓑衣[coat and cap] floats alone,\nFishing in the cold river through the snow.\n\nOne note:\n[The personification of the fisherman and the river through the snow emphasizes the serene and stark beauty of winter.]",
+  "metadata": {
+    "input_tokens": 233,
+    "output_tokens": 115,
+    "latency_ms": 11159.679651260376,
+    "timestamp": "2026-10-26T19:45:47.547095",
+    "finish_reason": "stop"
+  }
+}

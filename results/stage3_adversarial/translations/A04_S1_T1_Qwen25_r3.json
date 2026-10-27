@@ -1,0 +1,19 @@
+{
+  "id": "A04_S1_T1_Qwen25_r3",
+  "poem_id": "A04",
+  "trap_type": "tense_change",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n此情已待成追忆，只是当时已惘然。",
+  "prompt_sha256": "d566f4abb239d5f6c6f9e75196e4c218274255537a0fc818f2df6263e89cfe7a",
+  "translation": "This feeling has already become a memory to be regretted,\nYet at the time, it was already filled with anguish and bewilderment.\n[In this line, \"anguish and bewilderment\" captures the sense of \"惘然,\" which is a blend of confusion, melancholy, and a hint of self-recrimination.]\n\nThis translation aims to preserve the core meaning, key imagery, and emotional tone of the original poem. The feeling of regret and the sense of déjà vu are kept, as is the emotional paradox (the contrast between the acceptance of the past as a regret and the actual experience of anguish at the time). The metaphorical \"anguish and bewilderment\" captures the essence of \"惘然\" without directly translating it.",
+  "metadata": {
+    "input_tokens": 238,
+    "output_tokens": 153,
+    "latency_ms": 13071.085453033447,
+    "timestamp": "2026-10-26T21:56:11.609727",
+    "finish_reason": "stop"
+  }
+}

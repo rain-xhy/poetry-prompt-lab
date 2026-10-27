@@ -1,0 +1,76 @@
+{
+  "translation_id": "D05_S5_T2_Qwen25_r1",
+  "anon_code": "T_4da31795",
+  "poem_id": "D05",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years生死twonotwo茫茫, Not thinking of thee, I cannot forget.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Ten years生死twonotwo茫茫' contains the Chinese characters '生死' (life and death) but is incorrectly written as 'twonotwo' and '茫茫' (vast, boundless) is misrendered as '茫茫' without context, failing to express the intended meaning of 'ten years of separation between the living and the dead, each lost in the vastness of time'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Not thinking of thee, I cannot forget.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Not thinking of thee, I cannot forget' implies that the act of not thinking causes the inability to forget, which contradicts the requirement that the translation should not imply 'because not thinking, so forgot'. The original phrase '不思量，自难忘' means 'even if not deliberately thinking, it is naturally unforgettable', so the translation incorrectly suggests that not thinking leads to not forgetting, which is the opposite of the intended meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Thousand miles孤独grave, No place to speak of lonely woes.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Thousand miles孤独grave' does not correctly convey 'thousand miles' as a distance and 'lonely grave' as a grave, but the term '孤独' is used which means 'lonely' and 'grave' is present, however the structure and context do not match the original Chinese phrase which refers to a grave that is far away, not a grave that is lonely.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "No place to speak of lonely woes",
+        "evidence_found": true,
+        "reasoning": "The phrase 'No place to speak of lonely woes' does not accurately convey 'no place to speak of sorrow' as the original phrase '无处话凄凉' refers to having no place or person to express one's sorrow, not 'lonely woes' which implies a different emotional context.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.4,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

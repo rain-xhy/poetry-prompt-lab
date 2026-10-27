@@ -1,0 +1,58 @@
+{
+  "translation_id": "A03_S1_T1_Qwen3_r3",
+  "anon_code": "T_36499257",
+  "poem_id": "A03",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When the wind blows, the autumn sky seems to cool, yet the words remain unspoken.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'words remain unspoken' directly reflects the '想说又止' (want to speak but stop) contradiction, meeting the requirement of expressing the emotional suppression through a contradiction of action.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When the wind blows, the autumn sky seems to cool, yet the words remain unspoken.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the contrast between the surface words and unspoken emotions by emphasizing the 'unspoken' aspect, which aligns with '却道' implying only surface talk.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When the wind blows, the autumn sky seems to cool, yet the words remain unspoken.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the contrast between internal emotional state (cooling autumn sky) and unexpressed words, reflecting the required meaning of emotional inconsistency.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.4,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

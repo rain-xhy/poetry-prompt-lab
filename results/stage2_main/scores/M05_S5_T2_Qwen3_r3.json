@@ -1,0 +1,67 @@
+{
+  "translation_id": "M05_S5_T2_Qwen3_r3",
+  "anon_code": "T_2fab2b94",
+  "poem_id": "M05",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking without end, the world is empty",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Seeking without end' directly expresses the repeated or continuous searching action required, and the context implies the emotional weight of this ongoing effort.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking without end, the world is empty",
+        "evidence_found": true,
+        "reasoning": "The phrase 'the world is empty' directly conveys the cold, desolate environment required, and the context of 'Seeking without end' implies the progression from action to environment as specified.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A sorrow that grows deeper with each breath, Each step a cry, each pause a ghost, The heart is bound in a cold, relentless night.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly conveys deepening sorrow through progressive imagery, matching the required emotional depth and layered progression.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking without end, the world is empty, A sorrow that grows deeper with each breath, Each step a cry, each pause a ghost, The heart is bound in a cold, relentless night.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly follows the action → environment → emotion progression as required, with the first line representing action, the second line representing environment, and the third line representing emotion.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

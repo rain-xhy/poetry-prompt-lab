@@ -1,0 +1,67 @@
+{
+  "translation_id": "M08_S5_T3_Qwen3_r1",
+  "anon_code": "T_83d4d179",
+  "poem_id": "M08",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no one is seen, but the sound of human speech is heard",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts 'no one is seen' (看不见人) with 'the sound of human as speech is heard' (听得见说话声), avoiding the implication of 'no one' by focusing on the sensory experience.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The returning sunlight enters the deep forest",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The returning sunlight enters the deep forest' directly translates the dynamic movement of '返景入深林' as required, with 'returning sunlight' corresponding to '夕' (evening) and 'sunlight' corresponding to '景' (light), and 'enters the deep forest' capturing the action of '进入深林'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "again it shines upon the moss",
+        "evidence_found": true,
+        "reasoning": "The phrase 'again it shines upon the moss' directly translates the '又照在青苔上' meaning with 'again' representing '又/再次' and 'moss' representing '青苔', fulfilling both required conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "In the empty mountains, no one is seen, but the sound of human speech is heard. The returning sunlight enters the deep forest, and again it shines upon the moss.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'empty mountains' directly translates to '空山' and implies vastness and quietness, meeting the requirement of expressing '空旷、幽静的山' without denying the existence of mountains.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

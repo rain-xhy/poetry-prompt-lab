@@ -1,0 +1,19 @@
+{
+  "id": "M15_S1_T3_Qwen3_r3",
+  "poem_id": "M15",
+  "trap_type": "否定逻辑",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n黄河远上白云间，一片孤城万仞山。\n羌笛何须怨杨柳，春风不度玉门关。",
+  "prompt_sha256": "be08830b4158feec563e620c5b315920f6c53db6336b9366f41e2d851b629c33",
+  "translation": "The Yellow River flows far beyond the clouds, a lone city standing against the mountains. Why should the羌笛 (qiang di) lament the willow trees? The spring wind does not reach the玉门关 (yù mén guān). [References: \"羌笛\" is a type of flute; \"玉门关\" is a famous ancient Chinese military outpost.]\n\nThe translation preserves the original's emotional tone and imagery, focusing on the contrast between the vast, flowing Yellow River and the isolated, rugged mountain range. It also clarifies the cultural references, such as the flute and the military outpost, to help students understand the poem's context.",
+  "metadata": {
+    "input_tokens": 224,
+    "output_tokens": 135,
+    "latency_ms": 11823.35352897644,
+    "timestamp": "2026-10-26T19:53:14.936756",
+    "finish_reason": "stop"
+  }
+}

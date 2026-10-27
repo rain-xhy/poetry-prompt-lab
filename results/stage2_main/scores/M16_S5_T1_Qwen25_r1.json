@@ -1,0 +1,67 @@
+{
+  "translation_id": "M16_S5_T1_Qwen25_r1",
+  "anon_code": "T_1c3745a7",
+  "poem_id": "M16",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Cockcrow pierces the darkness, the moon hanging over the thatched inn.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Cockcrow pierces the darkness' corresponds to '鸡鸣时' (cockcrow time) and 'the moon hanging over the that: inn' corresponds to '茅店上还有月亮' (moon on the thatched inn), preserving all three imagery elements with minimal omission as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Footprints on the wooden bridge, frost shining on the frost-covered tiles.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'footprints on the wooden bridge' but does not explicitly state 'frost' as the surface where footprints are found, and the phrase 'frost shining on the frost-covered tiles' introduces an additional element ('frost-covered tiles') that is not present in the original Chinese phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Recalling my dream in Du Ling",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Recalling my dream in Du Ling' directly expresses the required meaning of 'therefore thinking of the dream in Du Ling' as per the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "heresies and geese fill the winding ponds",
+        "evidence_found": true,
+        "reasoning": "The phrase 'winding ponds' directly translates to '曲折池塘' and 'heresies and geese' corresponds to '凫雁', fulfilling both conditions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

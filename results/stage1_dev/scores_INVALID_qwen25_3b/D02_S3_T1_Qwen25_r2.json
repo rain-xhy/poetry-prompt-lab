@@ -1,0 +1,62 @@
+{
+  "translation_id": "D02_S3_T1_Qwen25_r2",
+  "anon_code": "T_3b83ad6a",
+  "poem_id": "D02",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "All birds have flown high, solitary clouds drift idly.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express 'bird groups have flown away' or imply 'disappearance'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "All birds have flown high, solitary clouds drift idly.",
+        "evidence_found": true,
+        "reasoning": "The phrase '孤云独去闲' is translated as 'All birds have flown high, solitary clouds drift idly.' This translation does not preserve the exact meaning of '孤云独去闲' as '孤云独自悠闲地飘走'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I gaze upon you, my fellow mountain, never tiring of your sight.",
+        "evidence_found": true,
+        "reasoning": "The phrase '人与山互相看着' is not directly translated as 'I gaze upon you, my fellow mountain' which is missing the '人与' (me and the mountain) relationship.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "You do not begrudge my company, nor do I yours.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'only Jingting Mountain' is not preserved in the translation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 4,
+    "emotion": 5,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 4.4,
+    "valid": true
+  }
+}

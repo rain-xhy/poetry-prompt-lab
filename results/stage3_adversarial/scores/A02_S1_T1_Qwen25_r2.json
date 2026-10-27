@@ -1,0 +1,58 @@
+{
+  "translation_id": "A02_S1_T1_Qwen25_r2",
+  "anon_code": "T_ac4676b6",
+  "poem_id": "A02",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "But how many flowers fell, I'd like to know.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'how many flowers fell' directly addresses the count of flowers falling, which corresponds to the requirement that the subject 'flowers' is identified from 'I' to 'flowers'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "But how many flowers fell, I'd like to know.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I'd like to know' directly expresses the desire to know the number of fallen flowers, which corresponds to the cognitive ability of flowers as described in the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Spring sleep unaware of dawn, Birdsong everywhere, a joyful sound. Last night's wind and rain I heard, But how many flowers fell, I'd like to know.",
+        "evidence_found": true,
+        "reasoning": "The translation does not match the original poem's meaning as it introduces new elements like 'joyful sound' and 'how many flowers fell', which are not present in the original '春晓' poem.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.95,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

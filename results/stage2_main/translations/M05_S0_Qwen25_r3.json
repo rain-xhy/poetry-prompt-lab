@@ -1,0 +1,19 @@
+{
+  "id": "M05_S0_Qwen25_r3",
+  "poem_id": "M05",
+  "trap_type": "情感反差",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n寻寻觅觅，冷冷清清，凄凄惨惨戚戚。",
+  "prompt_sha256": "bab7e4ab09eb425de87e1fff5c97021bc493f660e06a292574473966afb21107",
+  "translation": "The poem you've provided is actually a well-known opening line from Li Qingzhao's poem \"醉花阴·重阳\" (Drunken Wine on the Tenth Month: Double Ninth Festival). It translates roughly to:\n\n\"Searching for something, I find nothing. Cold and lonely, I am sorrowful and forlorn.\"\n\nThis line encapsulates the poet's sense of loneliness and longing, which is quite common in classical Chinese poetry. The English rendering aims to capture the emotional weight and the imagery of the original Chinese line.",
+  "metadata": {
+    "input_tokens": 57,
+    "output_tokens": 109,
+    "latency_ms": 1601.9225120544434,
+    "timestamp": "2026-10-26T20:30:50.220213",
+    "finish_reason": "stop"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M04_S1_T3_Qwen25_r1",
+  "anon_code": "T_eb439838",
+  "poem_id": "M04",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Two loves are meant to last forever, Yet can it be so if we meet every hour?",
+        "evidence_found": true,
+        "reasoning": "The translation does not express 'if' as a condition for 'long-lasting love' but rather poses a question about meeting frequently, which does not match the required condition hypothesis structure.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Yet can it be so if we meet every hour?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Yet can it be so if we meet every hour?' expresses a rhetorical question implying that constant meeting is unnecessary, matching the required meaning of '又何必在乎日日相守（反问）' which means 'Why must we be together every day?'",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Two loves are meant to last forever, Yet can it be so if we meet every hour?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'meet every hour' does not convey the continuous, overlapping time sense of '朝朝暮暮' which implies daily repetition rather than hourly frequency.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Yet can it be so if we meet every hour?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Yet can it be so if we meet every hour?' directly reflects the conditional relationship (if we meet every hour) and the rhetorical question (can it be so) that preserves the original's logic.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 1.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

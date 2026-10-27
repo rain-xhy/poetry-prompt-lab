@@ -1,0 +1,62 @@
+{
+  "translation_id": "D01_S5_T1_Qwen25_r1",
+  "anon_code": "T_4e487cff",
+  "poem_id": "D01",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Just vanquished from my brow, It reappears upon my heart.",
+        "evidence_found": true,
+        "reasoning": "The translation contains the phrase 'Just vanquished from my brow, It reappears upon my heart.' which implies that the emotion is being eliminated, contradicting the pass condition of not expressing that the emotion has already been eliminated.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Just vanquished from my brow",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '才下眉头' and does not express that the feeling is '刚从眉间离开'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Just vanquished from my brow,",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the word 'yet' or 'but' to express the sense of turning point or repetition, and the reappearing feeling is not explicitly stated as 'upon my heart' but rather 'from my brow'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Just vanquished from my brow, It reappears upon my heart.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the original phrase '才下……却上' and does not clearly indicate the feeling of the '愁绪' reappearing, thus failing to satisfy the pass conditions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 5,
+    "fluency": 4,
+    "poetic_quality": 2,
+    "overall": 3.55,
+    "valid": true
+  }
+}

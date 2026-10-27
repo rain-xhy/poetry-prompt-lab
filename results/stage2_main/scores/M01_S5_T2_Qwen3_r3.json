@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S5_T2_Qwen3_r3",
+  "anon_code": "T_204ed97d",
+  "poem_id": "M01",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Deep feelings yet seem to lack emotion",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Deep feelings yet seem to lack emotion' directly translates the required '深情与似无情的悖论张力' by contrasting 'deep feelings' (深情) with 'seem to lack emotion' (似无情), preserving the paradoxical tension between deep affection and seeming indifference.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A smile fails to break at the banquet's seat",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A smile fails to break at the banquet's seat' directly expresses 'unable to/cannot' smile in the context of 'at the table/at the farewell wine' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The candle, with heart, partakes in farewell",
+        "evidence_found": true,
+        "reasoning": "The phrase explicitly states the candle has a heart (有心) and participates in farewell (惜别), fulfilling the requirement of preserving the candle's personification as the subject.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Tears fall for others, until the dawn is set.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Tears fall for others, until the dawn is set' directly translates the required meaning of '蜡烛替人流泪 + 一直到天明' by preserving the 'for others' (替人) relationship and the time continuation 'until the dawn' (到天明).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 4.25,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

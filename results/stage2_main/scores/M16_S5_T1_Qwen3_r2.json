@@ -1,0 +1,67 @@
+{
+  "translation_id": "M16_S5_T1_Qwen3_r2",
+  "anon_code": "T_83b80cea",
+  "poem_id": "M16",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The crow's cry echoes over the hut, and the moon lingers on the茅店.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'the moon lingers on the茅店' but the original phrase '鸡声茅店月' requires the moon to be visible on the茅店 at dawn, not lingering. The phrase '茅店' is written with a Chinese character in the translation, which is incorrect as the translation should be in English without Chinese characters.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Footprints are visible on the board bridge, and the frost glows on the path.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'footprints' and 'board bridge' but uses 'frost glows on the path' instead of 'frost' on the bridge, which does not match the original's '霜' (frost) being on the bridge.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Thus, I recall the dream of Du Ling",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Thus, I recall the dream of Du Ling' directly expresses the meaning of 'therefore think of the dream in Du Ling' as required, indicating a memory of a dream from Du Ling.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the ducks and geese fill the winding pond",
+        "evidence_found": true,
+        "reasoning": "The phrase 'winding pond' directly translates to '曲折池塘' (winding/pool) and 'ducks and geese fill' matches '凫雁满布' as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

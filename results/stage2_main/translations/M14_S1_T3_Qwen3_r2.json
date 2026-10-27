@@ -1,0 +1,19 @@
+{
+  "id": "M14_S1_T3_Qwen3_r2",
+  "poem_id": "M14",
+  "trap_type": "否定逻辑",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n秦时明月汉时关，万里长征人未还。\n但使龙城飞将在，不教胡马度阴山。",
+  "prompt_sha256": "1f115a6346305e6c1e4f676e773e31b59ae7527daecf0bc36e9e51246ef3f215",
+  "translation": "The moon of Qin shines brightly, the walls of Han stand steadfast. A thousand miles of journey, the soldiers remain far from their homes. If the general of the dragon city were present, the nomads would never cross the dark mountain.\n\n[The poem reflects the longing and sorrow of soldiers who have not returned from their long campaigns. The reference to \"龙城飞将\" (Dragon City General) is a legendary hero from ancient Chinese history, symbolizing a brave and capable commander.]\n\n[The imagery of the moon and walls evokes the vastness of the frontier and the enduring presence of the military garrison.]",
+  "metadata": {
+    "input_tokens": 225,
+    "output_tokens": 125,
+    "latency_ms": 1279.8316478729248,
+    "timestamp": "2026-10-26T21:00:18.175751",
+    "finish_reason": "stop"
+  }
+}

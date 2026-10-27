@@ -1,0 +1,62 @@
+{
+  "translation_id": "D04_S3_T1_Qwen3_r2",
+  "anon_code": "T_2e6adb7f",
+  "poem_id": "D04",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Tongxiang tan water deep thousands of feet, not surpassing Wang Lun's sincere farewell.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '桃花潭水深千尺' and does not express the water's depth in a way that matches the original meaning of '深千尺' (deep thousand feet). Instead, it uses '极深' (extremely deep) which is not equivalent to '深千尺'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "not surpassing Wang Lun's sincere farewell.",
+        "evidence_found": true,
+        "reasoning": "The translation states 'not surpassing Wang Lun's sincere farewell', which implies a comparison to 'deeper' rather than 'not surpassing'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Tongxiang tan water deep thousands of feet, not surpassing Wang Lun's sincere farewell.",
+        "evidence_found": true,
+        "reasoning": "The phrase '汪伦为我送行' is not preserved in the translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Tongxiang tan water deep thousands of feet, not surpassing Wang Lun's sincere farewell.",
+        "evidence_found": true,
+        "reasoning": "The phrase '情谊被表达为更深的一方' is not directly quoted or implied in the translation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 4,
+    "emotion": 5,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 4.4,
+    "valid": true
+  }
+}

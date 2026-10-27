@@ -1,0 +1,58 @@
+{
+  "translation_id": "A01_S0_Qwen25_r1",
+  "anon_code": "T_fc6063d0",
+  "poem_id": "A01",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Carefully lest I slip into the river",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Carefully lest' implies a negative consequence (slipping into the river) and the structure 'lest' expresses a cautionary negative meaning, fulfilling the requirement to identify '小心' as containing an implicit 'don't' or negative meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Carefully lest I slip into the river.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Carefully lest I slip into the river' conveys a warning tone by emphasizing caution to avoid a potential danger, matching the requirement to preserve a warning or reminder tone.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "slip into the river",
+        "evidence_found": true,
+        "reasoning": "The required phrase '滑入河中' implies a smooth, continuous motion of sliding into the river, but the translation uses 'slip' which suggests a sudden, accidental fall rather than a deliberate or smooth sliding action.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

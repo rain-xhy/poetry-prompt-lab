@@ -1,0 +1,76 @@
+{
+  "translation_id": "D06_S5_T2_Qwen3_r1",
+  "anon_code": "T_25bc05be",
+  "poem_id": "D06",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When I think of brothers climbing high, I know the autumn moon is missing one.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'When I think of brothers climbing high' implies the distant imagining of the brothers, and 'I know the autumn moon is missing one' conveys the understanding of absence through the moon, fulfilling the requirement of expressing 'in distant imagination' without literal 'I see/I watch'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When I think of brothers climbing high",
+        "evidence_found": true,
+        "reasoning": "The phrase 'brothers climbing high' directly corresponds to 'brothers climbing high' in the original, fulfilling the requirement of having the meaning of 'climb the heights' and maintaining the subject 'brothers'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When I think of brothers climbing high, I know the autumn moon is missing one.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly mention 'everyone wearing chrysanthemums' or 'dogwood sprigs' as required, and the phrase 'autumn moon is missing one' refers to the moon being absent rather than the custom of wearing chrysanthem. The required meaning of 'everyone wearing chrysanthemums' is not conveyed.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I know the autumn moon is missing one.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'missing one' implies the absence of a person (the speaker), fulfilling the requirement that the translation expresses '少了一个人' and identifies the person as the speaker.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

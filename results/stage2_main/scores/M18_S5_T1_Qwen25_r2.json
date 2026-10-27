@@ -1,0 +1,67 @@
+{
+  "translation_id": "M18_S5_T1_Qwen25_r2",
+  "anon_code": "T_af944490",
+  "poem_id": "M18",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Unavoidably, the flowers fall away; Like old acquaintances, the swallows return.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'flowers fall away' which covers the '花落' action but fails to express the 'helpless/inevitable' aspect as required by the original phrase's meaning, and the second part about swallows is irrelevant to the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Like old acquaintances, the swallows return.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Like old acquaintances, the swallows return' directly expresses '似曾相识' (seem familiar) and '燕子归来的动作' (swallows returning), meeting both required conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Unavoidably, the flowers fall away; Like old acquaintances, the swallows return.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly contrasts the flowers' departure (fall away) with the swallows' return, showing opposite directions of movement as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Unavoidably, the flowers fall away; Like old acquaintances, the swallows return.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys the passage of time through the falling flowers and the return of swallows, reflecting the sentiment of things changing and people no longer being the same.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

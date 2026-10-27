@@ -1,0 +1,62 @@
+{
+  "translation_id": "D03_S1_T1_Qwen3_r1",
+  "anon_code": "T_16a8a149",
+  "poem_id": "D03",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Give me another drink, lest I part from you once more",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'Give me another drink' instead of '我劝你再干一杯酒' which is closer to 'Give you another drink' in English, and does not preserve the exact phrase '更尽一杯酒'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Give me another drink, lest I part from you once more, ",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the phrase '西出阳关' or '向西出了阳关' as per the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "lest I part from you once more",
+        "evidence_found": true,
+        "reasoning": "The translation expands the scope to 'no one at all' by using 'lest I part from you once more', which does not preserve the original '没有老朋友' and thus fails the second pass condition.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Give me another drink, lest I part from you once more,",
+        "evidence_found": true,
+        "reasoning": "The provided translation does not include the full phrase 'Beyond the Yangguan pass, where friends are no longer found.' This is necessary to preserve the full context and meaning of the original phrase '劝酒与无故人之因果'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.2,
+    "valid": true
+  }
+}

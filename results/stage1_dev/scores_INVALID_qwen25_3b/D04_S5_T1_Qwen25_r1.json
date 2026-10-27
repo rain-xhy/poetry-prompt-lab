@@ -1,0 +1,57 @@
+{
+  "translation_id": "D04_S5_T1_Qwen25_r1",
+  "anon_code": "T_021ee7c2",
+  "poem_id": "D04",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The translation does not preserve the core meaning, key imagery, and emotional tone of the original poem. It incorrectly states that the water is deep as a thousand '尺', which is not mentioned in the original Chinese phrase. The original meaning of comparing the depth of the water to the depth of sentiment is lost.",
+        "evidence_found": false,
+        "reasoning": "The translation incorrectly states that the water is deep as a thousand '尺', which is not mentioned in the original Chinese phrase. The core meaning, key imagery, and emotional tone of the original poem are not preserved.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Yet it falls short of Wang Lun's affection for me.",
+        "evidence_found": true,
+        "reasoning": "The translation changes '不及' to 'falls short of', which alters the core meaning and the metaphorical comparison of the depth of the water to the depth of sentiment. It also introduces the concept of 'deeper' which is not present in the original phrase '不及'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The translation does not mention '汪伦为我送行' or preserve the core meaning of '汪伦送我'.",
+        "evidence_found": false,
+        "reasoning": "The translation focuses on the imagery and metaphor of the original poem but does not include the specific information about Wang Lun sending the speaker off, which is a key part of the original phrase '汪伦送我'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The桃花潭水 is deep as a thousand尺, Yet it falls short of Wang Lun's affection for me.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the core meaning, key imagery, and emotional tone of the original poem. The original poem uses the metaphor of comparing the depth of the water to the depth of sentiment, but the translation uses a different metaphor (comparing the depth of the water to the depth of sentiment) and does not maintain the original imagery and emotional tone.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\"adequacy\":1,\"imagery\":0,\"emotion\":1,\"fluency\":0,\"poetic_quality\":0}"
+  }
+}

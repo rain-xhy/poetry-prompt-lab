@@ -1,0 +1,67 @@
+{
+  "translation_id": "M17_S1_T3_Qwen3_r1",
+  "anon_code": "T_4c0b8add",
+  "poem_id": "M17",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling can wait to become a memory",
+        "evidence_found": true,
+        "reasoning": "The phrase 'can wait to become a memory' uses 'can' (must...) for the future tense and expresses the idea of becoming a memory as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling can wait to become a memory, but already it is futile.",
+        "evidence_found": true,
+        "reasoning": "The translation does not convey the past perfect tense or the sense of 'already' as a completed action in the past; it describes a current state rather than a completed past action.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling can wait to become a memory, but already it is futile.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'this feeling' does not clearly refer to 'this emotion' as required by the original Chinese phrase '此情', which needs to preserve the specific emotional context without ambiguity.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling can wait to become a memory, but already it is futile.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the contrast between future (waiting to become a memory) and past (already futile) with complex tense interplay.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 4,
+    "poetic_quality": 2,
+    "overall": 1.85,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

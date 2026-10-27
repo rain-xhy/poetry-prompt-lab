@@ -1,0 +1,67 @@
+{
+  "translation_id": "M11_S4_T1_Qwen25_r3",
+  "anon_code": "T_e5a69ad8",
+  "poem_id": "M11",
+  "strategy": "S4_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Looks like frost on the ground, making my heart sigh.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Looks like frost on the ground' does not use a suspect/wonder/might be verb and is a definite statement, not a tentative one.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I raise my head and gaze at the luminous moon, Then lower my head, thinking of my hometown.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly shows the sequence of actions (raising head to look at moon, then lowering head to think of hometown) and implies that looking at the moon triggers thoughts of home.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "At the head of the bed, the bright moonlight",
+        "evidence_found": true,
+        "reasoning": "The phrase 'At the head of the bed, the bright moonlight' does not preserve '床前' as a fixed position and does not convey '月光明亮' as a single unit.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "At the head of the bed, the bright moonlight, Looks like frost on the ground, making my heart sigh.",
+        "evidence_found": true,
+        "reasoning": "The translation focuses on the moonlight and frost imagery but does not explicitly convey the 'solitude' or 'homesickness' required by the original phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M17_S0_Qwen3_r3",
+  "anon_code": "T_95aca810",
+  "poem_id": "M17",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This sentiment can be cherished as a memory",
+        "evidence_found": true,
+        "reasoning": "The phrase does not express 'becoming a memory' in the future tense as required by the original Chinese phrase's meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "it is already sorrowful",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it is already sorrowful' captures the completed state of sorrow as described in the original Chinese phrase '当时已惘然', indicating that the sorrow has been experienced and is now complete.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This sentiment can be cherished as a memory, but it is already sorrowful when we reflect upon it.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the emotional weight and reflective sorrow associated with 'this sentiment', fulfilling the requirement for clear reference to 'this emotion' and emotional vocabulary.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This sentiment can be cherished as a memory, but it is already sorrowful when we reflect upon it.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the contrast between future memory (cherished as a memory) and past sorrow (already sorrowful when reflecting), maintaining the complex tense interplay as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 4,
+    "poetic_quality": 2,
+    "overall": 1.85,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

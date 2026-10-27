@@ -1,0 +1,17 @@
+                          sum_sq     df       F  PR(>F)
+C(strategy)               0.1306    8.0  0.5027  0.8527
+C(trap_type)              0.9506    3.0  9.7581  0.0000
+C(strategy):C(trap_type)  0.2707   24.0  0.3473  0.9982
+Residual                  4.6758  144.0     NaN     NaN
+interaction mixed model written
+dropped easy=['M08', 'M10'] hard=['M16', 'M18']
+strategy  layer1  layer2  layer3 layer4  composite
+   S5_T1   0.744   3.734   4.092   None      0.727
+   S2_T1   0.712   3.884   4.117   None      0.723
+   S1_T1   0.736   3.679   4.050   None      0.717
+   S4_T1   0.733   3.548   3.883   None      0.700
+   S1_T3   0.729   3.544   3.938   None      0.699
+   S3_T1   0.690   3.550   3.915   None      0.677
+      S0   0.674   3.530   3.962   None      0.668
+   S5_T3   0.690   3.395   3.871   None      0.662
+   S5_T2   0.669   3.248   3.783   None      0.636

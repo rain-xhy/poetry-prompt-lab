@@ -1,0 +1,19 @@
+{
+  "id": "M13_S1_T1_Qwen25_r3",
+  "poem_id": "M13",
+  "trap_type": "否定逻辑",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n千山鸟飞绝，万径人踪灭。\n孤舟蓑笠翁，独钓寒江雪。",
+  "prompt_sha256": "32cb01b82e90e4e66089e261ed5f9d4ac5659da5d883f34dfb4a0a13c1b1dae7",
+  "translation": "Here is the translation in the requested format:\n\nThousand mountains mute, no bird's flight,\nA thousand paths, no human trace.\nA solitary fishing boat,\nA fisher old in a cloaked helmet,\nDucks into the cold river's white expanse.\n\n[Note: \"蓑笠翁\" (suō lì wēng) refers to a fisher dressed in a rain cape and straw hat.]",
+  "metadata": {
+    "input_tokens": 248,
+    "output_tokens": 85,
+    "latency_ms": 11399.448871612549,
+    "timestamp": "2026-10-26T19:54:58.819577",
+    "finish_reason": "stop"
+  }
+}

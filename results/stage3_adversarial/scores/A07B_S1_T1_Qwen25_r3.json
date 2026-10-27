@@ -1,0 +1,58 @@
+{
+  "translation_id": "A07B_S1_T1_Qwen25_r3",
+  "anon_code": "T_d42bd92f",
+  "poem_id": "A07B",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Gently tread, lest you slip",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Gently tread, lest you slip' does not convey the meaning of '能否从歧义版推断出正确否定' which requires a translation that can infer the correct negation from a ambiguous version, as the given translation focuses on cautioning against slipping into water rather than addressing negation or ambiguity.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Gently tread, lest you slip",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Gently tread, lest you slip' directly translates the concept of '版本B的明确否定' by expressing a caution against slipping, which aligns with the requirement that '明确版本应该正确' (the clear version should be correct).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Gently tread, lest you slip",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Gently tread, lest you slip' directly translates the cautionary meaning of 'AB一致性' to avoid slipping, which matches the requirement of two versions having the same meaning.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

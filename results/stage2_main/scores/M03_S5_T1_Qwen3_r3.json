@@ -1,0 +1,67 @@
+{
+  "translation_id": "M03_S5_T1_Qwen3_r3",
+  "anon_code": "T_ef20899c",
+  "poem_id": "M03",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I confess it is still uncertain",
+        "evidence_found": true,
+        "reasoning": "The phrase 'still uncertain' directly translates to '尚未确定' and meets the requirement of expressing 'cannot yet be set' without implying 'no deadline' or 'never'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When will we share the warmth of a candlelit window?",
+        "evidence_found": true,
+        "reasoning": "The phrase uses 'when will' to express a future assumption about sharing a candlelit window, matching the required meaning of '什么时候能一起剪西窗烛' with the specified future tense and hopeful tone.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When asked about the time of my return, I confess it is still uncertain. The rain in Bashan Mountains fills the autumn pools. When will we share the warmth of a: candlelit window? I recall the rain of Bashan now, as it once was.",
+        "evidence_found": false,
+        "reasoning": "The translation does not explicitly convey '将来回忆过去' (future recalling past) as it states 'I recall the rain of Bashan now, as it once was', which implies current recollection of past events rather than future recollection of past events.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The rain in Bashan Mountains fills the autumn pools.",
+        "evidence_found": true,
+        "reasoning": "The English phrase directly translates the required meaning of 'rain makes the autumn pool water rise' while preserving the three required imagery elements: Bashan Mountains, night rain, and autumn pool.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

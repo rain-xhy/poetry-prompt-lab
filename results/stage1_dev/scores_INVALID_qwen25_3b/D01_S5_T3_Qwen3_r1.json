@@ -1,0 +1,62 @@
+{
+  "translation_id": "D01_S5_T3_Qwen3_r1",
+  "anon_code": "T_45b8acc3",
+  "poem_id": "D01",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "cannot be dispelled",
+        "evidence_found": true,
+        "reasoning": "The translation uses the phrase 'cannot be dispelled', which contradicts the pass condition of expressing '无法排遣' (impossible to eliminate/cannot be eliminated).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "cannot be dispelled, for the sorrow slips from the brow, only to return to the heart.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly state that the sorrow '才下眉头' (just left the brow) and does not preserve the phrase '愁刚从眉间离开'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "only reflects the deep, lingering impact of emotion.",
+        "evidence_found": false,
+        "reasoning": "The translation does not explicitly express the transition between the brow and the heart using the exact words 'yet' or 'but' as required by one of the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This sorrow cannot be dispelled, for the sorrow slips from the brow, only to return to the heart.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '才下……却上' and does not explicitly convey the idea that the sorrow is not truly disappearing, only shifting from the brow to the heart.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 5,
+    "fluency": 4,
+    "poetic_quality": 2,
+    "overall": 3.55,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M05_S1_T1_Qwen25_r1",
+  "anon_code": "T_e4c75241",
+  "poem_id": "M05",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Seeking, yet elusive, cold and lonely, sorrowful and wretched.",
+        "evidence_found": true,
+        "reasoning": "The translation describes emotional states and conditions rather than the repeated action of searching, failing to convey the continuous, repetitive motion of 'seeking' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "cold and lonely",
+        "evidence_found": true,
+        "reasoning": "The phrase 'cold and lonely' directly conveys the cold, desolate environment required, and 'sorrowful and wretched' provides the additional layer of emotional desolation that aligns with the intended meaning of 'environment's coldness and desolation'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking, yet elusive, cold and lonely, sorrowful and wretched.",
+        "evidence_found": true,
+        "reasoning": "The translation captures deep sorrow through layered emotional descriptors that progress from elusive longing to physical coldness and ultimate wretchedness.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking, yet elusive, cold and lonely, sorrowful and wretched.",
+        "evidence_found": true,
+        "reasoning": "The translation follows the required order of action → environment → emotion with 'Seeking' as action, 'cold and lonely' as environment, and 'sorrowful and wretched' as emotion.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

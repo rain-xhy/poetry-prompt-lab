@@ -1,0 +1,62 @@
+{
+  "translation_id": "D03_S1_T1_Qwen3_r2",
+  "anon_code": "T_ca4490c6",
+  "poem_id": "D03",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Remind you to drink this last cup of wine",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'Remind you to drink this last cup of wine' instead of '我劝你再干一杯酒' which means 'I advise you to drink this last cup of wine'",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Remind you to drink this last cup of wine, Beyond the Yangguan pass, where friends are no more.",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the phrase '西出阳关' (west leaves Yangguan). It only mentions 'Beyond the Yangguan pass' which does not preserve the original direction '西出' (west out).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Remind you to drink this last cup of wine, Beyond the Yangguan pass, where friends are no more.",
+        "evidence_found": true,
+        "reasoning": "The translation includes 'where friends are no more' which expands the meaning to 'no one at all', not preserving the original '没有老朋友'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Remind you to drink this last cup of wine",
+        "evidence_found": true,
+        "reasoning": "The translation does not directly state 'because this person is leaving without old friends, so I urge you to drink one more cup' which is the core of the original phrase '劝酒与无故人之因果'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "M11_S2_T1_Qwen25_r1",
+  "poem_id": "M11",
+  "trap_type": "否定逻辑",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nSemantic Analysis (in Chinese):\n“疑是地上霜”：怀疑是地上的霜（推测，不确定）。要点：推测、不确定的语气。\n“举头望明月，低头思故乡”：望月→思乡的情感逻辑。要点：两个动作的因果或顺承关系。\n“床前明月光”：床前的明亮月光。要点：月光的明亮和位置。\n“整体宁静氛围”：静夜独处的氛围。要点：宁静、独处、思乡的氛围。\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n床前明月光，疑是地上霜。\n举头望明月，低头思故乡。",
+  "prompt_sha256": "9a9e5ed3a6580f09fcead8caebffb7911bad2e8dd42e7d3af4bb61f018291803",
+  "translation": "Here is the translation of the poem, adhering to the guidelines provided:\n\nBeside my bed a clear light shines,\nI suspect it's hoarfrost on the ground.\nI raise my head and see the bright moon,\nI bow my head and think of home.\n\n[Note: In Chinese culture, \"床\" (chuáng) can sometimes refer to a bed or a cot, and by extension, a person's sleeping quarters.]",
+  "metadata": {
+    "input_tokens": 356,
+    "output_tokens": 89,
+    "latency_ms": 1336.8780612945557,
+    "timestamp": "2026-10-26T21:16:56.269487",
+    "finish_reason": "stop"
+  }
+}

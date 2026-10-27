@@ -1,0 +1,76 @@
+{
+  "translation_id": "D01_S5_T1_Qwen3_r1",
+  "anon_code": "T_a98ee259",
+  "poem_id": "D01",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This unrelenting sorrow cannot be banished.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'cannot be banished' directly translates to '无法消除' (cannot eliminate), and the context implies the sorrow persists without being eliminated, meeting the requirement of expressing '无法消除' without indicating it has been eliminated or the desire to eliminate.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The sorrow slips away from the brow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'slips away' implies a gradual departure rather than the immediate 'just left' required by '才下眉头'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "but then returns to the heart",
+        "evidence_found": true,
+        "reasoning": "The phrase 'but then returns to the heart' contains the required contrast ('but') and explicitly mentions 'heart', fulfilling both pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The sorrow slips away from the brow, but then returns to the heart.",
+        "evidence_found": true,
+        "reasoning": "The translation shows the continuous transfer of sorrow from brow to heart without it disappearing, meeting both conditions of sequential relationship and persistent sorrow.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S2_T1_Qwen25_r1",
+  "anon_code": "T_b4d85b4d",
+  "poem_id": "M07",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "昔日王谢堂前的燕子",
+        "evidence_found": true,
+        "reasoning": "The phrase '王谢堂前' directly references the specific family names 'Wang' and 'Xie' as required, indicating the Eastern Jin dynasty Wang and Xie families.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "昔日王谢堂前的燕子，如今已飞入普通人家。",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly contrasts '昔日王谢堂前' (past elite homes) with '如今已飞入普通人家' (now entering ordinary households), showing both time and social class contrast as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "昔日王谢堂前的燕子",
+        "evidence_found": true,
+        "reasoning": "The phrase '昔日王谢堂前的燕子' directly translates to 'the swallows from the Wang and Xie halls of old', preserving the image of the swallow as a witness while avoiding the claim of a swallow living for centuries.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "By Zhuque Bridge wildflowers grow, Unguarded lanes the sun sets low.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'wildflowers' instead of 'wild grass' and 'sun sets low' which does not convey the desolate, decaying atmosphere required for the 荒凉景象 (desolate scene) of 野草 (wild grass) and 夕阳 (sunset).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.95,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

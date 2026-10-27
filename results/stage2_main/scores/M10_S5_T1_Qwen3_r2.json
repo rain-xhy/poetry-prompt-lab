@@ -1,0 +1,67 @@
+{
+  "translation_id": "M10_S5_T1_Qwen3_r2",
+  "anon_code": "T_c77227d4",
+  "poem_id": "M10",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The wild fire cannot extinguish the grass",
+        "evidence_found": true,
+        "reasoning": "The phrase 'cannot extinguish' directly translates to '烧不尽' meaning 'cannot be burned out', fulfilling the requirement of expressing 'burning never ending' with a negative verb form.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The wild fire cannot extinguish the grass, and the spring wind brings it back again.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly mentions 'spring wind' and 'brings it back again', which corresponds to the required meaning of 'spring wind brings it back again' for the growth of grass.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The wild fire cannot extinguish the grass, and the spring wind brings it back again.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states that the wild fire cannot extinguish the grass (preserving the 'fire burns grass' relationship) and the spring wind brings it back (preserving the personification of the wind as a regenerative force).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wild fire cannot extinguish the grass, and the spring wind brings it back again.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys the unyielding resilience of grass through the cycle of fire and wind, meeting both conditions of expressing tenacity and the recurring rebirth process.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

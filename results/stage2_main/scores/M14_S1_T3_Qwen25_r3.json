@@ -1,0 +1,67 @@
+{
+  "translation_id": "M14_S1_T3_Qwen25_r3",
+  "anon_code": "T_0c614013",
+  "poem_id": "M14",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If General Li Guang were still alive",
+        "evidence_found": true,
+        "reasoning": "The phrase 'If General Li: Guang were still alive' uses a conditional clause starting with 'If' to express the assumption that General Li Guang is still alive, fulfilling the requirement for a condition hypothesis.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "He would not let the Huns pass through the阴Mountain.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'would not let the H:uns pass through' directly translates the Chinese '不教...度' meaning 'not allow to pass through', fulfilling the requirement of 'not allow' and active prevention.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If General Li Guang were still alive, He would not let the Huns pass through the阴Mountain.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'If General Li: Guang were still alive, He would not let the Huns pass through the阴Mountain' clearly expresses a conditional relationship where the condition (General Li Guang being alive) leads to the result (not letting the Huns pass through the阴Mountain), fulfilling the requirement of condition-result logic and maintaining the original meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "General Li Guang",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'General Li Guang', a historical figure known as a famous border general from the Han Dynasty, which directly refers to a border commander with a strong military reputation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.45,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

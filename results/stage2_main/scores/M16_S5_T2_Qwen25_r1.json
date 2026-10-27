@@ -1,0 +1,67 @@
+{
+  "translation_id": "M16_S5_T2_Qwen25_r1",
+  "anon_code": "T_2402f9e6",
+  "poem_id": "M16",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Cockcrows pierce the moonlit boudoir",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Cockcrows pierce the moonlit boudoir' does not convey the intended meaning of '鸡鸣时茅店上还有月亮' which implies a simple scene of a moon still visible on a thatched inn at cockcrow time, but the translation uses 'boudoir' (a private room for women) and 'moonlit' which suggests a different context than the original's simple, rural setting.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Footprints on the frost-kissed plank bridge",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Footprints on the frost-kissed plank bridge' directly corresponds to the required meaning of '人的足迹在板桥的霜上' with the three imagery elements preserved: footprints, plank bridge, and frost.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Recalling dreams in Dufu’s former domain",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Recalling dreams in Duf' s former domain' directly translates the meaning of '因思杜陵梦' as remembering dreams from Du Ling (Dufu's former domain), expressing the recall of dreams from the past.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Flocks of ducks and ge: in tranquil ponds",
+        "evidence_found": false,
+        "reasoning": "The phrase 'flocks of ducks and geese' directly corresponds to '凫雁满' and 'tranquil ponds' implies the curved, winding nature of the pond as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "M03_S0_Qwen25_r3",
+  "poem_id": "M03",
+  "trap_type": "情感反差",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n君问归期未有期，巴山夜雨涨秋池。\n何当共剪西窗烛，却话巴山夜雨时。",
+  "prompt_sha256": "bd5bf1360a12622f45dedf8a6a19f606a98309ecf3627dd3d894205a5397e603",
+  "translation": "Here is the English translation of the provided Chinese classical poem:\n\nYou inquire when I'll return, but I have no set date,\nRain at night in Chisai Heights fills the autumn pool.\nWhen we can sit by the west window and trim the candle flame,\nWe'll talk of the night rain in Chisai Heights then.",
+  "metadata": {
+    "input_tokens": 72,
+    "output_tokens": 68,
+    "latency_ms": 995.9580898284912,
+    "timestamp": "2026-10-26T20:01:25.530992",
+    "finish_reason": "stop"
+  }
+}

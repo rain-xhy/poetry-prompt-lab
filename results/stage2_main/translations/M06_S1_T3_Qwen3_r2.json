@@ -1,0 +1,19 @@
+{
+  "id": "M06_S1_T3_Qwen3_r2",
+  "poem_id": "M06",
+  "trap_type": "拟人意象",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n春眠不觉晓，处处闻啼鸟。\n夜来风雨声，花落知多少。",
+  "prompt_sha256": "d58d0cd627b00c830097e6233aa80cd3331cccff0dbb4053f768dcf332f448c5",
+  "translation": "In the morning, I sleep soundly, unaware of the dawn, and everywhere I hear the songs of the birds. The sounds of the night's rain and wind have caused the blossoms to fall—how many will fall, I wonder.\n\n[The poem uses a subtle emotional paradox: the speaker is unaware of the passing dawn, yet feels the weight of loss in the falling flowers.]  \n[The imagery of \"blossoms falling\" reflects both the beauty of nature and the inevitability of change, a theme common in Chinese poetry.]",
+  "metadata": {
+    "input_tokens": 217,
+    "output_tokens": 111,
+    "latency_ms": 10364.765882492065,
+    "timestamp": "2026-10-26T21:00:41.579295",
+    "finish_reason": "stop"
+  }
+}

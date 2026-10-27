@@ -1,0 +1,58 @@
+{
+  "translation_id": "A03_S5_T1_Qwen3_r3",
+  "anon_code": "T_4346dbe3",
+  "poem_id": "A03",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Yet I cannot speak",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Yet I cannot speak' directly captures the '想说-但止住' (want to speak but stop) contradiction required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The wind knocks at the door for me, Yet I cannot speak, for the autumn is cool and pleasant.",
+        "evidence_found": true,
+        "reasoning": "The translation fails to distinguish between true emotion and surface words as required by '却道'引出的只是表面话, since it describes a literal situation without indicating that the speaker's words are superficial.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The wind knocks at the door for me, Yet I cannot speak, for the autumn is cool and pleasant.",
+        "evidence_found": true,
+        "reasoning": "The translation describes a peaceful autumn scene with wind knocking at the door, but it does not convey the emotional conflict or the sense of suppression between inner feelings and expression that the original phrase requires.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 1.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M16_S4_T1_Qwen3_r3",
+  "anon_code": "T_a9a801dc",
+  "poem_id": "M16",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "the crow's call echoes over the mossy inn",
+        "evidence_found": true,
+        "reasoning": "The original phrase '鸡声茅店月' refers to the image of a chicken's crow at a grass-roofed inn with a moon visible, but the translation mentions 'the crow's call' instead of 'chicken's crow' and 'mossy inn' instead of '茅店' (a simple inn with a thatched roof), and does not mention the moon being visible.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "the traveler's footprints are visible on the bridge lined with frost",
+        "evidence_found": true,
+        "reasoning": "The phrase 'the traveler's footprints are visible on the bridge lined with frost' does not match the required meaning of '人的足迹在板桥的霜上' which implies the footprints are on the frost-covered bridge, not the bridge being lined with frost. The translation uses 'lined with frost' which suggests the bridge is covered in frost, but the original phrase specifies the footprints are on the frost, not the bridge itself being frosted.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I recall the dream of Du Liang",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I recall the dream of Du Li:ng' directly expresses remembering a dream (杜陵梦), fulfilling the requirement of expressing 'recalling' and specifying it as a dream.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the geese fly full across the pond",
+        "evidence_found": true,
+        "reasoning": "The phrase 'the geese fly full across the pond' directly translates the '凫雁满布' (geese and wild geese filling the pond) and implies the 'curved/pool' aspect through 'pond' which corresponds to the 'curved pool' in the dream scene.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

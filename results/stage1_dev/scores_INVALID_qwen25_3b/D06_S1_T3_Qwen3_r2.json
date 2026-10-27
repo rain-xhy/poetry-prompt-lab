@@ -1,0 +1,62 @@
+{
+  "translation_id": "D06_S1_T3_Qwen3_r2",
+  "anon_code": "T_7ebc60d4",
+  "poem_id": "D06",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The translation does not preserve the exact phrase '遥知' as 'The speaker knows that'",
+        "evidence_found": false,
+        "reasoning": "The translation uses 'The speaker knows that' which is not an exact match for '遥知'",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The translation does not preserve the exact phrase '兄弟们登高之处'",
+        "evidence_found": false,
+        "reasoning": "The translation uses 'The speaker knows that brothers and sisters will climb high for the autumn festival, but one will be missing because of the long journey.' which does not match the original phrase '兄弟们登高之处'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The translation does not contain the phrase '遍插茱萸'",
+        "evidence_found": false,
+        "reasoning": "The translation does not include the phrase '遍插茱萸'",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The translation does not preserve the exact phrase '少一人'. It translates to 'one will be missing because of the long journey', which does not match the original phrase.",
+        "evidence_found": false,
+        "reasoning": "The translation does not preserve the exact phrase '少一人'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.2,
+    "valid": true
+  }
+}

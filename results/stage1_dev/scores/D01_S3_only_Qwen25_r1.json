@@ -1,0 +1,69 @@
+{
+  "translation_id": "D01_S3_only_Qwen25_r1",
+  "anon_code": "T_43db5036",
+  "poem_id": "D01",
+  "strategy": "S3_only",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling cannot be dispelled",
+        "evidence_found": true,
+        "reasoning": "The phrase 'cannot be dispelled' directly matches the requirement of '无法消除' (cannot eliminate) and maintains the negative direction without implying elimination or lack of desire.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "it barely fades from my brow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it barely fades from my brow' directly corresponds to the requirement of expressing 'just left the brow' and refers to the brow as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "only to rise up to my heart",
+        "evidence_found": true,
+        "reasoning": "The phrase 'only to rise up to my heart' contains the required 'rise up to heart' and implies a contrast with the previous action (fading from brow), fulfilling the translation's need for a turn of meaning and a focus on the heart.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": null,
+        "valid": false,
+        "raw": "{\n  \"pass\": true,\n  \"evidence\": \"it barely fades from my brow, only to rise up to my heart\",\n  \"reasoning\": \"The translation shows the continuous transfer of sorrow from the brow to the heart without it disappearing, meeting both conditions of sequential relationship and persistent emotion.\"\n",
+        "error": null
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "valid": false,
+    "raw": ""
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M14_S5_T2_Qwen3_r3",
+  "anon_code": "T_959d024a",
+  "poem_id": "M14",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If the dragon's city general were here, No nomad would cross the shadowed mountains.",
+        "evidence_found": true,
+        "reasoning": "The translation uses a conditional clause starting with 'If' to express the assumption that the dragon's city general is present, which matches the required condition hypothesis structure.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "No step of the enemy would cross the mountains",
+        "evidence_found": true,
+        "reasoning": "The phrase 'No step of the enemy would cross the mountains' directly translates the meaning of '不让...越过' as 'not allowing the enemy to cross the mountains', fulfilling the requirement of 'not allow/prevent' with an active blocking action.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If the dragon's general were present, No step of the enemy would cross the mountains.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly shows a conditional clause ('If...') followed by a result ('No step of the enemy would cross the mountains'), maintaining the cause-effect logic required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If the dragon's city general were here, No nomad would cross the shadowed mountains.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'dragon's city general' directly references the historical context of '龙城飞将' as a border general, and the translation conveys the image of a formidable commander who would prevent nomadic incursions, fulfilling both the requirement for a border general and the image of a powerful warrior.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 4,
+    "valid": true
+  }
+}

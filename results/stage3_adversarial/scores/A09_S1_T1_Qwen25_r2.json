@@ -1,0 +1,58 @@
+{
+  "translation_id": "A09_S1_T1_Qwen25_r2",
+  "anon_code": "T_8e6a80ec",
+  "poem_id": "A09",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Because the Lóng City General flies high",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Because' directly translates the causal relationship implied by '只因' in the original Chinese, fulfilling the requirement to preserve the causal meaning without using conditional language.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Qin Dynasty's bright moon, Han Dynasty's fortress, A thousand miles of continuous march, no return.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states historical facts (Qin and Han dynasties) and a factual outcome (no return), avoiding hypothetical language.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Because the Lóng City General flies high",
+        "evidence_found": true,
+        "reasoning": "The original phrase '与原诗对比' requires preserving the logic change from '但使' to '只因', but the translation uses 'Because' which implies causation rather than the conditional relationship implied by '但使' (if only) in the original poem.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

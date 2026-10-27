@@ -1,0 +1,57 @@
+{
+  "translation_id": "D04_S3_only_Qwen25_r1",
+  "anon_code": "T_b6a12105",
+  "poem_id": "D04",
+  "strategy": "S3_only",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Yet it lacks the情that汪伦送我.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the original phrase '桃花潭水深千尺' and does not express the water being extremely deep as a thousand feet deep.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Yet it lacks the情that汪伦送我.",
+        "evidence_found": true,
+        "reasoning": "The phrase '情' is not preserved and the word '更深' is used instead of '不及'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Yet it lacks the情that汪伦送我.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the meaning of '汪伦送我' and incorrectly introduces new elements like '水潭' and '情' which are not present in the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Yet it lacks the情that汪伦送我.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the original phrase '情' and instead uses a reference to a specific poem and poet, which does not align with the original intention of comparing '情' to depth.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\"adequacy\":1,\"imagery\":0,\"emotion\":1,\"fluency\":2,\"poetic_quality\":0}"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M17_S1_T3_Qwen3_r3",
+  "anon_code": "T_11507166",
+  "poem_id": "M17",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling can be cherished as a memory, but now it is truly regretful.",
+        "evidence_found": true,
+        "reasoning": "The translation does not use a question structure (must/can/could) as required by the pass conditions, and it does not express the future aspect of becoming a memory as a result of the time passage.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling can be cherished as a memory, but now it is truly regretful.",
+        "evidence_found": true,
+        "reasoning": "The translation does not convey the past perfect tense 'already' completion required by '當時已惘然' (when it was already lost/unclear), focusing instead on present regret without indicating prior completion.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling can be cherished as a memory, but now it is truly regretful.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly refers to 'this feeling' as the subject, indicating the specific emotional context, and uses 'regretful' to convey the emotional weight, fulfilling the requirement for clear reference and emotional vocabulary.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling can be cherished as a memory, but now it is truly regretful.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly contrast 'future memories' with 'past confusion' as required by the original phrase's meaning of '将来回忆vs当时已惘然的时态交织', focusing instead on present regret without clear temporal juxtaposition.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 1.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

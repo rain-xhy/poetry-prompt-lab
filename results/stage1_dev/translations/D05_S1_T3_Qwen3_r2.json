@@ -1,0 +1,19 @@
+{
+  "id": "D05_S1_T3_Qwen3_r2",
+  "poem_id": "D05",
+  "trap_type": "时态叙事",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n十年生死两茫茫，不思量，自难忘。\n千里孤坟，无处话凄凉。",
+  "prompt_sha256": "d5155870ef8bb6c7ae98c460b8303fa2a3d79fd7f0b25bfd902e4a5048050dbd",
+  "translation": "Ten years of death and life, two souls separated—no thinking, yet it is unforgettable. A thousand miles away, my wife's grave, no place to vent my sorrow. \n\n[The poem reflects the profound sorrow of a husband who is separated from his deceased wife. The phrase \"十年生死两茫茫\" (ten years of death and life, two souls separated) conveys the eternal sorrow of loss. \"千里孤坟\" (a thousand miles away, a lonely grave) emphasizes the distance and the emptiness of the situation.]\n\n[The use of \"不思量，自难忘\" (no thinking, yet it is unforgettable) illustrates the paradox of emotional depth in the face of loss. The imagery of a \"grave\" and \"sorrow\" underscores the enduring nature of the pain.]",
+  "metadata": {
+    "input_tokens": 218,
+    "output_tokens": 163,
+    "latency_ms": 12667.005777359009,
+    "timestamp": "2026-10-26T16:39:47.835264",
+    "finish_reason": "stop"
+  }
+}

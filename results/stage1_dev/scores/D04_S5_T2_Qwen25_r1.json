@@ -1,0 +1,76 @@
+{
+  "translation_id": "D04_S5_T2_Qwen25_r1",
+  "anon_code": "T_1785f037",
+  "poem_id": "D04",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Tang water deep as a thousand尺",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'Tang water' instead of 'Peach Blossom Pool' and 'thousand尺' is not a standard English unit, so it fails to preserve '桃花潭水极深' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Yet not as deep as Wáng L:un’s parting grace.",
+        "evidence_found": false,
+        "reasoning": "The phrase 'not as deep as' directly translates the meaning of '不及' (not as deep as) while preserving the comparison to Wáng Lún's parting grace, meeting both pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "His parting, pure and true,",
+        "evidence_found": true,
+        "reasoning": "The phrase 'His parting' indicates that Wáng Lún is the one sending the person away, fulfilling the requirement that Wáng Lún is the sender.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Tang water deep as a thousand尺",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Tang water deep as a thousand尺' does not express '情谊被表达为更深的一方' as required; it uses a metaphor for water depth but does not directly compare the depth of feelings to the depth of water in a way that shows feelings being deeper than water depth.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.35,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

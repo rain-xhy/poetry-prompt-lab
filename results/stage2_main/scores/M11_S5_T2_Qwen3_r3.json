@@ -1,0 +1,67 @@
+{
+  "translation_id": "M11_S5_T2_Qwen3_r3",
+  "anon_code": "T_dca1501c",
+  "poem_id": "M11",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "As if it were frost upon the ground",
+        "evidence_found": true,
+        "reasoning": "The phrase uses 'as if it were' which indicates uncertainty and speculation, matching the requirement for a suspect/wonder/seems/might be construction without a definite statement.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I raise my head to gaze at the moon",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I raise my head to gaze at the moon' directly shows the action sequence and implies the subsequent thought of home by the context of the translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Moonlight on the Bench",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve '床前' as a location phrase and does not convey '月光明亮' as a bright moonlight.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I raise my head to gaze at the moon, Yet heartens me with thoughts of my land.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys a sense of quietness through the moonlight imagery and expresses loneliness and homesickness through the speaker's thoughts of their homeland.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

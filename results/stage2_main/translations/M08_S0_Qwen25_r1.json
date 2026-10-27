@@ -1,0 +1,19 @@
+{
+  "id": "M08_S0_Qwen25_r1",
+  "poem_id": "M08",
+  "trap_type": "拟人意象",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n空山不见人，但闻人语响。\n返景入深林，复照青苔上。",
+  "prompt_sha256": "a7932af62afc0c2a05ded2b77285b3425101bc7ac652fcca0d0e8de94827a87f",
+  "translation": "Here is the English translation of the provided Chinese classical poem:\n\nEmpty mountains do not see people,\nOnly the sound of voices is heard.\nThe setting sun returns to deep woods,\nAnd once again casts its light upon the green moss.",
+  "metadata": {
+    "input_tokens": 64,
+    "output_tokens": 47,
+    "latency_ms": 10986.832618713379,
+    "timestamp": "2026-10-26T19:35:01.823190",
+    "finish_reason": "stop"
+  }
+}

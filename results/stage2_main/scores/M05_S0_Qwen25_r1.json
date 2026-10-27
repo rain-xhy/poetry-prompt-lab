@@ -1,0 +1,67 @@
+{
+  "translation_id": "M05_S0_Qwen25_r1",
+  "anon_code": "T_100ea2d3",
+  "poem_id": "M05",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I keep on searching, but in vain",
+        "evidence_found": true,
+        "reasoning": "The phrase does not convey the repeated or continuous searching action as required; it implies searching without success rather than the persistent effort.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The air is cold and dim, sorrowful and bleak.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'cold and dim, sorrowful and bleak' captures the cold, desolate environment described in '冷冷清清' while maintaining the intended mood of desolation and melancholy.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The air is cold and dim, sorrowful and bleak.",
+        "evidence_found": true,
+        "reasoning": "The translation does not convey the extreme emotional depth required by '凄凄惨惨戚戚' which implies profound sorrow with layered emotional progression, as the phrase focuses on the cold, dim atmosphere rather than the intense emotional state.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I keep on searching, but in vain, The air is cold and dim, sorrowful and bleak.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly shows the progression from action (searching) to environment (cold, dim air) to emotion (sorrowful and bleak), maintaining the required order.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

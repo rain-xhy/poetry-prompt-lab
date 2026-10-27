@@ -1,0 +1,19 @@
+{
+  "id": "M16_S1_T1_Qwen3_r1",
+  "poem_id": "M16",
+  "trap_type": "时态叙事",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n晨起动征铎，客行悲故乡。\n鸡声茅店月，人迹板桥霜。\n槲叶落山路，枳花明驿墙。\n因思杜陵梦，凫雁满回塘。",
+  "prompt_sha256": "7e048fa82af73f5183c1595145fe82c9f8a6eb843bc6055cf9782b8180ba4a31",
+  "translation": "In the morning, the bell's toll starts to wake me, and my journey brings sorrow for my homeland. The caw of the rooster calls at a moonlit茅店, and human footprints are seen on the board bridge frost. Qu leaves fall down the path, and the bright枳花 appears on the驿站 wall. Because of this, I think of the Du Ling dream, where the geese fly full across the back塘.\n\n[Du Ling is a place in Shaanxi, known for its traditional folk songs and the legendary story of the \"Du Ling Dream,\" where a traveler dreams of returning home.]",
+  "metadata": {
+    "input_tokens": 257,
+    "output_tokens": 127,
+    "latency_ms": 1370.293140411377,
+    "timestamp": "2026-10-26T20:31:29.893491",
+    "finish_reason": "stop"
+  }
+}

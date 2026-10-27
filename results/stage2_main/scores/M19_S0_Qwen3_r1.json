@@ -1,0 +1,67 @@
+{
+  "translation_id": "M19_S0_Qwen3_r1",
+  "anon_code": "T_d8750e38",
+  "poem_id": "M19",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In the palace of the King of Qi, I saw you often, And heard of your house before on the terrace of Ci.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'saw you often' uses present perfect tense ('have seen') but the translation uses past simple 'saw', which does not match the required past perfect tense for 'multiple times'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "And we met again in the season of falling flowers.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'met again' directly translates '又逢' as a second meeting, and 'in the season of falling flowers' implies the current context of the present moment, fulfilling the requirement for 'now' and 'again'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "In the palace of the King of Qi, I saw you often, And heard of your house before on the terrace of Ci. It was indeed a beautiful scenery in the south, And we met again in the season of falling flowers.",
+        "evidence_found": true,
+        "reasoning": "The translation shows a contrast between past (saw you often, heard of your house) and present (met again in the season of falling flowers), implying a change in circumstances through the imagery of falling flowers and the contrast between past beauty and current state.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "in the season of falling flowers",
+        "evidence_found": true,
+        "reasoning": "The phrase 'in the season of falling flowers' directly translates the '落花时节' and preserves its symbolic meaning of fleeting beauty and transience.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

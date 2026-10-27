@@ -1,0 +1,67 @@
+{
+  "translation_id": "M03_S1_T3_Qwen25_r1",
+  "anon_code": "T_23def5ad",
+  "poem_id": "M03",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "You ask about my return but I have no set date",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no set date' directly translates to '尚未确定' and 'cannot yet be set' as required, avoiding 'no deadline' or 'never'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When we are together again at the west window at dusk, We will talk of the night rain in the Sichuan night.",
+        "evidence_found": true,
+        "reasoning": "The translation uses the future tense 'will talk' to express the future assumption of being together to share the night rain, fulfilling the requirement for future tense and expectation.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "We will talk of the night rain in the Sich: We will talk of the night rain in the Sichuan night",
+        "evidence_found": false,
+        "reasoning": "The phrase 'We will talk of the night rain in the Sichuan night' explicitly refers to future recollection of past rain events, fulfilling the '将来回忆过去' requirement while specifying the Sichuan night context.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "In the night rain fills the autumn pool in the Sichuan tower",
+        "evidence_found": true,
+        "reasoning": "The phrase 'night rain fills the autumn pool' directly translates the required meaning of 'rain makes the pool water rise' while preserving the three required imagery elements: 巴山 (Sichuan tower), 夜雨 (night rain), and 秋池 (autumn pool).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.45,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

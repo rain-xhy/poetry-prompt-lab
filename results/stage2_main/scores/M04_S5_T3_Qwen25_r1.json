@@ -1,0 +1,67 @@
+{
+  "translation_id": "M04_S5_T3_Qwen25_r1",
+  "anon_code": "T_937daf98",
+  "poem_id": "M04",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "If two hearts are true and enduring,",
+        "evidence_found": true,
+        "reasoning": "The translation does not express 'longevity' (久长) as a condition but rather frames it as a state of being, which contradicts the requirement to preserve the conditional 'if' clause with 'longevity' as the condition.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why must they meet day in and day out?",
+        "evidence_found": true,
+        "reasoning": "The English translation uses a rhetorical question to express that meeting daily is unnecessary, fulfilling the requirement of expressing a negation or question about not needing daily meetings.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "If two hearts are true and enduring, Why must they meet day in and day out?",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'day in and day out' which implies frequent meetings but does not convey the continuous, unbroken time flow required by '朝朝暮暮' (day and night).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If two hearts are true and enduring, Why must they meet day in and day out?",
+        "evidence_found": true,
+        "reasoning": "The translation correctly captures the conditional structure 'if...then' and the rhetorical question that challenges the assumption of constant physical presence, maintaining the original's logic and thematic emphasis.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

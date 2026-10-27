@@ -1,0 +1,67 @@
+{
+  "translation_id": "M19_S2_T1_Qwen3_r1",
+  "anon_code": "T_5246b4e7",
+  "poem_id": "M19",
+  "strategy": "S2_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I often saw the scene, and on the pavilion of Cui, I heard it many times",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I often saw the scene' indicates past frequent action, and 'heard it many times' shows multiple past occurrences, meeting both past tense and frequency requirements.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "yet again, I met you in the season of falling petals",
+        "evidence_found": true,
+        "reasoning": "The phrase 'yet again, I met you' directly translates the '又逢' meaning 'again meeting', and 'in the season of falling petals' implies the current context of the meeting, fulfilling the requirement for present tense and 'again meeting'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "It was indeed a splendid landscape in the south, yet again, I met you in the season of falling petals.",
+        "evidence_found": true,
+        "reasoning": "The translation contrasts past splendor with current decay through the imagery of 'splendid landscape' versus 'season of falling petals', fulfilling both time contrast and implied change in circumstances.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I met you in the season of falling petals",
+        "evidence_found": true,
+        "reasoning": "The phrase 'season of falling petals' directly translates the '落花时节' while preserving its symbolic meaning of fleeting beauty and transience.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

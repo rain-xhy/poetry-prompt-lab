@@ -1,0 +1,76 @@
+{
+  "translation_id": "D04_S3_T1_Qwen3_r2",
+  "anon_code": "T_2e6adb7f",
+  "poem_id": "D04",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Tongxiang tan water deep thousands of feet",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Tongxiang tan water deep thousands of feet' directly translates the original phrase's meaning of the water being very deep (thousands of feet) while preserving 'Tongxiang tan' as the Peach Blossom Pool.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Tongxiang tan water deep thousands of feet, not surpassing Wang Lun's sincere farewell.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'not surpassing Wang Lun's sincere farewell' directly translates the meaning of '不及' as '比不上', indicating the water's depth is less than Wang as a comparison without implying 'deeper' or 'equal depth'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Tongxiang tan water deep thousands of feet, not surpassing Wang Lun's sincere farewell.",
+        "evidence_found": true,
+        "reasoning": "The translation does not specify that Wang Lun is the sender of the farewell (送行者) and the speaker is the recipient (被送者).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Tongxiang tan water deep thousands of feet, not surpassing Wang Lun's sincere farewell.",
+        "evidence_found": true,
+        "reasoning": "The translation does not compare emotional depth with water depth as required; it states water depth is deep but does not link it to emotion.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

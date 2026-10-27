@@ -1,0 +1,19 @@
+{
+  "id": "M04_S0_Qwen25_r1",
+  "poem_id": "M04",
+  "trap_type": "情感反差",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n两情若是久长时，又岂在朝朝暮暮。",
+  "prompt_sha256": "af09b02805709ee29899f701c7f25000a6886b6ab5dde654a7a53635ea1b0a48",
+  "translation": "If two minds are truly destined to last,\nThen it doesn't matter how many times a day they meet. \n\nNote: This is a free translation based on the general meaning of the original Chinese poem. The phrase \"两情若是久长时\" (liǎng qíng rú sì jiǔ cháng shí) in the original can be interpreted in various ways, and the translation aims to capture a similar sentiment of eternal love regardless of the frequency of meetings. The second line \"又岂在朝朝暮暮\" (yòu qǐ zài zhāo zhāo mù mù) is translated as \"then it doesn't matter how many times a day they meet\" to convey the idea that true love transcends physical proximity.",
+  "metadata": {
+    "input_tokens": 56,
+    "output_tokens": 157,
+    "latency_ms": 2235.8152866363525,
+    "timestamp": "2026-10-26T19:40:22.972563",
+    "finish_reason": "stop"
+  }
+}

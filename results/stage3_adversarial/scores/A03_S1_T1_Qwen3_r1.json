@@ -1,0 +1,58 @@
+{
+  "translation_id": "A03_S1_T1_Qwen3_r1",
+  "anon_code": "T_4cb785f1",
+  "poem_id": "A03",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the speaker is unable to speak, as if the season itself holds back the words",
+        "evidence_found": true,
+        "reasoning": "The phrase 'unable to speak' captures the 'stop' aspect of '想说又止', and 'holds back the words' conveys the emotional suppression and internal conflict of wanting to speak but being unable to, fulfilling the requirement of expressing the contradiction between wanting to speak and stopping.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The wind moves gently, the sky is clear, and the autumn is cool and pleasant, yet the speaker is unable to speak, as if the season itself holds back the words.",
+        "evidence_found": true,
+        "reasoning": "The translation describes a scene and the speaker's inability to speak, but does not explicitly distinguish between true emotions and surface words as required by '却道'引出的只是表面话.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the speaker is unable to speak, as if the season itself holds back the words",
+        "evidence_found": true,
+        "reasoning": "The phrase 'the speaker is unable to speak, as if the season itself holds back the words' directly conveys the internal emotional conflict and the suppression of expression, reflecting the required meaning of '内心情感与表达的不一致' (inconsistency between inner emotion and expression).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.4,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

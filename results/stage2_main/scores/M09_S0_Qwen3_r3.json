@@ -1,0 +1,67 @@
+{
+  "translation_id": "M09_S0_Qwen3_r3",
+  "anon_code": "T_e7c88c7f",
+  "poem_id": "M09",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Moon falls, the cranes cry, frost covers the sky",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly lists three distinct imagery elements without establishing causal relationships between them.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the sorrowful sleep lies",
+        "evidence_found": true,
+        "reasoning": "The phrase 'sorrowful sleep lies' implies facing sorrow while sleeping, satisfying both conditions of 'facing' and 'sorrow accompanying sleep'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "the river's willows light up with fisherman's fires",
+        "evidence_found": true,
+        "reasoning": "The phrase mentions 'willows' instead of 'maple trees', which violates the requirement to preserve '江枫' (river maple trees) as a distinct image.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Moon falls, the cranes cry, frost covers the sky; the river's willows light up with fisherman's fires, and the sorrowful sleep lies.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys a sense of solitude and coldness through imagery like 'frost covers the sky' and 'sorrowful sleep lies', avoiding any joyful elements.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 3,
+    "poetic_quality": 3,
+    "overall": 3.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

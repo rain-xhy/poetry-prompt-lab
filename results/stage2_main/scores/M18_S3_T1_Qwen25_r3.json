@@ -1,0 +1,66 @@
+{
+  "translation_id": "M18_S3_T1_Qwen25_r3",
+  "anon_code": "T_fcda81f4",
+  "poem_id": "M18",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "There's nothing we can do as flowers wither, Yet a swan-like燕bird returns as if we met before. A neighbor's boat asks the traveler where he's bound. Like old friends, the wind knocks at the door for me.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express the required meaning of 'helpless/无奈' or 'flower falling' as the original phrase requires. The phrase 'There's nothing we can do as flowers wither' partially captures the 'helpless' aspect but the rest of the translation shifts focus to unrelated imagery like a swan-like bird and a neighbor's boat, failing to maintain the core meaning of the original Chinese phrase which is about the inevitable fall of flowers and helplessness.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Yet a swan-like燕bird returns as if we met before.",
+        "evidence_found": true,
+        "reasoning": "The phrase '燕bird' is a transliteration error for '燕子' (swallow), and the translation does not correctly convey 'the returning swallow' as a subject of the action but rather describes it as 'swan-like', which misrepresents the bird type and the action of returning.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "There's nothing we can do as flowers wither, Yet a swan-like燕bird returns as if we met before.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'flowers wither' for 花落去 (which implies falling/withering) but incorrectly uses '燕bird' (a misspelling of 'swan') and 'returns as if we met before' which does not capture the contrast between departure and return as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "There's nothing we can do as flowers wither, Yet a swan-like燕bird returns as if we met before.",
+        "evidence_found": true,
+        "reasoning": "The translation does not convey '物是人非' (things unchanged but people changed) as required; it focuses on flowers withering and a bird returning, which does not capture the sense of time passing and people changing.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "valid": false,
+    "raw": "{\n  \"original\": \"无可奈何花落去，似曾相识燕归来。\",\n  \"academic_translation\": \"There's nothing we can do as flowers wither, Yet a swan-like燕bird returns as if we met before. A neighbor's boat asks the traveler where he's bound. Like old friends, the wind knocks at the door for me.\",\n  \"poetic_reading\": \"There's nothing we can do as flowers wither, Yet a swan-like燕bird returns as if we met before. A neighbor's boat asks the traveler where he's bound. Like old friends, the wind knocks at the door for me.\"\n}"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "translation_id": "A06_S0_Qwen3_r3",
+  "anon_code": "T_1743cb69",
+  "poem_id": "A06",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When people have hearts, they still cherish parting; they shed tears until the morning light.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly mention 'person weeps for candle' or any inversion of 'person' and 'candle' as required by the original phrase's meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When people have hearts, they still cherish parting; they shed tears until the morning light.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the meaning of '识别' '替' '的方向' changed by expressing the emotional state of cherishing parting and shedding tears, indicating a shift in emotional direction.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Her heart is full of emotion, yet it seems always indifferent. Only when she sees his face does she feel sorrow, but she cannot smile.",
+        "evidence_found": true,
+        "reasoning": "The translation reverses the emotional direction by stating the woman's indifference and sorrow, whereas the original poem expresses the man's emotional state and the woman's sorrow when seeing him.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "translation_id": "A05_S0_Qwen3_r3",
+  "anon_code": "T_e0d98e76",
+  "poem_id": "A05",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I cannot stay away from you, and I cannot forget you.",
+        "evidence_found": true,
+        "reasoning": "The original phrase '不得不' means 'must' or 'have to', indicating a necessity that is not voluntary. The translation uses 'cannot' which implies inability rather than necessity, so it does not preserve the meaning of 'must'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I cannot stay away from you, and I cannot forget you.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'cannot' to express the conditional relationship where not seeing someone leads to not thinking of them, fulfilling the requirement of if...then structure through the negative conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I cannot stay away from you, and I cannot forget you.",
+        "evidence_found": true,
+        "reasoning": "The translation correctly captures the dual negation structure by expressing two independent negative clauses connected by 'and', fulfilling the requirement to distinguish between double negation and conditional negation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

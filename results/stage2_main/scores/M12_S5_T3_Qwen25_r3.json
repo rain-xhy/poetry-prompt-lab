@@ -1,0 +1,67 @@
+{
+  "translation_id": "M12_S5_T3_Qwen25_r3",
+  "anon_code": "T_f39d91cb",
+  "poem_id": "M12",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see further",
+        "evidence_found": true,
+        "reasoning": "The phrase 'To see further' uses the verb 'to see' with the purpose 'further' to express the desire to see a greater distance, matching the required meaning of 'want to see the entire thousand li (goal)'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see further, one must ascend a higher floor.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'one must ascend a higher floor' directly expresses the necessity of taking an additional step to achieve a greater perspective, fulfilling the requirement for 'need/must' and establishing a purpose-action relationship with 'to see further'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see further, one must ascend a higher floor.",
+        "evidence_found": true,
+        "reasoning": "The English translation explicitly states the purpose (to see further) and the means (ascend a higher floor), maintaining the logical relationship where the action is necessary to achieve the goal.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The sun sets behind the mountains, and the Yellow River flows into the sea.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly preserves both the mountain sunset and Yellow River seaflow imagery while conveying the vastness and scale of the natural landscape.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

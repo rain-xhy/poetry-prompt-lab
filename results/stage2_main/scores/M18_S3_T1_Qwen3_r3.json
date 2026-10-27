@@ -1,0 +1,66 @@
+{
+  "translation_id": "M18_S3_T1_Qwen3_r3",
+  "anon_code": "T_ca006439",
+  "poem_id": "M18",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The flowers fall, and there is no way to stop it; the dove returns, as if it had once been there.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'the flowers fall' which covers the '花落' action, but it adds 'the dove returns' which is not in the original phrase and does not express the 'helpless' feeling as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "the dove returns, as if it had once been there",
+        "evidence_found": true,
+        "reasoning": "The phrase 'the dove returns' incorrectly uses 'dove' instead of 'swallow' (燕子), and the phrase 'as if it had once been there' does not accurately convey 'seem familiar' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The flowers fall, and there is no way to stop it; the dove returns, as if it had once been there.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the contrast between the flowers falling (departing) and the dove returning (coming back), showing the opposite directions of movement as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The flowers fall, and there is no way to stop it; the dove returns, as if it had once been there.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys time passing through falling flowers and the dove's return, suggesting change and the past's presence, which aligns with the required meaning of time passing and the feeling of things unchanged while people have changed.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "valid": false,
+    "raw": "{\n  \"academic_translation\": 4,\n  \"poetic_reading\": 3\n"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "M02_S2_T1_Qwen25_r3",
+  "poem_id": "M02",
+  "trap_type": "情感反差",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nSemantic Analysis (in Chinese):\n“红豆”：红豆作为相思的象征（借代）。要点：红豆不只是植物，而是相思之情的象征。\n“愿君多采撷”：劝君多采摘（愿望）。要点：劝说/希望的语气，主语是'君'。\n“此物最相思”：此物最能寄托相思之情。要点：物作为情感寄托，不是物本身会思念。\n“春来发几枝”：春天来时长出几枝。要点：自然生长的场景，疑问语气。\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n红豆生南国，春来发几枝。\n愿君多采撷，此物最相思。",
+  "prompt_sha256": "5c135659e340232611d286951bc2be2c079fca57d6fabf2b03c8fabf337f1b4e",
+  "translation": "Red beans grow in the Southland,  \nSpring brings forth many a sprig.  \nI hope you gather them in abundance,  \nFor this is the very essence of parting sorrow.  \n\n[Note: \"红豆\" (jīng dá dòu) refers to the red bean, often used as a symbol of enduring love or longing.]",
+  "metadata": {
+    "input_tokens": 367,
+    "output_tokens": 72,
+    "latency_ms": 1115.2174472808838,
+    "timestamp": "2026-10-26T21:25:54.870051",
+    "finish_reason": "stop"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M05_S4_T1_Qwen25_r1",
+  "anon_code": "T_ad5038c8",
+  "poem_id": "M05",
+  "strategy": "S4_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Woe is me, woe is me, such is my plight.",
+        "evidence_found": true,
+        "reasoning": "The repeated phrase 'Woe is me, woe is me' conveys the continuous and repetitive nature of the search, fulfilling the requirement for repeated searching action and maintaining the tonal rhythm through repetition.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Cold and quiet, sorrowful and bleak.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Cold and quiet, sorrowful and bleak' directly conveys a cold, desolate environment with a sense of desolation and melancholy, meeting the requirement of expressing a cold and desolate environment and forming a progressive relationship with the previous line.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Woe is me, woe is me, such is my plight.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Woe is me, woe is me, such is my plight' directly conveys deep sorrow with repeated emphasis, showing emotional progression from searching to despair.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Searching for something, I find nothing, Cold and quiet, sorrowful and bleak. Woe is me, woe is me, such is my plight.",
+        "evidence_found": true,
+        "reasoning": "The translation follows the required structure: first describing the action (searching), then the environment (cold and quiet), and finally the emotion (sorrowful and bleak), with the repetition emphasizing the emotional state.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

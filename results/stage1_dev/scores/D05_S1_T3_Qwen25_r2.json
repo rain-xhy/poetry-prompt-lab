@@ -1,0 +1,76 @@
+{
+  "translation_id": "D05_S1_T3_Qwen25_r2",
+  "anon_code": "T_53d6c620",
+  "poem_id": "D05",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Ten years of life and death, both dim in memory, not thinking of a person, yet you are always dear.",
+        "evidence_found": false,
+        "reasoning": "The translation captures the meaning of 'ten years' and expresses the separation and emotional distance between the living and deceased, with the phrase 'both dim in memory' indicating the fading memory and 'not thinking of a person' reflecting the emotional state.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "not thinking of you, yet you are always dear",
+        "evidence_found": true,
+        "reasoning": "The phrase 'not thinking of you, yet you are always dear' directly matches the requirement of expressing 'even without deliberately thinking, still cannot forget', with the correct contrast between not thinking and still being remembered.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A lonely grave, thousands of miles away",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A lonely grave, thousands of miles away' directly includes 'lonely' (as required for '孤独') and 'thousands of miles away' (as required for '千里/遥远的距离').",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of life and death, both dim in memory, not thinking of you, yet you are always dear.",
+        "evidence_found": true,
+        "reasoning": "The translation does not convey 'no place to speak of the melancholy' as required; it mentions 'not thinking of you' and 'you are always dear' which implies positive sentiment rather than the absence of a place to express sorrow.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 1.9,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.65,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

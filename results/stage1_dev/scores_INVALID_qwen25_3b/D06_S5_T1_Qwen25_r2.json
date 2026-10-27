@@ -1,0 +1,57 @@
+{
+  "translation_id": "D06_S5_T1_Qwen25_r2",
+  "anon_code": "T_91a3aafa",
+  "poem_id": "D06",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "But one less person wears the茱萸 on their brows.",
+        "evidence_found": true,
+        "reasoning": "The phrase '遥知' is not preserved in the translation. The correct translation should be 'I know my brothers climb the heights with茱萸, but one less person wears the茱萸 on their brows.'",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "But one less person wears the茱萸 on their brows.",
+        "evidence_found": true,
+        "reasoning": "The phrase '兄弟们登高之处' is not preserved in the translation. The correct translation should be 'I know my brothers climb the heights with茱萸, But one less person wears the茱萸 on their brows.'",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "But one less person wears the茱萸 on their brows.",
+        "evidence_found": true,
+        "reasoning": "The phrase '遍插茱萸' is not preserved in the translation. Instead, '茱萸' is translated as '茱萸' which is redundant and does not convey the meaning of '遍插茱萸'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "But one less person wears the茱萸 on their brows.",
+        "evidence_found": true,
+        "reasoning": "The phrase '少一人' is not preserved in the translation. Instead, the translation states 'one less person wears the茱萸 on their brows.'",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\"adequacy\":1,\"imagery\":0,\"emotion\":1,\"fluency\":1,\"poetic_quality\":0}"
+  }
+}

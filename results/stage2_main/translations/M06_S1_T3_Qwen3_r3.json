@@ -1,0 +1,19 @@
+{
+  "id": "M06_S1_T3_Qwen3_r3",
+  "poem_id": "M06",
+  "trap_type": "拟人意象",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n春眠不觉晓，处处闻啼鸟。\n夜来风雨声，花落知多少。",
+  "prompt_sha256": "d58d0cd627b00c830097e6233aa80cd3331cccff0dbb4053f768dcf332f448c5",
+  "translation": "In the morning, I sleep soundly, unaware of the dawn, and all around me, the birds sing.  \nThe sound of last night's rain and wind is heard, and the petals of the flowers fall—how many will be lost?\n\n[The poem uses a subtle emotional paradox: the speaker is unaware of the dawn, yet feels the quiet presence of nature's sorrow. The \"flower petals falling\" metaphor conveys the inevitability of change and the fleeting nature of beauty.]\n\n[The imagery of \"flower petals falling\" reflects the transient beauty of life, a theme common in Chinese poetry.]",
+  "metadata": {
+    "input_tokens": 217,
+    "output_tokens": 123,
+    "latency_ms": 1233.1535816192627,
+    "timestamp": "2026-10-26T19:48:31.444499",
+    "finish_reason": "stop"
+  }
+}

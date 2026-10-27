@@ -1,0 +1,67 @@
+{
+  "translation_id": "M10_S1_T3_Qwen25_r2",
+  "anon_code": "T_a3b3a20a",
+  "poem_id": "M10",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wildfires cannot consume it entirely",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Wildfires cannot consume it entirely' directly translates the meaning of '烧不尽' as a negative statement about the wildfire's inability to fully destroy the grass, fulfilling the requirement of expressing 'burning never ends' with a negative connotation and personification.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Spring breezes make it grow again.",
+        "evidence_found": true,
+        "reasoning": "The English translation explicitly states that spring breezes cause the grass to regrow, fulfilling both the requirement of expressing 'again growth' and the role of spring breeze in the process.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Spring breezes make it grow again",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Spring breezes make it grow again' directly expresses the relationship between the wildfire and grass through the cycle of destruction and renewal, preserving the personification where the spring breeze actively causes the grass to regrow after being burned.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wildfires cannot consume it entirely, Spring breezes make it grow again.",
+        "evidence_found": true,
+        "reasoning": "The translation directly conveys the cyclical nature of life and death through the imagery of wildfires and spring breezes, emphasizing the unyielding resilience of grass as required by the theme.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

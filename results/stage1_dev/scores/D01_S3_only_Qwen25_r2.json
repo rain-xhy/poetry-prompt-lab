@@ -1,0 +1,71 @@
+{
+  "translation_id": "D01_S3_only_Qwen25_r2",
+  "anon_code": "T_13973acc",
+  "poem_id": "D01",
+  "strategy": "S3_only",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling cannot be dispelled",
+        "evidence_found": true,
+        "reasoning": "The phrase 'This feeling cannot be dispelled' directly matches the requirement of expressing '无法消除这份情绪' with the correct negative direction, indicating it cannot be eliminated rather than having been eliminated or not wanting to eliminate.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Just vanishes from the眉头",
+        "evidence_found": true,
+        "reasoning": "The phrase 'just vanishes from the眉头' does not correctly express '愁刚从眉间离开' as it uses '眉头' (brow) instead of '眉间' (between eyebrows), and the verb 'vanishes' does not match the intended meaning of 'leave' in the context of sorrow departing from the brow.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling cannot be dispelled, Just vanishes from the眉头, Only to reappear on the heart.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express a clear contrast or turn (yet/but/again) as required, and the phrase 'vanishes from the眉头' incorrectly uses '眉' (eyebrow) instead of 'heart' as the focus.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling cannot be dispelled, Just vanishes from the眉头, Only to reappear on the heart.",
+        "evidence_found": true,
+        "reasoning": "The translation shows the continuous, inescapable nature of the sorrow by indicating its movement from the brow to the heart without true disappearance, meeting both pass conditions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 1.7,
+    "valid": true
+  },
+  "layer2_v1": {
+    "valid": false,
+    "raw": "{\n  \"adequacy\": 4,\n  \"imagery\": 4,\n  \"emotion\": 5,\n  \"fluency\": 4,\n  \"po\": 4\n}"
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

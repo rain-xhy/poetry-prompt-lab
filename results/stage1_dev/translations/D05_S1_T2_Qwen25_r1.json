@@ -1,0 +1,19 @@
+{
+  "id": "D05_S1_T2_Qwen25_r1",
+  "poem_id": "D05",
+  "trap_type": "时态叙事",
+  "strategy": "S1_T2",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Poetic rendering for English poetry reading.\nAudience: Poetry lovers at literary events.\nConstraints:\n- Prioritize rhythm and natural flow when read aloud\n- You may adapt imagery for English poetic conventions\n- You may reorder or restructure lines for English verse\n- Preserve the core emotional tone and main imagery\n- You may sacrifice minor details for poetic effect\n- No notes (pure poetry)\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English verse, no title, no author name, no notes.\n\nPoem:\n十年生死两茫茫，不思量，自难忘。\n千里孤坟，无处话凄凉。",
+  "prompt_sha256": "0c5f038fb8ef8cf3369a8b3e5318822a5b465c7dab96ce6d60a823aa83df93a9",
+  "translation": "Ten years生死twilight, thoughts unbidden, yet remain.\nA lonely tomb, a thousand miles away, no words to mourn in.",
+  "metadata": {
+    "input_tokens": 228,
+    "output_tokens": 29,
+    "latency_ms": 11198.076009750366,
+    "timestamp": "2026-10-26T16:26:26.101942",
+    "finish_reason": "stop"
+  }
+}

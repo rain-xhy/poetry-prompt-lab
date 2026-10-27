@@ -1,0 +1,57 @@
+{
+  "translation_id": "D04_S5_T1_Qwen25_r2",
+  "anon_code": "T_0dee6b99",
+  "poem_id": "D04",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The translation does not preserve the exact phrase '桃花潭水深千尺' and does not express the water as extremely deep.",
+        "evidence_found": false,
+        "reasoning": "The translation uses 'The桃花潭水 deep as a thousand尺,' which is not an exact match to the original phrase. Additionally, it does not convey the idea of the water being extremely deep as '深千尺' implies.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Falls short of Wang Lien's affection for me.",
+        "evidence_found": true,
+        "reasoning": "The phrase '不及' (falls short of) is not preserved in the translation, and the translation introduces '更深' (deeper) which is not allowed.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Falls short of Wang Lien's affection for me.",
+        "evidence_found": true,
+        "reasoning": "The translation does not mention Wang Lien as the one sending the person, and it incorrectly uses 'Wang Lien' instead of 'Wang Lun' as in the original phrase '汪伦'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Falls short of Wang Lien's affection for me.",
+        "evidence_found": true,
+        "reasoning": "The translation does not use the metaphor of water depth to compare the depth of feelings, instead it uses a specific example of a poem line, which does not align with the original phrase '情' and the metaphor '以水深比情深的比喻'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\"adequacy\":1,\"imagery\":0,\"emotion\":1,\"fluency\":0,\"poetic_quality\":0}"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "D06_S0_Qwen3_r1",
+  "poem_id": "D06",
+  "trap_type": "时态叙事",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n遥知兄弟登高处，遍插茱萸少一人。",
+  "prompt_sha256": "7cf6f83c6e13878ea45de23d449e629e9ba3141bbdb27992306d88e3b7374768",
+  "translation": "I wonder if my brothers will climb high for the autumn festival,  \nAnd I am missing one among them while planting the fragrant zhu zhu.",
+  "metadata": {
+    "input_tokens": 42,
+    "output_tokens": 32,
+    "latency_ms": 10327.959299087524,
+    "timestamp": "2026-10-26T16:35:57.424079",
+    "finish_reason": "stop"
+  }
+}

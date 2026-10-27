@@ -1,0 +1,58 @@
+{
+  "translation_id": "A08_S1_T1_Qwen3_r1",
+  "anon_code": "T_fce6496c",
+  "poem_id": "A08",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Old lords once ruled from their high halls, now they dwell in common homes with the common folk.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'old lords' refers to the aristocratic families (豪门) that have been 'generalized' (泛化) as they now dwell in common homes, indicating a shift from noble status to common folk.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "On the wild grass by the Zhujia Bridge, wild flowers bloom in sunset's glow at the edge of Uyin巷.",
+        "evidence_found": true,
+        "reasoning": "The translation describes a scene with wild grass and flowers but does not mention the loss of historical specificity or the context of old lords ruling from high halls versus common folk, which is required by the phrase '识别失去了特定历史背景'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "On the wild grass by the Zhujia Bridge, wild flowers bloom in sunset's glow at the edge of Uyin巷.",
+        "evidence_found": true,
+        "reasoning": "The translation incorrectly uses 'Zhujia Bridge' and 'Uyin巷' which are not the proper names in the original poem, and the phrase 'at the edge of Uyin巷' is a misinterpretation of the original's reference to the location.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

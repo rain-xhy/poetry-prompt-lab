@@ -1,0 +1,75 @@
+{
+  "translation_id": "D06_S0_Qwen3_r1",
+  "anon_code": "T_f9324931",
+  "poem_id": "D06",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I wonder if my brothers will climb high for the autumn festival",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I wonder if' implies uncertainty and questioning, but the original '遥知' means 'to know from afar' or 'to imagine from a distance', not expressing uncertainty or questioning about future actions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I wonder if my brothers will climb high for the autumn festival",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly mention '登高' (climb the heights) as a place or action in the context of the original phrase, and the phrase 'planting the fragrant zhu zhu' does not relate to the original meaning of '登高处' (place where they climb high).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "And I am missing one among them while planting the fragrant zhu zhu.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'planting the fragrant zhu zhu' does not correctly convey 'everyone wearing dogwood sprigs' as required; 'zhu zhu' is not the standard term for dogwood sprigs and 'planting' implies growing rather than wearing.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I wonder if my brothers will climb high for the autumn festival, And I am missing one among them while planting the fragrant zhu zhu.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly state that the missing person is the speaker; it refers to 'one among them' without specifying the speaker's identity.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "valid": false,
+    "raw": "{\n  \"original\": \"遥知兄弟登高处，遍插茱萸少一人。\",\n  \"academic_translation\": \"I wonder if my brothers will climb high for the autumn festival, And I am missing one among them while planting the fragrant zhu zhu.\",\n  \"poetic_reading\": \"I wonder if my brothers will climb high for the autumn festival, And I am missing one among them while planting the fragrant zhu z. \"\n}"
+  }
+}

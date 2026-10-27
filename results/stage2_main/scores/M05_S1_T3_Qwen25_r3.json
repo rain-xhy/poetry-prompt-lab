@@ -1,0 +1,67 @@
+{
+  "translation_id": "M05_S1_T3_Qwen25_r3",
+  "anon_code": "T_6758706a",
+  "poem_id": "M05",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking, seeking",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Seeking, seeking' directly translates the repeated action of '寻寻觅觅' with repetition to preserve the rhythmic quality.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "cold and lonely, bleak and sorrowful",
+        "evidence_found": true,
+        "reasoning": "The phrase 'cold and lonely, bleak and sorrowful' directly conveys the cold, desolate environment as required, and the context implies a progression from the previous line.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking, seeking, I am cold and lonely, bleak and sorrowful.",
+        "evidence_found": true,
+        "reasoning": "The English translation uses 'cold and lonely' and 'bleak and sorrowful' to convey deep sadness with layered emotional progression, matching the required meaning of 'extreme sadness' and emotional depth.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking, seeking, I am cold and lonely, bleak and sorrowful.",
+        "evidence_found": true,
+        "reasoning": "The translation follows the required structure from action to environment to emotion without altering the sequence.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 1.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

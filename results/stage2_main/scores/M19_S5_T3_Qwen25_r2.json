@@ -1,0 +1,67 @@
+{
+  "translation_id": "M19_S5_T3_Qwen25_r2",
+  "anon_code": "T_1beace8f",
+  "poem_id": "M19",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I have often seen you in Qi Wang’s courtyard, And heard you in Cui Jiù’s hall many times",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I have often seen you' and 'heard you many times' directly translates the past frequency of seeing and hearing, meeting the requirement of past tense and multiple occurrences.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Now, when the Jiangnan scenery is at its best, In the season of falling flowers, I meet you again.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I meet you again' directly expresses the current reuniting (now) and the 'again' implies the repeated meeting, fulfilling the requirement for '又' (again).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I have often seen you in Qi Wang’s courtyard, And heard you in Cui Ji: 1’s hall many times.",
+        "evidence_found": false,
+        "reasoning": "The translation does not explicitly convey a time contrast between past and present as required by '今昔对比', and the phrase '落花时节' is not directly mentioned to symbolize the contrast between past prosperity and current decline.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "In the season of falling flowers",
+        "evidence_found": true,
+        "reasoning": "The phrase 'In the season of falling flowers' directly preserves the '落花时节' imagery and implies the symbolic meaning of fleeting beauty and transience.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M14_S5_T3_Qwen3_r3",
+  "anon_code": "T_319740ad",
+  "poem_id": "M14",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If the hero of Lóng Chéng were still among us",
+        "evidence_found": true,
+        "reasoning": "The phrase 'If the hero of Lóng Chéng were still among us' uses a conditional clause starting with 'If' to express a hypothetical situation, matching the required condition assumption structure.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "we would not allow the northern nomads to cross the mountain pass",
+        "evidence_found": true,
+        "reasoning": "The phrase 'we would not allow' directly translates the '不让' meaning (prevent/not allow) and implies the active prevention of crossing, fulfilling the requirement of 'active stopping action'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If the hero of Lóng Chéng were still among us, we would not allow the northern nomads to cross the mountain pass.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states a conditional clause ('If...') followed by the result ('we would not allow...'), preserving the condition-result logic while maintaining the original's context of a historical hero preventing invasion.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The moon of Qin shines over the walls of Han, a distant frontier where the long marchers have not yet returned.",
+        "evidence_found": true,
+        "reasoning": "The translation focuses on the moon and frontier, but does not mention a historical military figure associated with Lóng Chéng (Dragon City) or convey the image of a formidable border general.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

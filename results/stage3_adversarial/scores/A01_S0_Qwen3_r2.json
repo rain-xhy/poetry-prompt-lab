@@ -1,0 +1,58 @@
+{
+  "translation_id": "A01_S0_Qwen3_r2",
+  "anon_code": "T_6cd050ac",
+  "poem_id": "A01",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Be cautious of falling into the river",
+        "evidence_found": true,
+        "reasoning": "The translation does not contain any explicit or implicit negative words like 'not', 'don't', 'avoid', or 'prevent' that would indicate a negative meaning for '小心' as required by the original phrase's implicit negation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Be cautious of falling into the river.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Be cautious of falling into the river' directly conveys a warning tone by advising care to avoid a specific danger, fulfilling the requirement to preserve a warning or reminder tone.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "falling into the river",
+        "evidence_found": true,
+        "reasoning": "The required phrase '滑入河中' implies a smooth, continuous motion of sliding into the river, but the translation only mentions 'falling', which suggests a sudden drop rather than a smooth slide.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 4,
+    "valid": true
+  }
+}

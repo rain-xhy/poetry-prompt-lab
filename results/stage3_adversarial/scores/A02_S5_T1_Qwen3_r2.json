@@ -1,0 +1,58 @@
+{
+  "translation_id": "A02_S5_T1_Qwen3_r2",
+  "anon_code": "T_99dd9773",
+  "poem_id": "A02",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "And the blossoms know how many will fall.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'blossoms' directly refers to flowers, and the sentence indicates that the flowers (not 'I') are the subject that knows how many will fall, fulfilling the requirement that the subject changed from 'I' to 'flowers/blossoms'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "And the blossoms know how many will fall.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'blossoms know' directly expresses the blossoms having cognitive awareness, matching the requirement that the translation must convey the blossoms' ability to know or be aware.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In the morning, I sleep soundly, unaware of the dawn, Where every corner is filled with the songs of the birds. Through the night, the rain and wind have made their sound, And the blossoms know how many will fall.",
+        "evidence_found": true,
+        "reasoning": "The translation does not match the original poem's meaning as it misrepresents the structure and content of the classical Chinese poem 'Spring Dawn' (春晓), which typically describes waking up to find the morning has come and birds singing, with no mention of rain, wind, or blossoms falling.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

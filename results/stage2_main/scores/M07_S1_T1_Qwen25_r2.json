@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S1_T1_Qwen25_r2",
+  "anon_code": "T_4b7a14fa",
+  "poem_id": "M07",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wang and Xie",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly mentions 'Wang and X:ie' as the specific families, preserving the required proper names without genericization.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "These old magpies once nested in the courtyards of the Wang and Xie families have flown into the homes of common people.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts 'Wang and Xie families' (historically elite) with 'common people' (ordinary citizens), showing a time contrast through 'once nested' versus 'have flown into', fulfilling both time and class comparisons.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "These old magpies once nested in the courtyards of the Wang and Xie families have flown into the homes of common people.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly refers to 'old magpies' as the witness (燕子) that once nested in the Wang and Xie families' courtyards, indicating their transition to common people's homes, preserving the intended imagery without implying the same magpie lived for centuries.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "By朱雀桥边野草花，乌衣巷口夕阳斜。昔日王谢堂前燕，飞入寻常百姓家。",
+        "evidence_found": false,
+        "reasoning": "The English translation explicitly mentions 'wild grass' and 'setting sun' while conveying a sense of desolation and decline through the imagery of abandoned historical sites and the contrast between past nobility and present commoners.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

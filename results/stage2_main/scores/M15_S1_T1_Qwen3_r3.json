@@ -1,0 +1,67 @@
+{
+  "translation_id": "M15_S1_T1_Qwen3_r3",
+  "anon_code": "T_58b20930",
+  "poem_id": "M15",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Why should the羌笛 (qiang di) lament the willow trees",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Why should the羌笛 (q:iang di) lament the willow trees' does not express a negation or 'no need to' as required; it uses a positive question structure that implies a need to lament, not the required negative meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "when the spring wind does not reach the Jade Gate",
+        "evidence_found": true,
+        "reasoning": "The phrase 'does not reach' explicitly includes the required negation and geographical limitation, matching the original meaning of 'spring wind does not reach the Jade Gate' (玉门关).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why should the羌笛 (qiang di) lament the willow trees, when the spring wind does not reach the Jade Gate?",
+        "evidence_found": true,
+        "reasoning": "The translation captures the causal relationship where the spring wind not reaching the Jade Gate makes lamenting willow trees pointless, aligning with the required causal logic and maintaining the poetic structure.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why should the羌笛 (qiang di) lament the willow trees",
+        "evidence_found": true,
+        "reasoning": "The phrase 'lament the willow trees' implies the traditional association of willows with parting in Chinese culture, and '羌笛' directly preserves the term for the羌 flute as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

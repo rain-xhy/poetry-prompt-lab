@@ -1,0 +1,19 @@
+{
+  "id": "M07_S0_Qwen25_r1",
+  "poem_id": "M07",
+  "trap_type": "拟人意象",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n朱雀桥边野草花，乌衣巷口夕阳斜。\n旧时王谢堂前燕，飞入寻常百姓家。",
+  "prompt_sha256": "5006bd54a1165303dc55069197830101aaac4e4c090c6ddaa82a0ea5fb5fb336",
+  "translation": "Over by the wildflowers by the Red-Crowned Sparrow Bridge,\nIn the U衣巷口, the sun sets with a hint of shade.\nThe swallow that nested in the halls of Wang and Xie now flies into\nCommon homes.",
+  "metadata": {
+    "input_tokens": 70,
+    "output_tokens": 50,
+    "latency_ms": 10915.61484336853,
+    "timestamp": "2026-10-26T20:48:52.513714",
+    "finish_reason": "stop"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M20_S0_Qwen25_r2",
+  "anon_code": "T_8c40b224",
+  "poem_id": "M20",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell by the head of the Yangtze, You dwell at its tail.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts the two locations (head vs tail of the Yangtze) as required by the space and contrast condition.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Day and night I think of you yet cannot see you",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Day and night' does not convey the required daily/every day continuity as 'daily' or 'every day' is needed, and the contradiction between 'think of you' and 'cannot see you' is present but the time frame is insufficiently specific for the required meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Drinking from the Yangtze waters we both share.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Drinking from the Yangtze waters we both share' directly reflects the '共饮长江水' meaning with the required 'common' aspect and the connection through shared water.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell by the head of the Yangtze, You dwell at its tail.",
+        "evidence_found": true,
+        "reasoning": "This line explicitly shows physical separation (head vs tail of Yangtze River) while maintaining emotional connection through shared river waters.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

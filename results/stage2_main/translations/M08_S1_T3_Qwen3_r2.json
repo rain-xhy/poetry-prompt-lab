@@ -1,0 +1,19 @@
+{
+  "id": "M08_S1_T3_Qwen3_r2",
+  "poem_id": "M08",
+  "trap_type": "拟人意象",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n空山不见人，但闻人语响。\n返景入深林，复照青苔上。",
+  "prompt_sha256": "3121e457b0725e1f165752eac06266c5156e6994a789d3c05c5fe3d5d4e5babe",
+  "translation": "In the quiet mountain, no person is seen, but the sound of human speech is heard. The reflected light enters the deep forest, and it shines upon the green moss.\n\n[The poem uses personification of light, which reflects the idea of illumination and clarity in the dark forest. The \"returning light\" suggests the return of daylight after the night, symbolizing hope and renewal.]\n\n[The \"but\" in the second line introduces a contrast, emphasizing the absence of people yet the presence of sound, highlighting the quiet beauty of the scene.]",
+  "metadata": {
+    "input_tokens": 219,
+    "output_tokens": 111,
+    "latency_ms": 11863.346099853516,
+    "timestamp": "2026-10-26T20:50:20.151549",
+    "finish_reason": "stop"
+  }
+}

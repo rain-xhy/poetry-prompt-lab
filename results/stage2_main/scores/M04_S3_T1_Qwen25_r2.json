@@ -1,0 +1,67 @@
+{
+  "translation_id": "M04_S3_T1_Qwen25_r2",
+  "anon_code": "T_9163b120",
+  "poem_id": "M04",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "If it were meant to last forever, Then it wouldn’t hinge on daily encounters. Keep faith, and let love endure, Beyond mere morning and evening.",
+        "evidence_found": true,
+        "reasoning": "The translation does not use a conditional clause (if/as long as) to express 'if two people's emotions are long-lasting' as required; instead, it uses a hypothetical statement about lasting forever without specifying the condition of emotional longevity.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Then it wouldn’t hinge on daily encounters.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Then it wouldn: t hinge on daily encounters' directly addresses the requirement of '不必日日相守' (not needing daily adherence) through a conditional statement that implies negation, fulfilling the need for a negative or questioning tone as required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Keep faith, and let love endure, Beyond mere morning and evening.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Beyond mere morning and evening' conveys the continuous, repeated nature of '朝朝暮暮' while emphasizing enduring commitment beyond daily cycles.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If it were meant to last forever, Then it wouldn’t hinge on daily encounters. Keep faith, and let love endure, Beyond mere morning and evening.",
+        "evidence_found": true,
+        "reasoning": "The translation maintains the conditional structure 'if...then...' and the rhetorical question implied by 'wouldn't hinge on daily encounters' to convey that lasting love doesn't depend on fleeting moments, fulfilling the condition and counter-question logic.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 3.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

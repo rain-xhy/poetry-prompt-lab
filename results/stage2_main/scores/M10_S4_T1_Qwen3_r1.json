@@ -1,0 +1,67 @@
+{
+  "translation_id": "M10_S4_T1_Qwen3_r1",
+  "anon_code": "T_49a0a77e",
+  "poem_id": "M10",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wild fire cannot burn it out",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Wild fire cannot burn it out' directly translates to the meaning of '烧不尽' with a negative verb 'cannot burn' and implies the concept of not being completely destroyed, which matches the requirement of expressing 'burning never ending' with a negative and personification.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "spring wind brings it back again",
+        "evidence_found": true,
+        "reasoning": "The phrase 'spring wind brings it back again' directly addresses the role of spring wind in causing regrowth, fulfilling the requirement that the translation expresses 'again growth' and the action of spring wind.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wild fire cannot burn it out, and spring wind brings it back again.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly shows the relationship between wild fire and grass through the phrase 'Wild fire cannot burn it out', indicating that the fire fails to destroy the grass, while 'spring wind brings it back again' demonstrates the grass's resilience and return, preserving the personification of grass as something that can be 'brought back' by the wind.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wild fire cannot burn it out, and spring wind brings it back again.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys the unyielding resilience of grass through the cycle of destruction and rebirth, matching the required themes of '顽强生命力' and '烧不尽→又生'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

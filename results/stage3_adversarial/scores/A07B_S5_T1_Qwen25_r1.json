@@ -1,0 +1,58 @@
+{
+  "translation_id": "A07B_S5_T1_Qwen25_r1",
+  "anon_code": "T_73637d6f",
+  "poem_id": "A07B",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Do not slip into the river",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Do not slip into the river' directly addresses the prohibition against entering the river, which aligns with the requirement to preserve the meaning of whether the ambiguous version can infer the correct negation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Do not slip into the river",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Do not slip into the river' directly translates the requirement of '版本B的明确否定' as a clear negative command, matching the need for '明确版本应该正确'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Do not slip into the river, For depths unseen lurk below. The river whispers secrets, Its depths a silent, deadly foe.",
+        "evidence_found": false,
+        "reasoning": "The translation conveys the warning about the danger of river depths, emphasizing unseen hazards and the perilous nature of the river's bottom, matching the required meaning of two versions having identical meaning.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

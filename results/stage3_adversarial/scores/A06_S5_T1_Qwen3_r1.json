@@ -1,0 +1,58 @@
+{
+  "translation_id": "A06_S5_T1_Qwen3_r1",
+  "anon_code": "T_b2726496",
+  "poem_id": "A06",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The candle is replaced, and tears fall until the morning light fades.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'candle is replaced' but the original phrase '主客体关系' requires identifying the inverted relationship of 'person weeps for candle', which is not accurately reflected here as the translation describes the candle being replaced rather than the person weeping for the candle.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The candle is replaced",
+        "evidence_found": true,
+        "reasoning": "The phrase '替的方向' translates to 'the direction of replacement' or 'the direction of substitution', but the translation says 'The candle is replaced', which refers to an action rather than a direction.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The poet's emotions are deeply intertwined, yet they seem to contradict themselves.",
+        "evidence_found": true,
+        "reasoning": "The translation describes the poet's emotions as 'deeply intertwined' and contradictory, which is the opposite of the original poem's meaning where the emotions are harmonious and not contradictory.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 1.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

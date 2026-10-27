@@ -1,0 +1,76 @@
+{
+  "translation_id": "D03_S5_T1_Qwen3_r2",
+  "anon_code": "T_cc927e02",
+  "poem_id": "D03",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The deeper the feeling, the plainer the words, The hills wish to keep the guest, but the wind knocks at the door for me.",
+        "evidence_found": true,
+        "reasoning": "The translation does not convey the specific action of the speaker urging a friend to drink one more cup of wine, as required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The deeper the feeling, the plainer the words, The hills wish to keep the guest, but the wind knocks at the door for me.",
+        "evidence_found": true,
+        "reasoning": "The translation does not mention any west direction or Yang Pass, so it fails to meet the required conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The deeper the feeling, the plainer the words, The hills wish to keep the guest, but the wind knocks at the door for me.",
+        "evidence_found": true,
+        "reasoning": "The translation does not convey 'no old friends/acquaintances' but rather describes a scene where the hills want to keep a guest while the wind knocks at the door, which is unrelated to the absence of old friends.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The deeper the feeling, the plainer the words, The hills wish to keep the guest, but the wind knocks at the door for me.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly connect the act of劝酒 (encouraging drinking) with the absence of故人 (old friends) as required by the original phrase's meaning.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 4,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.65,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

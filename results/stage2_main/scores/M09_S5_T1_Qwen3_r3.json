@@ -1,0 +1,67 @@
+{
+  "translation_id": "M09_S5_T1_Qwen3_r3",
+  "anon_code": "T_b1504b39",
+  "poem_id": "M09",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The moon has fallen, the cranes have cried, and frost has covered the sky. On the riverbank, the willows and the fish lights lie in quiet sorrow.",
+        "evidence_found": true,
+        "reasoning": "The translation introduces additional elements (riverbank, willows, fish lights) that are not present in the original Chinese phrase, thereby adding more than three意象 and altering the intended three意象 (moon, cranes, frost) into a different set of意象.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "On the riverbank, the willows and the fish lights lie in quiet sorrow.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'lie in quiet sorrow' implies facing sorrow while sleeping, satisfying both conditions: '面对' (facing) and '愁绪伴随睡眠' (sorrow accompanying sleep).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "On the riverbank, the willows and the fish lights lie in quiet sorrow.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'willows' instead of 'maple trees' and incorrectly refers to 'fish lights' as 'fish lights' (should be 'fishery lights') while also adding 'lie in quiet sorrow' which is not in the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "On the riverbank, the willows and the fish lights lie in quiet sorrow.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'quiet sorrow' directly conveys the required sense of solitude and melancholy, avoiding any joyful connotations.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

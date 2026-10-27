@@ -1,0 +1,67 @@
+{
+  "translation_id": "M04_S2_T1_Qwen25_r1",
+  "anon_code": "T_f41d00c3",
+  "poem_id": "M04",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "If two hearts are true to each other, It doesn't need to be together every moment.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express '长久' (long-lasting) as required; it focuses on 'not needing to be together every moment' which implies temporary separation rather than enduring duration.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "It doesn't need to be together every moment.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'It doesn: t need to be together every moment' directly expresses the negation of constant presence, fulfilling the requirement of 'not needing daily companionship' while maintaining the rhetorical question structure implied by the original's '又岂在朝朝暮暮'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "If two hearts are true to each other, It doesn't need to be together every moment.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the time叠加感 (accumulation of time) required by the phrase '朝朝暮暮', which implies continuous, repeated time periods rather than the absence of constant proximity.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If two hearts are true to each other, It doesn't need to be together every moment.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly expresses the conditional relationship where true mutual love (condition) leads to the conclusion that constant physical presence is unnecessary (conclusion), maintaining the logical structure and emotional paradox of the original phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

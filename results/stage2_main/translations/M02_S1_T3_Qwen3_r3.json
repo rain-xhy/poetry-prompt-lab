@@ -1,0 +1,19 @@
+{
+  "id": "M02_S1_T3_Qwen3_r3",
+  "poem_id": "M02",
+  "trap_type": "情感反差",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n红豆生南国，春来发几枝。\n愿君多采撷，此物最相思。",
+  "prompt_sha256": "7d06d3cd35213089a5f37fc61faff9aeef06dd5b9f8f157cc354801272b8b43f",
+  "translation": "Red beans grow in the southern land, sprouting new branches each spring. May you gather them carefully, for this thing holds the deepest longing.\n\n[The phrase \"red beans\" refers to the fruit of the legume plant, a symbol of love and longing in Chinese poetry. The \"most cherished\" aspect of the poem is the emotional weight of the object, not the fruit itself.]\n\n[The imagery of red beans and the act of gathering them reflects the emotional depth and cultural significance of the poem, emphasizing the longing and care in the relationship.]",
+  "metadata": {
+    "input_tokens": 219,
+    "output_tokens": 111,
+    "latency_ms": 1101.9177436828613,
+    "timestamp": "2026-10-26T20:55:56.894276",
+    "finish_reason": "stop"
+  }
+}

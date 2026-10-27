@@ -1,0 +1,58 @@
+{
+  "translation_id": "A10_S0_Qwen25_r2",
+  "anon_code": "T_27e6594c",
+  "poem_id": "A10",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "We used to share the glow of the west window in candlelight",
+        "evidence_found": true,
+        "reasoning": "The phrase 'used to' explicitly indicates past habitual action, fulfilling the requirement to preserve '曾经' as past tense.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "You inquire about my return, but I have no set date",
+        "evidence_found": true,
+        "reasoning": "This line explicitly states the lack of a return date, indicating the speaker is recalling past events rather than expecting a future one.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "You inquire about my return, but I have no set date",
+        "evidence_found": true,
+        "reasoning": "The original phrase '与原诗对比' requires checking the translation of the Chinese classical poem '夜雨寄北', but the translation provided does not correctly reflect the time sequence where '何当' (when) should be translated as a future tense ('when I will return') rather than a past tense ('you inquire about my return'). The phrase 'You inquire about my return' implies a past action, but the original poem uses '何当' to express a future time frame, so the translation has the wrong tense.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

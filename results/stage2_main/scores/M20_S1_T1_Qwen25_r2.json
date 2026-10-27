@@ -1,0 +1,67 @@
+{
+  "translation_id": "M20_S1_T1_Qwen25_r2",
+  "anon_code": "T_1807e626",
+  "poem_id": "M20",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell in the upper reaches of the Yangtze, You in the lower still stand.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts the speaker's location (upper Yangtze) with the other person's location (lower Yang, with 'still stand' implying a contrast to the speaker's active dwelling).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Day after day I think of you yet cannot see you",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Day after day I think of you yet cannot see you' directly expresses the continuous daily thought and the contradiction between longing and inability to meet, fulfilling both required conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Sharing the waters of the Yangtze we two",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Sharing the waters of the Yangtze we two' directly reflects the '共饮长江水' meaning with 'sharing' indicating the commonality of '共' and 'waters of the Yangtze' corresponding to '长江水', fulfilling both conditions of '共' and the drinking connection.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell in the upper reaches of the Yangtze, You in the lower still stand.",
+        "evidence_found": true,
+        "reasoning": "This line explicitly shows physical separation (upper vs lower reaches of Yangtze) while maintaining a symbolic connection through the shared river system.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

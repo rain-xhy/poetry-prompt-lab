@@ -1,0 +1,19 @@
+{
+  "id": "M10_S0_Qwen25_r2",
+  "poem_id": "M10",
+  "trap_type": "拟人意象",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n野火烧不尽，春风吹又生。",
+  "prompt_sha256": "f44e38d26d08a64cc265b63fe26a42a03ff958da679cd43551fcc9fd81400688",
+  "translation": "This Chinese classical poem can be translated into English as:\n\n\"No fire can consume it entirely,\nSpring breeze makes it grow anew.\"\n\nThis translation captures the essence of the original poem, which describes the resilience and regrowth of grass after a wild fire.",
+  "metadata": {
+    "input_tokens": 50,
+    "output_tokens": 50,
+    "latency_ms": 10622.135400772095,
+    "timestamp": "2026-10-26T20:54:25.459297",
+    "finish_reason": "stop"
+  }
+}

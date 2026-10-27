@@ -1,0 +1,58 @@
+{
+  "translation_id": "A05_S5_T1_Qwen3_r2",
+  "anon_code": "T_d6597279",
+  "poem_id": "A05",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The pain of parting must be felt",
+        "evidence_found": true,
+        "reasoning": "The phrase 'must be felt' directly corresponds to '不得不' meaning 'must/have to' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The absence of sight and the absence of thought—both are felt.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'the absence of sight and the absence of thought' directly corresponds to '不见不思' and the conditional relationship '不见→不思' is preserved through the structure 'both are felt', indicating that the absence of sight leads to the absence of thought.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The absence of sight and the absence of thought—both are felt.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly distinguishes between double negation (absence of sight and absence of thought) and conditional negation (both are felt), meeting the requirement to preserve the distinction between double negation and conditional negation while following the structure of first sentence mandatory and second sentence conditional.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.6,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

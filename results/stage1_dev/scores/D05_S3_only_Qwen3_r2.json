@@ -1,0 +1,76 @@
+{
+  "translation_id": "D05_S3_only_Qwen3_r2",
+  "anon_code": "T_1c0ca031",
+  "poem_id": "D05",
+  "strategy": "S3_only",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of death and life, two miles apart, not thinking, yet remembering. A thousand miles of lonely grave, nowhere to express the sorrowful feeling.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly mention 'ten years' as a continuous period but uses 'Ten years of death and life' which implies a duration, yet it fails to convey the 'separation between living and dead' and 'mystical distance' as required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "not thinking, yet remembering",
+        "evidence_found": true,
+        "reasoning": "The phrase 'not thinking, yet remembering' implies that not thinking leads to remembering, which contradicts the requirement that it should not become 'because not thinking so forgot'. The original phrase '不思量，自难忘' means 'even if not deliberately thinking, it is naturally unforgettable', so the translation incorrectly suggests that not thinking causes remembering rather than the intended meaning of not thinking but still being unforgettable.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A thousand miles of lonely grave",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A thousand miles of lonely grave' directly includes 'lonely' (孤独) and 'grave' (坟墓), and 'thousand miles' implies a vast distance (千里), meeting both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "nowhere to express the sorrowful feeling",
+        "evidence_found": true,
+        "reasoning": "The phrase 'nowhere to express the: the sorrowful feeling' directly translates the requirement of '没有地方、没有人可诉说凄凉' by indicating the absence of a place or person to convey sorrow.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 1.7,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "translation_id": "D03_S1_T1_Qwen3_r1",
+  "anon_code": "T_16a8a149",
+  "poem_id": "D03",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Give me another drink, lest I part from you once more, Beyond the Yangguan pass, where friends are no longer found.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly state that the speaker is urging the friend to drink another cup, which is required by the condition that the subject is the speaker and the object is a friend.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Beyond the Yanggu: pass",
+        "evidence_found": false,
+        "reasoning": "The phrase 'Beyond the Yangguan pass' in the translation indicates moving west past Yangguan, fulfilling the requirement to preserve the west direction and Yangguan.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Beyond the Yanggu: where friends are no longer found",
+        "evidence_found": false,
+        "reasoning": "The phrase 'friends are no longer found' implies a complete absence of friends, which expands the scope beyond 'no old friends' to 'no one at all'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Give me another drink, lest I part from you once more, Beyond the Yangguan pass, where friends are no longer found.",
+        "evidence_found": true,
+        "reasoning": "The translation connects the act of drinking with the absence of old friends by using 'lest I part from you once more' to indicate the consequence of not drinking, and 'where friends are no longer found' directly addresses the absence of old friends beyond the Yangguan pass, fulfilling the requirement of showing the association between the two parts.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "valid": false,
+    "raw": "{\n  \"adequacy\": 5,\n  \"imagery\": 5,\n  \"emotion\": 5,\n  \"fluency\": 5,\n  \"po\": 5\n}"
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

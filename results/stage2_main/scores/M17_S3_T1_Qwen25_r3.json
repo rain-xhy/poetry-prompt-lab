@@ -1,0 +1,67 @@
+{
+  "translation_id": "M17_S3_T1_Qwen25_r3",
+  "anon_code": "T_858592af",
+  "poem_id": "M17",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling could be cherished as a memory",
+        "evidence_found": true,
+        "reasoning": "The phrase 'could be cherished as a memory' does not express 'become a memory' in the future tense as required by the original phrase's meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "But it was already a state of profound sadness then.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it was already a state of profound sadness then' captures the past completed state with 'already' indicating completion, fulfilling the requirement for past tense and 'already' to express completion.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling could be cherished as a memory, But it was already a state of profound sadness then. Words failed as tears flowed, choked by emotion. Now, as flowers fade, I mourn the fleeting spring.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly refers to 'this feeling' and conveys deep emotional states, sadness, and the passage of time, fulfilling the requirement for clear reference to 'this emotion' and emotional vocabulary.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling could be cherished as a memory, But it was already a state of profound sadness then. Words failed as tears flowed, choked by emotion. Now, as flowers fade, I mourn the fleeting spring.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly contrasts future memory ('could be cherished as a memory') with past sadness ('was already a state of profound sadness then') and shows the temporal complexity through the shift from past to present ('Now, as flowers fade').",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

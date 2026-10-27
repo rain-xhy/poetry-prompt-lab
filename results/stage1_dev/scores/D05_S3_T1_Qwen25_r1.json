@@ -1,0 +1,76 @@
+{
+  "translation_id": "D05_S3_T1_Qwen25_r1",
+  "anon_code": "T_59c22da6",
+  "poem_id": "D05",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Ten years of生死, both are vague and distant, never thought of, yet they remain etched in my heart.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the meaning of 'ten years' and expresses the separation and vagueness between the living and dead as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "never thought of, yet they remain etched in my heart",
+        "evidence_found": true,
+        "reasoning": "The phrase 'never thought of, yet they remain etched in my heart' directly corresponds to the meaning of '即使不刻意去想，也自然难忘' by expressing that even without deliberate thought, the memory remains strong.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A solitary grave lies a thousand miles away",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A solitary grave lies a thousand miles away' contains 'solitary' (meaning lonely) and 'thousand miles away' (indicating a great distance), fulfilling both required conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "where one cannot find a place to speak of the sorrow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'where one cannot find a place to speak of the sorrow' directly translates the requirement of '没有地方、没有人可诉说凄凉' by expressing the inability to find a place or person to express sorrow.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

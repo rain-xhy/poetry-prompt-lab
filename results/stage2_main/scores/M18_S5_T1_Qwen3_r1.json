@@ -1,0 +1,67 @@
+{
+  "translation_id": "M18_S5_T1_Qwen3_r1",
+  "anon_code": "T_96bba6b5",
+  "poem_id": "M18",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The flowers fall, and I cannot prevent it; the returning swallows seem familiar.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'the flowers fall' and 'cannot prevent it', which covers the '花落' and '无奈/helpless' aspects, but it adds 'the returning swallows seem familiar' which is not part of the original phrase and changes the meaning to include a new element.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the returning swallows seem familiar",
+        "evidence_found": true,
+        "reasoning": "The phrase 'the returning swallows seem familiar' directly translates the required meaning of '似曾相识燕归来' by expressing that the swallows (燕子) returning (归来) seem familiar (似曾相识).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The flowers fall, and I cannot prevent it; the returning swallows seem familiar.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the contrast between the flowers falling (departing) and swallows returning (coming back), showing the opposite directions of movement.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The flowers fall, and I cannot prevent it; the returning swallows seem familiar.",
+        "evidence_found": true,
+        "reasoning": "The phrase conveys the passage of time through the falling flowers and the familiar yet returning swallows, reflecting the sentiment of time passing and unchanged surroundings with people who have changed.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

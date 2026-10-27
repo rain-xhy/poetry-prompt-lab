@@ -1,0 +1,67 @@
+{
+  "translation_id": "M17_S4_T1_Qwen3_r2",
+  "anon_code": "T_e64561b5",
+  "poem_id": "M17",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling can wait to become a memory, but already it is futile.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'can wait to become a memory' which implies a future state, but the original phrase '可待成追忆' requires a rhetorical question structure with 'must/can/could' and a future tense for becoming a memory, which is not fully captured as it lacks the rhetorical question aspect and the phrase is phrased as a statement rather than a question.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling can wait to become a memory, but already it is futile.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'already it is futile' does not convey the completed state of 'already' with past perfect tense as required by '当时就已经惘然' (past perfect with 'already').",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling can wait to become a memory, but already it is futile.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'this feeling' does not clearly refer to 'this emotion' as required by the original phrase '此情', which needs to preserve the specific emotional context.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling can wait to become a memory, but already it is futile.",
+        "evidence_found": true,
+        "reasoning": "The phrase captures the contrast between future memory (become a memory) and past state (already it is futile), showing the complex tense interplay as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 1.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

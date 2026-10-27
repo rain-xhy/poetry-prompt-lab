@@ -1,0 +1,58 @@
+{
+  "translation_id": "A01_S0_Qwen25_r3",
+  "anon_code": "T_a9911b74",
+  "poem_id": "A01",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Take heed lest you slip into the river.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Take heed' implies caution and the conditional 'lest you slip' suggests avoiding a negative outcome, thus preserving the implicit negative meaning of '小心' as 'do not' in the context of preventing a slip into the river.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Take heed lest you slip into the river.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Take heed' directly conveys a warning tone as required, and the entire sentence warns against slipping into the river, fulfilling the need to preserve a cautionary or reminder tone.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "slip into the river",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'slip' which implies a sliding motion and 'into the river' directly matches the required phrase structure.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

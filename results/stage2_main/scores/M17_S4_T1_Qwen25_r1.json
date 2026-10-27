@@ -1,0 +1,67 @@
+{
+  "translation_id": "M17_S4_T1_Qwen25_r1",
+  "anon_code": "T_f83f556c",
+  "poem_id": "M17",
+  "strategy": "S4_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling can indeed be cherished later, but alas, it was already sorrowful at the time.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'can' for the conditional but does not express 'become a memory' in the future tense as required; it describes a past sorrow, not a future memory.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling can indeed be cherished later, but alas, it was already sorrowful at the time.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'was already sorrowful' does not convey the completed state of 'already' as required by the original Chinese phrase '当时就已经惘然' which implies a past action that has been completed with a sense of finality.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling can indeed be cherished later, but alas, it was already sorrowful at the time.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly preserve the specific reference to 'this feeling' as a distinct emotional state, but rather generalizes it into 'this feeling' without maintaining the precise emotional context required by the original phrase '此情' which refers to a specific emotional state.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling can indeed be cherished later, but alas, it was already sorrowful at the time.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly contrasts future ('later') and past ('at the time') tenses, showing the required temporal complexity and the '将来回忆vs当时已惘然' contrast.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

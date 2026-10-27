@@ -1,0 +1,67 @@
+{
+  "translation_id": "M10_S1_T3_Qwen3_r2",
+  "anon_code": "T_5b9dc1bb",
+  "poem_id": "M10",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wildfire cannot extinguish it, spring wind revives it.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'cannot extinguish' to convey the negative meaning of 'not being able to burn out' and 'revives' to express the cyclical return, matching the requirement for '烧不完（否定+拟人）'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "spring wind revives it",
+        "evidence_found": true,
+        "reasoning": "The phrase 'spring wind revives it' directly addresses the role of spring wind in causing regrowth, fulfilling the requirement for 'spring wind's role in the regrowth process'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wildfire cannot extinguish it, spring wind revives it.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states that wildfire does not destroy the grass (preserving the 'fire burns grass' relationship) and spring wind brings it back (maintaining personification by implying the grass has life and can be revived).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wildfire cannot extinguish it, spring wind revives it.",
+        "evidence_found": true,
+        "reasoning": "The translation directly conveys the 'burning and regrowth' cycle with 'wildfire' representing destruction and 'spring wind' symbolizing renewal, matching the required themes of unyielding vitality and cyclical rebirth.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

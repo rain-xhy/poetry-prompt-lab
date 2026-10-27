@@ -1,0 +1,76 @@
+{
+  "translation_id": "D03_S5_T3_Qwen25_r1",
+  "anon_code": "T_e1c7c481",
+  "poem_id": "D03",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The more wine I urge you to drink",
+        "evidence_found": true,
+        "reasoning": "The phrase directly expresses the speaker urging the friend to drink one more cup of wine, fulfilling the requirement that the subject is the speaker and the object is a friend, with the action of drinking one more cup.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Westward out of Yangguan",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Westward out of Yangguan' directly matches the required meaning of '向西出了阳关' while preserving the west direction and Yangguan.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "there are no old friends",
+        "evidence_found": true,
+        "reasoning": "The phrase 'there are no old friends' directly matches the required meaning of 'no old friends/acquaintances' without expanding the scope to 'no one at all'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The more wine I urge you to drink, Westward out of Yangguan there are no old friends.",
+        "evidence_found": true,
+        "reasoning": "The English translation explicitly links the urging to drink with the absence of old friends by stating the sequence of actions and their consequences, fulfilling the requirement that readers can see the connection between the two parts.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 4,
+    "valid": true
+  }
+}

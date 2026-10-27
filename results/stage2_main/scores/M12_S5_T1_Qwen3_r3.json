@@ -1,0 +1,67 @@
+{
+  "translation_id": "M12_S5_T1_Qwen3_r3",
+  "anon_code": "T_df46cca3",
+  "poem_id": "M12",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see beyond a thousand miles",
+        "evidence_found": true,
+        "reasoning": "The phrase 'To see beyond a thousand miles' uses 'to see' (indicating purpose) and 'a thousand miles' (the required distance), fulfilling both pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see beyond a thousand miles, one must climb higher.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'one must climb higher' directly expresses the requirement to 'climb higher' (再上一层楼) as a necessary means to achieve the goal of seeing beyond a thousand miles, fulfilling the condition of needing to go up one more level.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see beyond a thousand miles, one must climb higher.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the purpose (to see beyond a thousand miles) and the means (climb higher), maintaining the logical relationship between the two.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "To see beyond a thousand miles, one must climb higher.",
+        "evidence_found": true,
+        "reasoning": "The original phrase describes two distinct natural scenes: the sun setting behind mountains and the Yellow River flowing into the sea. The provided translation adds an unrelated phrase about climbing higher to see further, which does not match the original's two-landscape description.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

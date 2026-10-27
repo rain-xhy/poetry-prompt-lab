@@ -1,0 +1,67 @@
+{
+  "translation_id": "M15_S5_T3_Qwen3_r1",
+  "anon_code": "T_5cec4927",
+  "poem_id": "M15",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Rang di how need you lament the willow?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Rang di how need you lament the will: ' does not express a negation or question form as required; it uses a positive verb 'lament' without negation or question structure.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The spring wind cannot reach the western gate.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the spring wind's inability to reach the western gate, fulfilling the requirement of a negative verb and geographical limitation.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The spring wind cannot reach the western gate.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The spring wind cannot reach the western gate' directly reflects the causal relationship where the spring wind not reaching (cause) leads to the inability to lament willows (effect), aligning with the required causal logic and maintaining the original's context.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Rang di how need you lament the willow?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Rang di' does not preserve '羌笛' (Qiang flute) as required, and the translation does not explicitly or implicitly convey the '离别' (parting) meaning of '折杨柳' (cutting willows).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

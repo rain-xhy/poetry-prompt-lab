@@ -1,0 +1,67 @@
+{
+  "translation_id": "M20_S1_T1_Qwen3_r2",
+  "anon_code": "T_7c11d66e",
+  "poem_id": "M20",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell at the head of the river, you dwell at its tail.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts the two positions (head vs tail of the river) as required by the space parallelism and opposition.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Each day I think of you, but I cannot see you",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Each day I think of you, but I cannot see you' directly expresses the continuous daily thought and the contradiction between longing and inability to meet, fulfilling both required conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "sharing the same stream, yet never meeting",
+        "evidence_found": true,
+        "reasoning": "The phrase 'sharing the same stream' directly reflects the '共饮一江水' (sharing one river's water) concept, and 'never meeting' corresponds to '虽不见面' (though not meeting face to face), fulfilling both conditions of '共' (commonality) and the drinking connection.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell at the head of the river, you dwell at its tail. Each day I think of you, but I cannot see you, sharing the same stream, yet never meeting.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly shows physical separation (river head vs tail) and emotional connection (thinking of someone, sharing the same stream) while creating tension through the contrast of being physically close yet unable to meet.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M19_S5_T2_Qwen3_r3",
+  "anon_code": "T_22be036c",
+  "poem_id": "M19",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In the palace of the King's brother, I often saw, And heard of him before, at the hall of崔九.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'often saw' uses present perfect tense which does not convey past frequency as required, and 'heard of him before' does not indicate multiple past instances of hearing.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "we meet again",
+        "evidence_found": true,
+        "reasoning": "The phrase 'we meet again' directly translates to '又逢' meaning a current re-encounter, fulfilling the requirement for present tense and 'again' as the second meeting.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In the palace of the King's brother, I often saw, And heard of him before, at the hall of崔九. It is a splendid landscape in the south, And yet, in the spring blossoms' time, we meet again.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly convey a time contrast between past and present, nor does it hint at a change in circumstances as required by the original phrase '今昔对比' which should preserve '昔日繁华vs今日飘零'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "in the spring blossoms' time",
+        "evidence_found": true,
+        "reasoning": "The phrase 'in the spring blossoms' time' directly translates the '落花时节' (fallen flowers season) by using 'spring blossoms' to imply the fleeting beauty of flowers, thus preserving the symbolic meaning of transience and beauty in the context of the poem.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

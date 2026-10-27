@@ -1,0 +1,67 @@
+{
+  "translation_id": "M16_S0_Qwen25_r3",
+  "anon_code": "T_b648a1e3",
+  "poem_id": "M16",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Cockcrow heralds departure from the thatched inn under the moon",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Cockcrow heralds departure from the thatched inn under the moon' does not accurately convey the meaning of '鸡声茅店月' as it implies the cock's crowing signals leaving the thatched inn while the moon is present, whereas the original phrase suggests the moon is still visible on the thatched inn at the time of cock crowing, which is a specific moment of observation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Footprints on the boardwalk are kissed by frost.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Footprints on the boardwalk are kissed by frost' does not match the required meaning of '人的足迹在板桥的霜上 (省略)' which should be translated as 'footprints on the wooden bridge in the frost' without the verb 'kissed' and with 'wooden bridge' instead of 'boardwalk'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Recalling the dream I had in Duf:eng",
+        "evidence_found": false,
+        "reasoning": "The phrase 'Recalling the dream I had in Dufeng' directly expresses the meaning of 'therefore thinking of the dream in Dufeng' as a memory of a dream from the past, fulfilling the requirement of expressing 'recalling' and 'dream' while distinguishing it from reality.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Geese and ducks fill the circular pond.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'circular pond' directly translates to 'curved/winding pond' as required, and 'geese and ducks fill' matches the '凫雁满布' imagery.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

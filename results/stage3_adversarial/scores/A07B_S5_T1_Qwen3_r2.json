@@ -1,0 +1,58 @@
+{
+  "translation_id": "A07B_S5_T1_Qwen3_r2",
+  "anon_code": "T_ebfc0f7e",
+  "poem_id": "A07B",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The wind knocks at the door for me",
+        "evidence_found": true,
+        "reasoning": "The translation does not address whether the 'ambiguous version' can be used to infer the correct negation, as it only describes positive imagery without negation or ambiguity resolution.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The wind knocks at the door for me The hills wish to keep the guest The spring waits for the flower to bloom The heart holds back the tears",
+        "evidence_found": true,
+        "reasoning": "The translation captures the meaning of '明确版本应该正确' by expressing that the version (B) is correctly negated, as the repeated lines indicate a consistent negative implication without direct affirmation.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The wind knocks at the door for me\nThe hills wish to keep the guest\nThe spring waits for the flower to bloom\nThe heart holds back the tears",
+        "evidence_found": true,
+        "reasoning": "The translation captures the meaning of the original phrase by expressing the same concepts of natural elements waiting or holding back, which aligns with the requirement that both versions should have the same meaning.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

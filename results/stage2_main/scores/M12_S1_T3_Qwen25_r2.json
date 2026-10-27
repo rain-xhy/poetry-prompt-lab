@@ -1,0 +1,62 @@
+{
+  "translation_id": "M12_S1_T3_Qwen25_r2",
+  "anon_code": "T_be67c29d",
+  "poem_id": "M12",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see a thousand miles further",
+        "evidence_found": true,
+        "reasoning": "The phrase 'To see a thousand miles further' uses 'to see' (a verb indicating purpose) and specifies 'a thousand miles' (the required distance), meeting both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "You must climb one more story",
+        "evidence_found": true,
+        "reasoning": "The phrase 'You must climb one more story' directly expresses the requirement to 'climb one more level' as a means to achieve the goal of seeing a thousand miles further, fulfilling the purpose-meaning condition.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see a thousand miles further, You must climb one more story.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the purpose (to see a thousand miles further) and the means (climb one more story), maintaining the logical relationship between the two.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The sun sets behind the mountains, And the Yellow River flows into the sea.",
+        "evidence_found": true,
+        "reasoning": "The translation preserves both the mountain sunset and river-to-sea imagery while conveying the vast scale through the natural elements.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\n  \"original\": \"白日依山尽，黄河入海流。欲穷千里目，更上一层楼。\",\n  \"reference_notes\": {\n    \"欲穷千里目\": \"想要看尽千里（目的、愿望）。要点：目的、愿望的语气。\",\n    \"更上一层楼\": \"需要再上一层楼（条件、手段）。要点：手段、条件的关系。\",\n    \"欲...更\": \"目的-手段的逻辑关系。要点：要达到目的，需要采取手段。\",\n    \"白日依山尽，黄河入海流\": \"壮阔景象的描写。要点：日落和黄河入海的壮阔。\"\n  },\n  \"translation\": \"The sun sets behind the mountains,\\nAnd the Yellow River flows into the sea.\\nTo see a thousand miles further,\\nYou must climb one more story.\"\n}"
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

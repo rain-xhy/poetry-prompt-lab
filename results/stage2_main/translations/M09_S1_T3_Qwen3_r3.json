@@ -1,0 +1,19 @@
+{
+  "id": "M09_S1_T3_Qwen3_r3",
+  "poem_id": "M09",
+  "trap_type": "拟人意象",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n月落乌啼霜满天，江枫渔火对愁眠。",
+  "prompt_sha256": "88a7945f4ec38bbc29e7d3b74b082ff3aef739fe9bbc6b6cb4dec30ced2e3249",
+  "translation": "Moon falls, crickets cry, frost covers the sky—  \nJiang river's willow trees light up with fish fires,  \nas the traveler sleeps in sorrow.\n\n[The \"moon\" and \"crickets\" suggest the quiet, melancholic atmosphere of a night scene. \"Frost covering the sky\" reflects the cold, desolate mood.]  \n\n[The \"fish fires\" symbolize the loneliness of the traveler, reflecting the emotional state of the poem.]",
+  "metadata": {
+    "input_tokens": 212,
+    "output_tokens": 95,
+    "latency_ms": 1141.6475772857666,
+    "timestamp": "2026-10-26T19:57:57.107340",
+    "finish_reason": "stop"
+  }
+}

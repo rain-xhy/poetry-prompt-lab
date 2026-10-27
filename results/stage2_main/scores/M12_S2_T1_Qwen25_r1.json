@@ -1,0 +1,67 @@
+{
+  "translation_id": "M12_S2_T1_Qwen25_r1",
+  "anon_code": "T_2073bfbf",
+  "poem_id": "M12",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see a thousand miles further",
+        "evidence_found": true,
+        "reasoning": "The phrase 'To see a thousand miles further' uses 'to see' (a verb indicating purpose) and specifies 'a thousand miles' (the required distance), fulfilling both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "One must climb to a higher floor.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'One must climb to a higher floor' directly expresses the requirement to 'climb to a higher floor' as a means to see further, fulfilling the purpose and condition specified.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see a thousand miles further, One must climb to a higher floor.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the purpose (to see a thousand miles further) and the means (climb to a higher floor), maintaining the logical relationship between the two.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "And黄河drains to the sea",
+        "evidence_found": true,
+        "reasoning": "The translation incorrectly uses '黄河' (Yellow River) as a proper noun without translation, which violates the requirement to preserve the壮阔景象的描写 (vast landscape description) by not translating the Chinese term properly.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

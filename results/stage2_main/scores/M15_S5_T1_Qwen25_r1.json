@@ -1,0 +1,67 @@
+{
+  "translation_id": "M15_S5_T1_Qwen25_r1",
+  "anon_code": "T_a186ed79",
+  "poem_id": "M15",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why should one lament the willows' frozen branches",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Why should one lament' forms a rhetorical question expressing that there is no need to lament, matching the required meaning of '不必/no need to' as a negation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "For spring’s gentle breath never reaches Qilian Pass.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'never reaches Q:ilian Pass' explicitly states that spring's gentle breath (spring wind) cannot reach the location, fulfilling the requirement of '否定+地理限制' with a clear geographical reference.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "For spring’s gentle breath never reaches Qilian Pass.",
+        "evidence_found": true,
+        "reasoning": "The phrase directly states that spring's influence does not reach the location, implying the cause (spring not arriving) leads to the effect (no need to lament), preserving the causal logic and thematic resonance with the original.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Why should one lament the willows' frozen branches",
+        "evidence_found": true,
+        "reasoning": "The phrase 'willows' frozen branches' does not explicitly or implicitly convey the '折杨柳' (cut willows) context required for the '离别' (parting) meaning, as the original refers to the act of cutting willows for a farewell ritual, not just lamenting frozen branches.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

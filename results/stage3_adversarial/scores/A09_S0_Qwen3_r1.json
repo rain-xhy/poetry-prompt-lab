@@ -1,0 +1,58 @@
+{
+  "translation_id": "A09_S0_Qwen3_r1",
+  "anon_code": "T_fa0ddeb4",
+  "poem_id": "A09",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Only because the Dragon City General was stationed there",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Only because' directly translates the causal relationship indicated by '只因' in the original Chinese, fulfilling the requirement to preserve the causal meaning rather than conditional.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When the moon shone over Qin, and the Great Wall stood at Han, A thousand miles of journey, the soldiers still had not returned. Only because the Dragon City General was stationed there, The northern horses could not cross the Yin Mountains.",
+        "evidence_found": true,
+        "reasoning": "The translation describes a historical fact about the Great Wall and military presence, using past tense and objective language to state what happened, not making assumptions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Only because the Dragon City General was stationed there",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Only because' in the translation changes the logical relationship from 'but as long as' in the original, indicating that the translation has altered the logic as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 4,
+    "valid": true
+  }
+}

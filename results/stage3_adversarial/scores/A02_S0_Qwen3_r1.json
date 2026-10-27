@@ -1,0 +1,58 @@
+{
+  "translation_id": "A02_S0_Qwen3_r1",
+  "anon_code": "T_1991664c",
+  "poem_id": "A02",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The flowers know how many will fall",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The flowers know how many will fall' directly indicates that the subject of 'know' is flowers, fulfilling the requirement that the subject changed from 'I' to 'flowers' in the translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The flowers know how many will fall",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The flowers know how many will fall' directly expresses that flowers have cognitive ability (know) as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Spring sleep does not know the dawn, All around the birds sing bright. The rain fell last night, and the flowers know how many will fall.",
+        "evidence_found": true,
+        "reasoning": "The translation does not match the original poem's meaning as it misrepresents the structure and content of the classical Chinese poem 'Spring Dawn' (春晓). The original poem describes the awakening from sleep to find birds singing and the rain that has fallen, but the translation incorrectly states that the flowers 'know how many will fall', which is not present in the original poem.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 1,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 1.95,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

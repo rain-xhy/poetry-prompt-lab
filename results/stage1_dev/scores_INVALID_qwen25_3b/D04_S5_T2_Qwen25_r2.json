@@ -1,0 +1,57 @@
+{
+  "translation_id": "D04_S5_T2_Qwen25_r2",
+  "anon_code": "T_4fdc58c7",
+  "poem_id": "D04",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A thousand feet of桃花Tang潭Water's depth",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the original phrase '桃花潭水深千尺' and instead uses 'A thousand feet of桃花Tang潭Water's depth', which is not equivalent to the original meaning and does not meet the requirement of preserving '桃花潭' (Peach Blossom Pool).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Falls far short of",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'Falls far short of' which is equivalent to '不及' but does not preserve the exact phrase '比不上' as required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Wáng Lún's deep feeling",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'Wáng Lún's deep feeling' instead of '汪伦为我送行' which is not consistent with the pass conditions",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Falls far short of Wang Lun's deep feeling",
+        "evidence_found": false,
+        "reasoning": "The translation uses 'Wang Lun's deep feeling' which is not present in the original phrase and does not accurately convey the intended metaphor of comparing depth to the depth of feeling.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\"adequacy\":1,\"imagery\":0,\"emotion\":1,\"fluency\":2,\"poetic_quality\":0}"
+  }
+}

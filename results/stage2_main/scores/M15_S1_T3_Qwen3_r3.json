@@ -1,0 +1,67 @@
+{
+  "translation_id": "M15_S1_T3_Qwen3_r3",
+  "anon_code": "T_21c6ee41",
+  "poem_id": "M15",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why should the羌笛 (qiang di) lament the willow trees?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Why should...' forms a rhetorical question expressing that there is no need to lament, matching the required meaning of '不必/no need to' as a negation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The spring wind does not reach the玉门关 (yù mén guān).",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the spring wind cannot reach the Jade Gate Pass, fulfilling the requirement of a clear negative statement about the geographical limitation.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The spring wind does not reach the玉门关",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The spring wind does not reach the玉门关' directly reflects the causal relationship where the spring wind not reaching the Jade Gate Pass (玉门关) leads to the inability to lament, preserving the original's causal logic and contextual reference.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why should the羌笛 (qiang di) lament the willow trees?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'lament the willow trees' implies the traditional association of willows with parting and farewell, and '羌笛' directly preserves the original term for the flute, meeting both conditions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

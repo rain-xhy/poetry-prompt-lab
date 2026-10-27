@@ -1,0 +1,62 @@
+{
+  "translation_id": "D05_S5_T1_Qwen25_r1",
+  "anon_code": "T_5b5d8ff7",
+  "poem_id": "D05",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of生死, both fade from sight, unthought of, yet remembered.",
+        "evidence_found": true,
+        "reasoning": "The phrase '十年生死' is not preserved, and the translation does not express the concept of '生者与逝者两相隔绝、彼此渺茫'",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of生死, both fade from sight, unthought of, yet remembered.",
+        "evidence_found": true,
+        "reasoning": "The translation contains the phrase 'Ten years of生死, both fade from sight', which is not present in the original Chinese phrase and changes the meaning. The original phrase does not mention '生死' (生死 means 'life and death') and does not imply that the person has forgotten due to not thinking about them.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "unthought of, yet remembered.",
+        "evidence_found": true,
+        "reasoning": "The translation contains 'unthought of, yet remembered.' which does not match the '相隔千里的孤独坟墓' (a thousand miles away, her solitary grave, no place to speak of sorrow).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "no place to speak of sorrow.",
+        "evidence_found": true,
+        "reasoning": "A thousand miles away, her solitary grave, no place to speak of sorrow.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.4,
+    "valid": true
+  }
+}

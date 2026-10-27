@@ -1,0 +1,67 @@
+{
+  "translation_id": "M15_S1_T3_Qwen25_r2",
+  "anon_code": "T_da442b79",
+  "poem_id": "M15",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The Yellow River stretches far up to the clouds, a solitary city stands amidst towering mountains.",
+        "evidence_found": true,
+        "reasoning": "The English translation describes the Yellow River and a city's isolation but does not include the phrase '何须怨' (which means 'need not complain') or any equivalent expression indicating negation or a question about complaining.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The Yellow River climbs up to the blue sky, a lone city stands amidst countless mountains.",
+        "evidence_found": true,
+        "reasoning": "The translation does not mention the spring breeze or its inability to reach the Jade Gate Pass, so it fails to preserve the required meaning of 'spring breeze does not reach the Jade as a result of geographical barriers'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The Yellow River stretches far up to the clouds, a solitary city stands amidst towering mountains.",
+        "evidence_found": true,
+        "reasoning": "The translation focuses on the Yellow River and a city surrounded by mountains but does not mention the connection between the absence of spring breeze and the need to lament, which is the core causal relationship required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The Yellow River stretches far up to the clouds, a solitary city stands amidst towering mountains.",
+        "evidence_found": true,
+        "reasoning": "The translation does not mention the羌笛 (qiāng dí) or the concept of '折杨柳' (a traditional Chinese song associated with parting), so it fails to preserve the required elements.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 3,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 3.95,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M18_S1_T1_Qwen3_r3",
+  "anon_code": "T_337c66bc",
+  "poem_id": "M18",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Cannot help but lament as the blossoms fade away",
+        "evidence_found": true,
+        "reasoning": "The phrase does not explicitly convey the 'watching' aspect of '无力挽留地看着花落' and the translation focuses on 'lamenting' rather than the helpless observation of flowers falling.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the once-forgotten swallow returns—its presence a reminder of a past familiarity",
+        "evidence_found": true,
+        "reasoning": "The phrase 'the once-forgotten swallow returns' captures the '燕子归来' action, and 'a reminder of a past familiarity' directly translates the '似曾相识' meaning of seeming familiar from past experience.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "blossoms fade away, yet the once-forgotten swallow returns",
+        "evidence_found": true,
+        "reasoning": "The phrase 'blossoms fade away' represents the departure of flowers (花落去) and 'once-forgotten swallow returns' represents the return of swallows (燕归来), showing the contrast in direction between departure and return.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Cannot help but lament as the blossoms fade away, yet the once-forgotten swallow returns—its presence a reminder of a past familiarity, though not quite the same.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys time passing (blossoms fading) and the feeling of things changing (swallow returning but not quite the same), capturing both the passage of time and the sense of change in people and objects.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

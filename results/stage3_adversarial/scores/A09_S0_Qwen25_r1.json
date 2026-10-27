@@ -1,0 +1,58 @@
+{
+  "translation_id": "A09_S0_Qwen25_r1",
+  "anon_code": "T_821d9d6c",
+  "poem_id": "A09",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Just because General Yulong still guards the northern frontier",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Just because' directly translates the causal relationship indicated by '只因' in the original Chinese, fulfilling the requirement to express causality rather than condition.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A万里-long march sees no return of men.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'sees no return of men' clearly states a factual observation rather than an assumption, indicating that the soldiers do not return, which is a confirmed reality.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Just because General Yulong still guards the northern frontier",
+        "evidence_found": true,
+        "reasoning": "The phrase 'just because' implies a causal relationship where the cause is the general guarding the frontier, but the original '但使' indicates a conditional relationship where the condition is the general guarding the frontier, leading to the consequence that barbarian horses cannot cross. The translation changes the logical relationship from conditional to causal, which violates the requirement to preserve the logic of 'but make' becoming 'only because'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M18_S0_Qwen25_r1",
+  "anon_code": "T_31e40f3a",
+  "poem_id": "M18",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Unavoidable is the falling of the flower",
+        "evidence_found": true,
+        "reasoning": "The phrase does not express 'helpless' or 'unable to prevent' as required; it states the flower's fall is unavoidable, which implies it's inevitable rather than the speaker's helplessness.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "the returning swallow seems like a former acquaintance",
+        "evidence_found": true,
+        "reasoning": "The phrase 'seems like a former acquaintance' does not accurately convey '似曾相识' which means 'seem familiar' or 'familiar from before', and the translation uses 'swallow' instead of 'swallow' (燕子) which is a different bird species.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Unavoidable is the falling of the flower, Yet the returning swallow seems like a: former acquaintance",
+        "evidence_found": false,
+        "reasoning": "The translation clearly contrasts the inevitable departure of flowers with the return of swallows, capturing the directional contrast between 'falling' (departure) and 'returning' (arrival).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Unavoidable is the falling of the flower, Yet the returning swallow seems like a: former acquaintance.",
+        "evidence_found": false,
+        "reasoning": "The translation conveys time passing through the falling flower (a symbol of transience) and the swallow's return evoking past familiarity, reflecting both time's passage and the feeling of people and things changing over time.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

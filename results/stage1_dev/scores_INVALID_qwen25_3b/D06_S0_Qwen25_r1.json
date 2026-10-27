@@ -1,0 +1,62 @@
+{
+  "translation_id": "D06_S0_Qwen25_r1",
+  "anon_code": "T_505911c9",
+  "poem_id": "D06",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "All worn with茱萸but one person less",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'All worn with茱萸but one person less' which does not express '遥知' as '从远处想到/料想', it translates the phrase '遍插茱萸少一人' instead.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "登高处",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '登高处' as required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "All worn with茱萸but one person less",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '遍插茱萸少一人' and does not mention '茱萸'",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "All worn with茱萸but one person less",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '少一人' and does not read out the person as the speaker.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 2,
+    "poetic_quality": 2,
+    "overall": 3.55,
+    "valid": true
+  }
+}

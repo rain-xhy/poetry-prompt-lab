@@ -1,0 +1,67 @@
+{
+  "translation_id": "M19_S5_T2_Qwen3_r2",
+  "anon_code": "T_dd9dbab2",
+  "poem_id": "M19",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In the halls of the King's residence, I have seen often, And in the halls of Cui, I have heard but few times.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'have seen often' uses present perfect tense and does not convey past frequency as required; 'heard but few times' implies infrequent hearing, not multiple hearings.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Yet again, I meet you in the bloom of spring.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Yet again, I meet you' directly expresses '又' (again) and '重逢' (reunion) in the present tense, fulfilling the requirement for current reunion.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In the halls of the King's residence, I have seen often, And in the halls of Cui, I have heard but few times.",
+        "evidence_found": true,
+        "reasoning": "The translation focuses on personal experiences in different halls rather than time-based contrast between past and present, failing to explicitly convey the required time comparison between '昔日繁华' (past prosperity) and '今日飘零' (current desolation).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "It is indeed a beautiful scene in the south, Yet again, I meet you in the bloom of spring.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'bloom of spring' directly references the 'falling flowers' (落花) metaphor, implying the fleeting beauty and transience of life, which aligns with the symbolic meaning of 落花时节.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

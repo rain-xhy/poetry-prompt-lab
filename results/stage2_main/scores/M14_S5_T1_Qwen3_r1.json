@@ -1,0 +1,67 @@
+{
+  "translation_id": "M14_S5_T1_Qwen3_r1",
+  "anon_code": "T_cbf06a2f",
+  "poem_id": "M14",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If the hero of the western frontier had been present",
+        "evidence_found": true,
+        "reasoning": "The phrase 'If the hero of the western frontier had been present' uses a conditional clause starting with 'If' to express a hypothetical situation, matching the required condition assumption structure of '只要...在' (as long as... is present).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no enemy would have crossed the dark mountain",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no enemy would have crossed' expresses the required meaning of 'not allow/prevent' with a prohibitive action against enemies crossing the mountain.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If the hero of the western frontier had been present, no enemy would have crossed the dark mountain.",
+        "evidence_found": true,
+        "reasoning": "The translation uses a conditional clause 'If the hero of the western frontier had been present' followed by a result clause 'no enemy would have crossed the dark mountain', clearly preserving the condition-result logic required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The hero of the western frontier",
+        "evidence_found": true,
+        "reasoning": "The phrase 'hero of the western frontier' directly refers to a border commander from a historical context, fulfilling the requirement for a border general with a martial reputation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

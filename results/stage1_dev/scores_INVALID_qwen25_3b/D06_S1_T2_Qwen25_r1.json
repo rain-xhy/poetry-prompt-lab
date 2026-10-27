@@ -1,0 +1,57 @@
+{
+  "translation_id": "D06_S1_T2_Qwen25_r1",
+  "anon_code": "T_be4e2c9d",
+  "poem_id": "D06",
+  "strategy": "S1_T2",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "From afar I know",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'From afar I know' which is not '在远处想象得知' as per the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "From afar I know they celebrate high",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the phrase '兄弟们登高之处' (brothers' place of climbing high) and instead uses 'From afar I know they celebrate high' which does not preserve the original meaning of '兄弟们登高处'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "遍插一身少",
+        "evidence_found": true,
+        "reasoning": "From afar I know they celebrate high, With茱萸遍插一身少，one less among the crowd.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "one less among the crowd.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '少一人' and does not indicate that the person is the speaker.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\"adequacy\":1,\"imagery\":0,\"emotion\":1,\"fluency\":2,\"poetic_quality\":0}"
+  }
+}

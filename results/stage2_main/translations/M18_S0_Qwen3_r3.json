@@ -1,0 +1,19 @@
+{
+  "id": "M18_S0_Qwen3_r3",
+  "poem_id": "M18",
+  "trap_type": "时态叙事",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n无可奈何花落去，似曾相识燕归来。",
+  "prompt_sha256": "73d4a11cbd0492a7571592fc995fce0df08ec505148fa55b9aedfce3db580016",
+  "translation": "When the flowers fall, and there's no way to prevent it,  \nThe return of the燕 (bird) that once was familiar.",
+  "metadata": {
+    "input_tokens": 41,
+    "output_tokens": 29,
+    "latency_ms": 10207.603931427002,
+    "timestamp": "2026-10-26T19:45:58.795295",
+    "finish_reason": "stop"
+  }
+}

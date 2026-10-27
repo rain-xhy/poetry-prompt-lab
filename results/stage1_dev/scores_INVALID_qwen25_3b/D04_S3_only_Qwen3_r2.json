@@ -1,0 +1,57 @@
+{
+  "translation_id": "D04_S3_only_Qwen3_r2",
+  "anon_code": "T_827d6125",
+  "poem_id": "D04",
+  "strategy": "S3_only",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The depth of the Peach Blossom Spring is thousands of feet",
+        "evidence_found": true,
+        "reasoning": "The translation states the depth of the Peach Blossom Spring is thousands of feet, which does not match the original '桃花潭水深千尺' (The depth of the Peach Blossom Spring is thousands of feet).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The depth of the Peach Blossom Spring is thousands of feet, yet it cannot match the deep emotion that Wang Lun sends me.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'thousands of feet' instead of '不及' which means 'cannot match' or 'cannot be compared to'. The phrase 'cannot match the deep emotion' also changes the original meaning and context.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The translation does not mention Wang Lun as the one sending someone, it only states that Wang Lun sends the speaker (me). The phrase '汪伦为我送行' is not preserved.",
+        "evidence_found": false,
+        "reasoning": "The translation states 'Wang Lun sends me' which does not align with the original phrase '汪伦为我送行' where Wang Lun is the one sending someone. The exact phrase '汪伦为我送行' is not preserved in the translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The depth of the Peach Blossom Spring is thousands of feet, yet it cannot match the deep emotion that Wang Lun sends me.",
+        "evidence_found": true,
+        "reasoning": "The translation uses a specific analogy of the Peach Blossom Spring, which is not the intended '以水深比情深' (comparing depth to express deep emotion).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\"adequacy\":1,\"imagery\":0,\"emotion\":1,\"fluency\":2,\"poetic_quality\":0}"
+  }
+}

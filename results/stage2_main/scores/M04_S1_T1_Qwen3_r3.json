@@ -1,0 +1,67 @@
+{
+  "translation_id": "M04_S1_T1_Qwen3_r3",
+  "anon_code": "T_bb8f192a",
+  "poem_id": "M04",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When two hearts are truly devoted, what does it matter if they meet only once in a day or twice?",
+        "evidence_found": true,
+        "reasoning": "The translation does not express 'if' (condition) or 'long time' (long duration) as required; it focuses on meeting frequency rather than emotional longevity.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "what does it matter if they meet only once in a day or twice?",
+        "evidence_found": true,
+        "reasoning": "The phrase expresses a negation of daily meetings, implying that frequent meetings are not necessary, which aligns with the requirement to show that one does not need to be together every day.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When two hearts are truly devoted, what does it matter if they meet only once in a day or twice?",
+        "evidence_found": true,
+        "reasoning": "The translation focuses on meeting frequency rather than the continuous time aspect required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When two hearts are truly devoted, what does it matter if they meet only once in a day or twice?",
+        "evidence_found": true,
+        "reasoning": "The translation captures the conditional relationship (if two hearts are devoted) and the rhetorical question (what does it matter) that reflects the original's logic.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

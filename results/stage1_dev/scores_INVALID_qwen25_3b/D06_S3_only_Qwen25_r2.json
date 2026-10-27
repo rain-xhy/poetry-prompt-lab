@@ -1,0 +1,62 @@
+{
+  "translation_id": "D06_S3_only_Qwen25_r2",
+  "anon_code": "T_cdd98942",
+  "poem_id": "D06",
+  "strategy": "S3_only",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I know my brothers climb the hillside today,",
+        "evidence_found": true,
+        "reasoning": "The translation contains the phrase 'I know my brothers climb the hillside today', which does not match the original '遥知' (I know from afar) and does not express the idea of 'from afar' as required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I know my brothers climb the hillside today",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the phrase '兄弟们登高之处' (brothers climb the high place) and the main subject is not '兄弟们' (my brothers), but rather 'I know my brothers'",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Every one wears茱萸 but one is missing.",
+        "evidence_found": true,
+        "reasoning": "The phrase '每个人头上都插着茱萸' is not preserved in the translation. Instead, 'Every one wears茱萸 but one is missing.' is used, which does not match the original meaning and does not preserve the phrase '头上都插着茱萸'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I know my brothers climb the hillside today,",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the phrase '少一人' and does not explicitly state that the speaker is missing.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 2,
+    "overall": 3.15,
+    "valid": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "M02_S1_T1_Qwen3_r2",
+  "poem_id": "M02",
+  "trap_type": "情感反差",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n红豆生南国，春来发几枝。\n愿君多采撷，此物最相思。",
+  "prompt_sha256": "34efee031ef95b49046c23f6b7c501a2c543aa361ef765e01b77cceace9b26d1",
+  "translation": "Red beans grow in the southern land,  \nSpring brings them forth, a few branches.  \nMay your heart take them in, to cherish,  \nFor this thing holds the deepest longing.\n\n[Red beans symbolize unrequited love in Chinese poetry.]",
+  "metadata": {
+    "input_tokens": 234,
+    "output_tokens": 52,
+    "latency_ms": 525.5777835845947,
+    "timestamp": "2026-10-26T20:29:00.394945",
+    "finish_reason": "stop"
+  }
+}

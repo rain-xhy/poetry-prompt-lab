@@ -1,0 +1,76 @@
+{
+  "translation_id": "D05_S5_T1_Qwen25_r1",
+  "anon_code": "T_5b5d8ff7",
+  "poem_id": "D05",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of生死, both fade from sight, unthought of, yet remembered.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Ten years of生死' incorrectly uses '生死' (life and death) as a single term without proper separation, and the translation does not clearly convey the 'two-way separation' or 'mutual distance' between living and dead as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of生死, both fade from sight, unthought of, yet remembered.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'unthought of, yet remembered' implies that the memory is not actively thought about but still remembered, which does not correctly convey the intended meaning of 'even if not deliberately thinking about it, it is still unforgettable' as the translation suggests the memory fades but is still remembered, contradicting the requirement that the translation should not imply that forgetting occurs due to not thinking about it.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A thousand miles away, her solitary grave",
+        "evidence_found": true,
+        "reasoning": "The phrase 'solitary grave' directly translates to '孤独坟墓' and 'a thousand miles away' indicates the '千里' distance.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no place to speak of sorrow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no place to speak of sorrow' directly translates the requirement of '没有地方、没有人可诉说凄凉' by expressing the absence of a place or person to convey sorrow, matching the required meaning of '无处话凄凉' with the specified emotion of sorrow.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 1.7,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

@@ -1,0 +1,36 @@
+2026-10-26 21:55:47 pipeline start; generation/scoring python=E:\python\python.exe analysis python=E:\desktop\北大软微\课程\大语言模型应用与实践\作业\11\代码\poetry-prompt-lab\.venv\Scripts\python.exe
+2026-10-26 21:55:50 waiting for running generation process(es): 42396
+2026-10-26 21:56:53 waiting for running generation process(es): 42396
+2026-10-26 21:57:56 start gen_stage3
+2026-10-26 21:57:59 gen_stage3 ok in 3s (rc=0)
+2026-10-26 21:57:59 start gen_stage4
+2026-10-26 22:19:03 gen_stage4 ok in 1263s (rc=0)
+2026-10-26 22:19:03 start score_stage2
+2026-10-26 23:36:53 pipeline start; generation/scoring python=E:\python\python.exe analysis python=E:\desktop\北大软微\课程\大语言模型应用与实践\作业\11\代码\poetry-prompt-lab\.venv\Scripts\python.exe
+2026-10-26 23:36:56 skip gen_stage3 (already ok)
+2026-10-26 23:36:56 skip gen_stage4 (already ok)
+2026-10-26 23:36:56 start score_stage2
+2026-10-27 04:18:01 score_stage2 ok in 16866s (rc=0)
+2026-10-27 04:18:01 start score_stage3
+2026-10-27 04:57:26 score_stage3 ok in 2365s (rc=0)
+2026-10-27 04:57:26 start rescore_stage1_layers
+2026-10-27 05:08:44 rescore_stage1_layers ok in 678s (rc=0)
+2026-10-27 05:08:44 start stage4_analyze
+2026-10-27 05:23:49 stage4_analyze ok in 905s (rc=0)
+2026-10-27 05:23:49 start format_stage2
+2026-10-27 05:23:50 format_stage2 ok in 1s (rc=0)
+2026-10-27 05:23:50 start format_stage3
+2026-10-27 05:23:51 format_stage3 ok in 0s (rc=0)
+2026-10-27 05:23:51 start scorer_checks
+2026-10-27 05:33:09 scorer_checks ok in 559s (rc=0)
+2026-10-27 05:33:09 start stats_stage2_accuracy
+2026-10-27 05:33:29 stats_stage2_accuracy ok in 20s (rc=0)
+2026-10-27 05:33:29 start stats_stage2_quality
+2026-10-27 05:33:32 stats_stage2_quality ok in 3s (rc=0)
+2026-10-27 05:33:32 start extra_stage2
+2026-10-27 05:33:38 extra_stage2 ok in 7s (rc=0)
+2026-10-27 05:33:38 start extra_stage3
+2026-10-27 05:33:42 extra_stage3 ok in 4s (rc=0)
+2026-10-27 05:33:42 start audit_sheet
+2026-10-27 05:33:44 audit_sheet ok in 1s (rc=0)
+2026-10-27 05:33:44 pipeline finished; failed steps: none

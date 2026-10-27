@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S0_Qwen25_r2",
+  "anon_code": "T_a188429a",
+  "poem_id": "M07",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wang and Xie",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly mentions 'Wang and X:ie' to refer to the specific families, satisfying the requirement to preserve the proper names without generalization.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "The old swallow nests once in Wang and X: once in Wang and Xie halls' eaves, Now perch on any household's eaves of commoners",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly contrasts 'once in Wang and Xie halls' eaves' (past elite homes) with 'now perch on any household's eaves of commoners' (present commoners' homes), showing time and social class contrast.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "The old swallow nests once in Wang and X. halls' eaves, Now perch on any household's eaves of commoners.",
+        "evidence_found": false,
+        "reasoning": "The translation preserves the swallow (燕子) as a witness by showing its movement from noble halls to commoner households, indicating its role as a witness to time and social change without implying the swallow has lived for centuries.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "At the wild flowers sprouting near the Tricolor Bridge, The Ugly Robe Lane's setting sun casts a slant.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'wild flowers sprouting' contradicts the required '荒凉景象（野草、夕阳）' which should convey desolation, not growth of flowers.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "translation_id": "D03_S0_Qwen3_r1",
+  "anon_code": "T_5c3ac7dd",
+  "poem_id": "D03",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Drink until it is empty, farewell to this last cup of wine, Beyond the Yangguan Gate, there is no old friend to greet.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express '我劝你再干一杯酒' which means 'I urge you to drink one more cup of wine', but instead describes a farewell scene with no old friends beyond Yangguan Gate, which is a different context.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Beyond the Yangguan Gate",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Beyond the Yangguan Gate' indicates moving west beyond Yangguan, satisfying the requirement for west direction and Yangguan.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "there is no old friend to greet",
+        "evidence_found": true,
+        "reasoning": "The phrase 'there is no old friend to greet' directly translates to '没有老朋友' as required, and does not expand the meaning to 'no one at all'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Drink until it is empty, farewell to this last cup of wine, Beyond the Yangguan Gate, there is no old friend to greet.",
+        "evidence_found": true,
+        "reasoning": "The translation connects the act of drinking (劝酒) with the absence of old friends (无故人) by stating that beyond Yangguan Gate there are no old friends to greet, implying the need to drink one last cup before parting.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.65,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

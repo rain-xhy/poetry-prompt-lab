@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S5_T2_Qwen25_r1",
+  "anon_code": "T_85e25cea",
+  "poem_id": "M02",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This thing best conveys longing",
+        "evidence_found": true,
+        "reasoning": "The phrase 'this thing' refers to the red bean, which is the symbol of longing as per the original Chinese phrase's meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "May you pluck many more",
+        "evidence_found": true,
+        "reasoning": "The phrase 'May you pluck many more' directly expresses a wish/hope for the recipient to gather more, fulfilling the requirement of expressing hope and addressing 'you' specifically for the action of plucking.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This thing best conveys longing.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'This thing best conveys longing' directly matches the required meaning of 'this thing most can寄托相思之情' (this thing most can symbolize/express longing).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "In spring it sprouts, how many branches?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'In spring it sprouts, how many branches?' directly addresses the timing of spring and the natural action of sprouting branches as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

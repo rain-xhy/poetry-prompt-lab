@@ -1,0 +1,67 @@
+{
+  "translation_id": "M17_S1_T3_Qwen3_r2",
+  "anon_code": "T_747a31c4",
+  "poem_id": "M17",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This emotion can wait to become a memory, but already it is futile.",
+        "evidence_found": true,
+        "reasoning": "The translation does not use a question structure as required by the pass condition (must.../can.../could...), and the phrase 'can wait to become a memory' does not express the future aspect of 'becoming a memory' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This emotion can wait to become a memory, but already it is futile.",
+        "evidence_found": true,
+        "reasoning": "The translation does not convey the completed past sense of 'already' as required by the phrase '当时就已经惘然' (past perfect with 'already').",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This emotion can wait to become a memory, but already it is futile.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'this emotion' does not clearly refer to 'this feeling' as required by the original Chinese phrase '此情', which should denote a specific emotional context rather than a general emotion.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This emotion can wait to become a memory, but already it is futile.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the contrast between future memory (\"can wait to become a memory\") and past futility (\"already it is futile\").",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 3,
+    "poetic_quality": 1,
+    "overall": 1.6,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

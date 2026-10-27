@@ -1,0 +1,67 @@
+{
+  "translation_id": "M14_S5_T1_Qwen3_r3",
+  "anon_code": "T_94135110",
+  "poem_id": "M14",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If the general of the Dragon City were still here",
+        "evidence_found": true,
+        "reasoning": "The phrase 'If the general of the Dragon: were still here' uses a conditional clause starting with 'If' to express a hypothetical situation, matching the required condition of using a conditional sentence with the assumed tone.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "No enemy horse would cross the shadowy mountains",
+        "evidence_found": true,
+        "reasoning": "The phrase 'No enemy horse would cross' directly translates to '不让...越过' (prevent/not allow crossing) with the active verb 'cross' indicating the obstructive action.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If the general of the Dragon City were still here, No enemy horse would cross the shadowy mountains.",
+        "evidence_found": true,
+        "reasoning": "The conditional phrase 'If the general of the Dragon: were still here' directly establishes the condition, and the result 'No enemy horse would cross the shadowy mountains' follows logically, maintaining the condition-result relationship as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If the general of the Dragon City were still here",
+        "evidence_found": true,
+        "reasoning": "The phrase 'general of the Dragon City' directly refers to a historical border general (Dragon City being a historical border fortress) and implies a formidable military leader who would repel enemies, meeting the requirement of '边关名将（历史典故）' and '威猛善战的形象'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

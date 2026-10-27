@@ -1,0 +1,58 @@
+{
+  "translation_id": "A08_S5_T1_Qwen25_r3",
+  "anon_code": "T_8e4f4836",
+  "poem_id": "A08",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the halls of former grandeur",
+        "evidence_found": true,
+        "reasoning": "The phrase 'halls of former grandeur' refers to wealthy/noble/aristocratic families in a historical context, matching the requirement to preserve '豪门' as a generalized expression.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The swallow that once nested in the halls of former grandeur, Now finds itself in a humble home.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the loss of historical specificity by contrasting past grandeur with present humility, meeting the requirement to preserve '识别失去了特定历史背景' without mentioning specific surnames.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "By Zhuque Bridge, wildflowers sprout, In the old U衣巷, the sun sets low.",
+        "evidence_found": true,
+        "reasoning": "The translation correctly identifies the location and time reference from the original poem, preserving the contrast between past grandeur and present simplicity while avoiding generic terms for proper nouns.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

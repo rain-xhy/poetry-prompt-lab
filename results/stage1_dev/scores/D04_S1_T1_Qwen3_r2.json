@@ -1,0 +1,76 @@
+{
+  "translation_id": "D04_S1_T1_Qwen3_r2",
+  "anon_code": "T_ce404473",
+  "poem_id": "D04",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The spring water of Tao Lake is deeper than a thousand feet",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the depth of Tao Lake's water as exceeding a thousand feet, fulfilling the requirement for expressing the water being very deep (千尺 or equivalent exaggeration) and preserving 'Tao Lake' as the equivalent of '桃花潭'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "yet it cannot match the heartfelt farewell of Wang Lun",
+        "evidence_found": true,
+        "reasoning": "The phrase 'cannot match' directly corresponds to '比不上' and the context implies the depth of the water is less than Wang Lun's farewell, satisfying the condition that it doesn't become 'deeper' or 'the same depth'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The spring water of Tao Lake is deeper than a thousand feet, yet it cannot match the heartfelt farewell of Wang Lun.",
+        "evidence_found": true,
+        "reasoning": "The translation correctly identifies Wang Lun as the sender of the farewell and 'I' as the recipient, fulfilling both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The spring water of Tao Lake is deeper than a thousand feet, yet it cannot match the heartfelt farewell of Wang Lun.",
+        "evidence_found": true,
+        "reasoning": "The translation compares the depth of Tao Lake's spring water to the depth of Wang Lun's farewell, showing that the emotional depth (情谊) is greater than the physical depth (water depth).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

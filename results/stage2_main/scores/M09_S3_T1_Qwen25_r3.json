@@ -1,0 +1,67 @@
+{
+  "translation_id": "M09_S3_T1_Qwen25_r3",
+  "anon_code": "T_55a2b53c",
+  "poem_id": "M09",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Moon sets, roosters crow,霜 fills the sky;",
+        "evidence_found": true,
+        "reasoning": "The phrase '霜 fills the sky' contains a Chinese character '霜' which is not in English, and the translation does not maintain three distinct imagery without causal relationships as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Rivulet trees,渔 lights face my sorrow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Rivulet trees,渔 lights face my sorrow' does not correctly convey '面对愁绪而眠' as it describes lights facing sorrow rather than sleeping with sorrow.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Rivulet trees,渔 lights face my sorrow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Rivulet trees' does not correctly translate '江枫' (riverbank maple trees) and '渔 lights' is a mistranslation of '渔火' (fishermen's torches/fire) as it should be 'fishermen's lights' or 'fishing lights' without the Chinese character '渔' being directly translated as 'fish' in this context.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Moon sets, roosters crow,霜 fills the sky; Rivulet trees,渔 lights face my sorrow.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys a sense of solitude and coldness through the imagery of moon setting, roosters crowing, frost covering the sky, and the sorrowful reflection on the river, which aligns with the required meaning of '夜泊的孤寂凄凉' without being joyful.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "translation_id": "A01_S0_Qwen25_r2",
+  "anon_code": "T_4629d5a8",
+  "poem_id": "A01",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "it might slip into the river",
+        "evidence_found": true,
+        "reasoning": "The phrase does not contain a negative word indicating prohibition or avoidance, but rather suggests a possibility of slipping, which is positive in tone.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "With care it might slip into the river.",
+        "evidence_found": true,
+        "reasoning": "The phrase does not convey a warning tone but rather a passive observation about something slipping into a river, lacking the urgency or cautionary language required for a warning.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "slip into the river",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'slip' which implies a smooth movement and 'into the river' directly matches the required phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 3.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

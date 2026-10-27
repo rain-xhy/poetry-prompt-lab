@@ -1,0 +1,75 @@
+{
+  "translation_id": "D06_S1_T1_Qwen25_r1",
+  "anon_code": "T_a3b05959",
+  "poem_id": "D06",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "For he stands alone in the distance, far from home.",
+        "evidence_found": true,
+        "reasoning": "The phrase '遥知' means 'to imagine/dream of from afar' or 'to know from a distance', but the translation describes someone being physically distant rather than mentally imagining or knowing from afar.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I know they are登高 at this festive time",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I know they are登高' directly translates to 'they climb the heights' as required, with 'they' corresponding to 'brothers' and '登高' meaning 'climb the heights'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wearing fragrant茱萸  all around in dense clusters",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Wearing fragrant茱萸' directly translates the concept of 'everyone wearing chrysanthemum sprigs' while preserving the key term '茱萸' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "But one of my brothers少一人 is not present",
+        "evidence_found": true,
+        "reasoning": "The phrase 'one of my brothers少一人 is not present' indicates that the speaker's brother is missing, fulfilling the requirement that the translation expresses '少了一个人' (one person is missing) and specifies that this person is the speaker's brother (implying the speaker is the one who is missing themselves).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "valid": false,
+    "raw": "{\n  \"original\": \"遥知兄弟登高处，遍插茱萸少一人。\",\n  \"academic_translation\": \"I know they are登高 at this festive time,\",\n  \"academic_translation_comment\": \"The translation has a significant issue: it uses the Chinese characters '登高' (which means 'climb high' or 'go to a high place') as a direct transliteration in English, which is not understandable to English readers. The phrase 'at this festive time' is also awkwardly placed and doesn't convey the intended meaning of 'knowing that my brothers are climbing high (on the hills) at this time of year'. The phrase 'Wearing fragrant茱萸 all around in dense clusters' is problematic because '茱萸' (zhu yu) is a specific plant (a type of herb used in Chinese culture for warding off evil), and the translation should explain it as 'wearing fragrant Chinese holly' or 'wearing frag: fragrant holly' to be clear. The phrase 'But one of my brothers少一人 is not present' is confusing because '少一人' means 'one less' or 'one person is missing', but the translation uses '少一人' as a transliteration, which is not understandable. The phrase 'For he stands alone in the distance, far from home' is a bit too literal and doesn't capture the emotional depth of the original poem.\",\n  \"poetic_reading\": \"I know they are climbing high at this festive time,\",\n  \"poetic_reading_comment\": \"The translation has a significant issue: it uses the Chinese characters '登高' (which means 'climb high' or 'go to a high place') as a direct transliteration in English, which is not understandable to English readers. The phrase 'Wearing fragrant茱萸 all around in dense clusters' is problematic because '茱萸' (zhu yu) is a"
+  }
+}

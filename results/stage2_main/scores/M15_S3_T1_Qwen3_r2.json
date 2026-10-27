@@ -1,0 +1,67 @@
+{
+  "translation_id": "M15_S3_T1_Qwen3_r2",
+  "anon_code": "T_97b6e4bf",
+  "poem_id": "M15",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why should the flute of the Qiang call for sorrow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Why should...' forms a rhetorical question expressing that there is no need to feel sorrow, matching the required meaning of '不必/no need to' as a negation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the spring breeze does not reach the western gate",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states that the spring breeze does not reach the western gate, which matches the required meaning of 'spring breeze does not reach the Jade Gate Pass' with a geographical limitation.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why should the flute of the Qiang call for sorrow when the spring breeze does not reach the western gate?",
+        "evidence_found": true,
+        "reasoning": "The translation captures the causal relationship where the spring breeze not reaching the western gate (cause) leads to the unnecessary sorrow (effect), and the phrase 'spring breeze does not reach the western gate' directly corresponds to the Chinese phrase '春风不度' while maintaining the poetic structure and meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why should the flute of the Qiang call for sorrow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'flute of the Qiang' directly translates '羌笛' and 'call for sorrow' implies the bittersweet connotation of '折杨柳' (cutting willow branches) as a symbol of parting in Chinese culture.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

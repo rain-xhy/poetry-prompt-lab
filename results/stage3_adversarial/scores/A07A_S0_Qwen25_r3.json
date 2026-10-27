@@ -1,0 +1,58 @@
+{
+  "translation_id": "A07A_S0_Qwen25_r3",
+  "anon_code": "T_845a69ed",
+  "poem_id": "A07A",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Take heed to fall into the river.",
+        "evidence_found": true,
+        "reasoning": "The translation does not address the negation or correct inference from a ambiguous version as required by the original phrase's meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Take heed to fall into the river.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Take heed to fall into the river' implies a warning against a specific negative outcome, aligning with the requirement for a clear negation in version B.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Take heed to fall into the river.",
+        "evidence_found": true,
+        "reasoning": "The English phrase 'Take heed to fall into the river' conveys the meaning of cautioning against a dangerous situation, which aligns with the requirement that both versions should have the same meaning.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

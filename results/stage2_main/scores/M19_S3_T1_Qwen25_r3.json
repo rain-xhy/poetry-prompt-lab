@@ -1,0 +1,67 @@
+{
+  "translation_id": "M19_S3_T1_Qwen25_r3",
+  "anon_code": "T_ebb4bc58",
+  "poem_id": "M19",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I once frequented Li Qi’s mansion to see you, And heard you play at Cui Ji’s hall too.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I once frequented' uses past tense but implies a single occurrence rather than repeated or frequent actions, failing to convey the required 'multiple times' aspect.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Now in the prime of Jiangnan’s beauty, Spring blooms once more, and we meet anew.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'we meet anew' directly translates '又逢' as a 'again meeting' in the present tense, fulfilling the requirement for 'now' and 'again'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I once frequented Li Qi’s mansion to see you, And heard you play at Cui Ji’s hall too.",
+        "evidence_found": true,
+        "reasoning": "The translation focuses on past interactions without contrasting past and present conditions, failing to show time contrast or imply changed circumstances.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Spring blooms once more",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Spring blooms once more' directly translates the '落花时节' (fallen flowers season) by implying the cyclical nature of spring blossoms, thus preserving the symbolic meaning of fleeting beauty and renewal.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

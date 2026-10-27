@@ -1,0 +1,76 @@
+{
+  "translation_id": "D05_S0_Qwen3_r2",
+  "anon_code": "T_629e5802",
+  "poem_id": "D05",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Ten years of life and death, two miles apart, forever separated. I do not think of him, yet he remains deeply remembered to me. A thousand miles away, my grave is alone, and I cannot express my sorrow and grief.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the meaning of '十年生死两茫茫' by emphasizing the long separation between the living and dead, the vast distance, and the emotional isolation, meeting both pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I do not think of him, yet he remains deeply remembered to me",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I do not think of him, yet he remains deeply remembered to me' directly matches the required meaning of 'even if not deliberately thinking, still cannot forget', with the correct contrast and no indication of forgetting due to not thinking.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A thousand miles away, my grave is alone",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A thousand miles away, my grave is alone' directly translates to '千里孤坟' with 'thousand miles away' representing '千里' and 'my grave is alone' representing '孤坟', fulfilling both conditions of having a lonely grave and a distant separation.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I cannot express my sorrow and grief",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I cannot express my sorrow and grief' directly translates to the requirement of 'no place/person to express sorrow', meeting the condition of expressing inability to communicate sorrow.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 5,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.2,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

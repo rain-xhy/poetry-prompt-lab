@@ -1,0 +1,19 @@
+{
+  "id": "D06_S1_T1_Qwen3_r2",
+  "poem_id": "D06",
+  "trap_type": "时态叙事",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n遥知兄弟登高处，遍插茱萸少一人。",
+  "prompt_sha256": "9d48d41a98a06e8938120c2737d7dea8369e38ef5c91f7b67b025fd138be32fa",
+  "translation": "The poet reflects on the distant joy of brothers climbing high, planting chrysanthemums, yet feels a solitary pang as one is left behind. [A common theme in Chinese poetry: the longing for companionship and the beauty of nature.]\n\nA lone traveler stands atop the hill, gazing afar, where the wind whispers of ancient tales and the autumn leaves dance in sorrow.",
+  "metadata": {
+    "input_tokens": 225,
+    "output_tokens": 77,
+    "latency_ms": 2002.3086071014404,
+    "timestamp": "2026-10-26T16:37:11.304935",
+    "finish_reason": "stop"
+  }
+}

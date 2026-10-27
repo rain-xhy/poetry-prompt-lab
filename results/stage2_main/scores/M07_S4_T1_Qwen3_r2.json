@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S4_T1_Qwen3_r2",
+  "anon_code": "T_51b4a41a",
+  "poem_id": "M07",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Old Wang and Che's halls",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Old Wang and Che' refers to the specific family names Wang and Xie from the Eastern Jin dynasty, as required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Old Wang and Che's halls once welcomed the flying swallow, now it has settled in the common home of ordinary people",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts 'once welcomed' (past) with 'now has settled' (present) and 'halls' (elite) with 'common home of ordinary people' (commoners), fulfilling both time and class contrasts.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Old Wang and Che's halls once welcomed the flying swallow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'flying swallow' directly refers to the swallow (燕子) as a witness, preserving the intended imagery without implying the swallow lived for centuries.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "At the edge of the Zhuque Bridge, wild grass blooms; at the mouth of the Uyi Street, the sun casts a shadow.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly mentions 'wild grass' and 'sun casts a shadow' (implying sunset), directly preserving the required 荒凉景象 (wild grass, sunset) while conveying a desolate, decaying atmosphere.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

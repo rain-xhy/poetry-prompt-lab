@@ -1,0 +1,67 @@
+{
+  "translation_id": "M09_S2_T1_Qwen25_r2",
+  "anon_code": "T_bc9006cc",
+  "poem_id": "M09",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Moon sets, crows cry, frost fills the sky",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly lists three distinct imagery elements without establishing causal relationships between them.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "fishing lights face my sorrowful sleep",
+        "evidence_found": true,
+        "reasoning": "The phrase 'fishing lights face my sorrowful sleep' directly expresses '面对愁绪而眠' by showing that the fishing lights (as a symbol of the scene) are oriented towards the speaker's sorrowful sleep, fulfilling both conditions of '面对' relation and '愁绪' accompanying sleep.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "fishing lights",
+        "evidence_found": true,
+        "reasoning": "The phrase 'fishing lights' directly corresponds to '渔火' and is explicitly mentioned in the translation, fulfilling the requirement for the second image.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Moon sets, crows cry, frost fills the sky, Rushing rivers, fishing lights face my sorrowful sleep. The bleak scene, a lonely isolation, Brings melancholy to those who wander far.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys a sense of solitude and melancholy through imagery like 'frost fills the sky', 'sorrowful sleep', 'bleak scene', and 'lonely isolation', which align with the required meaning of '夜泊的孤寂凄凉' without being joyful.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

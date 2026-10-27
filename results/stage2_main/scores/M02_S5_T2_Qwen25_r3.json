@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S5_T2_Qwen25_r3",
+  "anon_code": "T_2418c153",
+  "poem_id": "M02",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This thing most deeply stirs the heart",
+        "evidence_found": true,
+        "reasoning": "The phrase 'this thing' refers to the red beans, which are the symbol of longing, thus preserving the meaning of '红豆 as a symbol of longing (metaphor)' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "May you pluck many more",
+        "evidence_found": true,
+        "reasoning": "The phrase 'May you pluck many more' expresses a wish/hope for the reader to gather more red beans, fulfilling the requirement of a hopeful tone and addressing 'you' directly for the action of plucking.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This thing most deeply stirs the heart",
+        "evidence_found": true,
+        "reasoning": "The phrase 'most deeply stirs the heart' conveys the meaning of 'most deeply symbolizes/embodies longing' as required, avoiding the misinterpretation of 'this thing will think of itself'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In spring it sprouts many a sprig.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'In spring it sprouts many a spr. ' does not explicitly mention the time of spring (it's implied but not directly stated as 'spring comes') and the natural action of '发枝' (sprouting branches) is present but the translation lacks the specific temporal aspect of 'when spring comes'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M03_S1_T1_Qwen3_r1",
+  "anon_code": "T_9e9e371f",
+  "poem_id": "M03",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I have no fixed period",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I have no fixed period' directly translates to '尚未确定' and meets the requirement of expressing 'cannot yet be set' without implying 'no deadline' or 'never'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When will we sit by the west window and light our candle together",
+        "evidence_found": true,
+        "reasoning": "The phrase 'When will we sit by the west window and light our candle together' uses the future tense 'will' to express the expectation of a future event, matching the required meaning of '什么时候能一起剪西窗烛 (future assumption)'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "to recount the rain of Bashan again in the evening?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'to recount the rain of Bash:an again in the evening' explicitly refers to recalling past rain events (past) in the context of future storytelling (future), satisfying the '将来回忆过去' requirement, and specifies 'Bashan rain' as the current night's rain.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the rain in the Bashan Mountains fills the autumn pool night by night",
+        "evidence_found": true,
+        "reasoning": "The phrase 'the rain in the Bash:an Mountains fills the autumn pool night by night' directly expresses the meaning of '巴山夜雨使秋池水涨' by indicating that the rain causes the autumn pool to rise, while preserving the three required意象: 巴山 (Bashan Mountains), 夜雨 (night rain), and 秋池 (autumn pool).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

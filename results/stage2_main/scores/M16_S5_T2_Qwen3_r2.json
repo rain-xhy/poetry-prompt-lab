@@ -1,0 +1,67 @@
+{
+  "translation_id": "M16_S5_T2_Qwen3_r2",
+  "anon_code": "T_273b0359",
+  "poem_id": "M16",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The crow's sweet cry awakens the moon",
+        "evidence_found": true,
+        "reasoning": "The phrase '鸡声茅店月' refers to the sound of roosters at a roadside inn with a moon visible, but the translation uses 'crow' instead of 'rooster', and the moon is described as being 'awakened' rather than simply visible, which does not match the original's implied presence of the moon without active action.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Footprints fade on the bridge, frost remains.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'footprints' and 'bridge' but does not explicitly mention 'frost' as part of the bridge's surface, and the phrase structure does not match the required three imagery elements (人的足迹, 板桥, 霜) as the original phrase is a single line with three elements.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dream of Du Liang, where the ducks now fly, Their wings fill the curved pond with their flight.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I dream of Du Li:ang' directly expresses recalling a dream of Du Liang, fulfilling the requirement of expressing memories or thoughts of a dream.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Their wings fill the curved pond with their flight",
+        "evidence_found": true,
+        "reasoning": "The phrase 'curved pond' directly translates the '回塘' (winding pond) and 'their wings fill' captures the '凫雁满布' (ducks and geese filling the pond) imagery from the original Chinese phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

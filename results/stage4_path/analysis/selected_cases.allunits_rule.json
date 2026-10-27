@@ -1,0 +1,34 @@
+[
+  {
+    "id": "M10_S5_T1_Qwen25_r1",
+    "class": "success"
+  },
+  {
+    "id": "M14_S5_T1_Qwen25_r1",
+    "class": "success"
+  },
+  {
+    "id": "M10_S5_T1_Qwen3_r1",
+    "class": "success"
+  },
+  {
+    "id": "M01_S5_T1_Qwen25_r1",
+    "class": "understanding_error"
+  },
+  {
+    "id": "M06_S5_T1_Qwen25_r1",
+    "class": "understanding_error"
+  },
+  {
+    "id": "M11_S5_T1_Qwen25_r1",
+    "class": "understanding_error"
+  },
+  {
+    "id": "M01_S5_T1_Qwen3_r1",
+    "class": "expression_error"
+  },
+  {
+    "id": "M07_S5_T1_Qwen25_r1",
+    "class": "expression_error"
+  }
+]

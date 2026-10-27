@@ -1,0 +1,58 @@
+{
+  "translation_id": "A02_S5_T1_Qwen3_r3",
+  "anon_code": "T_cb00977a",
+  "poem_id": "A02",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the blossoms know how many will fall",
+        "evidence_found": true,
+        "reasoning": "The phrase 'the blossoms know how many will fall' directly indicates that the subject of 'know' is blossoms, fulfilling the requirement that the subject changed from 'I' to 'flowers/blossoms'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the blossoms know how many will fall",
+        "evidence_found": true,
+        "reasoning": "The phrase 'the blossoms know how many will fall' directly expresses that the blossoms have cognitive awareness of their future state, fulfilling the requirement that the translation expresses the flowers' cognitive ability (knowing).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In the morning, I sleep soundly, unaware of the dawn, and all around, the birds sing. The rain and wind have stirred the night, and the blossoms know how many will fall.",
+        "evidence_found": true,
+        "reasoning": "The translation does not match the original poem '春晓' which describes waking up to find the birds singing and the rain having stopped, not the rain and wind stirring the night and blossoms knowing how many will fall.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

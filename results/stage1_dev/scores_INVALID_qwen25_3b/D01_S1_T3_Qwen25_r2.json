@@ -1,0 +1,62 @@
+{
+  "translation_id": "D01_S1_T3_Qwen25_r2",
+  "anon_code": "T_8f75db3c",
+  "poem_id": "D01",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling is hard to dispel",
+        "evidence_found": true,
+        "reasoning": "The translation states 'This feeling is hard to dispel', which implies that the feeling is still there and cannot be eliminated, rather than expressing that it is hard to eliminate it.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "It retreats from the brow but then rises to the heart.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly state that the feeling is 'hard to dispel', which is implied in the original '才下眉头' but not directly translated.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "It retreats from the brow but then rises to the heart.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly use 'yet', 'but', or 'again' to express the sense of recurrence and emotional intensity as required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling is hard to dispel",
+        "evidence_found": true,
+        "reasoning": "The translation only captures the first part of the original phrase '才下……却上' and does not fully preserve the second part '却上' which is '却上' in the original phrase. The translation does not convey the sense of the feeling moving from the brow to the heart as the original phrase does.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  }
+}

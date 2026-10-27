@@ -1,0 +1,67 @@
+{
+  "translation_id": "M13_S1_T3_Qwen3_r2",
+  "anon_code": "T_3d7bc6bd",
+  "poem_id": "M13",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no bird flies",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no bird flies' directly translates to the required meaning of 'no birds/not a single bird' and captures the '绝' (extreme) sense of absolute absence.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no human steps are seen",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no human steps are seen' directly translates the concept of '人踪灭' as 'human traces disappear' with absolute negation, capturing the '灭' (extinction/disappearance) sense.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A solitary boatman, dressed in a cloak and hat, stands alone, casting the cold snow into the frozen river.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'solitary boatman' emphasizes 'alone' and 'stands alone' explicitly conveys the action of '垂钓' (fishing) through the context of being alone in the cold river.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Beyond the mountains, no bird flies; through the paths, no human steps are seen. A solitary boatman, dressed in a cloak and hat, stands alone, casting the cold snow into the frozen river.",
+        "evidence_found": true,
+        "reasoning": "The translation effectively conveys the vastness of space with 'beyond the mountains' and 'through the paths', while emphasizing human solitude through 'solitary boatman' and 'stands alone', creating a clear contrast between the expansive landscape and the isolated individual.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

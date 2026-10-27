@@ -1,0 +1,67 @@
+{
+  "translation_id": "M18_S3_T1_Qwen3_r1",
+  "anon_code": "T_3eda777f",
+  "poem_id": "M18",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The flowers fall, and the once-familiar swallow returns. The deep sorrow of parting lingers, yet the heart finds peace.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express 'helpless' or 'unable to prevent the falling of flowers' as required; it describes a swallow returning and a heart finding peace, which does not convey the sense of helplessness in watching flowers fall.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The flowers fall, and the once-familiar swallow returns.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly convey 'the heart finds peace' as required by the original phrase's implied meaning, and the phrase 'once-familiar' does not accurately capture '似曾相识' (seem familiar) as it implies prior familiarity rather than a sense of familiarity from past experience.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The flowers fall, and the once-familiar swallow returns.",
+        "evidence_found": true,
+        "reasoning": "The phrase directly contrasts the flowers falling (departing) with the swallow returning, fulfilling the requirement of showing departure and return in opposite directions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The flowers fall, and the once-familiar swallow returns. The deep sorrow of parting lingers, yet the heart finds peace.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys time passing through the falling flowers and the return of the swallow, while expressing the feeling of change and loss through the lingering sorrow and the contrast with peace.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.95,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

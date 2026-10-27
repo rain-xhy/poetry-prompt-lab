@@ -1,0 +1,67 @@
+{
+  "translation_id": "M05_S4_T1_Qwen25_r2",
+  "anon_code": "T_984724c8",
+  "poem_id": "M05",
+  "strategy": "S4_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Searching for something, I find nothing, Silent and cold, filled with anguish and woe. Tears mix with the chill, a constant shadow.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly convey the repetitive or continuous nature of the search action, which is essential for preserving the meaning of '寻寻觅觅' (repeatedly searching). The phrase 'Searching for something, I find nothing' suggests a single instance of searching rather than the repeated, persistent effort implied by the original Chinese phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Silent and cold, filled with anguish and woe.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Silent and cold' directly translates the cold and quiet environment, and 'filled with anguish and woe' conveys the sense of desolation and emotional weight required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Silent and cold, filled with anguish and woe. Tears mix with the chill, a constant shadow.",
+        "evidence_found": true,
+        "reasoning": "The translation captures deep sorrow through layered emotional expressions, with 'anguish and woe' conveying profound sadness and 'tears mix with the chill' illustrating the emotional depth and coldness of despair.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Searching for something, I find nothing, Silent and cold, filled with anguish and woe. Tears mix with the chill, a constant shadow.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly follows the structure from action (searching) to environment (silent and cold) to emotion (anguish and woe), maintaining the intended progression without altering the sequence.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "translation_id": "A06_S0_Qwen25_r3",
+  "anon_code": "T_20a94bdb",
+  "poem_id": "A06",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I weep for the flame, hoping it will last until dawn.",
+        "evidence_found": true,
+        "reasoning": "The phrase '人替烛' (person replaces candle) is misinterpreted as 'I weep for the flame' instead of the intended 'person replaces candle' relationship where the person is weeping for the candle, indicating a reversal of roles.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I weep for the flame, hoping it will last until dawn.",
+        "evidence_found": true,
+        "reasoning": "The phrase '替烛垂泪到天明' translates to 'weeping for the flame until dawn', which matches the required meaning of '替的方向改变了' as the direction of '替' has changed.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Though filled with tender feelings, they seem to bring no joy, for I can't manage a smile by your side.",
+        "evidence_found": true,
+        "reasoning": "The translation reverses the meaning of the original poem by stating that the person has tender feelings but seems to bring no joy, whereas the original poem indicates that the person is emotionally detached (like having no feelings) and cannot smile, which is the opposite of the translation's meaning.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

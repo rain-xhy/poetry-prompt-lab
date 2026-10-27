@@ -1,0 +1,19 @@
+{
+  "id": "M02_S1_T3_Qwen3_r2",
+  "poem_id": "M02",
+  "trap_type": "情感反差",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n红豆生南国，春来发几枝。\n愿君多采撷，此物最相思。",
+  "prompt_sha256": "7d06d3cd35213089a5f37fc61faff9aeef06dd5b9f8f157cc354801272b8b43f",
+  "translation": "Red beans grow in the southern land,  \nSpring brings them forth, few in number.  \nMay you gather them with care,  \nThis thing holds the deepest longing.\n\n[The phrase \"red beans\" refers to the legume红豆 (sòu tóng), which is often used in poetry to symbolize unrequited love or longing. The imagery of red beans growing in the southern land reflects the emotional depth of the poem.]\n\n[The poem uses a paradox: while the red beans are \"few,\" they carry the strongest sense of longing, highlighting the intensity of the emotion.]",
+  "metadata": {
+    "input_tokens": 219,
+    "output_tokens": 119,
+    "latency_ms": 1206.4480781555176,
+    "timestamp": "2026-10-26T20:41:04.203577",
+    "finish_reason": "stop"
+  }
+}

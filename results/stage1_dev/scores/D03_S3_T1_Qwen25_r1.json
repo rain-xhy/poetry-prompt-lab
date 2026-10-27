@@ -1,0 +1,76 @@
+{
+  "translation_id": "D03_S3_T1_Qwen25_r1",
+  "anon_code": "T_3af4320f",
+  "poem_id": "D03",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Tempt me to drain this cup of wine,",
+        "evidence_found": true,
+        "reasoning": "The translation incorrectly states that the speaker is being tempted to drink, whereas the original phrase indicates the speaker is urging the friend to drink.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "after westward departure",
+        "evidence_found": true,
+        "reasoning": "The phrase 'after westward departure' directly corresponds to '向西出了阳关' by indicating movement westward and departure from Yang Pass.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no old friends remain",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no old friends remain' directly translates to '没有老朋友' as required, without expanding the meaning to 'no one at all'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "For after westward departure, no old friends remain.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'For after westward departure, no old friends remain' directly links the departure (implied in 'westward departure') to the absence of old friends, showing the connection between the encouragement to drink and the lack of old friends as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.65,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

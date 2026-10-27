@@ -1,0 +1,76 @@
+{
+  "translation_id": "D02_S0_Qwen3_r1",
+  "anon_code": "T_cbe20cea",
+  "poem_id": "D02",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "All the birds fly away",
+        "evidence_found": true,
+        "reasoning": "The phrase 'All the birds fly away' does not convey 'bird群都飞走了' (bird group all flew away) with 'all' and 'disappear' meaning as required; it lacks the 'disappear' aspect and implies continuous action rather than complete disappearance.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "All the birds fly away, and the solitary cloud goes leisurely.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'solitary cloud' which implies '孤云', but the phrase 'goes leisurely' does not explicitly convey '独自悠闲地' (alone and leisurely) as the required meaning requires both 'alone' and 'leisurely' states to be preserved.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "They look at each other without hatred, only the Jingting Mountain.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'They look at each other without hatred' implies mutual looking but does not specify that the mountain is the active viewer; the mountain is presented as the object of the action rather than the active participant.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "only the Jingting Mountain",
+        "evidence_found": true,
+        "reasoning": "The phrase 'only the Jingting Mountain' contains 'only' as the required限定 and preserves the proper noun 'Jingting Mountain' as specified.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

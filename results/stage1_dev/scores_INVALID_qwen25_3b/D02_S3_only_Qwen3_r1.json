@@ -1,0 +1,62 @@
+{
+  "translation_id": "D02_S3_only_Qwen3_r1",
+  "anon_code": "T_0dea847a",
+  "poem_id": "D02",
+  "strategy": "S3_only",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A flock of birds flies away, and a lone cloud drifts off alone. They look at each other with no hatred, and only the Jingting Mountain remains.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express '众鸟高飞尽' with '全部、消失'之意。",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A flock of birds flies away, and a lone cloud drifts off alone.",
+        "evidence_found": true,
+        "reasoning": "The translation contains 'A flock of birds' which does not match the '孤云' in the original phrase. The phrase 'look at each other with no hatred' does not preserve the meaning of '独去闲'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A flock of birds flies away, and a lone cloud drifts off alone. They look at each other with no hatred, and only the Jingting Mountain remains.",
+        "evidence_found": true,
+        "reasoning": "The translation does not mention '人与山互相看着' and the mountain is not portrayed as the active viewer.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "They look at each other with no hatred, and only the Jingting Mountain remains.",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the phrase 'only敬亭山' as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.95,
+    "valid": true
+  }
+}

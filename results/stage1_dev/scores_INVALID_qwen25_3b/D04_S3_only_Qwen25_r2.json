@@ -1,0 +1,57 @@
+{
+  "translation_id": "D04_S3_only_Qwen25_r2",
+  "anon_code": "T_cd3a04a2",
+  "poem_id": "D04",
+  "strategy": "S3_only",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The waters of桃花潭 are deep A thousand feet And do not match the affection You have shown in sending me off",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the original phrase '桃花潭水深千尺' and does not express the depth of the water in a way that matches the original meaning or exaggeration.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The waters of桃花潭 are deep A thousand feet And do not match the affection You have shown in sending me off",
+        "evidence_found": true,
+        "reasoning": "The phrase '不及' is not preserved and the translation changes '不及' to '不深' which means 'not deep', not 'not match the affection' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "You have shown in sending me off",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the original meaning and structure as specified in the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The waters of桃花潭are deep A thousand feet And do not match the affection You have shown in sending me off",
+        "evidence_found": false,
+        "reasoning": "The translation does not preserve the original phrase '情' and does not use the metaphor of water depth to compare the depth of feelings as intended.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\"adequacy\":1,\"imagery\":0,\"emotion\":1,\"fluency\":2,\"poetic_quality\":0}"
+  }
+}

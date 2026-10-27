@@ -1,0 +1,75 @@
+{
+  "translation_id": "D06_S1_T2_Qwen25_r1",
+  "anon_code": "T_be4e2c9d",
+  "poem_id": "D06",
+  "strategy": "S1_T2",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "From afar I know they celebrate high",
+        "evidence_found": true,
+        "reasoning": "The phrase 'From afar I know' does not convey 'in distant imagination' as required; it implies direct knowledge rather than imaginative inference.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "From afar I know they celebrate high",
+        "evidence_found": true,
+        "reasoning": "The phrase does not mention 'brothers' as the subject, and 'celebrate high' does not convey 'climb the heights' meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "With茱萸遍插一身少，one less among the crowd.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'With茱萸遍插一身少' contains the Chinese characters '茱萸' and '遍插', but the English translation uses 'With茱萸' which mixes Chinese characters with English, and the phrase '遍插一身少' is not a standard English phrase. The required meaning 'everyone's head is decorated with dogwood sprigs' is not clearly expressed in the English translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "With茱萸遍插一身少，one less among the crowd.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'one less among the crowd' does not explicitly state that the person missing is the speaker, and the Chinese phrase '少了我一个人' specifically refers to the speaker being the one missing.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "valid": false,
+    "raw": "{\n  \"original\": \"遥知兄弟登高处，遍插茱萸少一人。\",\n  \"academic_translation\": \"From afar I know they celebrate high, With茱萸遍插一身少，one less among the crowd.\",\n  \"poetic_reading\": \"From afar I know they celebrate high, With茱萸遍插一身少, one less among the crowd.\"\n}"
+  }
+}

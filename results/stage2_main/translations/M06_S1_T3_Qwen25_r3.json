@@ -1,0 +1,19 @@
+{
+  "id": "M06_S1_T3_Qwen25_r3",
+  "poem_id": "M06",
+  "trap_type": "拟人意象",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n春眠不觉晓，处处闻啼鸟。\n夜来风雨声，花落知多少。",
+  "prompt_sha256": "d58d0cd627b00c830097e6233aa80cd3331cccff0dbb4053f768dcf332f448c5",
+  "translation": "Spring slumber unaware of dawn, \nBirdsong everywhere, in every corner.\nLast night's thunder and rain sounds,\nHow many flowers fell, I cannot tell.\n\n[Note: The thunder and rain of the previous night caused many flowers to fall, a common occurrence in nature but also a melancholy reflection on the fleeting nature of beauty.]",
+  "metadata": {
+    "input_tokens": 230,
+    "output_tokens": 69,
+    "latency_ms": 1037.7721786499023,
+    "timestamp": "2026-10-26T19:45:48.586569",
+    "finish_reason": "stop"
+  }
+}

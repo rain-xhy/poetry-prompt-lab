@@ -1,0 +1,67 @@
+{
+  "translation_id": "M03_S5_T2_Qwen25_r3",
+  "anon_code": "T_bf6424e2",
+  "poem_id": "M03",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Doomsday near, yet hope holds fast, In distant lands, a lover's face. When skies part and the west window sparkles, Together we'll recall, in candlelight.",
+        "evidence_found": true,
+        "reasoning": "The translation describes a future reunion with hope and imagery of candlelight, but does not convey the uncertainty of the return date as required; it focuses on positive anticipation rather than the 'cannot yet be set' meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When skies part and the west window sparkles",
+        "evidence_found": true,
+        "reasoning": "The phrase 'when skies part' does not convey the future assumption of 'when will' as required; it describes a current or conditional state rather than a future time frame.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When skies part and the west window sparkles, Together we'll recall, in candlelight.",
+        "evidence_found": true,
+        "reasoning": "The translation refers to a future recall ('Together we'll recall') rather than past memories, failing to capture the '将来回忆过去' (future recalling past) temporal relationship required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Doomsday near, yet hope holds fast, In distant lands, a lover's face. When skies part and the west window sparkles, Together we'll recall, in candlelight.",
+        "evidence_found": true,
+        "reasoning": "The translation describes a lover's perspective and future recollection, not the literal meaning of rain causing a pool to rise in autumn, and does not include the required imagery of 巴山 (Ba Shan), 夜雨 (night rain), or 秋池 (autumn pool).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 1.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

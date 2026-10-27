@@ -1,0 +1,62 @@
+{
+  "translation_id": "D05_S5_T3_Qwen25_r2",
+  "anon_code": "T_46294ea4",
+  "poem_id": "D05",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of生死, both absent, unthought of.",
+        "evidence_found": true,
+        "reasoning": "The phrase '十年生死' is not preserved in the translation, only '十年生死两茫茫' is mentioned but not preserved in the exact form.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Not thinking of them, they remain dear.",
+        "evidence_found": true,
+        "reasoning": "The translation maintains the original phrase '不思量，自难忘' but changes the context and meaning, which does not preserve the correct translation of '即使不刻意去想，也自然难忘'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "No mention of '孤独' (lonely) or '千里' (thousand miles) in the translation.",
+        "evidence_found": false,
+        "reasoning": "The translation does not contain the words '孤独' (lonely) or '千里' (thousand miles) as required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "No place to speak of sorrow.",
+        "evidence_found": true,
+        "reasoning": "The exact phrase 'no place to speak of sorrow' is used, but the rest of the sentence does not match the original '没有地方、没有人可诉说凄凉'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 2,
+    "poetic_quality": 2,
+    "overall": 3.25,
+    "valid": true
+  }
+}

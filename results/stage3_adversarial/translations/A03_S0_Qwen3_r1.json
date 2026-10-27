@@ -1,0 +1,19 @@
+{
+  "id": "A03_S0_Qwen3_r1",
+  "poem_id": "A03",
+  "trap_type": "emotional_suppression",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n欲语还休，却道天凉好个秋。",
+  "prompt_sha256": "b9fe62cae991bd62d892bd7375c89208707d8bfe5be98d8246421c21a967aff8",
+  "translation": "When I wish to speak, it is interrupted; yet I say, \"It is cool and beautiful this autumn.\"",
+  "metadata": {
+    "input_tokens": 41,
+    "output_tokens": 24,
+    "latency_ms": 332.0591449737549,
+    "timestamp": "2026-10-26T21:52:48.318694",
+    "finish_reason": "stop"
+  }
+}

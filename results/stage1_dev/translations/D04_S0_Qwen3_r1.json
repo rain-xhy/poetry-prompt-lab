@@ -1,0 +1,19 @@
+{
+  "id": "D04_S0_Qwen3_r1",
+  "poem_id": "D04",
+  "trap_type": "否定逻辑",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n桃花潭水深千尺，不及汪伦送我情。",
+  "prompt_sha256": "03f96b48bcf3f324db9f27925699b86807a6e4e590d178c0e606d512dd74aa85",
+  "translation": "The depth of the Peach Blossom Lake is thousands of feet, but it cannot compare to the sincere farewell之情 sent by Wang Dun.",
+  "metadata": {
+    "input_tokens": 42,
+    "output_tokens": 28,
+    "latency_ms": 9577.966451644897,
+    "timestamp": "2026-10-26T16:33:30.289158",
+    "finish_reason": "stop"
+  }
+}

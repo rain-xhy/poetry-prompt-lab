@@ -1,0 +1,19 @@
+{
+  "id": "A02_S0_Qwen25_r3",
+  "poem_id": "A02",
+  "trap_type": "subject_confusion",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n春眠不觉晓，处处闻啼鸟。\n夜来风雨声，花知落多少。",
+  "prompt_sha256": "7ada5d51cbeb4785af19733363d5d8bcfd55b96068e6b4a67a3c119d8ed26d94",
+  "translation": "Here is an English translation of the Chinese classical poem you provided:\n\nSpring slumber unaware of dawn,\nBirdsong heard everywhere in spring.\nLast night's wind and rain, how many blooms did you shed?\nThis translation aims to capture the essence and rhythm of the original poem while making it accessible in English. The poem speaks about the peacefulness of spring sleep and the sudden awakening to the sounds of birds in the morning, while also contemplating the transient beauty of nature in the form of blooming flowers and falling petals.",
+  "metadata": {
+    "input_tokens": 62,
+    "output_tokens": 105,
+    "latency_ms": 13762.496709823608,
+    "timestamp": "2026-10-26T21:51:43.713279",
+    "finish_reason": "stop"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M04_S2_T1_Qwen3_r2",
+  "anon_code": "T_4155e444",
+  "poem_id": "M04",
+  "strategy": "S2_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When two hearts are truly enduring, what need they for day and night? Yet how could they care for the fleeting hours of mutual embrace?",
+        "evidence_found": true,
+        "reasoning": "The translation does not use a conditional clause (if/as long as) to express the condition that 'if two people's emotions are long-lasting', which is required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When two hearts are truly enduring, what need they for day and night?",
+        "evidence_found": true,
+        "reasoning": "The phrase directly addresses the need for constant presence, using a rhetorical question to imply that day and night (daily) commitment is unnecessary, fulfilling the requirement of expressing a negation or question about not needing daily adherence.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When two hearts are truly enduring, what need they for day and night? Yet how could they care for the fleeting hours of mutual embrace?",
+        "evidence_found": true,
+        "reasoning": "The translation conveys the continuous and repetitive nature of time through phrases like 'day and night' and 'fleeting hours', preserving the time叠加感 while expressing the required meaning of enduring presence.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When two hearts are truly enduring, what need they for day and night? Yet how could they care for the fleeting hours of mutual embrace?",
+        "evidence_found": true,
+        "reasoning": "The translation maintains the conditional structure 'if two hearts are enduring' and the rhetorical question 'what need they for day and night' to reflect the original's condition-conclusion logic, while the second sentence's 'how could they care' implies the inverse condition and reinforces the original's contrast.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

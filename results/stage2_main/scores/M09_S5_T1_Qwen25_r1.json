@@ -1,0 +1,67 @@
+{
+  "translation_id": "M09_S5_T1_Qwen25_r1",
+  "anon_code": "T_68ba2542",
+  "poem_id": "M09",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "The moon sets, and the乌鸦啼叫，霜覆盖满天.",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly lists three distinct imagery elements: moon setting, crows crying, and frost covering the sky, without establishing any causal relationship between them.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Rounding the sorrow, I sleep beside the river maple and fishing lights.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Rounding the sorrow' does not convey '面对愁绪' (facing sorrow) as it implies moving around sorrow rather than directly facing it, and 'I sleep beside the river maple and fishing lights' does not explicitly show '愁绪伴随睡眠' (sorrow accompanying sleep) as the sleep is described as happening beside the river maple and fishing lights without sorrow being a continuous companion.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "sleep beside the river maple and fishing lights",
+        "evidence_found": true,
+        "reasoning": "The phrase 'river maple' is incorrect; it should be 'riverbank maple' to match the original's '江边枫树' (riverbank maple trees).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The moon sets, and the乌鸦啼叫，霜覆盖满天.",
+        "evidence_found": false,
+        "reasoning": "The phrase contains a non-Chinese character '乌鸦' (which is 'crow' in Chinese) and the phrase '霜覆盖满天' translates to 'frost covers the sky', which does not convey the required 'nightboat solitude and coldness' but instead describes a scene with crows and frost, failing to meet the condition of expressing solitude and coldness without joy.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

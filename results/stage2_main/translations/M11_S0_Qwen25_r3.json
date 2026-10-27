@@ -1,0 +1,19 @@
+{
+  "id": "M11_S0_Qwen25_r3",
+  "poem_id": "M11",
+  "trap_type": "否定逻辑",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n床前明月光，疑是地上霜。\n举头望明月，低头思故乡。",
+  "prompt_sha256": "39a2d73a9b75d78e81e661a11c4cf3c608c0458fc5db8bae787dbb21f98fbdaf",
+  "translation": "Here is a translation of the Chinese classical poem to English:\n\nBeside my bed a bright moonlight shines,\nI take this to be frost on the ground.\nI lift my head and gaze at the bright moon,\nI bow my head and think of home.",
+  "metadata": {
+    "input_tokens": 62,
+    "output_tokens": 53,
+    "latency_ms": 10662.097215652466,
+    "timestamp": "2026-10-26T20:14:26.262900",
+    "finish_reason": "stop"
+  }
+}

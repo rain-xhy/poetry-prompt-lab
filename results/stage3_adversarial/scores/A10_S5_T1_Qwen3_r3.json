@@ -1,0 +1,58 @@
+{
+  "translation_id": "A10_S5_T1_Qwen3_r3",
+  "anon_code": "T_7c6b89f2",
+  "poem_id": "A10",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Once we shared the west window candlelight",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Once we shared the west window candlelight' uses 'Once' to indicate a past action, fulfilling the requirement to preserve '曾经' as past tense.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When you inquire of my return date, I have no fixed time—",
+        "evidence_found": true,
+        "reasoning": "This line explicitly states the uncertainty of the return date, indicating that the speaker is recalling past events rather than anticipating future ones.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When you inquire of my return date, I have no fixed time—",
+        "evidence_found": true,
+        "reasoning": "The original phrase '与原诗对比' requires checking the translation of the Chinese classical poem '夜雨寄北', but the translation provided does not correctly reflect the time sequence. The phrase '何当' in the original poem refers to a future time ('when will I be able to'), but the translation uses 'I have no fixed time' which implies a present or indefinite time, not the future. The condition requires that the translation's tense should be opposite to the original poem, but the translation does not correctly capture the future tense of '何当' as 'when will I be able to' instead of the present indefinite tense.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

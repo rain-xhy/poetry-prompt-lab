@@ -1,0 +1,62 @@
+{
+  "translation_id": "D06_S5_T2_Qwen25_r2",
+  "anon_code": "T_608c3ebb",
+  "poem_id": "D06",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "From afar, I know my brothers climb high",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'From afar, I know my brothers climb high' which does not match the '遥知' (from afar, I know) in the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "From afar, I know my brothers climb high",
+        "evidence_found": true,
+        "reasoning": "The main subject 'brothers' is not preserved in the translation",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "They gaze at mountains, then at riverside,",
+        "evidence_found": true,
+        "reasoning": "The phrase '每个人头上都插着茱萸' is not preserved in the translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "silent sighs",
+        "evidence_found": true,
+        "reasoning": "The phrase '少一人' is not preserved in the translation. The translation does not explicitly mention that one person is missing, but rather implies it through the context of 'silent sighs'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.95,
+    "valid": true
+  }
+}

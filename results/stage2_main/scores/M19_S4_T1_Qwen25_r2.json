@@ -1,0 +1,67 @@
+{
+  "translation_id": "M19_S4_T1_Qwen25_r2",
+  "anon_code": "T_35643e77",
+  "poem_id": "M19",
+  "strategy": "S4_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I met you many times at Ji Wang's mansion, And in Cui Jiu's hall, too.",
+        "evidence_found": true,
+        "reasoning": "The translation states 'met you many times' which implies past frequency but the phrase 'I meet you once more' at the end contradicts the requirement for past tense of multiple encounters, and the context suggests a single meeting rather than repeated ones.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When flowers fall, I meet you once more.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'meet you once more' directly translates to '又逢' (again meeting) in the present tense, fulfilling the requirement for current reunion.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I met you many times at Ji Wang's mansion, And in Cui Jiu's hall, too. It's the blossoming season in Jiang Nan, When flowers fall, I meet you once more.",
+        "evidence_found": true,
+        "reasoning": "The translation focuses on repeated meetings and seasonal changes but does not explicitly contrast past prosperity with current decline as required by '昔日繁华vs今日飘零'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When flowers fall, I meet you once more.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'When flowers fall' directly preserves the '落花' (falling flowers) imagery, and the context implies the symbolic meaning of fleeting beauty and temporary meetings.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.45,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

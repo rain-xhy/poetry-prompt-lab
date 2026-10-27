@@ -1,0 +1,67 @@
+{
+  "translation_id": "M16_S0_Qwen25_r2",
+  "anon_code": "T_00ebfb0f",
+  "poem_id": "M16",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The rooster's crowing over the thatched inn pierces the moon",
+        "evidence_found": true,
+        "reasoning": "The phrase 'the rooster's crowing over the that: the translation uses 'rooster's crowing' which is a direct translation of '鸡鸣', but the original phrase '鸡声茅店月' implies a specific scene where the rooster's crowing is heard at a thatched inn with the moon still visible. The translation states 'over the thatched inn pierces the moon', which suggests the moon is being pierced by the crowing, but the original phrase implies the moon is still visible in the sky above the thatched inn. The translation does not accurately capture the 'extreme omission' of the original phrase, which is a very concise description of the scene where the rooster's crowing is heard at a thatched inn with the moon still visible.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Footprints on the bridge covered in frost.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Footprints on the bridge covered in frost' does not match the required structure of '人的足迹在板桥的霜上' which implies the footprints are on the bridge that is covered in frost, not the bridge itself being covered in frost.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Recalling a dream of Du Ling",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Recalling a dream of Du Ling' directly expresses the meaning of 'therefore thinking of the dream in Du Ling' as required, indicating a memory of a dream set in Du Ling.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Geese and ducks abound in the curved pond.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'curved pond' directly translates the '曲折池塘' (curved/winding pond) and 'geese and ducks abound' matches '凫雁满布' (geese and ducks are abundant).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M09_S4_T1_Qwen3_r1",
+  "anon_code": "T_242866a7",
+  "poem_id": "M09",
+  "strategy": "S4_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Moon falls, cranes cry, frost stains the sky—",
+        "evidence_found": true,
+        "reasoning": "The translation includes three images (moon, cranes, frost) but the phrase 'frost stains the sky' implies a causal relationship between frost and the sky, which violates the requirement of not establishing causality.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "sorrowful sleep",
+        "evidence_found": true,
+        "reasoning": "The phrase 'sorrowful sleep' directly conveys '面对愁绪而眠' by indicating sleep accompanied by sorrow, fulfilling the requirement that '愁绪' (sorrow) accompanies sleep.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The river's maple fire lights the sorrowful sleep",
+        "evidence_found": true,
+        "reasoning": "The phrase 'maple fire' directly refers to '枫树' (maple trees) and 'fish fire' (渔火) as a combined image, with 'river's' indicating the river context.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Moon falls, cranes cry, frost stains the sky—",
+        "evidence_found": true,
+        "reasoning": "The phrase conveys a lonely and cold atmosphere with natural elements suggesting isolation and sorrow, avoiding any joyful connotations.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

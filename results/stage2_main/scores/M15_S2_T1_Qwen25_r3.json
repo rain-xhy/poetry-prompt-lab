@@ -1,0 +1,67 @@
+{
+  "translation_id": "M15_S2_T1_Qwen25_r3",
+  "anon_code": "T_c8611b2c",
+  "poem_id": "M15",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why should the羌笛blues blame the willows' fading spring",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Why should' forms a rhetorical question implying 'there is no need to', matching the required meaning of '不必/no need to' as a negation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "For the春风never reaches玉门关",
+        "evidence_found": true,
+        "reasoning": "The phrase 'never reaches' explicitly conveys the negative meaning (not reaching) and the geographical limitation (玉门关) as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why should the羌笛blues blame the willows' fading spring, For the春风never reaches玉门关.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the cause (spring wind not reaching Jade Gate Pass) and effect (blaming willows' fading spring) with clear causal relationship as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why should the羌笛blues blame the willows' fading spring",
+        "evidence_found": true,
+        "reasoning": "The phrase '羌笛blues' directly references the羌笛 (Qiang flute) and 'blues' implies the musical context, while 'willows' fading spring' alludes to the traditional symbol of parting in the context of the '折杨柳' (cutting willows) song, which carries the connotation of farewell.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

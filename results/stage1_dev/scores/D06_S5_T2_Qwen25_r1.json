@@ -1,0 +1,76 @@
+{
+  "translation_id": "D06_S5_T2_Qwen25_r1",
+  "anon_code": "T_fd8fc32d",
+  "poem_id": "D06",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "From afar, I know my brothers climb high",
+        "evidence_found": true,
+        "reasoning": "The phrase 'From afar, I know' directly translates the required meaning of 'in distant imagination know' without using 'I see/I watch'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "From afar, I know my brothers climb high",
+        "evidence_found": true,
+        "reasoning": "The phrase 'brothers climb high' directly corresponds to the required meaning of 'brothers登高' (brothers climb the heights) as specified in the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Their heads all crowned with fragrant chrysium",
+        "evidence_found": true,
+        "reasoning": "The phrase 'heads all crowned' corresponds to 'everyone's head wearing' and 'fragrant chrysium' refers to the preserved 'cornel/dogwood sprigs' as per the guidelines.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Yet one is missing, standing alone",
+        "evidence_found": true,
+        "reasoning": "The phrase 'one is missing' directly corresponds to '少了一个人' (one person is missing), and 'standing alone' implies the speaker is the missing person, fulfilling the requirement that the person is the speaker.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

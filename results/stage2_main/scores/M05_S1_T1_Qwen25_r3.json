@@ -1,0 +1,67 @@
+{
+  "translation_id": "M05_S1_T1_Qwen25_r3",
+  "anon_code": "T_550bdca4",
+  "poem_id": "M05",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I search in vain, alone and cold, In silence deep, sorrowfully fraught, With anguish thick, and fear profound.",
+        "evidence_found": true,
+        "reasoning": "The translation describes emotional states and feelings but does not convey the repetitive or continuous action of searching as required by the original phrase '寻寻觅觅'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I search in vain, alone and cold, In silence deep, sorrowfully fraught, With anguish thick, and fear profound.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys a cold, desolate environment through phrases like 'alone and cold' and 'silence deep', and the progression from solitude to deep sorrow and fear meets the requirement of forming a recursive relationship with the previous line.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I search in vain, alone and cold, In silence deep, sorrowfully fraught, With anguish thick, and fear profound.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys deep sorrow through layered emotional expressions: 'sorrowfully fraught' indicates emotional weight, 'anguish thick' shows intense distress, and 'fear profound' adds depth to the emotional progression.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I search in vain, alone and cold, In silence deep, sorrowfully fraught, With anguish thick, and fear profound.",
+        "evidence_found": true,
+        "reasoning": "The translation follows the required structure: first line describes action (searching), second line describes environment (silence), third line describes emotion (sorrow and fear), maintaining the sequence without disruption.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

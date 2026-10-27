@@ -1,0 +1,67 @@
+{
+  "translation_id": "M08_S1_T3_Qwen3_r2",
+  "anon_code": "T_1e5f473e",
+  "poem_id": "M08",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no person is seen, but the sound of human speech is heard",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts 'no person is seen' (看不见) with 'the sound of human: speech is heard' (听得见说话声), fulfilling the requirement to preserve the contrast between 'invisible' and 'audible' without implying 'no one is present'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The reflected light enters the deep forest",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The reflected light enters the deep forest' directly translates the dynamic movement of '返景' (reflected light from the sun) entering the deep forest as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "it shines upon the green moss",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it shines upon the green moss' directly corresponds to the required meaning of '又照在青苔上' by expressing the reflection of light illuminating the moss.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In the quiet mountain, no person is seen, but the sound of human speech is heard. The reflected light enters the deep forest, and it shines upon the green moss.",
+        "evidence_found": true,
+        "reasoning": "The translation describes a mountain with human speech sounds and green moss, which contradicts the requirement for the mountain to be empty (no people) and quiet (no sound), and it mentions 'deep forest' which implies a different environment than a solitary mountain.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

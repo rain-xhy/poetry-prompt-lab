@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S0_Qwen3_r2",
+  "anon_code": "T_7ba40eba",
+  "poem_id": "M07",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The once-grand halls of Wang and Che",
+        "evidence_found": true,
+        "reasoning": "The translation preserves 'Wang' and 'Che' as specific family names, matching the requirement for the Eastern Jin Wang and Xie clans.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The once-grand halls of Wang and Che now host commoners in the street.",
+        "evidence_found": true,
+        "reasoning": "The phrase explicitly contrasts the past grandeur of Wang and Che's halls with their current state of hosting commoners, fulfilling both time and social class contrasts.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "At the edge of the Juzhai Bridge, wild grass blooms in the wild wild; At the mouth of the Wuyi Lane, the sunset casts a shadow in the west.",
+        "evidence_found": true,
+        "reasoning": "The translation focuses on the bridge and lane settings with grass and sunset, but does not mention any燕子 (swallows) as a witness, failing to preserve the燕子 as a witness imagery.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "wild grass blooms in the wild wild; the sunset casts a shadow in the west",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly mentions 'wild grass' and 'sunset' while conveying a desolate atmosphere through the phrase 'blooms in the wild wild' and 'casts a shadow in the west', which implies abandonment and decay.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

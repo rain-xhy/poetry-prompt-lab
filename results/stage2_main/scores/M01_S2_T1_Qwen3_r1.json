@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S2_T1_Qwen3_r1",
+  "anon_code": "T_5f4c4cc5",
+  "poem_id": "M01",
+  "strategy": "S2_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The poet's heart is filled with deep emotion yet seems indifferent",
+        "evidence_found": true,
+        "reasoning": "This phrase directly captures 'deep love/affection' and 'seeming coldness/indifference' while maintaining the paradoxical tension between them.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Despite the effort to smile at the table, it is impossible to find the strength to do so",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it is impossible to find the strength to do so' implies a lack of physical ability rather than an emotional state of 'cannot smile', and the translation does not explicitly mention 'at the farewell wine' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The candle, with its own inner feelings, mourns the departure, offering tears in its place to those who would otherwise weep.",
+        "evidence_found": true,
+        "reasoning": "The translation describes the candle as having inner feelings and mourning departure, but the original phrase '蜡烛有心还惜别' specifically refers to the candle's own emotional attachment to the act of parting, not the candle offering tears to others. The phrase 'offering tears in its place to those who would otherwise weep' introduces an additional element (tears for others) that the original does not have, thus weakening the direct personification of the candle itself.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Its tears fall until the morning sun rises.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'until the morning sun rises' captures the time continuation 'to the dawn' as required, and the context implies the candle's action of 'offering tears in its place to those who would otherwise weep' which corresponds to '替人垂泪' (candle weeping for others).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

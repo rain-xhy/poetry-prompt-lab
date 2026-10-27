@@ -1,0 +1,76 @@
+{
+  "translation_id": "D02_S5_T2_Qwen25_r2",
+  "anon_code": "T_90161eb2",
+  "poem_id": "D02",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "众鸟高飞空",
+        "evidence_found": true,
+        "reasoning": "The phrase '众鸟高飞空' implies that the birds have all flown away, which matches the requirement of expressing 'bird group all flew away' with the meaning of 'all' and 'disappearance'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "孤云自在行",
+        "evidence_found": true,
+        "reasoning": "The phrase '孤云自在行' contains '孤云' (lonely cloud) and '自在' (free, at ease) which directly translates to 'lonely cloud freely moving' and meets the requirement of having '孤' and '独自' (alone) meaning, while '自在' implies a calm and leisurely state.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "relative two without speech, only mountain listens",
+        "evidence_found": false,
+        "reasoning": "The phrase does not explicitly state that the mountain is the active viewer; it describes the mountain as a passive listener, which contradicts the requirement that the mountain must be the active observer.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "惟有山倾听",
+        "evidence_found": true,
+        "reasoning": "The phrase '惟有山倾听' translates to 'only the mountain listens', which includes the required 'only' and refers to Jingting Mountain as the subject of listening, fulfilling the conditions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.95,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

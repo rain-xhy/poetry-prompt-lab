@@ -1,0 +1,58 @@
+{
+  "translation_id": "A03_S1_T1_Qwen25_r1",
+  "anon_code": "T_70e7b5ba",
+  "poem_id": "A03",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I want to speak but hold back, Yet say: the cool autumn is best.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly convey the 'contradiction of wanting to speak but stopping' as required; it focuses on the speaker's internal conflict but does not clearly show the 'stop' action in the context of speech.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I want to speak but hold back, Yet say: the cool autumn is best.",
+        "evidence_found": true,
+        "reasoning": "The translation does not distinguish between true emotion and surface words as required; it presents the 'cool autumn' as the speaker's genuine preference rather than a surface statement.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I want to speak but hold back, Yet say: the cool autumn is best.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the internal emotional conflict (wanting to speak but holding back) and the contrast between inner feeling and external expression (saying the cool autumn is best), reflecting the required '反差' or contrast.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

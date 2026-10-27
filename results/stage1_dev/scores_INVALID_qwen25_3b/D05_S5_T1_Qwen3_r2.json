@@ -1,0 +1,62 @@
+{
+  "translation_id": "D05_S5_T1_Qwen3_r2",
+  "anon_code": "T_3217c6cc",
+  "poem_id": "D05",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of separation, both living and dead, vast and unspoken.",
+        "evidence_found": true,
+        "reasoning": "The phrase '十年生死两茫茫' (Ten years of separation, both living and dead) is not preserved in the translation, only '十年生死' (Ten years of life and death) is mentioned.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A lonely grave, far away, where words cannot be shared in sorrow.",
+        "evidence_found": true,
+        "reasoning": "The translation introduces a new metaphor 'A lonely grave, far away, where words cannot be shared in sorrow.' which is not present in the original phrase and does not align with the meaning of '不思量，自难忘'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "a lonely grave, far away, where words cannot be shared in sorrow.",
+        "evidence_found": true,
+        "reasoning": "The phrase '相隔千里的孤独坟墓' (a lonely grave, far away, where words cannot be shared in sorrow) does not contain the word '孤独' (lonely).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "not thinking, yet it is deeply remembered",
+        "evidence_found": true,
+        "reasoning": "The translation includes a phrase not present in the original phrase and does not express '无处话凄凉'",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 2,
+    "overall": 3.85,
+    "valid": true
+  }
+}

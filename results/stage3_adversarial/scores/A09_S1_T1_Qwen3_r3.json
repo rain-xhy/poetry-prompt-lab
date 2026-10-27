@@ -1,0 +1,58 @@
+{
+  "translation_id": "A09_S1_T1_Qwen3_r3",
+  "anon_code": "T_3b788828",
+  "poem_id": "A09",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Only because the dragon city general is stationed there",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Only because' directly translates the causal relationship indicated by '只因' in the original Chinese, fulfilling the requirement to preserve the causal meaning rather than conditional.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The bright moon of the Qin dynasty, the ancient watchtower of the Han, A thousand miles of journey, yet the soldiers remain unreturned. Only because the dragon city general is stationed there, The northern horses cannot pass through the Yin Mountain.",
+        "evidence_found": true,
+        "reasoning": "The translation describes a historical context with factual references to dynasties and locations, maintaining a declarative tone without hypothetical language.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Only because the dragon city general is stationed there",
+        "evidence_found": true,
+        "reasoning": "The phrase 'only because' implies a causal relationship where the general's presence is the reason for the horses not passing, but the original poem uses '但使' to indicate a conditional relationship (if the general is stationed, then the horses cannot pass), not a causal one. The translation changes the logical relationship from conditional to causal, which violates the requirement to preserve the 'but make' to 'only because' logical change.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

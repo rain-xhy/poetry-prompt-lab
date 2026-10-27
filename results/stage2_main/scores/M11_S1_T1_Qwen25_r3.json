@@ -1,0 +1,67 @@
+{
+  "translation_id": "M11_S1_T1_Qwen25_r3",
+  "anon_code": "T_8eefc4ff",
+  "poem_id": "M11",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Looks like frost on the ground",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Looks like' uses the verb 'seems' to express uncertainty, matching the requirement of using a speculative verb without stating it as a definite fact.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I lift my head to gaze at the bright moon, Lower my head, thinking of home.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly shows the sequence of actions (lifting head to look at moon, then lowering head to think of home) and implies that observing the moon leads to thoughts of home.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "By the bed, the bright moonlight",
+        "evidence_found": true,
+        "reasoning": "The phrase 'By the bed, the bright moonlight' directly translates the original '床前明月光' while preserving the '床前' position and expressing '月光明亮' as 'bright moonlight'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "By the bed, the bright moonlight, Looks like frost on the ground. I lift my head to gaze at the bright moon, Lower my head, thinking of home.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys a sense of quietness through the moonlight and frost imagery, and the act of lowering the head to think of home expresses solitude and homesickness.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "A09_S0_Qwen3_r3",
+  "poem_id": "A09",
+  "trap_type": "conditional_to_causal",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n秦时明月汉时关，万里长征人未还。\n只因龙城飞将在，胡马不度阴山。",
+  "prompt_sha256": "99095a7c75f6e712d33b31536dfaf736968d44d04c759701d2cbaed80331b962",
+  "translation": "When the moon shone over the Qin dynasty and the Great Wall of the Han, the journey of a thousand li remained unreturning, as soldiers wandered far and wide.  \nFor it was because of the flying general at Lóng Chéng, that the horses of the enemy could not cross the Yin Shān.",
+  "metadata": {
+    "input_tokens": 56,
+    "output_tokens": 67,
+    "latency_ms": 651.111364364624,
+    "timestamp": "2026-10-26T21:51:07.049025",
+    "finish_reason": "stop"
+  }
+}

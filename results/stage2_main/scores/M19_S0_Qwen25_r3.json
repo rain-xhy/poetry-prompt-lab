@@ -1,0 +1,67 @@
+{
+  "translation_id": "M19_S0_Qwen25_r3",
+  "anon_code": "T_ded3fe67",
+  "poem_id": "M19",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I've known the Qiwang's mansion well, Through countless visits to Cuijiu's hall.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'countless visits' implies frequent occurrence but does not explicitly convey 'multiple times heard' as required by the original phrase's meaning of past repeated hearing.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "We meet again in this season of fading blooms.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'We meet again' directly translates to '又逢' (again meeting), and 'in this season of fading blooms' implies the current context of the meeting, fulfilling the requirement for present tense and 'again' meeting.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When the Jiangnan scenery is at its finest, We meet again in this season of fading blooms.",
+        "evidence_found": true,
+        "reasoning": "The translation contrasts the peak of Jiangnan's beauty with the decline of the season, implying a change in circumstances over time.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "season of fading blooms",
+        "evidence_found": true,
+        "reasoning": "The phrase 'season of fading blooms' directly preserves the '落花时节' imagery by indicating the time of falling flowers, which symbolizes transience and beauty in decline, aligning with the required symbolic meaning.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

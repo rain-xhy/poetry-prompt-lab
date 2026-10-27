@@ -1,0 +1,19 @@
+{
+  "id": "D03_S1_T2_Qwen3_r1",
+  "poem_id": "D03",
+  "trap_type": "否定逻辑",
+  "strategy": "S1_T2",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Poetic rendering for English poetry reading.\nAudience: Poetry lovers at literary events.\nConstraints:\n- Prioritize rhythm and natural flow when read aloud\n- You may adapt imagery for English poetic conventions\n- You may reorder or restructure lines for English verse\n- Preserve the core emotional tone and main imagery\n- You may sacrifice minor details for poetic effect\n- No notes (pure poetry)\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English verse, no title, no author name, no notes.\n\nPoem:\n劝君更尽一杯酒，西出阳关无故人。",
+  "prompt_sha256": "4c50c41150adad76098b68bd9921abb39d18432ce1aa0b48f40e03098bae7a85",
+  "translation": "Beneath your gaze, let the last sip of this wine be ours,  \nA path beyond the Jade Gate, where friends are no more.",
+  "metadata": {
+    "input_tokens": 208,
+    "output_tokens": 31,
+    "latency_ms": 730.0615310668945,
+    "timestamp": "2026-10-26T16:29:24.201521",
+    "finish_reason": "stop"
+  }
+}

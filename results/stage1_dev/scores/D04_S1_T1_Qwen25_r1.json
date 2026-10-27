@@ -1,0 +1,76 @@
+{
+  "translation_id": "D04_S1_T1_Qwen25_r1",
+  "anon_code": "T_d43a6d0b",
+  "poem_id": "D04",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The waters of Peach Blossom Pool run deep,",
+        "evidence_found": true,
+        "reasoning": "The translation states the water is deep but does not convey the exaggeration of 'thousands of feet' or 'extremely deep' as required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "But not as deep as Wang L:eng's love for me",
+        "evidence_found": false,
+        "reasoning": "The phrase 'not as deep as' directly translates the meaning of '比不上' while maintaining the comparison of depth without implying 'deeper' or 'equal depth'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wang Leng's love for me",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Wang Leng's love for me' indicates that Wang Leng is the sender of love, fulfilling the requirement that Wang Leng is the person sending the person (the 'me') away.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The waters of Peach Blossom Pool run deep,",
+        "evidence_found": true,
+        "reasoning": "The phrase does not compare the depth of the waters to the depth of feelings as required; it states the waters run deep without indicating that the love is deeper than the water depth.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

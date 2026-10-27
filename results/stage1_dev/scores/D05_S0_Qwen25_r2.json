@@ -1,0 +1,76 @@
+{
+  "translation_id": "D05_S0_Qwen25_r2",
+  "anon_code": "T_a87b5a05",
+  "poem_id": "D05",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of生死 (life and death), both are void; Not thinking about it, yet it remains deeply in my heart.",
+        "evidence_found": true,
+        "reasoning": "The translation uses '生死' (life and death) as a literal term without translating it into English, which is incorrect. The phrase 'both are void' does not accurately convey the meaning of '两茫茫' (both are distant and indistinct). The translation also fails to express the separation between the living and the dead as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Not thinking about it, yet it remains deeply in my heart",
+        "evidence_found": true,
+        "reasoning": "The phrase 'yet it remains deeply in my heart' implies the memory is still present, but the required meaning is that even without deliberate thought, it is forgotten (not remembered), so the translation incorrectly states the memory remains instead of being forgotten.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A solitary grave at a thousand miles",
+        "evidence_found": true,
+        "reasoning": "The phrase 'solitary grave' directly translates to '孤独坟墓' and 'a thousand miles' indicates the '千里' distance, meeting both required conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Where no words can express my sorrow.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no words can express my sorrow' does not directly convey 'no place/person to speak about sorrow' as required; it focuses on the inability to express sorrow rather than the absence of a place or person to share it.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 1.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.35,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

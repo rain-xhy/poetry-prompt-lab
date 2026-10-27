@@ -1,0 +1,19 @@
+{
+  "id": "M16_S1_T3_Qwen25_r1",
+  "poem_id": "M16",
+  "trap_type": "时态叙事",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n晨起动征铎，客行悲故乡。\n鸡声茅店月，人迹板桥霜。\n槲叶落山路，枳花明驿墙。\n因思杜陵梦，凫雁满回塘。",
+  "prompt_sha256": "375fe10f9d776a4e4ae7bf2eec6c7ddca1463acb7c12f17ae92fe5a88e9066d4",
+  "translation": "Here is the translation of the poem, adhering to the provided guidelines:\n\nCrows cry outside my door at dawn,  \nAwakening wanderer's grief for home.  \nThe moon shines on the thatched inn,  \nFootprints on the frosty plank bridge.  \nHoney-scented leaves fall on the path,  \nBlossoms of osmanthus light up the inn.  \nRecalling dreams of Du Ling,  \nGeese and ducks swim in the pond. \n\nNotes:\n- [Honey-scented leaves (腊梅腊梅) are a metaphorical reference to osmanthus flowers, a common sight in autumn.]\n- [Du Ling, a place near the poet's hometown, is a nostalgic reference for the wandering traveler.]",
+  "metadata": {
+    "input_tokens": 255,
+    "output_tokens": 155,
+    "latency_ms": 2235.394239425659,
+    "timestamp": "2026-10-26T21:02:29.923317",
+    "finish_reason": "stop"
+  }
+}

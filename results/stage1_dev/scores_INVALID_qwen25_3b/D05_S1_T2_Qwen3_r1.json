@@ -1,0 +1,62 @@
+{
+  "translation_id": "D05_S1_T2_Qwen3_r1",
+  "anon_code": "T_6e7d28b7",
+  "poem_id": "D05",
+  "strategy": "S1_T2",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of death and life, two vast distances—",
+        "evidence_found": true,
+        "reasoning": "The rest of the translated text does not match the pass conditions",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Not thinking, yet it is not forgotten.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'Not thinking, yet it is not forgotten.' which contradicts the original '不思量，自难忘' (not thinking, yet it is naturally forgotten).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "a thousand miles of tomb, no place to speak of sorrow.",
+        "evidence_found": true,
+        "reasoning": "The phrase '相隔千里的孤独坟墓' (a thousand miles of tomb, lonely tomb) is not preserved in the translation, only 'a thousand miles of tomb, no place to speak of sorrow.' which does not include '孤独' (lonely).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Not thinking, yet it is not forgotten.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'not thinking, yet it is not forgotten' does not directly express '没有地方、没有人可诉说凄凉' (no place to speak of sorrow). It conveys a different sentiment.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.95,
+    "valid": true
+  }
+}

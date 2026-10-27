@@ -1,0 +1,67 @@
+{
+  "translation_id": "M14_S3_T1_Qwen3_r3",
+  "anon_code": "T_0c2de070",
+  "poem_id": "M14",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If only the general of Longcheng were here, he would not let the nomads cross the mountain range.",
+        "evidence_found": true,
+        "reasoning": "The translation uses the conditional structure 'If only... were here' to express the hypothetical situation where the general's presence would prevent the nomads from crossing, fulfilling the requirement for a condition assumption phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "he would not let the nomads cross the mountain range",
+        "evidence_found": true,
+        "reasoning": "The phrase 'would not let the nomads cross the mountain range' directly translates the required meaning of '不让...越过' as a proactive prevention action.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If only the general of Longcheng were here, he would not let the nomads cross the mountain range.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'If only... he would not...' clearly establishes a conditional relationship where the presence of the general leads to the result of preventing nomads from crossing, fulfilling the condition-result logic required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The journey across ten thousand miles, the soldiers still remain unreturned",
+        "evidence_found": true,
+        "reasoning": "The translation does not mention 'Longcheng general' or any reference to the historical figure associated with 龙城飞将, which is required to preserve the historical context of a border general.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

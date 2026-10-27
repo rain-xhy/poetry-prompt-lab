@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S1_T3_Qwen25_r1",
+  "anon_code": "T_94b1d514",
+  "poem_id": "M02",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Red beans grow in the Southland, Spring blooms, how many sprouts do they sprout? 愿你多多采摘，此物最堪比相: 1. The phrase 'Red beans' directly preserves the Chinese term '红豆' as a specific image. 2. The phrase 'most comparable to longing' (此物最堪比相思) explicitly states its symbolic meaning as a symbol of longing.",
+        "evidence_found": false,
+        "reasoning": "The English translation explicitly uses 'Red beans' to preserve the Chinese term '红豆' and directly states its symbolic meaning as 'most comparable to longing', satisfying both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "愿你多多采摘",
+        "evidence_found": true,
+        "reasoning": "The phrase '愿你多多采摘' directly translates to 'wish you pick many' which expresses a wish/hope and specifically addresses 'you' to pick, meeting both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "此物最堪比相思",
+        "evidence_found": true,
+        "reasoning": "The phrase '此物最堪比相:思' directly translates to 'this thing is most comparable to longing', which meets the requirement of expressing 'this thing most symbolizes/embodies longing' as specified in the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Spring blooms, how many sprouts do they sprout?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Spring blooms' directly refers to the time of spring, and 'how many sprouts do they sprout' captures the natural action of sprouting as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

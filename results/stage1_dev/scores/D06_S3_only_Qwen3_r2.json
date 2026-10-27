@@ -1,0 +1,75 @@
+{
+  "translation_id": "D06_S3_only_Qwen3_r2",
+  "anon_code": "T_70d25438",
+  "poem_id": "D06",
+  "strategy": "S3_only",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When I know my brothers will ascend the high ground",
+        "evidence_found": true,
+        "reasoning": "The phrase 'When I know' implies direct observation rather than imagining from a distance, and 'my brothers will ascend the high ground' describes an action rather than a distant thought.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When I know my brothers will ascend the high ground",
+        "evidence_found": true,
+        "reasoning": "The translation specifies 'brothers' as the subject and includes the meaning of climbing high ground, fulfilling both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When I know my brothers will ascend the high ground, I am filled with sorrow for the one who is missing.",
+        "evidence_found": true,
+        "reasoning": "The translation does not mention anyone wearing or wearing dogwood sprigs, which is required by the original phrase '遍插茱萸' meaning 'everyone wears dogwood sprigs on their heads'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the one who is missing",
+        "evidence_found": true,
+        "reasoning": "The phrase 'the one who is missing' directly corresponds to '少了我一个人' meaning 'one person is missing (me)' as the speaker.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 1.9,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "valid": false,
+    "raw": "{\n  \"original\": \"遥知兄弟登高处，遍插茱萸少一人。\",\n  \"academic_translation\": \"When I know my brothers will ascend the high ground, I am filled with sorrow for the one who is missing.\",\n  \"poetic_reading\": \"When I know my brothers will ascend the high ground, I am filled with sorrow for the one who is missing.\"\n}"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "translation_id": "A05_S5_T1_Qwen25_r2",
+  "anon_code": "T_025284d1",
+  "poem_id": "A05",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I must part from you",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I must part from you' directly translates the meaning of '不得不' as 'must', indicating a necessity that aligns with the requirement to preserve '不得不'=必须.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I must part from you, yet the thought of you never leaves me.",
+        "evidence_found": true,
+        "reasoning": "The translation expresses the conditional relationship where not seeing someone (parting) leads to not thinking of them (thought never leaving), fulfilling the requirement of if...then structure.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I must part from you, yet the thought of you never leaves me.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the dual negation (must part from you) and conditional negation (thought of you never leaves me) by contrasting obligation with persistent thought, fulfilling the requirement to distinguish between the two types of negation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

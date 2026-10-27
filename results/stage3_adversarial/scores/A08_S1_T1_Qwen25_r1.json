@@ -1,0 +1,58 @@
+{
+  "translation_id": "A08_S1_T1_Qwen25_r1",
+  "anon_code": "T_b3dbb4da",
+  "poem_id": "A08",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "In the former grand mansions",
+        "evidence_found": true,
+        "reasoning": "The phrase 'former grand mansions' directly translates to 'former wealthy/noble/aristocratic families', fulfilling the requirement that '豪门' is expressed as a generalized term for wealthy/noble/aristocratic families.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "In the former grand mansions, The swallow has flown into a common household.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'In the former grand mans, The swallow has flown into a common household' directly corresponds to '识别失去了特定历史背景' by indicating the loss of historical context through the swallow's transition from a grand mansion to a common household.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "By the wildflowers growing wild by the Zhuque Bridge, The sun sets slanting over Wu Yi Lane. In the former grand mansions, The swallow has flown into a common household.",
+        "evidence_found": true,
+        "reasoning": "The translation correctly captures the meaning of the original poem by contrasting the past grandeur with the present decay, specifically highlighting the swallow's return to the same dwelling as a symbol of time's passage and change.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

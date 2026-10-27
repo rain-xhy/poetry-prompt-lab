@@ -1,0 +1,67 @@
+{
+  "translation_id": "M04_S1_T3_Qwen3_r3",
+  "anon_code": "T_e59b59f4",
+  "poem_id": "M04",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When two hearts are sincere and enduring, does it matter whether they meet every day or not?",
+        "evidence_found": true,
+        "reasoning": "The translation does not express 'long-term' or 'enduring' as a condition for lasting love; it focuses on daily contact rather than the duration of the relationship.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When two hearts are sincere and enduring, does it matter whether they meet every day or not?",
+        "evidence_found": true,
+        "reasoning": "The translation uses a question format to express doubt about daily meetings, implying that constant presence is unnecessary, which matches the required meaning of 'not needing to meet every day.'",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When two hearts are sincere and enduring, does it matter whether they meet every day or not?",
+        "evidence_found": true,
+        "reasoning": "The translation focuses on meeting every day, but the original phrase '朝朝暮暮' emphasizes continuous, overlapping time periods without specifying meeting frequency, and the required meaning of '日日夜夜、时时刻刻相守' implies constant companionship rather than meeting frequency.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When two hearts are sincere and enduring, does it matter whether they meet every day or not?",
+        "evidence_found": true,
+        "reasoning": "The translation captures the conditional structure 'if...then' by posing the question 'does it matter whether they meet every day or not?' which implies the condition of sincere and enduring hearts leads to the conclusion that daily meetings are not crucial, thus preserving the logical relationship and rhetorical question style.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

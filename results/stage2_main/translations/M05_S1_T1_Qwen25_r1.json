@@ -1,0 +1,19 @@
+{
+  "id": "M05_S1_T1_Qwen25_r1",
+  "poem_id": "M05",
+  "trap_type": "情感反差",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n寻寻觅觅，冷冷清清，凄凄惨惨戚戚。",
+  "prompt_sha256": "0c4de5635aa26c13eafbaa078ea2d2c56990bbe8d44b5719459a7dc671246c18",
+  "translation": "Seeking, yet elusive, cold and lonely, sorrowful and wretched. [Note: This describes the state of a woman mourning the death of her husband.]\n\nNote: \"寻寻觅觅\" (find, find, seek, seek) is a metaphor for her desperate search for her absent husband.",
+  "metadata": {
+    "input_tokens": 240,
+    "output_tokens": 63,
+    "latency_ms": 11866.793394088745,
+    "timestamp": "2026-10-26T19:50:55.117681",
+    "finish_reason": "stop"
+  }
+}

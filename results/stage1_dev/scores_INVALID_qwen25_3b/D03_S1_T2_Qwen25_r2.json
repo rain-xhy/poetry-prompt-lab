@@ -1,0 +1,62 @@
+{
+  "translation_id": "D03_S1_T2_Qwen25_r2",
+  "anon_code": "T_a0cafcae",
+  "poem_id": "D03",
+  "strategy": "S1_T2",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "劝君再饮杯中酒",
+        "evidence_found": true,
+        "reasoning": "我劝你再干一杯酒",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "西行阳关少知音",
+        "evidence_found": true,
+        "reasoning": "The translation contains '西行阳关少知音', which preserves '西' (west) and '阳关' (Yang Pass), but the phrase '向西出了阳关' is not directly quoted or preserved in the translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "彼后漫漫路更远",
+        "evidence_found": true,
+        "reasoning": "翻译中扩大了范围，提到“彼后漫漫路更远”，这与原文“无故人”的范围不符，且增加了新的含义。",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "彼后漫漫路更远，",
+        "evidence_found": true,
+        "reasoning": "The provided translation does not directly preserve the original phrase '劝酒与无故人之因果' and does not clearly establish the connection between the '劝酒' and '无故人' as stated in the original phrase. Instead, it introduces a new phrase '西行阳关少知音' which is not present in the original. The translation also does not preserve the original meaning of '劝酒与无故人之因果'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 2.4,
+    "valid": true
+  }
+}

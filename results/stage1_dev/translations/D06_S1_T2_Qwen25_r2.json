@@ -1,0 +1,19 @@
+{
+  "id": "D06_S1_T2_Qwen25_r2",
+  "poem_id": "D06",
+  "trap_type": "时态叙事",
+  "strategy": "S1_T2",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Poetic rendering for English poetry reading.\nAudience: Poetry lovers at literary events.\nConstraints:\n- Prioritize rhythm and natural flow when read aloud\n- You may adapt imagery for English poetic conventions\n- You may reorder or restructure lines for English verse\n- Preserve the core emotional tone and main imagery\n- You may sacrifice minor details for poetic effect\n- No notes (pure poetry)\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English verse, no title, no author name, no notes.\n\nPoem:\n遥知兄弟登高处，遍插茱萸少一人。",
+  "prompt_sha256": "39ae5eae857a5568a5f46f333bb8d9d62ea1f48c992a2b105f461a733234e3c5",
+  "translation": "From afar I know they climb the heights,\nWith chrysanthemums worn, one less than before.\nI stand by my study window,\nLost in thoughts of home and kin.",
+  "metadata": {
+    "input_tokens": 220,
+    "output_tokens": 38,
+    "latency_ms": 11807.78431892395,
+    "timestamp": "2026-10-26T16:30:27.433819",
+    "finish_reason": "stop"
+  }
+}

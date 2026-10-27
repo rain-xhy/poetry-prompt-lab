@@ -1,0 +1,67 @@
+{
+  "translation_id": "M12_S0_Qwen3_r3",
+  "anon_code": "T_6f544881",
+  "poem_id": "M12",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To seek a thousand miles of view",
+        "evidence_found": true,
+        "reasoning": "The phrase 'To seek' uses a verb phrase indicating purpose (to/want to), and 'a thousand miles of view' specifies the distance as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To seek a thousand miles of view, one must climb higher, one level.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'one must climb higher, one level' directly expresses the requirement to 'climb one more level' as a necessary step for achieving a broader perspective, fulfilling the condition of needing to go up one more level.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To seek a thousand miles of view, one must climb higher, one level.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'To seek a thousand miles of view' expresses the purpose (goal) and 'one must climb higher, one level' expresses the means (action), maintaining the purpose-means logical relationship as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "White sun sets on the mountain, the Yellow River flows into the sea. To seek a thousand miles of view, one must climb higher, one level.",
+        "evidence_found": true,
+        "reasoning": "The translation adds an extra sentence about climbing higher to seek a view, which is not in the original Chinese phrase and does not preserve the two original images without additional content.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

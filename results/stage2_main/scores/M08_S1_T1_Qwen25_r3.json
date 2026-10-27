@@ -1,0 +1,67 @@
+{
+  "translation_id": "M08_S1_T1_Qwen25_r3",
+  "anon_code": "T_10c14fee",
+  "poem_id": "M08",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "No person or place is seen in the empty山,",
+        "evidence_found": true,
+        "reasoning": "The phrase 'No person or place is seen' incorrectly implies 'no one' rather than 'cannot see people', failing to preserve the contrast between '看不见人' (cannot see people) and '听得见说话声' (can hear voices).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The setting sun's light returns to the deep forest",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The setting sun's light returns to the deep forest' directly expresses the dynamic movement of sunlight (返景) as the setting sun (夕阳) entering the deep forest (深林), meeting both conditions of expressing light movement and identifying '返景' as the setting sun.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "And once again lights up the green moss",
+        "evidence_found": true,
+        "reasoning": "The phrase 'once again' corresponds to '又/再次' and 'lights up the green again' matches the '青苔' (green moss) imagery.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "No person or place is seen in the empty山",
+        "evidence_found": true,
+        "reasoning": "The phrase 'empty山' translates to 'empty mountain' which conveys the sense of emptiness and absence of people or places, aligning with the requirement for '空旷、幽静的山' (open and quiet mountain).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

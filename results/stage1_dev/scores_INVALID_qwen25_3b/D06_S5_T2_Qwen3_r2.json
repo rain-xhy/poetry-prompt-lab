@@ -1,0 +1,57 @@
+{
+  "translation_id": "D06_S5_T2_Qwen3_r2",
+  "anon_code": "T_4afe514d",
+  "poem_id": "D06",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I see a single leaf missing from the plum.",
+        "evidence_found": true,
+        "reasoning": "The translation includes 'I see' which is not allowed according to the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When I imagine my brothers climbing the hill",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'climbing the hill' instead of '登高' which is closer to '登高处'",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I see a single leaf missing from the plum.",
+        "evidence_found": true,
+        "reasoning": "The translation does not mention '茱萸' or '插着茱萸' and instead refers to a plum leaf missing, which is not consistent with the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When I imagine my brothers climbing the hill",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly state '少一人' or '少了一人' and does not read out the person as the speaker.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\"adequacy\":1,\"imagery\":0,\"emotion\":1,\"fluency\":2,\"poetic_quality\":0}"
+  }
+}

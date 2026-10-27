@@ -1,0 +1,67 @@
+{
+  "translation_id": "M14_S4_T1_Qwen25_r3",
+  "anon_code": "T_6dba66c5",
+  "poem_id": "M14",
+  "strategy": "S4_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "But if the Lôngchăng general still were here",
+        "evidence_found": true,
+        "reasoning": "The phrase 'But if the L as long as' in the translation uses the conditional 'if' to express the assumption that the Lôngchăng general is still present, fulfilling the requirement for a condition clause with the appropriate tone.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The Hú steeds would never cross the Yīnsān",
+        "evidence_found": true,
+        "reasoning": "The phrase 'would never cross' implies a deliberate prevention of passage, matching the required meaning of 'not allow' as a restrictive action.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "But if the Lôngchăng general still were here, The Hú steeds would never cross the Yīnsān.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'But if... would...' clearly establishes a conditional relationship where the presence of the Lôngchăng general (condition) leads to the result that Hú steeds would not cross the Yī:nsān, preserving the condition-result logic required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A万里 journey sees no one return",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A万里 journey sees no one return' does not directly refer to a border pass or military general as required; it describes a journey with no return, which is not the context of a historical border general.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

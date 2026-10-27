@@ -1,0 +1,67 @@
+{
+  "translation_id": "M09_S5_T2_Qwen25_r3",
+  "anon_code": "T_1a7bf587",
+  "poem_id": "M09",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Moon sets, crows cry,霜覆盖夜: Rushing rivers, faint lights of fishermen, Face my sorrow, in silent slumber.",
+        "evidence_found": false,
+        "reasoning": "The translation introduces new elements like 'Rushing rivers' and 'faint lights of fishermen' which are not in the original Chinese phrase, and the phrase 'Face my sorrow, in silent slumber' adds a new meaning that is not part of the original three意象.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Face my sorrow, in silent slumber.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Face my sorrow' directly reflects '面对愁绪' and 'in silent slumber' corresponds to '而眠', showing both conditions are met.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Rushing rivers, faint lights of fishermen",
+        "evidence_found": true,
+        "reasoning": "The phrase 'faint lights of fishermen' does not correctly convey '渔火' (fishermen's firelight) as it implies the lights are faint due to the fishermen, whereas '渔火' specifically refers to the firelight from fishing activities, not the fishermen themselves.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Moon sets, crows cry,霜覆盖夜空， Rushing rivers, faint lights of fishermen, Face my sorrow, in silent slumber.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys a sense of solitude and coldness through imagery of setting moon, crying crows, frost-covered sky, rushing rivers, and faint fisher lights, all contributing to an atmosphere of quiet melancholy without any joyful elements.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 3,
+    "poetic_quality": 3,
+    "overall": 3.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

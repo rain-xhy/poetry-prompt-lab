@@ -1,0 +1,19 @@
+{
+  "id": "M16_S1_T1_Qwen25_r3",
+  "poem_id": "M16",
+  "trap_type": "时态叙事",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n晨起动征铎，客行悲故乡。\n鸡声茅店月，人迹板桥霜。\n槲叶落山路，枳花明驿墙。\n因思杜陵梦，凫雁满回塘。",
+  "prompt_sha256": "7e048fa82af73f5183c1595145fe82c9f8a6eb843bc6055cf9782b8180ba4a31",
+  "translation": "In the morning, the carriage bells jangle,\nTraveling, I feel homesick for my land.\nRoosters crow as I pass by the lonely inn,\nFootprints on the frost-kissed boardwalk stand.\nHolly leaves fall from the mountain path,\nGrapes bloom on the驿站wall, bright and arrayed.\nRecalling dreams in Du Ling’s countryside,\nGeese and ducks fill the pond’s circling banks.",
+  "metadata": {
+    "input_tokens": 270,
+    "output_tokens": 90,
+    "latency_ms": 10923.003435134888,
+    "timestamp": "2026-10-26T20:22:49.375487",
+    "finish_reason": "stop"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M06_S1_T1_Qwen3_r3",
+  "anon_code": "T_c774c02a",
+  "poem_id": "M06",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Tell me how many blossoms have fallen",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Tell me how many bloss: have fallen' directly addresses the unknown quantity of fallen blossoms from the observer's perspective, fulfilling the requirement that the subject is 'I' or an implied observer.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In the morning, I sleep soundly, unaware of the dawn",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'unaware of the dawn' which indicates the sleep and not noticing the morning, but the phrase 'In the morning' contradicts the time background of 'spring' as required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "And hear the cries of birds everywhere.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'hears the cries of birds everywhere' directly translates to '到处听到鸟叫' with 'everywhere' expressing '多处/到处' and 'hears the cries of birds' being the auditory experience.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The sounds of last night's rain and wind",
+        "evidence_found": true,
+        "reasoning": "The phrase 'last night's rain and wind' does not match the required meaning of '昨夜听到风雨声' which implies hearing the sound of rain and wind from last night, but the translation uses 'sounds of last night's rain and wind' which is a bit awkward and does not directly convey the 'hearing' aspect as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

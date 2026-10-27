@@ -1,0 +1,62 @@
+{
+  "translation_id": "D01_S3_only_Qwen25_r1",
+  "anon_code": "T_43db5036",
+  "poem_id": "D01",
+  "strategy": "S3_only",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling cannot be dispelled, it barely fades from my brow, only to rise up to my heart.",
+        "evidence_found": true,
+        "reasoning": "The translation states that the feeling 'barely fades from my brow, only to rise up to my heart', which implies that the feeling is still there and not completely eliminated, contradicting the pass condition of not being 'already eliminated'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "barely fades from my brow",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'barely fades from my brow' instead of '才下眉头', which does not preserve the exact phrase and the direction of the phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "barely fades from my brow",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly mention the phrase '愁又涌上心头', but rather describes the feeling as 'barely fades from my brow' and then 'rise up to my heart', which does not preserve the exact phrase and does not express the sense of something returning or recurring as '愁又涌上心头' implies.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling cannot be dispelled, it barely fades from my brow, only to rise up to my heart.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the original phrase '才下……却上' and does not explicitly convey the idea of the '愁绪在眉与心之间接续转移'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 5,
+    "fluency": 4,
+    "poetic_quality": 2,
+    "overall": 3.55,
+    "valid": true
+  }
+}

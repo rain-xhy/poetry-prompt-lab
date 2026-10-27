@@ -1,0 +1,67 @@
+{
+  "translation_id": "M04_S0_Qwen3_r2",
+  "anon_code": "T_9b927f4d",
+  "poem_id": "M04",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When two hearts are as enduring as the stars, does it matter whether they meet only once in a day or forever?",
+        "evidence_found": true,
+        "reasoning": "The translation uses a metaphorical comparison with stars and focuses on meeting frequency rather than expressing the condition of long-lasting emotions as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "does it matter whether they meet only once in a day or forever?",
+        "evidence_found": true,
+        "reasoning": "The phrase expresses a negation of the need for daily meetings, implying that meeting once a day or forever is equally acceptable, thus conveying the meaning of 'not necessarily needing to meet every day'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When two hearts are as enduring as the stars, does it matter whether they meet only once in a day or forever?",
+        "evidence_found": true,
+        "reasoning": "The translation focuses on the comparison of heart endurance to stars and the question about meeting frequency, but does not convey the continuous, overlapping time sense of '朝朝暮暮' which implies daily repetition and persistence without specifying a particular time frame.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When two hearts are as enduring as the stars, does it matter whether they meet only once in a day or forever?",
+        "evidence_found": true,
+        "reasoning": "The translation maintains the conditional structure 'if two hearts are as enduring as the stars' and the rhetorical question 'does it matter whether they meet only once in a day or forever?' which reflects the original's condition and counter-question logic while ensuring the meaning aligns with the original phrase's intent.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

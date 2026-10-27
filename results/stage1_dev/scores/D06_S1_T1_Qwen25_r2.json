@@ -1,0 +1,76 @@
+{
+  "translation_id": "D06_S1_T1_Qwen25_r2",
+  "anon_code": "T_e776c274",
+  "poem_id": "D06",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I knew they climbed the hill today",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I knew they climbed the hill today' implies direct observation rather than imagining from a distance, which violates the requirement that it should express 'from a distance imagining/anticipating' without being 'I see/I watch'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I knew they climbed the hill today",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I knew they climbed the hill today' directly translates the '兄弟登高处' meaning with 'they' representing 'brothers' and 'climbed the hill' conveying 'climb the heights'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "They wore the herb to ward off ill fortune",
+        "evidence_found": true,
+        "reasoning": "The phrase 'They wore the herb to ward off ill fortune' directly corresponds to the meaning of '每个人头上都插着茱萸' as it describes people wearing the herb (茱萸) to ward off ill fortune, which aligns with the requirement to preserve 'everyone wearing/cornel/dogwood sprigs'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Except one figure missing, alone.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Except one figure missing, alone' directly translates to '少了我一个人' by indicating that one person (the speaker) is missing from the group.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "translation_id": "A10_S5_T1_Qwen25_r1",
+  "anon_code": "T_3d53fd37",
+  "poem_id": "A10",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "We used to cut candles for each other at West Window",
+        "evidence_found": true,
+        "reasoning": "The phrase 'We used to cut candles...' explicitly uses the past tense construction 'used to' to indicate a past habitual action, fulfilling the requirement to preserve '曾经' as past tense.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "We used to cut candles for each other at West Window",
+        "evidence_found": true,
+        "reasoning": "This line explicitly refers to past shared experiences (cutting candles at West Window) indicating memories of the past rather than future expectations.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "You ask when I'll be home, but no set time",
+        "evidence_found": true,
+        "reasoning": "The translation uses future tense 'when I'll be home' but the original poem uses past tense '何当' (when will I return) implying a future event from the past perspective, so the tense is reversed.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "translation_id": "A06_S1_T1_Qwen3_r3",
+  "anon_code": "T_93383cb2",
+  "poem_id": "A06",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The poet's feelings are paradoxically deep yet elusive, as if they cannot be fully expressed. Yet, in the quiet moment of parting, they find solace in the warmth of a. shared smile. The heart is wounded, yet the act of shedding tears, even in the dark, reflects the depth of their emotion.",
+        "evidence_found": false,
+        "reasoning": "The translation does not mention 'person weeps for candle' or any equivalent phrase that indicates the inversion of 'person' and 'candle' as required by the original phrase '主客体关系' which needs to preserve the identification of the inverted relationship between 'person' and 'candle'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The poet's feelings are paradoxically deep yet elusive, as if they cannot be fully expressed. Yet, in the quiet moment of parting, they find solace in the warmth of a shared smile. The heart is wounded, yet the: the act of shedding tears, even in the dark, reflects the depth of their emotion.",
+        "evidence_found": false,
+        "reasoning": "The translation does not mention 'direction' or 'replacing' as required by the original phrase '替的方向', which implies a change in direction or substitution. The phrase '替的方向' translates to 'the direction of replacement' or 'the direction of substitution', but the English translation focuses on emotional states and does not address any directional or substitutional change.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The poet's feelings are paradoxically deep yet elusive, as if they cannot be fully expressed.",
+        "evidence_found": true,
+        "reasoning": "The translation reverses the meaning of the original poem by stating the poet's feelings are paradoxically deep yet elusive, whereas the original poem describes the poet's feelings as being paradoxically shallow yet profound.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M06_S5_T2_Qwen3_r1",
+  "anon_code": "T_f95b3819",
+  "poem_id": "M06",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "And how many petals have fallen—do I know?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'do I know?' directly addresses the uncertainty of the speaker ('I') about the number of fallen petals, matching the requirement that the subject is 'I' and the meaning of not knowing how many petals have fallen.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Spring sleep is so deep, I don't know dawn has come.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the deep sleep and unawareness of dawn, meeting both the sleep and unperceived dawn conditions with a clear spring time context.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Birdsong echoes everywhere",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Birdsong echoes everywhere' directly translates to '到处听到鸟叫' by expressing the concept of hearing birdsong in multiple places, satisfying the requirement for auditory perception and the spatial extent of 'everywhere' (多处/到处).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Last night the wind and rain spoke",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Last night the wind and rain spoke' directly translates the required meaning of '昨夜听到风雨声' by expressing the past time ('Last night') and the sound of wind and rain ('wind and rain spoke').",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

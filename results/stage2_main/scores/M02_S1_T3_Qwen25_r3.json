@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S1_T3_Qwen25_r3",
+  "anon_code": "T_90a16037",
+  "poem_id": "M02",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Is the red bean, dear to the heart.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'red bean' is explicitly stated as 'dear to the heart', directly indicating its symbolic meaning as a symbol of longing and affection.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "May you gather many, for this",
+        "evidence_found": true,
+        "reasoning": "The phrase 'May you gather many' expresses a wish/hope for the recipient to pick many, fulfilling the requirement of '劝君多采摘（愿望）' with the direct address 'you' implied by the context.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "May you gather many, for this Is the red bean, dear to the heart.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'May you gather many, for this Is the red: dear to the heart' directly translates to 'this is the most poignant symbol of longing' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Spring greets them with multiple sprouts.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Spring greets them with multiple spr: sprouts' does not express the time of spring but rather the action of spring 'greeting' the beans, which is not the natural growth process described in the original phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

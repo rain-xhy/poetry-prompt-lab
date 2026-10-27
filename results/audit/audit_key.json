@@ -1,0 +1,1076 @@
+{
+  "A0001": {
+    "translation_id": "M01_S2_T1_Qwen25_r2",
+    "poem_id": "M01",
+    "unit_id": 1,
+    "scorer_pass": true
+  },
+  "A0002": {
+    "translation_id": "M14_S4_T1_Qwen3_r2",
+    "poem_id": "M14",
+    "unit_id": 4,
+    "scorer_pass": true
+  },
+  "A0003": {
+    "translation_id": "M04_S1_T3_Qwen3_r2",
+    "poem_id": "M04",
+    "unit_id": 1,
+    "scorer_pass": false
+  },
+  "A0004": {
+    "translation_id": "M01_S5_T1_Qwen3_r1",
+    "poem_id": "M01",
+    "unit_id": 2,
+    "scorer_pass": true
+  },
+  "A0005": {
+    "translation_id": "M07_S1_T1_Qwen25_r2",
+    "poem_id": "M07",
+    "unit_id": 3,
+    "scorer_pass": true
+  },
+  "A0006": {
+    "translation_id": "A01_S5_T1_Qwen3_r1",
+    "poem_id": "A01",
+    "unit_id": 3,
+    "scorer_pass": false
+  },
+  "A0007": {
+    "translation_id": "M14_S3_T1_Qwen25_r2",
+    "poem_id": "M14",
+    "unit_id": 4,
+    "scorer_pass": true
+  },
+  "A0008": {
+    "translation_id": "M07_S1_T1_Qwen25_r2",
+    "poem_id": "M07",
+    "unit_id": 1,
+    "scorer_pass": true
+  },
+  "A0009": {
+    "translation_id": "A02_S5_T1_Qwen25_r3",
+    "poem_id": "A02",
+    "unit_id": 1,
+    "scorer_pass": true
+  },
+  "A0010": {
+    "translation_id": "M07_S3_T1_Qwen25_r3",
+    "poem_id": "M07",
+    "unit_id": 4,
+    "scorer_pass": false
+  },
+  "A0011": {
+    "translation_id": "A02_S5_T1_Qwen25_r2",
+    "poem_id": "A02",
+    "unit_id": 3,
+    "scorer_pass": false
+  },
+  "A0012": {
+    "translation_id": "M11_S1_T3_Qwen25_r2",
+    "poem_id": "M11",
+    "unit_id": 4,
+    "scorer_pass": true
+  },
+  "A0013": {
+    "translation_id": "M16_S2_T1_Qwen25_r2",
+    "poem_id": "M16",
+    "unit_id": 2,
+    "scorer_pass": false
+  },
+  "A0014": {
+    "translation_id": "M11_S0_Qwen3_r3",
+    "poem_id": "M11",
+    "unit_id": 2,
+    "scorer_pass": true
+  },
+  "A0015": {
+    "translation_id": "A01_S5_T1_Qwen3_r1",
+    "poem_id": "A01",
+    "unit_id": 2,
+    "scorer_pass": false
+  },
+  "A0016": {
+    "translation_id": "M01_S2_T1_Qwen25_r2",
+    "poem_id": "M01",
+    "unit_id": 4,
+    "scorer_pass": true
+  },
+  "A0017": {
+    "translation_id": "A02_S1_T1_Qwen3_r3",
+    "poem_id": "A02",
+    "unit_id": 1,
+    "scorer_pass": true
+  },
+  "A0018": {
+    "translation_id": "M14_S2_T1_Qwen25_r2",
+    "poem_id": "M14",
+    "unit_id": 3,
+    "scorer_pass": false
+  },
+  "A0019": {
+    "translation_id": "M11_S3_T1_Qwen3_r2",
+    "poem_id": "M11",
+    "unit_id": 1,
+    "scorer_pass": true
+  },
+  "A0020": {
+    "translation_id": "M07_S1_T1_Qwen25_r1",
+    "poem_id": "M07",
+    "unit_id": 4,
+    "scorer_pass": true
+  },
+  "A0021": {
+    "translation_id": "M11_S3_T1_Qwen3_r1",
+    "poem_id": "M11",
+    "unit_id": 4,
+    "scorer_pass": false
+  },
+  "A0022": {
+    "translation_id": "M14_S5_T1_Qwen25_r1",
+    "poem_id": "M14",
+    "unit_id": 1,
+    "scorer_pass": true
+  },
+  "A0023": {
+    "translation_id": "A02_S1_T1_Qwen3_r3",
+    "poem_id": "A02",
+    "unit_id": 2,
+    "scorer_pass": true
+  },
+  "A0024": {
+    "translation_id": "M14_S1_T3_Qwen25_r1",
+    "poem_id": "M14",
+    "unit_id": 3,
+    "scorer_pass": false
+  },
+  "A0025": {
+    "translation_id": "M16_S0_Qwen25_r3",
+    "poem_id": "M16",
+    "unit_id": 4,
+    "scorer_pass": true
+  },
+  "A0026": {
+    "translation_id": "A01_S5_T1_Qwen3_r1",
+    "poem_id": "A01",
+    "unit_id": 1,
+    "scorer_pass": false
+  },
+  "A0027": {
+    "translation_id": "M01_S5_T2_Qwen25_r3",
+    "poem_id": "M01",
+    "unit_id": 3,
+    "scorer_pass": true
+  },
+  "A0028": {
+    "translation_id": "M11_S5_T1_Qwen3_r3",
+    "poem_id": "M11",
+    "unit_id": 2,
+    "scorer_pass": true
+  },
+  "A0029": {
+    "translation_id": "M11_S3_T1_Qwen3_r1",
+    "poem_id": "M11",
+    "unit_id": 2,
+    "scorer_pass": true
+  },
+  "A0030": {
+    "translation_id": "A01_S5_T1_Qwen3_r3",
+    "poem_id": "A01",
+    "unit_id": 3,
+    "scorer_pass": false
+  },
+  "A0031": {
+    "translation_id": "M16_S2_T1_Qwen3_r1",
+    "poem_id": "M16",
+    "unit_id": 4,
+    "scorer_pass": true
+  },
+  "A0032": {
+    "translation_id": "M14_S1_T3_Qwen25_r1",
+    "poem_id": "M14",
+    "unit_id": 1,
+    "scorer_pass": false
+  },
+  "A0033": {
+    "translation_id": "A02_S5_T1_Qwen25_r2",
+    "poem_id": "A02",
+    "unit_id": 2,
+    "scorer_pass": false
+  },
+  "A0034": {
+    "translation_id": "M14_S1_T1_Qwen3_r1",
+    "poem_id": "M14",
+    "unit_id": 2,
+    "scorer_pass": true
+  },
+  "A0035": {
+    "translation_id": "M01_S5_T3_Qwen25_r1",
+    "poem_id": "M01",
+    "unit_id": 3,
+    "scorer_pass": true
+  },
+  "A0036": {
+    "translation_id": "M11_S3_T1_Qwen3_r2",
+    "poem_id": "M11",
+    "unit_id": 4,
+    "scorer_pass": true
+  },
+  "A0037": {
+    "translation_id": "M16_S2_T1_Qwen25_r2",
+    "poem_id": "M16",
+    "unit_id": 3,
+    "scorer_pass": false
+  },
+  "A0038": {
+    "translation_id": "A01_S1_T1_Qwen3_r3",
+    "poem_id": "A01",
+    "unit_id": 2,
+    "scorer_pass": true
+  },
+  "A0039": {
+    "translation_id": "M16_S4_T1_Qwen25_r3",
+    "poem_id": "M16",
+    "unit_id": 4,
+    "scorer_pass": true
+  },
+  "A0040": {
+    "translation_id": "M11_S0_Qwen3_r3",
+    "poem_id": "M11",
+    "unit_id": 1,
+    "scorer_pass": true
+  },
+  "A0041": {
+    "translation_id": "A01_S5_T1_Qwen3_r3",
+    "poem_id": "A01",
+    "unit_id": 1,
+    "scorer_pass": false
+  },
+  "A0042": {
+    "translation_id": "M16_S2_T1_Qwen3_r1",
+    "poem_id": "M16",
+    "unit_id": 2,
+    "scorer_pass": true
+  },
+  "A0043": {
+    "translation_id": "M07_S5_T2_Qwen25_r3",
+    "poem_id": "M07",
+    "unit_id": 2,
+    "scorer_pass": false
+  },
+  "A0044": {
+    "translation_id": "M07_S1_T1_Qwen3_r3",
+    "poem_id": "M07",
+    "unit_id": 1,
+    "scorer_pass": true
+  },
+  "A0045": {
+    "translation_id": "M11_S0_Qwen3_r3",
+    "poem_id": "M11",
+    "unit_id": 3,
+    "scorer_pass": false
+  },
+  "A0046": {
+    "translation_id": "M01_S4_T1_Qwen25_r1",
+    "poem_id": "M01",
+    "unit_id": 1,
+    "scorer_pass": true
+  },
+  "A0047": {
+    "translation_id": "M04_S4_T1_Qwen25_r3",
+    "poem_id": "M04",
+    "unit_id": 2,
+    "scorer_pass": true
+  },
+  "A0048": {
+    "translation_id": "A02_S1_T1_Qwen3_r1",
+    "poem_id": "A02",
+    "unit_id": 2,
+    "scorer_pass": false
+  },
+  "A0049": {
+    "translation_id": "M01_S2_T1_Qwen3_r1",
+    "poem_id": "M01",
+    "unit_id": 4,
+    "scorer_pass": true
+  },
+  "A0050": {
+    "translation_id": "M04_S0_Qwen25_r2",
+    "poem_id": "M04",
+    "unit_id": 2,
+    "scorer_pass": true
+  },
+  "A0051": {
+    "translation_id": "M07_S5_T2_Qwen25_r2",
+    "poem_id": "M07",
+    "unit_id": 3,
+    "scorer_pass": true
+  },
+  "A0052": {
+    "translation_id": "M07_S5_T2_Qwen25_r2",
+    "poem_id": "M07",
+    "unit_id": 2,
+    "scorer_pass": false
+  },
+  "A0053": {
+    "translation_id": "M11_S5_T1_Qwen3_r3",
+    "poem_id": "M11",
+    "unit_id": 4,
+    "scorer_pass": true
+  },
+  "A0054": {
+    "translation_id": "M07_S1_T1_Qwen25_r2",
+    "poem_id": "M07",
+    "unit_id": 4,
+    "scorer_pass": false
+  },
+  "A0055": {
+    "translation_id": "M16_S5_T2_Qwen25_r1",
+    "poem_id": "M16",
+    "unit_id": 4,
+    "scorer_pass": false
+  },
+  "A0056": {
+    "translation_id": "M07_S3_T1_Qwen25_r3",
+    "poem_id": "M07",
+    "unit_id": 1,
+    "scorer_pass": true
+  },
+  "A0057": {
+    "translation_id": "A01_S1_T1_Qwen25_r3",
+    "poem_id": "A01",
+    "unit_id": 3,
+    "scorer_pass": false
+  },
+  "A0058": {
+    "translation_id": "M16_S2_T1_Qwen25_r1",
+    "poem_id": "M16",
+    "unit_id": 4,
+    "scorer_pass": true
+  },
+  "A0059": {
+    "translation_id": "M01_S2_T1_Qwen3_r1",
+    "poem_id": "M01",
+    "unit_id": 3,
+    "scorer_pass": false
+  },
+  "A0060": {
+    "translation_id": "M16_S4_T1_Qwen25_r3",
+    "poem_id": "M16",
+    "unit_id": 3,
+    "scorer_pass": true
+  },
+  "A0061": {
+    "translation_id": "A01_S5_T1_Qwen3_r3",
+    "poem_id": "A01",
+    "unit_id": 2,
+    "scorer_pass": false
+  },
+  "A0062": {
+    "translation_id": "M07_S1_T1_Qwen3_r3",
+    "poem_id": "M07",
+    "unit_id": 3,
+    "scorer_pass": true
+  },
+  "A0063": {
+    "translation_id": "M16_S2_T1_Qwen25_r1",
+    "poem_id": "M16",
+    "unit_id": 1,
+    "scorer_pass": false
+  },
+  "A0064": {
+    "translation_id": "M14_S1_T1_Qwen3_r1",
+    "poem_id": "M14",
+    "unit_id": 3,
+    "scorer_pass": true
+  },
+  "A0065": {
+    "translation_id": "M16_S2_T1_Qwen25_r2",
+    "poem_id": "M16",
+    "unit_id": 4,
+    "scorer_pass": false
+  },
+  "A0066": {
+    "translation_id": "M01_S4_T1_Qwen25_r1",
+    "poem_id": "M01",
+    "unit_id": 4,
+    "scorer_pass": true
+  },
+  "A0067": {
+    "translation_id": "A02_S5_T1_Qwen3_r1",
+    "poem_id": "A02",
+    "unit_id": 1,
+    "scorer_pass": true
+  },
+  "A0068": {
+    "translation_id": "M11_S5_T1_Qwen25_r1",
+    "poem_id": "M11",
+    "unit_id": 4,
+    "scorer_pass": true
+  },
+  "A0069": {
+    "translation_id": "M11_S1_T3_Qwen25_r2",
+    "poem_id": "M11",
+    "unit_id": 1,
+    "scorer_pass": true
+  },
+  "A0070": {
+    "translation_id": "M07_S3_T1_Qwen25_r3",
+    "poem_id": "M07",
+    "unit_id": 3,
+    "scorer_pass": false
+  },
+  "A0071": {
+    "translation_id": "M11_S3_T1_Qwen3_r1",
+    "poem_id": "M11",
+    "unit_id": 3,
+    "scorer_pass": false
+  },
+  "A0072": {
+    "translation_id": "M11_S5_T1_Qwen25_r1",
+    "poem_id": "M11",
+    "unit_id": 3,
+    "scorer_pass": false
+  },
+  "A0073": {
+    "translation_id": "M01_S5_T2_Qwen25_r3",
+    "poem_id": "M01",
+    "unit_id": 1,
+    "scorer_pass": true
+  },
+  "A0074": {
+    "translation_id": "M04_S4_T1_Qwen25_r3",
+    "poem_id": "M04",
+    "unit_id": 1,
+    "scorer_pass": true
+  },
+  "A0075": {
+    "translation_id": "M14_S1_T3_Qwen25_r1",
+    "poem_id": "M14",
+    "unit_id": 2,
+    "scorer_pass": true
+  },
+  "A0076": {
+    "translation_id": "M07_S1_T1_Qwen25_r1",
+    "poem_id": "M07",
+    "unit_id": 1,
+    "scorer_pass": false
+  },
+  "A0077": {
+    "translation_id": "M04_S5_T2_Qwen3_r2",
+    "poem_id": "M04",
+    "unit_id": 2,
+    "scorer_pass": true
+  },
+  "A0078": {
+    "translation_id": "M14_S1_T1_Qwen3_r1",
+    "poem_id": "M14",
+    "unit_id": 4,
+    "scorer_pass": true
+  },
+  "A0079": {
+    "translation_id": "M11_S3_T1_Qwen3_r2",
+    "poem_id": "M11",
+    "unit_id": 2,
+    "scorer_pass": true
+  },
+  "A0080": {
+    "translation_id": "A01_S1_T1_Qwen25_r2",
+    "poem_id": "A01",
+    "unit_id": 1,
+    "scorer_pass": false
+  },
+  "A0081": {
+    "translation_id": "M16_S0_Qwen25_r3",
+    "poem_id": "M16",
+    "unit_id": 1,
+    "scorer_pass": false
+  },
+  "A0082": {
+    "translation_id": "M04_S1_T3_Qwen3_r2",
+    "poem_id": "M04",
+    "unit_id": 2,
+    "scorer_pass": true
+  },
+  "A0083": {
+    "translation_id": "M07_S5_T2_Qwen25_r2",
+    "poem_id": "M07",
+    "unit_id": 4,
+    "scorer_pass": false
+  },
+  "A0084": {
+    "translation_id": "M04_S5_T2_Qwen3_r2",
+    "poem_id": "M04",
+    "unit_id": 3,
+    "scorer_pass": true
+  },
+  "A0085": {
+    "translation_id": "M16_S4_T1_Qwen25_r3",
+    "poem_id": "M16",
+    "unit_id": 2,
+    "scorer_pass": false
+  },
+  "A0086": {
+    "translation_id": "M07_S1_T1_Qwen3_r3",
+    "poem_id": "M07",
+    "unit_id": 2,
+    "scorer_pass": true
+  },
+  "A0087": {
+    "translation_id": "M01_S2_T1_Qwen3_r1",
+    "poem_id": "M01",
+    "unit_id": 1,
+    "scorer_pass": true
+  },
+  "A0088": {
+    "translation_id": "M07_S1_T1_Qwen25_r2",
+    "poem_id": "M07",
+    "unit_id": 2,
+    "scorer_pass": true
+  },
+  "A0089": {
+    "translation_id": "M14_S2_T1_Qwen25_r2",
+    "poem_id": "M14",
+    "unit_id": 4,
+    "scorer_pass": true
+  },
+  "A0090": {
+    "translation_id": "A02_S1_T1_Qwen3_r3",
+    "poem_id": "A02",
+    "unit_id": 3,
+    "scorer_pass": false
+  },
+  "A0091": {
+    "translation_id": "M16_S5_T2_Qwen25_r1",
+    "poem_id": "M16",
+    "unit_id": 2,
+    "scorer_pass": true
+  },
+  "A0092": {
+    "translation_id": "A01_S1_T1_Qwen25_r2",
+    "poem_id": "A01",
+    "unit_id": 3,
+    "scorer_pass": false
+  },
+  "A0093": {
+    "translation_id": "A02_S5_T1_Qwen3_r1",
+    "poem_id": "A02",
+    "unit_id": 3,
+    "scorer_pass": false
+  },
+  "A0094": {
+    "translation_id": "M14_S4_T1_Qwen3_r2",
+    "poem_id": "M14",
+    "unit_id": 1,
+    "scorer_pass": true
+  },
+  "A0095": {
+    "translation_id": "A01_S1_T1_Qwen3_r3",
+    "poem_id": "A01",
+    "unit_id": 1,
+    "scorer_pass": true
+  },
+  "A0096": {
+    "translation_id": "M04_S5_T1_Qwen25_r2",
+    "poem_id": "M04",
+    "unit_id": 4,
+    "scorer_pass": true
+  },
+  "A0097": {
+    "translation_id": "M16_S2_T1_Qwen25_r1",
+    "poem_id": "M16",
+    "unit_id": 2,
+    "scorer_pass": false
+  },
+  "A0098": {
+    "translation_id": "M14_S3_T1_Qwen25_r2",
+    "poem_id": "M14",
+    "unit_id": 2,
+    "scorer_pass": true
+  },
+  "A0099": {
+    "translation_id": "M01_S5_T1_Qwen3_r1",
+    "poem_id": "M01",
+    "unit_id": 4,
+    "scorer_pass": true
+  },
+  "A0100": {
+    "translation_id": "M14_S1_T3_Qwen25_r1",
+    "poem_id": "M14",
+    "unit_id": 4,
+    "scorer_pass": false
+  },
+  "A0101": {
+    "translation_id": "M01_S5_T3_Qwen25_r1",
+    "poem_id": "M01",
+    "unit_id": 4,
+    "scorer_pass": true
+  },
+  "A0102": {
+    "translation_id": "M01_S5_T3_Qwen25_r1",
+    "poem_id": "M01",
+    "unit_id": 2,
+    "scorer_pass": true
+  },
+  "A0103": {
+    "translation_id": "M04_S1_T1_Qwen3_r1",
+    "poem_id": "M04",
+    "unit_id": 4,
+    "scorer_pass": true
+  },
+  "A0104": {
+    "translation_id": "M16_S4_T1_Qwen25_r3",
+    "poem_id": "M16",
+    "unit_id": 1,
+    "scorer_pass": false
+  },
+  "A0105": {
+    "translation_id": "M14_S1_T1_Qwen3_r1",
+    "poem_id": "M14",
+    "unit_id": 1,
+    "scorer_pass": true
+  },
+  "A0106": {
+    "translation_id": "M11_S3_T1_Qwen3_r1",
+    "poem_id": "M11",
+    "unit_id": 1,
+    "scorer_pass": true
+  },
+  "A0107": {
+    "translation_id": "A01_S5_T1_Qwen25_r3",
+    "poem_id": "A01",
+    "unit_id": 2,
+    "scorer_pass": true
+  },
+  "A0108": {
+    "translation_id": "M11_S5_T1_Qwen25_r1",
+    "poem_id": "M11",
+    "unit_id": 1,
+    "scorer_pass": true
+  },
+  "A0109": {
+    "translation_id": "M14_S3_T1_Qwen25_r2",
+    "poem_id": "M14",
+    "unit_id": 1,
+    "scorer_pass": true
+  },
+  "A0110": {
+    "translation_id": "M14_S2_T1_Qwen25_r2",
+    "poem_id": "M14",
+    "unit_id": 2,
+    "scorer_pass": false
+  },
+  "A0111": {
+    "translation_id": "A01_S1_T1_Qwen3_r3",
+    "poem_id": "A01",
+    "unit_id": 3,
+    "scorer_pass": false
+  },
+  "A0112": {
+    "translation_id": "A02_S5_T1_Qwen3_r1",
+    "poem_id": "A02",
+    "unit_id": 2,
+    "scorer_pass": true
+  },
+  "A0113": {
+    "translation_id": "M04_S0_Qwen25_r2",
+    "poem_id": "M04",
+    "unit_id": 1,
+    "scorer_pass": false
+  },
+  "A0114": {
+    "translation_id": "A01_S5_T1_Qwen25_r3",
+    "poem_id": "A01",
+    "unit_id": 3,
+    "scorer_pass": true
+  },
+  "A0115": {
+    "translation_id": "A02_S1_T1_Qwen3_r1",
+    "poem_id": "A02",
+    "unit_id": 1,
+    "scorer_pass": true
+  },
+  "A0116": {
+    "translation_id": "M04_S1_T3_Qwen3_r2",
+    "poem_id": "M04",
+    "unit_id": 3,
+    "scorer_pass": true
+  },
+  "A0117": {
+    "translation_id": "M16_S5_T2_Qwen25_r1",
+    "poem_id": "M16",
+    "unit_id": 3,
+    "scorer_pass": true
+  },
+  "A0118": {
+    "translation_id": "M16_S0_Qwen25_r3",
+    "poem_id": "M16",
+    "unit_id": 2,
+    "scorer_pass": false
+  },
+  "A0119": {
+    "translation_id": "M14_S5_T1_Qwen25_r1",
+    "poem_id": "M14",
+    "unit_id": 4,
+    "scorer_pass": true
+  },
+  "A0120": {
+    "translation_id": "M14_S3_T1_Qwen25_r2",
+    "poem_id": "M14",
+    "unit_id": 3,
+    "scorer_pass": true
+  },
+  "A0121": {
+    "translation_id": "M16_S5_T2_Qwen25_r1",
+    "poem_id": "M16",
+    "unit_id": 1,
+    "scorer_pass": false
+  },
+  "A0122": {
+    "translation_id": "M14_S2_T1_Qwen25_r2",
+    "poem_id": "M14",
+    "unit_id": 1,
+    "scorer_pass": true
+  },
+  "A0123": {
+    "translation_id": "M04_S1_T3_Qwen3_r2",
+    "poem_id": "M04",
+    "unit_id": 4,
+    "scorer_pass": true
+  },
+  "A0124": {
+    "translation_id": "A01_S1_T1_Qwen25_r3",
+    "poem_id": "A01",
+    "unit_id": 1,
+    "scorer_pass": false
+  },
+  "A0125": {
+    "translation_id": "M01_S2_T1_Qwen3_r1",
+    "poem_id": "M01",
+    "unit_id": 2,
+    "scorer_pass": false
+  },
+  "A0126": {
+    "translation_id": "M01_S2_T1_Qwen25_r2",
+    "poem_id": "M01",
+    "unit_id": 2,
+    "scorer_pass": true
+  },
+  "A0127": {
+    "translation_id": "M07_S5_T2_Qwen25_r2",
+    "poem_id": "M07",
+    "unit_id": 1,
+    "scorer_pass": false
+  },
+  "A0128": {
+    "translation_id": "M04_S4_T1_Qwen25_r3",
+    "poem_id": "M04",
+    "unit_id": 3,
+    "scorer_pass": true
+  },
+  "A0129": {
+    "translation_id": "A02_S5_T1_Qwen25_r3",
+    "poem_id": "A02",
+    "unit_id": 3,
+    "scorer_pass": false
+  },
+  "A0130": {
+    "translation_id": "M01_S5_T2_Qwen25_r3",
+    "poem_id": "M01",
+    "unit_id": 2,
+    "scorer_pass": true
+  },
+  "A0131": {
+    "translation_id": "M04_S4_T1_Qwen25_r3",
+    "poem_id": "M04",
+    "unit_id": 4,
+    "scorer_pass": true
+  },
+  "A0132": {
+    "translation_id": "M01_S5_T3_Qwen25_r1",
+    "poem_id": "M01",
+    "unit_id": 1,
+    "scorer_pass": true
+  },
+  "A0133": {
+    "translation_id": "M04_S1_T1_Qwen3_r1",
+    "poem_id": "M04",
+    "unit_id": 2,
+    "scorer_pass": true
+  },
+  "A0134": {
+    "translation_id": "A02_S5_T1_Qwen25_r2",
+    "poem_id": "A02",
+    "unit_id": 1,
+    "scorer_pass": true
+  },
+  "A0135": {
+    "translation_id": "M14_S5_T1_Qwen25_r1",
+    "poem_id": "M14",
+    "unit_id": 3,
+    "scorer_pass": true
+  },
+  "A0136": {
+    "translation_id": "M14_S4_T1_Qwen3_r2",
+    "poem_id": "M14",
+    "unit_id": 3,
+    "scorer_pass": true
+  },
+  "A0137": {
+    "translation_id": "M04_S5_T1_Qwen25_r2",
+    "poem_id": "M04",
+    "unit_id": 3,
+    "scorer_pass": false
+  },
+  "A0138": {
+    "translation_id": "A01_S5_T1_Qwen25_r3",
+    "poem_id": "A01",
+    "unit_id": 1,
+    "scorer_pass": true
+  },
+  "A0139": {
+    "translation_id": "A02_S0_Qwen3_r1",
+    "poem_id": "A02",
+    "unit_id": 1,
+    "scorer_pass": true
+  },
+  "A0140": {
+    "translation_id": "M11_S3_T1_Qwen3_r2",
+    "poem_id": "M11",
+    "unit_id": 3,
+    "scorer_pass": false
+  },
+  "A0141": {
+    "translation_id": "M01_S5_T1_Qwen3_r1",
+    "poem_id": "M01",
+    "unit_id": 1,
+    "scorer_pass": true
+  },
+  "A0142": {
+    "translation_id": "M01_S5_T2_Qwen25_r3",
+    "poem_id": "M01",
+    "unit_id": 4,
+    "scorer_pass": false
+  },
+  "A0143": {
+    "translation_id": "M07_S5_T2_Qwen25_r3",
+    "poem_id": "M07",
+    "unit_id": 4,
+    "scorer_pass": false
+  },
+  "A0144": {
+    "translation_id": "M14_S5_T1_Qwen25_r1",
+    "poem_id": "M14",
+    "unit_id": 2,
+    "scorer_pass": true
+  },
+  "A0145": {
+    "translation_id": "M04_S5_T2_Qwen3_r2",
+    "poem_id": "M04",
+    "unit_id": 1,
+    "scorer_pass": false
+  },
+  "A0146": {
+    "translation_id": "M01_S4_T1_Qwen25_r1",
+    "poem_id": "M01",
+    "unit_id": 3,
+    "scorer_pass": true
+  },
+  "A0147": {
+    "translation_id": "M07_S3_T1_Qwen25_r3",
+    "poem_id": "M07",
+    "unit_id": 2,
+    "scorer_pass": false
+  },
+  "A0148": {
+    "translation_id": "M16_S0_Qwen25_r3",
+    "poem_id": "M16",
+    "unit_id": 3,
+    "scorer_pass": false
+  },
+  "A0149": {
+    "translation_id": "A02_S0_Qwen3_r1",
+    "poem_id": "A02",
+    "unit_id": 3,
+    "scorer_pass": false
+  },
+  "A0150": {
+    "translation_id": "A01_S1_T1_Qwen25_r2",
+    "poem_id": "A01",
+    "unit_id": 2,
+    "scorer_pass": false
+  },
+  "A0151": {
+    "translation_id": "M07_S1_T1_Qwen25_r1",
+    "poem_id": "M07",
+    "unit_id": 2,
+    "scorer_pass": true
+  },
+  "A0152": {
+    "translation_id": "M11_S5_T1_Qwen3_r3",
+    "poem_id": "M11",
+    "unit_id": 1,
+    "scorer_pass": false
+  },
+  "A0153": {
+    "translation_id": "M07_S1_T1_Qwen25_r1",
+    "poem_id": "M07",
+    "unit_id": 3,
+    "scorer_pass": true
+  },
+  "A0154": {
+    "translation_id": "A02_S5_T1_Qwen25_r3",
+    "poem_id": "A02",
+    "unit_id": 2,
+    "scorer_pass": false
+  },
+  "A0155": {
+    "translation_id": "M07_S5_T2_Qwen25_r3",
+    "poem_id": "M07",
+    "unit_id": 3,
+    "scorer_pass": true
+  },
+  "A0156": {
+    "translation_id": "M04_S5_T1_Qwen25_r2",
+    "poem_id": "M04",
+    "unit_id": 1,
+    "scorer_pass": false
+  },
+  "A0157": {
+    "translation_id": "A02_S1_T1_Qwen3_r1",
+    "poem_id": "A02",
+    "unit_id": 3,
+    "scorer_pass": false
+  },
+  "A0158": {
+    "translation_id": "M04_S1_T1_Qwen3_r1",
+    "poem_id": "M04",
+    "unit_id": 1,
+    "scorer_pass": false
+  },
+  "A0159": {
+    "translation_id": "M04_S1_T1_Qwen3_r1",
+    "poem_id": "M04",
+    "unit_id": 3,
+    "scorer_pass": false
+  },
+  "A0160": {
+    "translation_id": "A02_S0_Qwen3_r1",
+    "poem_id": "A02",
+    "unit_id": 2,
+    "scorer_pass": true
+  },
+  "A0161": {
+    "translation_id": "M04_S0_Qwen25_r2",
+    "poem_id": "M04",
+    "unit_id": 4,
+    "scorer_pass": true
+  },
+  "A0162": {
+    "translation_id": "M04_S5_T2_Qwen3_r2",
+    "poem_id": "M04",
+    "unit_id": 4,
+    "scorer_pass": true
+  },
+  "A0163": {
+    "translation_id": "M11_S1_T3_Qwen25_r2",
+    "poem_id": "M11",
+    "unit_id": 2,
+    "scorer_pass": true
+  },
+  "A0164": {
+    "translation_id": "M16_S2_T1_Qwen3_r1",
+    "poem_id": "M16",
+    "unit_id": 3,
+    "scorer_pass": true
+  },
+  "A0165": {
+    "translation_id": "M01_S5_T1_Qwen3_r1",
+    "poem_id": "M01",
+    "unit_id": 3,
+    "scorer_pass": true
+  },
+  "A0166": {
+    "translation_id": "M16_S2_T1_Qwen25_r2",
+    "poem_id": "M16",
+    "unit_id": 1,
+    "scorer_pass": false
+  },
+  "A0167": {
+    "translation_id": "A01_S1_T1_Qwen25_r3",
+    "poem_id": "A01",
+    "unit_id": 2,
+    "scorer_pass": true
+  },
+  "A0168": {
+    "translation_id": "M11_S1_T3_Qwen25_r2",
+    "poem_id": "M11",
+    "unit_id": 3,
+    "scorer_pass": true
+  },
+  "A0169": {
+    "translation_id": "M16_S2_T1_Qwen3_r1",
+    "poem_id": "M16",
+    "unit_id": 1,
+    "scorer_pass": false
+  },
+  "A0170": {
+    "translation_id": "M14_S4_T1_Qwen3_r2",
+    "poem_id": "M14",
+    "unit_id": 2,
+    "scorer_pass": true
+  },
+  "A0171": {
+    "translation_id": "M04_S5_T1_Qwen25_r2",
+    "poem_id": "M04",
+    "unit_id": 2,
+    "scorer_pass": true
+  },
+  "A0172": {
+    "translation_id": "M11_S5_T1_Qwen25_r1",
+    "poem_id": "M11",
+    "unit_id": 2,
+    "scorer_pass": true
+  },
+  "A0173": {
+    "translation_id": "M11_S0_Qwen3_r3",
+    "poem_id": "M11",
+    "unit_id": 4,
+    "scorer_pass": false
+  },
+  "A0174": {
+    "translation_id": "M07_S1_T1_Qwen3_r3",
+    "poem_id": "M07",
+    "unit_id": 4,
+    "scorer_pass": false
+  },
+  "A0175": {
+    "translation_id": "M01_S2_T1_Qwen25_r2",
+    "poem_id": "M01",
+    "unit_id": 3,
+    "scorer_pass": true
+  },
+  "A0176": {
+    "translation_id": "M11_S5_T1_Qwen3_r3",
+    "poem_id": "M11",
+    "unit_id": 3,
+    "scorer_pass": false
+  },
+  "A0177": {
+    "translation_id": "M04_S0_Qwen25_r2",
+    "poem_id": "M04",
+    "unit_id": 3,
+    "scorer_pass": false
+  },
+  "A0178": {
+    "translation_id": "M07_S5_T2_Qwen25_r3",
+    "poem_id": "M07",
+    "unit_id": 1,
+    "scorer_pass": false
+  },
+  "A0179": {
+    "translation_id": "M16_S2_T1_Qwen25_r1",
+    "poem_id": "M16",
+    "unit_id": 3,
+    "scorer_pass": true
+  }
+}

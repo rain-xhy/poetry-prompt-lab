@@ -1,0 +1,48 @@
+{
+  "sheet": "audit_sheet_expert.csv",
+  "n_labelled": 179,
+  "n_rows": 179,
+  "n_invalid_label": 0,
+  "agreement": 0.726,
+  "cohen_kappa": 0.415,
+  "human_pass_rate": 0.654,
+  "scorer_pass_rate": 0.603,
+  "tp": 88,
+  "tn": 42,
+  "fp_lenient": 20,
+  "fn_strict": 29,
+  "by_poem": {
+    "A01": {
+      "n": 18,
+      "agreement": 0.722
+    },
+    "A02": {
+      "n": 18,
+      "agreement": 0.667
+    },
+    "M01": {
+      "n": 23,
+      "agreement": 0.609
+    },
+    "M04": {
+      "n": 24,
+      "agreement": 0.917
+    },
+    "M07": {
+      "n": 24,
+      "agreement": 0.625
+    },
+    "M11": {
+      "n": 24,
+      "agreement": 0.833
+    },
+    "M14": {
+      "n": 24,
+      "agreement": 0.75
+    },
+    "M16": {
+      "n": 24,
+      "agreement": 0.667
+    }
+  }
+}

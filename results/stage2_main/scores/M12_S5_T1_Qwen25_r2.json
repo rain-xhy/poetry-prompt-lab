@@ -1,0 +1,67 @@
+{
+  "translation_id": "M12_S5_T1_Qwen25_r2",
+  "anon_code": "T_5bfca5a0",
+  "poem_id": "M12",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see further, one must climb higher",
+        "evidence_found": true,
+        "reasoning": "The phrase 'To see further' uses a verb phrase indicating purpose (to see) with the intention to achieve a goal, matching the requirement for a purpose word, and 'further' implies the distance aspect of 'thousand li' as the translation aims to convey the idea of looking over a long distance.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see further, one must climb higher",
+        "evidence_found": true,
+        "reasoning": "The phrase 'must climb higher' directly expresses the need to go up one more level, forming a purpose-action relationship with 'to see further' as the goal.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To see further, one must climb higher,",
+        "evidence_found": true,
+        "reasoning": "The phrase 'To see further, one must climb higher' directly expresses the purpose (see further) and the means (climb higher), maintaining the logical relationship required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The sun sets behind the mountains, And the Yellow River flows into the sea.",
+        "evidence_found": true,
+        "reasoning": "The translation preserves both the mountain sunset and river-to-sea flow imagery while conveying the vast scale through the natural imagery without adding extra clauses.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

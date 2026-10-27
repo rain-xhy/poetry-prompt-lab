@@ -1,0 +1,67 @@
+{
+  "translation_id": "M13_S1_T3_Qwen3_r1",
+  "anon_code": "T_9faa029c",
+  "poem_id": "M13",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no bird flies",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no bird flies' directly translates to the meaning of '鸟飞绝' which means no birds are flying, expressing absolute absence of birds as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no human footprints remain",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no human footprints remain' directly translates the concept of '人踪灭' as 'human traces disappear completely', meeting the requirement of absolute negation for human presence.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A solitary boat carries a old man in蓑笠, alone fishing in the cold river snow.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'alone fishing' directly translates to '独自垂钓' with emphasis on solitude, and the translation explicitly states 'alone fishing' which meets the requirement of emphasizing '独自/alone' while including the action of '垂钓'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Beyond the mountains, no bird flies; through the paths, no human footprints remain. A solitary boat carries a old man in蓑笠, alone fishing in the cold river snow.",
+        "evidence_found": true,
+        "reasoning": "The translation effectively conveys the vastness of space with 'Beyond the mountains' and 'through the paths', while highlighting human solitude through 'no human footprints remain' and 'a solitary boat carries a old man in蓑笠, alone fishing in the cold'—creating a clear contrast between expansive landscapes and isolated individuals.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.45,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

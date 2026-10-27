@@ -1,0 +1,67 @@
+{
+  "translation_id": "M12_S0_Qwen25_r1",
+  "anon_code": "T_54513a81",
+  "poem_id": "M12",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If you wish to see far into the distance",
+        "evidence_found": true,
+        "reasoning": "The phrase 'If you wish to see far into the distance' uses 'wish to' which expresses the purpose, and 'far into the distance' implies the 'thousand li' distance requirement.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "you must climb one more story up",
+        "evidence_found": true,
+        "reasoning": "The phrase 'you must climb one more story up' directly expresses the requirement to 'climb one more story' as a means to achieve a distant view, fulfilling the purpose-meaning condition.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If you wish to see far into the distance, you must climb one more story up.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the purpose (to see far) and the means (climbing higher), maintaining the logical relationship between the two.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The sun sets behind the mountains, the Yellow River flows into the sea.",
+        "evidence_found": true,
+        "reasoning": "The translation includes an additional sentence that does not belong to the original phrase, which breaks the requirement to preserve only the two images described in the original Chinese.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

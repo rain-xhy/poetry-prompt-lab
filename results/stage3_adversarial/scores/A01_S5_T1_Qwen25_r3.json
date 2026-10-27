@@ -1,0 +1,58 @@
+{
+  "translation_id": "A01_S5_T1_Qwen25_r3",
+  "anon_code": "T_f442ef04",
+  "poem_id": "A01",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "unable to sing",
+        "evidence_found": true,
+        "reasoning": "The phrase 'unable to sing' implies a negative state of not being able to perform, which aligns with the requirement to identify '小心' (cautiously) containing an implicit 'don't' (negative) meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Cautiously slipping into the river",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Cautiously slipping into the river' implies a warning tone by suggesting a dangerous action that requires careful avoidance.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Cautiously slipping into the river",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Cautiously slipping into the river' directly contains 'slip' (slide) and 'into river' as required by the pass conditions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

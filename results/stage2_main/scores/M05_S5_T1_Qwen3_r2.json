@@ -1,0 +1,67 @@
+{
+  "translation_id": "M05_S5_T1_Qwen3_r2",
+  "anon_code": "T_b2c25dfc",
+  "poem_id": "M05",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking and searching",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Seeking and searching' directly translates the repeated action of '寻寻觅觅' with repetition to preserve the rhythmic quality.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking and searching, yet filled with loneliness, sorrow, and grief. The cold, empty world reflects the deep sorrow within.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the cold, empty environment and the deep sorrow, forming a progression from the initial state of seeking to the internal emotional state.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking and searching, yet filled with loneliness, sorrow, and grief.",
+        "evidence_found": true,
+        "reasoning": "The phrase captures deep sorrow through layered emotional descriptors and contrasts between active seeking and emotional isolation.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking and searching, yet filled with loneliness, sorrow, and grief. The cold, empty world reflects the deep sorrow within.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly shows the progression from action (seeking and searching) to environment (cold, empty world) to emotion (loneliness, sorrow, grief, deep sorrow within), maintaining the required order without disruption.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M18_S1_T3_Qwen3_r3",
+  "anon_code": "T_0f75d1d3",
+  "poem_id": "M18",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Without a way to stop the blossoms from falling, the once-familiar swallow returns.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'blossoms falling' but the required meaning includes 'helpless' and 'watching flowers fall', while the translation focuses on a swallow returning instead of the flower falling action.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the once-familiar swallow returns",
+        "evidence_found": true,
+        "reasoning": "The phrase 'the once-familiar swallow returns' directly translates the '似曾相识燕归来' meaning, where 'once-familiar' corresponds to '似曾相识' (seem familiar) and 'swallow returns' captures the '燕归来' (swallow returning) action.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Without a way to stop the blossoms from falling, the once-familiar swallow returns.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts the blossoms falling (departing) with the swallow returning, capturing the directional contrast between departure and return.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Without a way to stop the blossoms from falling, the once-familiar swallow returns.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys time passing (blossoms falling) and the feeling of people and things changing (swallow returning as once-familiar).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

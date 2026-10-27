@@ -1,0 +1,67 @@
+{
+  "translation_id": "M19_S1_T3_Qwen3_r3",
+  "anon_code": "T_3a8c38ad",
+  "poem_id": "M19",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I met you often, And heard your calls from the hall of Cui",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I met you often' directly translates to '过去经常见到' (past frequent action) and 'heard your calls' implies '多次听到' (multiple past hearings), both in past tense.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Yet again, we met during the time of falling blossoms.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Yet again, we met' directly translates '又逢' as a repeated meeting in the present tense, fulfilling the requirement for '现在的重逢（现在时）' and '又' meaning 'again'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "It was indeed a beautiful scene in the south, Yet again, we met during the time of falling blossoms.",
+        "evidence_found": true,
+        "reasoning": "The translation contrasts past beauty with current decline through 'beautiful scene in the south' (past) and 'falling blossoms' (present), implying changed circumstances.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Yet again, we met during the time of falling blossoms.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'falling blossoms' directly translates the '落花' imagery and implies the symbolic meaning of transience and beauty in the context of the meeting.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

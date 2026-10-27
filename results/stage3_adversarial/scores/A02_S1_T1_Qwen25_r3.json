@@ -1,0 +1,58 @@
+{
+  "translation_id": "A02_S1_T1_Qwen25_r3",
+  "anon_code": "T_d803efda",
+  "poem_id": "A02",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "But how many blooms have fallen, can't I tell.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'how many blooms have fallen' directly addresses the loss of flowers, indicating that the subject (flowers) has changed from 'I' to 'flowers' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "But how many blooms have fallen, can't I tell.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'can't I tell' implies uncertainty about the count of fallen blooms, but the original phrase '花具有认知能力（知道）' requires the expression of flowers having cognitive ability (knowing), which is not directly addressed in the translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Spring sleep doesn't realize dawn's arrival, Birdsong everywhere, a chorus of cheer. Last night's tempests woke from slumber deep, But how many blooms have fallen, can't I tell.",
+        "evidence_found": true,
+        "reasoning": "The translation does not match the original poem '春晓' which is a famous Chinese poem by Tang Dynasty poet Meng Haoran. The original poem is: '春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少.' The translation provided is a modern English rendering that adds new elements like 'chorus of cheer' and 'how many blooms have fallen, can't I tell' which are not present in the original. The original poem is about the poet waking up to find the birds singing and realizing that the night's rain has caused flowers to fall, but the translation has a different structure and adds new imagery that is not in the original poem.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.95,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

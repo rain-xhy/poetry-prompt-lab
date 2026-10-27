@@ -1,0 +1,76 @@
+{
+  "translation_id": "D01_S5_T1_Qwen25_r1",
+  "anon_code": "T_4e487cff",
+  "poem_id": "D01",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling cannot be dispelled",
+        "evidence_found": true,
+        "reasoning": "The phrase 'This feeling cannot be dispelled' directly matches the requirement of expressing '无法消除这份情绪' without implying elimination or desire to eliminate.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Just vanquished from my brow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'just vanquished from my brow' does not convey '愁刚从眉间离开' as it uses 'vanquished' (defeated) instead of 'leave' (depart) and 'brow' instead of 'brow' (which is correct but the action is misrepresented).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "It reappears upon my heart",
+        "evidence_found": true,
+        "reasoning": "The phrase 'reappears upon my heart' directly corresponds to the required meaning of '愁又涌上心头' with the focus on 'heart' and the sense of recurrence.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling cannot be dispelled, Just vanquished from my brow, It reappears upon my heart.",
+        "evidence_found": true,
+        "reasoning": "The translation shows the continuous transfer of sorrow from the brow to the heart without disappearance, meeting both conditions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 5,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.2,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

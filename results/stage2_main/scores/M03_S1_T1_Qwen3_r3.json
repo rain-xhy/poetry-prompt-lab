@@ -1,0 +1,67 @@
+{
+  "translation_id": "M03_S1_T1_Qwen3_r3",
+  "anon_code": "T_a86a71c9",
+  "poem_id": "M03",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When you ask for my return date, I have none",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I have none' directly translates to 'cannot yet be set' as required, avoiding 'no deadline' or 'never'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When will we share the warmth of a western window candle?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'When will we share the warmth of a western window candle?' uses the future tense 'will' to express the future assumption of sharing the candlelight at the western window, matching the required meaning of '什么时候能一起剪西窗烛' (when can we together trim the western window candle).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When you ask for my return date, I have none; the night rain in the Bashan Mountains fills the autumn pool. When will we share the warmth of a western window candle? We will recount the rain of Bash: We will recount the rain of Bashan again.",
+        "evidence_found": false,
+        "reasoning": "The translation does not explicitly convey '将来回忆过去' (future recalling past) as it uses 'We will recount' which implies future action rather than past memory being recalled in the future.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the night rain in the Bashan Mountains fills the autumn pool",
+        "evidence_found": true,
+        "reasoning": "The phrase directly translates the required meaning of 'rain makes the pool water rise' while preserving the three required imagery elements: Bashan Mountains, night rain, and autumn pool.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

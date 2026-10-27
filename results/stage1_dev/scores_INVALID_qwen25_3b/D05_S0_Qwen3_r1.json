@@ -1,0 +1,62 @@
+{
+  "translation_id": "D05_S0_Qwen3_r1",
+  "anon_code": "T_394e857a",
+  "poem_id": "D05",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of life and death, two miles apart,",
+        "evidence_found": true,
+        "reasoning": "The rest of the translation does not fully capture the essence and poetic imagery of the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Not thinking, yet forever remembered.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'Not thinking, yet forever remembered.' which contradicts the original '不思量，自难忘' (not thinking, yet naturally remembered).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "a thousand miles away, a lonely grave",
+        "evidence_found": true,
+        "reasoning": "The phrase '相隔千里的孤独坟墓' (a thousand miles away, a lonely grave) is not present in the translation provided.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Not thinking, yet forever remembered.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Not thinking, yet forever remembered' does not express '凄凉' (sorrow) or '无处话凄凉' (no place to talk about sorrow).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 2,
+    "overall": 3.85,
+    "valid": true
+  }
+}

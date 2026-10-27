@@ -1,0 +1,67 @@
+{
+  "translation_id": "M16_S5_T3_Qwen3_r3",
+  "anon_code": "T_f860360c",
+  "poem_id": "M16",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The crow's cry echoes over the茅店, and the moon shines on the path.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'the moon shines on the path' but the original phrase '鸡声茅店月' requires the moon to be visible on the茅店 (thatched inn), not just on the path.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Footsteps are visible on the board bridge, and frost covers the ground.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'footsteps' and 'frost' but does not explicitly link them to the 'board bridge' as a single entity, and the phrase 'frost covers the ground' is too general compared to the original's specific '霜 on 板桥' (frost on the wooden bridge).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Because of this, I recall the dream of Du Ling",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Because of this, I recall the dream of Du Ling' directly expresses the required meaning of 'therefore think of the dream in Du Ling' as a memory of a dream.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "the ducks fly满回塘",
+        "evidence_found": true,
+        "reasoning": "The phrase 'the ducks fly满回塘' does not correctly express a 'curved/winding pond' as required; '满' is translated as 'fly' which is incorrect and '回塘' is not properly rendered as a winding pond.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

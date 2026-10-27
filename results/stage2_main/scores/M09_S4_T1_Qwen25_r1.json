@@ -1,0 +1,67 @@
+{
+  "translation_id": "M09_S4_T1_Qwen25_r1",
+  "anon_code": "T_dc01796e",
+  "poem_id": "M09",
+  "strategy": "S4_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "After the moon sets and the乌啼 (rooster's call) fills the霜 (frost), Rounding江枫渔火 (river maple trees and fishing lights) illuminate my愁 (sorrowful) sleep.",
+        "evidence_found": true,
+        "reasoning": "The translation preserves three distinct意象: moon setting, rooster's call, and frost, without establishing causal relationships between them.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Rounding江枫渔火 (river maple trees and fishing lights) illuminate my愁 (sorrowful) sleep",
+        "evidence_found": true,
+        "reasoning": "The phrase 'illuminate my sorrowful sleep' implies facing sorrow while sleeping, satisfying both conditions: '面对' (facing) and '愁绪伴随睡眠' (sorrow accompanying sleep).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "river maple trees and fishing lights",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly mentions 'river maple trees and fishing lights' which preserves both the maple trees and fishing lights as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "After the moon sets and the乌啼 (rooster's call) fills the霜 (frost), Rounding江枫渔火 (river maple trees and fishing lights) illuminate my愁 (sorrowful) sleep.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys a sense of solitude and coldness through imagery of moon setting, frost, and sorrowful sleep, avoiding any joyful elements.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

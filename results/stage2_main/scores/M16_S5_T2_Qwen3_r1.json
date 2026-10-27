@@ -1,0 +1,67 @@
+{
+  "translation_id": "M16_S5_T2_Qwen3_r1",
+  "anon_code": "T_f740d9ff",
+  "poem_id": "M16",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Chicken caw echoes over a茅店, moonlight lingers.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Chicken caw echoes over a茅店, moon:light lingers' directly corresponds to the required meaning of '鸡鸣时茅店上还有月亮' with the three key images preserved: chicken caw (鸡鸣),茅店 (茅店), and moonlight (月).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Footsteps trace the bridge, frost reflects the path.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Footsteps trace the bridge, frost reflects the path' directly corresponds to the required meaning of '人的足迹在板桥的霜上' by capturing the human footprints on the wooden bridge covered in frost.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Thinking of Du Ling’s dream",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Thinking of Du Ling’s dream' directly translates the Chinese phrase '因思杜陵梦' as 'therefore thinking of the dream in Du Ling's place', which expresses recalling a dream from Du Ling's location, meeting the requirement of expressing 'recalling a dream' and being a dream rather than reality.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "ducks swim through the curved pond",
+        "evidence_found": true,
+        "reasoning": "The phrase 'ducks swim through the curved pond' directly expresses the 'ducks filling the curved pond' imagery from the original phrase, fulfilling both the requirement for a curved pond and the ducks filling the pond.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

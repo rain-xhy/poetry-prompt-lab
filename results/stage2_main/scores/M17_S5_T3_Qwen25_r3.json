@@ -1,0 +1,67 @@
+{
+  "translation_id": "M17_S5_T3_Qwen25_r3",
+  "anon_code": "T_afbdeb3f",
+  "poem_id": "M17",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This sentiment can wait to be remembered",
+        "evidence_found": true,
+        "reasoning": "The phrase does not express 'become a memory' in the future tense as required; it uses 'wait to be remembered' which implies a passive state rather than active transformation into memory.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This sentiment can wait to be remembered, but already at the time it was felt, there was a sense of despair.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'already at the time it was felt' does not clearly convey the completed aspect of '已经' as required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This sentiment can wait to be remembered, but already at the time it was felt, there was a sense of despair.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly preserve the specific emotional state referred to by '此情' as a distinct entity; it conflates the emotional state with a sense of despair, which is a different emotional concept.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This sentiment can wait to be remembered, but already at the time it was felt, there was a sense of despair.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the contrast between future recall and past despair through the temporal phrases 'can wait to be remembered' (future) and 'at the time it was felt' (past), showing the required tense interplay.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

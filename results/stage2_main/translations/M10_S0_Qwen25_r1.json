@@ -1,0 +1,19 @@
+{
+  "id": "M10_S0_Qwen25_r1",
+  "poem_id": "M10",
+  "trap_type": "拟人意象",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n野火烧不尽，春风吹又生。",
+  "prompt_sha256": "f44e38d26d08a64cc265b63fe26a42a03ff958da679cd43551fcc9fd81400688",
+  "translation": "This Chinese poem translates to English as:\n\n\"The weeds cannot be burned up entirely,\nSpring breeze makes them grow anew.\"",
+  "metadata": {
+    "input_tokens": 50,
+    "output_tokens": 24,
+    "latency_ms": 401.1502265930176,
+    "timestamp": "2026-10-26T19:58:11.918198",
+    "finish_reason": "stop"
+  }
+}

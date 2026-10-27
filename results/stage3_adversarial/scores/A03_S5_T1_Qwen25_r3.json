@@ -1,0 +1,58 @@
+{
+  "translation_id": "A03_S5_T1_Qwen25_r3",
+  "anon_code": "T_78c8b75e",
+  "poem_id": "A03",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Tongue tied and words withheld",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Tongue tied and words withheld' directly captures the '想说-但止住' (want to speak but stop) contradiction required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Yet they say the cool autumn is fair.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Yet they say the cool autumn is fair' directly corresponds to '却道的表面话语' by expressing the surface statement that contrasts with the poet's inner turmoil.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Tongue tied and words withheld, Yet they say the cool autumn is fair.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Tongue tied and words withheld' directly reflects the internal emotional suppression, while 'Yet they say the cool autumn is fair' shows the contrast between inner turmoil and external expression, meeting the requirement of expressing the contrast or suppression.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

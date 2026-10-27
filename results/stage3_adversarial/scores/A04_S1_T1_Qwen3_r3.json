@@ -1,0 +1,58 @@
+{
+  "translation_id": "A04_S1_T1_Qwen3_r3",
+  "anon_code": "T_78dd8c97",
+  "poem_id": "A04",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This emotion has already awaited",
+        "evidence_found": true,
+        "reasoning": "The phrase 'has already awaited' uses the present perfect tense to indicate a completed action, matching the requirement to preserve '已待' as a completed action rather than a rhetorical question.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This emotion has already awaited the creation of a reminiscence, but it is now all the more bewildered.",
+        "evidence_found": true,
+        "reasoning": "The translation uses a declarative structure without rhetorical questions, clearly stating the emotion's state as a factual observation.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This emotion has already awaited the creation of a reminiscence, but it is now all the more bewildered.",
+        "evidence_found": true,
+        "reasoning": "The translation uses present perfect tense 'has already awaited' which implies a completed action in the past, but the original phrase '与原诗对比' requires preserving the temporal shift from '可待' (can wait) to '已待' (has waited), indicating a change from potential to actual waiting. The English translation does not capture this temporal progression correctly.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 3,
+    "poetic_quality": 1,
+    "overall": 1.6,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

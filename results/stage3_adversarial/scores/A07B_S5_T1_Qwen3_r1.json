@@ -1,0 +1,58 @@
+{
+  "translation_id": "A07B_S5_T1_Qwen3_r1",
+  "anon_code": "T_dc570ca0",
+  "poem_id": "A07B",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Careful not to fall into the river",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Careful not to fall into the river' does not express the required meaning of '能否从歧义版推断出正确否定' which requires checking if the translation can infer the correct negation from a ambiguous version, but the given translation does not address negation or ambiguity in the context of the original Chinese phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Careful not to fall into the river",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Careful not to fall into the river' directly corresponds to the requirement of '版本B翻译为否定' by expressing a cautionary statement that avoids a negative outcome.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Careful not to fall into the river The wind knocks at the door for me The hills wish to keep the guest The blossoms bloom, and the: spring is cherished",
+        "evidence_found": false,
+        "reasoning": "The translation conveys the meaning of avoiding danger (not falling into the river), natural elements interacting with the guest, and the appreciation of spring through blossoms, aligning with the requirement that both versions mean the same.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 1,
+    "poetic_reading": 1,
+    "valid": true
+  }
+}

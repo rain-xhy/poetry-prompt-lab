@@ -1,0 +1,67 @@
+{
+  "translation_id": "M15_S5_T2_Qwen25_r1",
+  "anon_code": "T_d9e6e6ea",
+  "poem_id": "M15",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Why should the羌笛怨杨柳",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Why should the羌笛怨杨: 1. It does not express a negation or denial (it's a question, not a statement of necessity), 2. It does not mean 'no need to' but rather 'why should [X] do Y' (a question about cause). The required meaning is 'no need to' (negation), but this is a question about why something should happen, not a negation of necessity.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "For spring breeze does not cross through Jade Gate Pass",
+        "evidence_found": true,
+        "reasoning": "The phrase 'does not cross through' explicitly includes the negation and the geographical restriction as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why should the羌笛怨杨柳, For spring breeze does not cross through Jade Gate Pass?",
+        "evidence_found": true,
+        "reasoning": "The translation correctly captures the causal relationship where the spring breeze not crossing Jade Gate Pass (the cause) leads to the futility of lamenting willow branches (the effect), maintaining the original's logical flow and thematic resonance.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Why should the羌笛怨杨柳",
+        "evidence_found": true,
+        "reasoning": "The translation includes '羌笛' but the phrase '怨杨柳' does not convey the '离别' (parting) meaning required for 《折杨柳》, which traditionally symbolizes parting.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.45,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

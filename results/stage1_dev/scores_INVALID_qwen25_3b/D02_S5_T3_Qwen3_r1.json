@@ -1,0 +1,57 @@
+{
+  "translation_id": "D02_S5_T3_Qwen3_r1",
+  "anon_code": "T_8da0e26b",
+  "poem_id": "D02",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Birds fly away far and wide, leaving only lone clouds drifting leisurely.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express '鸟群都飞走了' and does not have '全部、消失'之意.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "留 only lone clouds drifting leisurely.",
+        "evidence_found": false,
+        "reasoning": "The phrase '孤云独去闲' is translated as 'Birds fly away far and wide, leaving only lone clouds drifting leisurely.' which does not preserve the exact meaning of '孤云独去闲'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The mountain stands unchanged, watching without fatigue, only the敬亭山.",
+        "evidence_found": true,
+        "reasoning": "The mountain is described as 'watching without fatigue' but is not explicitly stated to be the Jingting Mountain.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "only lone clouds drifting leisurely.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'only敬亭山' is not preserved in the translation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\"adequacy\":1,\"imagery\":0,\"emotion\":2,\"fluency\":1,\"poetic_quality\":0}"
+  }
+}

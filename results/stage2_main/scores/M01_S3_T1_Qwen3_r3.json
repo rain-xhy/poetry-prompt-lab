@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S3_T1_Qwen3_r3",
+  "anon_code": "T_eb89198e",
+  "poem_id": "M01",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The poet's emotion is deep yet restrained, his joy unexpressed. The candle, with a heart, regrets parting, its tears falling until the dawn.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the paradox of deep emotion coexisting with seeming coldness through the contrast between 'deep yet restrained' and 'unexpressed' for the poet's emotion, and the candle's 'regrets parting' and 'tears falling' implying emotional depth despite outward stillness.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The poet's emotion is deep yet restrained, his joy unexpressed.",
+        "evidence_found": true,
+        "reasoning": "The translation describes the poet's emotion as 'deep yet restrained' and 'joy unexpressed', which implies emotional restraint rather than inability to smile, failing to capture the 'cannot smile' state required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The candle, with a heart, regrets parting",
+        "evidence_found": true,
+        "reasoning": "The phrase explicitly states the candle has a heart (拟人化) and regrets parting (惜别), meeting both conditions of being the personified subject and preserving the metaphorical effect.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "its tears falling until the dawn",
+        "evidence_found": true,
+        "reasoning": "The phrase 'its tears falling until the dawn' directly corresponds to '蜡烛替人流泪 + 一直到天明' by preserving the candle's tears (替人流泪) and the time extension until dawn (到天明).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

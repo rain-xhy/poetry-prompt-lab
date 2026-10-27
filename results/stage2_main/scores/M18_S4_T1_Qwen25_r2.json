@@ -1,0 +1,67 @@
+{
+  "translation_id": "M18_S4_T1_Qwen25_r2",
+  "anon_code": "T_1f3b0099",
+  "poem_id": "M18",
+  "strategy": "S4_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The flowers fall in a way that's hard to bear",
+        "evidence_found": true,
+        "reasoning": "The phrase 'hard to bear' directly conveys the feeling of helplessness or inability to prevent the flowers from falling, fulfilling the requirement of expressing helplessness.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "a swallow returns as if we've met before",
+        "evidence_found": true,
+        "reasoning": "The phrase 'a swallow returns as if we've met before' directly translates the '燕归来' (swallow returning) and '似曾相识' (as if we've met before) with the required meaning of 'seem familiar'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The flowers fall in a way that's hard to bear, Yet a swallow returns as if we've met before.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly contrasts the flowers falling (departing) with the swallow returning, showing the opposite directions of movement and the emotional weight of each action.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The flowers fall in a way that's hard to bear, Yet a swallow returns as if we've met before.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys the passage of time through the falling flowers and the return of the swallow, reflecting the sentiment of things unchanged but people changed.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

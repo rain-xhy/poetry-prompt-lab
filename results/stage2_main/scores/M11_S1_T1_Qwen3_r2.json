@@ -1,0 +1,67 @@
+{
+  "translation_id": "M11_S1_T1_Qwen3_r2",
+  "anon_code": "T_5166f7af",
+  "poem_id": "M11",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "seeming like frost on the ground",
+        "evidence_found": true,
+        "reasoning": "The phrase 'seeming like' does not use a verb of uncertainty such as 'might be' or 'seems' as required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I raise my head to gaze at the bright moon, yet my heart turns to think of my homeland.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly shows the sequence of actions (raising head to gaze at moon) followed by the emotional consequence (thinking of homeland), directly linking the act of looking at the moon to the feeling of homesickness.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Before me, a moonlit glow, seeming like frost on the ground.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly mention 'bed before' or 'bright moon' as required by the original phrase's meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Before me, a moonlit glow, seeming like frost on the ground. I raise my head to gaze at the bright moon, yet my heart turns to think of my homeland.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys a tranquil atmosphere through the moonlit imagery and the contrast between the external scene and internal longing, capturing both the quietness and the solitary homesickness required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

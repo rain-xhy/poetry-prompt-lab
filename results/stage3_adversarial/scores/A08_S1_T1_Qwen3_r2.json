@@ -1,0 +1,58 @@
+{
+  "translation_id": "A08_S1_T1_Qwen3_r2",
+  "anon_code": "T_092f5bad",
+  "poem_id": "A08",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Once the mansion's winged guest flew into the common folk's home.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'mansion's winged guest' refers to the aristocratic or wealthy families as per the requirement to preserve '豪门' as a generalized expression of wealthy/noble/aristocratic families.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "At the edge of the Zhuque Bridge, wild grass blooms in wild abandon, At the mouth of the Uyi巷, the sunset casts a long shadow. Once the mansion's winged guest flew into the common folk's home.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the essence of '历史特指性丢失' by indicating the loss of specific historical context through the imagery of wild grass and sunset, which implies a lack of historical specificity.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "At the edge of the Zhuque Bridge, wild grass blooms in wild abandon, At the mouth of the Uyi巷, the sunset casts a long shadow.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'Zhuque Bridge' and 'Uyi巷' which are not the correct names from the original poem 'Wu Yi Xiang' (乌衣巷), and the phrase 'Uyi巷' is a misspelling of 'Wu Yi Xiang' (乌衣巷).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

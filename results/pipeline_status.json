@@ -1,0 +1,86 @@
+{
+  "gen_stage3": {
+    "status": "ok",
+    "returncode": 0,
+    "seconds": 3,
+    "log": "E:\\desktop\\北大软微\\课程\\大语言模型应用与实践\\作业\\11\\代码\\poetry-prompt-lab\\results\\pipeline_gen_stage3.log"
+  },
+  "gen_stage4": {
+    "status": "ok",
+    "returncode": 0,
+    "seconds": 1263,
+    "log": "E:\\desktop\\北大软微\\课程\\大语言模型应用与实践\\作业\\11\\代码\\poetry-prompt-lab\\results\\pipeline_gen_stage4.log"
+  },
+  "score_stage2": {
+    "status": "ok",
+    "returncode": 0,
+    "seconds": 16866,
+    "log": "E:\\desktop\\北大软微\\课程\\大语言模型应用与实践\\作业\\11\\代码\\poetry-prompt-lab\\results\\pipeline_score_stage2.log"
+  },
+  "score_stage3": {
+    "status": "ok",
+    "returncode": 0,
+    "seconds": 2365,
+    "log": "E:\\desktop\\北大软微\\课程\\大语言模型应用与实践\\作业\\11\\代码\\poetry-prompt-lab\\results\\pipeline_score_stage3.log"
+  },
+  "rescore_stage1_layers": {
+    "status": "ok",
+    "returncode": 0,
+    "seconds": 678,
+    "log": "E:\\desktop\\北大软微\\课程\\大语言模型应用与实践\\作业\\11\\代码\\poetry-prompt-lab\\results\\pipeline_rescore_stage1_layers.log"
+  },
+  "stage4_analyze": {
+    "status": "ok",
+    "returncode": 0,
+    "seconds": 905,
+    "log": "E:\\desktop\\北大软微\\课程\\大语言模型应用与实践\\作业\\11\\代码\\poetry-prompt-lab\\results\\pipeline_stage4_analyze.log"
+  },
+  "format_stage2": {
+    "status": "ok",
+    "returncode": 0,
+    "seconds": 1,
+    "log": "E:\\desktop\\北大软微\\课程\\大语言模型应用与实践\\作业\\11\\代码\\poetry-prompt-lab\\results\\pipeline_format_stage2.log"
+  },
+  "format_stage3": {
+    "status": "ok",
+    "returncode": 0,
+    "seconds": 0,
+    "log": "E:\\desktop\\北大软微\\课程\\大语言模型应用与实践\\作业\\11\\代码\\poetry-prompt-lab\\results\\pipeline_format_stage3.log"
+  },
+  "scorer_checks": {
+    "status": "ok",
+    "returncode": 0,
+    "seconds": 559,
+    "log": "E:\\desktop\\北大软微\\课程\\大语言模型应用与实践\\作业\\11\\代码\\poetry-prompt-lab\\results\\pipeline_scorer_checks.log"
+  },
+  "stats_stage2_accuracy": {
+    "status": "ok",
+    "returncode": 0,
+    "seconds": 20,
+    "log": "E:\\desktop\\北大软微\\课程\\大语言模型应用与实践\\作业\\11\\代码\\poetry-prompt-lab\\results\\pipeline_stats_stage2_accuracy.log"
+  },
+  "stats_stage2_quality": {
+    "status": "ok",
+    "returncode": 0,
+    "seconds": 3,
+    "log": "E:\\desktop\\北大软微\\课程\\大语言模型应用与实践\\作业\\11\\代码\\poetry-prompt-lab\\results\\pipeline_stats_stage2_quality.log"
+  },
+  "extra_stage2": {
+    "status": "ok",
+    "returncode": 0,
+    "seconds": 7,
+    "log": "E:\\desktop\\北大软微\\课程\\大语言模型应用与实践\\作业\\11\\代码\\poetry-prompt-lab\\results\\pipeline_extra_stage2.log"
+  },
+  "extra_stage3": {
+    "status": "ok",
+    "returncode": 0,
+    "seconds": 4,
+    "log": "E:\\desktop\\北大软微\\课程\\大语言模型应用与实践\\作业\\11\\代码\\poetry-prompt-lab\\results\\pipeline_extra_stage3.log"
+  },
+  "audit_sheet": {
+    "status": "ok",
+    "returncode": 0,
+    "seconds": 1,
+    "log": "E:\\desktop\\北大软微\\课程\\大语言模型应用与实践\\作业\\11\\代码\\poetry-prompt-lab\\results\\pipeline_audit_sheet.log"
+  }
+}

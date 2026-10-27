@@ -1,0 +1,67 @@
+{
+  "translation_id": "M16_S3_T1_Qwen3_r1",
+  "anon_code": "T_a5b17a7b",
+  "poem_id": "M16",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The creak of the ancient road is awakened by the call of the roosters, and the",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'roosters' but does not explicitly state '茅店上' (the inn) or '还有月亮' (there is still a moon) as required by the three imagery elements.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Footsteps are seen on the wooden bridge, and the frosty dew glitters on the pl: 1. The phrase '人迹板桥霜' translates to 'the human footprints on the wooden bridge in frost' (省略). The required translation must preserve the three images: human footprints, wooden bridge, and frost. The English translation says 'Footsteps are seen on the wooden bridge, and the frosty dew glitters on the planks.' This translation does not accurately capture the original meaning because it mentions 'frosty dew' instead of 'frost' and 'planks' instead of 'board bridge'. The original phrase '人迹板桥霜' refers to the frost on the wooden bridge where human footprints have been made, not dew. The phrase 'frosty dew' is incorrect as dew is not frost, and 'planks' is a different term than 'board bridge'. The translation also adds extra elements like 'the creak of the ancient road', 'the call of the roosters', 'the moon hangs over the moss-covered inn', 'leaves fall from the oak', 'the bright blossoms of the枳 flower light up the wall of the inn', 'thinking of the Du Ling dream', 'ducks and geese fill the backwater pond', which are not part of the original phrase. The required translation must only focus on the three images: human footprints, wooden bridge, and frost. The English translation does not meet the pass conditions because it does not accurately represent the three images and adds extra elements.",
+        "evidence_found": false,
+        "reasoning": "The translation incorrectly uses 'frosty dew' instead of 'frost' and 'planks' instead of 'board bridge', and adds extra elements not in the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Thinking of the Du Ling dream",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Thinking of the Du Ling dream' directly translates the Chinese phrase '因思杜陵梦' and expresses the meaning of recalling a dream from Du Ling, meeting both conditions of expressing memory/recollection and being a dream.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "ducks and geese fill the backwater pond",
+        "evidence_found": true,
+        "reasoning": "The phrase 'backwater pond' implies a曲折/curved or winding pond, and 'ducks and ge as fill' directly corresponds to '凫雁满布' in the original phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

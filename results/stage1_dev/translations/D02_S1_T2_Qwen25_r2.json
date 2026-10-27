@@ -1,0 +1,19 @@
+{
+  "id": "D02_S1_T2_Qwen25_r2",
+  "poem_id": "D02",
+  "trap_type": "拟人意象",
+  "strategy": "S1_T2",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Poetic rendering for English poetry reading.\nAudience: Poetry lovers at literary events.\nConstraints:\n- Prioritize rhythm and natural flow when read aloud\n- You may adapt imagery for English poetic conventions\n- You may reorder or restructure lines for English verse\n- Preserve the core emotional tone and main imagery\n- You may sacrifice minor details for poetic effect\n- No notes (pure poetry)\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English verse, no title, no author name, no notes.\n\nPoem:\n众鸟高飞尽，孤云独去闲。\n相看两不厌，只有敬亭山。",
+  "prompt_sha256": "c39f3d09de0a71e9180741392c7679a59689590d202ba761c9ba234d8cf45e8a",
+  "translation": "众鸟高飞空，孤云自舒卷。\n相对两不厌，惟有敬亭见。",
+  "metadata": {
+    "input_tokens": 229,
+    "output_tokens": 24,
+    "latency_ms": 11048.133373260498,
+    "timestamp": "2026-10-26T16:30:01.923403",
+    "finish_reason": "stop"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M18_S5_T2_Qwen3_r1",
+  "anon_code": "T_f947d147",
+  "poem_id": "M18",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When the flowers fall, I cannot help but grieve, And the returning swan seems to know my pain.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express the 'helpless' feeling required by the original phrase; it focuses on grief and a swan's awareness of pain, which does not convey the sense of helplessness in watching the flowers fall.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "the returning swan seems to know my pain",
+        "evidence_found": true,
+        "reasoning": "The phrase 'the returning swan' incorrectly translates '燕子' (swallow) as 'swan', and 'seems to know my pain' does not convey '似曾相识' (seem familiar) as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The bloom fades, the bird returns—",
+        "evidence_found": true,
+        "reasoning": "This line directly contrasts the fading of flowers (花去) with the return of the swan (燕归来), capturing the directional contrast between departure and return.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When the flowers fall, I cannot help but grieve, And the returning swan seems to know my pain.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys time passing through falling flowers and the fleeting nature of life, while the swan's return symbolizes the unchanged past and present, reflecting the sentiment of '物是人非' (things remain but people change).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.4,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

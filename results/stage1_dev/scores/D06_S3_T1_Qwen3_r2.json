@@ -1,0 +1,70 @@
+{
+  "translation_id": "D06_S3_T1_Qwen3_r2",
+  "anon_code": "T_d36822e0",
+  "poem_id": "D06",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The deeper the feeling, the plainer the words. The plainer the words, the more distant the face.",
+        "evidence_found": true,
+        "reasoning": "The translation describes a relationship between feelings, words, and faces but does not express 'in distant imagination' or 'imagining from afar' as required by the original phrase 遥知.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The deeper the feeling, the plainer the words. The plainer the words, the more distant the face.",
+        "evidence_found": true,
+        "reasoning": "The translation provided does not mention 'brothers' or 'climb the heights' at all, so it fails to meet the requirement of having the subject 'brothers' and the meaning of 'climb the heights'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The deeper the feeling, the plainer the words. The plainer the words, the more distant the face.",
+        "evidence_found": true,
+        "reasoning": "The translation provided does not mention anything about people wearing chrysanthemum or dogwood sprigs, which is required by the original phrase 遍插茱萸.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The deeper the feeling, the plainer the words. The plainer the words, the more distant the face.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express that someone is missing or that the speaker is the one missing, which is required by the original phrase '少了我一个人' meaning 'one person is missing (me)'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\n  \"original\": \"遥知兄弟登高处，遍插茱萸少一人。\",\n  \"reference_notes\": {\n    \"遥知\": \"在远处想象得知。要点：视角是诗人远距离的推想，不是亲眼所见。\",\n    \"兄弟登高处\": \"兄弟们登高之处。要点：登高的是兄弟，不是诗人。\",\n    \"遍插茱萸\": \"每个人头上都插着茱萸。要点：'遍'表示都，茱萸是重阳习俗物。\",\n    \"少一人\": \"少了我一个人。要点：缺席者是诗人自己。\"\n  },\n  \"translation\": \"The deeper the feeling, the plainer the words.  The plainer the words, the more distant the face.\"\n}"
+  },
+  "layer2_v1": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.45,
+    "valid": true
+  },
+  "layer3": {
+    "valid": false,
+    "raw": "{\n  \"original\": \"遥知兄弟登高处，遍插茱萸少一人。\",\n  \"academic_translation\": \"The deeper the feeling, the plainer the words. The plainer the words, the more distant the face.\",\n  \"poetic_reading\": \"The deeper the feeling, the pl: The plainer the words, the more distant the face.\"\n}"
+  }
+}

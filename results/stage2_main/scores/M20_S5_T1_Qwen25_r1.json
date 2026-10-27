@@ -1,0 +1,67 @@
+{
+  "translation_id": "M20_S5_T1_Qwen25_r1",
+  "anon_code": "T_04edfaa8",
+  "poem_id": "M20",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I live by the Yangtze River's head, you by its tail.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts the speaker's location (head of the Yangtze) with the listener's location (tail of the Yang: 'head' vs 'tail'), fulfilling the requirement for spatial parallelism and opposition between the two ends.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Day and night I think of you but cannot see you",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Day and night' expresses continuous daily activity, and 'think of you but cannot see you' captures the contradiction between longing and inability to meet.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Sharing the waters of the Yangtze, yet apart.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Sharing the waters of the Yangtze' directly reflects '共饮长江水' by emphasizing the shared water (commonality) and the Yangtze River (context), while 'yet apart' conveys the separation despite the shared connection.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I live by the Yangtze River's head, you by its tail. Day and night I think of you but cannot see you, Sharing the waters of the Yangtze, yet apart.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly shows physical separation (Yangtze River's head vs tail) and emotional connection (sharing the waters), creating tension through the contrast of being physically distant yet emotionally linked.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

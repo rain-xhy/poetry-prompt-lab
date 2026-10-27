@@ -1,0 +1,19 @@
+{
+  "id": "M13_S2_T1_Qwen3_r2",
+  "poem_id": "M13",
+  "trap_type": "否定逻辑",
+  "strategy": "S2_T1",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nSemantic Analysis (in Chinese):\n“鸟飞绝”：鸟飞尽、没有鸟飞（绝对否定）。要点：绝对否定，一只鸟都没有。\n“人踪灭”：人的踪迹消失（绝对否定）。要点：完全没有人迹。\n“独钓”：独自垂钓（孤独强调）。要点：孤独、独自一人。\n“千山...万径...孤舟...独”：从宏大空间到孤独个体的对比。要点：广阔空间与孤独个体的反差。\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n千山鸟飞绝，万径人踪灭。\n孤舟蓑笠翁，独钓寒江雪。",
+  "prompt_sha256": "bab17c53b60598eca165c354e71aafcce2ce550fc956ed105146810cf813fe55",
+  "translation": "Beyond the mountains, no birds fly;  \nThrough the paths, no traces of man remain.  \nA solitary boat, draped in shrouds,  \nSits alone, casting snow in the cold stream.\n\n[The reference to \"sweat and blood\" in the original poem is not present here, as it is not part of the given text.]",
+  "metadata": {
+    "input_tokens": 339,
+    "output_tokens": 73,
+    "latency_ms": 11617.693424224854,
+    "timestamp": "2026-10-26T21:18:54.667998",
+    "finish_reason": "stop"
+  }
+}

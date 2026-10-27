@@ -1,0 +1,58 @@
+{
+  "translation_id": "A03_S5_T1_Qwen25_r2",
+  "anon_code": "T_169a2954",
+  "poem_id": "A03",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Desire to speak is checked, yet it says, \"The fine weather of autumn is good.\"",
+        "evidence_found": true,
+        "reasoning": "The translation describes a checked desire to speak but does not convey the 'want to speak but stop' contradiction required by the phrase, instead it states a comment about autumn weather.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Desire to speak is checked, yet it says, \"The fine weather of autumn is good.\"",
+        "evidence_found": true,
+        "reasoning": "The translation does not distinguish between true emotion and surface words as required; it describes a literal statement about autumn weather without indicating that this is superficial language.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Desire to speak is checked, yet it says, \"The fine weather of autumn is good.\"",
+        "evidence_found": true,
+        "reasoning": "The translation describes a suppressed desire to speak but does not convey the internal emotional inconsistency or the sense of restraint that the original phrase requires.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 1.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

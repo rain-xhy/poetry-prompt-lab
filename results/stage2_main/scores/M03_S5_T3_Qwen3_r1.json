@@ -1,0 +1,67 @@
+{
+  "translation_id": "M03_S5_T3_Qwen3_r1",
+  "anon_code": "T_880fc124",
+  "poem_id": "M03",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "it is not determined",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it is not determined' directly translates to '尚未确定' which matches the required meaning of '尚未确定/cannot yet be set' without implying 'no deadline' or 'never'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When will we share the candlelight on the western window?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'When will we share the candlelight on the western window?' uses the future tense 'will' to express a future assumption about sharing candlelight, matching the required meaning of '什么时候能一起剪西窗烛' (when can we together cut the candle on the western window).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When you ask about my return date, it is not determined. The rain in the mountain passes fills the autumn pools. When will we share the candlelight on the western window? We will talk about the rain in the mountain: passes again.",
+        "evidence_found": false,
+        "reasoning": "The translation does not explicitly convey '将来回忆过去' (future recalling past) as it uses 'We will talk about' which implies future action rather than past recollection, and it does not clearly specify '今夜' (this night) for the rain.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The rain in the mountain passes fills the autumn pools.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states that the rain causes the autumn pools to fill, preserving the three required imagery elements: 巴山 (mountain passes), 夜雨 (rain), and 秋池 (autumn pools).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.45,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

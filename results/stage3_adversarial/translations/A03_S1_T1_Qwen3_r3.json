@@ -1,0 +1,19 @@
+{
+  "id": "A03_S1_T1_Qwen3_r3",
+  "poem_id": "A03",
+  "trap_type": "emotional_suppression",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n欲语还休，却道天凉好个秋。",
+  "prompt_sha256": "08df49607cf0ce9c42479c454284b017afe98b292cf0f75da2879519c1326f3a",
+  "translation": "[This poem uses the classical Chinese idiom \"欲语还休\" which means \"wanting to speak but being unable to,\" and reflects the emotional tension of a moment of hesitation or restraint.]\n\nWhen the wind blows, the autumn sky seems to cool, yet the words remain unspoken.",
+  "metadata": {
+    "input_tokens": 224,
+    "output_tokens": 60,
+    "latency_ms": 9374.509572982788,
+    "timestamp": "2026-10-26T21:40:55.263801",
+    "finish_reason": "stop"
+  }
+}

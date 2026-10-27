@@ -1,0 +1,67 @@
+{
+  "translation_id": "M20_S2_T1_Qwen25_r1",
+  "anon_code": "T_54c4b562",
+  "poem_id": "M20",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I live by the长江head, you by its tail.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts the speaker's location (head of the Yangtze) with the listener's location (tail of the Yangtze), fulfilling the requirement for spatial parallelism and opposition between the beginning and end.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Day by day I think of you yet cannot see you",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Day by day I think of you yet cannot see you' contains the required continuous time expression 'day by day' and the contradiction between thinking and not seeing, but the original Chinese phrase '日日思君不见君' specifically refers to daily thoughts without seeing the person, not the context of being on opposite ends of the river. The translation adds extra context that isn't in the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Drinking from the same长江river, we are bound.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Drinking from the same长江river' directly reflects the '共饮一江水' meaning, and 'we are bound' captures the '联系' (connection) aspect required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "I live by the长江head, you by its tail. Drinking from the same长江river, we are bound.",
+        "evidence_found": false,
+        "reasoning": "The translation shows physical separation (living at opposite ends of the river) and emotional/symbolic connection (drinking from the same river), creating tension between physical distance and emotional bond.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

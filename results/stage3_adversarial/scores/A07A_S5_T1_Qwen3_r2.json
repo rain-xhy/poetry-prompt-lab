@@ -1,0 +1,58 @@
+{
+  "translation_id": "A07A_S5_T1_Qwen3_r2",
+  "anon_code": "T_1c83d146",
+  "poem_id": "A07A",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Careful slip into the river",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Careful slip into the river' does not convey the meaning of '能否从歧义版推断出正确否定' which requires checking if a version can be inferred to correctly negate something, but the translation focuses on a literal action without negation or inference context.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Careful slip into the river",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Careful slip into the river' does not convey the intended meaning of '明确版本应该正确' which requires a clear negation of version B, but the translation focuses on a literal action without negation.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Careful slip into the river",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Careful slip into the river' directly translates the concept of a careful or cautious action leading to a river, which aligns with the meaning of 'AB一致性' as two versions having the same meaning.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

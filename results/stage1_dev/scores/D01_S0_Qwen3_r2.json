@@ -1,0 +1,76 @@
+{
+  "translation_id": "D01_S0_Qwen3_r2",
+  "anon_code": "T_971d2739",
+  "poem_id": "D01",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling cannot be erased, for it rises from the brow and then returns to the heart.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'erased' which implies complete removal, but the original phrase refers to 'eliminating' or 'dispelling' emotions, not erasing them entirely. Additionally, the phrase 'rises from the brow and then returns to the heart' adds extra imagery not present in the original Chinese phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling cannot be erased, for it rises from the brow and then returns to the heart.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express 'just left the brow' or 'just departed from the brow' as required; it describes a feeling rising from the brow and returning to the heart, which is a different concept.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling cannot be erased, for it rises from the brow and then returns to the heart.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express a contrast or turn (yet/but/again) as required, and the phrase 'rises from the brow' does not align with the original's focus on 'heart' as the landing point.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling cannot be erased, for it rises from the brow and then returns to the heart.",
+        "evidence_found": true,
+        "reasoning": "The translation shows the continuous transfer of sorrow from brow to heart without resolution, meeting both conditions of sequential relationship and persistent emotion.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

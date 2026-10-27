@@ -1,0 +1,67 @@
+{
+  "translation_id": "M09_S5_T3_Qwen25_r2",
+  "anon_code": "T_0ae971f4",
+  "poem_id": "M09",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The moon sets, the乌鸦 cry,霜 covers the sky",
+        "evidence_found": true,
+        "reasoning": "The English translation explicitly lists three distinct natural elements (moon, crows, frost) without establishing causal relationships between them, preserving the parallel structure of the original Chinese phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Riverside maples and fishing lights face my sorrowful sleep",
+        "evidence_found": true,
+        "reasoning": "The phrase 'face my sorrowful sleep' directly expresses '面对愁绪而眠' with 'face' indicating the relationship and 'sorrowful sleep' conveying the emotional state accompanying sleep.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Riverside maples and fishing lights",
+        "evidence_found": true,
+        "reasoning": "The English translation explicitly states 'Riverside maples and fishing lights' which directly preserves the two required意象 (maples and fishing lights) as a parallel phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The moon sets, the乌鸦 cry,霜 covers the sky. Riverside maples and fishing lights face my sorrowful sleep.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys a desolate and lonely atmosphere through personification and vivid imagery, avoiding any joyful elements while maintaining the required sense of solitude and melancholy.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

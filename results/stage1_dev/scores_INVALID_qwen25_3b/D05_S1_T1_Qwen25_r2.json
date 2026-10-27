@@ -1,0 +1,62 @@
+{
+  "translation_id": "D05_S1_T1_Qwen25_r2",
+  "anon_code": "T_6a0c27e3",
+  "poem_id": "D05",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of生死 apart",
+        "evidence_found": true,
+        "reasoning": "The phrase '生死 apart' is not present in the original Chinese phrase '十年生死两茫茫' and does not accurately convey the meaning of '十年生死两茫茫'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of生死 apart, in silent hearts, we yearn.",
+        "evidence_found": true,
+        "reasoning": "The translation contains the phrase 'Ten years of生死 apart', which is not present in the original Chinese poem and does not fit the context of the original phrase '不思量，自难忘'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "silent plea",
+        "evidence_found": true,
+        "reasoning": "The phrase 'silent plea' does not directly translate to '相隔千里的孤独坟墓' (a lonely grave separated by thousands of miles). It implies loneliness but does not explicitly state it.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Where can we speak of sorrow, where does it linger?",
+        "evidence_found": true,
+        "reasoning": "The translation does not use the exact phrase '没有地方、没有人可诉说凄凉' to express '无处话凄凉'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.4,
+    "valid": true
+  }
+}

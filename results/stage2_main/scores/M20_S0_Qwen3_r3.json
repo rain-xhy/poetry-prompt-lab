@@ -1,0 +1,67 @@
+{
+  "translation_id": "M20_S0_Qwen3_r3",
+  "anon_code": "T_b93f9f04",
+  "poem_id": "M20",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell at the head of the river, you dwell at the tail of the river",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts the speaker's position (head of the river) with the listener's position (tail of the river), fulfilling the requirement for spatial parallelism and opposition between the two ends.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Every day I think of you, but I cannot see you",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Every day I think of you, but I cannot see you' directly expresses the continuous daily thought and the contradiction between longing and inability to meet, fulfilling both required conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Sharing the same river's waters",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Sharing the same river's waters' directly reflects the '共饮一江水' meaning with '共' (shared) and '饮一江水' (drinking one river's water), fulfilling the requirement of '共' and the drinking connection.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I dwell at the head of the river, you dwell at the tail of the river. Every day I think of you, but I cannot see you, Sharing the same river's waters.",
+        "evidence_found": true,
+        "reasoning": "The translation shows physical separation (head and tail of the river) and emotional connection (sharing the same river's waters), creating tension between the two.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "M07_S0_Qwen3_r2",
+  "poem_id": "M07",
+  "trap_type": "拟人意象",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n朱雀桥边野草花，乌衣巷口夕阳斜。\n旧时王谢堂前燕，飞入寻常百姓家。",
+  "prompt_sha256": "5006bd54a1165303dc55069197830101aaac4e4c090c6ddaa82a0ea5fb5fb336",
+  "translation": "At the edge of the Juzhai Bridge, wild grass blooms in the wild wild;  \nAt the mouth of the Wuyi Lane, the sunset casts a shadow in the west.  \nThe once-grand halls of Wang and Che now host commoners in the street.",
+  "metadata": {
+    "input_tokens": 57,
+    "output_tokens": 56,
+    "latency_ms": 9935.270547866821,
+    "timestamp": "2026-10-26T19:36:56.430509",
+    "finish_reason": "stop"
+  }
+}

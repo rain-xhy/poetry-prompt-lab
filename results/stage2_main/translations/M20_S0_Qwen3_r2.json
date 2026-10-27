@@ -1,0 +1,19 @@
+{
+  "id": "M20_S0_Qwen3_r2",
+  "poem_id": "M20",
+  "trap_type": "时态叙事",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n我住长江头，君住长江尾。\n日日思君不见君，共饮长江水。",
+  "prompt_sha256": "83751ac1d537cbb8af12a2849b64724bf11a8b6c4e06653cdc8e046bde15303c",
+  "translation": "I dwell at the head of the river, you dwell at the tail.  \nEvery day I think of you, but I cannot see you.  \nWe share the same river, drinking together.",
+  "metadata": {
+    "input_tokens": 50,
+    "output_tokens": 40,
+    "latency_ms": 11248.282432556152,
+    "timestamp": "2026-10-26T20:46:35.094003",
+    "finish_reason": "stop"
+  }
+}

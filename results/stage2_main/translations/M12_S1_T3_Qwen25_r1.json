@@ -1,0 +1,19 @@
+{
+  "id": "M12_S1_T3_Qwen25_r1",
+  "poem_id": "M12",
+  "trap_type": "否定逻辑",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n白日依山尽，黄河入海流。\n欲穷千里目，更上一层楼。",
+  "prompt_sha256": "d85ac0437e4c85b0a4966280d239ca305ea4c01ce2c665ebb7850d106f080d97",
+  "translation": "2-4 lines of English translation:\nThe sun sets behind the mountain range,\nWhile the Yellow River flows into the sea.\nTo see further, one must climb higher.\n\nNotes:\n- The poem uses personification by attributing actions (setting) to natural elements (the sun and the river), making them active participants in the scene.\n- The phrase \"欲穷千里目\" (to see further) employs implicit negation, suggesting that one cannot achieve this from the ground level, implying the need to go higher.\n- \"更上一层楼\" (to climb higher) is a metaphorical reference to ascending in a literal sense, encouraging one to look out from a vantage point to expand their view.",
+  "metadata": {
+    "input_tokens": 230,
+    "output_tokens": 144,
+    "latency_ms": 11908.788204193115,
+    "timestamp": "2026-10-26T20:40:29.458866",
+    "finish_reason": "stop"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S2_T1_Qwen25_r2",
+  "anon_code": "T_a38fb10a",
+  "poem_id": "M07",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "By Zhuque Bridge, wild flowers grow, U-shaped alley under setting sun. Once the phoenix-inlaid halls' swallow, Now in common homes it sojourns.",
+        "evidence_found": true,
+        "reasoning": "The translation preserves 'Wang' and 'Xie' as specific family names through the metaphor of 'phoenix-inlaid halls' (referring to the Wang and Xie families' elite status) and 'common homes' (indicating their decline), meeting the requirement to not generalize the names.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Once the phoenix-inlaid halls' swallow, Now in common homes it sojourns.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts 'phoenix-inlaid halls' (historical elite residences) with 'common homes' (ordinary people's dwellings), showing the time contrast between 'once' and 'now' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Once the phoenix-inlaid halls' swallow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Once the phoenix-inlaid halls' swallow' directly references the swallow (燕子) as a witness to historical change, contrasting its past elite status with current common life, preserving the intended imagery without implying the swallow lived for centuries.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "By Zhuque Bridge, wild flowers grow, U-shaped alley under setting sun.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'wild flowers grow' preserves the 'wild grass' imagery and 'setting sun' directly references the 'sunset' while the 'U-shaped alley' implies a desolate, abandoned setting.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

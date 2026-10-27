@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S1_T3_Qwen3_r1",
+  "anon_code": "T_a4b9d36f",
+  "poem_id": "M07",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wang and Che",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly mentions 'Wang' and 'Che' as specific families, preserving the required 'Wang' and 'Xie' (with 'Che' being a transliteration of 'Xie' in this context).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Once, the grand halls of Wang and Che welcomed the f: the once-mighty birds fly in",
+        "evidence_found": false,
+        "reasoning": "The translation contrasts 'grand halls of Wang and Che' (past elite) with 'commoner's house' (present ordinary people) to show the time and social class contrast as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Now, a commoner's house is where the once-mighty birds fly in.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'once-mighty birds' refers to the historical significance of the birds (燕子) as witnesses, implying their role in observing the transformation from grand halls to a commoner's house, thus preserving the '燕子 as witness' imagery without suggesting the same bird lived for centuries.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "On the wild grass by the Zhuj:ia Bridge, wild flowers bloom in quiet beauty, At the edge of the Wuyi Terrace, the sunset casts a long shadow.",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly mentions 'wild grass' and 'sunset' while conveying a sense of desolation through the contrast between past grandeur and current decay.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

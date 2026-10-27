@@ -1,0 +1,58 @@
+{
+  "translation_id": "A03_S0_Qwen3_r3",
+  "anon_code": "T_5fa332be",
+  "poem_id": "A03",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When I wish to speak, it stops; I say, \"It's cool and beautiful this autumn.\"",
+        "evidence_found": true,
+        "reasoning": "The translation describes a physical action of stopping speech but does not convey the internal emotional conflict of wanting to speak yet restraining oneself, which is essential for the '想说-但止住' contradiction.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When I wish to speak, it stops; I say, \"It's cool and beautiful this autumn.\"",
+        "evidence_found": true,
+        "reasoning": "The translation does not convey the distinction between true feelings and surface words as required by '却道'引出的只是表面话, which implies that the speaker's words are superficial while the true emotion is hidden.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When I wish to speak, it stops; I say, \"It's cool and beautiful this autumn.\"",
+        "evidence_found": true,
+        "reasoning": "The translation describes a moment of speech interruption followed by a positive autumn observation, but does not convey the emotional suppression or inconsistency between inner feelings and expression that the original phrase requires.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.4,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

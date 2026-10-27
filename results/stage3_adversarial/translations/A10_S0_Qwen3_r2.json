@@ -1,0 +1,19 @@
+{
+  "id": "A10_S0_Qwen3_r2",
+  "poem_id": "A10",
+  "trap_type": "future_to_past",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n君问归期未有期，巴山夜雨涨秋池。\n曾经共剪西窗烛，回话巴山夜雨时。",
+  "prompt_sha256": "219875f3c457c3460cb3df3a7978df13b2f8c9b4cb2ea2ccbc69598493c7196e",
+  "translation": "When you ask for the time of my return, I say there is no definite time. The night rain in the western mountains fills the autumn pool.  \nOnce we lit the west window candle together, and then, after many years, we spoke of the same rain in the western mountains.",
+  "metadata": {
+    "input_tokens": 58,
+    "output_tokens": 59,
+    "latency_ms": 618.7269687652588,
+    "timestamp": "2026-10-26T21:39:48.221025",
+    "finish_reason": "stop"
+  }
+}

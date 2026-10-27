@@ -1,0 +1,67 @@
+{
+  "translation_id": "M17_S1_T3_Qwen25_r1",
+  "anon_code": "T_b0002913",
+  "poem_id": "M17",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling could be remembered, but now it seems so strange. Only then did it seem strange.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly use a question structure (must/can/could) as required for the '反问' aspect, and the phrase 'Only then did it seem strange' does not directly convey the 'become a memory' aspect in the future tense.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling could be remembered, but now it seems so strange. Only then did it seem strange.",
+        "evidence_found": true,
+        "reasoning": "The translation does not convey the past perfect tense 'already' completion required by '当时就已经惘然' as it uses present perfect and past simple without indicating prior completion.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling could be remembered, but now it seems so strange. Only then did it seem strange.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly convey the specific emotional reference or the sense of 'this feeling' as a distinct emotional state that is being recalled, but rather describes a general feeling that is now perceived as strange, which does not fully capture the nuanced emotional reference required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling could be remembered, but now it seems so strange. Only then did it seem strange.",
+        "evidence_found": true,
+        "reasoning": "The translation does not clearly contrast '将来回忆' (future memory) with '当时已惘然' (past confusion) as required; it focuses on present confusion and retrospective clarity without explicitly showing the temporal interplay between future memory and past state.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 1.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

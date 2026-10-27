@@ -1,0 +1,62 @@
+{
+  "translation_id": "D02_S5_T3_Qwen25_r1",
+  "anon_code": "T_511ef783",
+  "poem_id": "D02",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "All birds have flown away",
+        "evidence_found": true,
+        "reasoning": "The translation states 'All birds have flown away,' which does not convey the complete departure of the birds as indicated by '尽' (jìn). The phrase 'The solitary cloud wanders free' does not reflect the '敬亭山' (jìng tíng shān) and the 'gaze upon each other' part, which are part of the original meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "All birds have flown away",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'All birds have flown away' instead of '孤云独去闲' which means '孤云独自悠闲地飘走'",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "All birds have flown away, The solitary cloud wanders free.",
+        "evidence_found": true,
+        "reasoning": "The phrase '人与山互相看着' is not directly translated as 'All birds have flown away, The solitary cloud wanders free.' This translation does not preserve the original meaning of '相看两不厌' and does not mention the mountain as the active viewer.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "All birds have flown away",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'All birds have flown away' instead of 'only敬亭山 remains', which does not preserve the original phrase '只有敬亭山'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 3,
+    "fluency": 2,
+    "poetic_quality": 2,
+    "overall": 2.85,
+    "valid": true
+  }
+}

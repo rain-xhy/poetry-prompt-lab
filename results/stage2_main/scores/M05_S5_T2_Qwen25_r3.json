@@ -1,0 +1,67 @@
+{
+  "translation_id": "M05_S5_T2_Qwen25_r3",
+  "anon_code": "T_4a5a107d",
+  "poem_id": "M05",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking, seeking, in silence cold",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Seeking, seeking' directly replicates the repeated action of '寻寻觅觅' with the intended rhythmic repetition, and 'in silence cold' captures the sense of continuous searching in a cold, silent environment.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking, seeking, in silence cold, Empty halls echo, sorrowful, Silent cries, pain and grief entwined. Seeking, seeking, cold and bleak, Empty rooms reveal their desolation, Silent sobs, sorrow deepening.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the cold, desolate environment with phrases like 'cold and bleak', 'empty halls', and 'desolation', while maintaining a progression from initial silence to deeper sorrow.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking, seeking, in silence cold, Empty halls echo, sorrowful, Silent cries, pain and grief entwined. Seeking, seeking, cold and bleak, Empty rooms reveal their desolation, Silent sobs, sorrow deepening.",
+        "evidence_found": true,
+        "reasoning": "The translation captures deep sorrow through layered expressions of coldness, emptiness, and deepening grief, meeting both conditions of expressing profound sadness and showing emotional progression.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking, seeking, in silence cold, Empty halls echo, sorrowful, Silent cries, pain and grief entwined. Seeking, seeking, cold and bleak, Empty rooms reveal their desolation, Silent sobs, sorrow deepening.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly follows the structure from action (seeking) → environment (empty halls/rooms) → emotion (sorrow) with no disruption in order.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

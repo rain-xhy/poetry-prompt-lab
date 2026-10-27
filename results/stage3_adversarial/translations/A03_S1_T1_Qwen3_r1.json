@@ -1,0 +1,19 @@
+{
+  "id": "A03_S1_T1_Qwen3_r1",
+  "poem_id": "A03",
+  "trap_type": "emotional_suppression",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n欲语还休，却道天凉好个秋。",
+  "prompt_sha256": "08df49607cf0ce9c42479c454284b017afe98b292cf0f75da2879519c1326f3a",
+  "translation": "[Note: \"欲语还休\" is a common expression in classical Chinese poetry, meaning \"desiring to speak but being unable to,\" often used to convey a sense of hesitation or restraint.]\n\nThe wind moves gently, the sky is clear, and the autumn is cool and pleasant, yet the speaker is unable to speak, as if the season itself holds back the words.\n\n[Note: The original uses a metaphor of the autumn being \"good\" but the speaker being \"unable to speak,\" reflecting a subtle emotional tension.]",
+  "metadata": {
+    "input_tokens": 224,
+    "output_tokens": 107,
+    "latency_ms": 10386.881828308105,
+    "timestamp": "2026-10-26T21:39:47.601289",
+    "finish_reason": "stop"
+  }
+}

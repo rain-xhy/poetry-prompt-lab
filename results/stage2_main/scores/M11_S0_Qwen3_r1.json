@@ -1,0 +1,67 @@
+{
+  "translation_id": "M11_S0_Qwen3_r1",
+  "anon_code": "T_ec74150a",
+  "poem_id": "M11",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "It seems as if the frost has fallen from the ground.",
+        "evidence_found": true,
+        "reasoning": "The phrase uses 'seems as if' to indicate uncertainty and a tentative comparison, matching the requirement for a speculative statement rather than a definite claim.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Looking up, I gaze at the bright moon, Thinking of home, I lower my head.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly shows the sequence of actions (looking up then lowering head) and the causal link between gazing at the moon and thinking of home, preserving the emotional logic of '望月→思乡'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "On the bed, moonlight shines bright",
+        "evidence_found": true,
+        "reasoning": "The phrase 'On the bed, moonlight shines bright' directly translates the required meaning of '床前的明亮月光' while preserving the '床前' position and expressing '月光明亮'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Looking up, I gaze at the bright moon, Thinking of home, I lower my head.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys a sense of quietness through the moonlit scene and the act of gazing, while expressing solitude and homesickness through the reflection on home and the act of lowering the head.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

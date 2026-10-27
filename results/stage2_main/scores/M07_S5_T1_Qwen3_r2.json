@@ -1,0 +1,67 @@
+{
+  "translation_id": "M07_S5_T1_Qwen3_r2",
+  "anon_code": "T_9c3d6dbe",
+  "poem_id": "M07",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wang and Xie",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly mentions 'Wang and X:ie' as the specific family names, preserving the required historical context without genericization.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Now it nests in the homes of common people",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Now it nests in the homes of common people' directly contrasts the past (grand halls of Wang and X: 'Once, the grand halls of Wang and Xie welcomed the flight of the swallow') with the present (common people), showing both time and social class contrast as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Once, the grand halls of Wang and X: the grand halls of Wang and Xie welcomed the flight of the swallow",
+        "evidence_found": false,
+        "reasoning": "The phrase 'the flight of the swallow' directly references the swallow (燕子) as a witness to historical change, fulfilling the requirement of preserving the swallow as a witness imagery without implying the swallow lived for centuries.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "wild flowers bloom in wild abandon, sunset leans toward the west",
+        "evidence_found": false,
+        "reasoning": "The phrase 'wild flowers' corresponds to 野草 and 'sunset leans toward the west' captures the declining sun, both conveying desolation and decay as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

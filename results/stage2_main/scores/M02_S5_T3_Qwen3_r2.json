@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S5_T3_Qwen3_r2",
+  "anon_code": "T_3e64e4ef",
+  "poem_id": "M02",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Roses grow in the southern land, blooming in spring with few branches. May you take many to pick, for this thing is most full of longing.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'roses' instead of 'red beans' and does not explicitly mention 'red beans' as a symbol of longing, failing to preserve 'red beans' as the specific symbol for longing.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "May you take many to pick",
+        "evidence_found": true,
+        "reasoning": "The phrase 'May you take many to pick' directly expresses a wish/hope for the recipient to gather many roses, fulfilling the requirement of '劝君多采摘（愿望）' with the target 'you' and the action of picking.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "for this thing is most full of longing",
+        "evidence_found": true,
+        "reasoning": "The phrase 'most full of longing' directly translates to 'most able to express longing' which matches the requirement of 'this thing is most able to symbolize/express longing'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Roses grow in the southern land, blooming in spring with few branches.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'roses' and 'blooming in spring' but the original phrase refers to 'spring' as the time when branches grow, not roses, and the phrase 'with few branches' does not match the natural action of '发枝' which implies growth without specifying quantity.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 1.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

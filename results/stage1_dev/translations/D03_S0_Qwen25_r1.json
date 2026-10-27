@@ -1,0 +1,19 @@
+{
+  "id": "D03_S0_Qwen25_r1",
+  "poem_id": "D03",
+  "trap_type": "否定逻辑",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n劝君更尽一杯酒，西出阳关无故人。",
+  "prompt_sha256": "f29cb8786297e2f81a4230fd5f07724f2601cf8c25f2201d07ab377c327b359a",
+  "translation": "Here is a translation of the Chinese classical poem to English:\n\n\"Encourage me to drink another cup of wine,\nFor beyond the western passes there are no old friends.\"\n\nNote that this poem is a famous one, often attributed to Wang Wei, a Tang dynasty poet. The full poem includes the line \"西出阳关无故人\" (Xī chū yáng guān wú gù rén), which means \"After leaving the Western Pass, there are no old friends left.\" The poem is often used to convey the theme of parting and the sadness it brings, especially when leaving a place like the Western Pass (now in present-day Gansu Province, China), which was a significant border crossing.",
+  "metadata": {
+    "input_tokens": 56,
+    "output_tokens": 149,
+    "latency_ms": 5537.724733352661,
+    "timestamp": "2026-10-26T16:36:52.874975",
+    "finish_reason": "stop"
+  }
+}

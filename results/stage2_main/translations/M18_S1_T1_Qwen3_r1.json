@@ -1,0 +1,19 @@
+{
+  "id": "M18_S1_T1_Qwen3_r1",
+  "poem_id": "M18",
+  "trap_type": "时态叙事",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n无可奈何花落去，似曾相识燕归来。",
+  "prompt_sha256": "df1600a6b9f3962575181de0fbeb79ac0f9dd77118df86edb2e387776dd0f6ce",
+  "translation": "The flowers fall and fade, leaving no way to prevent it, yet the once-forgotten swallow returns. [A common metaphor in classical Chinese poetry for the passage of time and the cyclical nature of life]\n\nThe transformation of beauty into nothingness, and the return of what once was, reflects the ephemeral nature of existence.",
+  "metadata": {
+    "input_tokens": 224,
+    "output_tokens": 68,
+    "latency_ms": 674.0217208862305,
+    "timestamp": "2026-10-26T20:27:37.768811",
+    "finish_reason": "stop"
+  }
+}

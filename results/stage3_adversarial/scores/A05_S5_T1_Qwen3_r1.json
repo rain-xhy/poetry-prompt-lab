@@ -1,0 +1,58 @@
+{
+  "translation_id": "A05_S5_T1_Qwen3_r1",
+  "anon_code": "T_394c279c",
+  "poem_id": "A05",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The pain of parting leaves me unable to move forward, and I cannot think or measure the distance between us.",
+        "evidence_found": true,
+        "reasoning": "The phrase '不得不' translates to 'must/have to/compelled to', but the translation uses 'unable to move forward' and 'cannot think', which express inability rather than necessity, thus failing to capture the required meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The wind knocks at the door for me, yet I remain distant, as if the hills wish to keep the guest.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'yet I remain distant' implies the conditional relationship where 'not seeing' leads to 'not thinking', as the translation uses contrast to express the consequence of absence.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The pain of parting leaves me unable to move forward, and I cannot think or measure the distance between us.",
+        "evidence_found": true,
+        "reasoning": "The translation does not address the distinction between double negation and conditional negation as required, focusing instead on physical and emotional barriers without clarifying the logical structure of the original phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 1.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M18_S5_T2_Qwen25_r1",
+  "anon_code": "T_25154f69",
+  "poem_id": "M18",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Unyielding petals fall, a scene so quaint, Like old acquaintances,燕returns to its nest again. Time slips by, a whisper of change, As blossoms fade, a gentle sorrow's charm.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express 'helpless' or 'unable to prevent' as required; it describes petals falling but lacks the sense of helplessness or inability to stop the falling, and the phrase '燕returns to its nest again' is incorrect (燕 is a bird, not a word for 'returning') and does not relate to the original meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Like old acquaintances,燕returns to its nest again.",
+        "evidence_found": true,
+        "reasoning": "The phrase '燕returns to its nest again' does not correctly convey '燕子归来的动作' (the action of swallows returning) as it mentions 'nest' instead of 'returning', and the phrase 'Like old acquaintances' does not express '似曾相识/seem familiar' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Unyielding petals fall, a scene so quaint, Like old acquaintances,燕returns to its nest again.",
+        "evidence_found": true,
+        "reasoning": "The translation contrasts the falling petals (离去) with the returning swallow (燕归来), showing opposite directions of movement and change.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Time slips by, a whisper of change, As blossoms fade, a gentle sorrow's charm.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly conveys time passing ('Time slips by') and the feeling of change and loss ('a whisper of change', 'blossoms fade', 'gentle sorrow's charm'), which aligns with the required meaning of time passing and the sentiment of things changing while people and situations are different.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

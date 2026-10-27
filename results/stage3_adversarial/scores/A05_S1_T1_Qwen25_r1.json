@@ -1,0 +1,58 @@
+{
+  "translation_id": "A05_S1_T1_Qwen25_r1",
+  "anon_code": "T_fa6626e4",
+  "poem_id": "A05",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I cannot leave you behind, Yet thoughts of you I keep far from sight.",
+        "evidence_found": true,
+        "reasoning": "The phrase '不得不' translates to 'must/have to/compelled to', but the translation uses 'I cannot leave you behind' which implies inability rather than compulsion, and the second line does not convey the required sense of compulsion.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I cannot leave you behind, Yet thoughts of you I keep far from sight.",
+        "evidence_found": true,
+        "reasoning": "The translation uses a conditional structure where 'I cannot leave you behind' implies the condition of not being able to part, and 'thoughts of you I keep far from sight' expresses the consequence of not thinking of the person, fulfilling the requirement of if...then logic.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I cannot leave you behind, Yet thoughts of you I keep far from sight.",
+        "evidence_found": true,
+        "reasoning": "The first sentence directly addresses the 'cannot leave' aspect of the original phrase, and the second sentence shows the conditional 'keep far from sight' which implies the dual negation structure.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

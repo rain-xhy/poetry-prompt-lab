@@ -1,0 +1,19 @@
+{
+  "id": "D06_S1_T3_Qwen25_r2",
+  "poem_id": "D06",
+  "trap_type": "时态叙事",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n遥知兄弟登高处，遍插茱萸少一人。",
+  "prompt_sha256": "7311c416bce8daef4f4781a0faab315d74d0ee7d04bdbd1fe48e400a28ed8c29",
+  "translation": "**2-4 lines of English translation:**\n\nFar away, I know my brothers are climbing high,\nAll wearing fragrant _rhubarb_萸 in their hair.\nOne person is missing from their gathering,\nAs I sit in my _solitude_庐.\n\n**Note:** In classical Chinese poetry, \"茱萸\" (zhū yú) is personified as wearing it, which is translated as \"all wearing fragrant _rhubarb_萸 in their hair.\" \"庐\" (lú) in this context personifies the solitude of the poet, who is left alone.",
+  "metadata": {
+    "input_tokens": 223,
+    "output_tokens": 122,
+    "latency_ms": 4075.7198333740234,
+    "timestamp": "2026-10-26T16:25:29.850305",
+    "finish_reason": "stop"
+  }
+}

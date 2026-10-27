@@ -1,0 +1,19 @@
+{
+  "id": "A06_S1_T1_Qwen3_r2",
+  "poem_id": "A06",
+  "trap_type": "personification_reversal",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n多情却似总无情，唯觉尊前笑不成。\n人有心还惜别，替烛垂泪到天明。",
+  "prompt_sha256": "62323300ba8c8bd3cd725616832eb205534835843888836b4cf8c6ed8b2cdf17",
+  "translation": "The poet's emotion is profound yet elusive, their heart filled with longing yet unable to express it fully. The heart still yearns for parting, even as the candle weeps silently into the dawn.\n\n[The poem reflects the complex interplay between desire and restraint, a common theme in Chinese poetry, where inner conflict is subtly expressed through natural imagery.]",
+  "metadata": {
+    "input_tokens": 240,
+    "output_tokens": 72,
+    "latency_ms": 9632.297277450562,
+    "timestamp": "2026-10-26T21:41:40.379751",
+    "finish_reason": "stop"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M16_S5_T2_Qwen25_r2",
+  "anon_code": "T_476fb741",
+  "poem_id": "M16",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Cock's crow at lonely inn, moon hanging high",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Cock's crow at lonely inn, moon hanging high' does not convey '鸡鸣时茅店上还有月亮' as it describes the moon hanging high rather than the moon still being visible on the thatched inn at cock's crow time.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Footprints on frosty plank road, frost encasing.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'frost encasing' is not part of the required meaning, and the translation does not correctly capture the original phrase's meaning as it adds extra elements like 'frosty plank road' which is not in the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Recalling Duf:eng's dreams",
+        "evidence_found": false,
+        "reasoning": "The phrase 'Recalling Dufeng's dreams' directly expresses the meaning of 'therefore thinking of dreams in Duling' as recalled in the original Chinese phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Fowls and geese on curving pond",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Fowls and geese on curving pond' directly translates the '凫雁满布曲折池塘' meaning with 'curving' indicating the winding nature of the pond.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

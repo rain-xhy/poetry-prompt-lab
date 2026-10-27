@@ -1,0 +1,67 @@
+{
+  "translation_id": "M12_S1_T3_Qwen3_r2",
+  "anon_code": "T_0a43bffd",
+  "poem_id": "M12",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Desire to see千里 (thousand li) beyond",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Desire to see' uses a verb phrase indicating purpose, and 'thousand li' specifies the distance required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "One must climb higher, one level more.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'One must climb higher, one level more' directly expresses the requirement to 'climb one more level' as a necessary action, forming a clear purpose-action relationship with the preceding lines.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Desire to see千里 (thousand li) beyond, One must climb higher, one level more.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states the purpose (desire to see far) and the means (climbing higher) with a clear logical connection.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "White day fades behind the mountains, The Yellow River flows into the sea.",
+        "evidence_found": true,
+        "reasoning": "The translation preserves the two distinct natural scenes (mountains and river) and conveys a sense of vastness through the imagery of the sun setting behind mountains and the river flowing into the sea.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.95,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

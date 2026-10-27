@@ -1,0 +1,67 @@
+{
+  "translation_id": "M05_S1_T1_Qwen3_r1",
+  "anon_code": "T_88bbb81a",
+  "poem_id": "M05",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking, searching, yet finding nothing—each emotion echoes in the heart, a relentless, unrelenting sorrow.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'Seeking, searching' to convey the repeated action of looking for something, maintaining the rhythmic quality of the Chinese phrase while expressing the continuous and unsuccessful search.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "filled with a cold loneliness, filled with sorrow and grief",
+        "evidence_found": true,
+        "reasoning": "The phrase 'filled with a cold loneliness, filled with sorrow and grief' directly conveys the cold, desolate environment and emotional desolation required, while the context of 'Seeking, searching, yet finding nothing' implies a progression from initial search to deeper emotional emptiness.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking, searching, yet finding nothing—each emotion echoes in the heart, a relentless, unrelenting sorrow.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys deep sorrow with layered emotional progression, emphasizing persistent and overwhelming grief.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking, searching, yet finding nothing—each emotion echoes in the heart, a relentless, unrelenting sorrow.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly follows the structure from action (seeking, searching) to environment (implied by 'finding nothing') to emotion (relentless, unrelenting sorrow), maintaining the required progression without altering the sequence.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

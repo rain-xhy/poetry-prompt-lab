@@ -1,0 +1,76 @@
+{
+  "translation_id": "D04_S5_T1_Qwen3_r1",
+  "anon_code": "T_f8d4baf3",
+  "poem_id": "D04",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The deep waters of Tao'an Lake surpass a thousand feet, yet it cannot match the depth of my affection bestowed by Wang Lun.",
+        "evidence_found": true,
+        "reasoning": "The translation states that the lake's depth surpasses a thousand feet, but the original phrase specifies that the water is deep (千尺) without implying comparison to affection or other elements.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "it cannot match the depth of my affection bestowed by Wang Lun",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it cannot match the depth of my affection bestowed by Wang as the translation directly expresses that the water depth is not as deep as Wang Lun's affection, fulfilling the requirement that it does not become 'deeper' or 'the same depth'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The deep waters of Tao'an Lake surpass a thousand feet, yet it cannot match the depth of my affection bestowed by Wang Lun.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'my affection bestowed by Wang Lun' indicates that Wang Lun is the sender of the affection, fulfilling the requirement that Wang Lun is the person sending the farewell.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The deep waters of Tao'an Lake surpass a thousand feet, yet it cannot match the depth of my affection bestowed by Wang Lun.",
+        "evidence_found": true,
+        "reasoning": "The translation compares the depth of the lake to the depth of affection, but the original phrase '情' is a single character meaning 'feeling' or 'emotion', not a relationship between two entities. The required meaning is a metaphor where water depth represents the depth of emotion, not a comparison between two things.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

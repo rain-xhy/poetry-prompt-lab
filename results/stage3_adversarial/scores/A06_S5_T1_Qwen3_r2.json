@@ -1,0 +1,58 @@
+{
+  "translation_id": "A06_S5_T1_Qwen3_r2",
+  "anon_code": "T_560a790d",
+  "poem_id": "A06",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The candle, which he replaces, is the object of his sorrow",
+        "evidence_found": true,
+        "reasoning": "This phrase directly addresses the 'candle' being replaced and the sorrow, fulfilling the requirement to identify the inverted relationship between 'person weeps for candle'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The candle, which he replaces, is the object of his sorrow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'replaces' corresponds to '替' and 'direction' is implied by the context of the candle being the object of sorrow, fulfilling the requirement to preserve the meaning of '替的方向改变了' as the poet's emotional conflict.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The poet's emotion is deeply conflicted—his affection is seemingly contradictory to his inability to express it. He feels deeply for his friend, yet his words fail to convey that feeling. The candle, which he replaces, is the object of his sorrow, and his tears fall until the dawn.",
+        "evidence_found": true,
+        "reasoning": "The translation incorrectly states that the poet replaces the candle, but in the original poem, the candle is a symbol of the poet's sorrow and the tears falling until dawn, not something the poet actively replaces.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 1.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

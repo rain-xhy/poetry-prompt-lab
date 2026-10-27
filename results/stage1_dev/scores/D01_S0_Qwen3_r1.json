@@ -1,0 +1,76 @@
+{
+  "translation_id": "D01_S0_Qwen3_r1",
+  "anon_code": "T_d8c0d970",
+  "poem_id": "D01",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling cannot be eliminated, for when it falls away, it returns to the pass",
+        "evidence_found": false,
+        "reasoning": "The translation incorrectly states that the feeling 'returns to the heart' when it falls away, which implies a cyclical nature that contradicts the original meaning of '愁绪无法排遣' (emotional distress that cannot be dispelled). The original phrase emphasizes the inability to eliminate the emotion, not a return mechanism.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling cannot be eliminated, for when it falls away, it returns to the heart.",
+        "evidence_found": true,
+        "reasoning": "The translation states 'when it falls away' which implies the feeling has already departed, but the original phrase '才下眉头' means 'just left the brow' indicating a recent, immediate departure, not a completed action that has already occurred.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling cannot be eliminated, for when it falls away, it returns to the heart.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express a clear contrast or turn (yet/but/again) as required by the pass conditions, and the phrase 'returns to the heart' does not align with the original phrase's meaning of '愁又涌上心头' which implies sorrow surging back to the as a sudden, emotional surge.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling cannot be eliminated, for when it falls away, it returns to the heart.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the continuous nature of sorrow between the brow and heart, showing that the emotion persists and reappears, fulfilling the requirement that the reader feels the sorrow has not truly disappeared.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

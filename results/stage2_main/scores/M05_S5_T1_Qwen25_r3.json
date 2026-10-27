@@ -1,0 +1,67 @@
+{
+  "translation_id": "M05_S5_T1_Qwen25_r3",
+  "anon_code": "T_d2e7c928",
+  "poem_id": "M05",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Searching for something, it seems I am alone in a world of cold and silence, my sorrow so profound it borders on pain.",
+        "evidence_found": true,
+        "reasoning": "The translation does not convey the repeated or continuous searching action as required; it describes a state of being alone and sorrow, not the action of searching.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "cold and silence",
+        "evidence_found": true,
+        "reasoning": "The phrase 'cold and silence' directly conveys the cold, desolate environment required, and the context of the sentence shows it forms a progression with the previous line.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Searching for something, it seems I am alone in a world of cold and silence, my sorrow so profound it borders on pain.",
+        "evidence_found": true,
+        "reasoning": "The translation does not convey the layered emotional progression required by '凄凄惨惨戚戚' which implies a deepening sorrow through repeated adjectives, but instead presents a single emotional state without the intended hierarchical intensity.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Searching for something, it seems I am alone in a world of cold and silence, my sorrow so profound it borders on pain.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly shows the progression from action (searching for something), environment (cold and silence), to emotion (sorrow bordering on pain).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

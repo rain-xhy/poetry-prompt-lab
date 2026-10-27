@@ -1,0 +1,58 @@
+{
+  "translation_id": "A05_S0_Qwen25_r2",
+  "anon_code": "T_ac0faad7",
+  "poem_id": "A05",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I must part from you and go, yet I cannot help but think of you.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I must part from you and go' directly translates the '不得不' meaning 'must/have to', and 'yet I cannot help but think of you' implies the necessity of thinking despite the action, capturing the dual negation aspect.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I must part from you and go, yet I cannot help but think of you.",
+        "evidence_found": true,
+        "reasoning": "The translation expresses the conditional relationship where not seeing someone (parting) leads to not thinking of them, but the phrasing inverts the condition to emphasize the inability to stop thinking despite separation.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I must part from you and go, yet I cannot help but think of you.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the dual negation (must part/go vs. cannot help think) and conditional negation (yet) as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

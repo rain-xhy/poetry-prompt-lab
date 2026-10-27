@@ -1,0 +1,67 @@
+{
+  "translation_id": "M17_S5_T3_Qwen25_r2",
+  "anon_code": "T_7b3d51db",
+  "poem_id": "M17",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling can indeed be cherished as a memory",
+        "evidence_found": true,
+        "reasoning": "The phrase 'can indeed be cherished as a memory' uses 'can' to express possibility (future) and implies the translation is a rhetorical question by using 'indeed' to suggest the opposite of the intended meaning, preserving the original's implicit negation and future aspect of becoming a memory.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "it was already heart-wrenchingly painful",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it was already heart-wrenchingly painful' captures the past completed state with 'already' indicating completion, fulfilling the requirement of expressing 'already' with a past tense.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "This feeling can be cherished as a memory",
+        "evidence_found": false,
+        "reasoning": "The phrase 'This feeling can be cherished as a memory' directly addresses the emotional reference required, preserving the meaning of 'this feeling' and the concept of being cherished as a memory without explicit negation.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling can indeed be cherished as a memory, But at the time, it was already heart-wrenchingly painful.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly contrasts the future memory (cherished as a memory) with the past pain (already heart-wrenchingly painful), preserving the complex tense interplay between future and past as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "translation_id": "A01_S0_Qwen3_r3",
+  "anon_code": "T_4301a992",
+  "poem_id": "A01",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Be careful to slip into the river",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Be careful to slip into the river' does not contain any negative words like 'not', 'don't', 'avoid', or 'prevent', which are required to express the implicit negative meaning of '小心' (be careful) as 'do not' (avoid).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Be careful to slip into the river.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Be careful' directly conveys the warning tone required, fulfilling the pass condition of expressing a warning or reminder.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "slip into the river",
+        "evidence_found": true,
+        "reasoning": "The translation includes 'slip' which corresponds to 'slide' and 'into the river' as required by the pass conditions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\n  \"original\": \"小心滑入河中\",\n  \"reference_notes\": {\n    \"小心的隐性否定\": \"识别'小心'暗含'不要'的否定意义。\",\n    \"警告语气\": \"保留警告/提醒的语气。\",\n    \"动作完整性\": \"保留'滑入河中'的完整动作。\"\n  },\n  \"translation\": \"Be careful to slip into the river.\"\n}"
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 1,
+    "valid": true
+  }
+}

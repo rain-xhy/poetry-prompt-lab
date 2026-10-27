@@ -1,0 +1,19 @@
+{
+  "id": "M04_S2_T1_Qwen3_r2",
+  "poem_id": "M04",
+  "trap_type": "情感反差",
+  "strategy": "S2_T1",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nSemantic Analysis (in Chinese):\n“两情若是久长时”：如果两人情感长久（条件假设）。要点：条件假设的语气。\n“又岂在朝朝暮暮”：又何必在乎日日相守（反问）。要点：反问语气，意为'不必在于'。\n“朝朝暮暮”：日日夜夜、时时刻刻相守。要点：持续相守的状态。\n“若是...又岂在”：条件与反问的逻辑关系。要点：如果长久，就不必日日相守的逻辑。\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n两情若是久长时，又岂在朝朝暮暮。",
+  "prompt_sha256": "9c2e60cfc81d84f63ef3bfbbf4f3d95216834345080193175b45d01768a08c00",
+  "translation": "When two hearts are truly enduring, what need they for day and night?  \nYet how could they care for the fleeting hours of mutual embrace?  \n\n[The phrase \"朝朝暮暮\" refers to the traditional notion of a loveless, constant cycle of togetherness, often associated with the ideal of monogamous love in Chinese culture.]",
+  "metadata": {
+    "input_tokens": 344,
+    "output_tokens": 72,
+    "latency_ms": 818.0019855499268,
+    "timestamp": "2026-10-26T21:32:43.124627",
+    "finish_reason": "stop"
+  }
+}

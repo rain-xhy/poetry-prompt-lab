@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S5_T2_Qwen3_r2",
+  "anon_code": "T_13a23d9e",
+  "poem_id": "M01",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Deep feelings yet seem to lack emotion",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Deep feelings yet seem to lack emotion' directly translates the required paradox of 'deep love/affection' and 'seeming coldness/indifference' while maintaining the tension between the two concepts.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A smile cannot be made at the banquet's table",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A smile cannot be made' directly expresses '无法/不能笑出' (unable to/cannot smile) while 'at the banquet's table' preserves the '尊前/at the table/at the farewell wine' context.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The candle wishes to part, yet tears it bears",
+        "evidence_found": true,
+        "reasoning": "This line directly personifies the candle as having a wish to part (wishes to part) and bears tears, fulfilling the requirement of candle being the personified subject with emotion (有心惜别).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "To weep for others until the dawn is far",
+        "evidence_found": true,
+        "reasoning": "The phrase 'to weep for others until the dawn is far' directly translates the required meaning of '蜡烛替人流泪 + 一直到天明' by expressing the candle's action of weeping for others and the time continuation until dawn.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 4.25,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

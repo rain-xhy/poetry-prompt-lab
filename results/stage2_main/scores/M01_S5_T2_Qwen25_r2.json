@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S5_T2_Qwen25_r2",
+  "anon_code": "T_cd7f41dc",
+  "poem_id": "M01",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Deep emotions yet seem to fade",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Deep emotions yet seem to fade' directly captures '深情' (deep love/affection) and '似无情' (seeming coldness/indifference) while maintaining the paradoxical tension between them.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Only a smile eludes my lips",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Only a smile eludes my lips' directly expresses the state of being unable to smile, which matches the requirement of expressing '无法/不能笑出' (unable to/cannot smile) without implying unwillingness to smile.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Like candles with tender hearts, They weep for me till morning breaks.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'candles with tender hearts' explicitly personifies candles as having emotions, and 'weep for me till morning breaks' shows their active, emotional response to the speaker, fulfilling the requirement of preserving the candle's personification and emotional depth.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "They weep for me till morning breaks.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'weep for me till morning breaks' directly corresponds to '蜡烛替人流泪 + 一直到天明', where 'weep for me' implies '替人' (for us/on our behalf) and 'till morning breaks' captures the time continuation until dawn.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "M16_S0_Qwen25_r1",
+  "poem_id": "M16",
+  "trap_type": "时态叙事",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n晨起动征铎，客行悲故乡。\n鸡声茅店月，人迹板桥霜。\n槲叶落山路，枳花明驿墙。\n因思杜陵梦，凫雁满回塘。",
+  "prompt_sha256": "2585d17af740c41c9989536179901210ff756094ff19167c67e91993a53c175d",
+  "translation": "Here is the English translation of the provided Chinese classical poem:\n\nIn the morning I rise to shake the carriage bells,\nGrieving for my hometown, I set off as a stranger.\nThe cock crowing by the thatched inn under the moon's gaze,\nTracks on the plank bridge are covered by frost, I see.\nHolly leaves scattered on the road as I travel,\nOrange blossoms illuminate the驿站wall.\nRecalling my dream of Du Ling, where geese and ducks abound,\nIn the circular ponds, they swim and play.",
+  "metadata": {
+    "input_tokens": 87,
+    "output_tokens": 109,
+    "latency_ms": 12699.729919433594,
+    "timestamp": "2026-10-26T20:17:14.220439",
+    "finish_reason": "stop"
+  }
+}

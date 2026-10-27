@@ -1,0 +1,62 @@
+{
+  "translation_id": "D01_S0_Qwen3_r2",
+  "anon_code": "T_971d2739",
+  "poem_id": "D01",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling cannot be erased",
+        "evidence_found": true,
+        "reasoning": "The translation states 'This feeling cannot be erased', which contradicts the pass condition of expressing '无法排遣' (impossible to eliminate).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling cannot be erased, for it rises from the brow and then returns to the heart.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express '愁刚从眉间离开' (the feeling just left from the brow). Instead, it describes the feeling rising from the brow and returning to the heart.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling cannot be erased",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the exact phrase '愁又涌上心头' and does not explicitly express the 'turning point' (yet/but/again) or the 'heart' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling cannot be erased, for it rises from the brow and then returns to the heart.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '才下……却上' and does not explicitly convey the idea of the feeling '接续转移' and '无处可逃'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 5,
+    "fluency": 4,
+    "poetic_quality": 2,
+    "overall": 3.55,
+    "valid": true
+  }
+}

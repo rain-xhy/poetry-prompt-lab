@@ -1,0 +1,71 @@
+{
+  "translation_id": "D03_S5_T1_Qwen25_r1",
+  "anon_code": "T_fe33a1ae",
+  "poem_id": "D03",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "劝君更尽一杯酒",
+        "evidence_found": true,
+        "reasoning": "The English translation includes the phrase '劝君更尽一杯酒' which directly corresponds to the original Chinese phrase, indicating the speaker urging the friend to drink one more cup of wine.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "西出阳关",
+        "evidence_found": true,
+        "reasoning": "The English translation includes the phrase '西出阳: 1. The phrase '西出阳关' directly translates to 'west out of Yang Pass', which matches the required meaning of '向西出了阳关' (west out of Yang Pass). The phrase '西出阳关' is explicitly present in the translation, indicating the direction 'west' and the location 'Yang Pass'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "no old friends",
+        "evidence_found": false,
+        "reasoning": "The phrase 'no old friends' directly translates to '无故人' and does not expand the meaning to 'no one at all'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Here's the translation, adhering to the constraints and key requirements: 劝君更尽一杯酒，西出阳关无故人。",
+        "evidence_found": true,
+        "reasoning": "The English translation explicitly links the act of 'encouraging to drink' with the absence of 'old friends' by stating that after leaving the Yang Pass, there are no old friends, thus showing the connection between the two parts.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "valid": false,
+    "raw": "{\n  \"adequacy\": 5,\n  \"imagery\": 5,\n  \"emotion\": 5,\n  \"fluency\": 5,\n  \"po\": 5\n}"
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

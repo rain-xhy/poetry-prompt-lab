@@ -1,0 +1,76 @@
+{
+  "translation_id": "D03_S1_T1_Qwen25_r1",
+  "anon_code": "T_e2082e3f",
+  "poem_id": "D03",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Drinking, one more drink to this cup",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Drinking, one more drink to this cup' directly translates the meaning of '劝君更尽一杯酒' as a final drink with a friend before parting, preserving the speaker's action and the recipient as a friend.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Beyond Yangguan, no old friend remains.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Beyond Yangguan' directly translates the concept of '西出阳关' (west of Yang Pass) as required, indicating movement westward from Yang Pass.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Beyond Yangguan, no old friend remains.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no old friend remains' directly translates to 'no old friends/acquaintances' without expanding the meaning to 'no one at all'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Beyond Yangguan, no old friend remains.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Beyond Yangguan, no old friend remains' directly connects the act of drinking (from the first line) with the absence of old friends, fulfilling the requirement that the translation shows the association between the劝酒 (encouraging to drink) and the无故人 (no old friends).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

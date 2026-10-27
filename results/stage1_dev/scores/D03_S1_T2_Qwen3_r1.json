@@ -1,0 +1,76 @@
+{
+  "translation_id": "D03_S1_T2_Qwen3_r1",
+  "anon_code": "T_fdab5ba8",
+  "poem_id": "D03",
+  "strategy": "S1_T2",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Beneath your gaze, let the last sip of this wine be ours, A path beyond the Jade Gate, where friends are no more.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express the required meaning of 'I urge you to drink one more cup of wine' as the speaker directly urging a friend to drink, but instead describes a metaphorical scene with a path and friends no longer being together.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A path beyond the Jade Gate",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A path beyond the Jade Gate' does not explicitly mention 'west' direction, and 'Jade Gate' refers to a different pass than 'Yang Pass' (Yangguan).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "A path beyond the Jade Gate, where friends are no more.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'friends are no more' implies a complete absence of friends, which expands the meaning beyond 'no old friends' to 'no friends at all', violating the pass condition that the range should not be expanded to 'no one at all'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A path beyond the Jade Gate, where friends are no more.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A path beyond the Jade Gate, where friends are no more' directly connects the absence of old friends (无故人) with the act of drinking (劝酒) by implying that the path beyond the Jade Gate symbolizes the separation from friends, thus showing the causal relationship between the two concepts.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 3.75,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "M11_S1_T3_Qwen25_r1",
+  "poem_id": "M11",
+  "trap_type": "否定逻辑",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n床前明月光，疑是地上霜。\n举头望明月，低头思故乡。",
+  "prompt_sha256": "eaaec52a341919a80b02bf06787a339207d22cbfa229e5ee02aaee9d9001583c",
+  "translation": "2-4 lines of English translation:\nBeside my bed a beam of light shines,\nI think it frost upon the ground.\nI lift my head and view the bright moon,\nI bow my head and think of home.\n\n[Note: The first line employs personification by attributing a characteristic of frost (晶莹剔透，似水凝霜) to the moonlight. In Chinese poetry, this is a common technique to evoke a sense of stillness and purity.]\n\n2-4 lines of English translation:\nI raise my gaze to the clear moonlight,\nI lower my head, filled with longing for home.\nThe moonlight pierces the night, a beacon,\nGuiding my thoughts to distant lands.\n\n[Note: The second line uses implicit negation and metaphor to express the poet's deep yearning and isolation. \"Guiding my thoughts to distant lands\" is a clear indication of the poet's yearning, making the sentiment more explicit without altering the core meaning.]",
+  "metadata": {
+    "input_tokens": 230,
+    "output_tokens": 199,
+    "latency_ms": 2926.786422729492,
+    "timestamp": "2026-10-26T19:33:54.247115",
+    "finish_reason": "stop"
+  }
+}

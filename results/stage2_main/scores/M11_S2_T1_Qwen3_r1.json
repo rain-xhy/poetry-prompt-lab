@@ -1,0 +1,67 @@
+{
+  "translation_id": "M11_S2_T1_Qwen3_r1",
+  "anon_code": "T_2cf7233d",
+  "poem_id": "M11",
+  "strategy": "S2_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I wonder if it is frost upon the ground",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I wonder if it is frost upon the ground' uses 'wonder' to express uncertainty about whether it's frost, matching the requirement for a speculative tone without certainty.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "With head raised, I gaze at the bright moon—yet my heart turns to my distant homeland.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly shows the action sequence (raising head to gaze at moon) and the emotional consequence (heart turning to homeland), directly linking the moon observation to homesickness.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Before the moonlight brightens the floor, I wonder if it is frost upon the ground.",
+        "evidence_found": true,
+        "reasoning": "The required phrase '床前的明亮月光' translates to 'the bright moonlight before the bed', but the translation starts with 'Before the moonlight brightens the floor', which misplaces 'bed' and incorrectly describes the moonlight as 'brightening the floor' rather than 'bright' as in the original.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Before the moonlight brightens the floor, I wonder if it is frost upon the ground. With head raised, I gaze at the bright moon—yet my heart turns to my distant homeland.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys a sense of quiet stillness through the moonlit scene and expresses loneliness and homesickness by contrasting the external moonlight with the internal longing for a distant homeland.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

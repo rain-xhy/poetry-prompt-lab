@@ -1,0 +1,67 @@
+{
+  "translation_id": "M18_S5_T1_Qwen3_r2",
+  "anon_code": "T_1ac46d3e",
+  "poem_id": "M18",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The flowers fall, and I cannot help but grieve; the燕 return, as if I have seen them before.",
+        "evidence_found": true,
+        "reasoning": "The translation mentions 'the flowers fall' which covers the '花落' action, but it does not express 'helpless/inevitable' as required; instead, it uses 'cannot help but grieve' which implies emotional reaction rather than helplessness.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "the燕 return, as if I have seen them before",
+        "evidence_found": true,
+        "reasoning": "The phrase 'as if I have seen them before' directly translates '似曾相识' (seem familiar) and 'the燕 return' captures the '燕子归来的动作' (the action of the swallow returning).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The flowers fall, and I cannot help but grieve; the燕 return, as if I have seen them before.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts the falling of flowers (departure) with the return of swallows (arrival), capturing the directional contrast between leaving and returning.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The departure and return contrast, reflecting the passage of time and the transience of all things.",
+        "evidence_found": true,
+        "reasoning": "The phrase explicitly mentions 'passage of time' and 'transience of all things', which captures both the time流逝 and the 物是人非 (things change, people change) aspect.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.65,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "A05_S0_Qwen25_r1",
+  "poem_id": "A05",
+  "trap_type": "double_negation",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n不得不离君而去，不见不思量。",
+  "prompt_sha256": "90ce823d285d42884609173bdccde6d75b6a1f31a46765ea9f80af548c5a29db",
+  "translation": "I cannot leave you, must part from you, yet in my heart you are ever present. \n\nNote: This translation aims to capture the essence and emotion of the original Chinese poem. The specific phrase \"不得不离君而去\" (I cannot leave you, must part from you) is a direct translation of the first part of the poem, while \"不见不思量\" (in my heart you are ever present, not seeing you, not forgetting you) is a translation that conveys the same sentiment as the second part.",
+  "metadata": {
+    "input_tokens": 51,
+    "output_tokens": 108,
+    "latency_ms": 10044.879913330078,
+    "timestamp": "2026-10-26T21:45:55.763561",
+    "finish_reason": "stop"
+  }
+}

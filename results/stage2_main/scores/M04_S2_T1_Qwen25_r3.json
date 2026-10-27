@@ -1,0 +1,67 @@
+{
+  "translation_id": "M04_S2_T1_Qwen25_r3",
+  "anon_code": "T_d2d57b46",
+  "poem_id": "M04",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "If two hearts are truly destined to last, It doesn't matter if we're together day in, day out.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express 'longevity of emotion' as a condition but rather states that being together is unimportant if hearts last, which reverses the intended meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "It doesn't matter if we're together day in, day out.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'It doesn't matter if we're together day in, day out' explicitly states that constant presence (day in, day out) is not necessary, fulfilling the requirement of expressing negation and not needing daily presence.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "It doesn't matter if we're together day in, day out",
+        "evidence_found": true,
+        "reasoning": "The phrase 'day in, day out' conveys the continuous, repeated nature of time passage as required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If two hearts are truly destined to last, It doesn't matter if we're together day in, day out.",
+        "evidence_found": true,
+        "reasoning": "The translation maintains the conditional structure 'if...then' and the rhetorical question implied by 'it doesn't matter', showing that the condition (hearts destined to last) leads to the conclusion (no need for constant presence).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 3.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

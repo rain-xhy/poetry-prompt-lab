@@ -1,0 +1,76 @@
+{
+  "translation_id": "D01_S1_T3_Qwen25_r1",
+  "anon_code": "T_24953289",
+  "poem_id": "D01",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "There’s nothing I can do to dispel this feeling",
+        "evidence_found": true,
+        "reasoning": "The phrase 'There’s nothing I can do to dispel this feeling' directly matches the requirement of expressing '无法消除这份情绪' with the correct negative direction, indicating inability to eliminate the emotion without implying it has been eliminated or the speaker doesn't want to eliminate it.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "It moves from my brow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'It moves from my brow' directly translates to '愁刚从眉间离开' meaning 'the sorrow has just left the brow', satisfying the requirement that the English expresses '刚刚/才离开眉间' and points to 'brow'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "It moves from my brow, only to return to my heart",
+        "evidence_found": true,
+        "reasoning": "The phrase 'only to return to my heart' expresses the required turn (yet/but) and the focus on 'heart' as the final point.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "It moves from my brow, only to return to my heart.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'It moves from my brow, only to return to my heart' directly reflects the continuous transfer of sorrow between the brow and heart without escape, meeting both pass conditions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

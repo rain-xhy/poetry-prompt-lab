@@ -1,0 +1,67 @@
+{
+  "translation_id": "M04_S5_T1_Qwen3_r1",
+  "anon_code": "T_4888f073",
+  "poem_id": "M04",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When two hearts are truly deep and enduring, what is the difference between eternal love and daily companionship?",
+        "evidence_found": true,
+        "reasoning": "The translation does not use a conditional clause (if/as long as) to express 'if two people's emotions are long-lasting' as required; instead, it presents a comparison between eternal love and daily companionship without the conditional structure.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "what is the difference between eternal love and daily companionship?",
+        "evidence_found": true,
+        "reasoning": "The phrase implies that daily companionship is not necessary for true enduring love, expressing a negation of the need for constant presence through the contrast with eternal love.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When two hearts are truly deep and enduring, what is the difference between eternal love and daily companionship?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'daily companionship' does not convey the required '日日夜夜、时时刻刻相守' meaning of continuous, overlapping time periods with mutual presence, but rather implies a single day's companionship.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When two hearts are truly deep and enduring, what is the difference between eternal love and daily companionship?",
+        "evidence_found": true,
+        "reasoning": "The translation maintains the conditional structure by starting with 'When two hearts are truly deep and enduring' (condition) and poses a question about the difference (conclusion), while the second sentence 'The wind knocks at the door for me, yet I remain unseen' provides a contrasting image that echoes the conditional logic through its unresolved tension.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

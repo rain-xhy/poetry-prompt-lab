@@ -1,0 +1,76 @@
+{
+  "translation_id": "D01_S5_T3_Qwen25_r1",
+  "anon_code": "T_085e29b1",
+  "poem_id": "D01",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling cannot be dispelled",
+        "evidence_found": true,
+        "reasoning": "The phrase 'This feeling cannot be dispelled' directly matches the requirement of expressing 'emotion cannot be eliminated' without implying elimination or lack of desire to eliminate.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This feeling cannot be dispelled, it just vanishes from the brow only to return to the heart.",
+        "evidence_found": true,
+        "reasoning": "The translation states 'vanishes from the brow' which implies the emotion has already left the brow, but the original phrase '才下眉头' means the emotion has just left the brow (recently departed), not that it has vanished or disappeared.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "it just vanishes from the brow only to return to the heart",
+        "evidence_found": true,
+        "reasoning": "The phrase includes the required turn of thought (yet/but) and ends with 'heart' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This feeling cannot be dispelled, it just vanishes from the brow only to return to the heart.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the cyclical nature of emotions where feelings temporarily leave the brow but return to the heart, showing that the emotion does not truly disappear.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

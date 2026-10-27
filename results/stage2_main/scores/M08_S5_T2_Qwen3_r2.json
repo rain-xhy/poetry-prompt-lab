@@ -1,0 +1,67 @@
+{
+  "translation_id": "M08_S5_T2_Qwen3_r2",
+  "anon_code": "T_82e451f9",
+  "poem_id": "M08",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In the empty mountains, no human is seen, But the sound of voices reaches through the trees.",
+        "evidence_found": true,
+        "reasoning": "The translation states 'no human is seen' which implies absence rather than '看不见' (cannot see), and 'sound of voices reaches through the trees' does not explicitly convey 'but听得见说话声' (but can hear speech sounds) as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The reflected light enters the deep woods",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The reflected light enters the deep woods' directly expresses the dynamic movement of sunlight (返景) entering the deep forest (深林) as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "And again it shines upon the moss.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'again it shines' directly corresponds to '又照' (again/again shines) and 'moss' corresponds to '青苔', fulfilling both required conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "In the empty mountains, no human is seen",
+        "evidence_found": true,
+        "reasoning": "The phrase 'empty mountains' directly translates to '空旷' (open, vast) and implies '幽静' (quiet, secluded) by stating 'no human is seen', which conveys the absence of people and thus the quietness of the mountains without denying the existence of the mountains.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

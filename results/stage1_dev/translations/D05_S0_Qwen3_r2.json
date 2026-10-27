@@ -1,0 +1,19 @@
+{
+  "id": "D05_S0_Qwen3_r2",
+  "poem_id": "D05",
+  "trap_type": "时态叙事",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 2,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n十年生死两茫茫，不思量，自难忘。\n千里孤坟，无处话凄凉。",
+  "prompt_sha256": "7488550d354f9a8835c0c45421706df3d8e3bccab15fa332c0bf27405d730a32",
+  "translation": "Ten years of life and death, two miles apart, forever separated. I do not think of him, yet he remains deeply remembered to me. A thousand miles away, my grave is alone, and I cannot express my sorrow and grief.",
+  "metadata": {
+    "input_tokens": 50,
+    "output_tokens": 49,
+    "latency_ms": 9850.548028945923,
+    "timestamp": "2026-10-26T16:40:39.268655",
+    "finish_reason": "stop"
+  }
+}

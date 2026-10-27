@@ -1,0 +1,62 @@
+{
+  "translation_id": "D04_S1_T3_Qwen25_r2",
+  "anon_code": "T_0406efac",
+  "poem_id": "D04",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "But they don't match the depth of Wang Lun's affection for me.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the original phrase '桃花潭水深千尺' and does not express the depth of the water in a way that matches the original meaning or intent.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "But they don't match the depth of Wang Lun's affection for me.",
+        "evidence_found": true,
+        "reasoning": "The phrase '不及' is translated as 'But they don't match the depth of Wang Lun's affection for me.' which changes the meaning from '比不上' to '更深' or '一样深', violating the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "But they don't match the depth of Wang Lun's affection for me.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the original phrase '汪伦送我' and instead uses 'Wang Lun's affection for me' which does not match the original meaning and structure.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "But they don't match the depth of Wang Lun's affection for me.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the original phrase '情' and does not use the metaphor of 'Peach Blossom Pool' to compare the depth of the poet's feelings with Wang Lun's affection. Instead, it uses a different metaphor (the 'Peach Blossom Pool') and a different context (Wang Lun's affection for the poet rather than the poet's feelings for Wang Lun).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 3,
+    "overall": 4.05,
+    "valid": true
+  }
+}

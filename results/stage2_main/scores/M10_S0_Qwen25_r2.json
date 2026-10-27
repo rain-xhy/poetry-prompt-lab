@@ -1,0 +1,67 @@
+{
+  "translation_id": "M10_S0_Qwen25_r2",
+  "anon_code": "T_b7e99649",
+  "poem_id": "M10",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "No fire can consume it entirely",
+        "evidence_found": true,
+        "reasoning": "The phrase 'No fire can consume it entirely' directly expresses the meaning of '烧不尽' with a negative statement (no fire can) and implies the concept of not being completely burned (consume it entirely), fulfilling the requirement of a negative expression and the meaning of 'burning never ending'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Spring breeze makes it grow anew.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Spring breeze makes it grow anew' directly addresses both the role of the spring breeze and the regrowth of grass, fulfilling the requirement for 'spring breeze's effect' and 'repeated growth'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "No fire can consume it entirely, Spring breeze makes it grow anew.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states that fire cannot destroy the grass and the spring breeze causes its regrowth, preserving the personification of fire and grass as described in the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "No fire can consume it entirely, Spring breeze makes it grow anew.",
+        "evidence_found": true,
+        "reasoning": "The translation directly conveys the unbreakable resilience of grass through the cycle of fire and regrowth, meeting both conditions of expressing '顽强、坚韧' and the '烧不尽→又生' cycle.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

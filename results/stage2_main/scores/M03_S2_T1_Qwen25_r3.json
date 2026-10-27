@@ -1,0 +1,67 @@
+{
+  "translation_id": "M03_S2_T1_Qwen25_r3",
+  "anon_code": "T_f730f10c",
+  "poem_id": "M03",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "You ask about my return, but no set date",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no set date' directly translates to '尚未确定' and meets the requirement of expressing 'cannot yet be set' without implying 'no deadline' or 'never'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When we sit by the west window and trim the candle",
+        "evidence_found": true,
+        "reasoning": "The phrase 'When we sit by the west window and trim the candle' uses a future conditional structure to express the expectation of a future event, matching the required meaning of '什么时候能一起剪西窗烛' (when will we be able to together trim the west window candle).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When we sit by the west window and trim the candle, I'll recount that night of Chong:qing rains.",
+        "evidence_found": false,
+        "reasoning": "The translation uses 'I'll recount' which implies future action, but the original phrase requires '将来回忆过去' (future recalling past), and the phrase 'that night of Chongqing rains' does not clearly specify '今夜' (this night) as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "For now, the autumn pool swells with night rain in Chong. Qing.",
+        "evidence_found": false,
+        "reasoning": "The translation uses 'Chong. Qing' (with a period and space) and 'swells' instead of '涨', which does not match the required meaning of '秋池水涨' as a specific image of water rising in autumn pools.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M19_S5_T1_Qwen3_r2",
+  "anon_code": "T_1e125601",
+  "poem_id": "M19",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I often saw you, And heard you repeatedly",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I often saw you' indicates past frequent action, and 'heard you repeatedly' shows multiple past occurrences, meeting both past tense and frequent/multiple conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Yet again, I meet you during the time of falling flowers.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Yet again, I meet you' directly expresses '又' (again) and 'now' (present tense) as required, with 'meet you' indicating the current reunion.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "In the palace of the King of the East, I often saw you, And heard you repeatedly before the hall of Cui Ji. It is indeed a beautiful scene in the south, Yet again, I meet you during the time of falling flowers.",
+        "evidence_found": true,
+        "reasoning": "The translation shows a contrast between past (saw you, heard you) and present (meet you during falling flowers), implying a change in circumstances through the imagery of falling flowers.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Yet again, I meet you during the time of falling flowers.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'time of falling flowers' directly preserves the '落花时节' imagery and implies its symbolic meaning of fleeting beauty and transience.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

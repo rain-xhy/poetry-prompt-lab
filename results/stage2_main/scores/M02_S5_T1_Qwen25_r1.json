@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S5_T1_Qwen25_r1",
+  "anon_code": "T_3f755b0d",
+  "poem_id": "M02",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Red beans grow in the South, Spring blooms, how many sprout?",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly mentions 'Red beans' as the specific image, and the context implies their symbolic meaning of longing through the phrase 'how many sprout?' which refers to the metaphor of red beans representing longing.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "May you pluck many, dear",
+        "evidence_found": true,
+        "reasoning": "The phrase 'May you pluck many' expresses a wish for the recipient to gather more, fulfilling the requirement of expressing hope and specifically addressing 'you' to pick.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This is the one that best expresses my thoughts.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'best expresses my thoughts' aligns with '最能寄托相思之情' meaning 'most able to express/hold the feelings of longing'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Spring blooms, how many sprout?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Spring blooms' does not express the time of spring but rather the action of blooming, which is not the required time expression for '春天来时' (when spring comes).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

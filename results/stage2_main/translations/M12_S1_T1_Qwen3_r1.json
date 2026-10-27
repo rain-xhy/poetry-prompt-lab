@@ -1,0 +1,19 @@
+{
+  "id": "M12_S1_T1_Qwen3_r1",
+  "poem_id": "M12",
+  "trap_type": "否定逻辑",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Academic translation for English readers with no Chinese background.\nAudience: University students, general readers interested in Chinese poetry.\nConstraints:\n- Preserve all key semantic units\n- Keep metaphors and personification\n- Allow reordering for English grammar\n- Don't rhyme at the cost of meaning\n- Don't add characters, events, or facts not in the original\n- You may add at most one brief note in brackets [like this] if a cultural reference needs explanation\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, optionally one bracketed note.\n\nPoem:\n白日依山尽，黄河入海流。\n欲穷千里目，更上一层楼。",
+  "prompt_sha256": "af80d99b0cd6d7098556c934ed3f4f66f9df4bd0abab5907eb8ea49d4635d567",
+  "translation": "The sun sets behind the mountains, and the Yellow River flows into the sea.  \nTo see beyond a thousand miles, one must climb higher, one level at a time.\n\n[The poem reflects the perseverance and ambition of the poet, with the ascent symbolizing personal growth and vision.]",
+  "metadata": {
+    "input_tokens": 232,
+    "output_tokens": 58,
+    "latency_ms": 668.7185764312744,
+    "timestamp": "2026-10-26T20:23:48.904581",
+    "finish_reason": "stop"
+  }
+}

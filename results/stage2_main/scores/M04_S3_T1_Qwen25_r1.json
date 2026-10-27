@@ -1,0 +1,67 @@
+{
+  "translation_id": "M04_S3_T1_Qwen25_r1",
+  "anon_code": "T_54902d83",
+  "poem_id": "M04",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "If two hearts are true to each other, Their meetings need not be constant. They need not meet every day and every night, Even if stars aligned, it wouldn't matter.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express '长久' (long-lasting) as required; instead, it focuses on the frequency of meetings and alignment of stars, which does not convey the intended meaning of enduring emotional connection.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "They need not meet every day and every night",
+        "evidence_found": true,
+        "reasoning": "The phrase 'They need not meet every day and every night' directly expresses the requirement of '不必日日相守' (not needing to meet every day) and the context implies the negation of constant meetings, fulfilling the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "They need not meet every day and every night",
+        "evidence_found": true,
+        "reasoning": "The phrase 'they need not meet every day and every night' contradicts the requirement to express '日日夜夜、时时刻刻相守' which implies continuous and frequent presence, not the absence of meetings.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "If two hearts are true to each other, Their meetings need not be constant. They need not meet every day and every night, Even if stars aligned, it wouldn't matter.",
+        "evidence_found": true,
+        "reasoning": "The translation maintains the conditional logic by stating that true mutual affection (condition) leads to meetings not needing to be constant (conclusion), and the phrase 'Even if stars aligned, it wouldn: t matter' reinforces the counterfactual condition with a clear negation of consequence, preserving the original's logic and rhetorical structure.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

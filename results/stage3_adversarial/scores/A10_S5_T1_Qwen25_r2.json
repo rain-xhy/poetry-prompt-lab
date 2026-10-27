@@ -1,0 +1,58 @@
+{
+  "translation_id": "A10_S5_T1_Qwen25_r2",
+  "anon_code": "T_ad56a999",
+  "poem_id": "A10",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "We used to trim the western window candle together",
+        "evidence_found": true,
+        "reasoning": "The phrase 'used to' explicitly indicates past habitual action, fulfilling the requirement to identify '曾经' as past tense.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "You ask when I'll return, but I have no set time",
+        "evidence_found": true,
+        "reasoning": "The phrase 'You ask when I'll return, but I have no set time' directly addresses the uncertainty of return, indicating a past memory rather than future expectation.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "You ask when I'll return, but I have no set time",
+        "evidence_found": true,
+        "reasoning": "The original phrase '与原诗对比' requires preserving the time shift from '何当' (when will I return) to '曾经' (once), but the translation uses present tense 'when I'll return' instead of past tense 'when I returned', which reverses the temporal relationship.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

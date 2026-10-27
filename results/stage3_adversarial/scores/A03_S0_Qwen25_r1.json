@@ -1,0 +1,58 @@
+{
+  "translation_id": "A03_S0_Qwen25_r1",
+  "anon_code": "T_5832651b",
+  "poem_id": "A03",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I wish to speak but hold back, and yet say, how pleasant it is that it's cool and the season is autumn.",
+        "evidence_found": true,
+        "reasoning": "The translation describes a desire to speak but stops, but the phrase 'how pleasant it is that it's cool and the season is autumn' does not convey the emotional tension or the 'emotional suppression' aspect required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I wish to speak but hold back, and yet say, how pleasant it is that it's cool and the season is autumn.",
+        "evidence_found": true,
+        "reasoning": "The translation does not distinguish between true emotion and surface words as required; it presents the entire statement as a single expression of pleasantness without indicating that 'how pleasant it is that it's cool and the season is autumn' is merely surface language.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I wish to speak but hold back, and yet say, how pleasant it is that it's cool and the season is autumn.",
+        "evidence_found": true,
+        "reasoning": "The translation focuses on the pleasantness of autumn and the speaker's desire to speak, but does not explicitly convey the emotional conflict or the sense of suppression that the original phrase '内心情感与表达的不一致' (inconsistency between inner emotion and expression) requires.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

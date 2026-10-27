@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S5_T3_Qwen25_r1",
+  "anon_code": "T_c76be802",
+  "poem_id": "M01",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Deeply emotional yet seeming indifferent",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Deeply emotional yet seeming indifferent' directly captures the required paradoxical tension between 'deep love/affection' and 'seeming coldness/indifference' as specified.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I can't manage a smile at the banquet",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I can't manage a smile at the banquet' directly expresses the state of being unable to smile at the table, meeting the requirement of expressing 'unable to/cannot' rather than 'not wanting to'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The wax candle appears to have a heart and is reluctant to let us part, shedding tears until dawn.",
+        "evidence_found": true,
+        "reasoning": "The English translation explicitly personifies the candle as having a heart and being reluctant to let the couple part, which directly preserves the required meaning of the candle's emotional state and its reluctance to part.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "shedding tears until dawn",
+        "evidence_found": true,
+        "reasoning": "The phrase 'shedding tears until dawn' directly corresponds to '蜡烛替人流泪 + 一直到天明' by preserving the time continuation 'until dawn' and the candle's action of shedding tears for others.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

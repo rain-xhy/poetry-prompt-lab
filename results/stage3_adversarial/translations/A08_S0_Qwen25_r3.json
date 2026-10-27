@@ -1,0 +1,19 @@
+{
+  "id": "A08_S0_Qwen25_r3",
+  "poem_id": "A08",
+  "trap_type": "proper_noun_generalization",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n朱雀桥边野草花，乌衣巷口夕阳斜。\n旧时豪门堂前燕，飞入寻常百姓家。",
+  "prompt_sha256": "46501150ee00787edd6457ae7e65ee8772e891de290efd9d473cc59c3699d135",
+  "translation": "Over by the wildflowers by the Zhuque Bridge grows wild grass,\nThrough the U-Wing Lane, the sun sets at an oblique angle.\nThe swallows that once nested in the noble halls' porch\nHave now flown into the common homes.",
+  "metadata": {
+    "input_tokens": 69,
+    "output_tokens": 52,
+    "latency_ms": 9160.144805908203,
+    "timestamp": "2026-10-26T21:43:53.865205",
+    "finish_reason": "stop"
+  }
+}

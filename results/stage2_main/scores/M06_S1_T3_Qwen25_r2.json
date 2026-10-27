@@ -1,0 +1,67 @@
+{
+  "translation_id": "M06_S1_T3_Qwen25_r2",
+  "anon_code": "T_b411050f",
+  "poem_id": "M06",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "How Many Blossoms Have Fallen, I Know Not.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I Know Not' directly corresponds to the required meaning of '不知道' with the subject 'I' implied by the context.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Spring Sleep Unfathomed Until Dawn",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Spring Sleep Unfathomed Until Dawn' directly expresses the sleep and unawareness of dawn as required, with 'Spring' providing the time context.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "All Around Heard are Birds Singing",
+        "evidence_found": true,
+        "reasoning": "The phrase 'All Around Heard' directly translates to '到处听到' (everywhere hearing), and 'Birds Singing' refers to the auditory experience of birds' sounds, satisfying both conditions of expressing '多处/到处' and being a sound rather than a visual.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Last Night's Storms' Sound",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Last Night's Storms' Sound' directly translates '昨夜听到风雨声' by expressing the past time ('Last Night') and the sound of wind and rain ('Storms' Sound').",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

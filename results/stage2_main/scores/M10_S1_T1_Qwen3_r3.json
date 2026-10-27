@@ -1,0 +1,67 @@
+{
+  "translation_id": "M10_S1_T1_Qwen3_r3",
+  "anon_code": "T_93f796f4",
+  "poem_id": "M10",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wildfires cannot be extinguished",
+        "evidence_found": true,
+        "reasoning": "The phrase 'cannot be extinguished' directly translates to '烧不尽' meaning 'cannot be extinguished' and implies the negative aspect of 'not' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Wildfires cannot be extinguished, for the spring wind brings them back again.",
+        "evidence_found": true,
+        "reasoning": "The translation refers to wildfires being brought back by spring wind, but the original phrase '春风吹又生' describes grass regrowing after being cut, not wildfires.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wildfires cannot be extinguished, for the spring wind brings them back again.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states that wildfires persist and are renewed by the spring wind, maintaining the personification of fire and grass as a cyclical relationship.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wildfires cannot be extinguished, for the spring wind brings them back again.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys the cyclical nature of unquenchable vitality through the imagery of wildfires and spring wind, directly reflecting the 'burning and regrowth' cycle described in the original theme.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

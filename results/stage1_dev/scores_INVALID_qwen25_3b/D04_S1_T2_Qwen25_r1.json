@@ -1,0 +1,62 @@
+{
+  "translation_id": "D04_S1_T2_Qwen25_r1",
+  "anon_code": "T_45e4991a",
+  "poem_id": "D04",
+  "strategy": "S1_T2",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "汪伦's kindness, sent me sailing far",
+        "evidence_found": true,
+        "reasoning": "The phrase '汪伦's kindness, sent me sailing far' is not from the original Chinese poem and does not preserve the meaning or structure of the original phrase '桃花潭水深千尺'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "深如千尺水，它比不上汪伦的深情",
+        "evidence_found": false,
+        "reasoning": "译文中的'深如千尺水，它比不上汪伦的深情'没有准确表达原文的'不及'，而是变成了'更深'，没有满足'比不上'的要求。",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "汪伦为我送行",
+        "evidence_found": false,
+        "reasoning": "The translation does not mention '汪伦为我送行', only '汪伦送我'",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Deep as a thousand尺s it pales in comparison",
+        "evidence_found": false,
+        "reasoning": "The phrase '千尺' (thousand feet) is not used in the original Chinese phrase '情' and does not preserve the metaphor of comparing depth to the depth of feelings.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.4,
+    "valid": true
+  }
+}

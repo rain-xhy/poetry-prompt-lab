@@ -1,0 +1,67 @@
+{
+  "translation_id": "M19_S5_T1_Qwen25_r3",
+  "anon_code": "T_4ffa1541",
+  "poem_id": "M19",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "I屡次常见, I亦几度听闻",
+        "evidence_found": false,
+        "reasoning": "The English translation uses past tense verbs 'common' and 'heard' to indicate past frequency, matching the requirement of past experience and multiple occurrences.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "now正当江南风景秀丽，落花时节再次与你相遇",
+        "evidence_found": false,
+        "reasoning": "The phrase '再次与你相遇' directly translates to 'again meet you', fulfilling the requirement for '又' (again) and present tense for 'now' (current time).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In岐王宅里我屡次常见，崔九宅前我亦几度听闻。如今正当江南风景秀丽，落花时节再次与你相遇。",
+        "evidence_found": false,
+        "reasoning": "The translation does not explicitly contrast past and present or imply a change in circumstances as required; it describes past encounters and current meeting without showing temporal contrast or situational change.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "In岐王宅里我屡次常见，崔九宅前我亦几度听闻。如今正当江南风景秀丽，落花时节再次与你相遇。",
+        "evidence_found": false,
+        "reasoning": "The translation explicitly mentions '落花时节' as '落花时节再次与你相遇', preserving the floral imagery and implying the symbolic meaning of fleeting time and reunion.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M13_S3_T1_Qwen25_r3",
+  "anon_code": "T_85480260",
+  "poem_id": "M13",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Thrice mountain ranges void of bird's flight",
+        "evidence_found": true,
+        "reasoning": "The phrase 'void of bird's flight' does not convey the absolute absence of birds as required; it implies a lack of birds but not the complete absence.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Ten paths, no trace of human tracks",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no trace of human tracks' directly translates the concept of '人的踪迹消失' with absolute negation, capturing the '灭' (disappearance) sense.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A solitary boat, a fisherman in a蓑笠",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A solitary boat' directly translates to '独自' (alone/solitary) and 'a fisherman' implies the action of '垂钓' (fishing) in context.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Thrice mountain ranges void of bird's flight, Ten paths, no trace of human tracks. A solitary boat, a fisherman in a蓑笠, Finds solace in the cold river's snow.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'a fisherman in a蓑笠' contains a Chinese character '蓑笠' which is not translated properly and breaks the requirement for a clean English translation without Chinese characters.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 3,
+    "poetic_quality": 3,
+    "overall": 3.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

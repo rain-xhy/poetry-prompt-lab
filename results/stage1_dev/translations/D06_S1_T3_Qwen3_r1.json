@@ -1,0 +1,19 @@
+{
+  "id": "D06_S1_T3_Qwen3_r1",
+  "poem_id": "D06",
+  "trap_type": "时态叙事",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n遥知兄弟登高处，遍插茱萸少一人。",
+  "prompt_sha256": "7311c416bce8daef4f4781a0faab315d74d0ee7d04bdbd1fe48e400a28ed8c29",
+  "translation": "The speaker knows that brothers and sisters will ascend to the high place, but one is missing because of the plum blossoms.  \n\n[The reference to \"遍插茱萸少一人\" implies a sense of loneliness or longing, common in Chinese poetry. The plum blossom symbolizes remembrance and the passing of time.]  \n\n[The poem reflects the emotional depth of Chinese poetry, where nature and emotion are closely intertwined.]",
+  "metadata": {
+    "input_tokens": 210,
+    "output_tokens": 85,
+    "latency_ms": 11092.048168182373,
+    "timestamp": "2026-10-26T16:38:44.024148",
+    "finish_reason": "stop"
+  }
+}

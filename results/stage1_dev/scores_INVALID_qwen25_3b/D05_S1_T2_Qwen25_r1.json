@@ -1,0 +1,62 @@
+{
+  "translation_id": "D05_S1_T2_Qwen25_r1",
+  "anon_code": "T_4e40eb49",
+  "poem_id": "D05",
+  "strategy": "S1_T2",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years生死twilight",
+        "evidence_found": true,
+        "reasoning": "The translation does not contain '十年生死两茫茫' which is the exact phrase from the original Chinese poem.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years生死twilight, thoughts unbidden, yet remain.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'Ten years生死twilight' which is not present in the original phrase and changes the meaning, thus failing to preserve the original intent.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "no words quoted from the translation",
+        "evidence_found": false,
+        "reasoning": "The translation does not contain the exact phrase '相隔千里的孤独坟墓' (a lonely tomb, a thousand miles away, no words to mourn in). It lacks the word '孤独' (lonely) and the phrase '千里孤坟' (a thousand miles away, a lonely tomb).",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "no words to mourn in.",
+        "evidence_found": true,
+        "reasoning": "A lonely tomb, a thousand miles away, no words to mourn in.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.95,
+    "valid": true
+  }
+}

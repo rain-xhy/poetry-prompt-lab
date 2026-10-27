@@ -1,0 +1,76 @@
+{
+  "translation_id": "D06_S3_T1_Qwen25_r2",
+  "anon_code": "T_bca06f81",
+  "poem_id": "D06",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I know my brothers climb the hillside today, All wearing fragrant chrysanthemums, yet one less.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I know my brothers climb the hillside today' expresses the idea of knowing from a distance, and 'yet one less' implies the absence of the speaker, aligning with the requirement to express 'in distant imagination' without using 'I see/I watch'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I know my brothers climb the hillside today",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I know my brothers climb the hillside today' directly translates the meaning of '兄弟们登高之处' with the subject 'brothers' and the action 'climb the hillside' representing '登高'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "All wearing fragrant chrysanthemums",
+        "evidence_found": true,
+        "reasoning": "The original phrase '遍插茱萸' means 'everyone wears dogwood sprigs', but the translation uses 'chrysanthemums' instead of 'dogwood sprigs', and the phrase 'All wearing' does not match the requirement of 'everyone wearing' as the translation should express 'everyone wears dogwood sprigs' without the extra 'fragrant' descriptor.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "one less",
+        "evidence_found": true,
+        "reasoning": "The phrase 'one less' directly translates to '少了一个人' meaning 'one person less', and the context implies the speaker is missing, indicating the person is the speaker.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.35,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

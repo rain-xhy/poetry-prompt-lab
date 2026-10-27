@@ -1,0 +1,19 @@
+{
+  "id": "M03_S1_T3_Qwen25_r1",
+  "poem_id": "M03",
+  "trap_type": "情感反差",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nTranslation Purpose: Teaching material for Chinese literature courses.\nAudience: Students learning about Chinese poetry.\nConstraints:\n- Preserve meaning accurately\n- Explain cultural references clearly\n- Make implicit logic explicit if needed\n- Prioritize clarity over poetic beauty\n- Don't add characters, events, or facts not in the original\n- You may add 1-2 brief explanatory notes in brackets\n\nKey Requirements:\n- Preserve core meaning, key imagery, and emotional tone\n- Classical Chinese often uses:\n  * Emotional paradoxes (seeming contradictions)\n  * Personification of objects\n  * Implicit negation\n  * Metaphorical references\n- Keep personification and metaphors in English\n\nOutput Format: 2-4 lines of English, no title, no author name, followed by 1-2 bracketed notes if useful.\n\nPoem:\n君问归期未有期，巴山夜雨涨秋池。\n何当共剪西窗烛，却话巴山夜雨时。",
+  "prompt_sha256": "d1874b0d50f69fcaa9074d09fee24fcd91b221308a092bda8fe3d41fac8f767a",
+  "translation": "**English Translation:**\n\nYou ask about my return but I have no set date,  \nIn the night rain fills the autumn pool in the Sichuan tower.  \nWhen we are together again at the west window at dusk,  \nWe will talk of the night rain in the Sichuan night.\n\n**Note:**  \nThe poet uses personification, attributing human actions like \"asking\" and \"returning\" to the clouds and rain, making the night rain seem like a persistent companion.",
+  "metadata": {
+    "input_tokens": 240,
+    "output_tokens": 101,
+    "latency_ms": 11832.544088363647,
+    "timestamp": "2026-10-26T20:43:26.066442",
+    "finish_reason": "stop"
+  }
+}

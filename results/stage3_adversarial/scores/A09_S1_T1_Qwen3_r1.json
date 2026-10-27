@@ -1,0 +1,58 @@
+{
+  "translation_id": "A09_S1_T1_Qwen3_r1",
+  "anon_code": "T_1d698906",
+  "poem_id": "A09",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Only because the Dragon City General is stationed there",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Only because' directly uses 'because' as a causal conjunction, fulfilling the requirement to preserve '只因' as indicating causality rather than condition.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The bright moon of Qin times, the ancient watchtower of Han, A thousand miles of journey, yet the soldiers remain unreturned. Only because the Dragon City General is stationed there, The northern horses fail to cross the Yin Mountain.",
+        "evidence_found": true,
+        "reasoning": "The translation describes a factual historical context with specific references to Qin and Han dynasties, emphasizing the soldiers' unreturned status due to the general's presence, which is a factual statement rather than an assumption.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Only because the Dragon City General is stationed there",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Only because' directly translates '只因' from the original Chinese, indicating a causal relationship that changes the logic from 'but' in the original poem, thus meeting the pass condition of different logical relationship with the original poem.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

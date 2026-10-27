@@ -1,0 +1,67 @@
+{
+  "translation_id": "M09_S5_T1_Qwen25_r2",
+  "anon_code": "T_0268ef5f",
+  "poem_id": "M09",
+  "strategy": "S5_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The moon sets and the乌鸦 cry,霜 covers the sky.",
+        "evidence_found": true,
+        "reasoning": "The translation includes the Chinese characters '乌鸦' and '霜' which are not in English, and the phrase 'The moon sets and the乌鸦 cry,霜 covers the sky' does not correctly translate the three classical Chinese imagery without establishing causal relationships as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "sorrowful slumber",
+        "evidence_found": true,
+        "reasoning": "The phrase 'sorrowful slumber' directly conveys '面对愁绪而眠' by indicating that the slumber is accompanied by sorrow, fulfilling both conditions of '面对' (sorrowful) and '愁绪伴随睡眠' (sorrow accompanying sleep).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Riverside maples and fishing lights meet my sorrowful slumber.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Riverside maples and fishing lights' does not correctly translate '江枫渔火' as it should be two separate natural images (maples and fishing lights) without the modifier 'riverside' for maples, and the phrase 'meet my sorrowful slumber' adds emotional context that is not part of the original Chinese phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "The moon sets and the乌鸦 cry,霜 covers the sky. Riversides maples and fishing lights meet my sorrowful slumber.",
+        "evidence_found": false,
+        "reasoning": "The translation conveys a sense of solitude and coldness through imagery of setting moon, crows, frost, and sorrowful slumber, avoiding any joyful elements.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 2,
+    "emotion": 2,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

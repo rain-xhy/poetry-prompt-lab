@@ -1,0 +1,67 @@
+{
+  "translation_id": "M17_S5_T2_Qwen25_r1",
+  "anon_code": "T_d5fb175f",
+  "poem_id": "M17",
+  "strategy": "S5_T2",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This emotion could never be true, Now fades in memory, then, in time. Now lost in doubt, then, in the past, Felt yet unspoken, now in silence.",
+        "evidence_found": true,
+        "reasoning": "The translation does not use a question structure (must/can/could) to express a future state of becoming a memory, but rather states a past and present condition without a clear future aspect of 'becoming a memory'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This emotion could never be true, Now fades in memory, then, in time. Now lost in doubt, then, in the past, Felt yet unspoken, now in silence.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express 'already completed' past tense as required by the phrase '当时就已经惘然' (past perfect with 'already'). The phrase 'when it was already confused' implies a completed state of confusion in the past, but the translation uses present and future tense constructions without clear past perfect completion.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "This emotion could never be true, Now fades in memory, then, in time. Now lost in doubt, then, in the past, Felt yet unspoken, now in silence.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the specific reference to 'this emotion' as a distinct emotional state; it uses a more abstract and temporal description that lacks the concrete emotional reference required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "This emotion could never be true, Now fades in memory, then, in time. Now lost in doubt, then, in the past, Felt yet unspoken, now in silence.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly contrasts future (now fades in memory) and past (then, in the past) time frames while maintaining complex temporal layers as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 2,
+    "poetic_quality": 1,
+    "overall": 1.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

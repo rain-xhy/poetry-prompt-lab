@@ -1,0 +1,19 @@
+{
+  "id": "A08_S0_Qwen3_r3",
+  "poem_id": "A08",
+  "trap_type": "proper_noun_generalization",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n朱雀桥边野草花，乌衣巷口夕阳斜。\n旧时豪门堂前燕，飞入寻常百姓家。",
+  "prompt_sha256": "46501150ee00787edd6457ae7e65ee8772e891de290efd9d473cc59c3699d135",
+  "translation": "On the wild grass by the Zhujia Bridge, wild flowers bloom;  \nAt the mouth of the Uyishi Lane, the sunset casts a shadow.  \nOnce, the noble houses' halls were filled with winged birds,  \nNow they fly into the homes of common people.",
+  "metadata": {
+    "input_tokens": 56,
+    "output_tokens": 59,
+    "latency_ms": 10407.87148475647,
+    "timestamp": "2026-10-26T21:48:21.793456",
+    "finish_reason": "stop"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "translation_id": "A10_S5_T1_Qwen3_r1",
+  "anon_code": "T_4f40eb10",
+  "poem_id": "A10",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Once we shared the west window candlelight",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Once' explicitly indicates past time and matches the requirement to identify '曾经' as past tense.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Once we shared the west window candlelight, and then we spoke of the rain in the Bashi Mountains again.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'spoke of the rain in the B:shi Mountains again' indicates a past event being revisited, fulfilling the requirement to distinguish between recalling past events and future expectations.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When you ask for the time of my return, I have no fixed period—",
+        "evidence_found": true,
+        "reasoning": "The original phrase '与原诗对比' requires preserving the temporal shift from '何当' (when) to '曾经' (once), but the translation uses present tense 'have no fixed period' instead of past tense, reversing the temporal relationship as per pass conditions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

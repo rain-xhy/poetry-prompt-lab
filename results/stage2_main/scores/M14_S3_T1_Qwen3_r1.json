@@ -1,0 +1,67 @@
+{
+  "translation_id": "M14_S3_T1_Qwen3_r1",
+  "anon_code": "T_74b5fa91",
+  "poem_id": "M14",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Yet if the general of the dragon city were still here",
+        "evidence_found": true,
+        "reasoning": "The phrase 'if the general of the dragon as long as the general of the dragon city were still here' uses a conditional clause starting with 'if' to express the assumption that the general is present, fulfilling the requirement for a condition clause with assumed tone.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no step of the northern nomads would cross the dark mountain range",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no step of the northern nomads would cross' directly translates to '不让...越过' (prevent/not allow crossing) by expressing a negative prohibition on the nomads' movement, fulfilling the requirement of active prevention.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Yet if the general of the dragon city were still here, no step of the northern nomads would cross the dark mountain range.",
+        "evidence_found": true,
+        "reasoning": "The translation uses a conditional clause 'if...were still here' followed by a result 'no step...would cross', preserving the condition-result logic while maintaining the original's context of military defense and northern nomads.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The general of the dragon city",
+        "evidence_found": true,
+        "reasoning": "The phrase 'dragon city' refers to a historical location in Chinese, not the name of a specific general. The translation uses 'general of the dragon city' which does not clearly indicate a specific historical general or the required 'border pass general' context.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

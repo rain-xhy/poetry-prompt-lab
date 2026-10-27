@@ -1,0 +1,62 @@
+{
+  "translation_id": "M19_S1_T3_Qwen3_r1",
+  "anon_code": "T_7e50d720",
+  "poem_id": "M19",
+  "strategy": "S1_T3",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I met him often, and heard his music at his estate",
+        "evidence_found": true,
+        "reasoning": "The phrase 'met him often' and 'heard his music' directly convey past frequent actions as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "yet again I met you in the season of falling flowers",
+        "evidence_found": true,
+        "reasoning": "The phrase 'yet again I met you' directly corresponds to '又'的再次相逢 (again meeting) and 'in the season of falling flowers' indicates the current context of the meeting, fulfilling the requirement for present tense and current reunion.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "In the palace of the Duke of Qi, I met him often, and heard his music at his estate. It was indeed a beautiful landscape in the south, yet again I met you in the season of falling flowers.",
+        "evidence_found": true,
+        "reasoning": "The translation contrasts past (Duke of Qi's palace, music) with present (falling flowers), implying a change in circumstances.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "yet again I met you in the season of falling flowers",
+        "evidence_found": true,
+        "reasoning": "The phrase 'season of falling flowers' directly preserves the 落花意象 and implies the symbolic meaning of fleeting beauty and melancholy associated with the phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "valid": false,
+    "raw": "{\n  \"original\": \"岐王宅里寻常见，崔九堂前几度闻。正是江南好风景，落花时节又逢君。\",\n  \"reference_notes\": {\n    \"寻常见...几度闻\": \"过去经常见到、多次听到（过去时）。要点：过去时态，频繁的回忆。\",\n    \"正是...又逢\": \"现在的重逢（现在时）。要点：现在时态，再次相逢。\",\n    \"今昔对比\": \"昔日繁华vs今日飘零。要点：过去与现在的对比，盛衰变化。\",\n    \"落花时节\": \"落花时节的象征意义。要点：既是实景，也象征盛衰。\"\n  },\n  \"translation\": \"In the palace of the Duke of Qi, I met him often, and heard his music at his estate.  It was indeed a beautiful landscape in the south, yet again I met you in the season of falling flowers.\",\n  \"dimensions\": {\n    \"adequacy\": 4,\n    \"imagery\": 4,\n    \"emotion\": 4,\n    \"fluency\": 5,\n    \"poetic_quality\": 4\n  }\n}"
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "translation_id": "A07A_S0_Qwen3_r3",
+  "anon_code": "T_08db29d1",
+  "poem_id": "A07A",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Be cautious of falling into the river.",
+        "evidence_found": true,
+        "reasoning": "The translation does not address the negation or the inference of correct negation from a ambiguous version, which is required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Be cautious of falling into the river.",
+        "evidence_found": true,
+        "reasoning": "The translation 'Be cautious of falling into the river' directly addresses the need for caution in a specific context, aligning with the requirement to express a clear negation of version B being correct.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Be cautious of falling into the river.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'AB一致性' refers to consistency between two versions, but the translation does not address this concept and instead gives a literal translation of a different phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 4,
+    "valid": true
+  }
+}

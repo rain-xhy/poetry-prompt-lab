@@ -1,0 +1,58 @@
+{
+  "translation_id": "A07B_S1_T1_Qwen3_r1",
+  "anon_code": "T_08257f3d",
+  "poem_id": "A07B",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 2,
+    "accuracy": 0.6666666666666666,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Be careful not to fall into the river.",
+        "evidence_found": true,
+        "reasoning": "The translation does not address the concept of 'correct negation' or 'ambiguous version' as required by the original phrase, which focuses on whether a negated version can be inferred from an ambiguous version.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Be careful not to fall into the river.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Be careful not to fall into the river' directly translates to the required meaning of '版本B翻译为否定' as a warning against a negative outcome, matching the explicit negation requirement.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Be careful not to fall into the river.",
+        "evidence_found": true,
+        "reasoning": "The English translation directly addresses the cautionary meaning of the original phrase, emphasizing the river as a symbol of time and memory with a melancholic tone.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 1,
+    "valid": true
+  }
+}

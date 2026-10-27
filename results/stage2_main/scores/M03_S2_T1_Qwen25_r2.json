@@ -1,0 +1,67 @@
+{
+  "translation_id": "M03_S2_T1_Qwen25_r2",
+  "anon_code": "T_16ed2f3b",
+  "poem_id": "M03",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no date is set",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no date is set' directly translates to '尚未确定' and 'cannot yet be set', meeting the requirement of expressing '尚未确定/cannot yet be set' without implying 'no deadline' or 'never'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "When we sit by the west window in Bashan, We'll recount that night's Bashan rain.",
+        "evidence_found": true,
+        "reasoning": "The translation uses the future tense 'We'll recount' to express the expectation of a future event, matching the required meaning of '什么时候能一起剪西窗烛' (when will we be able to sit together by the west window to trim the candle).",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "When we sit by the west window in Bashan, We'll recount that night's Bashan rain.",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'We'll recount' which indicates future tense, but the original phrase requires '将来回忆过去' (future recalling past), meaning the recollection should be of past events from a future perspective. The phrase 'that night's Bashan rain' refers to a specific past event, but the tense mismatch (future action of recounting past) does not align with the required '将来回忆过去' (future tense recalling past) as the original phrase is a past event being recalled in the present or future context.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "In the Bashan night, the autumn pool swells with rain.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'swells with rain' directly translates the meaning of '涨秋池' as rain causing the pool to rise, and 'Bashan night' and 'autumn pool' preserve the required three意象.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

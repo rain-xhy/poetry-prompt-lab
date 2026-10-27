@@ -1,0 +1,71 @@
+{
+  "translation_id": "D02_S1_T1_Qwen25_r1",
+  "anon_code": "T_7eac6e87",
+  "poem_id": "D02",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "All the birds have flown away,",
+        "evidence_found": true,
+        "reasoning": "The phrase 'All the birds have flown away' expresses the birds flying away but does not convey the 'disappearance' or 'vanishing' aspect required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Leaving only clouds to drift idly",
+        "evidence_found": true,
+        "reasoning": "The phrase 'drift idly' captures the '悠闲/从容' state and 'clouds' with '独自' (alone) implies the solitary nature.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I gaze upon the mountain, It neither grows weary nor bored with me.",
+        "evidence_found": true,
+        "reasoning": "The translation shows mutual gazing between the speaker and the mountain, with the mountain acting as the active observer that does not grow weary or bored.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Leaving only clouds to drift idly.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'only clouds' corresponds to 'only' and 'clouds' implies the absence of other elements, while 'drift idly' captures the passive, unengaged state of the clouds, aligning with the original's focus on Jingting Mountain as the sole remaining element.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer2_v1": {
+    "valid": false,
+    "raw": "{\n  \"adequacy\": 5,\n  \"imagery\": 5,\n  \"emotion\": 5,\n  \"fluency\": 5,\n  \"po\": 5\n}"
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

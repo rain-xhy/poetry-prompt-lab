@@ -1,0 +1,19 @@
+{
+  "id": "M07_S0_Qwen25_r3",
+  "poem_id": "M07",
+  "trap_type": "拟人意象",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n朱雀桥边野草花，乌衣巷口夕阳斜。\n旧时王谢堂前燕，飞入寻常百姓家。",
+  "prompt_sha256": "5006bd54a1165303dc55069197830101aaac4e4c090c6ddaa82a0ea5fb5fb336",
+  "translation": "By Zhuque Bridge, wild flowers bloom amidst weeds,\nIn the U-shaped Lane, the setting sun slants.\nThe燕 in the former Wang and Xie halls' eaves,\nHave now entered common homes' doorways. \n\nNote: This is a translation of the poem. The original Chinese poem is quite concise, and the English version aims to capture the essence and imagery of the original. However, some interpretation and word choices are necessary to make the English version flow naturally and maintain the poem's韵味. \"朱雀桥\" is translated as \"Zhuque Bridge,\" which is a direct translation of the Chinese character. \"乌衣巷\" (Wu Yi Xiang) is interpreted as \"U-shaped Lane\" as it is a poetic term for a certain street in Nanjing. \"旧时\" is translated as \"old\" to convey the notion of something from the past. \"寻常百姓\" is translated as \"common homes\" which generally means \"ordinary households.\"",
+  "metadata": {
+    "input_tokens": 70,
+    "output_tokens": 200,
+    "latency_ms": 12538.285255432129,
+    "timestamp": "2026-10-26T20:32:35.364275",
+    "finish_reason": "stop"
+  }
+}

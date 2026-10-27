@@ -1,0 +1,58 @@
+{
+  "translation_id": "A05_S0_Qwen25_r3",
+  "anon_code": "T_95b97829",
+  "poem_id": "A05",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I must part from you and go",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I must part from you and go' directly translates the necessity and inevitability of separation expressed in '不得不离君而去', fulfilling the requirement to preserve '不得不' as 'must' and meeting the pass condition of expressing the required meaning in English.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I must part from you and go, but never out of my thoughts.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the conditional relationship where 'not seeing' implies 'not thinking' by emphasizing the necessity of separation and the continuous state of thought, fulfilling the requirement of expressing 'if...then' structure in English.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I must part from you and go, but never out of my thoughts.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the necessity of separation and the continuous thought, meeting the requirement to distinguish between double negation and conditional negation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 3.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

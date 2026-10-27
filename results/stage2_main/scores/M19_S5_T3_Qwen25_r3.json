@@ -1,0 +1,67 @@
+{
+  "translation_id": "M19_S5_T3_Qwen25_r3",
+  "anon_code": "T_c7ba39ed",
+  "poem_id": "M19",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I have often seen you at Ji Wang's courtyard, And heard you play in Cui Ji's hall many times.",
+        "evidence_found": true,
+        "reasoning": "The translation uses past perfect tense 'have often seen' and past perfect tense 'heard... many times' to convey repeated past actions, fulfilling the requirement of past frequency.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Now that the South China region boasts beautiful scenery, In this season of falling flowers, we meet again.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'we meet again' directly translates to '又逢' (again meeting) and the context of 'season of falling flowers' implies the present moment of reunion, fulfilling the requirement for current reunion.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Now that the South China region boasts beautiful scenery, In this season of falling flowers, we meet again.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly contrast past and present prosperity versus current decline; it describes a current scene without indicating historical change or contrast with a previous state of affairs.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "In this season of falling flowers",
+        "evidence_found": true,
+        "reasoning": "The phrase 'season of falling flowers' directly preserves the 落花时节意象 and implies the fleeting beauty and passage of time, meeting both pass conditions.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

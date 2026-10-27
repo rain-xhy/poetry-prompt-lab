@@ -1,0 +1,67 @@
+{
+  "translation_id": "M16_S3_T1_Qwen25_r1",
+  "anon_code": "T_4b2dbe78",
+  "poem_id": "M16",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 1,
+    "accuracy": 0.25,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Cock-crows pierce the moonlit茅店",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Cock-crows pierce the moonlit茅店' does not correctly convey the meaning of '鸡声茅店月' as it includes the Chinese characters '茅店' which should not appear in an English translation, and the phrase structure does not match the required meaning of '鸡鸣时茅店上还有月亮' (the moon still exists on the thatched cottage at cockcrow time).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Footprints trace the frost-covered plank bridge",
+        "evidence_found": true,
+        "reasoning": "The phrase 'footprints trace the frost-covered plank bridge' does not match the required meaning of '人的足迹在板桥的霜上' which implies the footprints are on the frost-covered plank bridge, not that the footprints trace the frost-covered plank bridge.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "Recalling Duf:eng's dreams",
+        "evidence_found": false,
+        "reasoning": "The phrase 'Recalling Dufeng's dreams' directly translates to '因此想起在杜陵做的梦' meaning recalling dreams from Du Ling, fulfilling the requirement of expressing memory of dreams from Du Ling.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wild geese fill the pond's curve",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Wild geese fill the pond's curve' directly translates the '凫雁满布曲折池塘' meaning with 'wild geese' for 凫雁, 'fill' for 满布, and 'pond's curve' for 曲折池塘, meeting both conditions of expressing a winding pond and the wild geese filling it.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 1,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 1,
+    "poetic_quality": 1,
+    "overall": 1.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 3,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

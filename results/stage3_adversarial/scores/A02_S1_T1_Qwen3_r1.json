@@ -1,0 +1,58 @@
+{
+  "translation_id": "A02_S1_T1_Qwen3_r1",
+  "anon_code": "T_181fa0fb",
+  "poem_id": "A02",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 1,
+    "accuracy": 0.3333333333333333,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Whispers of blossoms falling—how many?",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Whispers of blossoms falling' directly indicates that the subject of 'falling' is blossoms, fulfilling the requirement that the subject changed from 'I' to 'flowers/blossoms'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In the morning, I sleep soundly, unaware of the dawn,",
+        "evidence_found": true,
+        "reasoning": "The phrase 'unaware of the dawn' implies the speaker is not cognizant of the time, but the original phrase '花具有认知能力（知道）' refers to flowers having cognitive ability (knowing), not the speaker's state.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "In the morning, I sleep soundly, unaware of the dawn, And hear the cries of birds everywhere. The sound of rain and wind last night, Whispers of blossoms falling—how many?",
+        "evidence_found": true,
+        "reasoning": "The translation does not match the original poem's meaning as it introduces elements like 'sleep soundly', 'unaware of the dawn', 'cries of birds', 'sound of rain and wind', and 'whispers of as blossoms falling' which are not present in the original poem '春晓' (Spring Dawn). The original poem '春晓' is a short classical Chinese poem that describes the early morning scene with birds singing and the sudden realization of the passing of time, but the translation here adds new elements and misrepresents the original meaning.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

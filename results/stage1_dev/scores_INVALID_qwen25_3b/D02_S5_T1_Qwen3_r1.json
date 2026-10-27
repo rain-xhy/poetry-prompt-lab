@@ -1,0 +1,62 @@
+{
+  "translation_id": "D02_S5_T1_Qwen3_r1",
+  "anon_code": "T_a2528ad0",
+  "poem_id": "D02",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Birds fly away, leaving no trace behind.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Birds fly away, leaving no trace behind' does not convey the idea of 'all birds flying away' or 'disappearing completely' as required by the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Birds fly away, leaving no trace behind. A solitary cloud drifts leisurely alone.",
+        "evidence_found": true,
+        "reasoning": "The phrase '孤云独去闲' is not preserved in the translation. The translation contains 'Birds fly away' which does not match '孤云独去'. The rest of the sentence does not contain '独自悠闲地飘走'.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "They look at each other, never tired",
+        "evidence_found": true,
+        "reasoning": "The phrase '人与山互相看着，都不厌倦' is not preserved in the translation. The translation focuses on the imagery of birds, clouds, and the mountain of Jingting, but does not mention the mountain as the active viewer.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "They look at each other, never tired, and only the mountain of Jingting remains.",
+        "evidence_found": true,
+        "reasoning": "The phrase '只有敬亭山' is not preserved in the translation.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 3.2,
+    "valid": true
+  }
+}

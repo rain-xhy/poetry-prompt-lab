@@ -1,0 +1,67 @@
+{
+  "translation_id": "M13_S2_T1_Qwen25_r2",
+  "anon_code": "T_c77cfb68",
+  "poem_id": "M13",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A thousand mountains silence the flight of birds",
+        "evidence_found": true,
+        "reasoning": "The phrase 'silence the flight of birds' directly translates to 'no birds' or 'no bird flight', meeting the absolute negation requirement for '鸟飞绝' with the 'extreme' sense of '绝'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Ten thousand paths vanish the signs of man",
+        "evidence_found": true,
+        "reasoning": "The phrase 'vanish the signs of man' directly translates the meaning of '人踪灭' as 'human traces disappear', meeting the requirement of absolute negation of human presence.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Fishing alone in the cold river under the snow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Fishing alone' directly translates the '独钓' meaning with emphasis on 'alone', and 'in the cold river under the snow' shows the action of fishing in a specific context.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A thousand mountains silence the flight of birds, Ten thousand paths vanish the signs of man.",
+        "evidence_found": true,
+        "reasoning": "The first two lines explicitly convey vast spatial scale through 'thousand mountains' and 'ten thousand paths' while emphasizing human solitude with 'silence the flight of birds' and 'vanish the signs of man', forming a clear contrast between expansive space and isolated humanity.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

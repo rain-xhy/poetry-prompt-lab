@@ -1,0 +1,19 @@
+{
+  "id": "A03_S0_Qwen25_r3",
+  "poem_id": "A03",
+  "trap_type": "emotional_suppression",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n欲语还休，却道天凉好个秋。",
+  "prompt_sha256": "b9fe62cae991bd62d892bd7375c89208707d8bfe5be98d8246421c21a967aff8",
+  "translation": "The poem \"Wǔ yǔ huán xiū, què dào tiān liáng hǎo gè qiū\" can be translated into English as:\n\n\"I wanted to speak but then I let it go,\nAnd said, how nice it is, the cool autumn.\"\n\nThis translation aims to capture the essence and韵味 of the original Chinese poem, maintaining its melancholic tone and the feeling of the changing seasons. The first part, \"欲语还休\" (Wǔ yǔ huán xiū), is translated as \"I wanted to speak but then I let it go,\" which captures the reluctance to speak that is implied in the original. The second part, \"却道天凉好个秋\" (què dào tiān liáng hǎo gè qiū), is translated as \"And said, how nice it is, the cool autumn,\" which reflects the poet's contemplation of the changing season.",
+  "metadata": {
+    "input_tokens": 54,
+    "output_tokens": 195,
+    "latency_ms": 2734.9252700805664,
+    "timestamp": "2026-10-26T21:42:23.425204",
+    "finish_reason": "stop"
+  }
+}

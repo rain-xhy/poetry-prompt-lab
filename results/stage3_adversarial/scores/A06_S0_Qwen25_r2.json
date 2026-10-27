@@ -1,0 +1,58 @@
+{
+  "translation_id": "A06_S0_Qwen25_r2",
+  "anon_code": "T_3ee04f5f",
+  "poem_id": "A06",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I am like a candle that weeps until dawn, for fear of parting.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I am like a candle that weeps until dawn' does not correctly identify the 'person weeps for candle' relationship as required; it reverses the subject and object.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Dealing with feelings is like being completely emotionless",
+        "evidence_found": true,
+        "reasoning": "The phrase '替的方向' translates to 'the direction of substitution' or 'the direction of replacement', but the translation does not capture this concept as 'the direction of substitution' or 'the direction of replacement' in the context of the poem.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Dealing with feelings is like being completely emotionless, But I find my laughter cannot be produced when seated at the wine cup.",
+        "evidence_found": true,
+        "reasoning": "The translation reverses the meaning of the original poem by stating that dealing with feelings is emotionless, whereas the original poem suggests the opposite: the speaker is emotionally engaged and unable to suppress feelings.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M11_S1_T3_Qwen25_r3",
+  "anon_code": "T_16ffa0e6",
+  "poem_id": "M11",
+  "strategy": "S1_T3",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I think it must be frost on the ground.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I think it must be' uses 'must be' to indicate uncertainty and 'think' as a form of speculation, matching the requirement for a suspect/wonder/seems/might be construction without a definite statement.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I lift my head and sight the bright moon, I bow my head, thinking of home.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly shows the action sequence (lifting head to see moon, bowing head to think of home) and directly links the moon sighting to the thought of home, fulfilling the required emotional logic.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Beside my bed a clear light shines",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Beside my bed a clear light shines' directly preserves '床前' (beside my bed) and '明月光' (clear light) as required, with 'clear' corresponding to '明亮' in the target meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Beside my bed a clear light shines, I think it must be frost on the ground. I lift my head and sight the bright moon, I bow my head, thinking of home.",
+        "evidence_found": true,
+        "reasoning": "The translation preserves the quiet atmosphere through the imagery of frost and moonlight, explicitly connecting the frost-like light to thoughts of home, which conveys solitude and homesickness as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 4,
+    "valid": true
+  }
+}

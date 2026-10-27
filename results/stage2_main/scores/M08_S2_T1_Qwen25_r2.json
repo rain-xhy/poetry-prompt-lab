@@ -1,0 +1,67 @@
+{
+  "translation_id": "M08_S2_T1_Qwen25_r2",
+  "anon_code": "T_3593a1e4",
+  "poem_id": "M08",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "No person can be seen, Only the sound of voices heard.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly contrasts 'cannot be seen' with 'heard', fulfilling the requirement to preserve the contrast between '看不见' and '听得见' without implying 'no one'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The fading light returns and penetrates the deep woods",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The fading light returns and penetrates the deep: ' directly expresses the dynamic movement of sunlight (返景) entering deep woods (深林) as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The fading light returns and penetrates the deep woods, Reaching the emerald green moss.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'The fading light returns and penetrates the deep woods, Reaching the emerald green moss' captures the 'again' or 'repeated' aspect of '复' and the 'emerald green moss' directly refers to '青苔' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "No person can be seen, Only the sound of voices heard.",
+        "evidence_found": true,
+        "reasoning": "The translation focuses on the absence of people and sounds, but does not explicitly convey the 'empty' or 'vast' quality of the mountain, which is required for '空旷、幽静的山'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

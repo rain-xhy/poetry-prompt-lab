@@ -1,0 +1,58 @@
+{
+  "translation_id": "A08_S5_T1_Qwen3_r1",
+  "anon_code": "T_619a88cb",
+  "poem_id": "A08",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 3,
+    "valid_units": 3,
+    "passed_units": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Once the grand estate of the noble family, the swallow flies",
+        "evidence_found": true,
+        "reasoning": "The phrase 'noble family' directly corresponds to the required '豪门' as a generalized expression of wealthy/noble/aristocratic families, fulfilling the preservation condition.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Once the grand estate of the noble family, the swallow flies, Now into the home of common folk, where once it was.",
+        "evidence_found": true,
+        "reasoning": "The translation captures the historical context shift from noble family estates to common folk homes, preserving the meaning of '识别失去了特定历史背景' without specific names.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "On the wild grass by the Zhuchao Bridge, the wild flowers bloom, At the mouth of Wuyi Terrace, the sunset casts a shadow. Once the grand estate of the noble family, the swallow flies, Now into the home of common folk, where once it was.",
+        "evidence_found": true,
+        "reasoning": "The translation accurately captures the contrast between past grandeur and present simplicity in the original poem, preserving the meaning of the historical and social changes while using different phrasing.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translation_id": "M11_S3_T1_Qwen25_r2",
+  "anon_code": "T_fe2edc58",
+  "poem_id": "M11",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I take it as frost upon the ground",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I take it as' uses the verb 'take' to indicate a tentative identification, matching the requirement for a speculative or uncertain interpretation of the frost.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I raise my head and gaze at the bright moon, Then bow my head, thinking of home.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly shows the sequence of actions (raising head to gaze at moon, then bowing head to think of home) and implies that gazing at the moon leads to thoughts of home.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Beside my bed a bright moonlight shines",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Beside my bed a bright moonlight shines' directly corresponds to '床前明月光' by preserving 'bed' (床) and 'bright moonlight' (明月光) as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Beside my bed a bright moonlight shines, I take it as frost upon the ground. I raise my head and gaze at the bright moon, Then bow my head, thinking of home.",
+        "evidence_found": true,
+        "reasoning": "The translation describes moonlight and frost but does not explicitly convey the 'quiet' atmosphere or the 'lonely homesickness' required by the original phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

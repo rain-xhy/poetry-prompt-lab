@@ -1,0 +1,2960 @@
+[
+  {
+    "id": "M01",
+    "key": "M01_赠别",
+    "set": "main",
+    "poem_name": "赠别二首·其二",
+    "author": "杜牧",
+    "trap_type": "情感反差",
+    "text": "多情却似总无情，唯觉尊前笑不成。蜡烛有心还惜别，替人垂泪到天明。",
+    "text_b": null,
+    "correct_understanding": null,
+    "wrong_understanding": null,
+    "note": null,
+    "semantic_units": [
+      {
+        "id": 1,
+        "chinese": "多情却似总无情",
+        "semantic_content": "深情与似无情的悖论张力",
+        "must_preserve": "同时保留'深情'和'似无情'两个对立面，以及它们之间的悖论关系",
+        "pass_conditions": [
+          "译文同时提到'深情/deep love/affection'和'似无情/seeming coldness/indifference'",
+          "保留了二者之间的对立/矛盾/张力，不能flatten为简单陈述"
+        ],
+        "good_examples": [
+          "love so deep it seems like none",
+          "deep affection appearing as indifference",
+          "passion masked as coldness"
+        ],
+        "bad_examples": [
+          "passionate but passionless (字面翻译，丢失张力)",
+          "not emotional (完全丢失'深情')",
+          "very loving (丢失'似无情')"
+        ]
+      },
+      {
+        "id": 2,
+        "chinese": "唯觉尊前笑不成",
+        "semantic_content": "在酒席前笑不出来的状态",
+        "must_preserve": "无法笑出的情感状态，不是不想笑",
+        "pass_conditions": [
+          "译文表达'无法/不能笑出'（unable to/cannot），不是'不想笑'",
+          "保留'尊前/at the table/at the farewell wine'的场景"
+        ],
+        "good_examples": [
+          "unable to smile at the table",
+          "find myself unable to smile at the farewell wine",
+          "cannot manage a smile"
+        ],
+        "bad_examples": [
+          "don't want to laugh (改变情感，变成主动不愿)",
+          "only feel cannot laugh (语法错误)",
+          "feel sad (过于简化)"
+        ]
+      },
+      {
+        "id": 3,
+        "chinese": "蜡烛有心还惜别",
+        "semantic_content": "蜡烛的拟人化（有心惜别）",
+        "must_preserve": "蜡烛作为拟人主体，仿佛有心在惋惜离别",
+        "pass_conditions": [
+          "译文明确蜡烛是拟人主体（candle似乎有心/有感情）",
+          "保留拟人的修辞效果，不能削弱为简单形容"
+        ],
+        "good_examples": [
+          "the candle seems to share the sorrow of parting",
+          "even the candle grieves the parting",
+          "the candle has a heart to mourn"
+        ],
+        "bad_examples": [
+          "the sad candle (削弱拟人，变成形容词)",
+          "candle (完全丢失拟人)",
+          "the candle's light (改变主体)"
+        ]
+      },
+      {
+        "id": 4,
+        "chinese": "替人垂泪到天明",
+        "semantic_content": "蜡烛替人流泪 + 一直到天明",
+        "must_preserve": "'替人'的关系（蜡烛代替人流泪）+ '到天明'的时间延续",
+        "pass_conditions": [
+          "译文明确'替人/for us/on our behalf'的代替关系",
+          "保留'到天明/until dawn/till morning'的时间延续"
+        ],
+        "good_examples": [
+          "weeps for us until dawn",
+          "sheds tears on our behalf till morning",
+          "cries in our stead until daybreak"
+        ],
+        "bad_examples": [
+          "cries all night (丢失'替人')",
+          "weeps briefly (丢失'天明')",
+          "people and candle cry together (改变'替人'关系)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "M02",
+    "key": "M02_相思",
+    "set": "main",
+    "poem_name": "相思",
+    "author": "王维",
+    "trap_type": "情感反差",
+    "text": "红豆生南国，春来发几枝。愿君多采撷，此物最相思。",
+    "text_b": null,
+    "correct_understanding": null,
+    "wrong_understanding": null,
+    "note": null,
+    "semantic_units": [
+      {
+        "id": 1,
+        "chinese": "红豆",
+        "semantic_content": "红豆作为相思的象征（借代）",
+        "must_preserve": "红豆不只是植物，而是相思之情的象征",
+        "pass_conditions": [
+          "译文保留'红豆'作为特定意象",
+          "或明确指出其象征意义"
+        ],
+        "good_examples": [
+          "red beans (lovesickness beans)",
+          "red beans that symbolize longing",
+          "the red bean of yearning"
+        ],
+        "bad_examples": [
+          "red plants (过于泛化)",
+          "beans (丢失'红'的特征)",
+          "fruit (改变物体)"
+        ]
+      },
+      {
+        "id": 2,
+        "chinese": "愿君多采撷",
+        "semantic_content": "劝君多采摘（愿望）",
+        "must_preserve": "劝说/希望的语气，主语是'君'",
+        "pass_conditions": [
+          "译文表达希望/劝说的语气（wish/hope/may）",
+          "明确是'你'来采摘"
+        ],
+        "good_examples": [
+          "I wish you would gather more",
+          "may you pluck them often",
+          "I hope you will pick many"
+        ],
+        "bad_examples": [
+          "many are picked (被动，丢失主语)",
+          "people gather (改变主语)",
+          "must pick (变成命令)"
+        ]
+      },
+      {
+        "id": 3,
+        "chinese": "此物最相思",
+        "semantic_content": "此物最能寄托相思之情",
+        "must_preserve": "物作为情感寄托，不是物本身会思念",
+        "pass_conditions": [
+          "译文表达'这个东西最能象征/寄托相思'",
+          "不是'这个东西会思念'"
+        ],
+        "good_examples": [
+          "these most embody yearning",
+          "this thing best conveys longing",
+          "these beans speak most of love"
+        ],
+        "bad_examples": [
+          "this thing misses (物作为思念主体)",
+          "most lovesick thing (形容词化，意义模糊)",
+          "they think of you (改变意义)"
+        ]
+      },
+      {
+        "id": 4,
+        "chinese": "春来发几枝",
+        "semantic_content": "春天来时长出几枝",
+        "must_preserve": "自然生长的场景，疑问语气",
+        "pass_conditions": [
+          "译文表达春天的时间",
+          "发枝的自然动作"
+        ],
+        "good_examples": [
+          "in spring they sprout a few branches",
+          "when spring comes, how many branches grow",
+          "spring brings forth several sprigs"
+        ],
+        "bad_examples": [
+          "cut branches in spring (改变动作)",
+          "autumn branches (改变季节)",
+          "planted in spring (改变主体)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "M03",
+    "key": "M03_夜雨寄北",
+    "set": "main",
+    "poem_name": "夜雨寄北",
+    "author": "李商隐",
+    "trap_type": "情感反差",
+    "text": "君问归期未有期，巴山夜雨涨秋池。何当共剪西窗烛，却话巴山夜雨时。",
+    "text_b": null,
+    "correct_understanding": null,
+    "wrong_understanding": null,
+    "note": null,
+    "semantic_units": [
+      {
+        "id": 1,
+        "chinese": "归期未有期",
+        "semantic_content": "归期尚不能确定",
+        "must_preserve": "不是'没有期限'，而是'还没有确定的日期'",
+        "pass_conditions": [
+          "译文表达'尚未确定/cannot yet be set'",
+          "不是'no deadline'或'never'"
+        ],
+        "good_examples": [
+          "you ask when I'll return, but the date is still uncertain",
+          "the return date cannot yet be determined",
+          "no date has been set for my return"
+        ],
+        "bad_examples": [
+          "no deadline for return (误解为无期限)",
+          "return is impossible (过度否定)",
+          "already know the date (反义)"
+        ]
+      },
+      {
+        "id": 2,
+        "chinese": "何当共剪西窗烛",
+        "semantic_content": "什么时候能一起剪西窗烛（未来假设）",
+        "must_preserve": "将来时态，期待的假设情境",
+        "pass_conditions": [
+          "译文使用将来时态（when will/when can）",
+          "表达期待/假设的语气"
+        ],
+        "good_examples": [
+          "when can we trim the candle by the western window together",
+          "when will we sit together trimming the wick",
+          "someday we'll trim the candle at the western window"
+        ],
+        "bad_examples": [
+          "we trimmed the candle (过去时，时态错误)",
+          "we are trimming (现在时，时态错误)",
+          "trim the candle now (命令式，错误)"
+        ]
+      },
+      {
+        "id": 3,
+        "chinese": "却话巴山夜雨时",
+        "semantic_content": "那时回忆讲述今夜巴山雨",
+        "must_preserve": "将来回忆现在，时态复杂",
+        "pass_conditions": [
+          "译文体现'将来回忆过去'的时态",
+          "明确是讲述今夜的雨"
+        ],
+        "good_examples": [
+          "and talk about tonight's rain in Ba mountains",
+          "reminiscing about this rainy night",
+          "speak of this very rain we're hearing now"
+        ],
+        "bad_examples": [
+          "talked about rain (时态错误)",
+          "talk about future rain (时间错误)",
+          "discuss weather (过于泛化)"
+        ]
+      },
+      {
+        "id": 4,
+        "chinese": "巴山夜雨涨秋池",
+        "semantic_content": "巴山夜雨使秋池水涨",
+        "must_preserve": "夜雨和涨水的因果关系",
+        "pass_conditions": [
+          "译文表达雨使池水上涨",
+          "保留巴山、夜雨、秋池三个意象"
+        ],
+        "good_examples": [
+          "night rain on Ba mountains swells the autumn pools",
+          "the autumn pond rises with Ba mountain's rain",
+          "Ba mountain rain fills the autumn pool"
+        ],
+        "bad_examples": [
+          "rain in autumn (丢失地点)",
+          "pool overflows (改变意义)",
+          "Ba mountain is wet (简化过度)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "M04",
+    "key": "M04_鹊桥仙",
+    "set": "main",
+    "poem_name": "鹊桥仙·七夕（片段）",
+    "author": "秦观",
+    "trap_type": "情感反差",
+    "text": "两情若是久长时，又岂在朝朝暮暮。",
+    "text_b": null,
+    "correct_understanding": null,
+    "wrong_understanding": null,
+    "note": null,
+    "semantic_units": [
+      {
+        "id": 1,
+        "chinese": "两情若是久长时",
+        "semantic_content": "如果两人情感长久（条件假设）",
+        "must_preserve": "条件假设的语气",
+        "pass_conditions": [
+          "译文使用条件句（if/as long as）",
+          "表达'长久'的意义"
+        ],
+        "good_examples": [
+          "if the two hearts last long",
+          "as long as love endures",
+          "when feelings are lasting"
+        ],
+        "bad_examples": [
+          "two hearts are long (陈述事实)",
+          "they loved for long (过去时)",
+          "because love lasts (因果关系)"
+        ]
+      },
+      {
+        "id": 2,
+        "chinese": "又岂在朝朝暮暮",
+        "semantic_content": "又何必在乎日日相守（反问）",
+        "must_preserve": "反问语气，意为'不必在于'",
+        "pass_conditions": [
+          "译文表达反问或否定意义",
+          "明确不必日日相守"
+        ],
+        "good_examples": [
+          "why need we be together every day",
+          "it need not be day and night together",
+          "does it matter if we're not together daily"
+        ],
+        "bad_examples": [
+          "must be together daily (肯定，反义)",
+          "they meet every day (陈述事实)",
+          "sometimes together (削弱反问)"
+        ]
+      },
+      {
+        "id": 3,
+        "chinese": "朝朝暮暮",
+        "semantic_content": "日日夜夜、时时刻刻相守",
+        "must_preserve": "持续相守的状态",
+        "pass_conditions": [
+          "译文表达频繁或持续",
+          "保留时间的叠加感"
+        ],
+        "good_examples": [
+          "day and night together",
+          "every morning and evening",
+          "being together all the time"
+        ],
+        "bad_examples": [
+          "one meeting (改变频率)",
+          "briefly (反义)",
+          "occasionally (不够频繁)"
+        ]
+      },
+      {
+        "id": 4,
+        "chinese": "若是...又岂在",
+        "semantic_content": "条件与反问的逻辑关系",
+        "must_preserve": "如果长久，就不必日日相守的逻辑",
+        "pass_conditions": [
+          "译文体现条件-结论的逻辑",
+          "前后呼应"
+        ],
+        "good_examples": [
+          "if love lasts, we need not be together daily",
+          "lasting love doesn't require constant togetherness",
+          "as long as hearts endure, daily meetings don't matter"
+        ],
+        "bad_examples": [
+          "love and daily meetings (并列无逻辑)",
+          "long love needs daily meetings (逻辑相反)",
+          "unrelated statements (无关联)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "M05",
+    "key": "M05_声声慢",
+    "set": "main",
+    "poem_name": "声声慢（片段）",
+    "author": "李清照",
+    "trap_type": "情感反差",
+    "text": "寻寻觅觅，冷冷清清，凄凄惨惨戚戚。",
+    "text_b": null,
+    "correct_understanding": null,
+    "wrong_understanding": null,
+    "note": null,
+    "semantic_units": [
+      {
+        "id": 1,
+        "chinese": "寻寻觅觅",
+        "semantic_content": "反复寻找的动作",
+        "must_preserve": "叠词的重复感，持续寻找",
+        "pass_conditions": [
+          "译文表达重复或持续的寻找",
+          "保留叠词的韵律感（可用repetition体现）"
+        ],
+        "good_examples": [
+          "searching and searching",
+          "seeking, seeking",
+          "searching here and there"
+        ],
+        "bad_examples": [
+          "search once (丢失重复)",
+          "found (反义)",
+          "not looking (否定动作)"
+        ]
+      },
+      {
+        "id": 2,
+        "chinese": "冷冷清清",
+        "semantic_content": "环境的冷清凄凉",
+        "must_preserve": "从动作转到环境描写",
+        "pass_conditions": [
+          "译文表达冷清、寂寥的环境",
+          "与前句形成递进"
+        ],
+        "good_examples": [
+          "cold and desolate",
+          "bleak and lonely",
+          "chill and empty"
+        ],
+        "bad_examples": [
+          "warm and cozy (反义)",
+          "crowded (反义)",
+          "just cold (不够全面)"
+        ]
+      },
+      {
+        "id": 3,
+        "chinese": "凄凄惨惨戚戚",
+        "semantic_content": "情绪的极度悲伤",
+        "must_preserve": "情感的递进和加深",
+        "pass_conditions": [
+          "译文表达深重的悲伤",
+          "体现情感的层次递进"
+        ],
+        "good_examples": [
+          "miserable, wretched, sorrowful",
+          "grief upon grief",
+          "overwhelming sadness"
+        ],
+        "bad_examples": [
+          "happy (反义)",
+          "slightly sad (程度不够)",
+          "angry (情感错误)"
+        ]
+      },
+      {
+        "id": 4,
+        "chinese": "三组叠词的层次递进",
+        "semantic_content": "从动作→环境→情绪的递进结构",
+        "must_preserve": "三个层次的递进关系",
+        "pass_conditions": [
+          "译文体现动作、环境、情绪的层次",
+          "不打乱顺序"
+        ],
+        "good_examples": [
+          "searching...cold...sorrowful (保持层次)",
+          "action→environment→emotion structure preserved"
+        ],
+        "bad_examples": [
+          "sad while searching in cold (混为一谈)",
+          "cold, searching, sad (顺序打乱)",
+          "just describing sadness (丢失层次)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "M06",
+    "key": "M06_春晓",
+    "set": "main",
+    "poem_name": "春晓",
+    "author": "孟浩然",
+    "trap_type": "拟人意象",
+    "text": "春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少。",
+    "text_b": null,
+    "correct_understanding": null,
+    "wrong_understanding": null,
+    "note": null,
+    "semantic_units": [
+      {
+        "id": 1,
+        "chinese": "花落知多少",
+        "semantic_content": "不知道花落了多少（主语是'我'）",
+        "must_preserve": "主语是说话人'我'，不是'花'",
+        "pass_conditions": [
+          "译文主语是'I/我'或隐含的观察者",
+          "不是'花知道'"
+        ],
+        "good_examples": [
+          "I wonder how many flowers have fallen",
+          "how many blossoms fell, who knows",
+          "the fallen flowers, how many can there be"
+        ],
+        "bad_examples": [
+          "flowers know how much they fell (主语是花)",
+          "flowers are aware (主语错误)",
+          "the knowing flowers (赋予花认知)"
+        ]
+      },
+      {
+        "id": 2,
+        "chinese": "春眠不觉晓",
+        "semantic_content": "春天睡眠沉，不知道天亮",
+        "must_preserve": "睡过头，没察觉天亮",
+        "pass_conditions": [
+          "译文表达睡眠和未察觉",
+          "春天的时间背景"
+        ],
+        "good_examples": [
+          "in spring I sleep unaware of dawn",
+          "spring slumber, not noticing daybreak",
+          "sleeping through the spring morning"
+        ],
+        "bad_examples": [
+          "stay awake in spring (反义)",
+          "wake up early (反义)",
+          "autumn sleep (季节错误)"
+        ]
+      },
+      {
+        "id": 3,
+        "chinese": "处处闻啼鸟",
+        "semantic_content": "到处听到鸟叫",
+        "must_preserve": "'到处'的范围和'闻'的听觉",
+        "pass_conditions": [
+          "译文表达多处/到处",
+          "是听觉不是视觉"
+        ],
+        "good_examples": [
+          "everywhere I hear birds singing",
+          "birdsong all around",
+          "birds chirping here and there"
+        ],
+        "bad_examples": [
+          "see one bird (视觉，单数)",
+          "silent (反义)",
+          "birds fly (动作错误)"
+        ]
+      },
+      {
+        "id": 4,
+        "chinese": "夜来风雨声",
+        "semantic_content": "昨夜听到风雨声",
+        "must_preserve": "过去时态，听觉",
+        "pass_conditions": [
+          "译文表达过去的时间（夜来=昨夜）",
+          "风雨的声音"
+        ],
+        "good_examples": [
+          "last night's wind and rain",
+          "sounds of storm through the night",
+          "wind and rain came in the night"
+        ],
+        "bad_examples": [
+          "tonight it will rain (将来)",
+          "now it's windy (现在)",
+          "silent night (反义)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "M07",
+    "key": "M07_乌衣巷",
+    "set": "main",
+    "poem_name": "乌衣巷",
+    "author": "刘禹锡",
+    "trap_type": "拟人意象",
+    "text": "朱雀桥边野草花，乌衣巷口夕阳斜。旧时王谢堂前燕，飞入寻常百姓家。",
+    "text_b": null,
+    "correct_understanding": null,
+    "wrong_understanding": null,
+    "note": null,
+    "semantic_units": [
+      {
+        "id": 1,
+        "chinese": "王谢",
+        "semantic_content": "东晋王氏谢氏世家（专名，不可泛化）",
+        "must_preserve": "保留专名，不能泛化为'富贵人家'",
+        "pass_conditions": [
+          "译文保留'Wang'和'Xie'",
+          "或注明是特定家族"
+        ],
+        "good_examples": [
+          "the Wang and Xie aristocratic families",
+          "Wang and Xie mansions",
+          "noble houses of Wang and Xie"
+        ],
+        "bad_examples": [
+          "rich families (泛化，丢失专名)",
+          "wealthy people (过于笼统)",
+          "some nobles (不具体)"
+        ]
+      },
+      {
+        "id": 2,
+        "chinese": "旧时...飞入寻常百姓家",
+        "semantic_content": "昔日豪门→如今平民，盛衰对比",
+        "must_preserve": "时间对比和社会阶层对比",
+        "pass_conditions": [
+          "译文体现'昔日vs如今'的时间对比",
+          "体现'豪门vs百姓'的阶层对比"
+        ],
+        "good_examples": [
+          "swallows from old noble halls now fly to common homes",
+          "once at aristocratic doorsteps, now at ordinary homes",
+          "from grand estates of old to humble dwellings now"
+        ],
+        "bad_examples": [
+          "swallows fly everywhere (丢失对比)",
+          "same families (无变化)",
+          "rich become richer (反向对比)"
+        ]
+      },
+      {
+        "id": 3,
+        "chinese": "堂前燕",
+        "semantic_content": "燕子作为见证者（意象）",
+        "must_preserve": "燕子不是主角，是见证盛衰的意象",
+        "pass_conditions": [
+          "译文保留燕子意象",
+          "不是'同一只燕子活了数百年'"
+        ],
+        "good_examples": [
+          "the swallows that once knew those halls",
+          "swallows (as witnesses to change)",
+          "swallows that frequent these eaves"
+        ],
+        "bad_examples": [
+          "the same swallow lived 400 years (字面误读)",
+          "immortal bird (神话化)",
+          "people like swallows (改变主体)"
+        ]
+      },
+      {
+        "id": 4,
+        "chinese": "野草花...夕阳斜",
+        "semantic_content": "荒凉景象（野草、夕阳）",
+        "must_preserve": "衰败、荒凉的氛围",
+        "pass_conditions": [
+          "译文体现荒凉、衰败",
+          "保留野草和夕阳意象"
+        ],
+        "good_examples": [
+          "wild grass and flowers, slanting sunset",
+          "weeds bloom, the sun sets low",
+          "overgrown and bathed in evening light"
+        ],
+        "bad_examples": [
+          "beautiful garden, bright morning (反义)",
+          "maintained lawn (无荒凉感)",
+          "prosperity (反义)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "M08",
+    "key": "M08_鹿柴",
+    "set": "main",
+    "poem_name": "鹿柴",
+    "author": "王维",
+    "trap_type": "拟人意象",
+    "text": "空山不见人，但闻人语响。返景入深林，复照青苔上。",
+    "text_b": null,
+    "correct_understanding": null,
+    "wrong_understanding": null,
+    "note": null,
+    "semantic_units": [
+      {
+        "id": 1,
+        "chinese": "不见人，但闻人语响",
+        "semantic_content": "看不见人，但听得见说话声",
+        "must_preserve": "视觉与听觉的对比",
+        "pass_conditions": [
+          "译文明确'看不见'和'听得见'的对比",
+          "不是'没有人'"
+        ],
+        "good_examples": [
+          "see no one, yet hear voices",
+          "no people visible, but their voices heard",
+          "unseen but their speech echoes"
+        ],
+        "bad_examples": [
+          "no people at all (完全没人)",
+          "see people talking (看得见)",
+          "silent mountain (听不见)"
+        ]
+      },
+      {
+        "id": 2,
+        "chinese": "返景入深林",
+        "semantic_content": "夕阳返照进入深林（动态）",
+        "must_preserve": "光线移动的动态感",
+        "pass_conditions": [
+          "译文表达光线的移动",
+          "'返景'是夕阳"
+        ],
+        "good_examples": [
+          "returning light enters the deep forest",
+          "reflected sunbeams penetrate the woods",
+          "evening rays reach into the depths"
+        ],
+        "bad_examples": [
+          "dark forest (无光)",
+          "morning light (时间错)",
+          "static scene (无动态)"
+        ]
+      },
+      {
+        "id": 3,
+        "chinese": "复照青苔上",
+        "semantic_content": "又照在青苔上",
+        "must_preserve": "'复'的再次、又一次",
+        "pass_conditions": [
+          "译文表达'又/再次'照射",
+          "青苔的意象"
+        ],
+        "good_examples": [
+          "and further shines upon the moss",
+          "again illuminates the green moss",
+          "lighting up the mossy ground"
+        ],
+        "bad_examples": [
+          "never reaches moss (反义)",
+          "first time lighting (丢失'复')",
+          "dry rock (无青苔)"
+        ]
+      },
+      {
+        "id": 4,
+        "chinese": "空山",
+        "semantic_content": "空旷、幽静的山",
+        "must_preserve": "不是'没有山'，是'空旷的山'",
+        "pass_conditions": [
+          "译文表达空旷或幽静",
+          "不是否定山的存在"
+        ],
+        "good_examples": [
+          "in the empty mountain",
+          "the deserted hills",
+          "the quiet mountain"
+        ],
+        "bad_examples": [
+          "no mountain (否定存在)",
+          "crowded mountain (反义)",
+          "mountain disappeared (消失)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "M09",
+    "key": "M09_枫桥夜泊",
+    "set": "main",
+    "poem_name": "枫桥夜泊（片段）",
+    "author": "张继",
+    "trap_type": "拟人意象",
+    "text": "月落乌啼霜满天，江枫渔火对愁眠。",
+    "text_b": null,
+    "correct_understanding": null,
+    "wrong_understanding": null,
+    "note": null,
+    "semantic_units": [
+      {
+        "id": 1,
+        "chinese": "月落乌啼霜满天",
+        "semantic_content": "三个意象并列（不是因果）",
+        "must_preserve": "月落、乌啼、霜满天是并列的画面",
+        "pass_conditions": [
+          "译文保留三个意象",
+          "不建立因果关系"
+        ],
+        "good_examples": [
+          "moon sets, crows cry, frost fills the sky",
+          "moonfall, crow calls, and frost everywhere",
+          "the moon descends, ravens call, frost covers all"
+        ],
+        "bad_examples": [
+          "moon sets so crows cry (因果)",
+          "frost makes crows cry (因果)",
+          "only moon (丢失其他意象)"
+        ]
+      },
+      {
+        "id": 2,
+        "chinese": "对愁眠",
+        "semantic_content": "面对愁绪而眠",
+        "must_preserve": "'对'是面对，'愁'修饰'眠'",
+        "pass_conditions": [
+          "译文体现'面对'的关系",
+          "愁绪伴随睡眠"
+        ],
+        "good_examples": [
+          "facing sorrow, I sleep",
+          "lie sleepless with worry",
+          "sleep troubled by grief"
+        ],
+        "bad_examples": [
+          "sleep peacefully (反义)",
+          "forget sorrow (无愁)",
+          "wake up worried (动作错)"
+        ]
+      },
+      {
+        "id": 3,
+        "chinese": "江枫渔火",
+        "semantic_content": "江边枫树和渔火（两个意象）",
+        "must_preserve": "江枫和渔火两个并列意象",
+        "pass_conditions": [
+          "译文保留枫树和渔火",
+          "两者并列"
+        ],
+        "good_examples": [
+          "river maples and fishing lights",
+          "riverside maples, fishermen's fires",
+          "maple trees by the river, lanterns of fishing boats"
+        ],
+        "bad_examples": [
+          "trees on fire (误解)",
+          "only trees (丢失渔火)",
+          "only lights (丢失枫树)"
+        ]
+      },
+      {
+        "id": 4,
+        "chinese": "整体凄清氛围",
+        "semantic_content": "夜泊的孤寂凄凉",
+        "must_preserve": "凄清、孤寂的整体氛围",
+        "pass_conditions": [
+          "译文传达孤寂感",
+          "不是欢快的氛围"
+        ],
+        "good_examples": [
+          "desolate night scene",
+          "lonely and melancholic atmosphere",
+          "bleakness of night mooring"
+        ],
+        "bad_examples": [
+          "joyful celebration (反义)",
+          "warm and cozy (反义)",
+          "bustling harbor (无孤寂)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "M10",
+    "key": "M10_赋得古原草送别",
+    "set": "main",
+    "poem_name": "赋得古原草送别（片段）",
+    "author": "白居易",
+    "trap_type": "拟人意象",
+    "text": "野火烧不尽，春风吹又生。",
+    "text_b": null,
+    "correct_understanding": null,
+    "wrong_understanding": null,
+    "note": null,
+    "semantic_units": [
+      {
+        "id": 1,
+        "chinese": "烧不尽",
+        "semantic_content": "烧不完（否定+拟人）",
+        "must_preserve": "否定意义，火烧不完草",
+        "pass_conditions": [
+          "译文有否定（not/cannot/never）",
+          "表达烧不完的意思"
+        ],
+        "good_examples": [
+          "wildfire cannot burn them all",
+          "the flames fail to destroy them completely",
+          "fire burns but cannot finish them"
+        ],
+        "bad_examples": [
+          "fire burns everything (肯定，反义)",
+          "all grass burned (完全烧尽)",
+          "no grass survives (反义)"
+        ]
+      },
+      {
+        "id": 2,
+        "chinese": "春风吹又生",
+        "semantic_content": "春风吹拂，草又生长",
+        "must_preserve": "再生、重生的意义",
+        "pass_conditions": [
+          "译文表达再次生长",
+          "春风的作用"
+        ],
+        "good_examples": [
+          "spring breeze blows, they grow again",
+          "with spring wind they revive",
+          "the spring wind brings them back to life"
+        ],
+        "bad_examples": [
+          "grass dies (反义)",
+          "autumn wind (季节错)",
+          "never grow back (反义)"
+        ]
+      },
+      {
+        "id": 3,
+        "chinese": "野火...野草",
+        "semantic_content": "火烧草的拟人关系",
+        "must_preserve": "火作为施动者，草作为受动者",
+        "pass_conditions": [
+          "译文明确火烧草的关系",
+          "保留拟人效果"
+        ],
+        "good_examples": [
+          "wildfire attacks the grass",
+          "flames assault the vegetation",
+          "fire tries to consume them"
+        ],
+        "bad_examples": [
+          "grass burns fire (关系颠倒)",
+          "fire and grass coexist (无动作)",
+          "abstract struggle (失去具象)"
+        ]
+      },
+      {
+        "id": 4,
+        "chinese": "顽强生命力主题",
+        "semantic_content": "草的不屈生命力",
+        "must_preserve": "生命力旺盛、不屈不挠的主题",
+        "pass_conditions": [
+          "译文传达顽强、坚韧",
+          "烧不尽→又生的循环"
+        ],
+        "good_examples": [
+          "resilient life force",
+          "indomitable vitality",
+          "the grass's tenacity"
+        ],
+        "bad_examples": [
+          "weak and fragile (反义)",
+          "easily destroyed (反义)",
+          "no theme conveyed (无主题)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "M11",
+    "key": "M11_静夜思",
+    "set": "main",
+    "poem_name": "静夜思",
+    "author": "李白",
+    "trap_type": "否定逻辑",
+    "text": "床前明月光，疑是地上霜。举头望明月，低头思故乡。",
+    "text_b": null,
+    "correct_understanding": null,
+    "wrong_understanding": null,
+    "note": null,
+    "semantic_units": [
+      {
+        "id": 1,
+        "chinese": "疑是地上霜",
+        "semantic_content": "怀疑是地上的霜（推测，不确定）",
+        "must_preserve": "推测、不确定的语气",
+        "pass_conditions": [
+          "译文使用推测词（suspect/wonder/seems/might be）",
+          "不是确定陈述"
+        ],
+        "good_examples": [
+          "I suspect it's frost on the ground",
+          "wondering if it's frost below",
+          "it seems like frost on the floor"
+        ],
+        "bad_examples": [
+          "it is frost (确定陈述)",
+          "definitely frost (完全确定)",
+          "I know it's frost (无推测)"
+        ]
+      },
+      {
+        "id": 2,
+        "chinese": "举头望明月，低头思故乡",
+        "semantic_content": "望月→思乡的情感逻辑",
+        "must_preserve": "两个动作的因果或顺承关系",
+        "pass_conditions": [
+          "译文体现动作顺序",
+          "暗示望月引发思乡"
+        ],
+        "good_examples": [
+          "I raise my head to gaze at the moon, then lower it, homesick",
+          "looking up at the moon, looking down missing home",
+          "the moon reminds me, head bowed, of home"
+        ],
+        "bad_examples": [
+          "think of home while looking at sun (改变对象)",
+          "moon and home unrelated (无逻辑)",
+          "only look at moon (丢失思乡)"
+        ]
+      },
+      {
+        "id": 3,
+        "chinese": "床前明月光",
+        "semantic_content": "床前的明亮月光",
+        "must_preserve": "月光的明亮和位置",
+        "pass_conditions": [
+          "译文保留'床前'位置",
+          "月光明亮"
+        ],
+        "good_examples": [
+          "bright moonlight before my bed",
+          "moonbeams at my bedside",
+          "moonlight shining by my bed"
+        ],
+        "bad_examples": [
+          "dim light (不明亮)",
+          "sunlight (不是月光)",
+          "outside the house (位置错)"
+        ]
+      },
+      {
+        "id": 4,
+        "chinese": "整体宁静氛围",
+        "semantic_content": "静夜独处的氛围",
+        "must_preserve": "宁静、独处、思乡的氛围",
+        "pass_conditions": [
+          "译文传达宁静感",
+          "孤独思乡的情绪"
+        ],
+        "good_examples": [
+          "quiet solitude and homesickness",
+          "peaceful night, lonely thoughts",
+          "silent contemplation of home"
+        ],
+        "bad_examples": [
+          "noisy celebration (反义)",
+          "happy gathering (反义)",
+          "busy daytime (反义)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "M12",
+    "key": "M12_登鹳雀楼",
+    "set": "main",
+    "poem_name": "登鹳雀楼",
+    "author": "王之涣",
+    "trap_type": "否定逻辑",
+    "text": "白日依山尽，黄河入海流。欲穷千里目，更上一层楼。",
+    "text_b": null,
+    "correct_understanding": null,
+    "wrong_understanding": null,
+    "note": null,
+    "semantic_units": [
+      {
+        "id": 1,
+        "chinese": "欲穷千里目",
+        "semantic_content": "想要看尽千里（目的、愿望）",
+        "must_preserve": "目的、愿望的语气",
+        "pass_conditions": [
+          "译文使用表目的的词（to/want to/wish to）",
+          "千里的距离"
+        ],
+        "good_examples": [
+          "to see a thousand miles",
+          "wishing to exhaust the view of a thousand li",
+          "wanting to take in the distant vista"
+        ],
+        "bad_examples": [
+          "can see far (已经能看，无目的)",
+          "saw far (过去时)",
+          "don't want to see (反义)"
+        ]
+      },
+      {
+        "id": 2,
+        "chinese": "更上一层楼",
+        "semantic_content": "需要再上一层楼（条件、手段）",
+        "must_preserve": "手段、条件的关系",
+        "pass_conditions": [
+          "译文体现'需要/必须'再上一层",
+          "与前句形成目的-手段关系"
+        ],
+        "good_examples": [
+          "one must climb another floor",
+          "I need to ascend one more story",
+          "requires going up another level"
+        ],
+        "bad_examples": [
+          "already on top floor (无需再上)",
+          "go down (方向相反)",
+          "stay here (无动作)"
+        ]
+      },
+      {
+        "id": 3,
+        "chinese": "欲...更",
+        "semantic_content": "目的-手段的逻辑关系",
+        "must_preserve": "要达到目的，需要采取手段",
+        "pass_conditions": [
+          "译文明确逻辑：想看远→需上楼",
+          "目的和手段的呼应"
+        ],
+        "good_examples": [
+          "to see far, I must climb higher",
+          "wanting to see more requires ascending",
+          "greater height brings greater vision"
+        ],
+        "bad_examples": [
+          "unrelated actions (无逻辑)",
+          "climb for other reason (目的不对)",
+          "see far without climbing (无需手段)"
+        ]
+      },
+      {
+        "id": 4,
+        "chinese": "白日依山尽，黄河入海流",
+        "semantic_content": "壮阔景象的描写",
+        "must_preserve": "日落和黄河入海的壮阔",
+        "pass_conditions": [
+          "译文保留两个画面",
+          "传达壮阔感"
+        ],
+        "good_examples": [
+          "sun sets beyond mountains, Yellow River flows to sea",
+          "white sun sinks behind the peaks, the great river runs to ocean",
+          "day ends at the mountains, the river meets the sea"
+        ],
+        "bad_examples": [
+          "small creek (无壮阔)",
+          "night scene (时间错)",
+          "indoor view (无景观)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "M13",
+    "key": "M13_江雪",
+    "set": "main",
+    "poem_name": "江雪",
+    "author": "柳宗元",
+    "trap_type": "否定逻辑",
+    "text": "千山鸟飞绝，万径人踪灭。孤舟蓑笠翁，独钓寒江雪。",
+    "text_b": null,
+    "correct_understanding": null,
+    "wrong_understanding": null,
+    "note": null,
+    "semantic_units": [
+      {
+        "id": 1,
+        "chinese": "鸟飞绝",
+        "semantic_content": "鸟飞尽、没有鸟飞（绝对否定）",
+        "must_preserve": "绝对否定，一只鸟都没有",
+        "pass_conditions": [
+          "译文表达完全没有鸟（no birds/not a single bird）",
+          "'绝'的极致感"
+        ],
+        "good_examples": [
+          "no birds fly",
+          "all birds have vanished",
+          "not a single bird in flight"
+        ],
+        "bad_examples": [
+          "many birds (反义)",
+          "some birds (部分否定)",
+          "birds flying everywhere (完全相反)"
+        ]
+      },
+      {
+        "id": 2,
+        "chinese": "人踪灭",
+        "semantic_content": "人的踪迹消失（绝对否定）",
+        "must_preserve": "完全没有人迹",
+        "pass_conditions": [
+          "译文表达人迹全无",
+          "'灭'的消失感"
+        ],
+        "good_examples": [
+          "human traces erased",
+          "all paths empty of people",
+          "not a single footprint remains"
+        ],
+        "bad_examples": [
+          "crowded paths (反义)",
+          "many people (反义)",
+          "fresh footprints (有踪迹)"
+        ]
+      },
+      {
+        "id": 3,
+        "chinese": "独钓",
+        "semantic_content": "独自垂钓（孤独强调）",
+        "must_preserve": "孤独、独自一人",
+        "pass_conditions": [
+          "译文强调'独自/alone'",
+          "垂钓的动作"
+        ],
+        "good_examples": [
+          "fishing alone",
+          "angling in solitude",
+          "lone fisherman casting his line"
+        ],
+        "bad_examples": [
+          "fishing with friends (有同伴)",
+          "group fishing (多人)",
+          "not fishing (无动作)"
+        ]
+      },
+      {
+        "id": 4,
+        "chinese": "千山...万径...孤舟...独",
+        "semantic_content": "从宏大空间到孤独个体的对比",
+        "must_preserve": "广阔空间与孤独个体的反差",
+        "pass_conditions": [
+          "译文体现空间的广阔",
+          "体现人的孤独",
+          "形成对比"
+        ],
+        "good_examples": [
+          "vast emptiness, one lone figure",
+          "endless mountains and paths, yet only one man",
+          "the immensity contrasts with solitary presence"
+        ],
+        "bad_examples": [
+          "small space (无广阔)",
+          "many people (无孤独)",
+          "no contrast (无反差)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "M14",
+    "key": "M14_出塞",
+    "set": "main",
+    "poem_name": "出塞二首·其一",
+    "author": "王昌龄",
+    "trap_type": "否定逻辑",
+    "text": "秦时明月汉时关，万里长征人未还。但使龙城飞将在，不教胡马度阴山。",
+    "text_b": null,
+    "correct_understanding": null,
+    "wrong_understanding": null,
+    "note": null,
+    "semantic_units": [
+      {
+        "id": 1,
+        "chinese": "但使...在",
+        "semantic_content": "只要...在（条件假设）",
+        "must_preserve": "条件假设的语气",
+        "pass_conditions": [
+          "译文使用条件句（if/as long as/provided that）",
+          "假设的语气"
+        ],
+        "good_examples": [
+          "if only the flying general were here",
+          "as long as the dragon city general is present",
+          "provided that such a commander exists"
+        ],
+        "bad_examples": [
+          "the general is here (事实陈述)",
+          "because the general was there (因果)",
+          "without the general (否定条件)"
+        ]
+      },
+      {
+        "id": 2,
+        "chinese": "不教...度",
+        "semantic_content": "不让...越过（否定+使动）",
+        "must_preserve": "禁止、不让的主动否定",
+        "pass_conditions": [
+          "译文表达'不让/prevent/not allow'",
+          "主动的阻止动作"
+        ],
+        "good_examples": [
+          "would not let the Hu horses cross",
+          "would prevent the enemy from crossing",
+          "the barbarian cavalry could not pass"
+        ],
+        "bad_examples": [
+          "let them cross (允许，反义)",
+          "they crossed easily (无阻止)",
+          "welcome them (反义)"
+        ]
+      },
+      {
+        "id": 3,
+        "chinese": "但使...不教",
+        "semantic_content": "条件-结果的逻辑关系",
+        "must_preserve": "如果将军在，就不让敌人越山",
+        "pass_conditions": [
+          "译文明确条件-结果逻辑",
+          "前后呼应"
+        ],
+        "good_examples": [
+          "if the general were here, enemies couldn't cross",
+          "such a commander would keep invaders at bay",
+          "his presence would stop them from advancing"
+        ],
+        "bad_examples": [
+          "general and enemies unrelated (无逻辑)",
+          "enemies cross despite general (逻辑相反)",
+          "no logical connection (无关联)"
+        ]
+      },
+      {
+        "id": 4,
+        "chinese": "龙城飞将",
+        "semantic_content": "边关名将（历史典故）",
+        "must_preserve": "名将的身份和威慑力",
+        "pass_conditions": [
+          "译文体现名将、边关将领",
+          "威猛善战的形象"
+        ],
+        "good_examples": [
+          "the flying general of Dragon City",
+          "the famed frontier commander",
+          "legendary warrior of the border"
+        ],
+        "bad_examples": [
+          "ordinary soldier (无名)",
+          "civilian (非军人)",
+          "enemy general (阵营错)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "M15",
+    "key": "M15_凉州词",
+    "set": "main",
+    "poem_name": "凉州词二首·其一",
+    "author": "王之涣",
+    "trap_type": "否定逻辑",
+    "text": "黄河远上白云间，一片孤城万仞山。羌笛何须怨杨柳，春风不度玉门关。",
+    "text_b": null,
+    "correct_understanding": null,
+    "wrong_understanding": null,
+    "note": null,
+    "semantic_units": [
+      {
+        "id": 1,
+        "chinese": "何须怨",
+        "semantic_content": "何必抱怨（反问，意为不必）",
+        "must_preserve": "反问语气，意为'不必抱怨'",
+        "pass_conditions": [
+          "译文表达反问或否定意义",
+          "意为'不必/no need to'"
+        ],
+        "good_examples": [
+          "why must the flute complain",
+          "no need for the pipe to lament",
+          "why should it grieve"
+        ],
+        "bad_examples": [
+          "must complain (肯定，反义)",
+          "should definitely lament (强制)",
+          "complaining loudly (正在抱怨)"
+        ]
+      },
+      {
+        "id": 2,
+        "chinese": "春风不度玉门关",
+        "semantic_content": "春风吹不到玉门关（否定+地理限制）",
+        "must_preserve": "春风无法到达，地理阻隔",
+        "pass_conditions": [
+          "译文有否定（not/doesn't/cannot）",
+          "明确是到不了"
+        ],
+        "good_examples": [
+          "spring wind doesn't reach Jade Gate Pass",
+          "spring breezes cannot cross the pass",
+          "no spring wind beyond the gate"
+        ],
+        "bad_examples": [
+          "spring wind always reaches (反义)",
+          "spring everywhere (无限制)",
+          "warm all year (无季节)"
+        ]
+      },
+      {
+        "id": 3,
+        "chinese": "何须怨...春风不度",
+        "semantic_content": "因果逻辑：春风不到所以怨也无用",
+        "must_preserve": "因果关系：既然到不了，怨也没用",
+        "pass_conditions": [
+          "译文体现因果逻辑",
+          "前后呼应"
+        ],
+        "good_examples": [
+          "why lament, since spring never comes here",
+          "no use grieving where spring cannot reach",
+          "complaint is futile when spring doesn't arrive"
+        ],
+        "bad_examples": [
+          "unrelated statements (无逻辑)",
+          "spring comes despite complaints (逻辑反)",
+          "no connection (无因果)"
+        ]
+      },
+      {
+        "id": 4,
+        "chinese": "羌笛...杨柳",
+        "semantic_content": "羌笛吹奏《折杨柳》曲",
+        "must_preserve": "乐曲名称和离别主题",
+        "pass_conditions": [
+          "译文保留羌笛",
+          "暗示或明示《折杨柳》的离别含义"
+        ],
+        "good_examples": [
+          "the Qiang flute plays 'Willow-Breaking Song'",
+          "the pipe's tune of parting willows",
+          "nomadic flute lamenting separation"
+        ],
+        "bad_examples": [
+          "random music (无特定曲目)",
+          "joyful tune (情感反)",
+          "modern instrument (时代错)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "M16",
+    "key": "M16_商山早行",
+    "set": "main",
+    "poem_name": "商山早行",
+    "author": "温庭筠",
+    "trap_type": "时态叙事",
+    "text": "晨起动征铎，客行悲故乡。鸡声茅店月，人迹板桥霜。槲叶落山路，枳花明驿墙。因思杜陵梦，凫雁满回塘。",
+    "text_b": null,
+    "correct_understanding": null,
+    "wrong_understanding": null,
+    "note": null,
+    "semantic_units": [
+      {
+        "id": 1,
+        "chinese": "鸡声茅店月",
+        "semantic_content": "鸡鸣时茅店上还有月亮（极度省略）",
+        "must_preserve": "鸡声、茅店、月亮三个意象，时间关系",
+        "pass_conditions": [
+          "译文还原省略：鸡鸣时/茅店上/还有月",
+          "三个意象都保留"
+        ],
+        "good_examples": [
+          "cock crows while the moon still hangs over the inn",
+          "rooster calls as the moon lingers above the thatched inn",
+          "at cockcrow, the moon over the wayside inn"
+        ],
+        "bad_examples": [
+          "only moon (丢失其他意象)",
+          "noon at the inn (时间错)",
+          "no moon mentioned (丢失关键)"
+        ]
+      },
+      {
+        "id": 2,
+        "chinese": "人迹板桥霜",
+        "semantic_content": "人的足迹在板桥的霜上（省略）",
+        "must_preserve": "人迹、板桥、霜三个意象",
+        "pass_conditions": [
+          "译文还原：人的足迹/在板桥上/霜",
+          "三个意象保留"
+        ],
+        "good_examples": [
+          "footprints on the frosty plank bridge",
+          "human traces mark the frost-covered bridge",
+          "travelers' steps on the icy boardwalk"
+        ],
+        "bad_examples": [
+          "empty bridge (无人迹)",
+          "summer bridge (无霜)",
+          "modern highway (意象错)"
+        ]
+      },
+      {
+        "id": 3,
+        "chinese": "因思杜陵梦",
+        "semantic_content": "因此想起在杜陵做的梦（回忆）",
+        "must_preserve": "回忆、梦境，杜陵",
+        "pass_conditions": [
+          "译文表达回忆或想起",
+          "是梦境不是现实"
+        ],
+        "good_examples": [
+          "this reminds me of dreams in Duling",
+          "I recall the dream I had in Duling",
+          "thinking of my Duling vision"
+        ],
+        "bad_examples": [
+          "currently in Duling (现在)",
+          "real events (非梦)",
+          "forgot Duling (未想起)"
+        ]
+      },
+      {
+        "id": 4,
+        "chinese": "凫雁满回塘",
+        "semantic_content": "凫雁满布曲折池塘（梦中景象）",
+        "must_preserve": "回塘是曲折的池塘，不是'想回的塘'",
+        "pass_conditions": [
+          "译文表达曲折/环绕的池塘",
+          "凫雁满布的画面"
+        ],
+        "good_examples": [
+          "wild ducks and geese fill the winding pond",
+          "waterfowl crowd the meandering pool",
+          "ducks and geese throng the curving waters"
+        ],
+        "bad_examples": [
+          "the pond I want to return to (误解'回')",
+          "empty pond (无凫雁)",
+          "straight canal (无曲折)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "M17",
+    "key": "M17_锦瑟",
+    "set": "main",
+    "poem_name": "锦瑟（片段）",
+    "author": "李商隐",
+    "trap_type": "时态叙事",
+    "text": "此情可待成追忆，只是当时已惘然。",
+    "text_b": null,
+    "correct_understanding": null,
+    "wrong_understanding": null,
+    "note": null,
+    "semantic_units": [
+      {
+        "id": 1,
+        "chinese": "可待成追忆",
+        "semantic_content": "难道要等到成为回忆（反问+将来）",
+        "must_preserve": "反问语气，将来时态",
+        "pass_conditions": [
+          "译文使用反问（must.../can.../could...）",
+          "表达将来成为回忆"
+        ],
+        "good_examples": [
+          "must this feeling wait to become a memory",
+          "could this love only be recalled later",
+          "can such emotion exist only in retrospect"
+        ],
+        "bad_examples": [
+          "this is already a memory (现在完成)",
+          "I remember (陈述)",
+          "will never remember (否定)"
+        ]
+      },
+      {
+        "id": 2,
+        "chinese": "当时已惘然",
+        "semantic_content": "当时就已经惘然（过去完成）",
+        "must_preserve": "过去时态，'已'的完成",
+        "pass_conditions": [
+          "译文使用过去时",
+          "表达'已经'的完成感"
+        ],
+        "good_examples": [
+          "even then I was already lost",
+          "at that time I had already felt bewildered",
+          "I was confused even in the moment"
+        ],
+        "bad_examples": [
+          "will be confused (将来)",
+          "now confused (现在)",
+          "never confused (否定)"
+        ]
+      },
+      {
+        "id": 3,
+        "chinese": "此情",
+        "semantic_content": "这份情感的指代",
+        "must_preserve": "特指的情感",
+        "pass_conditions": [
+          "译文指代明确",
+          "情感类词汇"
+        ],
+        "good_examples": [
+          "this feeling",
+          "such emotion",
+          "these sentiments"
+        ],
+        "bad_examples": [
+          "any emotion (泛指)",
+          "no feeling (否定)",
+          "that thing (非情感)"
+        ]
+      },
+      {
+        "id": 4,
+        "chinese": "时态复杂性",
+        "semantic_content": "将来回忆vs当时已惘然的时态交织",
+        "must_preserve": "现在、将来、过去三个时态的交织",
+        "pass_conditions": [
+          "译文体现复杂时态",
+          "将来和过去的对比"
+        ],
+        "good_examples": [
+          "future memory contrasts with past bewilderment",
+          "will-be memory vs was-already confusion",
+          "temporal complexity preserved"
+        ],
+        "bad_examples": [
+          "single time frame (无复杂)",
+          "all past tense (时态单一)",
+          "no time markers (无时态)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "M18",
+    "key": "M18_浣溪沙",
+    "set": "main",
+    "poem_name": "浣溪沙（片段）",
+    "author": "晏殊",
+    "trap_type": "时态叙事",
+    "text": "无可奈何花落去，似曾相识燕归来。",
+    "text_b": null,
+    "correct_understanding": null,
+    "wrong_understanding": null,
+    "note": null,
+    "semantic_units": [
+      {
+        "id": 1,
+        "chinese": "无可奈何花落去",
+        "semantic_content": "无力挽留地看着花落",
+        "must_preserve": "无奈、无力的情感",
+        "pass_conditions": [
+          "译文表达无奈/helpless",
+          "花落的动作"
+        ],
+        "good_examples": [
+          "helplessly I watch the flowers fall",
+          "nothing can be done as blossoms drop",
+          "powerless against the falling petals"
+        ],
+        "bad_examples": [
+          "happily watch flowers (情感反)",
+          "can prevent falling (有能力)",
+          "flowers never fall (事实反)"
+        ]
+      },
+      {
+        "id": 2,
+        "chinese": "似曾相识燕归来",
+        "semantic_content": "归来的燕子仿佛曾经见过",
+        "must_preserve": "'似曾相识'的模糊感",
+        "pass_conditions": [
+          "译文表达似曾相识/seem familiar",
+          "燕子归来的动作"
+        ],
+        "good_examples": [
+          "swallows return as if I've seen them before",
+          "the returning birds seem familiar",
+          "swallows come back, seemingly the same"
+        ],
+        "bad_examples": [
+          "definitely the same swallows (确定)",
+          "never seen before (反义)",
+          "swallows leave (动作反)"
+        ]
+      },
+      {
+        "id": 3,
+        "chinese": "花落去vs燕归来",
+        "semantic_content": "离去与归来的对比",
+        "must_preserve": "去与来的对比结构",
+        "pass_conditions": [
+          "译文体现对比",
+          "花去、燕来的不同方向"
+        ],
+        "good_examples": [
+          "flowers depart, swallows return",
+          "loss and return, falling and coming",
+          "one leaves, another arrives"
+        ],
+        "bad_examples": [
+          "both leave (无对比)",
+          "both arrive (无对比)",
+          "unrelated (无对比)"
+        ]
+      },
+      {
+        "id": 4,
+        "chinese": "时间流逝的感慨",
+        "semantic_content": "对时光流逝、物是人非的感慨",
+        "must_preserve": "时间、变化的主题",
+        "pass_conditions": [
+          "译文传达时间流逝",
+          "物是人非的感慨"
+        ],
+        "good_examples": [
+          "passage of time, things change",
+          "temporal flow and transformation",
+          "nostalgia for what was"
+        ],
+        "bad_examples": [
+          "nothing changes (无变化)",
+          "time stands still (无流逝)",
+          "no emotion (无感慨)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "M19",
+    "key": "M19_江南逢李龟年",
+    "set": "main",
+    "poem_name": "江南逢李龟年",
+    "author": "杜甫",
+    "trap_type": "时态叙事",
+    "text": "岐王宅里寻常见，崔九堂前几度闻。正是江南好风景，落花时节又逢君。",
+    "text_b": null,
+    "correct_understanding": null,
+    "wrong_understanding": null,
+    "note": null,
+    "semantic_units": [
+      {
+        "id": 1,
+        "chinese": "寻常见...几度闻",
+        "semantic_content": "过去经常见到、多次听到（过去时）",
+        "must_preserve": "过去时态，频繁的回忆",
+        "pass_conditions": [
+          "译文使用过去时",
+          "表达频繁或多次"
+        ],
+        "good_examples": [
+          "often saw you in Prince Qi's mansion, heard you many times at Cui's",
+          "frequently met in the past, often heard your performances",
+          "used to see you regularly"
+        ],
+        "bad_examples": [
+          "see you now (现在时)",
+          "will see you (将来)",
+          "met once (频率错)"
+        ]
+      },
+      {
+        "id": 2,
+        "chinese": "正是...又逢",
+        "semantic_content": "现在的重逢（现在时）",
+        "must_preserve": "现在时态，再次相逢",
+        "pass_conditions": [
+          "译文表达现在",
+          "'又'的再次相逢"
+        ],
+        "good_examples": [
+          "now we meet again in Jiangnan",
+          "here in the south, I encounter you once more",
+          "this very moment, we reunite"
+        ],
+        "bad_examples": [
+          "met in the past (过去)",
+          "will meet (将来)",
+          "first meeting (非再次)"
+        ]
+      },
+      {
+        "id": 3,
+        "chinese": "今昔对比",
+        "semantic_content": "昔日繁华vs今日飘零",
+        "must_preserve": "过去与现在的对比，盛衰变化",
+        "pass_conditions": [
+          "译文体现时间对比",
+          "暗示境遇变化"
+        ],
+        "good_examples": [
+          "past glory contrasts with present circumstances",
+          "then in splendor, now in hardship",
+          "from prosperity to wandering"
+        ],
+        "bad_examples": [
+          "no contrast (无对比)",
+          "same situation (无变化)",
+          "prosperous now (无衰落)"
+        ]
+      },
+      {
+        "id": 4,
+        "chinese": "落花时节",
+        "semantic_content": "落花时节的象征意义",
+        "must_preserve": "既是实景，也象征盛衰",
+        "pass_conditions": [
+          "译文保留落花意象",
+          "可暗示象征意义"
+        ],
+        "good_examples": [
+          "in this season of falling flowers",
+          "when blossoms fade and fall",
+          "at the time of declining blooms"
+        ],
+        "bad_examples": [
+          "spring blossoms peak (反义)",
+          "winter snow (季节错)",
+          "no flowers (丢失意象)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "M20",
+    "key": "M20_卜算子",
+    "set": "main",
+    "poem_name": "卜算子（片段）",
+    "author": "李之仪",
+    "trap_type": "时态叙事",
+    "text": "我住长江头，君住长江尾。日日思君不见君，共饮长江水。",
+    "text_b": null,
+    "correct_understanding": null,
+    "wrong_understanding": null,
+    "note": null,
+    "semantic_units": [
+      {
+        "id": 1,
+        "chinese": "我住...君住",
+        "semantic_content": "空间并列对比（头vs尾）",
+        "must_preserve": "空间的对立和分隔",
+        "pass_conditions": [
+          "译文明确两个位置的对立",
+          "头和尾的对比"
+        ],
+        "good_examples": [
+          "I live at the river's source, you at its mouth",
+          "I dwell upstream, you downstream",
+          "you and I at opposite ends of the river"
+        ],
+        "bad_examples": [
+          "we live together (无分隔)",
+          "same location (无对比)",
+          "not on the river (无空间)"
+        ]
+      },
+      {
+        "id": 2,
+        "chinese": "日日思君不见君",
+        "semantic_content": "每天思念却见不到",
+        "must_preserve": "持续思念与见不到的矛盾",
+        "pass_conditions": [
+          "译文表达持续性（daily/every day）",
+          "思念与不见的矛盾"
+        ],
+        "good_examples": [
+          "daily I miss you yet cannot see you",
+          "thinking of you every day but never meeting",
+          "longing constantly, never together"
+        ],
+        "bad_examples": [
+          "met yesterday (见到了)",
+          "never think of you (无思念)",
+          "thought once (无持续)"
+        ]
+      },
+      {
+        "id": 3,
+        "chinese": "共饮长江水",
+        "semantic_content": "虽不见面但共饮一江水（联系）",
+        "must_preserve": "虽分隔但有联系",
+        "pass_conditions": [
+          "译文体现'共'的共同性",
+          "饮水的联系"
+        ],
+        "good_examples": [
+          "yet we share the waters of the river",
+          "though apart, we drink from the same stream",
+          "the river connects us through its flow"
+        ],
+        "bad_examples": [
+          "drink different water (无共同)",
+          "no connection (无联系)",
+          "don't drink (无动作)"
+        ]
+      },
+      {
+        "id": 4,
+        "chinese": "空间分隔与情感联系的张力",
+        "semantic_content": "物理分离vs情感联系的矛盾",
+        "must_preserve": "分隔中的联系，矛盾中的和谐",
+        "pass_conditions": [
+          "译文体现物理距离",
+          "体现情感或象征联系",
+          "形成张力"
+        ],
+        "good_examples": [
+          "physically apart but emotionally connected",
+          "distance countered by shared element",
+          "separation yet unity through the river"
+        ],
+        "bad_examples": [
+          "no distance (无分隔)",
+          "no connection (无联系)",
+          "simple statement (无张力)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "D01",
+    "key": "D01_一剪梅",
+    "set": "dev",
+    "poem_name": "一剪梅（片段）",
+    "author": "李清照",
+    "trap_type": "情感反差",
+    "text": "此情无计可消除，才下眉头，却上心头。",
+    "text_b": null,
+    "correct_understanding": null,
+    "wrong_understanding": null,
+    "note": null,
+    "semantic_units": [
+      {
+        "id": 1,
+        "chinese": "此情无计可消除",
+        "semantic_content": "愁绪无法排遣",
+        "must_preserve": "'无计'表示没有办法，是能力上的否定",
+        "pass_conditions": [
+          "译文表达无法/没有办法消除这份情绪",
+          "否定方向正确，不能变成'已经消除'或'不想消除'"
+        ],
+        "good_examples": [
+          "there is no way to be rid of this longing",
+          "this sorrow cannot be driven away"
+        ],
+        "bad_examples": [
+          "this feeling is gone (否定反转)",
+          "I do not want to remove it (改变为意愿)"
+        ]
+      },
+      {
+        "id": 2,
+        "chinese": "才下眉头",
+        "semantic_content": "愁刚从眉间离开",
+        "must_preserve": "'才'表示刚刚，眉头是愁容所在",
+        "pass_conditions": [
+          "译文表达刚刚/才离开眉间",
+          "指向眉头/brow"
+        ],
+        "good_examples": [
+          "it has just left my brow",
+          "scarcely gone from my brows"
+        ],
+        "bad_examples": [
+          "it stays on my brow (方向反)",
+          "I frown (丢失离开)"
+        ]
+      },
+      {
+        "id": 3,
+        "chinese": "却上心头",
+        "semantic_content": "愁又涌上心头",
+        "must_preserve": "'却'表示转折，方向是心头",
+        "pass_conditions": [
+          "译文表达转折（yet/but/again）",
+          "落点是心/heart"
+        ],
+        "good_examples": [
+          "only to rise again in my heart",
+          "yet it settles upon my heart"
+        ],
+        "bad_examples": [
+          "it leaves my heart (方向反)",
+          "my heart is happy (情感反)"
+        ]
+      },
+      {
+        "id": 4,
+        "chinese": "才下……却上",
+        "semantic_content": "愁绪在眉与心之间接续转移，无处可逃",
+        "must_preserve": "两个动作紧接，构成躲不开的转移",
+        "pass_conditions": [
+          "译文使两句形成紧接的先后关系",
+          "读者能感到愁没有真正消失"
+        ],
+        "good_examples": [
+          "no sooner gone from my brow than it lodges in my heart"
+        ],
+        "bad_examples": [
+          "two unrelated statements (丢失接续)",
+          "the sorrow is gone from brow and heart (消失)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "D02",
+    "key": "D02_独坐敬亭山",
+    "set": "dev",
+    "poem_name": "独坐敬亭山",
+    "author": "李白",
+    "trap_type": "拟人意象",
+    "text": "众鸟高飞尽，孤云独去闲。相看两不厌，只有敬亭山。",
+    "text_b": null,
+    "correct_understanding": null,
+    "wrong_understanding": null,
+    "note": null,
+    "semantic_units": [
+      {
+        "id": 1,
+        "chinese": "众鸟高飞尽",
+        "semantic_content": "鸟群都飞走了",
+        "must_preserve": "'尽'表示全部飞走，不是仍在飞",
+        "pass_conditions": [
+          "译文表达鸟都飞远/飞没了",
+          "有'全部、消失'之意"
+        ],
+        "good_examples": [
+          "the flock of birds has flown away",
+          "all the birds have vanished into the sky"
+        ],
+        "bad_examples": [
+          "birds fly high (丢失'尽')"
+        ]
+      },
+      {
+        "id": 2,
+        "chinese": "孤云独去闲",
+        "semantic_content": "孤云独自悠闲地飘走",
+        "must_preserve": "孤独与悠闲两个状态",
+        "pass_conditions": [
+          "译文有孤/独自的意思",
+          "有悠闲/从容的状态"
+        ],
+        "good_examples": [
+          "a lone cloud drifts away at leisure",
+          "a solitary cloud wanders off idly"
+        ],
+        "bad_examples": [
+          "clouds are lazy (丢失孤独)",
+          "the cloud is lonely and sad (悠闲变悲伤)"
+        ]
+      },
+      {
+        "id": 3,
+        "chinese": "相看两不厌",
+        "semantic_content": "人与山互相看着，都不厌倦",
+        "must_preserve": "双向关系，山被拟人为看者",
+        "pass_conditions": [
+          "译文体现双方互相（me and the mountain）",
+          "山作为主动的看者被保留"
+        ],
+        "good_examples": [
+          "we gaze at each other and neither tires",
+          "the mountain and I look on, never weary of one another"
+        ],
+        "bad_examples": [
+          "I never tire of looking at the mountain (单向，丢失拟人)"
+        ]
+      },
+      {
+        "id": 4,
+        "chinese": "只有敬亭山",
+        "semantic_content": "只有敬亭山做到这一点",
+        "must_preserve": "限定词'只有'和专名敬亭山",
+        "pass_conditions": [
+          "译文有only/alone等限定",
+          "保留专名Jingting Mountain（或等价音译/注释）"
+        ],
+        "good_examples": [
+          "only Mount Jingting",
+          "none but Jingting Mountain"
+        ],
+        "bad_examples": [
+          "the mountain (丢失专名与限定)",
+          "many mountains (限定反)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "D03",
+    "key": "D03_送元二使安西",
+    "set": "dev",
+    "poem_name": "送元二使安西（后两句）",
+    "author": "王维",
+    "trap_type": "否定逻辑",
+    "text": "劝君更尽一杯酒，西出阳关无故人。",
+    "text_b": null,
+    "correct_understanding": null,
+    "wrong_understanding": null,
+    "note": null,
+    "semantic_units": [
+      {
+        "id": 1,
+        "chinese": "劝君更尽一杯酒",
+        "semantic_content": "我劝你再干一杯酒",
+        "must_preserve": "说话者劝对方，'更'表示再一杯",
+        "pass_conditions": [
+          "施事是说话者，对象是友人",
+          "表达再/更饮一杯"
+        ],
+        "good_examples": [
+          "I urge you to drink one more cup",
+          "do have another cup of wine, my friend"
+        ],
+        "bad_examples": [
+          "I will drink another cup (主语错)",
+          "you urge me to drink (颠倒)"
+        ]
+      },
+      {
+        "id": 2,
+        "chinese": "西出阳关",
+        "semantic_content": "向西出了阳关",
+        "must_preserve": "方向为西，专名阳关",
+        "pass_conditions": [
+          "译文有西/west方向",
+          "保留阳关Yang Pass/Yangguan"
+        ],
+        "good_examples": [
+          "west of Yangguan Pass",
+          "once you pass west through Yangguan"
+        ],
+        "bad_examples": [
+          "leaving the pass (丢失方向与专名)",
+          "east of the pass (方向反)"
+        ]
+      },
+      {
+        "id": 3,
+        "chinese": "无故人",
+        "semantic_content": "没有老朋友",
+        "must_preserve": "否定范围是老友/熟人，不是世上无人",
+        "pass_conditions": [
+          "译文表达no old friends/acquaintances",
+          "范围没有扩大为no one at all"
+        ],
+        "good_examples": [
+          "you will find no old friend",
+          "there will be no familiar face"
+        ],
+        "bad_examples": [
+          "there will be nobody there (范围扩大)",
+          "you have many old friends (否定反转)"
+        ]
+      },
+      {
+        "id": 4,
+        "chinese": "劝酒与无故人之因果",
+        "semantic_content": "因为此去没有故人，所以劝再饮一杯",
+        "must_preserve": "两句之间的理由关系",
+        "pass_conditions": [
+          "译文使读者能看出前句劝酒与后句无故人之间的关联"
+        ],
+        "good_examples": [
+          "drink once more, for beyond the pass no friend awaits"
+        ],
+        "bad_examples": [
+          "two unrelated statements (丢失关联)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "D04",
+    "key": "D04_赠汪伦",
+    "set": "dev",
+    "poem_name": "赠汪伦（后两句）",
+    "author": "李白",
+    "trap_type": "否定逻辑",
+    "text": "桃花潭水深千尺，不及汪伦送我情。",
+    "text_b": null,
+    "correct_understanding": null,
+    "wrong_understanding": null,
+    "note": null,
+    "semantic_units": [
+      {
+        "id": 1,
+        "chinese": "桃花潭水深千尺",
+        "semantic_content": "桃花潭水极深",
+        "must_preserve": "夸张的深度，专名桃花潭",
+        "pass_conditions": [
+          "译文表达潭水很深（千尺或等价夸张）",
+          "保留桃花潭Peach Blossom Pool或等价"
+        ],
+        "good_examples": [
+          "the Peach Blossom Pool is a thousand feet deep"
+        ],
+        "bad_examples": [
+          "the water is cold (丢失深度)",
+          "a lake of peach trees (专名误译)"
+        ]
+      },
+      {
+        "id": 2,
+        "chinese": "不及",
+        "semantic_content": "比不上",
+        "must_preserve": "比较的方向：潭水之深比不上情谊之深",
+        "pass_conditions": [
+          "译文表达潭水的深度不如汪伦的情",
+          "没有变成'更深'或'一样深'"
+        ],
+        "good_examples": [
+          "is not as deep as",
+          "cannot match the depth of"
+        ],
+        "bad_examples": [
+          "deeper than Wang Lun's love (反转)",
+          "as deep as (程度改变)"
+        ]
+      },
+      {
+        "id": 3,
+        "chinese": "汪伦送我",
+        "semantic_content": "汪伦为我送行",
+        "must_preserve": "施事是汪伦，受事是'我'",
+        "pass_conditions": [
+          "译文中汪伦是送行者",
+          "'我'是被送者"
+        ],
+        "good_examples": [
+          "Wang Lun's farewell to me",
+          "Wang Lun seeing me off"
+        ],
+        "bad_examples": [
+          "I see Wang Lun off (颠倒)"
+        ]
+      },
+      {
+        "id": 4,
+        "chinese": "情",
+        "semantic_content": "以水深比情深的比喻",
+        "must_preserve": "情谊被量化为深度来比较",
+        "pass_conditions": [
+          "译文把情谊与深度对照",
+          "情谊被表达为更深的一方"
+        ],
+        "good_examples": [
+          "the depth of his friendship surpasses it"
+        ],
+        "bad_examples": [
+          "Wang Lun sent me a gift (改变含义)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "D05",
+    "key": "D05_江城子",
+    "set": "dev",
+    "poem_name": "江城子·乙卯正月二十日夜记梦（片段）",
+    "author": "苏轼",
+    "trap_type": "时态叙事",
+    "text": "十年生死两茫茫，不思量，自难忘。千里孤坟，无处话凄凉。",
+    "text_b": null,
+    "correct_understanding": null,
+    "wrong_understanding": null,
+    "note": null,
+    "semantic_units": [
+      {
+        "id": 1,
+        "chinese": "十年生死两茫茫",
+        "semantic_content": "十年来生者与逝者两相隔绝、彼此渺茫",
+        "must_preserve": "十年时间，生死相隔，双方茫茫",
+        "pass_conditions": [
+          "译文有十年",
+          "表达生与死的隔绝、渺茫"
+        ],
+        "good_examples": [
+          "ten years, the living and the dead lost to each other",
+          "ten years of separation between life and death, both sides vast and dim"
+        ],
+        "bad_examples": [
+          "ten years of life and death (丢失隔绝)",
+          "he died ten years ago (丢失双方)"
+        ]
+      },
+      {
+        "id": 2,
+        "chinese": "不思量，自难忘",
+        "semantic_content": "即使不刻意去想，也自然难忘",
+        "must_preserve": "'不'与'自'构成让步转折",
+        "pass_conditions": [
+          "译文表达不去想，仍然忘不掉",
+          "转折方向正确，没有变成因为不想所以忘了"
+        ],
+        "good_examples": [
+          "I try not to think, yet cannot forget",
+          "unthought of, still unforgotten"
+        ],
+        "bad_examples": [
+          "I never think of her (丢失难忘)",
+          "I do not think, so I forget (因果反转)"
+        ]
+      },
+      {
+        "id": 3,
+        "chinese": "千里孤坟",
+        "semantic_content": "相隔千里的孤独坟墓",
+        "must_preserve": "千里的距离与孤坟",
+        "pass_conditions": [
+          "译文有孤独/lonely的坟墓",
+          "有千里/遥远的距离"
+        ],
+        "good_examples": [
+          "a lonely grave a thousand miles away"
+        ],
+        "bad_examples": [
+          "a grave (丢失距离与孤独)"
+        ]
+      },
+      {
+        "id": 4,
+        "chinese": "无处话凄凉",
+        "semantic_content": "没有地方、没有人可诉说凄凉",
+        "must_preserve": "否定的是诉说的处所/对象",
+        "pass_conditions": [
+          "译文表达无处/没有人可诉说",
+          "情绪是凄凉/sorrow"
+        ],
+        "good_examples": [
+          "nowhere to tell my desolation",
+          "no one to hear my sorrow"
+        ],
+        "bad_examples": [
+          "I tell my sorrow everywhere (否定反转)",
+          "I am not sad (情绪反)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "D06",
+    "key": "D06_九月九日",
+    "set": "dev",
+    "poem_name": "九月九日忆山东兄弟（后两句）",
+    "author": "王维",
+    "trap_type": "时态叙事",
+    "text": "遥知兄弟登高处，遍插茱萸少一人。",
+    "text_b": null,
+    "correct_understanding": null,
+    "wrong_understanding": null,
+    "note": null,
+    "semantic_units": [
+      {
+        "id": 1,
+        "chinese": "遥知",
+        "semantic_content": "在远处想象得知",
+        "must_preserve": "视角是诗人远距离的推想，不是亲眼所见",
+        "pass_conditions": [
+          "译文表达从远处想到/料想",
+          "不是I see/I watch"
+        ],
+        "good_examples": [
+          "from afar I imagine",
+          "I know from far away"
+        ],
+        "bad_examples": [
+          "I watch my brothers climb (变亲见)"
+        ]
+      },
+      {
+        "id": 2,
+        "chinese": "兄弟登高处",
+        "semantic_content": "兄弟们登高之处",
+        "must_preserve": "登高的是兄弟，不是诗人",
+        "pass_conditions": [
+          "译文主语是兄弟们",
+          "有登高/climb the heights的意思"
+        ],
+        "good_examples": [
+          "my brothers climbing the heights"
+        ],
+        "bad_examples": [
+          "I climb the heights (主语错)"
+        ]
+      },
+      {
+        "id": 3,
+        "chinese": "遍插茱萸",
+        "semantic_content": "每个人头上都插着茱萸",
+        "must_preserve": "'遍'表示都，茱萸是重阳习俗物",
+        "pass_conditions": [
+          "译文表达都戴/插着茱萸",
+          "茱萸被保留（cornel/dogwood sprigs）"
+        ],
+        "good_examples": [
+          "each wearing a sprig of cornel"
+        ],
+        "bad_examples": [
+          "planting flowers everywhere (动作改变)",
+          "wearing flowers (茱萸丢失)"
+        ]
+      },
+      {
+        "id": 4,
+        "chinese": "少一人",
+        "semantic_content": "少了我一个人",
+        "must_preserve": "缺席者是诗人自己",
+        "pass_conditions": [
+          "译文表达少了一个人",
+          "能读出这个人是说话者"
+        ],
+        "good_examples": [
+          "only one is missing — me",
+          "one person short, and that one is I"
+        ],
+        "bad_examples": [
+          "one more person is there (反)",
+          "only one person remains (含义改变)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "A01",
+    "key": "A01_隐性否定",
+    "set": "adversarial",
+    "poem_name": "",
+    "author": "",
+    "trap_type": "implicit_negation",
+    "text": "小心滑入河中",
+    "text_b": null,
+    "correct_understanding": "be careful not to slide into the river",
+    "wrong_understanding": "carefully slide into the river",
+    "note": null,
+    "semantic_units": [
+      {
+        "id": 1,
+        "trap_point": "小心的隐性否定",
+        "must_detect": "识别'小心'暗含'不要'的否定意义",
+        "pass_condition": "译文中有否定词（not/don't/avoid/prevent）",
+        "pass_examples": [
+          "be careful not to slide",
+          "avoid sliding",
+          "don't slide"
+        ],
+        "fail_examples": [
+          "carefully slide (肯定动作)",
+          "slide gently (无否定)"
+        ]
+      },
+      {
+        "id": 2,
+        "trap_point": "警告语气",
+        "must_detect": "保留警告/提醒的语气",
+        "pass_condition": "译文有警告语气（be careful/watch out/beware）",
+        "pass_examples": [
+          "be careful",
+          "watch out",
+          "take care"
+        ],
+        "fail_examples": [
+          "you can slide (允许)",
+          "go ahead (鼓励)"
+        ]
+      },
+      {
+        "id": 3,
+        "trap_point": "动作完整性",
+        "must_detect": "保留'滑入河中'的完整动作",
+        "pass_condition": "译文包含slide/fall + into river",
+        "pass_examples": [
+          "slide into river",
+          "fall into the water"
+        ],
+        "fail_examples": [
+          "swim (改变动作)",
+          "stay away from river (改变意义)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "A02",
+    "key": "A02_拟人混淆",
+    "set": "adversarial",
+    "poem_name": "",
+    "author": "",
+    "trap_type": "subject_confusion",
+    "text": "春眠不觉晓，处处闻啼鸟。夜来风雨声，花知落多少。",
+    "text_b": null,
+    "correct_understanding": "flowers know how much they have fallen (主语是花)",
+    "wrong_understanding": "I wonder how many flowers fell (主语是我)",
+    "note": null,
+    "semantic_units": [
+      {
+        "id": 1,
+        "trap_point": "主语识别",
+        "must_detect": "识别主语从'我'变成了'花'",
+        "pass_condition": "译文主语是flowers/blossoms",
+        "pass_examples": [
+          "flowers know",
+          "blossoms are aware"
+        ],
+        "fail_examples": [
+          "I wonder (主语错)",
+          "someone knows (泛化主语)"
+        ]
+      },
+      {
+        "id": 2,
+        "trap_point": "认知动作",
+        "must_detect": "花具有认知能力（知道）",
+        "pass_condition": "译文表达花的认知（know/aware/realize）",
+        "pass_examples": [
+          "flowers know",
+          "petals realize"
+        ],
+        "fail_examples": [
+          "flowers fall (无认知)",
+          "flowers are fallen (被动)"
+        ]
+      },
+      {
+        "id": 3,
+        "trap_point": "与原诗对比",
+        "must_detect": "识别这是改写，与原诗不同",
+        "pass_condition": "译文与原诗《春晓》明显不同",
+        "pass_examples": [
+          "clearly different subject from original"
+        ],
+        "fail_examples": [
+          "same as original translation (未识别改写)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "A03",
+    "key": "A03_情感反转",
+    "set": "adversarial",
+    "poem_name": "",
+    "author": "",
+    "trap_type": "emotional_suppression",
+    "text": "欲语还休，却道天凉好个秋。",
+    "text_b": null,
+    "correct_understanding": "want to speak but hold back, only saying 'cool autumn'",
+    "wrong_understanding": "praising the beautiful autumn",
+    "note": null,
+    "semantic_units": [
+      {
+        "id": 1,
+        "trap_point": "欲语还休的情感压抑",
+        "must_detect": "想说又止的情感反转",
+        "pass_condition": "译文体现'想说-但止住'的矛盾",
+        "pass_examples": [
+          "want to speak but stop",
+          "hold back my words"
+        ],
+        "fail_examples": [
+          "speak freely (无压抑)",
+          "never wanted to speak (无欲语)"
+        ]
+      },
+      {
+        "id": 2,
+        "trap_point": "却道的表面话语",
+        "must_detect": "'却道'引出的只是表面话",
+        "pass_condition": "译文区分真实情感和表面话语",
+        "pass_examples": [
+          "only saying (轻描淡写)",
+          "merely comment on weather"
+        ],
+        "fail_examples": [
+          "sincerely praising (当真)",
+          "deeply moved by autumn (无区分)"
+        ]
+      },
+      {
+        "id": 3,
+        "trap_point": "情感与话语的反差",
+        "must_detect": "内心情感与表达的不一致",
+        "pass_condition": "译文体现反差或压抑",
+        "pass_examples": [
+          "emotional suppression",
+          "saying one thing, feeling another"
+        ],
+        "fail_examples": [
+          "consistent emotion (无反差)",
+          "simply praising (表里如一)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "A04",
+    "key": "A04_时态混淆",
+    "set": "adversarial",
+    "poem_name": "",
+    "author": "",
+    "trap_type": "tense_change",
+    "text": "此情已待成追忆，只是当时已惘然。",
+    "text_b": null,
+    "correct_understanding": "this feeling has already waited to become memory (past/present perfect)",
+    "wrong_understanding": "must this feeling wait to become memory (rhetorical, future)",
+    "note": null,
+    "semantic_units": [
+      {
+        "id": 1,
+        "trap_point": "已待的时态",
+        "must_detect": "识别'已待'是完成时，不是反问",
+        "pass_condition": "译文使用过去/现在完成时（has waited/already waited）",
+        "pass_examples": [
+          "has already waited",
+          "had been waiting"
+        ],
+        "fail_examples": [
+          "must wait (反问)",
+          "will wait (将来)"
+        ]
+      },
+      {
+        "id": 2,
+        "trap_point": "陈述vs反问",
+        "must_detect": "识别这是陈述句，不是反问句",
+        "pass_condition": "译文是陈述语气，无反问",
+        "pass_examples": [
+          "statement form",
+          "declarative sentence"
+        ],
+        "fail_examples": [
+          "must it... (反问)",
+          "could it... (疑问)"
+        ]
+      },
+      {
+        "id": 3,
+        "trap_point": "与原诗对比",
+        "must_detect": "识别'可待'变'已待'的时态变化",
+        "pass_condition": "译文时态与原诗《锦瑟》明显不同",
+        "pass_examples": [
+          "different tense from original"
+        ],
+        "fail_examples": [
+          "same as original (未识别改写)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "A05",
+    "key": "A05_双重否定",
+    "set": "adversarial",
+    "poem_name": "",
+    "author": "",
+    "trap_type": "double_negation",
+    "text": "不得不离君而去，不见不思量。",
+    "text_b": null,
+    "correct_understanding": "must leave (double negative) / if not see, won't think (conditional negative)",
+    "wrong_understanding": "not have to not leave (literal)",
+    "note": null,
+    "semantic_units": [
+      {
+        "id": 1,
+        "trap_point": "不得不的双重否定",
+        "must_detect": "识别'不得不'=必须",
+        "pass_condition": "译文为must/have to/compelled to",
+        "pass_examples": [
+          "must leave",
+          "have to depart",
+          "compelled to go"
+        ],
+        "fail_examples": [
+          "not have to not leave (字面)",
+          "can choose (无强制)"
+        ]
+      },
+      {
+        "id": 2,
+        "trap_point": "不见不思量的条件否定",
+        "must_detect": "识别条件关系（不见→不思）",
+        "pass_condition": "译文体现if...then结构",
+        "pass_examples": [
+          "if not see, won't think",
+          "not meeting means not missing"
+        ],
+        "fail_examples": [
+          "never think (绝对否定)",
+          "always think (反义)"
+        ]
+      },
+      {
+        "id": 3,
+        "trap_point": "两种否定类型",
+        "must_detect": "区分双重否定和条件否定",
+        "pass_condition": "第一句强制，第二句条件",
+        "pass_examples": [
+          "different negative structures preserved"
+        ],
+        "fail_examples": [
+          "both translated same way (未区分)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "A06",
+    "key": "A06_拟人颠倒",
+    "set": "adversarial",
+    "poem_name": "",
+    "author": "",
+    "trap_type": "personification_reversal",
+    "text": "多情却似总无情，唯觉尊前笑不成。人有心还惜别，替烛垂泪到天明。",
+    "text_b": null,
+    "correct_understanding": "person weeps for the candle (颠倒了)",
+    "wrong_understanding": "candle weeps for people (原诗)",
+    "note": null,
+    "semantic_units": [
+      {
+        "id": 1,
+        "trap_point": "主客体关系",
+        "must_detect": "识别'人替烛'的颠倒关系",
+        "pass_condition": "译文明确是person weeps for candle",
+        "pass_examples": [
+          "person weeps for candle",
+          "人为烛流泪"
+        ],
+        "fail_examples": [
+          "candle weeps for person (未识别颠倒)",
+          "mutual weeping (模糊)"
+        ]
+      },
+      {
+        "id": 2,
+        "trap_point": "替的方向",
+        "must_detect": "识别'替'的方向改变了",
+        "pass_condition": "译文替代方向正确",
+        "pass_examples": [
+          "on behalf of candle",
+          "for the candle"
+        ],
+        "fail_examples": [
+          "for the people (方向错)",
+          "together (无替代)"
+        ]
+      },
+      {
+        "id": 3,
+        "trap_point": "与原诗对比",
+        "must_detect": "识别与《赠别》原诗的不同",
+        "pass_condition": "译文与原诗方向相反",
+        "pass_examples": [
+          "reversed from original poem"
+        ],
+        "fail_examples": [
+          "same as original (未识别改写)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "A07",
+    "key": "A07_AB对比",
+    "set": "adversarial",
+    "poem_name": "",
+    "author": "",
+    "trap_type": "ambiguity_test",
+    "text": "小心滑入河中",
+    "text_b": "小心别滑入河中",
+    "correct_understanding": "both should be translated with negation",
+    "wrong_understanding": null,
+    "note": null,
+    "semantic_units": [
+      {
+        "id": 1,
+        "trap_point": "版本A的歧义推断",
+        "must_detect": "能否从歧义版推断出正确否定",
+        "pass_condition": "版本A也翻译为否定",
+        "pass_examples": [
+          "Version A: be careful not to slide"
+        ],
+        "fail_examples": [
+          "Version A: carefully slide (推断错误)"
+        ]
+      },
+      {
+        "id": 2,
+        "trap_point": "版本B的明确否定",
+        "must_detect": "明确版本应该正确",
+        "pass_condition": "版本B翻译为否定",
+        "pass_examples": [
+          "Version B: be careful not to slide"
+        ],
+        "fail_examples": [
+          "Version B: carefully slide (基本理解错误)"
+        ]
+      },
+      {
+        "id": 3,
+        "trap_point": "AB一致性",
+        "must_detect": "两个版本应该意思相同",
+        "pass_condition": "两个版本译文意思一致",
+        "pass_examples": [
+          "both versions: same meaning"
+        ],
+        "fail_examples": [
+          "different meanings (不一致)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "A08",
+    "key": "A08_专名泛化",
+    "set": "adversarial",
+    "poem_name": "",
+    "author": "",
+    "trap_type": "proper_noun_generalization",
+    "text": "朱雀桥边野草花，乌衣巷口夕阳斜。旧时豪门堂前燕，飞入寻常百姓家。",
+    "text_b": null,
+    "correct_understanding": "wealthy families (泛化，失去具体历史)",
+    "wrong_understanding": "Wang and Xie families (specific historical names)",
+    "note": null,
+    "semantic_units": [
+      {
+        "id": 1,
+        "trap_point": "豪门的泛化",
+        "must_detect": "识别'豪门'是泛化表达",
+        "pass_condition": "译文使用泛化词汇（wealthy/noble/aristocratic families）",
+        "pass_examples": [
+          "wealthy families",
+          "noble households"
+        ],
+        "fail_examples": [
+          "Wang and Xie (错用专名)",
+          "specific families (过于具体)"
+        ]
+      },
+      {
+        "id": 2,
+        "trap_point": "历史特指性丢失",
+        "must_detect": "识别失去了特定历史背景",
+        "pass_condition": "译文无具体姓氏",
+        "pass_examples": [
+          "no specific names mentioned"
+        ],
+        "fail_examples": [
+          "preserves Wang Xie (未识别泛化)"
+        ]
+      },
+      {
+        "id": 3,
+        "trap_point": "与原诗对比",
+        "must_detect": "识别专名被泛化的改变",
+        "pass_condition": "译文与原诗《乌衣巷》处理不同",
+        "pass_examples": [
+          "generalized vs. specific in original"
+        ],
+        "fail_examples": [
+          "same treatment (未识别改写)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "A09",
+    "key": "A09_条件变因果",
+    "set": "adversarial",
+    "poem_name": "",
+    "author": "",
+    "trap_type": "conditional_to_causal",
+    "text": "秦时明月汉时关，万里长征人未还。只因龙城飞将在，胡马不度阴山。",
+    "text_b": null,
+    "correct_understanding": "because the general is there, horses don't cross (causal)",
+    "wrong_understanding": "if the general were there, horses wouldn't cross (conditional)",
+    "note": null,
+    "semantic_units": [
+      {
+        "id": 1,
+        "trap_point": "只因的因果关系",
+        "must_detect": "识别'只因'表示因果而非条件",
+        "pass_condition": "译文使用because/since（因果连词）",
+        "pass_examples": [
+          "because the general is there",
+          "since he guards"
+        ],
+        "fail_examples": [
+          "if the general were there (条件)",
+          "provided that (条件)"
+        ]
+      },
+      {
+        "id": 2,
+        "trap_point": "事实陈述vs假设",
+        "must_detect": "识别这是陈述事实，不是假设",
+        "pass_condition": "译文是事实陈述语气",
+        "pass_examples": [
+          "is there (现在事实)",
+          "guards (陈述)"
+        ],
+        "fail_examples": [
+          "were there (虚拟)",
+          "if he existed (假设)"
+        ]
+      },
+      {
+        "id": 3,
+        "trap_point": "与原诗对比",
+        "must_detect": "识别'但使'变'只因'的逻辑改变",
+        "pass_condition": "译文逻辑关系与原诗《出塞》不同",
+        "pass_examples": [
+          "causal vs. conditional in original"
+        ],
+        "fail_examples": [
+          "same logic (未识别改写)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "A10",
+    "key": "A10_时态变换",
+    "set": "adversarial",
+    "poem_name": "",
+    "author": "",
+    "trap_type": "future_to_past",
+    "text": "君问归期未有期，巴山夜雨涨秋池。曾经共剪西窗烛，回话巴山夜雨时。",
+    "text_b": null,
+    "correct_understanding": "we once trimmed the candle (past)",
+    "wrong_understanding": "when can we trim the candle (future)",
+    "note": null,
+    "semantic_units": [
+      {
+        "id": 1,
+        "trap_point": "曾经的过去时态",
+        "must_detect": "识别'曾经'表示过去",
+        "pass_condition": "译文使用过去时（once/used to/had）",
+        "pass_examples": [
+          "we once trimmed",
+          "used to sit together"
+        ],
+        "fail_examples": [
+          "when can we (将来)",
+          "will we (将来)"
+        ]
+      },
+      {
+        "id": 2,
+        "trap_point": "回忆vs期待",
+        "must_detect": "识别这是回忆往事，不是期待未来",
+        "pass_condition": "译文是回忆语气",
+        "pass_examples": [
+          "reminiscing",
+          "recalling past times"
+        ],
+        "fail_examples": [
+          "hoping for future (期待)",
+          "someday we will (未来)"
+        ]
+      },
+      {
+        "id": 3,
+        "trap_point": "与原诗对比",
+        "must_detect": "识别'何当'变'曾经'的时态变化",
+        "pass_condition": "译文时态与原诗《夜雨寄北》相反",
+        "pass_examples": [
+          "past vs. future in original"
+        ],
+        "fail_examples": [
+          "same tense (未识别改写)"
+        ]
+      }
+    ]
+  }
+]

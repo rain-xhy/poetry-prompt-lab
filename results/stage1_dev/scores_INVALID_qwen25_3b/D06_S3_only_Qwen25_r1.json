@@ -1,0 +1,62 @@
+{
+  "translation_id": "D06_S3_only_Qwen25_r1",
+  "anon_code": "T_b979dffc",
+  "poem_id": "D06",
+  "strategy": "S3_only",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I know my brothers climb the heights",
+        "evidence_found": true,
+        "reasoning": "The translation contains 'I know' which is not '遥知' (I imagine from afar).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I know my brothers climb the heights",
+        "evidence_found": true,
+        "reasoning": "The translation does not include the phrase '兄弟们登高之处' (brothers climb the heights)",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Everyone wearing茱萸 but one less.",
+        "evidence_found": true,
+        "reasoning": "The phrase '每个人头上都插着茱萸' is not preserved and the translation does not mention '茱萸'",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "I know my brothers climb the heights, Everyone wearing茱萸 but one less.",
+        "evidence_found": true,
+        "reasoning": "The translation does not express '少了我一个人' and does not indicate that the person is the speaker.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 2,
+    "overall": 3.15,
+    "valid": true
+  }
+}

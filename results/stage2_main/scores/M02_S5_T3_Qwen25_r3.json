@@ -1,0 +1,67 @@
+{
+  "translation_id": "M02_S5_T3_Qwen25_r3",
+  "anon_code": "T_eca5df19",
+  "poem_id": "M02",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "红豆生长在南方的国境",
+        "evidence_found": true,
+        "reasoning": "The phrase '红豆生长在南方的国境' explicitly preserves '红豆' as the specific image representing longing, fulfilling the requirement to retain '红豆' as a symbol of longing (metaphor).",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "愿你能多多采摘",
+        "evidence_found": true,
+        "reasoning": "The English translation explicitly states '愿你能多多采摘' which directly expresses the wish for the person to gather more, fulfilling the requirement of expressing hope/encouragement and addressing 'you' for the action of picking.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": true,
+        "evidence": "this red bean most can寄托相思之情",
+        "evidence_found": false,
+        "reasoning": "The English translation explicitly states that this red bean most can寄托相思之情, which matches the required meaning of 'this thing most can symbolize/express longing'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "春天到来时它又长出了几枝",
+        "evidence_found": true,
+        "reasoning": "The English translation explicitly states '春天到来时它又长出了几枝' which directly corresponds to the requirement of expressing the time of spring and the natural action of branch growth.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.15,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

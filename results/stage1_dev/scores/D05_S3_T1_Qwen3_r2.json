@@ -1,0 +1,76 @@
+{
+  "translation_id": "D05_S3_T1_Qwen3_r2",
+  "anon_code": "T_1938c017",
+  "poem_id": "D05",
+  "strategy": "S3_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of death and life, two vast distances apart, Not thinking, yet remembering deeply. A thousand miles of grave, no place to vent my sorrow.",
+        "evidence_found": true,
+        "reasoning": "The translation does not correctly express the meaning of '十年生死两茫茫' as it misrepresents the relationship between life and death, and the phrase 'two vast distances apart' does not convey the intended sense of separation between the living and the dead.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Not thinking, yet remembering deeply",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Not thinking, yet remembering deeply' directly matches the required meaning of 'even if not deliberately thinking, still cannot forget', with the correct contrast between not thinking and remembering without a causal relationship.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A thousand miles of grave",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A thousand miles of grave' directly translates to '千里孤坟' with 'thousand miles' indicating the vast distance and 'grave' representing the lonely tomb.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "no place to vent my sorrow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'no place to vent my sorrow' directly translates to '没有地方、没有人可诉说凄凉' as required, capturing both the absence of a place and the emotional state of sorrow.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 1.7,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

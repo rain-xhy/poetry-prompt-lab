@@ -1,0 +1,19 @@
+{
+  "id": "A08_S0_Qwen25_r1",
+  "poem_id": "A08",
+  "trap_type": "proper_noun_generalization",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n朱雀桥边野草花，乌衣巷口夕阳斜。\n旧时豪门堂前燕，飞入寻常百姓家。",
+  "prompt_sha256": "46501150ee00787edd6457ae7e65ee8772e891de290efd9d473cc59c3699d135",
+  "translation": "By the wild flowers by the Zhuque Bridge, \nAn old swallow flies into a house of commoners.\nIn the former mansions where the nobles once lived,\nThe swallow that nested in the halls now nests in a humble abode. \n\nNote: This is a translation aiming to capture the essence of the original poem, which describes the change in the social structure and the passage of time. The poem's imagery and structure have been slightly adjusted to fit the rhyme and rhythm of English language. The original lines contain a metaphorical reference to swallows nesting in different places, symbolizing the rise and fall of dynasties and the changing social landscape.",
+  "metadata": {
+    "input_tokens": 69,
+    "output_tokens": 133,
+    "latency_ms": 13211.427450180054,
+    "timestamp": "2026-10-26T21:41:30.744428",
+    "finish_reason": "stop"
+  }
+}

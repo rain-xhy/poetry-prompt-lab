@@ -1,0 +1,67 @@
+{
+  "translation_id": "M15_S5_T3_Qwen25_r1",
+  "anon_code": "T_8e439864",
+  "poem_id": "M15",
+  "strategy": "S5_T3",
+  "model": "Qwen25",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why should the羌笛blues complain about the willows",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Why should the羌笛blues complain about the will: ' expresses a rhetorical question implying 'no need to' as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Spring breeze does not reach beyond the Jade Gate Pass.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'does not reach beyond' explicitly conveys the negative meaning and geographical limitation required by the original phrase.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why should the羌笛blues complain about the willows? Spring breeze does not reach beyond the Jade Gate Pass.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states that the spring breeze (春风) does not reach the Jade Gate Pass, implying that complaining about willows (杨柳) is futile because the spring breeze (which brings life) is absent, thus preserving the causal logic that the lack of spring breeze makes complaints useless.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Why should the羌笛blues complain about the willows?",
+        "evidence_found": true,
+        "reasoning": "The phrase '羌笛blues complain about the willows' directly addresses the requirement to preserve '羌笛' and implies the '折杨柳' (willow) context with a clear reference to the theme of parting.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 3,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 3.45,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

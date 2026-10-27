@@ -1,0 +1,76 @@
+{
+  "translation_id": "D05_S1_T1_Qwen3_r2",
+  "anon_code": "T_4a7de398",
+  "poem_id": "D05",
+  "strategy": "S1_T1",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Ten years of death and life, two miles apart, neither thinking nor remembering. A thousand miles of lonely grave, where I cannot express my sorrow.",
+        "evidence_found": true,
+        "reasoning": "The translation does not accurately convey the meaning of '十年生死两茫茫' as it misrepresents the concept of 'ten years' as a period of time and incorrectly frames 'death and life' as a physical separation rather than the emotional and temporal separation between the living and the deceased.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "neither thinking nor remembering",
+        "evidence_found": true,
+        "reasoning": "The phrase 'neither thinking nor remembering' implies both not thinking and not remembering, which contradicts the requirement that 'even without deliberate thought, it remains unforgettable'. The original phrase emphasizes that the memory persists despite not actively trying to forget, whereas this translation suggests a complete absence of both thought and memory, which is the opposite of the intended meaning.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A thousand miles of lonely grave",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A thousand miles of lonely grave' directly includes 'lonely' (indicating solitude) and 'grave' (坟墓), while 'thousand miles' represents a vast distance, fulfilling both conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "where I cannot express my sorrow",
+        "evidence_found": true,
+        "reasoning": "The phrase 'where I cannot express my sorrow' directly translates to '无处话凄凉' by conveying the inability to express sorrow due to lack of place or person, matching the required meaning of 'no place/person to speak of sorrow' and the emotional context of sorrow.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 2,
+    "imagery": 1,
+    "emotion": 1,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 1.7,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 5,
+    "fluency": 4,
+    "poetic_quality": 4,
+    "overall": 4.2,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 3,
+    "valid": true
+  }
+}

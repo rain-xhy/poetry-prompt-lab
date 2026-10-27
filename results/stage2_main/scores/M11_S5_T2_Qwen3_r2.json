@@ -1,0 +1,67 @@
+{
+  "translation_id": "M11_S5_T2_Qwen3_r2",
+  "anon_code": "T_dd13c6ef",
+  "poem_id": "M11",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I doubt it is frost upon the ground",
+        "evidence_found": true,
+        "reasoning": "The phrase 'I doubt it is frost upon the ground' uses the verb 'doubt' to express uncertainty, matching the requirement of using a speculative verb without a definite statement.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "I raise my head and gaze at the bright moon, Then lower my gaze, my heart filled with longing for my homeland.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly shows the sequence of actions (raising head to look at moon, lowering gaze) and the emotional consequence (longing for homeland) resulting from the moon observation, fulfilling the required emotional logic.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Moonlight on the floor, I doubt it is frost upon the ground.",
+        "evidence_found": true,
+        "reasoning": "The required meaning '床前的明亮月光' (bright moonlight before the bed) is not accurately captured as the translation refers to 'moonlight on the floor' rather than 'bright moonlight before the bed'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Moonlight on the floor, I doubt it is frost upon the ground. I raise my head and gaze at the bright moon, Then lower my gaze, my heart filled with longing for my homeland.",
+        "evidence_found": true,
+        "reasoning": "The translation focuses on moonlight and frost imagery but does not explicitly convey the 'quiet solitude' or 'lonely homesickness' required by the original phrase.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

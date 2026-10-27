@@ -1,0 +1,67 @@
+{
+  "translation_id": "M05_S2_T1_Qwen25_r3",
+  "anon_code": "T_91df084f",
+  "poem_id": "M05",
+  "strategy": "S2_T1",
+  "model": "Qwen25",
+  "repeat": 3,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Seeking and seeking, in lonely loneliness, sorrowfully sorrowful sorrow.",
+        "evidence_found": true,
+        "reasoning": "The phrase does not express 'repeated or continuous searching' as required; it describes a state of being rather than the action of searching.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Seeking and seeking, in lonely loneliness, sorrowfully sorrowful sorrow.",
+        "evidence_found": true,
+        "reasoning": "The translation does not convey a cold, desolate environment as required; it focuses on the act of seeking and emotional states rather than the environmental coldness and desolation.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking and seeking, in lonely loneliness, sorrowfully sorrowful sorrow.",
+        "evidence_found": true,
+        "reasoning": "The translation uses three consecutive double words to convey deep sorrow with progressive emotional layers, matching the required meaning of 'extreme sadness' and emotional progression.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Seeking and seeking, in lonely loneliness, sorrowfully sorrowful sorrow.",
+        "evidence_found": true,
+        "reasoning": "The translation clearly shows the progression from action ('Seeking and seeking') to environment ('in lonely loneliness') to emotion ('sorrowfully sorrowful sorrow'), maintaining the required order without disruption.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 3,
+    "poetic_quality": 2,
+    "overall": 2.65,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 2,
+    "poetic_reading": 2,
+    "valid": true
+  }
+}

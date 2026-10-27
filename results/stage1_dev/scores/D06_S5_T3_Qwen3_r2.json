@@ -1,0 +1,76 @@
+{
+  "translation_id": "D06_S5_T3_Qwen3_r2",
+  "anon_code": "T_4a108e60",
+  "poem_id": "D06",
+  "strategy": "S5_T3",
+  "model": "Qwen3",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 2,
+    "accuracy": 0.5,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "The poet knows that his brothers are climbing high, and everyone is wearing wreaths of chrysanthemums. But one is missing—just him.",
+        "evidence_found": true,
+        "reasoning": "The translation describes a specific scene where the poet knows his brothers are climbing high and wearing chrysanthemums, but it does not express the meaning of 'in distant imagination' or 'from afar imagining' as required by the original phrase '遥知'. The phrase '遥知' implies a distant, imaginative knowledge rather than a direct observation or specific scene description.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "his brothers are climbing high",
+        "evidence_found": true,
+        "reasoning": "The phrase 'his brothers are climbing high' directly translates to '兄弟们登高' with 'climb the heights' meaning preserved as required.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "everyone is wearing wreaths of chrysanthemums",
+        "evidence_found": true,
+        "reasoning": "The original phrase '遍插茱萸' means 'everyone is wearing wreaths of dogwood sprigs', but the translation uses 'chrysanthemums' instead of 'dogwood sprigs', and the phrase 'everyone is wearing wreaths' does not match the required meaning of 'everyone's head is adorned with dogwood sprigs'.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "But one is missing—just him.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'just him' explicitly indicates that the missing person is the speaker, fulfilling the requirement that the translation expresses '少了我一个人' (one person is missing—me).",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 3,
+    "imagery": 2,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 3,
+    "overall": 2.9,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

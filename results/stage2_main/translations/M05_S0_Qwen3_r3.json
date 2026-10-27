@@ -1,0 +1,19 @@
+{
+  "id": "M05_S0_Qwen3_r3",
+  "poem_id": "M05",
+  "trap_type": "情感反差",
+  "strategy": "S0",
+  "model": "Qwen3",
+  "model_path": "qwen3:1.7b",
+  "repeat": 3,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n寻寻觅觅，冷冷清清，凄凄惨惨戚戚。",
+  "prompt_sha256": "bab7e4ab09eb425de87e1fff5c97021bc493f660e06a292574473966afb21107",
+  "translation": "Whispering here and there, cold and lonely, full of sorrow and grief.",
+  "metadata": {
+    "input_tokens": 44,
+    "output_tokens": 18,
+    "latency_ms": 279.48856353759766,
+    "timestamp": "2026-10-26T19:44:16.517043",
+    "finish_reason": "stop"
+  }
+}

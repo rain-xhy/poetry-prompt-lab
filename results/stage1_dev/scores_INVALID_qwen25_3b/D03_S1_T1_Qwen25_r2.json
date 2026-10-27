@@ -1,0 +1,62 @@
+{
+  "translation_id": "D03_S1_T1_Qwen25_r2",
+  "anon_code": "T_df301e38",
+  "poem_id": "D03",
+  "strategy": "S1_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen2.5:3b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 0,
+    "accuracy": 0.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Sip this cup of wine, dear friend, for westward beyond Yangguan there are no old acquaintances.",
+        "evidence_found": true,
+        "reasoning": "The phrase '我劝你再干一杯酒' (Sip this cup of wine, dear friend) is not present in the translation.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Sip this cup of wine, dear friend, for westward beyond Yangguan there are no old acquaintances.",
+        "evidence_found": true,
+        "reasoning": "The translation does not preserve the exact phrase '西出阳关' and does not include '向西出了阳关' as per the pass conditions.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "no old acquaintances",
+        "evidence_found": true,
+        "reasoning": "The translation uses 'no old acquaintances' which expands the meaning to include all old friends and acquaintances, not just old friends.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Sip this cup of wine, dear friend, for westward beyond Yangguan there are no old acquaintances.",
+        "evidence_found": true,
+        "reasoning": "The translation does not explicitly state the relationship between the 'no old acquaintances' and the 'sipping this cup of wine' as 'because this person is leaving and there are no old acquaintances, so I am urging you to drink another cup of wine'.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 1,
+    "emotion": 3,
+    "fluency": 4,
+    "poetic_quality": 2,
+    "overall": 3.15,
+    "valid": true
+  }
+}

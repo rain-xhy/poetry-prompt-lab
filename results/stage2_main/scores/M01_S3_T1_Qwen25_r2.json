@@ -1,0 +1,67 @@
+{
+  "translation_id": "M01_S3_T1_Qwen25_r2",
+  "anon_code": "T_74e47295",
+  "poem_id": "M01",
+  "strategy": "S3_T1",
+  "model": "Qwen25",
+  "repeat": 2,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Pity is often masked as indifference, Yet, at your banquet, my smile grows thin. Like a candle with a heart to spare, It weeps for me until the dawn.",
+        "evidence_found": true,
+        "reasoning": "The translation captures 'deep love/affection' as 'pity' and 'seeming coldness/indifference' as 'indifference', while maintaining the paradoxical tension between the two concepts through the contrast between 'pity' and 'indifference', and the emotional depth of 'weeping for me until the dawn'.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "my smile grows thin",
+        "evidence_found": true,
+        "reasoning": "The phrase 'my smile grows thin' does not convey 'unable to/cannot laugh' but rather suggests a smile that becomes less strong or thin, which is not the same as being unable to laugh.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Like a candle with a heart to spare, It weeps for me until the dawn.",
+        "evidence_found": true,
+        "reasoning": "The phrase explicitly states the candle has a heart (有心) and weeps (惜别), preserving the personification and emotional depth required.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "It weeps for me until the dawn",
+        "evidence_found": true,
+        "reasoning": "The phrase 'it weeps for me until the dawn' directly preserves the '蜡烛替人流泪' (candle weeping for people) and '一直到天明' (until dawn) elements with the 'for me' indicating the replacement relationship as required.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 4.7,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 4,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

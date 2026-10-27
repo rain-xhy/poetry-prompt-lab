@@ -1,0 +1,67 @@
+{
+  "translation_id": "M10_S5_T1_Qwen3_r1",
+  "anon_code": "T_fe89f0a4",
+  "poem_id": "M10",
+  "strategy": "S5_T1",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 4,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The wild fire cannot extinguish it",
+        "evidence_found": true,
+        "reasoning": "The phrase 'cannot extinguish it' directly translates to '烧不尽' meaning 'cannot be burned completely', fulfilling the requirement of expressing 'burning never ending' with a negative verb form.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The wild fire cannot extinguish it, and the spring wind brings it back again.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly mentions 'spring wind' and 'brings it back again', which corresponds to the required meaning of 'spring wind' causing regrowth.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "The wild fire cannot extinguish it, and the spring wind brings it back again.",
+        "evidence_found": true,
+        "reasoning": "The translation explicitly states that the wild fire cannot extinguish the grass (preserving the 'fire burns grass' relationship) and the spring wind brings it back, maintaining the personification effect.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Wild fire cannot extinguish it, and the spring wind brings it back again.",
+        "evidence_found": true,
+        "reasoning": "The translation conveys the unbreakable resilience of grass through the cycle of fire and spring wind, meeting both conditions of expressing tenacity and the regrowth cycle.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

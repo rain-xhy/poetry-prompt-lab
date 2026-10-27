@@ -1,0 +1,76 @@
+{
+  "translation_id": "D02_S5_T2_Qwen3_r1",
+  "anon_code": "T_f0ca2fb4",
+  "poem_id": "D02",
+  "strategy": "S5_T2",
+  "model": "Qwen3",
+  "repeat": 1,
+  "scorer": "qwen3:4b",
+  "layer1": {
+    "total_units": 4,
+    "valid_units": 4,
+    "passed_units": 3,
+    "accuracy": 0.75,
+    "details": [
+      {
+        "unit_id": 1,
+        "pass": false,
+        "claimed_pass": false,
+        "evidence": "Birds fly away, leaving the sky vast and still.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Birds fly away' does not convey 'all birds have flown away completely' or 'disappearance' as required; it implies a general action without emphasizing total absence or vanishing.",
+        "valid": true
+      },
+      {
+        "unit_id": 2,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "A lone cloud drifts leisurely, untouched by care.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'A lone cloud drifts leisurely' directly translates to '孤云独去闲' with 'lone' matching '孤', 'drifts leisurely' matching '独去悠闲地飘走', and the context shows the calm, carefree state.",
+        "valid": true
+      },
+      {
+        "unit_id": 3,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "We look at each other, never weary—",
+        "evidence_found": true,
+        "reasoning": "The phrase 'We look at each other, never weary' directly reflects the mutual gaze between 'me' and the mountain without fatigue, fulfilling the requirement that the mountain is the active observer.",
+        "valid": true
+      },
+      {
+        "unit_id": 4,
+        "pass": true,
+        "claimed_pass": true,
+        "evidence": "Only the hills of Jingting stay true.",
+        "evidence_found": true,
+        "reasoning": "The phrase 'Only the hills of Jing:ing' in the translation directly corresponds to '只有敬亭山' with 'Jingting' as the proper noun and 'only' as the required限定 word.",
+        "valid": true
+      }
+    ]
+  },
+  "layer2": {
+    "adequacy": 4,
+    "imagery": 4,
+    "emotion": 4,
+    "fluency": 5,
+    "poetic_quality": 4,
+    "overall": 4.15,
+    "valid": true
+  },
+  "layer2_v1": {
+    "adequacy": 5,
+    "imagery": 5,
+    "emotion": 5,
+    "fluency": 5,
+    "poetic_quality": 5,
+    "overall": 5.0,
+    "valid": true
+  },
+  "layer3": {
+    "academic_translation": 5,
+    "poetic_reading": 5,
+    "valid": true
+  }
+}

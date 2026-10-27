@@ -1,0 +1,17 @@
+E:\python\Lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+E:\python\Lib\site-packages\statsmodels\regression\mixed_linear_model.py:2200: ConvergenceWarning: Retrying MixedLM optimization with lbfgs
+  warnings.warn(
+E:\python\Lib\site-packages\statsmodels\regression\mixed_linear_model.py:1634: UserWarning: Random effects covariance is singular
+  warnings.warn(msg)
+                          sum_sq    df        F  PR(>F)
+C(strategy)               0.0546   2.0   6.6364  0.0792
+C(trap_type)              0.8232   9.0  22.2273  0.0135
+C(strategy):C(trap_type)  0.2890  18.0   3.9015  0.1442
+Residual                  0.0123   3.0      NaN     NaN
+interaction mixed model failed (design may be singular): Singular matrix
+dropped easy=['A04', 'A05'] hard=['A06', 'A02']
+strategy  layer1  layer2  layer3  layer4  composite
+      S0   0.540   3.115   3.462   0.540      0.544
+   S5_T1   0.621   2.613   3.015   0.621      0.544
+   S1_T1   0.631   2.487   3.061   0.631      0.542

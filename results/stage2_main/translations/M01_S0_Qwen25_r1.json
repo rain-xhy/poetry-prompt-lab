@@ -1,0 +1,19 @@
+{
+  "id": "M01_S0_Qwen25_r1",
+  "poem_id": "M01",
+  "trap_type": "情感反差",
+  "strategy": "S0",
+  "model": "Qwen25",
+  "model_path": "qwen2.5:3b",
+  "repeat": 1,
+  "prompt": "Translate the following Chinese classical poem to English.\n\nPoem:\n多情却似总无情，唯觉尊前笑不成。\n蜡烛有心还惜别，替人垂泪到天明。",
+  "prompt_sha256": "a6effaed208becb030b6443626a0e60b6c725ebb4578f8667d022e2343c6b3b7",
+  "translation": "This Chinese classical poem can be translated into English as follows:\n\n\"Those who are emotionally attached seem to be indifferent, only to find my smile failing at the wine cup.\nThe wax candle has a heart and is also loath to part, shedding tears for me until dawn.\"\n\nNote that this translation attempts to capture the essence and tone of the original poem, while adapting it to English language conventions. The second line is particularly challenging, as it requires a shift from the imagery of \"wax candles\" to the more universal concept of \"wax candles having a heart,\" which is a common figure of speech in Chinese poetry.",
+  "metadata": {
+    "input_tokens": 71,
+    "output_tokens": 126,
+    "latency_ms": 1807.4064254760742,
+    "timestamp": "2026-10-26T20:42:11.352927",
+    "finish_reason": "stop"
+  }
+}
